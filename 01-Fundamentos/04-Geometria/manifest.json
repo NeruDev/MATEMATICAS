@@ -1,0 +1,26 @@
+{
+  "topic_id": "04-geometria",
+  "title": "Geometría",
+  "human_purpose": "Entender figuras, medidas y propiedades espaciales para preparar trigonometría y geometría analítica",
+  "tags": ["figuras", "area", "volumen", "semejanza"],
+  "skill_nodes": ["geometria:planas", "geometria:medidas"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

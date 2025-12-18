@@ -1,0 +1,26 @@
+{
+  "topic_id": "05-trigonometria",
+  "title": "Trigonometría",
+  "human_purpose": "Entender razones y funciones trigonométricas para resolver triángulos y modelar periodicidad",
+  "tags": ["seno", "coseno", "tangente", "identidades"],
+  "skill_nodes": ["trigonometria:razones-rectangulo", "trigonometria:identidades-basicas"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
