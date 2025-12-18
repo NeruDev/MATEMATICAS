@@ -4,13 +4,13 @@ Soluciones organizadas por problema.
 
 IA:
 Respeta el método asignado.
--->
 
 ---
 content_type: solutions_index
 expected_output:
   default: markdown
 ---
+-->
 
 # Soluciones de Geometría Analítica
 

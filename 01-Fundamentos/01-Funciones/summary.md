@@ -1,8 +1,10 @@
+<!--
 ---
 content_type: cheatsheet
 expected_output: markdown
 audience: exam-review
 ---
+-->
 
 # Resumen rápido — Funciones
 

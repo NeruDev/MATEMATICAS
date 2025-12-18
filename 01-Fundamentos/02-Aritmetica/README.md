@@ -6,7 +6,6 @@ Debe explicar para qué sirve y cómo recorrerlo.
 IA:
 Punto de entrada del tema Aritmética.
 Úsalo antes de generar teoría, métodos o ejercicios.
--->
 
 ---
 content_type: topic_overview
@@ -18,6 +17,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Aritmética
 

@@ -5,7 +5,6 @@ mantiene su integridad estructural.
 
 IA:
 Usa estos tests para validar contenido antes de agregarlo.
--->
 
 ---
 content_type: meta
@@ -13,6 +12,7 @@ expected_output:
   default: markdown
 audience: maintainer
 ---
+-->
 
 # Tests de Verificación del Repositorio
 

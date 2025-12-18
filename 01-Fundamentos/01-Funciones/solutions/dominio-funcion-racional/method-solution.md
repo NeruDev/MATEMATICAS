@@ -6,7 +6,6 @@ Concisa, sin explicaciones largas.
 IA:
 Respeta estrictamente el método indicado.
 No introduzcas métodos alternativos aquí.
--->
 
 ---
 content_type: solution
@@ -14,6 +13,7 @@ solution_type: method
 expected_output:
   default: markdown
 ---
+-->
 
 # Solución por método
 

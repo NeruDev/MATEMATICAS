@@ -4,7 +4,6 @@ Cada archivo documenta un procedimiento concreto.
 
 IA:
 Mantén los pasos claros; no incluyas teoría extensa.
--->
 
 ---
 content_type: methods_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Métodos de Álgebra
 

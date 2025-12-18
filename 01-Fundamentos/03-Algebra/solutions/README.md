@@ -4,13 +4,13 @@ Las soluciones viven aquí, organizadas por problema.
 
 IA:
 Respeta el método asignado del problema correspondiente.
--->
 
 ---
 content_type: solutions_index
 expected_output:
   default: markdown
 ---
+-->
 
 # Soluciones de Álgebra
 

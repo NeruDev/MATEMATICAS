@@ -4,7 +4,6 @@ Solo enunciados, sin soluciones.
 
 IA:
 No mezcles soluciones aquí.
--->
 
 ---
 content_type: problem_index
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Problemas de Trigonometría
 

@@ -7,7 +7,6 @@ IA:
 Este archivo define el CONTEXTO GLOBAL del repositorio.
 Úsalo como referencia primaria antes de generar cualquier contenido.
 Respeta la estructura definida aquí.
--->
 
 ---
 content_type: repository_overview
@@ -19,6 +18,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Repositorio de Matemáticas Universitarias
 

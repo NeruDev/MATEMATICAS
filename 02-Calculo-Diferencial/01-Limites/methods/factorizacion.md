@@ -6,7 +6,6 @@ Un archivo = un método.
 IA:
 Este archivo define un PROCEDIMIENTO CANÓNICO.
 Úsalo como referencia para 'method-solution'.
--->
 
 ---
 content_type: method
@@ -14,6 +13,7 @@ expected_output:
   default: markdown
 method_scope: canonical
 ---
+-->
 
 # Método: Evaluación de Límites por Factorización
 

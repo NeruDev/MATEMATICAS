@@ -4,7 +4,6 @@ Cada archivo en este directorio debe describir un método concreto (paso a paso)
 
 IA:
 Métodos = procedimientos. No incluyas teoría extensa ni soluciones de ejercicios.
--->
 
 ---
 content_type: methods_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Métodos de Aritmética
 

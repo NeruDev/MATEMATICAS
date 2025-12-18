@@ -4,7 +4,6 @@ Solo enunciados de problemas geométricos.
 
 IA:
 No incluyas soluciones aquí.
--->
 
 ---
 content_type: problem_index
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Problemas de Geometría
 

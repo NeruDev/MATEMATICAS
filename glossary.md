@@ -6,7 +6,6 @@ Permite tener un vocabulario común y consistente.
 IA:
 Usa este glosario como referencia para terminología.
 No inventes términos fuera de esta lista sin justificación.
--->
 
 ---
 content_type: glossary
@@ -15,6 +14,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Glosario de Matemáticas
 

@@ -5,7 +5,6 @@ Consulta esto cuando encuentres símbolos desconocidos.
 
 IA:
 Usa esta notación de forma consistente en todo el contenido generado.
--->
 
 ---
 content_type: meta
@@ -13,6 +12,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Cheatsheet de Notación Matemática
 

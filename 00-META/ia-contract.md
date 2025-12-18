@@ -5,7 +5,6 @@ al interactuar con el repositorio.
 
 IA:
 ESTE ES TU CONTRATO. Léelo SIEMPRE antes de generar contenido.
--->
 
 ---
 content_type: meta
@@ -14,6 +13,7 @@ expected_output:
 audience: ai-assistant
 formality: technical
 ---
+-->
 
 # Contrato de IA para Generación de Contenido
 
@@ -41,11 +41,35 @@ formality: technical
    - Usar encabezados jerárquicos correctamente
    - Incluir frontmatter YAML en todos los archivos
 
-6. **Priorizar claridad sobre brevedad.**
+6. **Ocultar metadatos del renderizado humano.**
+   - El frontmatter YAML SIEMPRE debe estar dentro de un comentario HTML.
+   - Formato obligatorio para todo archivo `.md`:
+     ```markdown
+     <!--
+     HUMANO:
+     [Descripción breve para el lector humano]
+
+     IA:
+     [Instrucciones para la IA]
+
+     ---
+     content_type: [tipo]
+     expected_output:
+       default: markdown
+     audience: [audiencia]
+     ---
+     -->
+
+     # Título del documento
+     ```
+   - Nunca colocar `---` fuera del comentario HTML.
+   - El contenido visible para humanos comienza después de `-->`.
+
+7. **Priorizar claridad sobre brevedad.**
    - Mejor explicar de más que de menos
    - Usar ejemplos cuando ayuden a la comprensión
 
-7. **No asumir contexto fuera del tema actual.**
+8. **No asumir contexto fuera del tema actual.**
    - Cada tema es autocontenido
    - Consultar `manifest.json` para saber qué está permitido
 

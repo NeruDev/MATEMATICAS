@@ -4,7 +4,6 @@ Introduce el alcance del tema y cómo recorrerlo.
 
 IA:
 Punto de entrada de Geometría. Consulta antes de generar contenido.
--->
 
 ---
 content_type: topic_overview
@@ -16,6 +15,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Geometría
 

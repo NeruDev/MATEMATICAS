@@ -6,7 +6,6 @@ Sigue el orden sugerido para un aprendizaje óptimo.
 IA:
 Usa esta guía para entender la estructura del repositorio
 y las expectativas de progresión del usuario.
--->
 
 ---
 content_type: meta
@@ -14,6 +13,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Guía de Estudio
 

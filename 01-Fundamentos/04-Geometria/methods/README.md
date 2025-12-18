@@ -4,7 +4,6 @@ Documenta procedimientos geométricos paso a paso.
 
 IA:
 Mantén los pasos claros; evita teoría extensa.
--->
 
 ---
 content_type: methods_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Métodos de Geometría
 

@@ -4,7 +4,6 @@ Explica el alcance del tema y cómo recorrerlo.
 
 IA:
 Punto de entrada de Álgebra. Consulta antes de generar contenido del tema.
--->
 
 ---
 content_type: topic_overview
@@ -16,6 +15,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Álgebra
 

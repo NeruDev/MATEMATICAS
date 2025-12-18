@@ -2,13 +2,13 @@
 Links públicos a GeoGebra.
 IA: Usa estos links como referencia visual,
 no intentes recrearlos sin indicación explícita.
--->
 
 ---
 content_type: media_links
 expected_output:
   default: markdown
 ---
+-->
 
 # Enlaces a GeoGebra - Funciones
 
