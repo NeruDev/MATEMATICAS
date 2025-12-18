@@ -4,13 +4,13 @@ Las soluciones viven aquí, cada problema en su subcarpeta.
 
 IA:
 Sigue el método asignado; no mezcles con problems/.
--->
 
 ---
 content_type: solutions_index
 expected_output:
   default: markdown
 ---
+-->
 
 # Soluciones de Aritmética
 

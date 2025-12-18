@@ -5,35 +5,40 @@ Verifica que los archivos MD tengan frontmatter y que los manifest.json estén c
 """
 import os
 import json
+import re
 import sys
 
 
 def has_frontmatter(path):
-    """Verifica si un archivo MD tiene frontmatter YAML."""
+    """Verifica si un archivo MD tiene frontmatter YAML (dentro o fuera de comentario HTML)."""
     try:
         with open(path, 'r', encoding='utf-8') as f:
             content = f.read()
-            # Remover comentarios HTML al inicio
-            lines = content.split('\n')
-            in_comment = False
-            for i, line in enumerate(lines):
-                stripped = line.strip()
-                # Manejar comentarios HTML
-                if '<!--' in stripped and '-->' in stripped:
-                    continue  # Comentario de una línea
-                if '<!--' in stripped:
-                    in_comment = True
-                    continue
-                if '-->' in stripped:
-                    in_comment = False
-                    continue
-                if in_comment:
-                    continue
-                # Si encontramos contenido no vacío que no es comentario
-                if stripped:
-                    # Debe ser el inicio del frontmatter
-                    return stripped == '---'
-            return False
+        
+        # Caso 1: frontmatter dentro de comentario HTML (formato preferido)
+        # Busca <!--...---\ncontent_type:...\n---...-->
+        pattern_inside = r'<!--[\s\S]*?---\s*\n\s*content_type:\s*\w+[\s\S]*?---[\s\S]*?-->'
+        if re.search(pattern_inside, content[:2000]):
+            return True
+        
+        # Caso 2: frontmatter tradicional fuera de comentario (legacy)
+        lines = content.split('\n')
+        in_comment = False
+        for line in lines:
+            stripped = line.strip()
+            if '<!--' in stripped and '-->' in stripped:
+                continue
+            if '<!--' in stripped:
+                in_comment = True
+                continue
+            if '-->' in stripped:
+                in_comment = False
+                continue
+            if in_comment:
+                continue
+            if stripped:
+                return stripped == '---'
+        return False
     except Exception as e:
         print(f"Error leyendo {path}: {e}")
         return False

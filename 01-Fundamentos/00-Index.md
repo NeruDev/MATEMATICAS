@@ -5,7 +5,6 @@ Lista todos los temas disponibles en este módulo.
 
 IA:
 Usa este índice para navegar entre temas del módulo.
--->
 
 ---
 content_type: index
@@ -13,6 +12,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # 01 - Fundamentos
 

@@ -4,7 +4,6 @@ Describe el alcance del tema y su ruta.
 
 IA:
 Punto de entrada de Trigonometría. Consulta antes de generar contenido.
--->
 
 ---
 content_type: topic_overview
@@ -16,6 +15,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Trigonometría
 

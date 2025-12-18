@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: diagnostic
 expected_output:
@@ -6,6 +7,7 @@ audience: self-study
 questions: 3
 estimated_time: 10
 ---
+-->
 
 # Pre-test rápido — ¿Listo para Funciones?
 

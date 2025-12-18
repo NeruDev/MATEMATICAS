@@ -6,7 +6,6 @@ y/o métodos alternativos comparados.
 
 IA:
 Aquí SÍ puedes explicar, justificar y comparar.
--->
 
 ---
 content_type: solution
@@ -14,6 +13,7 @@ solution_type: detailed
 expected_output:
   default: markdown
 ---
+-->
 
 # Solución detallada
 

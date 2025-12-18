@@ -4,13 +4,13 @@ Lista videos con enlace y breve descripción.
 
 IA:
 No resumas el video; usa la descripción como contexto.
--->
 
 ---
 content_type: media_links
 expected_output:
   default: markdown
 ---
+-->
 
 # Videos - Aritmética
 

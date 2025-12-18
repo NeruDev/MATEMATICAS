@@ -6,7 +6,6 @@ Divide en archivos pequeños y claros.
 IA:
 No mezclar teoría con métodos ni soluciones.
 Usa este README como índice interno de theory/.
--->
 
 ---
 content_type: theory_overview
@@ -14,6 +13,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Teoría de Aritmética
 

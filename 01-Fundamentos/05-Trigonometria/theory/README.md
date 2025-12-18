@@ -4,7 +4,6 @@ Incluye teoría de razones y funciones trigonométricas.
 
 IA:
 No mezcles con métodos ni soluciones.
--->
 
 ---
 content_type: theory_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Teoría de Trigonometría
 

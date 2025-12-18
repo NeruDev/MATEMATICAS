@@ -1,9 +1,11 @@
+<!--
 ---
 content_type: applications_overview
 expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Aplicaciones de Aritmética
 

@@ -4,7 +4,6 @@ Cada archivo describe un procedimiento trigonométrico paso a paso.
 
 IA:
 Sé explícito en unidades y rangos.
--->
 
 ---
 content_type: methods_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Métodos de Trigonometría
 

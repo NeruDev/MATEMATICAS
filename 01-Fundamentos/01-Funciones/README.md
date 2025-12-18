@@ -7,7 +7,6 @@ IA:
 Este archivo define el CONTEXTO GLOBAL del tema.
 Úsalo como referencia primaria antes de generar problemas,
 explicaciones o conversiones de formato.
--->
 
 ---
 content_type: topic_overview
@@ -19,6 +18,7 @@ expected_output:
 audience: self-study
 formality: technical
 ---
+-->
 
 # Funciones
 

@@ -1,7 +1,9 @@
+<!--
 ---
 content_type: media_index
 expected_output: markdown
 ---
+-->
 
 # Imágenes — Geometría
 

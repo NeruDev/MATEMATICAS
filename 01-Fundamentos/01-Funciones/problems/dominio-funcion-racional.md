@@ -6,7 +6,6 @@ No incluyas soluciones.
 IA:
 Este archivo define un OBJETO PROBLEMA.
 Debe mapearse a una carpeta de soluciones.
--->
 
 ---
 content_type: problem
@@ -16,6 +15,7 @@ expected_output:
 estimated_time: 10
 assigned_method: encontrar-dominio
 ---
+-->
 
 # Problema: Dominio de Función Racional
 

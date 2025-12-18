@@ -1,8 +1,10 @@
+<!--
 ---
 content_type: application
 expected_output: markdown
 audience: general
 ---
+-->
 
 # Modelado de costos (ejemplo real)
 

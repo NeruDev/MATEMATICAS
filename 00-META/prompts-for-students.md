@@ -1,8 +1,10 @@
+<!--
 ---
 content_type: meta
 expected_output: markdown
 audience: self-study
 ---
+-->
 
 # Prompts listos para estudiantes (copiar/pegar)
 

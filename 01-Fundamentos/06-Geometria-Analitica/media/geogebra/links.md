@@ -1,7 +1,9 @@
+<!--
 ---
 content_type: media_links
 expected_output: markdown
 ---
+-->
 
 # GeoGebra — Geometría Analítica
 

@@ -4,7 +4,6 @@ Documenta procedimientos de cálculo en el plano cartesiano.
 
 IA:
 Sé explícito con fórmulas y supuestos.
--->
 
 ---
 content_type: methods_overview
@@ -12,6 +11,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Métodos de Geometría Analítica
 

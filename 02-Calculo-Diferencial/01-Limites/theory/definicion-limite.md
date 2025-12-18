@@ -6,7 +6,6 @@ No se resuelven problemas aquí.
 IA:
 Este archivo define CONCEPTOS.
 No generes procedimientos ni ejercicios aquí.
--->
 
 ---
 content_type: theory
@@ -14,6 +13,7 @@ expected_output:
   default: markdown
 audience: self-study
 ---
+-->
 
 # Definición de Límite
 
