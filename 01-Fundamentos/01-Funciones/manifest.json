@@ -1,0 +1,20 @@
+{
+  "topic_id": "01-funciones",
+  "human_purpose": "Comprender el concepto de función, sus propiedades y representaciones para establecer las bases del cálculo",
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media"
+  }
+}
