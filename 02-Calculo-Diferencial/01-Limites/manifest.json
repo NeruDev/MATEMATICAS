@@ -1,0 +1,20 @@
+{
+  "topic_id": "01-limites",
+  "human_purpose": "Comprender el concepto de límite y sus técnicas de evaluación como base fundamental del cálculo diferencial",
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media"
+  }
+}
