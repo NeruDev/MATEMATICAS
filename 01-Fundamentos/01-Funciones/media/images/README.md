@@ -5,6 +5,12 @@ No screenshots innecesarios.
 IA: Si necesitas crear imágenes, guárdalas aquí con nombres descriptivos.
 -->
 
+---
+content_type: media_index
+expected_output: markdown
+audience: maintainer
+---
+
 # Imágenes del tema Funciones
 
 Este directorio contiene recursos visuales para el tema de Funciones.

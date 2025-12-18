@@ -89,11 +89,47 @@ audience: maintainer
 2. Revisar cada checklist
 3. Documentar cualquier fallo
 
-### Automatizado (futuro):
+### Automatizado - Shell (Test rápido)
+
 ```bash
-# Script de validación (por implementar)
-./scripts/validate-structure.sh
+# Test 1 — ¿Todos los temas tienen manifest.json?
+for d in */; do
+  if [ -f "$d/manifest.json" ]; then
+    echo "OK: $d/manifest.json"
+  else
+    echo "MISSING: $d/manifest.json"
+  fi
+done
+
+# Test 2 — ¿Todos los .md empiezan con frontmatter?
+total_md=$(find . -name "*.md" -not -path "./.git/*" | wc -l)
+md_with_fm=$(grep -rl --include="*.md" "^---" . | wc -l)
+echo "Total MD: $total_md, Con frontmatter: $md_with_fm"
+
+# Test 3 — ¿Existen diagnósticos?
+for d in */*/; do
+  if [ -d "$d" ] && [ -f "$d/manifest.json" ]; then
+    if [ -d "${d}diagnostic" ]; then
+      echo "OK: ${d}diagnostic/"
+    else
+      echo "MISSING: ${d}diagnostic/"
+    fi
+  fi
+done
 ```
+
+### Automatizado - Python (Validación completa)
+
+```bash
+# Ejecutar el validador Python
+python3 00-META/tools/validate_repo.py
+
+# Salida 0 = OK, Salida 1 = Errores encontrados
+```
+
+El script `validate_repo.py` verifica:
+- Que todos los archivos `.md` tengan frontmatter YAML
+- Que todos los `manifest.json` contengan `tags` y `ai_contract`
 
 ---
 
