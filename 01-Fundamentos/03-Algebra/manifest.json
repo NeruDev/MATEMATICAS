@@ -1,0 +1,26 @@
+{
+  "topic_id": "03-algebra",
+  "title": "Álgebra",
+  "human_purpose": "Desarrollar manipulación simbólica y resolución de ecuaciones como base para funciones y cálculo",
+  "tags": ["expresiones", "polinomios", "ecuaciones", "desigualdades"],
+  "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

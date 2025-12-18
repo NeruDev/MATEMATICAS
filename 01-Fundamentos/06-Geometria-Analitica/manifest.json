@@ -1,0 +1,26 @@
+{
+  "topic_id": "06-geometria-analitica",
+  "title": "Geometría Analítica",
+  "human_purpose": "Conectar geometría y álgebra en el plano cartesiano para medir y modelar",
+  "tags": ["coordenadas", "rectas", "pendiente", "distancia"],
+  "skill_nodes": ["geometria-analitica:rectas", "geometria-analitica:distancias"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

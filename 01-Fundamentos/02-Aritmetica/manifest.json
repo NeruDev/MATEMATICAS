@@ -1,0 +1,26 @@
+{
+  "topic_id": "02-aritmetica",
+  "title": "Aritmética",
+  "human_purpose": "Dominar operaciones numéricas básicas y razonamiento aritmético para soportar álgebra y cálculo",
+  "tags": ["numeros", "operaciones", "fracciones", "porcentajes"],
+  "skill_nodes": ["aritmetica:operaciones-basicas", "aritmetica:fracciones"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ]
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
