@@ -90,6 +90,18 @@ IA: Sigue estas instrucciones al interactuar con usuarios.
 | [03-Calculo-Integral](./03-Calculo-Integral/00-Index.md) | Integrales y aplicaciones | Pendiente |
 | [04-Calculo-Vectorial](./04-Calculo-Vectorial/00-Index.md) | Cálculo multivariable | Pendiente |
 
+## Skill tree (Mapa de dependencias)
+
+```mermaid
+flowchart LR
+  A[Funciones: Evaluación básica] --> B[Límites]
+  B --> C[Derivada]
+  C --> D[Aplicaciones de la derivada]
+  A --> E[Álgebra: Factorización]
+  E --> B
+  style A fill:#f9f,stroke:#333,stroke-width:1px
+```
+
 ## Referencias rápidas
 
 - [Glosario de términos](./glossary.md)
