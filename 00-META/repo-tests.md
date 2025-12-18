@@ -124,7 +124,7 @@ done
 # Ejecutar el validador Python
 python3 00-META/tools/validate_repo.py
 
-# Salida 0 = OK, Salida 2 = Errores encontrados
+# Salida 0 = OK, Salida 1 = Errores encontrados
 ```
 
 El script `validate_repo.py` verifica:

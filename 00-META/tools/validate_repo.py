@@ -100,7 +100,7 @@ def main():
     print("-" * 50)
     if fm_issues or m_problems:
         print("❌ Validación FALLIDA")
-        sys.exit(2)
+        sys.exit(1)
     else:
         print("✅ Todas las validaciones pasaron")
         sys.exit(0)
