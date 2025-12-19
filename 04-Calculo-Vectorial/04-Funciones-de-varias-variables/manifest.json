@@ -1,0 +1,33 @@
+{
+  "topic_id": "04-funciones-de-varias-variables",
+  "title": "Funciones reales de varias variables",
+  "human_purpose": "Analizar funciones multivariables para estudiar continuidad, derivadas parciales, gradientes y extremos",
+  "tags": ["multivariable", "derivadas-parciales", "gradiente", "continuidad", "extremos"],
+  "skill_nodes": ["calculo:varias-variables", "calculo:gradiente"],
+  "prereqs": ["03-Calculo-Integral/00-Index"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

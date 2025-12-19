@@ -2,8 +2,60 @@
   "topic_id": "03-algebra",
   "title": "Álgebra",
   "human_purpose": "Desarrollar manipulación simbólica y resolución de ecuaciones como base para funciones y cálculo",
-  "tags": ["expresiones", "polinomios", "ecuaciones", "desigualdades"],
-  "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales"],
+  "tags": ["expresiones", "polinomios", "ecuaciones", "factorizacion", "desigualdades", "sistemas"],
+  "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales", "algebra:ecuaciones-cuadraticas", "algebra:sistemas"],
+  "subtopics": [
+    {
+      "id": "3.1",
+      "title": "Expresiones algebraicas",
+      "description": "Lenguaje algebraico, términos semejantes, evaluación de expresiones"
+    },
+    {
+      "id": "3.2",
+      "title": "Operaciones con polinomios",
+      "description": "Suma, resta, multiplicación y división de polinomios"
+    },
+    {
+      "id": "3.3",
+      "title": "Productos notables",
+      "description": "Binomio al cuadrado, diferencia de cuadrados, binomio al cubo"
+    },
+    {
+      "id": "3.4",
+      "title": "Factorización",
+      "description": "Factor común, agrupación, trinomios, diferencia de cuadrados y cubos"
+    },
+    {
+      "id": "3.5",
+      "title": "Fracciones algebraicas",
+      "description": "Simplificación, operaciones con expresiones racionales"
+    },
+    {
+      "id": "3.6",
+      "title": "Ecuaciones lineales",
+      "description": "Ecuaciones de primer grado, ecuaciones literales"
+    },
+    {
+      "id": "3.7",
+      "title": "Ecuaciones cuadráticas",
+      "description": "Factorización, fórmula general, discriminante"
+    },
+    {
+      "id": "3.8",
+      "title": "Sistemas de ecuaciones",
+      "description": "Sustitución, eliminación, determinantes, sistemas 2×2 y 3×3"
+    },
+    {
+      "id": "3.9",
+      "title": "Desigualdades",
+      "description": "Inecuaciones lineales, cuadráticas, con valor absoluto"
+    },
+    {
+      "id": "3.10",
+      "title": "Exponentes y radicales algebraicos",
+      "description": "Simplificación de expresiones con exponentes y radicales"
+    }
+  ],
   "ai_contract": {
     "default_output": "markdown",
     "allowed_tasks": [
@@ -12,7 +64,8 @@
       "convert_format",
       "verify_solution",
       "diagnostic_check"
-    ]
+    ],
+    "solution_guidelines": "Antes de resolver, indica qué concepto o método aplica y por qué es relevante para el problema."
   },
   "directories": {
     "theory": "theory",

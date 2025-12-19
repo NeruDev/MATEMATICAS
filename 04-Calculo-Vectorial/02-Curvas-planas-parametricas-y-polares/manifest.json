@@ -1,0 +1,33 @@
+{
+  "topic_id": "02-curvas-planas-parametricas-y-polares",
+  "title": "Curvas planas, ecuaciones paramétricas y coordenadas polares",
+  "human_purpose": "Describir y analizar curvas planas mediante parámetros y coordenadas polares para medir longitudes y áreas",
+  "tags": ["curvas-parametricas", "coordenadas-polares", "longitud-de-arco", "area", "tangentes"],
+  "skill_nodes": ["calculo:parametrizacion", "calculo:polares"],
+  "prereqs": ["02-Calculo-Diferencial/01-Limites"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
