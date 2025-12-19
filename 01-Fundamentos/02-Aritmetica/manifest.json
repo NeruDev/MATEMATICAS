@@ -2,8 +2,50 @@
   "topic_id": "02-aritmetica",
   "title": "Aritmética",
   "human_purpose": "Dominar operaciones numéricas básicas y razonamiento aritmético para soportar álgebra y cálculo",
-  "tags": ["numeros", "operaciones", "fracciones", "porcentajes"],
-  "skill_nodes": ["aritmetica:operaciones-basicas", "aritmetica:fracciones"],
+  "tags": ["numeros", "operaciones", "fracciones", "porcentajes", "divisibilidad", "factorizacion"],
+  "skill_nodes": ["aritmetica:operaciones-basicas", "aritmetica:fracciones", "aritmetica:divisibilidad"],
+  "subtopics": [
+    {
+      "id": "2.1",
+      "title": "Sistemas numéricos",
+      "concepts": ["Naturales", "Enteros", "Racionales", "Irracionales", "Reales"]
+    },
+    {
+      "id": "2.2",
+      "title": "Operaciones fundamentales",
+      "concepts": ["Suma", "Resta", "Multiplicación", "División", "Propiedades"]
+    },
+    {
+      "id": "2.3",
+      "title": "Divisibilidad y números primos",
+      "concepts": ["Criterios de divisibilidad", "Números primos", "Factorización prima"]
+    },
+    {
+      "id": "2.4",
+      "title": "MCD y MCM",
+      "concepts": ["Máximo común divisor", "Mínimo común múltiplo", "Algoritmo de Euclides"]
+    },
+    {
+      "id": "2.5",
+      "title": "Fracciones",
+      "concepts": ["Operaciones", "Simplificación", "Fracciones equivalentes"]
+    },
+    {
+      "id": "2.6",
+      "title": "Decimales y porcentajes",
+      "concepts": ["Conversiones", "Operaciones decimales", "Aplicaciones de porcentajes"]
+    },
+    {
+      "id": "2.7",
+      "title": "Potencias y raíces",
+      "concepts": ["Leyes de exponentes", "Raíces n-ésimas", "Racionalización"]
+    },
+    {
+      "id": "2.8",
+      "title": "Razones y proporciones",
+      "concepts": ["Razón", "Proporción", "Regla de tres", "Proporcionalidad"]
+    }
+  ],
   "ai_contract": {
     "default_output": "markdown",
     "allowed_tasks": [
@@ -12,7 +54,13 @@
       "convert_format",
       "verify_solution",
       "diagnostic_check"
-    ]
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor personal, anticipando errores comunes."
+    }
   },
   "directories": {
     "theory": "theory",

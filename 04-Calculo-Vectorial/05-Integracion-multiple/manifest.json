@@ -1,0 +1,33 @@
+{
+  "topic_id": "05-integracion-multiple",
+  "title": "Integración múltiple",
+  "human_purpose": "Calcular áreas, volúmenes y flujos mediante integrales dobles, triples y teoremas para campos vectoriales",
+  "tags": ["integrales-dobles", "integrales-triples", "polares", "cilindricas", "esfericas", "campos-vectoriales"],
+  "skill_nodes": ["calculo:integrales-multiples", "calculo:campos-vectoriales"],
+  "prereqs": ["04-Calculo-Vectorial/04-Funciones-de-varias-variables"],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
