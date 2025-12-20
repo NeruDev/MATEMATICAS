@@ -1,6 +1,22 @@
 {
-  "topic": "Sistemas Lineales",
-  "id": "algebra-lineal-sistemas",
-  "version": "1.0",
-  "subtopics": []
+  "topic_id": "03-sistemas-lineales",
+  "title": "Sistemas de Ecuaciones Lineales",
+  "description": "Métodos de solución, eliminación gaussiana, forma escalonada, soluciones y clasificación.",
+  "prerequisites": ["01-matrices", "02-determinantes"],
+  "learning_objectives": [
+    "Representar sistemas en forma matricial",
+    "Aplicar eliminación gaussiana",
+    "Clasificar sistemas por su solución",
+    "Determinar rango y resolver sistemas homogéneos"
+  ],
+  "estimated_time": "5-6 horas",
+  "difficulty": "intermedio",
+  "subtopics": [
+    {"id": "3.1", "title": "Forma matricial", "description": "Ax = b"},
+    {"id": "3.2", "title": "Eliminación gaussiana", "description": "Operaciones elementales"},
+    {"id": "3.3", "title": "Forma escalonada", "description": "REF y RREF"},
+    {"id": "3.4", "title": "Clasificación de soluciones", "description": "Única, infinitas, ninguna"},
+    {"id": "3.5", "title": "Rango de una matriz", "description": "Definición y cálculo"},
+    {"id": "3.6", "title": "Sistemas homogéneos", "description": "Ax = 0"}
+  ]
 }

@@ -2,5 +2,43 @@
   "topic": "Espacios Vectoriales",
   "id": "algebra-lineal-espacios",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "4.1",
+      "title": "Definición de espacio vectorial",
+      "description": "Axiomas y propiedades fundamentales"
+    },
+    {
+      "id": "4.2",
+      "title": "Subespacios vectoriales",
+      "description": "Criterios y ejemplos de subespacios"
+    },
+    {
+      "id": "4.3",
+      "title": "Combinaciones lineales y generadores",
+      "description": "Span y conjuntos generadores"
+    },
+    {
+      "id": "4.4",
+      "title": "Independencia lineal",
+      "description": "Dependencia e independencia de vectores"
+    },
+    {
+      "id": "4.5",
+      "title": "Bases y dimensión",
+      "description": "Bases estándar y no estándar, teoremas de dimensión"
+    },
+    {
+      "id": "4.6",
+      "title": "Coordenadas y cambio de base",
+      "description": "Vectores de coordenadas y matrices de cambio de base"
+    }
+  ],
+  "directories": {
+    "theory": "theory/Teoria-Espacios-Vectoriales.md",
+    "methods": "methods/Metodos-Espacios-Vectoriales.md",
+    "problems": "problems/Problemas-Espacios-Vectoriales.md",
+    "solutions": "solutions/Soluciones-Espacios-Vectoriales.md"
+  },
+  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-sistemas"]
 }

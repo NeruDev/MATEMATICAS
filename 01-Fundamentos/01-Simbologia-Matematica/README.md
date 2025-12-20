@@ -35,9 +35,9 @@ Esta sección sirve como referencia rápida para todos los símbolos matemático
 | Métodos Numéricos | Error, iteración |
 | Estadística | Probabilidad, distribuciones |
 
-## Archivos
+## Archivo Principal
 
-- [theory/simbologia.md](theory/simbologia.md) - Tablas completas de símbolos
+- [Tablas de Símbolos Matemáticos](theory/Tablas-de-Simbolos-Matematicos.md)
 
 ## Cómo usar esta referencia
 

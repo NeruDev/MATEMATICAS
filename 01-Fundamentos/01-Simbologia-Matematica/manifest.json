@@ -6,21 +6,9 @@
   "skill_nodes": ["fundamentos:notacion"],
   "ai_contract": {
     "default_output": "markdown",
-    "allowed_tasks": [
-      "explain_concept",
-      "generate_problems",
-      "convert_format",
-      "verify_solution",
-      "diagnostic_check"
-    ]
+    "allowed_tasks": ["explain_concept", "convert_format"]
   },
   "directories": {
-    "theory": "theory",
-    "methods": "methods",
-    "problems": "problems",
-    "solutions": "solutions",
-    "media": "media",
-    "diagnostic": "diagnostic",
-    "applications": "applications"
+    "theory": "theory"
   }
 }
