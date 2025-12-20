@@ -14,5 +14,27 @@
   "ai_contract": {
     "summary_min_words": 150,
     "required_sections": ["Definición", "Métodos", "Convergencia", "Ejemplos"]
+  },
+  "resource_map": {
+    "index": [
+      {
+        "id": "MN-01-Raices-Intro",
+        "path": "MN-01-Raices-Intro.md",
+        "title": "Introducción a Raíces de Ecuaciones",
+        "type": "index"
+      }
+    ],
+    "cheatsheet": [
+      {
+        "id": "MN-01-Resumen-Formulas",
+        "path": "MN-01-Resumen-Formulas.md",
+        "title": "Resumen de Fórmulas - Raíces de Ecuaciones",
+        "type": "cheatsheet"
+      }
+    ],
+    "theory": [],
+    "problems": [],
+    "solutions": [],
+    "applications": []
   }
 }

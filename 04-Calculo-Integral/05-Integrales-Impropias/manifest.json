@@ -54,5 +54,13 @@
     "expected_inputs": "Integral impropia (límites infinitos o discontinuidad en integrando)",
     "expected_outputs": "Valor de convergencia o indicación de divergencia con justificación",
     "verification": "Verificar límite existe y es finito para convergencia, aplicar criterios de comparación"
+  },
+  "resource_map": {
+    "entry_point": "CI-05-Integrales-Impropias-Intro.md",
+    "main_theory": "theory/CI-05-Teoria-Impropias.md",
+    "cheat_sheet": "CI-05-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   }
 }

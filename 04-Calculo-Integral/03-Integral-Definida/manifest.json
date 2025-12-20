@@ -1,6 +1,6 @@
 {
-  "topic": "Integral Definida",
-  "id": "integral-definida",
+  "topic_id": "03-integral-definida",
+  "title": "Integral Definida",
   "version": "1.0",
   "subtopics": [
     {"id": "3.1", "title": "Sumas de Riemann"},
@@ -23,5 +23,13 @@
     "expected_inputs": "Función f(x) y límites de integración [a,b]",
     "expected_outputs": "Valor numérico de la integral definida",
     "verification": "Aplicar TFC: F(b)-F(a), verificar con aproximación numérica si es necesario"
+  },
+  "resource_map": {
+    "entry_point": "CI-03-Integral-Definida-Intro.md",
+    "main_theory": "theory/CI-03-Teoria-Integral-Definida.md",
+    "cheat_sheet": "CI-03-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   }
 }

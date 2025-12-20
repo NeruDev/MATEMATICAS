@@ -1,11 +1,22 @@
 {
-  "topic_id": "03-funciones-vectoriales",
-  "title": "Funciones vectoriales de una variable real",
+  "id": "cv-03-funciones-vectoriales",
+  "topic": "Funciones vectoriales de una variable real",
+  "type": "learning_module",
+  "status": "active",
   "human_purpose": "Estudiar el movimiento y la geometría de curvas espaciales mediante funciones vectoriales y sus derivadas e integrales",
   "tags": ["funciones-vectoriales", "limites", "derivadas", "integrales", "curvatura"],
   "skill_nodes": ["calculo:funciones-vectoriales", "calculo:curvatura"],
-  "prereqs": ["04-Calculo-Vectorial/01-Vectores-en-el-espacio", "02-Calculo-Diferencial/01-Limites"],
-  "ai_contract": {
+  "prereqs": ["05-Calculo-Vectorial/01-Vectores-en-el-espacio", "05-Calculo-Vectorial/02-Curvas-planas-parametricas-y-polares"],
+  "resource_map": {
+    "entry_point": "CV-03-Funciones-Vectoriales-Intro.md",
+    "main_theory": "theory/CV-03-Teoria-Vectoriales.md",
+    "cheat_sheet": "CV-03-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
+  "ai_config": {
+    "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": [
       "explain_concept",
@@ -29,5 +40,10 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "legacy_files": {
+    "_note": "Archivos anteriores al sistema de nomenclatura semántica - pueden eliminarse",
+    "old_readme": "README.md",
+    "old_summary": "summary.md"
   }
 }

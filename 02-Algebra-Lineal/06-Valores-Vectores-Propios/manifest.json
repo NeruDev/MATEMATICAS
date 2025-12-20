@@ -2,6 +2,12 @@
   "topic": "Valores y Vectores Propios",
   "id": "algebra-lineal-valores-propios",
   "version": "1.0",
+  "resource_map": {
+    "entry_point": "AL-06-Valores-Vectores-Propios-Intro.md",
+    "main_theory": "theory/Teoria-Valores-Vectores-Propios.md",
+    "cheat_sheet": "AL-06-Resumen-Formulas.md"
+  },
+  "ai_config": {"strict_mode": true},
   "subtopics": [
     {
       "id": "6.1",

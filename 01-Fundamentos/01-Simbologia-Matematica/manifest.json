@@ -1,14 +1,22 @@
 {
-  "topic_id": "01-simbologia-matematica",
-  "title": "Simbología Matemática",
+  "id": "fun-01-simbologia",
+  "topic": "Simbología Matemática",
+  "type": "reference_library",
+  "status": "active",
   "human_purpose": "Referencia completa de símbolos matemáticos organizados por área para consulta rápida",
   "tags": ["simbolos", "notacion", "latex", "referencia"],
   "skill_nodes": ["fundamentos:notacion"],
-  "ai_contract": {
+  "resource_map": {
+    "entry_point": "FUN-01-Simbologia-Intro.md",
+    "content": ["theory/Tablas-de-Simbolos-Matematicos.md"]
+  },
+  "ai_config": {
+    "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": ["explain_concept", "convert_format"]
   },
-  "directories": {
-    "theory": "theory"
+  "legacy_files": {
+    "old_readme": "README.md",
+    "old_summary": "summary.md"
   }
 }

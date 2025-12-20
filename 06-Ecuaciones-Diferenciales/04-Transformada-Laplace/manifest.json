@@ -37,6 +37,14 @@
     "applications": "applications/",
     "media": "media/"
   },
+  "resource_map": {
+    "entry_point": "ED-04-Transformada-Laplace-Intro.md",
+    "cheat_sheet": "ED-04-Resumen-Formulas.md",
+    "main_theory": "theory/ED-04-Teoria-Laplace.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
   "prerequisites": ["edo-segundo-orden", "calculo-integral"],
   "tags": ["ecuaciones-diferenciales", "laplace", "transformadas", "pvi"],
   "ai_contract": {

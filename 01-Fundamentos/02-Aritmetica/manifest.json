@@ -62,6 +62,22 @@
       "didactic_tone": "Guía al estudiante como si fuera un tutor personal, anticipando errores comunes."
     }
   },
+  "resource_map": {
+    "entry_point": "FUN-02-Aritmetica-Intro.md",
+    "main_theory": "theory/FUN-02-Teoria-Aritmetica.md",
+    "cheat_sheet": "FUN-02-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
+  "ai_config": {
+    "strict_mode": true
+  },
+  "legacy_files": {
+    "old_summary": "summary.md",
+    "old_resumen": "resumen-aritmetica.md",
+    "old_theory": "theory/teoria.md"
+  },
   "directories": {
     "theory": "theory",
     "methods": "methods",

@@ -1,6 +1,6 @@
 {
-  "topic": "Técnicas de Integración",
-  "id": "tecnicas-integracion",
+  "topic_id": "02-tecnicas-integracion",
+  "title": "Técnicas de Integración",
   "version": "1.0",
   "subtopics": [
     {"id": "2.1", "title": "Sustitución (cambio de variable)"},
@@ -24,5 +24,13 @@
     "expected_inputs": "Integral indefinida que requiere técnica especial",
     "expected_outputs": "Antiderivada obtenida mediante la técnica apropiada, pasos intermedios",
     "verification": "Derivar resultado debe dar integrando original, verificar sustitución inversa correcta"
+  },
+  "resource_map": {
+    "entry_point": "CI-02-Tecnicas-Integracion-Intro.md",
+    "main_theory": "theory/CI-02-Teoria-Tecnicas.md",
+    "cheat_sheet": "CI-02-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   }
 }

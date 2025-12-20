@@ -2,6 +2,12 @@
   "topic_id": "01-matrices",
   "title": "Matrices y Operaciones",
   "description": "Definición de matrices, tipos especiales, operaciones fundamentales y propiedades algebraicas.",
+  "resource_map": {
+    "entry_point": "AL-01-Matrices-Intro.md",
+    "main_theory": "theory/Teoria-Matrices.md",
+    "cheat_sheet": "AL-01-Resumen-Formulas.md"
+  },
+  "ai_config": {"strict_mode": true},
   "prerequisites": ["01-fundamentos"],
   "learning_objectives": [
     "Definir y clasificar matrices por forma y propiedades",

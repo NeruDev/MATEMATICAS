@@ -32,6 +32,14 @@
     "applications": "applications/",
     "media": "media/"
   },
+  "resource_map": {
+    "entry_point": "ED-05-Series-Potencias-Intro.md",
+    "cheat_sheet": "ED-05-Resumen-Formulas.md",
+    "main_theory": "theory/ED-05-Teoria-Series-EDO.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
   "prerequisites": ["edo-segundo-orden", "series-taylor"],
   "tags": ["ecuaciones-diferenciales", "series", "frobenius", "bessel"],
   "ai_contract": {

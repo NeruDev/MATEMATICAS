@@ -27,5 +27,27 @@
     "expected_inputs": "EDO de primer orden y''=f(x,y), condición inicial y(x0)=y0, tamaño de paso h",
     "expected_outputs": "Aproximación numérica y_n en puntos discretos, estimación de error",
     "verification": "Comparar con solución analítica cuando existe, análisis de convergencia con h→0"
+  },
+  "resource_map": {
+    "index": [
+      {
+        "id": "MN-04-EDO-Numericas-Intro",
+        "path": "MN-04-EDO-Numericas-Intro.md",
+        "title": "Introducción a EDO Numéricas",
+        "type": "index"
+      }
+    ],
+    "cheatsheet": [
+      {
+        "id": "MN-04-Resumen-Formulas",
+        "path": "MN-04-Resumen-Formulas.md",
+        "title": "Resumen de Fórmulas - EDO Numéricas",
+        "type": "cheatsheet"
+      }
+    ],
+    "theory": [],
+    "problems": [],
+    "solutions": [],
+    "applications": []
   }
 }
