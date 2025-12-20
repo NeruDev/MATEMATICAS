@@ -1,5 +1,5 @@
 {
-  "topic_id": "01-limites",
+  "topic_id": "cd-01-limites",
   "title": "Límites",
   "human_purpose": "Comprender el concepto de límite y sus técnicas de evaluación como base fundamental del cálculo diferencial",
   "tags": ["limites", "continuidad", "formas-indeterminadas", "asintotas", "infinito"],
@@ -69,16 +69,17 @@
     }
   },
   "resource_map": {
-    "index": {
-      "file_id": "CD-01-Limites-Intro",
-      "path": "CD-01-Limites-Intro.md",
-      "type": "index"
-    },
-    "cheatsheet": {
-      "file_id": "CD-01-Resumen-Formulas",
-      "path": "CD-01-Resumen-Formulas.md",
-      "type": "cheatsheet"
-    }
+    "entry_point": "CD-01-Limites-Intro.md",
+    "cheat_sheet": "CD-01-Resumen-Formulas.md",
+    "problems": "problems/CD-01-Problemas.md",
+    "answers": "solutions/CD-01-Respuestas.md",
+    "solutions": [
+      "solutions/prob-05/",
+      "solutions/prob-14/",
+      "solutions/prob-18/",
+      "solutions/prob-24/",
+      "solutions/prob-34/"
+    ]
   },
   "directories": {
     "theory": "theory",
