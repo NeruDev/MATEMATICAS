@@ -164,14 +164,48 @@ Para recursos como "Simbología Matemática" o "Tablas de Integrales":
    - Métodos van en `methods/`: algoritmos paso a paso
    - Son archivos separados con propósitos distintos
 
-2. **Nunca incluir soluciones dentro de `problems/`.**
-   - Los problemas solo contienen enunciados y pistas opcionales
-   - Las soluciones van en `solutions/[nombre-problema]/`
-   - Cada solución tiene `problem-statement.md` y `method-solution.md`
+2. **FORMATO HÍBRIDO DE TRES NIVELES para Problemas y Soluciones (OBLIGATORIO).**
+   
+   ```
+   [modulo]/[tema]/
+   ├── problems/
+   │   └── XX-NN-Problemas.md           # Nivel 1: Lista de problemas
+   │
+   └── solutions/
+       ├── XX-NN-Respuestas.md          # Nivel 2: Respuestas rápidas (TODAS)
+       └── prob-XX/                      # Nivel 3: Soluciones desarrolladas
+           └── solucion-metodo.md
+   ```
+   
+   **Nivel 1 - Problemas (`PREFIJO-XX-Problemas.md`):**
+   - Un archivo único por tema con TODOS los problemas
+   - Cada problema DEBE tener ID explícito: `### [Prob-XX] Título ⭐`
+   - IDs secuenciales (01, 02, ...) únicos dentro del tema
+   - Indicadores: ⭐ (básico), ⭐⭐ (intermedio), ⭐⭐⭐ (avanzado)
+   
+   **Nivel 2 - Respuestas (`PREFIJO-XX-Respuestas.md`):**
+   - Archivo OBLIGATORIO con TODAS las respuestas finales en tabla
+   - Formato: `| [Prob-XX] | respuesta | [Ver](./prob-XX/solucion-metodo.md) |`
+   - Enlaza a soluciones desarrolladas cuando existen
+   
+   **Nivel 3 - Soluciones desarrolladas (`solutions/prob-XX/`):**
+   - Carpetas individuales solo para problemas selectos (representativos, difíciles)
+   - Archivo obligatorio: `solucion-metodo.md` (solución paso a paso)
+   - Archivo opcional: `solucion-detallada.md` (explicación extendida)
+   
+   **NAVEGACIÓN PARA IA:**
+   1. Para obtener cualquier respuesta → `solutions/XX-NN-Respuestas.md`
+   2. Para obtener el proceso de resolución → `solutions/prob-XX/solucion-metodo.md`
+   
+   **Prohibido:**
+   - ❌ Archivos monolíticos de soluciones (ej: `Soluciones-Completas.md`)
+   - ❌ Problemas sin ID explícito `[Prob-XX]`
+   - ❌ Temas sin archivo de respuestas rápidas
+   - ❌ Usar nombres en inglés (`method-solution.md`, `detailed-solution.md`)
 
 3. **Respetar siempre `assigned_method`.**
    - Si un problema tiene un método asignado, la solución debe usar ese método
-   - No introducir métodos alternativos en `method-solution.md`
+   - No introducir métodos alternativos en `solucion-metodo.md`
 
 4. **No inventar prerequisitos no declarados.**
    - Solo asumir conocimientos listados en las conexiones del tema

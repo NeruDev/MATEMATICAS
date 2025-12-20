@@ -1,11 +1,24 @@
 {
-  "topic_id": "01-matrices",
+  "topic_id": "al-01-matrices",
   "title": "Matrices y Operaciones",
   "description": "Definición de matrices, tipos especiales, operaciones fundamentales y propiedades algebraicas.",
   "resource_map": {
     "entry_point": "AL-01-Matrices-Intro.md",
     "main_theory": "theory/Teoria-Matrices.md",
-    "cheat_sheet": "AL-01-Resumen-Formulas.md"
+    "cheat_sheet": "AL-01-Resumen-Formulas.md",
+    "problems": "problems/AL-01-Problemas.md",
+    "answers": "solutions/AL-01-Respuestas.md",
+    "solutions": [
+      "solutions/prob-04/",
+      "solutions/prob-09/",
+      "solutions/prob-10/",
+      "solutions/prob-13/",
+      "solutions/prob-23/",
+      "solutions/prob-24/",
+      "solutions/prob-27/",
+      "solutions/prob-28/",
+      "solutions/prob-32/"
+    ]
   },
   "ai_config": {"strict_mode": true},
   "prerequisites": ["01-fundamentos"],
