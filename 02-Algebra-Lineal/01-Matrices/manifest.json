@@ -1,6 +1,23 @@
 {
-  "topic": "Matrices",
-  "id": "algebra-lineal-matrices",
-  "version": "1.0",
-  "subtopics": []
+  "topic_id": "01-matrices",
+  "title": "Matrices y Operaciones",
+  "description": "Definición de matrices, tipos especiales, operaciones fundamentales y propiedades algebraicas.",
+  "prerequisites": ["01-fundamentos"],
+  "learning_objectives": [
+    "Definir y clasificar matrices por forma y propiedades",
+    "Realizar operaciones de suma, resta y multiplicación escalar",
+    "Calcular productos de matrices",
+    "Obtener la transpuesta e identificar matrices simétricas",
+    "Calcular la inversa de una matriz (cuando existe)"
+  ],
+  "estimated_time": "4-5 horas",
+  "difficulty": "básico-intermedio",
+  "subtopics": [
+    {"id": "1.1", "title": "Definición y notación", "description": "Qué es una matriz, elementos, dimensiones"},
+    {"id": "1.2", "title": "Tipos de matrices", "description": "Cuadrada, diagonal, identidad, triangular, simétrica"},
+    {"id": "1.3", "title": "Operaciones básicas", "description": "Suma, resta, multiplicación por escalar"},
+    {"id": "1.4", "title": "Multiplicación de matrices", "description": "Producto matricial y sus propiedades"},
+    {"id": "1.5", "title": "Transpuesta", "description": "Definición y propiedades"},
+    {"id": "1.6", "title": "Matriz inversa", "description": "Definición, existencia y cálculo"}
+  ]
 }

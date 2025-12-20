@@ -1,6 +1,23 @@
 {
-  "topic": "Determinantes",
-  "id": "algebra-lineal-determinantes",
-  "version": "1.0",
-  "subtopics": []
+  "topic_id": "02-determinantes",
+  "title": "Determinantes",
+  "description": "Cálculo de determinantes, propiedades, cofactores, adjunta y aplicaciones.",
+  "prerequisites": ["01-matrices"],
+  "learning_objectives": [
+    "Calcular determinantes de matrices 2x2 y 3x3",
+    "Aplicar propiedades para simplificar cálculos",
+    "Usar expansión por cofactores",
+    "Calcular la matriz adjunta",
+    "Aplicar la regla de Cramer"
+  ],
+  "estimated_time": "4-5 horas",
+  "difficulty": "intermedio",
+  "subtopics": [
+    {"id": "2.1", "title": "Determinante 2×2 y 3×3", "description": "Fórmulas directas"},
+    {"id": "2.2", "title": "Propiedades de determinantes", "description": "Operaciones de fila y propiedades"},
+    {"id": "2.3", "title": "Cofactores y menores", "description": "Definiciones y cálculo"},
+    {"id": "2.4", "title": "Expansión por cofactores", "description": "Método de Laplace"},
+    {"id": "2.5", "title": "Matriz adjunta", "description": "Cálculo de inversa por adjunta"},
+    {"id": "2.6", "title": "Regla de Cramer", "description": "Solución de sistemas lineales"}
+  ]
 }

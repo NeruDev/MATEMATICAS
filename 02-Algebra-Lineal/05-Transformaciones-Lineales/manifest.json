@@ -2,5 +2,38 @@
   "topic": "Transformaciones Lineales",
   "id": "algebra-lineal-transformaciones",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "5.1",
+      "title": "Definición de transformación lineal",
+      "description": "Propiedades de linealidad y ejemplos"
+    },
+    {
+      "id": "5.2",
+      "title": "Núcleo e imagen",
+      "description": "Kernel, rango y teorema de la dimensión"
+    },
+    {
+      "id": "5.3",
+      "title": "Matriz de una transformación lineal",
+      "description": "Representación matricial y cálculo"
+    },
+    {
+      "id": "5.4",
+      "title": "Composición e inversa",
+      "description": "Composición de transformaciones e isomorfismos"
+    },
+    {
+      "id": "5.5",
+      "title": "Cambio de base en transformaciones",
+      "description": "Matrices similares y diagramas conmutativos"
+    }
+  ],
+  "directories": {
+    "theory": "theory/Teoria-Transformaciones-Lineales.md",
+    "methods": "methods/Metodos-Transformaciones-Lineales.md",
+    "problems": "problems/Problemas-Transformaciones-Lineales.md",
+    "solutions": "solutions/Soluciones-Transformaciones-Lineales.md"
+  },
+  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-espacios"]
 }

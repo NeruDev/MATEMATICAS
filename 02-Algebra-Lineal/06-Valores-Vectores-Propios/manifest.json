@@ -2,5 +2,38 @@
   "topic": "Valores y Vectores Propios",
   "id": "algebra-lineal-valores-propios",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "6.1",
+      "title": "Definición de valores y vectores propios",
+      "description": "Eigenvalores, eigenvectores y ecuación característica"
+    },
+    {
+      "id": "6.2",
+      "title": "Polinomio característico",
+      "description": "Cálculo y propiedades del polinomio característico"
+    },
+    {
+      "id": "6.3",
+      "title": "Espacios propios",
+      "description": "Eigenespacio y multiplicidades algebraica y geométrica"
+    },
+    {
+      "id": "6.4",
+      "title": "Diagonalización",
+      "description": "Criterios y proceso de diagonalización"
+    },
+    {
+      "id": "6.5",
+      "title": "Aplicaciones",
+      "description": "Potencias de matrices, sistemas dinámicos, cadenas de Markov"
+    }
+  ],
+  "directories": {
+    "theory": "theory/Teoria-Valores-Vectores-Propios.md",
+    "methods": "methods/Metodos-Valores-Vectores-Propios.md",
+    "problems": "problems/Problemas-Valores-Vectores-Propios.md",
+    "solutions": "solutions/Soluciones-Valores-Vectores-Propios.md"
+  },
+  "prerequisites": ["algebra-lineal-determinantes", "algebra-lineal-transformaciones"]
 }
