@@ -18,5 +18,18 @@
     {"id": "3.4", "title": "Clasificación de soluciones", "description": "Única, infinitas, ninguna"},
     {"id": "3.5", "title": "Rango de una matriz", "description": "Definición y cálculo"},
     {"id": "3.6", "title": "Sistemas homogéneos", "description": "Ax = 0"}
-  ]
+  ],
+  "tags": [
+    "álgebra lineal",
+    "sistemas lineales",
+    "eliminación gaussiana",
+    "Gauss-Jordan",
+    "rango",
+    "forma escalonada"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Sistema Ax=b con matriz de coeficientes y vector de términos independientes",
+    "expected_outputs": "Solución única, conjunto solución paramétrico o indicación de inconsistencia",
+    "verification": "Sustituir solución en ecuaciones originales, verificar Ax=b"
+  }
 }

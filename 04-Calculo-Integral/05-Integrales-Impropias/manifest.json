@@ -41,5 +41,18 @@
       "title": "Integrales p",
       "description": "Integrales de la forma 1/x^p"
     }
-  ]
+  ],
+  "tags": [
+    "cálculo integral",
+    "integrales impropias",
+    "convergencia",
+    "divergencia",
+    "criterio de comparación",
+    "límites infinitos"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Integral impropia (límites infinitos o discontinuidad en integrando)",
+    "expected_outputs": "Valor de convergencia o indicación de divergencia con justificación",
+    "verification": "Verificar límite existe y es finito para convergencia, aplicar criterios de comparación"
+  }
 }

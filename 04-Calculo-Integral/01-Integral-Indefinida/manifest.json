@@ -11,5 +11,18 @@
     {"id": "1.6", "title": "Integrales de funciones trigonométricas"},
     {"id": "1.7", "title": "Integrales que producen funciones inversas"},
     {"id": "1.8", "title": "Propiedades de la integral indefinida"}
-  ]
+  ],
+  "tags": [
+    "cálculo integral",
+    "antiderivada",
+    "integral indefinida",
+    "primitiva",
+    "constante de integración",
+    "fórmulas de integración"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Función f(x) a integrar",
+    "expected_outputs": "Antiderivada F(x) + C tal que F'(x) = f(x)",
+    "verification": "Derivar el resultado debe dar la función original: d/dx[F(x)+C] = f(x)"
+  }
 }

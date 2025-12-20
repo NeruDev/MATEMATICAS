@@ -11,5 +11,18 @@
     {"id": "2.6", "title": "Racionalización"},
     {"id": "2.7", "title": "Integrales con radicales"},
     {"id": "2.8", "title": "Estrategias de integración"}
-  ]
+  ],
+  "tags": [
+    "cálculo integral",
+    "sustitución",
+    "integración por partes",
+    "fracciones parciales",
+    "sustitución trigonométrica",
+    "técnicas de integración"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Integral indefinida que requiere técnica especial",
+    "expected_outputs": "Antiderivada obtenida mediante la técnica apropiada, pasos intermedios",
+    "verification": "Derivar resultado debe dar integrando original, verificar sustitución inversa correcta"
+  }
 }

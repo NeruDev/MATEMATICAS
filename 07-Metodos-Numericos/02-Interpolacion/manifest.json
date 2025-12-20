@@ -2,5 +2,17 @@
   "topic": "Interpolación",
   "id": "interpolacion",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    "Interpolación de Lagrange",
+    "Diferencias divididas de Newton",
+    "Interpolación de Newton progresiva y regresiva",
+    "Error de interpolación",
+    "Splines cúbicos",
+    "Interpolación de Hermite"
+  ],
+  "tags": ["métodos-numéricos", "interpolación", "lagrange", "newton", "splines", "diferencias-divididas"],
+  "ai_contract": {
+    "summary_min_words": 150,
+    "required_sections": ["Definición", "Métodos", "Error", "Ejemplos"]
+  }
 }

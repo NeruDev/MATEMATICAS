@@ -19,5 +19,18 @@
     {"id": "1.4", "title": "Multiplicación de matrices", "description": "Producto matricial y sus propiedades"},
     {"id": "1.5", "title": "Transpuesta", "description": "Definición y propiedades"},
     {"id": "1.6", "title": "Matriz inversa", "description": "Definición, existencia y cálculo"}
-  ]
+  ],
+  "tags": [
+    "álgebra lineal",
+    "matrices",
+    "operaciones matriciales",
+    "transpuesta",
+    "inversa",
+    "multiplicación de matrices"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Matrices con entradas numéricas, dimensiones m×n",
+    "expected_outputs": "Resultado de operación matricial, matriz inversa, verificación de propiedades",
+    "verification": "Verificar dimensiones compatibles, comprobar (AB)C=A(BC), verificar AA⁻¹=I"
+  }
 }

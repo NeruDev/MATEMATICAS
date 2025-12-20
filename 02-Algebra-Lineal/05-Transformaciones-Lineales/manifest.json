@@ -35,5 +35,19 @@
     "problems": "problems/Problemas-Transformaciones-Lineales.md",
     "solutions": "solutions/Soluciones-Transformaciones-Lineales.md"
   },
-  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-espacios"]
+  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-espacios"],
+  "tags": [
+    "álgebra lineal",
+    "transformaciones lineales",
+    "núcleo",
+    "imagen",
+    "isomorfismo",
+    "matriz asociada",
+    "cambio de base"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Transformación T:V→W definida por fórmula o matriz, bases de V y W",
+    "expected_outputs": "Matriz asociada, núcleo, imagen, verificación de inyectividad/sobreyectividad",
+    "verification": "Verificar T(u+v)=T(u)+T(v), T(cv)=cT(v), dim(ker)+dim(im)=dim(V)"
+  }
 }

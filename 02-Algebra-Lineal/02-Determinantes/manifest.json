@@ -19,5 +19,18 @@
     {"id": "2.4", "title": "Expansión por cofactores", "description": "Método de Laplace"},
     {"id": "2.5", "title": "Matriz adjunta", "description": "Cálculo de inversa por adjunta"},
     {"id": "2.6", "title": "Regla de Cramer", "description": "Solución de sistemas lineales"}
-  ]
+  ],
+  "tags": [
+    "álgebra lineal",
+    "determinantes",
+    "cofactores",
+    "regla de Cramer",
+    "matriz adjunta",
+    "expansión de Laplace"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Matriz cuadrada n×n con entradas numéricas",
+    "expected_outputs": "Valor escalar del determinante, matriz de cofactores, solución por Cramer",
+    "verification": "Verificar det(AB)=det(A)det(B), det(A⁻¹)=1/det(A), intercambio de filas cambia signo"
+  }
 }
