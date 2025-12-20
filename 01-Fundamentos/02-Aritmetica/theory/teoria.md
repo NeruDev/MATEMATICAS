@@ -82,7 +82,9 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 | **Asociativa** | $(a + b) + c = a + (b + c)$ | $(a \cdot b) \cdot c = a \cdot (b \cdot c)$ |
 | **Elemento neutro** | $a + 0 = a$ | $a \cdot 1 = a$ |
 | **Elemento inverso** | $a + (-a) = 0$ | $a \cdot \frac{1}{a} = 1$ (si $a \neq 0$) |
-| **Distributiva** | \multicolumn{2}{c|}{$a \cdot (b + c) = a \cdot b + a \cdot c$} |
+
+**Propiedad Distributiva** (conecta suma y multiplicación):
+$$a \cdot (b + c) = a \cdot b + a \cdot c$$
 
 ### Jerarquía de operaciones (PEMDAS)
 
@@ -358,6 +360,92 @@ $y$ es **inversamente proporcional** a $x$ si:
 $$y = \frac{k}{x} \quad \text{o equivalentemente} \quad xy = k$$
 
 **Característica**: Si $x$ aumenta, $y$ disminuye.
+
+---
+
+## 2.9 Fundamentos de Aritmética Superior
+
+### Rol de la aritmética en aplicaciones avanzadas
+
+La aritmética sustenta estructuras de mayor complejidad en:
+- Diseño de algoritmos discretos y análisis de complejidad.
+- Criptografía y codificación (factorización y congruencias).
+- Análisis de señales y discretización del continuo.
+
+### Fundamentación axiomática de $\mathbb{N}$ (Axiomas de Peano)
+
+Sea $N$ un conjunto y $S: N \to N$ la función sucesor. Existe un elemento distinguido $1 \in N$ tal que:
+
+1. **Existencia del elemento inicial:** $1 \in N$.
+2. **Clausura bajo sucesión:** $\forall n \in N,\ S(n) \in N$.
+3. **Inyectividad:** $S(n)=S(m) \Rightarrow n=m$.
+4. **Elemento no sucesor:** $\nexists n \in N$ tal que $S(n)=1$.
+5. **Inducción:** Si $A \subseteq N$ cumple $1 \in A$ y $n \in A \Rightarrow S(n) \in A$, entonces $A=N$.
+
+### Principios fundamentales
+
+- **Principio de inducción:** si $P(1)$ es verdadero y $P(k)\Rightarrow P(k+1)$ para todo $k\in N$, entonces $P(n)$ es verdadero para todo $n\in N$.
+- **Principio de buen orden:** todo subconjunto no vacío de $N$ tiene elemento mínimo. Es equivalente al principio de inducción.
+
+### Teorema Fundamental de la Aritmética (TFA)
+
+> Todo entero $n > 1$ puede expresarse de manera **única** como producto de primos (salvo el orden de los factores).
+
+**Forma canónica:** Todo $n>1$ puede escribirse como:
+$$n=\prod_{i=1}^r p_i^{\alpha_i}$$
+con $p_i$ primos distintos y $\alpha_i\in \mathbb{N}$.
+
+**Esbozo de prueba:**
+- *Existencia:* Por buen orden, si hubiera un $n>1$ sin factorización prima, el mínimo tal $n$ no sería primo y se escribiría $n=ab$ con $1<a,b<n$, contradiciendo la minimalidad.
+- *Unicidad:* Por el Lema de Euclides (si $p\mid ab$ entonces $p\mid a$ o $p\mid b$), cancelando primos por inducción se obtiene igualdad.
+
+### Propiedades formales de divisibilidad
+
+Para $a,b \in \mathbb{N}$, $a$ divide a $b$ ($a\mid b$) si $\exists k \in \mathbb{N}$ tal que $b=a\,k$.
+
+| Propiedad | Descripción |
+|-----------|-------------|
+| Reflexividad | $a\mid a$ |
+| Transitividad | $a\mid b$ y $b\mid c \Rightarrow a\mid c$ |
+| Antisimetría | $a\mid b$ y $b\mid a \Rightarrow a=b$ |
+| Comparabilidad | Si $a\mid b$ y $a\neq b$, entonces $a<b$ |
+
+### Definiciones formales de MCD y MCM
+
+Dados $a,b>0$ con descomposiciones $a=\prod p_i^{\alpha_i}$, $b=\prod p_i^{\beta_i}$:
+
+$$\gcd(a,b)=\prod p_i^{\min(\alpha_i,\beta_i)}$$
+
+$$\text{mcm}(a,b)=\prod p_i^{\max(\alpha_i,\beta_i)}$$
+
+**Criterio de divisibilidad por exponentes:** $a\mid b \iff \alpha_i \le \beta_i\ \forall i$.
+
+---
+
+## 2.10 Ejemplos Avanzados: Factorización, MCD y MCM
+
+### Ejemplo 1: Factorización prima
+
+- $84 = 2^2 \cdot 3 \cdot 7$ (dividir sucesivamente entre primos crecientes)
+- $231 = 3 \cdot 7 \cdot 11$
+
+### Ejemplo 2: Cálculo de MCD y MCM por exponentes
+
+Para $a=84=2^2\cdot 3^1\cdot 7^1$ y $b=231=3^1\cdot 7^1\cdot 11^1$:
+
+**MCD:** Tomar mínimos exponentes (completando con 0 donde no aparece el primo):
+$$\gcd(84,231)=2^{\min(2,0)} \cdot 3^{\min(1,1)} \cdot 7^{\min(1,1)} \cdot 11^{\min(0,1)}=2^0 \cdot 3^1 \cdot 7^1 \cdot 11^0=21$$
+
+**MCM:** Tomar máximos exponentes:
+$$\text{mcm}(84,231)=2^{\max(2,0)} \cdot 3^{\max(1,1)} \cdot 7^{\max(1,1)} \cdot 11^{\max(0,1)}=2^2\cdot 3\cdot 7\cdot 11=924$$
+
+**Verificación:** $84\cdot 231 = 19404$ y $21\cdot 924 = 19404$ ✓
+
+### Ejemplo 3: Ilustración del Lema de Euclides
+
+Si $p=7$ y queremos verificar si $7 \mid (84\cdot 25)$:
+- Como $84=7\cdot 12$, entonces $7\mid 84$
+- Se cumple: "si un primo divide a un producto, divide a al menos un factor"
 
 ---
 

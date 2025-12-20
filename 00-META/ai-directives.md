@@ -75,10 +75,10 @@ Cada carpeta temática debe contener un archivo `_directives.md` que especifique
 
 | Símbolo | Alternativa LaTeX |
 |---------|-------------------|
-| `|` (valor absoluto) | `\lvert \rvert` |
-| `||` (norma) | `\lVert \rVert` |
-| `|` (evaluado en) | `\big\vert` |
-| `|` (tal que, conjuntos) | `\mid` |
+|  (valor absoluto) | $\lvert \rvert$ |
+|  (norma) | $\lVert \rVert$ |
+|  (evaluado en) | $\big\vert$ |
+|  (tal que, conjuntos) | $\mid$ |
 
 ---
 
