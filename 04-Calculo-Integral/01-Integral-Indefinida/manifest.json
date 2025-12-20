@@ -1,0 +1,15 @@
+{
+  "topic": "Integral Indefinida",
+  "id": "integral-indefinida",
+  "version": "1.0",
+  "subtopics": [
+    {"id": "1.1", "title": "Concepto de antiderivada"},
+    {"id": "1.2", "title": "Notación y constante de integración"},
+    {"id": "1.3", "title": "Integrales de funciones algebraicas"},
+    {"id": "1.4", "title": "Integrales de funciones exponenciales"},
+    {"id": "1.5", "title": "Integrales de funciones logarítmicas"},
+    {"id": "1.6", "title": "Integrales de funciones trigonométricas"},
+    {"id": "1.7", "title": "Integrales que producen funciones inversas"},
+    {"id": "1.8", "title": "Propiedades de la integral indefinida"}
+  ]
+}

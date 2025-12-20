@@ -1,0 +1,81 @@
+{
+  "topic_id": "01-limites",
+  "title": "Límites",
+  "human_purpose": "Comprender el concepto de límite y sus técnicas de evaluación como base fundamental del cálculo diferencial",
+  "tags": ["limites", "continuidad", "formas-indeterminadas", "asintotas", "infinito"],
+  "skill_nodes": ["calculo:limites", "funciones:continuidad"],
+  "prereqs": ["01-Fundamentos/01-Funciones", "01-Fundamentos/03-Algebra"],
+  "subtopics": [
+    {
+      "code": "1.1",
+      "name": "Concepto de límite",
+      "description": "Definición intuitiva y formal (épsilon-delta)"
+    },
+    {
+      "code": "1.2",
+      "name": "Límites laterales",
+      "description": "Límites por la izquierda y por la derecha"
+    },
+    {
+      "code": "1.3",
+      "name": "Propiedades de los límites",
+      "description": "Álgebra de límites: suma, producto, cociente"
+    },
+    {
+      "code": "1.4",
+      "name": "Técnicas de evaluación",
+      "description": "Sustitución directa, factorización, racionalización"
+    },
+    {
+      "code": "1.5",
+      "name": "Límites trigonométricos",
+      "description": "Límites fundamentales con funciones trigonométricas"
+    },
+    {
+      "code": "1.6",
+      "name": "Límites al infinito",
+      "description": "Comportamiento cuando x→∞ o x→-∞"
+    },
+    {
+      "code": "1.7",
+      "name": "Límites infinitos",
+      "description": "Cuando el límite tiende a ±∞, asíntotas verticales"
+    },
+    {
+      "code": "1.8",
+      "name": "Continuidad",
+      "description": "Definición, tipos de discontinuidad, teoremas"
+    },
+    {
+      "code": "1.9",
+      "name": "Teorema del valor intermedio",
+      "description": "Existencia de raíces, aplicaciones"
+    }
+  ],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
+

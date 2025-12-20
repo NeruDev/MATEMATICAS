@@ -1,9 +1,69 @@
 {
   "topic_id": "05-trigonometria",
   "title": "Trigonometría",
-  "human_purpose": "Entender razones y funciones trigonométricas para resolver triángulos y modelar periodicidad",
-  "tags": ["seno", "coseno", "tangente", "identidades"],
-  "skill_nodes": ["trigonometria:razones-rectangulo", "trigonometria:identidades-basicas"],
+  "human_purpose": "Entender razones y funciones trigonométricas para resolver triángulos y modelar fenómenos periódicos",
+  "tags": ["seno", "coseno", "tangente", "identidades", "círculo-unitario", "ley-de-senos", "ley-de-cosenos"],
+  "skill_nodes": [
+    "trigonometria:razones-rectangulo",
+    "trigonometria:circulo-unitario",
+    "trigonometria:identidades-basicas",
+    "trigonometria:identidades-avanzadas",
+    "trigonometria:ecuaciones",
+    "trigonometria:graficas",
+    "trigonometria:resolucion-triangulos"
+  ],
+  "subtopics": [
+    {
+      "id": "5.1",
+      "name": "Ángulos y medidas",
+      "description": "Grados, radianes, conversiones, ángulos en posición estándar, ángulos coterminales"
+    },
+    {
+      "id": "5.2",
+      "name": "Razones trigonométricas en el triángulo rectángulo",
+      "description": "Seno, coseno, tangente, cotangente, secante, cosecante en triángulos rectángulos"
+    },
+    {
+      "id": "5.3",
+      "name": "Círculo unitario",
+      "description": "Definición de funciones trigonométricas en el círculo unitario, valores notables"
+    },
+    {
+      "id": "5.4",
+      "name": "Gráficas de funciones trigonométricas",
+      "description": "Gráficas de seno, coseno, tangente; amplitud, período, desplazamiento"
+    },
+    {
+      "id": "5.5",
+      "name": "Identidades trigonométricas fundamentales",
+      "description": "Identidades pitagóricas, recíprocas, de cociente; simplificación de expresiones"
+    },
+    {
+      "id": "5.6",
+      "name": "Identidades de suma y resta de ángulos",
+      "description": "Fórmulas de suma/resta, ángulo doble, ángulo medio"
+    },
+    {
+      "id": "5.7",
+      "name": "Ecuaciones trigonométricas",
+      "description": "Resolución de ecuaciones trigonométricas, soluciones generales"
+    },
+    {
+      "id": "5.8",
+      "name": "Funciones trigonométricas inversas",
+      "description": "Arcoseno, arcocoseno, arcotangente; dominio y rango"
+    },
+    {
+      "id": "5.9",
+      "name": "Ley de senos y ley de cosenos",
+      "description": "Resolución de triángulos oblicuángulos"
+    },
+    {
+      "id": "5.10",
+      "name": "Aplicaciones de la trigonometría",
+      "description": "Problemas de altura y distancia, navegación, física"
+    }
+  ],
   "ai_contract": {
     "default_output": "markdown",
     "allowed_tasks": [
@@ -12,7 +72,12 @@
       "convert_format",
       "verify_solution",
       "diagnostic_check"
-    ]
+    ],
+    "solution_guidelines": {
+      "format": "context + development + verification",
+      "context_requirement": "Always explain which trigonometric concept or identity applies",
+      "include_unit_circle_reference": "When applicable, reference the unit circle values"
+    }
   },
   "directories": {
     "theory": "theory",

@@ -2,8 +2,60 @@
   "topic_id": "04-geometria",
   "title": "Geometría",
   "human_purpose": "Entender figuras, medidas y propiedades espaciales para preparar trigonometría y geometría analítica",
-  "tags": ["figuras", "area", "volumen", "semejanza"],
-  "skill_nodes": ["geometria:planas", "geometria:medidas"],
+  "tags": ["figuras", "area", "volumen", "semejanza", "congruencia", "angulos"],
+  "skill_nodes": ["geometria:planas", "geometria:medidas", "geometria:solidos"],
+  "subtopics": [
+    {
+      "id": "4.1",
+      "title": "Conceptos fundamentales",
+      "description": "Puntos, rectas, planos, segmentos, rayos, ángulos"
+    },
+    {
+      "id": "4.2",
+      "title": "Ángulos",
+      "description": "Clasificación, ángulos entre paralelas, ángulos en polígonos"
+    },
+    {
+      "id": "4.3",
+      "title": "Triángulos",
+      "description": "Clasificación, propiedades, líneas notables, congruencia"
+    },
+    {
+      "id": "4.4",
+      "title": "Cuadriláteros",
+      "description": "Paralelogramos, trapecios, propiedades"
+    },
+    {
+      "id": "4.5",
+      "title": "Polígonos",
+      "description": "Polígonos regulares, ángulos interiores y exteriores"
+    },
+    {
+      "id": "4.6",
+      "title": "Circunferencia y círculo",
+      "description": "Elementos, ángulos inscritos, tangentes, secantes"
+    },
+    {
+      "id": "4.7",
+      "title": "Áreas de figuras planas",
+      "description": "Fórmulas de área para todas las figuras"
+    },
+    {
+      "id": "4.8",
+      "title": "Semejanza",
+      "description": "Razón de semejanza, criterios, aplicaciones"
+    },
+    {
+      "id": "4.9",
+      "title": "Teorema de Pitágoras",
+      "description": "Demostración, aplicaciones, ternas pitagóricas"
+    },
+    {
+      "id": "4.10",
+      "title": "Geometría del espacio",
+      "description": "Prismas, pirámides, cilindros, conos, esferas"
+    }
+  ],
   "ai_contract": {
     "default_output": "markdown",
     "allowed_tasks": [
@@ -12,7 +64,8 @@
       "convert_format",
       "verify_solution",
       "diagnostic_check"
-    ]
+    ],
+    "solution_guidelines": "Antes de resolver, indica qué concepto o teorema aplica y por qué es relevante para el problema."
   },
   "directories": {
     "theory": "theory",

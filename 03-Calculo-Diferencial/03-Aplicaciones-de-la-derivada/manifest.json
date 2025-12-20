@@ -1,0 +1,80 @@
+{
+  "topic_id": "03-aplicaciones-de-la-derivada",
+  "title": "Aplicaciones de la Derivada",
+  "human_purpose": "Aplicar derivadas para resolver problemas de optimización, razones relacionadas y análisis de funciones",
+  "tags": ["optimizacion", "maximos-minimos", "razones-relacionadas", "graficacion", "recta-tangente"],
+  "skill_nodes": ["calculo:optimizacion", "calculo:analisis-funciones"],
+  "prereqs": ["02-Calculo-Diferencial/02-Derivadas"],
+  "subtopics": [
+    {
+      "code": "3.1",
+      "name": "Recta tangente y recta normal",
+      "description": "Ecuaciones de rectas tangente y normal a una curva"
+    },
+    {
+      "code": "3.2",
+      "name": "Razones de cambio relacionadas",
+      "description": "Problemas donde varias cantidades cambian con respecto al tiempo"
+    },
+    {
+      "code": "3.3",
+      "name": "Valores extremos",
+      "description": "Máximos y mínimos absolutos y relativos"
+    },
+    {
+      "code": "3.4",
+      "name": "Criterio de la primera derivada",
+      "description": "Determinar crecimiento, decrecimiento y extremos relativos"
+    },
+    {
+      "code": "3.5",
+      "name": "Criterio de la segunda derivada",
+      "description": "Concavidad, puntos de inflexión, prueba del extremo"
+    },
+    {
+      "code": "3.6",
+      "name": "Problemas de optimización",
+      "description": "Maximizar o minimizar cantidades sujetas a restricciones"
+    },
+    {
+      "code": "3.7",
+      "name": "Aproximaciones y diferenciales",
+      "description": "Aproximación lineal, diferenciales, propagación de errores"
+    },
+    {
+      "code": "3.8",
+      "name": "Análisis completo de funciones",
+      "description": "Dominio, intersecciones, asíntotas, extremos, concavidad, gráfica"
+    },
+    {
+      "code": "3.9",
+      "name": "Método de Newton-Raphson",
+      "description": "Aproximación de raíces usando derivadas"
+    }
+  ],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}
