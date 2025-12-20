@@ -2,5 +2,30 @@
   "topic": "EDO Numéricas",
   "id": "edo-numericas",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    "Método de Euler",
+    "Método de Heun",
+    "Runge-Kutta de orden 2 (RK2)",
+    "Runge-Kutta de orden 4 (RK4)",
+    "Métodos multipaso: Adams-Bashforth",
+    "Métodos multipaso: Adams-Moulton",
+    "Sistemas de EDO",
+    "Análisis de estabilidad y error"
+  ],
+  "tags": [
+    "métodos numéricos",
+    "ecuaciones diferenciales",
+    "problema de valor inicial",
+    "Euler",
+    "Heun",
+    "Runge-Kutta",
+    "Adams-Bashforth",
+    "Adams-Moulton",
+    "estabilidad"
+  ],
+  "ai_contract": {
+    "expected_inputs": "EDO de primer orden y''=f(x,y), condición inicial y(x0)=y0, tamaño de paso h",
+    "expected_outputs": "Aproximación numérica y_n en puntos discretos, estimación de error",
+    "verification": "Comparar con solución analítica cuando existe, análisis de convergencia con h→0"
+  }
 }

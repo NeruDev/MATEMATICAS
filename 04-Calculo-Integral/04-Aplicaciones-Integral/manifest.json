@@ -52,5 +52,19 @@
       "title": "Valor promedio de una función",
       "description": "Media integral de una función"
     }
-  ]
+  ],
+  "tags": [
+    "cálculo integral",
+    "aplicaciones",
+    "área entre curvas",
+    "volúmenes de revolución",
+    "longitud de arco",
+    "trabajo",
+    "discos y arandelas"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Funciones, límites de integración, eje de revolución o tipo de aplicación",
+    "expected_outputs": "Área, volumen, longitud o trabajo con unidades apropiadas",
+    "verification": "Verificar dimensiones correctas, comparar con aproximaciones geométricas simples"
+  }
 }

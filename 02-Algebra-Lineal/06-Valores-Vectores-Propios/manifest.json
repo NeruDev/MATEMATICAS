@@ -35,5 +35,18 @@
     "problems": "problems/Problemas-Valores-Vectores-Propios.md",
     "solutions": "solutions/Soluciones-Valores-Vectores-Propios.md"
   },
-  "prerequisites": ["algebra-lineal-determinantes", "algebra-lineal-transformaciones"]
+  "prerequisites": ["algebra-lineal-determinantes", "algebra-lineal-transformaciones"],
+  "tags": [
+    "álgebra lineal",
+    "valores propios",
+    "vectores propios",
+    "eigenvalores",
+    "diagonalización",
+    "polinomio característico"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Matriz cuadrada A n×n",
+    "expected_outputs": "Valores propios, vectores propios, matriz P de diagonalización si existe",
+    "verification": "Verificar Av=λv para cada par, comprobar det(A-λI)=0, verificar A=PDP⁻¹"
+  }
 }

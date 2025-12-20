@@ -40,5 +40,19 @@
     "problems": "problems/Problemas-Espacios-Vectoriales.md",
     "solutions": "solutions/Soluciones-Espacios-Vectoriales.md"
   },
-  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-sistemas"]
+  "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-sistemas"],
+  "tags": [
+    "álgebra lineal",
+    "espacios vectoriales",
+    "base",
+    "dimensión",
+    "independencia lineal",
+    "subespacios",
+    "span"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Conjunto de vectores, espacio vectorial, subconjunto candidato a subespacio",
+    "expected_outputs": "Verificación de subespacio, base, dimensión, coordenadas respecto a base",
+    "verification": "Comprobar axiomas de EV, verificar que base genera y es LI, dim(U)+dim(W)=dim(U+W)+dim(U∩W)"
+  }
 }

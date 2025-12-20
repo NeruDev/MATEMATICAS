@@ -10,5 +10,18 @@
     {"id": "3.5", "title": "Teorema fundamental del cálculo (parte 2)"},
     {"id": "3.6", "title": "Sustitución en integrales definidas"},
     {"id": "3.7", "title": "Integrales de funciones pares e impares"}
-  ]
+  ],
+  "tags": [
+    "cálculo integral",
+    "integral definida",
+    "sumas de Riemann",
+    "teorema fundamental",
+    "área bajo la curva",
+    "TFC"
+  ],
+  "ai_contract": {
+    "expected_inputs": "Función f(x) y límites de integración [a,b]",
+    "expected_outputs": "Valor numérico de la integral definida",
+    "verification": "Aplicar TFC: F(b)-F(a), verificar con aproximación numérica si es necesario"
+  }
 }
