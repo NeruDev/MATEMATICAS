@@ -2,5 +2,40 @@
   "topic": "Series de Potencias",
   "id": "series-potencias-edo",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "repaso-series",
+      "title": "Repaso de Series de Potencias",
+      "description": "Convergencia, radio de convergencia, operaciones con series"
+    },
+    {
+      "id": "puntos-ordinarios",
+      "title": "Soluciones en Puntos Ordinarios",
+      "description": "Método de series para EDO en puntos ordinarios"
+    },
+    {
+      "id": "metodo-frobenius",
+      "title": "Método de Frobenius",
+      "description": "Soluciones en puntos singulares regulares, ecuación indicial"
+    },
+    {
+      "id": "ecuaciones-especiales",
+      "title": "Ecuaciones Especiales",
+      "description": "Bessel, Legendre, Hermite, Laguerre"
+    }
+  ],
+  "directories": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "solutions": "solutions/",
+    "applications": "applications/",
+    "media": "media/"
+  },
+  "prerequisites": ["edo-segundo-orden", "series-taylor"],
+  "tags": ["ecuaciones-diferenciales", "series", "frobenius", "bessel"],
+  "ai_contract": {
+    "content_type": "educational",
+    "validation": ["frontmatter", "latex", "structure"]
+  }
 }
