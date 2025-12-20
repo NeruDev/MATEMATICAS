@@ -2,5 +2,48 @@
   "topic": "EDO de Primer Orden",
   "id": "edo-primer-orden",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "1.1",
+      "title": "Conceptos fundamentales",
+      "description": "Definiciones, orden, grado, soluciones general y particular"
+    },
+    {
+      "id": "1.2",
+      "title": "Ecuaciones separables",
+      "description": "Método de separación de variables"
+    },
+    {
+      "id": "1.3",
+      "title": "Ecuaciones lineales",
+      "description": "Factor integrante y solución general"
+    },
+    {
+      "id": "1.4",
+      "title": "Ecuaciones exactas",
+      "description": "Criterio de exactitud y factor integrante"
+    },
+    {
+      "id": "1.5",
+      "title": "Ecuaciones de Bernoulli",
+      "description": "Sustitución para reducir a lineal"
+    },
+    {
+      "id": "1.6",
+      "title": "Ecuaciones homogéneas",
+      "description": "Sustitución y = vx"
+    }
+  ],
+  "directories": {
+    "theory": "theory/Teoria-EDO-Primer-Orden.md",
+    "methods": "methods/Metodos-EDO-Primer-Orden.md",
+    "problems": "problems/Problemas-EDO-Primer-Orden.md",
+    "solutions": "solutions/Soluciones-EDO-Primer-Orden.md"
+  },
+  "prerequisites": ["calculo-integral"],
+  "tags": ["ecuaciones-diferenciales", "edo", "primer-orden"],
+  "ai_contract": {
+    "content_type": "educational",
+    "validation": ["frontmatter", "latex", "structure"]
+  }
 }

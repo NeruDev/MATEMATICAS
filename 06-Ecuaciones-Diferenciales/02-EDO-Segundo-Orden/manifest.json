@@ -2,5 +2,50 @@
   "topic": "EDO de Segundo Orden",
   "id": "edo-segundo-orden",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "homogeneas-coef-constantes",
+      "title": "Ecuaciones Homogéneas con Coeficientes Constantes",
+      "description": "Ecuación característica, raíces reales distintas, repetidas y complejas"
+    },
+    {
+      "id": "no-homogeneas",
+      "title": "Ecuaciones No Homogéneas",
+      "description": "Método de coeficientes indeterminados y variación de parámetros"
+    },
+    {
+      "id": "coeficientes-indeterminados",
+      "title": "Coeficientes Indeterminados",
+      "description": "Soluciones particulares para polinomios, exponenciales y trigonométricas"
+    },
+    {
+      "id": "variacion-parametros",
+      "title": "Variación de Parámetros",
+      "description": "Método general para soluciones particulares, Wronskiano"
+    },
+    {
+      "id": "cauchy-euler",
+      "title": "Ecuación de Cauchy-Euler",
+      "description": "Ecuaciones con coeficientes variables de forma ax²y'' + bxy' + cy = 0"
+    },
+    {
+      "id": "aplicaciones",
+      "title": "Aplicaciones",
+      "description": "Osciladores mecánicos, circuitos RLC, vibraciones"
+    }
+  ],
+  "directories": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "solutions": "solutions/",
+    "applications": "applications/",
+    "media": "media/"
+  },
+  "prerequisites": ["edo-primer-orden", "algebra-lineal"],
+  "tags": ["ecuaciones-diferenciales", "edo", "segundo-orden", "oscilaciones"],
+  "ai_contract": {
+    "content_type": "educational",
+    "validation": ["frontmatter", "latex", "structure"]
+  }
 }

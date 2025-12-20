@@ -2,5 +2,45 @@
   "topic": "Transformada de Laplace",
   "id": "transformada-laplace",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "definicion-basica",
+      "title": "Definición y Transformadas Básicas",
+      "description": "Integral de Laplace, transformadas de funciones elementales"
+    },
+    {
+      "id": "propiedades",
+      "title": "Propiedades de la Transformada",
+      "description": "Linealidad, traslación, derivadas, integrales, convolución"
+    },
+    {
+      "id": "transformada-inversa",
+      "title": "Transformada Inversa",
+      "description": "Fracciones parciales, tablas inversas"
+    },
+    {
+      "id": "aplicacion-pvi",
+      "title": "Aplicación a PVI",
+      "description": "Resolución de ecuaciones diferenciales con condiciones iniciales"
+    },
+    {
+      "id": "funciones-especiales",
+      "title": "Funciones Especiales",
+      "description": "Función escalón, delta de Dirac, funciones periódicas"
+    }
+  ],
+  "directories": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "solutions": "solutions/",
+    "applications": "applications/",
+    "media": "media/"
+  },
+  "prerequisites": ["edo-segundo-orden", "calculo-integral"],
+  "tags": ["ecuaciones-diferenciales", "laplace", "transformadas", "pvi"],
+  "ai_contract": {
+    "content_type": "educational",
+    "validation": ["frontmatter", "latex", "structure"]
+  }
 }

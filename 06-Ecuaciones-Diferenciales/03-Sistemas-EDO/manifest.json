@@ -2,5 +2,50 @@
   "topic": "Sistemas de EDO",
   "id": "sistemas-edo",
   "version": "1.0",
-  "subtopics": []
+  "subtopics": [
+    {
+      "id": "forma-matricial",
+      "title": "Forma Matricial",
+      "description": "Representación de sistemas en forma X' = AX + F"
+    },
+    {
+      "id": "metodo-valores-propios",
+      "title": "Método de Valores Propios",
+      "description": "Solución mediante eigenvalores y eigenvectores"
+    },
+    {
+      "id": "valores-propios-complejos",
+      "title": "Valores Propios Complejos",
+      "description": "Soluciones reales a partir de eigenvalores complejos"
+    },
+    {
+      "id": "valores-propios-repetidos",
+      "title": "Valores Propios Repetidos",
+      "description": "Vectores generalizados y soluciones"
+    },
+    {
+      "id": "retratos-fase",
+      "title": "Retratos de Fase",
+      "description": "Análisis cualitativo: nodos, sillas, espirales, centros"
+    },
+    {
+      "id": "matriz-exponencial",
+      "title": "Matriz Exponencial",
+      "description": "Solución mediante e^{At}"
+    }
+  ],
+  "directories": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "solutions": "solutions/",
+    "applications": "applications/",
+    "media": "media/"
+  },
+  "prerequisites": ["edo-segundo-orden", "valores-vectores-propios"],
+  "tags": ["ecuaciones-diferenciales", "sistemas", "matrices", "retratos-fase"],
+  "ai_contract": {
+    "content_type": "educational",
+    "validation": ["frontmatter", "latex", "structure"]
+  }
 }
