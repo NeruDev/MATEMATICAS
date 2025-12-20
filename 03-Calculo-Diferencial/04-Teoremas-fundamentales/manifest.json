@@ -58,6 +58,18 @@
       "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
     }
   },
+  "resource_map": {
+    "index": {
+      "file_id": "CD-04-Teoremas-Intro",
+      "path": "CD-04-Teoremas-Intro.md",
+      "type": "index"
+    },
+    "cheatsheet": {
+      "file_id": "CD-04-Resumen-Formulas",
+      "path": "CD-04-Resumen-Formulas.md",
+      "type": "cheatsheet"
+    }
+  },
   "directories": {
     "theory": "theory",
     "methods": "methods",

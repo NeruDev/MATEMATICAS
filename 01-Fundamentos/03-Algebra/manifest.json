@@ -1,9 +1,14 @@
 {
-  "topic_id": "03-algebra",
+  "topic_id": "fun-03-algebra",
   "title": "Álgebra",
   "human_purpose": "Desarrollar manipulación simbólica y resolución de ecuaciones como base para funciones y cálculo",
   "tags": ["expresiones", "polinomios", "ecuaciones", "factorizacion", "desigualdades", "sistemas"],
   "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales", "algebra:ecuaciones-cuadraticas", "algebra:sistemas"],
+  "resource_map": {
+    "index": "FUN-03-Algebra-Intro.md",
+    "cheatsheet": "FUN-03-Resumen-Formulas.md",
+    "theory": "theory/FUN-03-Teoria-Algebra.md"
+  },
   "subtopics": [
     {
       "id": "3.1",

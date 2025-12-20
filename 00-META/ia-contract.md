@@ -36,17 +36,126 @@ Este repositorio contiene **7 módulos principales**:
 Cada tema sigue la estructura:
 ```
 tema/
-├── manifest.json     # Metadatos, conexiones, tags, ai_contract
-├── README.md         # Entrada principal con roadmap visual
-├── summary.md        # Resumen de fórmulas clave
-├── theory/           # Definiciones, teoremas, pruebas
-├── methods/          # Procedimientos paso a paso
-├── problems/         # Enunciados (sin soluciones)
-├── solutions/        # Soluciones organizadas por problema
-├── applications/     # Casos aplicados
-├── diagnostic/       # Pre-test de prerequisitos
-└── media/            # Videos, GeoGebra, imágenes
+├── manifest.json          # Metadatos con resource_map
+├── [PREFIJO]-Intro.md     # Entrada principal (entry_point)
+├── [PREFIJO]-Resumen.md   # Fórmulas clave (cheat_sheet)
+├── theory/                # Definiciones, teoremas, pruebas
+│   └── [PREFIJO]-Teoria-[subtema].md
+├── methods/               # Procedimientos paso a paso
+│   └── [PREFIJO]-Metodo-[nombre].md
+├── problems/              # Enunciados (sin soluciones)
+├── solutions/             # Soluciones organizadas por problema
+├── applications/          # Casos aplicados
+├── diagnostic/            # Pre-test de prerequisitos
+└── media/                 # Videos, GeoGebra, imágenes
 ```
+
+---
+
+## Sistema de Nomenclatura de Archivos (Anti-Confusión)
+
+### Regla de prefijos semánticos
+Los archivos deben seguir el patrón: `[PREFIJO]-[Contenido].md`
+
+**Prefijos por módulo:**
+| Módulo | Prefijo |
+|--------|---------|
+| 01-Fundamentos | `FUN-XX` |
+| 02-Algebra-Lineal | `AL-XX` |
+| 03-Calculo-Diferencial | `CD-XX` |
+| 04-Calculo-Integral | `CI-XX` |
+| 05-Calculo-Vectorial | `CV-XX` |
+| 06-Ecuaciones-Diferenciales | `ED-XX` |
+| 07-Metodos-Numericos | `MN-XX` |
+
+Donde `XX` es el número del subtema (01, 02, etc.)
+
+**Ejemplos de aplicación:**
+- `01-Vectores.../README.md` → `CV-01-Vectores-Intro.md`
+- `01-Vectores.../theory/README.md` → `theory/CV-01-Teoria-Vectores.md`
+- `01-Vectores.../summary.md` → `CV-01-Resumen-Formulas.md`
+
+**Beneficio:** La IA no encontrará 50 archivos con el mismo nombre, sino archivos con identificadores únicos que dan contexto inmediato.
+
+---
+
+## Estándar de Metadatos YAML (::METADATA::)
+
+Todo archivo `.md` debe comenzar con este bloque de metadatos:
+
+```markdown
+<!--
+::METADATA::
+type: [theory | method | problem | solution | reference | index | cheatsheet]
+topic_id: [id-del-tema-en-manifest]
+file_id: [identificador-unico-del-archivo]
+status: [draft | review | stable]
+audience: [student | ai_context | exam_review]
+requires: [lista-de-dependencias-opcional]
+-->
+```
+
+**Campos obligatorios:**
+- `type`: Función técnica del archivo
+- `topic_id`: Coincide con el `id` del `manifest.json`
+- `file_id`: Identificador único (igual al nombre del archivo sin extensión)
+- `status`: Estado de revisión
+- `audience`: Audiencia objetivo
+
+---
+
+## Estructura del manifest.json (Mapeo Flexible)
+
+El `manifest.json` actúa como mapa de recursos con la siguiente estructura:
+
+```json
+{
+  "id": "modulo-subtema",
+  "topic": "Nombre del Tema",
+  "type": "learning_module",
+  "status": "active",
+  "tags": ["etiqueta1", "etiqueta2"],
+  "prereqs": ["ruta/prerequisito"],
+  "resource_map": {
+    "entry_point": "PREFIJO-XX-Intro.md",
+    "main_theory": "theory/PREFIJO-XX-Teoria-Nombre.md",
+    "cheat_sheet": "PREFIJO-XX-Resumen-Formulas.md",
+    "methods": ["methods/PREFIJO-XX-Metodo-Nombre.md"],
+    "problems": ["problems/PREFIJO-XX-Problema-Nombre.md"]
+  },
+  "ai_config": {
+    "strict_mode": true,
+    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"]
+  }
+}
+```
+
+**Ventaja:** Permite cambiar nombres de archivo legibles mientras la IA siempre sabe cuál es el `entry_point` consultando el mapa.
+
+---
+
+## Tipos Especiales de Módulos
+
+### `reference_library` (Bibliotecas de Referencia)
+Para recursos como "Simbología Matemática" o "Tablas de Integrales":
+- Establecer `"type": "reference_library"` en el manifest
+- **No requieren** carpetas de `problems/`, `solutions/`, o `methods/`
+- Requisitos mínimos: archivo índice y contenido listado en `resource_map`
+
+```json
+{
+  "id": "ref-simbologia",
+  "topic": "Simbología Matemática",
+  "type": "reference_library",
+  "status": "active",
+  "resource_map": {
+    "entry_point": "REF-Simbologia-Index.md",
+    "content": ["REF-Simbologia-Griegos.md", "REF-Simbologia-Operadores.md"]
+  }
+}
+```
+
+---
 
 ## Reglas para generación automática
 

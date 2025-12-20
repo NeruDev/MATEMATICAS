@@ -1,6 +1,6 @@
 {
-  "topic": "Integral Indefinida",
-  "id": "integral-indefinida",
+  "topic_id": "01-integral-indefinida",
+  "title": "Integral Indefinida",
   "version": "1.0",
   "subtopics": [
     {"id": "1.1", "title": "Concepto de antiderivada"},
@@ -24,5 +24,13 @@
     "expected_inputs": "Función f(x) a integrar",
     "expected_outputs": "Antiderivada F(x) + C tal que F'(x) = f(x)",
     "verification": "Derivar el resultado debe dar la función original: d/dx[F(x)+C] = f(x)"
+  },
+  "resource_map": {
+    "entry_point": "CI-01-Integral-Indefinida-Intro.md",
+    "main_theory": "theory/CI-01-Teoria-Integral-Indefinida.md",
+    "cheat_sheet": "CI-01-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   }
 }

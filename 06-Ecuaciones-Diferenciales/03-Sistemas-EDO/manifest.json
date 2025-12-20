@@ -42,6 +42,14 @@
     "applications": "applications/",
     "media": "media/"
   },
+  "resource_map": {
+    "entry_point": "ED-03-Sistemas-EDO-Intro.md",
+    "cheat_sheet": "ED-03-Resumen-Formulas.md",
+    "main_theory": "theory/ED-03-Teoria-Sistemas-EDO.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
   "prerequisites": ["edo-segundo-orden", "valores-vectores-propios"],
   "tags": ["ecuaciones-diferenciales", "sistemas", "matrices", "retratos-fase"],
   "ai_contract": {

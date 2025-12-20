@@ -35,10 +35,20 @@
     }
   ],
   "directories": {
-    "theory": "theory/Teoria-EDO-Primer-Orden.md",
-    "methods": "methods/Metodos-EDO-Primer-Orden.md",
-    "problems": "problems/Problemas-EDO-Primer-Orden.md",
-    "solutions": "solutions/Soluciones-EDO-Primer-Orden.md"
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "solutions": "solutions/",
+    "applications": "applications/",
+    "media": "media/"
+  },
+  "resource_map": {
+    "entry_point": "ED-01-EDO-Primer-Orden-Intro.md",
+    "cheat_sheet": "ED-01-Resumen-Formulas.md",
+    "main_theory": "theory/ED-01-Teoria-EDO-Primer-Orden.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   },
   "prerequisites": ["calculo-integral"],
   "tags": ["ecuaciones-diferenciales", "edo", "primer-orden"],

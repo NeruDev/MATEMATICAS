@@ -42,6 +42,14 @@
     "applications": "applications/",
     "media": "media/"
   },
+  "resource_map": {
+    "entry_point": "ED-02-EDO-Segundo-Orden-Intro.md",
+    "cheat_sheet": "ED-02-Resumen-Formulas.md",
+    "main_theory": "theory/ED-02-Teoria-EDO-Segundo-Orden.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
   "prerequisites": ["edo-primer-orden", "algebra-lineal"],
   "tags": ["ecuaciones-diferenciales", "edo", "segundo-orden", "oscilaciones"],
   "ai_contract": {

@@ -2,6 +2,12 @@
   "topic": "Espacios Vectoriales",
   "id": "algebra-lineal-espacios",
   "version": "1.0",
+  "resource_map": {
+    "entry_point": "AL-04-Espacios-Vectoriales-Intro.md",
+    "main_theory": "theory/Teoria-Espacios-Vectoriales.md",
+    "cheat_sheet": "AL-04-Resumen-Formulas.md"
+  },
+  "ai_config": {"strict_mode": true},
   "subtopics": [
     {
       "id": "4.1",

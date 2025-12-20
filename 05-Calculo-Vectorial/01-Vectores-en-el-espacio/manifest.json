@@ -1,11 +1,22 @@
 {
-  "topic_id": "01-vectores-en-el-espacio",
-  "title": "Vectores en el espacio",
+  "id": "cv-01-vectores-espacio",
+  "topic": "Vectores en el Espacio",
+  "type": "learning_module",
+  "status": "active",
   "human_purpose": "Modelar posiciones, direcciones y objetos geométricos en R2 y R3 usando álgebra vectorial",
   "tags": ["geometria", "vectores", "producto-escalar", "producto-vectorial", "rectas", "planos"],
   "skill_nodes": ["algebra:vectores", "geometria:rectas-planos"],
   "prereqs": ["01-Fundamentos/04-Geometria", "01-Fundamentos/06-Geometria-Analitica"],
-  "ai_contract": {
+  "resource_map": {
+    "entry_point": "CV-01-Vectores-Intro.md",
+    "main_theory": "theory/CV-01-Teoria-Vectores.md",
+    "cheat_sheet": "CV-01-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
+  "ai_config": {
+    "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": [
       "explain_concept",
@@ -29,5 +40,11 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "legacy_files": {
+    "_note": "Archivos anteriores al sistema de nomenclatura semántica - pueden eliminarse",
+    "old_readme": "README.md",
+    "old_summary": "summary.md",
+    "old_theory": "theory/README.md"
   }
 }

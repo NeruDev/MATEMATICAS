@@ -1,11 +1,22 @@
 {
-  "topic_id": "05-integracion-multiple",
-  "title": "Integración múltiple",
+  "id": "cv-05-integracion-multiple",
+  "topic": "Integración múltiple",
+  "type": "learning_module",
+  "status": "active",
   "human_purpose": "Calcular áreas, volúmenes y flujos mediante integrales dobles, triples y teoremas para campos vectoriales",
   "tags": ["integrales-dobles", "integrales-triples", "polares", "cilindricas", "esfericas", "campos-vectoriales"],
   "skill_nodes": ["calculo:integrales-multiples", "calculo:campos-vectoriales"],
-  "prereqs": ["04-Calculo-Vectorial/04-Funciones-de-varias-variables"],
-  "ai_contract": {
+  "prereqs": ["05-Calculo-Vectorial/04-Funciones-de-varias-variables", "04-Calculo-Integral/03-Integral-Definida"],
+  "resource_map": {
+    "entry_point": "CV-05-Integracion-Multiple-Intro.md",
+    "main_theory": "theory/CV-05-Teoria-Integracion.md",
+    "cheat_sheet": "CV-05-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
+  "ai_config": {
+    "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": [
       "explain_concept",
@@ -29,5 +40,10 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "legacy_files": {
+    "_note": "Archivos anteriores al sistema de nomenclatura semántica - pueden eliminarse",
+    "old_readme": "README.md",
+    "old_summary": "summary.md"
   }
 }

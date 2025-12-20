@@ -66,5 +66,13 @@
     "expected_inputs": "Funciones, límites de integración, eje de revolución o tipo de aplicación",
     "expected_outputs": "Área, volumen, longitud o trabajo con unidades apropiadas",
     "verification": "Verificar dimensiones correctas, comparar con aproximaciones geométricas simples"
+  },
+  "resource_map": {
+    "entry_point": "CI-04-Aplicaciones-Integral-Intro.md",
+    "main_theory": "theory/CI-04-Teoria-Aplicaciones.md",
+    "cheat_sheet": "CI-04-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
   }
 }

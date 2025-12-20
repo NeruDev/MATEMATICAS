@@ -14,5 +14,27 @@
   "ai_contract": {
     "summary_min_words": 150,
     "required_sections": ["Definición", "Métodos", "Error", "Ejemplos"]
+  },
+  "resource_map": {
+    "index": [
+      {
+        "id": "MN-03-Integracion-Numerica-Intro",
+        "path": "MN-03-Integracion-Numerica-Intro.md",
+        "title": "Introducción a Integración Numérica",
+        "type": "index"
+      }
+    ],
+    "cheatsheet": [
+      {
+        "id": "MN-03-Resumen-Formulas",
+        "path": "MN-03-Resumen-Formulas.md",
+        "title": "Resumen de Fórmulas - Integración Numérica",
+        "type": "cheatsheet"
+      }
+    ],
+    "theory": [],
+    "problems": [],
+    "solutions": [],
+    "applications": []
   }
 }

@@ -14,5 +14,27 @@
   "ai_contract": {
     "summary_min_words": 150,
     "required_sections": ["Definición", "Métodos", "Error", "Ejemplos"]
+  },
+  "resource_map": {
+    "index": [
+      {
+        "id": "MN-02-Interpolacion-Intro",
+        "path": "MN-02-Interpolacion-Intro.md",
+        "title": "Introducción a Interpolación",
+        "type": "index"
+      }
+    ],
+    "cheatsheet": [
+      {
+        "id": "MN-02-Resumen-Formulas",
+        "path": "MN-02-Resumen-Formulas.md",
+        "title": "Resumen de Fórmulas - Interpolación",
+        "type": "cheatsheet"
+      }
+    ],
+    "theory": [],
+    "problems": [],
+    "solutions": [],
+    "applications": []
   }
 }

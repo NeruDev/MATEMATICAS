@@ -1,11 +1,22 @@
 {
-  "topic_id": "04-funciones-de-varias-variables",
-  "title": "Funciones reales de varias variables",
+  "id": "cv-04-funciones-varias-variables",
+  "topic": "Funciones reales de varias variables",
+  "type": "learning_module",
+  "status": "active",
   "human_purpose": "Analizar funciones multivariables para estudiar continuidad, derivadas parciales, gradientes y extremos",
   "tags": ["multivariable", "derivadas-parciales", "gradiente", "continuidad", "extremos"],
   "skill_nodes": ["calculo:varias-variables", "calculo:gradiente"],
-  "prereqs": ["03-Calculo-Integral/00-Index"],
-  "ai_contract": {
+  "prereqs": ["03-Calculo-Diferencial/01-Limites", "03-Calculo-Diferencial/02-Derivadas", "05-Calculo-Vectorial/01-Vectores-en-el-espacio"],
+  "resource_map": {
+    "entry_point": "CV-04-Varias-Variables-Intro.md",
+    "main_theory": "theory/CV-04-Teoria-Varias.md",
+    "cheat_sheet": "CV-04-Resumen-Formulas.md",
+    "methods": [],
+    "problems": [],
+    "solutions": []
+  },
+  "ai_config": {
+    "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": [
       "explain_concept",
@@ -29,5 +40,10 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "legacy_files": {
+    "_note": "Archivos anteriores al sistema de nomenclatura semántica - pueden eliminarse",
+    "old_readme": "README.md",
+    "old_summary": "summary.md"
   }
 }

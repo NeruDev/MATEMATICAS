@@ -1,9 +1,14 @@
 {
-  "topic_id": "04-geometria",
+  "topic_id": "fun-04-geometria",
   "title": "Geometría",
   "human_purpose": "Entender figuras, medidas y propiedades espaciales para preparar trigonometría y geometría analítica",
   "tags": ["figuras", "area", "volumen", "semejanza", "congruencia", "angulos"],
   "skill_nodes": ["geometria:planas", "geometria:medidas", "geometria:solidos"],
+  "resource_map": {
+    "index": "FUN-04-Geometria-Intro.md",
+    "cheatsheet": "FUN-04-Resumen-Formulas.md",
+    "theory": "theory/FUN-04-Teoria-Geometria.md"
+  },
   "subtopics": [
     {
       "id": "4.1",
