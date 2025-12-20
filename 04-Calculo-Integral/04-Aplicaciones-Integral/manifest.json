@@ -1,0 +1,56 @@
+{
+  "topic_id": "04-aplicaciones-integral",
+  "title": "Aplicaciones de la Integral",
+  "description": "Aplicaciones geométricas y físicas de la integral definida: áreas, volúmenes, longitud de arco, área de superficie, trabajo y valor promedio.",
+  "prerequisites": [
+    "03-integral-definida",
+    "02-tecnicas-integracion"
+  ],
+  "learning_objectives": [
+    "Calcular áreas entre curvas",
+    "Calcular volúmenes por discos, arandelas y capas cilíndricas",
+    "Determinar longitud de arco de una curva",
+    "Calcular área de superficies de revolución",
+    "Resolver problemas de trabajo",
+    "Calcular el valor promedio de una función"
+  ],
+  "estimated_time": "6-8 horas",
+  "difficulty": "intermedio-avanzado",
+  "subtopics": [
+    {
+      "id": "4.1",
+      "title": "Área entre curvas",
+      "description": "Área entre dos funciones"
+    },
+    {
+      "id": "4.2",
+      "title": "Volúmenes por discos y arandelas",
+      "description": "Sólidos de revolución alrededor de ejes"
+    },
+    {
+      "id": "4.3",
+      "title": "Volúmenes por capas cilíndricas",
+      "description": "Método de la capa cilíndrica"
+    },
+    {
+      "id": "4.4",
+      "title": "Longitud de arco",
+      "description": "Longitud de curvas planas"
+    },
+    {
+      "id": "4.5",
+      "title": "Área de superficie de revolución",
+      "description": "Superficies generadas por rotación"
+    },
+    {
+      "id": "4.6",
+      "title": "Trabajo",
+      "description": "Trabajo realizado por una fuerza variable"
+    },
+    {
+      "id": "4.7",
+      "title": "Valor promedio de una función",
+      "description": "Media integral de una función"
+    }
+  ]
+}

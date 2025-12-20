@@ -1,0 +1,70 @@
+{
+  "topic_id": "04-teoremas-fundamentales",
+  "title": "Teoremas Fundamentales del Cálculo Diferencial",
+  "human_purpose": "Comprender los teoremas que fundamentan el cálculo diferencial y sus aplicaciones",
+  "tags": ["rolle", "valor-medio", "lhopital", "teoremas", "formas-indeterminadas"],
+  "skill_nodes": ["calculo:teoremas", "calculo:formas-indeterminadas"],
+  "prereqs": ["02-Calculo-Diferencial/02-Derivadas"],
+  "subtopics": [
+    {
+      "code": "4.1",
+      "name": "Teorema de Rolle",
+      "description": "Si f(a)=f(b), existe c donde f'(c)=0"
+    },
+    {
+      "code": "4.2",
+      "name": "Teorema del valor medio",
+      "description": "Existe c donde la pendiente instantánea iguala la pendiente secante"
+    },
+    {
+      "code": "4.3",
+      "name": "Teorema del valor medio generalizado",
+      "description": "Extensión de Cauchy del teorema del valor medio"
+    },
+    {
+      "code": "4.4",
+      "name": "Regla de L'Hôpital",
+      "description": "Evaluación de límites con formas indeterminadas 0/0 y ∞/∞"
+    },
+    {
+      "code": "4.5",
+      "name": "Otras formas indeterminadas",
+      "description": "Formas 0·∞, ∞-∞, 0⁰, 1^∞, ∞⁰"
+    },
+    {
+      "code": "4.6",
+      "name": "Teorema de Taylor",
+      "description": "Aproximación polinomial de funciones"
+    },
+    {
+      "code": "4.7",
+      "name": "Series de Maclaurin",
+      "description": "Expansión en serie alrededor de x=0"
+    }
+  ],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

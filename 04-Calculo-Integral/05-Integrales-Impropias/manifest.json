@@ -1,0 +1,45 @@
+{
+  "topic_id": "05-integrales-impropias",
+  "title": "Integrales Impropias",
+  "description": "Integrales con límites infinitos o con discontinuidades en el integrando. Convergencia, divergencia y criterios de comparación.",
+  "prerequisites": [
+    "03-integral-definida",
+    "02-tecnicas-integracion"
+  ],
+  "learning_objectives": [
+    "Evaluar integrales impropias de tipo I (límites infinitos)",
+    "Evaluar integrales impropias de tipo II (discontinuidades)",
+    "Determinar convergencia o divergencia",
+    "Aplicar criterios de comparación",
+    "Reconocer integrales impropias convergentes clásicas"
+  ],
+  "estimated_time": "4-5 horas",
+  "difficulty": "avanzado",
+  "subtopics": [
+    {
+      "id": "5.1",
+      "title": "Tipo I: Límites infinitos",
+      "description": "Integrales con uno o ambos límites infinitos"
+    },
+    {
+      "id": "5.2",
+      "title": "Tipo II: Discontinuidades",
+      "description": "Integrales con discontinuidades en el integrando"
+    },
+    {
+      "id": "5.3",
+      "title": "Convergencia y divergencia",
+      "description": "Criterios para determinar si una integral converge"
+    },
+    {
+      "id": "5.4",
+      "title": "Criterio de comparación",
+      "description": "Comparación directa y por límite"
+    },
+    {
+      "id": "5.5",
+      "title": "Integrales p",
+      "description": "Integrales de la forma 1/x^p"
+    }
+  ]
+}

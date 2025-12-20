@@ -1,0 +1,46 @@
+<!--
+HUMANO:
+Índice del módulo de Cálculo Diferencial.
+Lista todos los temas disponibles en este módulo.
+
+IA:
+Usa este índice para navegar entre temas del módulo.
+
+---
+content_type: index
+expected_output:
+  default: markdown
+audience: self-study
+---
+-->
+
+# 02 - Cálculo Diferencial
+
+## Descripción del módulo
+
+Este módulo cubre el cálculo diferencial: límites, derivadas y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
+
+## Temas del módulo
+
+| # | Tema | Descripción |
+|---|------|-------------|
+| 1 | [01-Límites](./01-Limites/README.md) | Concepto de límite, continuidad, técnicas de evaluación |
+| 2 | [02-Derivadas](./02-Derivadas/README.md) | Definición, reglas de diferenciación, derivadas de orden superior |
+| 3 | [03-Aplicaciones de la Derivada](./03-Aplicaciones-de-la-derivada/README.md) | Optimización, análisis de funciones, razones relacionadas |
+| 4 | [04-Teoremas Fundamentales](./04-Teoremas-fundamentales/README.md) | Rolle, valor medio, L'Hôpital, Taylor |
+
+## Prerequisitos
+
+- **01-Fundamentos** completo
+- Dominio de funciones algebraicas y trascendentes
+
+## Conexión con otros módulos
+
+- **Anterior:** 01-Fundamentos
+- **Siguiente:** 03-Calculo-Integral (integración como operación inversa)
+
+---
+
+<!--
+IA: Actualiza este índice cuando se agreguen nuevos temas al módulo.
+-->

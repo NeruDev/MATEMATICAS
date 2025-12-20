@@ -1,0 +1,75 @@
+{
+  "topic_id": "02-derivadas",
+  "title": "La Derivada",
+  "human_purpose": "Comprender la derivada como tasa de cambio instantánea y dominar las técnicas de diferenciación",
+  "tags": ["derivada", "diferenciacion", "tasa-de-cambio", "reglas-derivacion", "derivadas-funciones"],
+  "skill_nodes": ["calculo:derivadas", "calculo:diferenciacion"],
+  "prereqs": ["02-Calculo-Diferencial/01-Limites", "01-Fundamentos/01-Funciones"],
+  "subtopics": [
+    {
+      "code": "2.1",
+      "name": "Definición de derivada",
+      "description": "Límite del cociente incremental, interpretación geométrica y física"
+    },
+    {
+      "code": "2.2",
+      "name": "Derivadas de funciones elementales",
+      "description": "Derivadas de constantes, potencias, exponenciales, logarítmicas, trigonométricas"
+    },
+    {
+      "code": "2.3",
+      "name": "Reglas de diferenciación",
+      "description": "Suma, resta, producto, cociente"
+    },
+    {
+      "code": "2.4",
+      "name": "Regla de la cadena",
+      "description": "Derivada de funciones compuestas"
+    },
+    {
+      "code": "2.5",
+      "name": "Derivación implícita",
+      "description": "Derivadas de ecuaciones que definen funciones implícitamente"
+    },
+    {
+      "code": "2.6",
+      "name": "Derivadas de orden superior",
+      "description": "Segunda derivada, derivadas sucesivas, notación"
+    },
+    {
+      "code": "2.7",
+      "name": "Derivadas de funciones inversas",
+      "description": "Derivada de la función inversa, funciones trigonométricas inversas"
+    },
+    {
+      "code": "2.8",
+      "name": "Derivación logarítmica",
+      "description": "Técnica de logaritmos para productos, cocientes y potencias complicadas"
+    }
+  ],
+  "ai_contract": {
+    "default_output": "markdown",
+    "allowed_tasks": [
+      "explain_concept",
+      "generate_problems",
+      "convert_format",
+      "verify_solution",
+      "diagnostic_check"
+    ],
+    "solution_guidelines": {
+      "require_context": true,
+      "context_format": "Antes de resolver, explica brevemente qué concepto o método se aplica y por qué es el adecuado.",
+      "step_by_step": true,
+      "didactic_tone": "Guía al estudiante como si fuera un tutor: indica qué observar, qué fórmula usar y cómo verificar el resultado."
+    }
+  },
+  "directories": {
+    "theory": "theory",
+    "methods": "methods",
+    "problems": "problems",
+    "solutions": "solutions",
+    "media": "media",
+    "diagnostic": "diagnostic",
+    "applications": "applications"
+  }
+}

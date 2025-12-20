@@ -1,9 +1,69 @@
 {
   "topic_id": "06-geometria-analitica",
   "title": "Geometría Analítica",
-  "human_purpose": "Conectar geometría y álgebra en el plano cartesiano para medir y modelar",
-  "tags": ["coordenadas", "rectas", "pendiente", "distancia"],
-  "skill_nodes": ["geometria-analitica:rectas", "geometria-analitica:distancias"],
+  "human_purpose": "Conectar geometría y álgebra mediante coordenadas cartesianas para analizar figuras, distancias y lugares geométricos",
+  "tags": ["coordenadas", "rectas", "pendiente", "distancia", "cónicas", "circunferencia", "parábola", "elipse", "hipérbola"],
+  "skill_nodes": [
+    "geometria-analitica:plano-cartesiano",
+    "geometria-analitica:rectas",
+    "geometria-analitica:distancias",
+    "geometria-analitica:circunferencia",
+    "geometria-analitica:parabola",
+    "geometria-analitica:elipse",
+    "geometria-analitica:hiperbola"
+  ],
+  "subtopics": [
+    {
+      "id": "6.1",
+      "name": "El plano cartesiano",
+      "description": "Sistema de coordenadas, cuadrantes, puntos, gráficas"
+    },
+    {
+      "id": "6.2",
+      "name": "Distancia y punto medio",
+      "description": "Fórmula de distancia, punto medio, división de segmentos"
+    },
+    {
+      "id": "6.3",
+      "name": "La línea recta",
+      "description": "Pendiente, formas de la ecuación, rectas paralelas y perpendiculares"
+    },
+    {
+      "id": "6.4",
+      "name": "La circunferencia",
+      "description": "Ecuación estándar y general, centro, radio, posiciones relativas"
+    },
+    {
+      "id": "6.5",
+      "name": "La parábola",
+      "description": "Vértice, foco, directriz, parámetro, orientaciones"
+    },
+    {
+      "id": "6.6",
+      "name": "La elipse",
+      "description": "Focos, ejes, excentricidad, ecuaciones"
+    },
+    {
+      "id": "6.7",
+      "name": "La hipérbola",
+      "description": "Focos, asíntotas, ecuaciones, formas"
+    },
+    {
+      "id": "6.8",
+      "name": "Ecuación general de segundo grado",
+      "description": "Clasificación de cónicas, rotación de ejes, discriminante"
+    },
+    {
+      "id": "6.9",
+      "name": "Transformaciones en el plano",
+      "description": "Traslación, rotación, reflexión, homotecias"
+    },
+    {
+      "id": "6.10",
+      "name": "Aplicaciones de la geometría analítica",
+      "description": "Problemas de optimización, lugares geométricos, modelado"
+    }
+  ],
   "ai_contract": {
     "default_output": "markdown",
     "allowed_tasks": [
@@ -12,7 +72,12 @@
       "convert_format",
       "verify_solution",
       "diagnostic_check"
-    ]
+    ],
+    "solution_guidelines": {
+      "format": "context + development + verification",
+      "context_requirement": "Always mention the geometric figure and relevant formulas",
+      "graphical_interpretation": "Include geometric interpretation when possible"
+    }
   },
   "directories": {
     "theory": "theory",

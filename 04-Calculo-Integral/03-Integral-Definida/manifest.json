@@ -1,0 +1,14 @@
+{
+  "topic": "Integral Definida",
+  "id": "integral-definida",
+  "version": "1.0",
+  "subtopics": [
+    {"id": "3.1", "title": "Sumas de Riemann"},
+    {"id": "3.2", "title": "Definición de integral definida"},
+    {"id": "3.3", "title": "Propiedades de la integral definida"},
+    {"id": "3.4", "title": "Teorema fundamental del cálculo (parte 1)"},
+    {"id": "3.5", "title": "Teorema fundamental del cálculo (parte 2)"},
+    {"id": "3.6", "title": "Sustitución en integrales definidas"},
+    {"id": "3.7", "title": "Integrales de funciones pares e impares"}
+  ]
+}

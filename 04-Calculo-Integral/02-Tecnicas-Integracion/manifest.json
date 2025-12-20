@@ -1,0 +1,15 @@
+{
+  "topic": "Técnicas de Integración",
+  "id": "tecnicas-integracion",
+  "version": "1.0",
+  "subtopics": [
+    {"id": "2.1", "title": "Sustitución (cambio de variable)"},
+    {"id": "2.2", "title": "Integración por partes"},
+    {"id": "2.3", "title": "Integrales trigonométricas"},
+    {"id": "2.4", "title": "Sustitución trigonométrica"},
+    {"id": "2.5", "title": "Fracciones parciales"},
+    {"id": "2.6", "title": "Racionalización"},
+    {"id": "2.7", "title": "Integrales con radicales"},
+    {"id": "2.8", "title": "Estrategias de integración"}
+  ]
+}
