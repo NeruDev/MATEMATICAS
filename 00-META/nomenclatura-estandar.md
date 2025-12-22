@@ -373,42 +373,45 @@ Para migrar archivos del formato antiguo:
 | Módulo | Problemas | Respuestas | Soluciones | Estado |
 |:-------|:---------:|:----------:|:----------:|:------:|
 | **01-Fundamentos** ||||
-| FUN-02 Aritmética | ✅ (85) | ⏳ | ⏳ | Problemas migrados |
-| FUN-03 Álgebra | ✅ (108) | ⏳ | ⏳ | Problemas migrados |
-| FUN-04 Geometría | ✅ (110) | ⏳ | ⏳ | Problemas migrados |
-| FUN-05 Trigonometría | ✅ (105) | ⏳ | ⏳ | Problemas migrados |
-| FUN-06 Geometría Analítica | ✅ (87) | ⏳ | ⏳ | Problemas migrados |
+| FUN-02 Aritmética | ✅ (85) | ✅ | ⏳ | **Nivel 2 completado** |
+| FUN-03 Álgebra | ✅ (108) | ✅ | ⏳ | **Nivel 2 completado** |
+| FUN-04 Geometría | ✅ (110) | ✅ | ⏳ | **Nivel 2 completado** |
+| FUN-05 Trigonometría | ✅ (105) | ✅ | ⏳ | **Nivel 2 completado** |
+| FUN-06 Geometría Analítica | ✅ (87) | ✅ | ⏳ | **Nivel 2 completado** |
 | **02-Algebra-Lineal** ||||
 | AL-01 Matrices | ✅ (32) | ✅ | ✅ (9) | **Completado** |
-| AL-02 Determinantes | ✅ (28) | ⏳ | ⏳ | Problemas migrados |
-| AL-03 Sistemas Lineales | ✅ (23) | ⏳ | ⏳ | Problemas migrados |
-| AL-04 Espacios Vectoriales | ✅ (32) | ⏳ | ⏳ | Problemas migrados |
-| AL-05 Transformaciones | ✅ (28) | ⏳ | ⏳ | Problemas migrados |
-| AL-06 Valores Propios | ✅ (28) | ⏳ | ⏳ | Problemas migrados |
+| AL-02 Determinantes | ✅ (28) | ✅ | ⏳ | **Nivel 2 completado** |
+| AL-03 Sistemas Lineales | ✅ (23) | ✅ | ⏳ | **Nivel 2 completado** |
+| AL-04 Espacios Vectoriales | ✅ (32) | ✅ | ⏳ | **Nivel 2 completado** |
+| AL-05 Transformaciones | ✅ (28) | ✅ | ⏳ | **Nivel 2 completado** |
+| AL-06 Valores Propios | ✅ (28) | ✅ | ⏳ | **Nivel 2 completado** |
 | **03-Calculo-Diferencial** ||||
 | CD-01 Límites | ✅ (57) | ✅ | ✅ (5) | **Completado** |
-| CD-02 Derivadas | ✅ (59) | ⏳ | ⏳ | Problemas migrados |
-| CD-03 Aplicaciones | ✅ (48) | ⏳ | ⏳ | Problemas migrados |
-| CD-04 Teoremas | ✅ (80) | ⏳ | ⏳ | Problemas migrados |
+| CD-02 Derivadas | ✅ (59) | ✅ | ⏳ | **Nivel 2 completado** |
+| CD-03 Aplicaciones | ✅ (48) | ✅ | ⏳ | **Nivel 2 completado** |
+| CD-04 Teoremas | ✅ (80) | ✅ | ⏳ | **Nivel 2 completado** |
 | **04-Calculo-Integral** ||||
-| CI-01 Integral Indefinida | ✅ (60) | ⏳ | ⏳ | Problemas migrados |
-| CI-02 Técnicas Integración | ✅ (70) | ⏳ | ⏳ | Problemas migrados |
-| CI-03 Integral Definida | ✅ (42) | ⏳ | ⏳ | Problemas migrados |
-| CI-04 Aplicaciones | ✅ (45) | ⏳ | ⏳ | Problemas migrados |
-| CI-05 Integrales Impropias | ✅ (40) | ⏳ | ⏳ | Problemas migrados |
+| CI-01 Integral Indefinida | ✅ (60) | ✅ | ⏳ | **Nivel 2 completado** |
+| CI-02 Técnicas Integración | ✅ (70) | ✅ | ⏳ | **Nivel 2 completado** |
+| CI-03 Integral Definida | ✅ (42) | ✅ | ⏳ | **Nivel 2 completado** |
+| CI-04 Aplicaciones | ✅ (45) | ✅ | ⏳ | **Nivel 2 completado** |
+| CI-05 Integrales Impropias | ✅ (40) | ✅ | ⏳ | **Nivel 2 completado** |
 | **06-Ecuaciones-Diferenciales** ||||
-| ED-01 EDO Primer Orden | ✅ (28) | ⏳ | ⏳ | Problemas migrados |
-| ED-02 EDO Segundo Orden | ✅ (30) | ⏳ | ⏳ | Problemas migrados |
-| ED-03 Sistemas EDO | ✅ (23) | ⏳ | ⏳ | Problemas migrados |
-| ED-04 Transformada Laplace | ✅ (24) | ⏳ | ⏳ | Problemas migrados |
-| ED-05 Series Potencias | ✅ (20) | ⏳ | ⏳ | Problemas migrados |
+| ED-01 EDO Primer Orden | ✅ (28) | ✅ | ⏳ | **Nivel 2 completado** |
+| ED-02 EDO Segundo Orden | ✅ (30) | ✅ | ⏳ | **Nivel 2 completado** |
+| ED-03 Sistemas EDO | ✅ (23) | ✅ | ⏳ | **Nivel 2 completado** |
+| ED-04 Transformada Laplace | ✅ (24) | ✅ | ⏳ | **Nivel 2 completado** |
+| ED-05 Series Potencias | ✅ (20) | ✅ | ⏳ | **Nivel 2 completado** |
 | **07-Metodos-Numericos** ||||
-| MN-01 Raíces Ecuaciones | ✅ (32) | ⏳ | ⏳ | Problemas migrados |
-| MN-02 Interpolación | ✅ (30) | ⏳ | ⏳ | Problemas migrados |
-| MN-03 Integración Numérica | ✅ (37) | ⏳ | ⏳ | Problemas migrados |
-| MN-04 EDO Numéricas | ✅ (34) | ⏳ | ⏳ | Problemas migrados |
+| MN-01 Raíces Ecuaciones | ✅ (32) | ✅ | ⏳ | **Nivel 2 completado** |
+| MN-02 Interpolación | ✅ (30) | ✅ | ⏳ | **Nivel 2 completado** |
+| MN-03 Integración Numérica | ✅ (37) | ✅ | ⏳ | **Nivel 2 completado** |
+| MN-04 EDO Numéricas | ✅ (34) | ✅ | ⏳ | **Nivel 2 completado** |
 
-**Resumen:** 1,425 problemas migrados al formato estándar con IDs `[Prob-XX]`
+**Resumen:** 
+- **1,425 problemas** con IDs estandarizados `[Prob-XX]`
+- **29 archivos de respuestas** creados
+- **14 carpetas de soluciones** desarrolladas (AL-01: 9, CD-01: 5)
 
 > ⏳ = Pendiente | ✅ = Completado | 🔄 = En progreso
 
