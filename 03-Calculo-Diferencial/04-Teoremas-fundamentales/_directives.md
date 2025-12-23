@@ -1,16 +1,27 @@
 <!--
-HUMANO:
-Directivas para Teoremas Fundamentales.
-
-IA:
-Series de Maclaurin y convenciones.
-
----
-content_type: directives
----
+::METADATA::
+type: reference
+topic_id: teoremas-fundamentales
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas para Teoremas Fundamentales
+
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `CD-04-Teoria-Teoremas-Fundamentales.md` | Teoría de teoremas fundamentales |
+| `methods/` | `CD-04-Metodos-Teoremas-Fundamentales.md` | Procedimientos paso a paso |
+| `problems/` | `CD-04-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `CD-04-Respuestas.md`, `CD-04-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `CD-04-Teoremas-Fundamentales-Intro.md` | — | Entrada principal del tema |
+| `CD-04-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
+
+---
 
 ## Series de Maclaurin Estándar
 

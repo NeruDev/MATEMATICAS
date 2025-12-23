@@ -4,8 +4,12 @@
   "description": "Cálculo de determinantes, propiedades, cofactores, adjunta y aplicaciones.",
   "resource_map": {
     "entry_point": "AL-02-Determinantes-Intro.md",
-    "main_theory": "theory/Teoria-Determinantes.md",
-    "cheat_sheet": "AL-02-Resumen-Formulas.md"
+    "main_theory": "theory/AL-02-Teoria-Determinantes.md",
+    "cheat_sheet": "AL-02-Resumen-Formulas.md",
+    "methods": ["methods/AL-02-Metodos-Determinantes.md"],
+    "problems": ["problems/AL-02-Problemas.md"],
+    "answers": "solutions/AL-02-Respuestas.md",
+    "solutions": ["solutions/AL-02-Soluciones-Desarrolladas.md"]
   },
   "ai_config": {"strict_mode": true},
   "prerequisites": ["01-matrices"],

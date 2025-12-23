@@ -70,6 +70,7 @@
   },
   "resource_map": {
     "entry_point": "CD-01-Limites-Intro.md",
+    "main_theory": "theory/CD-01-Teoria-Limites.md",
     "cheat_sheet": "CD-01-Resumen-Formulas.md",
     "problems": "problems/CD-01-Problemas.md",
     "answers": "solutions/CD-01-Respuestas.md",

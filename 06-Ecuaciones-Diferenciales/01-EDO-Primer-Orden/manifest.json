@@ -46,9 +46,10 @@
     "entry_point": "ED-01-EDO-Primer-Orden-Intro.md",
     "cheat_sheet": "ED-01-Resumen-Formulas.md",
     "main_theory": "theory/ED-01-Teoria-EDO-Primer-Orden.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/ED-01-Metodos-EDO-Primer-Orden.md"],
+    "problems": ["problems/ED-01-Problemas.md"],
+    "answers": "solutions/ED-01-Respuestas.md",
+    "solutions": ["solutions/ED-01-Soluciones-Desarrolladas.md"]
   },
   "prerequisites": ["calculo-integral"],
   "tags": ["ecuaciones-diferenciales", "edo", "primer-orden"],

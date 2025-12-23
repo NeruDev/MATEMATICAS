@@ -40,10 +40,11 @@
   "resource_map": {
     "entry_point": "ED-04-Transformada-Laplace-Intro.md",
     "cheat_sheet": "ED-04-Resumen-Formulas.md",
-    "main_theory": "theory/ED-04-Teoria-Laplace.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "main_theory": "theory/ED-04-Teoria-Transformada-Laplace.md",
+    "methods": ["methods/ED-04-Metodos-Transformada-Laplace.md"],
+    "problems": ["problems/ED-04-Problemas.md"],
+    "answers": "solutions/ED-04-Respuestas.md",
+    "solutions": ["solutions/ED-04-Soluciones-Desarrolladas.md"]
   },
   "prerequisites": ["edo-segundo-orden", "calculo-integral"],
   "tags": ["ecuaciones-diferenciales", "laplace", "transformadas", "pvi"],

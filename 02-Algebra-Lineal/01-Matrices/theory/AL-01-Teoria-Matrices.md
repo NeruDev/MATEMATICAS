@@ -1,7 +1,10 @@
 <!--
-content_type: theory
-format: formal_exposition
----
+::METADATA::
+type: theory
+topic_id: al-01-matrices
+file_id: AL-01-Teoria-Matrices
+status: stable
+audience: student
 -->
 
 # Teoría de Matrices

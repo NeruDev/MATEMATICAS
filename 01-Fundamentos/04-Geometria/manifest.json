@@ -5,9 +5,13 @@
   "tags": ["figuras", "area", "volumen", "semejanza", "congruencia", "angulos"],
   "skill_nodes": ["geometria:planas", "geometria:medidas", "geometria:solidos"],
   "resource_map": {
-    "index": "FUN-04-Geometria-Intro.md",
-    "cheatsheet": "FUN-04-Resumen-Formulas.md",
-    "theory": "theory/FUN-04-Teoria-Geometria.md"
+    "entry_point": "FUN-04-Geometria-Intro.md",
+    "cheat_sheet": "FUN-04-Resumen-Formulas.md",
+    "main_theory": "theory/FUN-04-Teoria-Geometria.md",
+    "methods": ["methods/FUN-04-Metodos-Geometria.md"],
+    "problems": ["problems/FUN-04-Problemas.md"],
+    "answers": "solutions/FUN-04-Respuestas.md",
+    "solutions": ["solutions/FUN-04-Soluciones-Desarrolladas.md"]
   },
   "subtopics": [
     {

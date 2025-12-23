@@ -29,7 +29,7 @@
     "entry_point": "CI-01-Integral-Indefinida-Intro.md",
     "main_theory": "theory/CI-01-Teoria-Integral-Indefinida.md",
     "cheat_sheet": "CI-01-Resumen-Formulas.md",
-    "methods": [],
+    "methods": ["methods/CI-01-Metodos-Integracion.md"],
     "problems": [],
     "solutions": []
   }

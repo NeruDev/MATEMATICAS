@@ -57,10 +57,11 @@
   },
   "resource_map": {
     "entry_point": "CI-05-Integrales-Impropias-Intro.md",
-    "main_theory": "theory/CI-05-Teoria-Impropias.md",
+    "main_theory": "theory/CI-05-Teoria-Integrales-Impropias.md",
     "cheat_sheet": "CI-05-Resumen-Formulas.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/CI-05-Metodos-Integrales-Impropias.md"],
+    "problems": ["problems/CI-05-Problemas.md"],
+    "answers": "solutions/CI-05-Respuestas.md",
+    "solutions": ["solutions/CI-05-Soluciones-Desarrolladas.md"]
   }
 }

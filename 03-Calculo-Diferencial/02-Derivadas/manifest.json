@@ -64,16 +64,13 @@
     }
   },
   "resource_map": {
-    "index": {
-      "file_id": "CD-02-Derivadas-Intro",
-      "path": "CD-02-Derivadas-Intro.md",
-      "type": "index"
-    },
-    "cheatsheet": {
-      "file_id": "CD-02-Resumen-Formulas",
-      "path": "CD-02-Resumen-Formulas.md",
-      "type": "cheatsheet"
-    }
+    "entry_point": "CD-02-Derivadas-Intro.md",
+    "main_theory": "theory/CD-02-Teoria-Derivadas.md",
+    "cheat_sheet": "CD-02-Resumen-Formulas.md",
+    "methods": ["methods/CD-02-Metodos-Derivadas.md"],
+    "problems": ["problems/CD-02-Problemas.md"],
+    "answers": "solutions/CD-02-Respuestas.md",
+    "solutions": ["solutions/CD-02-Soluciones-Desarrolladas.md"]
   },
   "directories": {
     "theory": "theory",

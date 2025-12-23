@@ -16,25 +16,12 @@
     "required_sections": ["Definición", "Métodos", "Convergencia", "Ejemplos"]
   },
   "resource_map": {
-    "index": [
-      {
-        "id": "MN-01-Raices-Intro",
-        "path": "MN-01-Raices-Intro.md",
-        "title": "Introducción a Raíces de Ecuaciones",
-        "type": "index"
-      }
-    ],
-    "cheatsheet": [
-      {
-        "id": "MN-01-Resumen-Formulas",
-        "path": "MN-01-Resumen-Formulas.md",
-        "title": "Resumen de Fórmulas - Raíces de Ecuaciones",
-        "type": "cheatsheet"
-      }
-    ],
-    "theory": [],
-    "problems": [],
-    "solutions": [],
-    "applications": []
+    "entry_point": "MN-01-Raices-Intro.md",
+    "cheat_sheet": "MN-01-Resumen-Formulas.md",
+    "main_theory": "theory/MN-01-Teoria-Raices-Ecuaciones.md",
+    "methods": ["methods/MN-01-Metodos-Raices-Ecuaciones.md"],
+    "problems": ["problems/MN-01-Problemas.md"],
+    "answers": "solutions/MN-01-Respuestas.md",
+    "solutions": ["solutions/MN-01-Soluciones-Desarrolladas.md"]
   }
 }

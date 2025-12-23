@@ -16,25 +16,12 @@
     "required_sections": ["Definición", "Métodos", "Error", "Ejemplos"]
   },
   "resource_map": {
-    "index": [
-      {
-        "id": "MN-03-Integracion-Numerica-Intro",
-        "path": "MN-03-Integracion-Numerica-Intro.md",
-        "title": "Introducción a Integración Numérica",
-        "type": "index"
-      }
-    ],
-    "cheatsheet": [
-      {
-        "id": "MN-03-Resumen-Formulas",
-        "path": "MN-03-Resumen-Formulas.md",
-        "title": "Resumen de Fórmulas - Integración Numérica",
-        "type": "cheatsheet"
-      }
-    ],
-    "theory": [],
-    "problems": [],
-    "solutions": [],
-    "applications": []
+    "entry_point": "MN-03-Integracion-Numerica-Intro.md",
+    "cheat_sheet": "MN-03-Resumen-Formulas.md",
+    "main_theory": "theory/MN-03-Teoria-Integracion-Numerica.md",
+    "methods": ["methods/MN-03-Metodos-Integracion-Numerica.md"],
+    "problems": ["problems/MN-03-Problemas.md"],
+    "answers": "solutions/MN-03-Respuestas.md",
+    "solutions": ["solutions/MN-03-Soluciones-Desarrolladas.md"]
   }
 }

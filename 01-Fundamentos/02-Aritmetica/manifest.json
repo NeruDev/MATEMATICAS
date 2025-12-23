@@ -66,17 +66,16 @@
     "entry_point": "FUN-02-Aritmetica-Intro.md",
     "main_theory": "theory/FUN-02-Teoria-Aritmetica.md",
     "cheat_sheet": "FUN-02-Resumen-Formulas.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/FUN-02-Metodos-Aritmetica.md"],
+    "problems": ["problems/FUN-02-Problemas.md"],
+    "answers": "solutions/FUN-02-Respuestas.md",
+    "solutions": ["solutions/FUN-02-Soluciones-Desarrolladas.md"]
   },
   "ai_config": {
     "strict_mode": true
   },
   "legacy_files": {
-    "old_summary": "summary.md",
-    "old_resumen": "resumen-aritmetica.md",
-    "old_theory": "theory/teoria.md"
+    "note": "All files migrated to standard nomenclature FUN-02-*"
   },
   "directories": {
     "theory": "theory",

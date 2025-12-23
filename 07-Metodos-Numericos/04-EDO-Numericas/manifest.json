@@ -29,25 +29,12 @@
     "verification": "Comparar con solución analítica cuando existe, análisis de convergencia con h→0"
   },
   "resource_map": {
-    "index": [
-      {
-        "id": "MN-04-EDO-Numericas-Intro",
-        "path": "MN-04-EDO-Numericas-Intro.md",
-        "title": "Introducción a EDO Numéricas",
-        "type": "index"
-      }
-    ],
-    "cheatsheet": [
-      {
-        "id": "MN-04-Resumen-Formulas",
-        "path": "MN-04-Resumen-Formulas.md",
-        "title": "Resumen de Fórmulas - EDO Numéricas",
-        "type": "cheatsheet"
-      }
-    ],
-    "theory": [],
-    "problems": [],
-    "solutions": [],
-    "applications": []
+    "entry_point": "MN-04-EDO-Numericas-Intro.md",
+    "cheat_sheet": "MN-04-Resumen-Formulas.md",
+    "main_theory": "theory/MN-04-Teoria-EDO-Numericas.md",
+    "methods": ["methods/MN-04-Metodos-EDO-Numericas.md"],
+    "problems": ["problems/MN-04-Problemas.md"],
+    "answers": "solutions/MN-04-Respuestas.md",
+    "solutions": ["solutions/MN-04-Soluciones-Desarrolladas.md"]
   }
 }

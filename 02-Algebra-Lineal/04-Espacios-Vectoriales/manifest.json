@@ -4,8 +4,12 @@
   "version": "1.0",
   "resource_map": {
     "entry_point": "AL-04-Espacios-Vectoriales-Intro.md",
-    "main_theory": "theory/Teoria-Espacios-Vectoriales.md",
-    "cheat_sheet": "AL-04-Resumen-Formulas.md"
+    "main_theory": "theory/AL-04-Teoria-Espacios-Vectoriales.md",
+    "cheat_sheet": "AL-04-Resumen-Formulas.md",
+    "methods": ["methods/AL-04-Metodos-Espacios-Vectoriales.md"],
+    "problems": ["problems/AL-04-Problemas.md"],
+    "answers": "solutions/AL-04-Respuestas.md",
+    "solutions": ["solutions/AL-04-Soluciones-Desarrolladas.md"]
   },
   "ai_config": {"strict_mode": true},
   "subtopics": [
@@ -41,10 +45,10 @@
     }
   ],
   "directories": {
-    "theory": "theory/Teoria-Espacios-Vectoriales.md",
-    "methods": "methods/Metodos-Espacios-Vectoriales.md",
-    "problems": "problems/Problemas-Espacios-Vectoriales.md",
-    "solutions": "solutions/Soluciones-Espacios-Vectoriales.md"
+    "theory": "theory/AL-04-Teoria-Espacios-Vectoriales.md",
+    "methods": "methods/AL-04-Metodos-Espacios-Vectoriales.md",
+    "problems": "problems/AL-04-Problemas.md",
+    "solutions": "solutions/AL-04-Soluciones-Desarrolladas.md"
   },
   "prerequisites": ["algebra-lineal-matrices", "algebra-lineal-sistemas"],
   "tags": [

@@ -1,11 +1,29 @@
 <!--
-Directivas específicas para el tema de Trigonometría.
-Este archivo clasifica el contenido de cada carpeta dentro de 05-Trigonometria.
+::METADATA::
+type: reference
+topic_id: trigonometria
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas de Trigonometría (05)
 
-## Clasificación de Contenido
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `FUN-05-Teoria-Trigonometria.md` | Teoría de trigonometría |
+| `methods/` | `FUN-05-Metodos-Trigonometria.md` | Procedimientos paso a paso |
+| `problems/` | `FUN-05-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `FUN-05-Respuestas.md`, `FUN-05-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `FUN-05-Trigonometria-Intro.md` | — | Entrada principal del tema |
+| `FUN-05-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
+
+---
+
+## Contenido por Carpetas
 
 ### 📁 theory/
 **Propósito:** Fundamentos teóricos de trigonometría plana.

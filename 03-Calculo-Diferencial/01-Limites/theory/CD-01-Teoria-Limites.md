@@ -1,16 +1,10 @@
 <!--
-HUMANO:
-Teoría completa de límites.
-
-IA:
-Este archivo define CONCEPTOS de límites.
-
----
-content_type: theory
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: theory
+topic_id: cd-01-limites
+file_id: CD-01-Teoria-Limites
+status: stable
+audience: student
 -->
 
 # Teoría de Límites

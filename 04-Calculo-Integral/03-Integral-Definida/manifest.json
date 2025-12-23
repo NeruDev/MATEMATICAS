@@ -28,8 +28,9 @@
     "entry_point": "CI-03-Integral-Definida-Intro.md",
     "main_theory": "theory/CI-03-Teoria-Integral-Definida.md",
     "cheat_sheet": "CI-03-Resumen-Formulas.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/CI-03-Metodos-Integral-Definida.md"],
+    "problems": ["problems/CI-03-Problemas.md"],
+    "answers": "solutions/CI-03-Respuestas.md",
+    "solutions": ["solutions/CI-03-Soluciones-Desarrolladas.md"]
   }
 }

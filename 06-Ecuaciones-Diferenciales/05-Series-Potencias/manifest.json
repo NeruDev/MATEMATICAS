@@ -35,10 +35,11 @@
   "resource_map": {
     "entry_point": "ED-05-Series-Potencias-Intro.md",
     "cheat_sheet": "ED-05-Resumen-Formulas.md",
-    "main_theory": "theory/ED-05-Teoria-Series-EDO.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "main_theory": "theory/ED-05-Teoria-Series-Potencias.md",
+    "methods": ["methods/ED-05-Metodos-Series-Potencias.md"],
+    "problems": ["problems/ED-05-Problemas.md"],
+    "answers": "solutions/ED-05-Respuestas.md",
+    "solutions": ["solutions/ED-05-Soluciones-Desarrolladas.md"]
   },
   "prerequisites": ["edo-segundo-orden", "series-taylor"],
   "tags": ["ecuaciones-diferenciales", "series", "frobenius", "bessel"],
