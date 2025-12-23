@@ -1,6 +1,9 @@
 {
-  "topic_id": "fun-03-algebra",
-  "title": "Álgebra",
+  "id": "fun-03-algebra",
+  "topic": "Álgebra",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Desarrollar manipulación simbólica y resolución de ecuaciones como base para funciones y cálculo",
   "tags": ["expresiones", "polinomios", "ecuaciones", "factorizacion", "desigualdades", "sistemas"],
   "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales", "algebra:ecuaciones-cuadraticas", "algebra:sistemas"],

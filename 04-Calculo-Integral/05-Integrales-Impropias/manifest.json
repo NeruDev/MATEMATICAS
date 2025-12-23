@@ -1,7 +1,10 @@
 {
-  "topic_id": "05-integrales-impropias",
-  "title": "Integrales Impropias",
-  "description": "Integrales con límites infinitos o con discontinuidades en el integrando. Convergencia, divergencia y criterios de comparación.",
+  "id": "ci-05-integrales-impropias",
+  "topic": "Integrales Impropias",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Integrales con límites infinitos o discontinuidades: convergencia, divergencia y criterios de comparación.",
   "prerequisites": [
     "03-integral-definida",
     "02-tecnicas-integracion"

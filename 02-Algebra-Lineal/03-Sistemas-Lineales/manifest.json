@@ -1,7 +1,10 @@
 {
-  "topic_id": "03-sistemas-lineales",
-  "title": "Sistemas de Ecuaciones Lineales",
-  "description": "Métodos de solución, eliminación gaussiana, forma escalonada, soluciones y clasificación.",
+  "id": "al-03-sistemas-lineales",
+  "topic": "Sistemas de Ecuaciones Lineales",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos de solución, eliminación gaussiana, forma escalonada, soluciones y clasificación.",
   "resource_map": {
     "entry_point": "AL-03-Sistemas-Lineales-Intro.md",
     "main_theory": "theory/AL-03-Teoria-Sistemas-Lineales.md",

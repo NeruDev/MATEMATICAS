@@ -1,7 +1,10 @@
 {
+  "id": "ed-01-edo-primer-orden",
   "topic": "EDO de Primer Orden",
-  "id": "edo-primer-orden",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos de solución para ecuaciones diferenciales ordinarias de primer orden.",
   "subtopics": [
     {
       "id": "1.1",

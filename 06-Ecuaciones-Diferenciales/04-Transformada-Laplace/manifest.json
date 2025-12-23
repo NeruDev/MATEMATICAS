@@ -1,7 +1,10 @@
 {
+  "id": "ed-04-transformada-laplace",
   "topic": "Transformada de Laplace",
-  "id": "transformada-laplace",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Transformada de Laplace: definición, propiedades, transformada inversa y solución de EDO.",
   "subtopics": [
     {
       "id": "definicion-basica",

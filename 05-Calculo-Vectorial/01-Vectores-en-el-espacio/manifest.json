@@ -3,6 +3,7 @@
   "topic": "Vectores en el Espacio",
   "type": "learning_module",
   "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Modelar posiciones, direcciones y objetos geométricos en R2 y R3 usando álgebra vectorial",
   "tags": ["geometria", "vectores", "producto-escalar", "producto-vectorial", "rectas", "planos"],
   "skill_nodes": ["algebra:vectores", "geometria:rectas-planos"],

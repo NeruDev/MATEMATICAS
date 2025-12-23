@@ -1,6 +1,19 @@
+<!--
+::METADATA::
+type: reference
+topic_id: meta-directory
+file_id: directory-tree
+status: stable
+audience: ai_context
+last_updated: 2024-12-23
+change_log: "Actualización completa a nomenclatura estándar PREFIJO-XX-Contenido"
+-->
+
 # Árbol de Directorios del Repositorio de Matemáticas
 
-*Última actualización: Generado automáticamente*
+*Última actualización: 2024-12-23*
+
+> **Nota:** Este archivo debe actualizarse con cada cambio estructural en el repositorio.
 
 ```
 MATEMATICAS GITHUB/
@@ -13,8 +26,12 @@ MATEMATICAS GITHUB/
 │
 ├── 00-META/
 │   ├── ai-directives.md
+│   ├── audit-file-list.md
+│   ├── directory-tree.md              ← Estás aquí
 │   ├── ia-contract.md
+│   ├── nomenclatura-estandar.md       ← Estándar de nombrado
 │   ├── notation-cheatsheet.md
+│   ├── plantilla-respuestas.md
 │   ├── prompts-for-students.md
 │   ├── repo-tests.md
 │   ├── study-guide.md
@@ -25,533 +42,112 @@ MATEMATICAS GITHUB/
 ├── 01-Fundamentos/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-Simbologia-Matematica/
+│   ├── 01-Simbologia-Matematica/      ⚠️ EXCEPCIÓN: reference_library
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
+│   │   ├── FUN-01-Simbologia-Intro.md
+│   │   ├── _directives.md
 │   │   └── theory/
 │   │       └── Tablas-de-Simbolos-Matematicos.md
 │   │
 │   ├── 02-Aritmetica/
-│   │   ├── _directives.md
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── resumen-aritmetica.md
-│   │   ├── summary.md
+│   │   ├── FUN-02-Aritmetica-Intro.md
+│   │   ├── FUN-02-Resumen-Formulas.md
+│   │   ├── _directives.md
 │   │   ├── applications/
-│   │   │   └── README.md
 │   │   ├── diagnostic/
-│   │   │   └── pre-test.md
 │   │   ├── media/
-│   │   │   ├── videos.md
-│   │   │   ├── geogebra/
-│   │   │   │   └── links.md
-│   │   │   └── images/
-│   │   │       └── README.md
 │   │   ├── methods/
-│   │   │   └── metodos.md
+│   │   │   └── FUN-02-Metodos-Aritmetica.md
 │   │   ├── problems/
-│   │   │   └── problemas.md
+│   │   │   └── FUN-02-Problemas.md
 │   │   ├── solutions/
-│   │   │   └── soluciones.md
+│   │   │   ├── FUN-02-Respuestas.md
+│   │   │   └── [prob-XX/]
 │   │   └── theory/
-│   │       ├── ejemplos-factorizacion-gcd-mcm.md
-│   │       ├── fundamentos-aritmetica-superior.md
-│   │       ├── README.md
-│   │       └── teoria.md
+│   │       └── FUN-02-Teoria-Aritmetica.md
 │   │
 │   ├── 03-Algebra/
-│   │   ├── _directives.md
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── resumen-algebra.md
-│   │   ├── summary.md
-│   │   ├── applications/
-│   │   │   └── README.md
-│   │   ├── diagnostic/
-│   │   │   └── pre-test.md
-│   │   ├── media/
-│   │   │   ├── videos.md
-│   │   │   ├── geogebra/
-│   │   │   │   └── links.md
-│   │   │   └── images/
-│   │   │       └── README.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       ├── README.md
-│   │       └── teoria.md
+│   │   ├── FUN-03-Algebra-Intro.md
+│   │   ├── FUN-03-Resumen-Formulas.md
+│   │   └── ...
 │   │
 │   ├── 04-Geometria/
-│   │   ├── _directives.md
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── applications/
-│   │   │   └── README.md
-│   │   ├── diagnostic/
-│   │   │   └── pre-test.md
-│   │   ├── media/
-│   │   │   ├── videos.md
-│   │   │   ├── geogebra/
-│   │   │   │   └── links.md
-│   │   │   └── images/
-│   │   │       └── README.md
-│   │   ├── methods/
-│   │   │   ├── metodos.md
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   ├── problemas.md
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   ├── README.md
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       ├── README.md
-│   │       └── teoria.md
+│   │   ├── FUN-04-Geometria-Intro.md
+│   │   ├── FUN-04-Resumen-Formulas.md
+│   │   └── ...
 │   │
 │   ├── 05-Trigonometria/
-│   │   ├── _directives.md
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── applications/
-│   │   │   └── README.md
-│   │   ├── diagnostic/
-│   │   │   └── pre-test.md
-│   │   ├── media/
-│   │   │   ├── videos.md
-│   │   │   ├── geogebra/
-│   │   │   │   └── links.md
-│   │   │   └── images/
-│   │   │       └── README.md
-│   │   ├── methods/
-│   │   │   ├── metodos.md
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   ├── problemas.md
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   ├── README.md
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       ├── README.md
-│   │       └── teoria.md
+│   │   ├── FUN-05-Trigonometria-Intro.md
+│   │   ├── FUN-05-Resumen-Formulas.md
+│   │   └── ...
 │   │
 │   └── 06-Geometria-Analitica/
-│       ├── _directives.md
 │       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── applications/
-│       │   └── README.md
-│       ├── diagnostic/
-│       │   └── pre-test.md
-│       ├── media/
-│       │   ├── videos.md
-│       │   ├── geogebra/
-│       │   │   └── links.md
-│       │   └── images/
-│       │       └── README.md
-│       ├── methods/
-│       │   ├── metodos.md
-│       │   └── README.md
-│       ├── problems/
-│       │   ├── problemas.md
-│       │   └── README.md
-│       ├── solutions/
-│       │   ├── README.md
-│       │   └── soluciones.md
-│       └── theory/
-│           ├── README.md
-│           └── teoria.md
+│       ├── FUN-06-Geometria-Analitica-Intro.md
+│       ├── FUN-06-Resumen-Formulas.md
+│       └── ...
 │
 ├── 02-Algebra-Lineal/
 │   ├── 00-Index.md
 │   │
 │   ├── 01-Matrices/
 │   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Matrices.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Matrices.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Matrices.md
-│   │   └── theory/
-│   │       └── Teoria-Matrices.md
+│   │   ├── AL-01-Matrices-Intro.md
+│   │   ├── AL-01-Resumen-Formulas.md
+│   │   └── ...
 │   │
-│   ├── 02-Determinantes/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Determinantes.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Determinantes.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Determinantes.md
-│   │   └── theory/
-│   │       └── Teoria-Determinantes.md
-│   │
-│   ├── 03-Sistemas-Lineales/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Sistemas-Lineales.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Sistemas-Lineales.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Sistemas-Lineales.md
-│   │   └── theory/
-│   │       └── Teoria-Sistemas-Lineales.md
-│   │
-│   ├── 04-Espacios-Vectoriales/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Espacios-Vectoriales.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Espacios-Vectoriales.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Espacios-Vectoriales.md
-│   │   └── theory/
-│   │       └── Teoria-Espacios-Vectoriales.md
-│   │
-│   ├── 05-Transformaciones-Lineales/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Transformaciones-Lineales.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Transformaciones-Lineales.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Transformaciones-Lineales.md
-│   │   └── theory/
-│   │       └── Teoria-Transformaciones-Lineales.md
-│   │
-│   └── 06-Valores-Vectores-Propios/
-│       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── methods/
-│       │   └── Metodos-Valores-Vectores-Propios.md
-│       ├── problems/
-│       │   └── Problemas-Valores-Vectores-Propios.md
-│       ├── solutions/
-│       │   └── Soluciones-Valores-Vectores-Propios.md
-│       └── theory/
-│           └── Teoria-Valores-Vectores-Propios.md
+│   ├── 02-Determinantes/       → AL-02-*
+│   ├── 03-Sistemas-Lineales/   → AL-03-*
+│   ├── 04-Espacios-Vectoriales/ → AL-04-*
+│   ├── 05-Transformaciones-Lineales/ → AL-05-*
+│   └── 06-Valores-Vectores-Propios/ → AL-06-*
 │
 ├── 03-Calculo-Diferencial/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-Limites/
-│   │   ├── _directives.md
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── applications/
-│   │   │   └── radar-velocidad.md
-│   │   ├── diagnostic/
-│   │   │   └── pre-test.md
-│   │   ├── media/
-│   │   │   ├── videos.md
-│   │   │   ├── geogebra/
-│   │   │   │   └── links.md
-│   │   │   └── images/
-│   │   │       └── README.md
-│   │   ├── methods/
-│   │   │   ├── factorizacion.md
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   ├── limite-funcion-racional.md
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   ├── soluciones.md
-│   │   │   └── limite-funcion-racional/
-│   │   │       ├── detailed-solution.md
-│   │   │       └── method-solution.md
-│   │   └── theory/
-│   │       ├── definicion-limite.md
-│   │       └── teoria.md
-│   │
-│   ├── 02-Derivadas/
-│   │   ├── _directives.md
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   ├── 03-Aplicaciones-de-la-derivada/
-│   │   ├── _directives.md
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   └── 04-Teoremas-fundamentales/
-│       ├── _directives.md
-│       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── methods/
-│       │   └── metodos.md
-│       ├── problems/
-│       │   └── problemas.md
-│       ├── solutions/
-│       │   └── soluciones.md
-│       └── theory/
-│           └── teoria.md
+│   ├── 01-Limites/             → CD-01-*
+│   ├── 02-Derivadas/           → CD-02-*
+│   ├── 03-Aplicaciones-de-la-derivada/ → CD-03-*
+│   └── 04-Teoremas-fundamentales/ → CD-04-*
 │
 ├── 04-Calculo-Integral/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-Integral-Indefinida/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   ├── 02-Tecnicas-Integracion/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   ├── 03-Integral-Definida/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   ├── 04-Aplicaciones-Integral/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── metodos.md
-│   │   ├── problems/
-│   │   │   └── problemas.md
-│   │   ├── solutions/
-│   │   │   └── soluciones.md
-│   │   └── theory/
-│   │       └── teoria.md
-│   │
-│   └── 05-Integrales-Impropias/
-│       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── methods/
-│       │   └── metodos.md
-│       ├── problems/
-│       │   └── problemas.md
-│       ├── solutions/
-│       │   └── soluciones.md
-│       └── theory/
-│           └── teoria.md
+│   ├── 01-Integral-Indefinida/ → CI-01-*
+│   ├── 02-Tecnicas-Integracion/ → CI-02-*
+│   ├── 03-Integral-Definida/   → CI-03-*
+│   ├── 04-Aplicaciones-Integral/ → CI-04-*
+│   └── 05-Integrales-Impropias/ → CI-05-*
 │
 ├── 05-Calculo-Vectorial/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-Vectores-en-el-espacio/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   └── README.md
-│   │   └── theory/
-│   │       └── README.md
-│   │
-│   ├── 02-Curvas-planas-parametricas-y-polares/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   └── README.md
-│   │   └── theory/
-│   │       └── README.md
-│   │
-│   ├── 03-Funciones-vectoriales/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   └── README.md
-│   │   └── theory/
-│   │       └── README.md
-│   │
-│   ├── 04-Funciones-de-varias-variables/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── README.md
-│   │   ├── problems/
-│   │   │   └── README.md
-│   │   ├── solutions/
-│   │   │   └── README.md
-│   │   └── theory/
-│   │       └── README.md
-│   │
-│   └── 05-Integracion-multiple/
-│       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── methods/
-│       │   └── README.md
-│       ├── problems/
-│       │   └── README.md
-│       ├── solutions/
-│       │   └── README.md
-│       └── theory/
-│           └── README.md
+│   ├── 01-Vectores-en-el-espacio/ → CV-01-*
+│   ├── 02-Curvas-planas-parametricas-y-polares/ → CV-02-*
+│   ├── 03-Funciones-vectoriales/ → CV-03-*
+│   ├── 04-Funciones-de-varias-variables/ → CV-04-*
+│   └── 05-Integracion-multiple/ → CV-05-*
 │
 ├── 06-Ecuaciones-Diferenciales/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-EDO-Primer-Orden/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-EDO-Primer-Orden.md
-│   │   ├── problems/
-│   │   │   └── Problemas-EDO-Primer-Orden.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-EDO-Primer-Orden.md
-│   │   └── theory/
-│   │       └── Teoria-EDO-Primer-Orden.md
-│   │
-│   ├── 02-EDO-Segundo-Orden/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-EDO-Segundo-Orden.md
-│   │   ├── problems/
-│   │   │   └── Problemas-EDO-Segundo-Orden.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-EDO-Segundo-Orden.md
-│   │   └── theory/
-│   │       └── Teoria-EDO-Segundo-Orden.md
-│   │
-│   ├── 03-Sistemas-EDO/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Sistemas-EDO.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Sistemas-EDO.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Sistemas-EDO.md
-│   │   └── theory/
-│   │       └── Teoria-Sistemas-EDO.md
-│   │
-│   ├── 04-Transformada-Laplace/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   ├── summary.md
-│   │   ├── methods/
-│   │   │   └── Metodos-Transformada-Laplace.md
-│   │   ├── problems/
-│   │   │   └── Problemas-Transformada-Laplace.md
-│   │   ├── solutions/
-│   │   │   └── Soluciones-Transformada-Laplace.md
-│   │   └── theory/
-│   │       └── Teoria-Transformada-Laplace.md
-│   │
-│   └── 05-Series-Potencias/
-│       ├── manifest.json
-│       ├── README.md
-│       ├── summary.md
-│       ├── methods/
-│       │   └── Metodos-Series-Potencias.md
-│       ├── problems/
-│       │   └── Problemas-Series-Potencias.md
-│       ├── solutions/
-│       │   └── Soluciones-Series-Potencias.md
-│       └── theory/
-│           └── Teoria-Series-Potencias.md
+│   ├── 01-EDO-Primer-Orden/    → ED-01-*
+│   ├── 02-EDO-Segundo-Orden/   → ED-02-*
+│   ├── 03-Sistemas-EDO/        → ED-03-*
+│   ├── 04-Transformada-Laplace/ → ED-04-*
+│   └── 05-Series-Potencias/    → ED-05-*
 │
 ├── 07-Metodos-Numericos/
 │   ├── 00-Index.md
 │   │
-│   ├── 01-Raices-Ecuaciones/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   └── summary.md
-│   │
-│   ├── 02-Interpolacion/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   └── summary.md
-│   │
-│   ├── 03-Integracion-Numerica/
-│   │   ├── manifest.json
-│   │   ├── README.md
-│   │   └── summary.md
-│   │
-│   └── 04-EDO-Numericas/
-│       ├── manifest.json
-│       ├── README.md
-│       └── summary.md
+│   ├── 01-Raices-Ecuaciones/   → MN-01-*
+│   ├── 02-Interpolacion/       → MN-02-*
+│   ├── 03-Integracion-Numerica/ → MN-03-*
+│   └── 04-EDO-Numericas/       → MN-04-*
 │
 ├── glossary.md
 └── README.md
@@ -559,18 +155,29 @@ MATEMATICAS GITHUB/
 
 ---
 
+## Leyenda
+
+| Símbolo | Significado |
+|---------|-------------|
+| `→ XX-NN-*` | Prefijo estándar para archivos del tema |
+| `[prob-XX/]` | Carpetas de soluciones desarrolladas (selectas) |
+| `⚠️ EXCEPCIÓN` | Módulo exento de nomenclatura estándar |
+| `...` | Estructura estándar (ver plantilla abajo) |
+
+---
+
 ## Estadísticas del Repositorio
 
-| Módulo | Subtemas | Estado |
-|--------|----------|--------|
-| 00-META | N/A | ✅ Completo |
-| 01-Fundamentos | 6 | ✅ Estructura completa |
-| 02-Algebra-Lineal | 6 | ✅ Completo |
-| 03-Calculo-Diferencial | 4 | ✅ Estructura completa |
-| 04-Calculo-Integral | 5 | ✅ Estructura completa |
-| 05-Calculo-Vectorial | 5 | ⚠️ Solo estructura |
-| 06-Ecuaciones-Diferenciales | 5 | ✅ **COMPLETO** |
-| 07-Metodos-Numericos | 4 | ⚠️ Solo estructura |
+| Módulo | Subtemas | Prefijo | Estado |
+|--------|----------|---------|--------|
+| 00-META | N/A | — | ✅ Configuración |
+| 01-Fundamentos | 6 | `FUN` | ✅ Estructura completa |
+| 02-Algebra-Lineal | 6 | `AL` | ✅ Completo |
+| 03-Calculo-Diferencial | 4 | `CD` | ✅ Estructura completa |
+| 04-Calculo-Integral | 5 | `CI` | ✅ Estructura completa |
+| 05-Calculo-Vectorial | 5 | `CV` | ⚠️ En desarrollo |
+| 06-Ecuaciones-Diferenciales | 5 | `ED` | ✅ Completo |
+| 07-Metodos-Numericos | 4 | `MN` | ⚠️ En desarrollo |
 
 ---
 
@@ -578,28 +185,32 @@ MATEMATICAS GITHUB/
 
 ```
 XX-Nombre-Subtema/
-├── manifest.json       # Metadatos del subtema (REQUERIDO)
-├── README.md           # Índice y navegación (REQUERIDO)
-├── summary.md          # Resumen ejecutivo (REQUERIDO)
-├── methods/            # Métodos y procedimientos
-│   └── Metodos-*.md
-├── problems/           # Ejercicios y problemas
-│   └── Problemas-*.md
-├── solutions/          # Soluciones detalladas
-│   └── Soluciones-*.md
-└── theory/             # Contenido teórico
-    └── Teoria-*.md
+├── manifest.json                    # Metadatos (REQUERIDO)
+├── PREFIJO-XX-Nombre-Intro.md       # Punto de entrada (REQUERIDO)
+├── PREFIJO-XX-Resumen-Formulas.md   # Cheat sheet (REQUERIDO)
+├── _directives.md                   # Directivas específicas (opcional)
+│
+├── theory/
+│   └── PREFIJO-XX-Teoria-Nombre.md
+├── methods/
+│   └── PREFIJO-XX-Metodos-Nombre.md
+├── problems/
+│   └── PREFIJO-XX-Problemas.md
+├── solutions/
+│   ├── PREFIJO-XX-Respuestas.md     # Tabla de respuestas rápidas
+│   └── prob-XX/                     # Soluciones desarrolladas
+│       └── solucion-metodo.md
+│
+├── applications/                    # (opcional)
+├── diagnostic/                      # (opcional)
+└── media/                           # (opcional)
 ```
 
-### Estructura Opcional (01-Fundamentos)
+---
 
-```
-├── _directives.md      # Directivas específicas
-├── applications/       # Aplicaciones prácticas
-├── diagnostic/         # Tests de diagnóstico
-│   └── pre-test.md
-└── media/              # Recursos multimedia
-    ├── videos.md
-    ├── geogebra/
-    └── images/
-```
+<!--
+::AI_DIRECTIVE::
+Este archivo es la referencia autoritativa de la estructura del repositorio.
+Cualquier cambio estructural debe reflejarse aquí antes de considerarse completo.
+last_updated: 2024-12-23
+-->

@@ -1,7 +1,10 @@
 {
-  "topic_id": "03-integral-definida",
-  "title": "Integral Definida",
-  "version": "1.0",
+  "id": "ci-03-integral-definida",
+  "topic": "Integral Definida",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Comprender sumas de Riemann, integral definida y el teorema fundamental del cálculo.",
   "subtopics": [
     {"id": "3.1", "title": "Sumas de Riemann"},
     {"id": "3.2", "title": "Definición de integral definida"},

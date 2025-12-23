@@ -5,11 +5,79 @@ topic_id: meta-nomenclatura
 file_id: nomenclatura-estandar
 status: stable
 audience: ai_context
+last_updated: 2024-12-23
 -->
 
 # Estándar de Nomenclatura de Archivos
 
 Este documento define las convenciones de nombrado para todos los archivos del repositorio.
+
+---
+
+## 0. Directiva de Control de Cambios
+
+> **⚠️ OBLIGATORIO:** Todo cambio en el repositorio debe seguir este protocolo.
+
+### 0.1 Reglas de Modificación
+
+1. **Metadatos obligatorios:** Todo archivo `.md` nuevo o modificado debe incluir el bloque `::METADATA::` con campo `last_updated`.
+2. **Actualización del directorio:** Cualquier cambio estructural (nuevos archivos, renombrados, eliminaciones) debe reflejarse en `00-META/directory-tree.md`.
+3. **Registro de cambios:** Documentar brevemente el cambio realizado en el commit o en el archivo correspondiente.
+
+### 0.2 Campos de Control Temporal
+
+```markdown
+<!--
+::METADATA::
+...campos existentes...
+last_updated: YYYY-MM-DD
+change_log: "Descripción breve del último cambio"
+-->
+```
+
+### 0.3 Flujo de Trabajo para Cambios
+
+```
+1. Realizar modificación en archivo(s)
+2. Actualizar campo `last_updated` en ::METADATA::
+3. Si es cambio estructural → Actualizar 00-META/directory-tree.md
+4. Commit con mensaje descriptivo
+```
+
+---
+
+## 0.5 Excepciones al Estándar
+
+### 01-Simbologia-Matematica (Biblioteca de Referencia)
+
+La carpeta `01-Fundamentos/01-Simbologia-Matematica/` está **exenta** del sistema de nomenclatura `[PREFIJO]-[XX]-[Contenido].md` por las siguientes razones:
+
+- **Propósito:** Material de consulta rápida, no secuencia de aprendizaje
+- **Uso:** Referencia para errores de escritura LaTeX, símbolos y notación
+- **Independencia:** No tiene prerequisitos ni dependencias con otros módulos
+
+**Estructura permitida:**
+```
+01-Simbologia-Matematica/
+├── manifest.json                      # type: "reference_library"
+├── FUN-01-Simbologia-Intro.md         # Punto de entrada (único archivo con prefijo)
+└── theory/
+    └── Tablas-de-Simbolos-Matematicos.md  # Contenido libre de nomenclatura
+```
+
+**manifest.json tipo `reference_library`:**
+```json
+{
+  "id": "ref-simbologia",
+  "topic": "Simbología Matemática",
+  "type": "reference_library",
+  "status": "active",
+  "exception": {
+    "reason": "Material de consulta directa sin secuencia de aprendizaje",
+    "applies_to": ["theory/*"]
+  }
+}
+```
 
 ---
 
@@ -88,6 +156,7 @@ requires: [lista-de-dependencias]
   "topic": "Nombre Legible del Tema",
   "type": "learning_module | reference_library",
   "status": "active | draft | deprecated",
+  "last_updated": "YYYY-MM-DD",
   "tags": ["tag1", "tag2"],
   "prereqs": ["ruta/prerequisito"],
   "resource_map": {
@@ -95,14 +164,39 @@ requires: [lista-de-dependencias]
     "main_theory": "theory/PREFIJO-XX-Teoria-Nombre.md",
     "cheat_sheet": "PREFIJO-XX-Resumen-Formulas.md",
     "methods": ["methods/PREFIJO-XX-Metodo-X.md"],
-    "problems": ["problems/PREFIJO-XX-Problema-X.md"],
-    "solutions": ["solutions/PREFIJO-XX-Solucion-X/"]
+    "problems": ["problems/PREFIJO-XX-Problemas.md"],
+    "answers": "solutions/PREFIJO-XX-Respuestas.md",
+    "solutions": ["solutions/prob-XX/"]
   },
   "ai_config": {
     "strict_mode": true,
     "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"]
   }
 }
+```
+
+### Campos Obligatorios del manifest.json
+
+| Campo | Descripción | Ejemplo |
+|-------|-------------|---------|
+| `id` | Identificador único del tema | `"al-01-matrices"` |
+| `topic` | Nombre legible para humanos | `"Matrices y Operaciones"` |
+| `type` | Tipo de módulo | `"learning_module"` |
+| `status` | Estado del contenido | `"active"` |
+| `last_updated` | Fecha última modificación | `"2024-12-23"` |
+| `resource_map` | Mapa de archivos del tema | (ver estructura) |
+
+### Campos del resource_map
+
+| Campo | Descripción | Obligatorio |
+|-------|-------------|-------------|
+| `entry_point` | Archivo de entrada principal | ✅ Sí |
+| `main_theory` | Teoría completa | ✅ Sí |
+| `cheat_sheet` | Resumen de fórmulas | ✅ Sí |
+| `methods` | Lista de métodos | ❌ Opcional |
+| `problems` | Archivo(s) de problemas | ❌ Opcional |
+| `answers` | Tabla de respuestas rápidas | ❌ Opcional |
+| `solutions` | Carpetas de soluciones desarrolladas | ❌ Opcional |
 ```
 
 ### Tipos de Módulo

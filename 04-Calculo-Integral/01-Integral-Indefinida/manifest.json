@@ -1,7 +1,10 @@
 {
-  "topic_id": "01-integral-indefinida",
-  "title": "Integral Indefinida",
-  "version": "1.0",
+  "id": "ci-01-integral-indefinida",
+  "topic": "Integral Indefinida",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Comprender el concepto de antiderivada y dominar las integrales de funciones elementales.",
   "subtopics": [
     {"id": "1.1", "title": "Concepto de antiderivada"},
     {"id": "1.2", "title": "Notación y constante de integración"},

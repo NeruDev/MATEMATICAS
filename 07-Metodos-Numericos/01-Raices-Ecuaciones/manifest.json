@@ -1,7 +1,10 @@
 {
+  "id": "mn-01-raices-ecuaciones",
   "topic": "Raíces de Ecuaciones",
-  "id": "raices-ecuaciones",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos numéricos para encontrar raíces: bisección, Newton-Raphson, secante y punto fijo.",
   "subtopics": [
     "Método de bisección",
     "Método de Newton-Raphson",

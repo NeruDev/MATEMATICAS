@@ -1,7 +1,10 @@
 {
-  "topic_id": "02-tecnicas-integracion",
-  "title": "Técnicas de Integración",
-  "version": "1.0",
+  "id": "ci-02-tecnicas-integracion",
+  "topic": "Técnicas de Integración",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Dominar técnicas avanzadas de integración: sustitución, partes, fracciones parciales y trigonométricas.",
   "subtopics": [
     {"id": "2.1", "title": "Sustitución (cambio de variable)"},
     {"id": "2.2", "title": "Integración por partes"},

@@ -1,7 +1,10 @@
 {
+  "id": "al-04-espacios-vectoriales",
   "topic": "Espacios Vectoriales",
-  "id": "algebra-lineal-espacios",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Axiomas de espacios vectoriales, subespacios, independencia lineal, bases y dimensión.",
   "resource_map": {
     "entry_point": "AL-04-Espacios-Vectoriales-Intro.md",
     "main_theory": "theory/AL-04-Teoria-Espacios-Vectoriales.md",

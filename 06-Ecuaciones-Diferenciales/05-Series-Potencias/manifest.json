@@ -1,7 +1,10 @@
 {
+  "id": "ed-05-series-potencias",
   "topic": "Series de Potencias",
-  "id": "series-potencias-edo",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Solución de EDO mediante series de potencias y método de Frobenius.",
   "subtopics": [
     {
       "id": "repaso-series",
