@@ -6,7 +6,7 @@ file_id: FUN-03-Respuestas
 status: stable
 audience: student
 total_problems: 108
-solved_detailed: 0
+solved_detailed: 6
 -->
 
 # Respuestas Rápidas - Álgebra
@@ -31,8 +31,8 @@ solved_detailed: 0
 | [Prob-12] | $3a^3 - 4a^2 + 7a - 1$ | ➖ |
 | [Prob-13] | $2x^2 + 7x - 15$ | ➖ |
 | [Prob-14] | $x^3 + x^2 - 5x + 3$ | ➖ |
-| [Prob-15] | $x^2 - x - 6$, residuo 0 | ➖ |
-| [Prob-16] | $2x^2 - x + 1$, residuo 1 | ➖ |
+| [Prob-15] | $x^2 - x - 6$, residuo 0 | [✅](prob-15/solucion-metodo.md) |
+| [Prob-16] | $2x^2 - x + 1$, residuo 1 | [✅](prob-16/solucion-metodo.md) |
 | [Prob-17] | Residuo = 0 | ➖ |
 | [Prob-18] | $(x-1)(x-2)(x-3)$ | ➖ |
 | [Prob-19] | $2(x-1)(x-2)(x-3)$ o $2x^3-12x^2+22x-12$ | ➖ |
@@ -46,7 +46,7 @@ solved_detailed: 0
 | [Prob-27] | $(3a-4b)(9a^2+12ab+16b^2)$ | ➖ |
 | [Prob-28] | $(50-3)^2 = 2500 - 300 + 9 = 2209$ | ➖ |
 | [Prob-29] | $(100+3)(100-3) = 10000 - 9 = 9991$ | ➖ |
-| [Prob-30] | $x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1$ | ➖ |
+| [Prob-30] | $x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1$ | [✅](prob-30/solucion-metodo.md) |
 | [Prob-31] | $3x(2x^2 - 3x + 4)$ | ➖ |
 | [Prob-32] | $(x+3)(y+2)$ | ➖ |
 | [Prob-33] | $(x-5)^2$ | ➖ |
@@ -57,7 +57,7 @@ solved_detailed: 0
 | [Prob-38] | $(2x-1)(x+3)$ | ➖ |
 | [Prob-39] | $(3x+1)(2x-3)$ | ➖ |
 | [Prob-40] | $2x(x-5)(x+1)$ | ➖ |
-| [Prob-41] | $(x^2+4)(x+2)(x-2)$ | ➖ |
+| [Prob-41] | $(x^2+4)(x+2)(x-2)$ | [✅](prob-41/solucion-metodo.md) |
 | [Prob-42] | $(x-1)(x+1)^2$ | ➖ |
 | [Prob-43] | $\frac{x+3}{x-3}$ | ➖ |
 | [Prob-44] | $\frac{2(x-2)}{(x+2)^2}$ | ➖ |
@@ -65,8 +65,8 @@ solved_detailed: 0
 | [Prob-46] | $\frac{x^2-2x-4}{(x+2)(x-2)}$ | ➖ |
 | [Prob-47] | $(x+2)(x+3)$ | ➖ |
 | [Prob-48] | $\frac{x+1}{x+1} = 1$ | ➖ |
-| [Prob-49] | $\frac{y-x}{y+x}$ | ➖ |
-| [Prob-50] | $x = 4$ (verificar $x \neq \pm 3$) | ➖ |
+| [Prob-49] | $\frac{y-x}{y+x}$ | [✅](prob-49/solucion-metodo.md) |
+| [Prob-50] | $x = 4$ (verificar $x \neq \pm 3$) | [✅](prob-50/solucion-metodo.md) |
 | [Prob-51] | $\mathbb{R} - \{2, 3\}$ | ➖ |
 | [Prob-52] | $\frac{x^2+2x+4}{x+2}$ | ➖ |
 | [Prob-53] | $x = 12$ | ➖ |

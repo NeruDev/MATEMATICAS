@@ -6,7 +6,7 @@ file_id: FUN-06-Respuestas
 status: stable
 audience: student
 total_problems: 87
-solved_detailed: 0
+solved_detailed: 5
 -->
 
 # Respuestas Rápidas - Geometría Analítica
@@ -41,7 +41,7 @@ solved_detailed: 0
 | [Prob-22] | $y = -x + 5$ ó $x + y - 5 = 0$ | ➖ |
 | [Prob-23] | $y - 1 = x - 2$ ó $x - y - 1 = 0$ | ➖ |
 | [Prob-24] | Área $= 8$ u² | ➖ |
-| [Prob-25] | $\theta = \arctan\left(\dfrac{5}{1 + 3(-2)}\right) = \arctan(-1) = 45°$ (usando $\|\tan\theta\|$) | ➖ |
+| [Prob-25] | $\theta = \arctan\left(\dfrac{5}{1 + 3(-2)}\right) = \arctan(-1) = 45°$ (usando $\|\tan\theta\|$) | [✅](prob-25/solucion-metodo.md) |
 | [Prob-26] | $3x - 4y + 14 = 0$ y $x = 2$ | ➖ |
 | [Prob-27] | a) $x = 4$, b) $y = \dfrac{4}{5}x$, c) $x = 3$ | ➖ |
 | [Prob-28] | $(x - 3)^2 + (y + 2)^2 = 25$ | ➖ |
@@ -50,7 +50,7 @@ solved_detailed: 0
 | [Prob-31] | $(x - 1)^2 + (y + 1)^2 = 25$ | ➖ |
 | [Prob-32] | $3^2 + 4^2 = 25 > 20$, el punto está **fuera** | ➖ |
 | [Prob-33] | $(3, 4)$ y $(-4, -3)$ | ➖ |
-| [Prob-34] | $(x - 3)^2 + (y - \frac{7}{4})^2 = 4 + \frac{49}{16} = \frac{113}{16}$ ó $x^2 + y^2 - 6x + 5 = 0$ | ➖ |
+| [Prob-34] | $(x - 3)^2 + (y - \frac{7}{4})^2 = 4 + \frac{49}{16} = \frac{113}{16}$ ó $x^2 + y^2 - 6x + 5 = 0$ | [✅](prob-34/solucion-metodo.md) |
 | [Prob-35] | $y = \pm\dfrac{3}{4}(x - 5)$ ó $3x - 4y - 15 = 0$ y $3x + 4y - 15 = 0$ | ➖ |
 | [Prob-36] | $k = \pm 10$ | ➖ |
 | [Prob-37] | Centro en $(h, 0)$ con $h > 0$: $(x - h)^2 + y^2 = h^2$ donde $h = \dfrac{h}{\sqrt{2}}$ → $h(2 - \sqrt{2}) = 0$, solución: $h = \dfrac{h}{2-\sqrt{2}}$ | ➖ |
@@ -68,7 +68,7 @@ solved_detailed: 0
 | [Prob-49] | $\dfrac{x^2}{36} + \dfrac{y^2}{20} = 1$ | ➖ |
 | [Prob-50] | $\dfrac{x^2}{16} + \dfrac{y^2}{25} = 1$ | ➖ |
 | [Prob-51] | $\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1$; $a = 3$, $b = 2$, $c = \sqrt{5}$, Focos $(0, \pm\sqrt{5})$, $e = \dfrac{\sqrt{5}}{3}$ | ➖ |
-| [Prob-52] | $\dfrac{(x - 2)^2}{9} + \dfrac{(y + 1)^2}{4} = 1$ | ➖ |
+| [Prob-52] | $\dfrac{(x - 2)^2}{9} + \dfrac{(y + 1)^2}{4} = 1$ | [✅](prob-52/solucion-metodo.md) |
 | [Prob-53] | $\dfrac{(x - 2)^2}{18} + \dfrac{(y + 1)^2}{9} = 1$ | ➖ |
 | [Prob-54] | $e = \dfrac{c}{a} = \dfrac{2.5}{149.5} \approx 0.0167$ | ➖ |
 | [Prob-55] | $\dfrac{x^2}{13} + \dfrac{y^2}{13} = 1$ ó circunferencia $x^2 + y^2 = 13$ | ➖ |
@@ -78,7 +78,7 @@ solved_detailed: 0
 | [Prob-59] | $\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1$ | ➖ |
 | [Prob-60] | $\dfrac{y^2}{25} - \dfrac{x^2}{144} = 1$ | ➖ |
 | [Prob-61] | $\dfrac{x^2}{16} - \dfrac{y^2}{9} = 1$; $a = 4$, $b = 3$, $c = 5$, Focos $(\pm 5, 0)$, Asíntotas $y = \pm\dfrac{3}{4}x$ | ➖ |
-| [Prob-62] | $\dfrac{(y + 1)^2}{4} - \dfrac{(x - 2)^2}{16} = 1$ | ➖ |
+| [Prob-62] | $\dfrac{(y + 1)^2}{4} - \dfrac{(x - 2)^2}{16} = 1$ | [✅](prob-62/solucion-metodo.md) |
 | [Prob-63] | $\dfrac{x^2}{64} - \dfrac{y^2}{36} = -1$ ó $\dfrac{y^2}{36} - \dfrac{x^2}{64} = 1$ (eje transverso vertical) | ➖ |
 | [Prob-64] | $x^2 - y^2 = 0$ ó $xy = 9$ (forma rectangular) | ➖ |
 | [Prob-65] | $\dfrac{(x - 1)^2}{9} - \dfrac{(y - 2)^2}{4} = 1$ | ➖ |

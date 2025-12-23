@@ -6,7 +6,7 @@ file_id: CI-01-Respuestas
 status: stable
 audience: student
 total_problems: 60
-solved_detailed: 0
+solved_detailed: 3
 -->
 
 # Respuestas Rápidas - Integral Indefinida
@@ -30,8 +30,8 @@ solved_detailed: 0
 | [Prob-11] | $\dfrac{x^3}{3} + 2x^2 + 4x + C$ | ➖ |
 | [Prob-12] | $\dfrac{x^2}{2} + 3x + \dfrac{4}{x} + C$ | ➖ |
 | [Prob-13] | $x - \dfrac{1}{x} + C$ | ➖ |
-| [Prob-14] | $\dfrac{x^2}{2} + 2\ln\lvert x\rvert - \dfrac{1}{x} + C$ | ➖ |
-| [Prob-15] | $\dfrac{x^3}{3} - x + C$ | ➖ |
+| [Prob-14] | $\dfrac{x^2}{2} + 2\ln\lvert x\rvert - \dfrac{1}{x} + C$ | [✅](./prob-14/solucion-metodo.md) |
+| [Prob-15] | $\dfrac{x^3}{3} - x + C$ | [✅](./prob-15/solucion-metodo.md) |
 | [Prob-16] | $e^x + C$ | ➖ |
 | [Prob-17] | $5e^x + C$ | ➖ |
 | [Prob-18] | $\dfrac{2^x}{\ln 2} + C$ | ➖ |
@@ -40,7 +40,7 @@ solved_detailed: 0
 | [Prob-21] | $3e^x - \dfrac{2 \cdot 5^x}{\ln 5} + C$ | ➖ |
 | [Prob-22] | $x - e^{-x} + C$ | ➖ |
 | [Prob-23] | $e^x - 2e^{-x} + C$ | ➖ |
-| [Prob-24] | $\dfrac{e^{2x}}{2} + 2x - \dfrac{e^{-2x}}{2} + C$ | ➖ |
+| [Prob-24] | $\dfrac{e^{2x}}{2} + 2x - \dfrac{e^{-2x}}{2} + C$ | [✅](./prob-24/solucion-metodo.md) |
 | [Prob-25] | $\ln\lvert x\rvert + C$ | ➖ |
 | [Prob-26] | $5\ln\lvert x\rvert + C$ | ➖ |
 | [Prob-27] | $\ln\lvert x\rvert + \dfrac{x^2}{2} + C$ | ➖ |

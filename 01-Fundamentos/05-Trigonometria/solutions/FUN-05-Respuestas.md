@@ -6,7 +6,7 @@ file_id: FUN-05-Respuestas
 status: stable
 audience: student
 total_problems: 105
-solved_detailed: 0
+solved_detailed: 6
 -->
 
 # Respuestas Rápidas - Trigonometría
@@ -59,7 +59,7 @@ solved_detailed: 0
 | [Prob-40] | Gráfica con amplitud $2$, período $\pi$, fase $\frac{\pi}{2}$, desplazamiento vertical $-1$ | ➖ |
 | [Prob-41] | $\sin^2\theta(1 + \cot^2\theta) = \sin^2\theta \cdot \csc^2\theta = 1$ | ➖ |
 | [Prob-42] | $\sin^2\theta + \cos^2\theta = 1$ | ➖ |
-| [Prob-43] | $\frac{\sin\theta}{\cos\theta} + \frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta + \cos^2\theta}{\sin\theta\cos\theta} = \frac{1}{\cos\theta} \cdot \frac{1}{\sin\theta}$ ✓ | ➖ |
+| [Prob-43] | $\frac{\sin\theta}{\cos\theta} + \frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta + \cos^2\theta}{\sin\theta\cos\theta} = \frac{1}{\cos\theta} \cdot \frac{1}{\sin\theta}$ ✓ | [✅](prob-43/solucion-metodo.md) |
 | [Prob-44] | $\frac{\sin^2\theta}{\sin\theta} = \sin\theta$ | ➖ |
 | [Prob-45] | Demostración multiplicando cruzado: $(1 - \cos\theta)(1 + \cos\theta) = \sin^2\theta$ ✓ | ➖ |
 | [Prob-46] | $1 + 1 = 2$ | ➖ |
@@ -67,13 +67,13 @@ solved_detailed: 0
 | [Prob-48] | $\sin\theta\cos\theta = \frac{12}{25}$ | ➖ |
 | [Prob-49] | $\sec^2\theta \cdot \cos^2\theta = 1$ ✓ | ➖ |
 | [Prob-50] | $= 1$ | ➖ |
-| [Prob-51] | $\sin 75° = \frac{\sqrt{6} + \sqrt{2}}{4}$ | ➖ |
+| [Prob-51] | $\sin 75° = \frac{\sqrt{6} + \sqrt{2}}{4}$ | [✅](prob-51/solucion-metodo.md) |
 | [Prob-52] | $\cos 15° = \frac{\sqrt{6} + \sqrt{2}}{4}$ | ➖ |
 | [Prob-53] | $\sin(\alpha + \beta) = \frac{56}{65}$ | ➖ |
 | [Prob-54] | $\tan 75° = 2 + \sqrt{3}$ | ➖ |
 | [Prob-55] | $\sin(2\theta) = -\frac{24}{25}$, $\cos(2\theta) = \frac{7}{25}$ | ➖ |
 | [Prob-56] | $\sin\frac{\pi}{12} = \frac{\sqrt{6} - \sqrt{2}}{4}$ | ➖ |
-| [Prob-57] | Demostración usando $\cos(3\theta) = \cos(2\theta + \theta)$ y expandiendo | ➖ |
+| [Prob-57] | Demostración usando $\cos(3\theta) = \cos(2\theta + \theta)$ y expandiendo | [✅](prob-57/solucion-metodo.md) |
 | [Prob-58] | $\frac{1}{2}[\sin(5x) + \sin(x)]$ | ➖ |
 | [Prob-59] | $2\cos(4x)\cos(x)$ | ➖ |
 | [Prob-60] | $\tan(2\theta) = -\frac{4}{3}$, $\tan(3\theta) = \frac{2}{11}$ | ➖ |
@@ -83,10 +83,10 @@ solved_detailed: 0
 | [Prob-64] | $\theta = \frac{\pi}{3}, \frac{2\pi}{3}, \frac{4\pi}{3}, \frac{5\pi}{3}$ | ➖ |
 | [Prob-65] | $\theta = 0°, 30°, 150°, 180°$ | ➖ |
 | [Prob-66] | $\theta = 0$ | ➖ |
-| [Prob-67] | $\theta = \frac{\pi}{3}, \pi, \frac{5\pi}{3}$ | ➖ |
+| [Prob-67] | $\theta = \frac{\pi}{3}, \pi, \frac{5\pi}{3}$ | [✅](prob-67/solucion-metodo.md) |
 | [Prob-68] | $\theta = \frac{\pi}{6}, \frac{\pi}{3}, \frac{7\pi}{6}, \frac{4\pi}{3}$ (+ $n\pi$) | ➖ |
 | [Prob-69] | $\theta = \frac{\pi}{4}, \frac{5\pi}{4}$ | ➖ |
-| [Prob-70] | $\theta = 0, \frac{\pi}{2}$ (en $[0, 2\pi)$: $0, \frac{\pi}{2}, 2\pi$) | ➖ |
+| [Prob-70] | $\theta = 0, \frac{\pi}{2}$ (en $[0, 2\pi)$: $0, \frac{\pi}{2}, 2\pi$) | [✅](prob-70/solucion-metodo.md) |
 | [Prob-71] | a) $\frac{\pi}{6}$, b) $\frac{\pi}{2}$, c) $\frac{\pi}{4}$ | ➖ |
 | [Prob-72] | $-\frac{\pi}{4}$ | ➖ |
 | [Prob-73] | $\frac{4}{5}$ | ➖ |
@@ -94,7 +94,7 @@ solved_detailed: 0
 | [Prob-75] | $\frac{x}{\sqrt{1+x^2}}$ | ➖ |
 | [Prob-76] | $\frac{\pi}{6}$ | ➖ |
 | [Prob-77] | $x = \frac{1}{2}$ | ➖ |
-| [Prob-78] | Demostración geométrica usando triángulo rectángulo | ➖ |
+| [Prob-78] | Demostración geométrica usando triángulo rectángulo | [✅](prob-78/solucion-metodo.md) |
 | [Prob-79] | $\frac{24}{25}$ | ➖ |
 | [Prob-80] | $\frac{1 - xy}{\sqrt{1+x^2}\sqrt{1+y^2}}$ | ➖ |
 | [Prob-81] | $b = \frac{14\sin 60°}{\sin 45°} = 14 \cdot \frac{\sqrt{3}/2}{\sqrt{2}/2} = 7\sqrt{6} \approx 17.15$ | ➖ |
