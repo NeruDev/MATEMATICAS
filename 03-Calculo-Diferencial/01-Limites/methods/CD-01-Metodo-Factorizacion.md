@@ -1,18 +1,12 @@
 <!--
-HUMANO:
-Aquí se explica CÓMO se aplica un concepto.
-Un archivo = un método.
-
-IA:
-Este archivo define un PROCEDIMIENTO CANÓNICO.
-Úsalo como referencia para 'method-solution'.
-
----
-content_type: method
-expected_output:
-  default: markdown
+::METADATA::
+type: method
+topic_id: cd-01-limites
+file_id: CD-01-Metodo-Factorizacion
+status: stable
+audience: student
+last_updated: 2024-12-23
 method_scope: canonical
----
 -->
 
 # Método: Evaluación de Límites por Factorización

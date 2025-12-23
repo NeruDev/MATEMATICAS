@@ -1,7 +1,11 @@
 <!--
-content_type: methods
-format: step_by_step
----
+::METADATA::
+type: method
+topic_id: al-01-matrices
+file_id: AL-01-Metodos-Matrices
+status: stable
+audience: student
+last_updated: 2024-12-23
 -->
 
 # Métodos de Cálculo con Matrices

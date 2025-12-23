@@ -1,12 +1,14 @@
 <!--
----
-content_type: application
-expected_output: markdown
-audience: general
----
+::METADATA::
+type: application
+topic_id: cd-01-limites
+file_id: CD-01-Aplicacion-Radar-Velocidad
+status: stable
+audience: student
+last_updated: 2024-12-23
 -->
 
-# Velocidad instantánea (ejemplo real)
+# Aplicación: Velocidad Instantánea (Radar de Velocidad)
 
 ## Contexto
 

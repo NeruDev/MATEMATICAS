@@ -5,7 +5,7 @@ topic_id: meta-nomenclatura
 file_id: nomenclatura-estandar
 status: stable
 audience: ai_context
-last_updated: 2024-12-23
+last_updated: 2025-01-30
 -->
 
 # Estándar de Nomenclatura de Archivos
@@ -77,6 +77,23 @@ La carpeta `01-Fundamentos/01-Simbologia-Matematica/` está **exenta** del siste
     "applies_to": ["theory/*"]
   }
 }
+```
+
+### Archivos dentro de carpetas `prob-XX/` (Soluciones Desarrolladas)
+
+Los archivos de solución dentro de las carpetas `solutions/prob-XX/` están **exentos** del prefijo semántico porque:
+
+- **Contexto implícito:** La carpeta padre (`prob-XX`) ya indica el problema específico
+- **Nomenclatura interna consistente:** Todos usan `solucion-metodo.md` o `solucion-detallada.md`
+- **Simplicidad:** Evita redundancia como `AL-01-Prob-04-Solucion-Metodo.md`
+
+**Estructura válida:**
+```
+solutions/
+├── PREFIJO-XX-Respuestas.md          # ✅ Requiere prefijo (nivel 2)
+└── prob-04/
+    ├── solucion-metodo.md            # ✅ Sin prefijo (nivel 3)
+    └── solucion-detallada.md         # ✅ Sin prefijo (opcional)
 ```
 
 ---
