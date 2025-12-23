@@ -1,6 +1,9 @@
 {
-  "topic_id": "06-geometria-analitica",
-  "title": "Geometría Analítica",
+  "id": "fun-06-geometria-analitica",
+  "topic": "Geometría Analítica",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Conectar geometría y álgebra mediante coordenadas cartesianas para analizar figuras, distancias y lugares geométricos",
   "tags": ["coordenadas", "rectas", "pendiente", "distancia", "cónicas", "circunferencia", "parábola", "elipse", "hipérbola"],
   "skill_nodes": [

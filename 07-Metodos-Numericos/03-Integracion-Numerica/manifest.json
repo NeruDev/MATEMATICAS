@@ -1,7 +1,10 @@
 {
+  "id": "mn-03-integracion-numerica",
   "topic": "Integración Numérica",
-  "id": "integracion-numerica",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos de integración numérica: trapecio, Simpson, Romberg y cuadratura de Gauss.",
   "subtopics": [
     "Regla del trapecio",
     "Regla de Simpson 1/3 y 3/8",

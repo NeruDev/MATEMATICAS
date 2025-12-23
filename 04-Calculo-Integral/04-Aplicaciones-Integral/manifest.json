@@ -1,7 +1,10 @@
 {
-  "topic_id": "04-aplicaciones-integral",
-  "title": "Aplicaciones de la Integral",
-  "description": "Aplicaciones geométricas y físicas de la integral definida: áreas, volúmenes, longitud de arco, área de superficie, trabajo y valor promedio.",
+  "id": "ci-04-aplicaciones-integral",
+  "topic": "Aplicaciones de la Integral",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Aplicaciones geométricas y físicas de la integral definida: áreas, volúmenes, longitud de arco, trabajo y valor promedio.",
   "prerequisites": [
     "03-integral-definida",
     "02-tecnicas-integracion"

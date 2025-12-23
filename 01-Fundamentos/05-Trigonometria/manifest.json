@@ -1,6 +1,9 @@
 {
-  "topic_id": "05-trigonometria",
-  "title": "Trigonometría",
+  "id": "fun-05-trigonometria",
+  "topic": "Trigonometría",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Entender razones y funciones trigonométricas para resolver triángulos y modelar fenómenos periódicos",
   "tags": ["seno", "coseno", "tangente", "identidades", "círculo-unitario", "ley-de-senos", "ley-de-cosenos"],
   "skill_nodes": [

@@ -1,7 +1,10 @@
 {
+  "id": "mn-02-interpolacion",
   "topic": "Interpolación",
-  "id": "interpolacion",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos de interpolación: Lagrange, Newton, splines cúbicos y análisis del error.",
   "subtopics": [
     "Interpolación de Lagrange",
     "Diferencias divididas de Newton",

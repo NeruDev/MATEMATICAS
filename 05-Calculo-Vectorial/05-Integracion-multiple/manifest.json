@@ -3,6 +3,7 @@
   "topic": "Integración múltiple",
   "type": "learning_module",
   "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Calcular áreas, volúmenes y flujos mediante integrales dobles, triples y teoremas para campos vectoriales",
   "tags": ["integrales-dobles", "integrales-triples", "polares", "cilindricas", "esfericas", "campos-vectoriales"],
   "skill_nodes": ["calculo:integrales-multiples", "calculo:campos-vectoriales"],

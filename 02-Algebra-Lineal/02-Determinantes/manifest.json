@@ -1,7 +1,10 @@
 {
-  "topic_id": "02-determinantes",
-  "title": "Determinantes",
-  "description": "Cálculo de determinantes, propiedades, cofactores, adjunta y aplicaciones.",
+  "id": "al-02-determinantes",
+  "topic": "Determinantes",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Cálculo de determinantes, propiedades, cofactores, adjunta y aplicaciones.",
   "resource_map": {
     "entry_point": "AL-02-Determinantes-Intro.md",
     "main_theory": "theory/AL-02-Teoria-Determinantes.md",

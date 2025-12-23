@@ -1,6 +1,9 @@
 {
-  "topic_id": "fun-04-geometria",
-  "title": "Geometría",
+  "id": "fun-04-geometria",
+  "topic": "Geometría",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Entender figuras, medidas y propiedades espaciales para preparar trigonometría y geometría analítica",
   "tags": ["figuras", "area", "volumen", "semejanza", "congruencia", "angulos"],
   "skill_nodes": ["geometria:planas", "geometria:medidas", "geometria:solidos"],

@@ -1,6 +1,9 @@
 {
-  "topic_id": "04-teoremas-fundamentales",
-  "title": "Teoremas Fundamentales del Cálculo Diferencial",
+  "id": "cd-04-teoremas-fundamentales",
+  "topic": "Teoremas Fundamentales del Cálculo Diferencial",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Comprender los teoremas que fundamentan el cálculo diferencial y sus aplicaciones",
   "tags": ["rolle", "valor-medio", "lhopital", "teoremas", "formas-indeterminadas"],
   "skill_nodes": ["calculo:teoremas", "calculo:formas-indeterminadas"],

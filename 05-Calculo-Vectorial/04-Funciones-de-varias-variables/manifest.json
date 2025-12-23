@@ -3,6 +3,7 @@
   "topic": "Funciones reales de varias variables",
   "type": "learning_module",
   "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Analizar funciones multivariables para estudiar continuidad, derivadas parciales, gradientes y extremos",
   "tags": ["multivariable", "derivadas-parciales", "gradiente", "continuidad", "extremos"],
   "skill_nodes": ["calculo:varias-variables", "calculo:gradiente"],

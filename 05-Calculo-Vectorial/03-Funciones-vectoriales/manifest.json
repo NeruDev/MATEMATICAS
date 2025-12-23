@@ -3,6 +3,7 @@
   "topic": "Funciones vectoriales de una variable real",
   "type": "learning_module",
   "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Estudiar el movimiento y la geometría de curvas espaciales mediante funciones vectoriales y sus derivadas e integrales",
   "tags": ["funciones-vectoriales", "limites", "derivadas", "integrales", "curvatura"],
   "skill_nodes": ["calculo:funciones-vectoriales", "calculo:curvatura"],

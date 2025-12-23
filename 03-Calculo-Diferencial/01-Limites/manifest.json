@@ -1,6 +1,9 @@
 {
-  "topic_id": "cd-01-limites",
-  "title": "Límites",
+  "id": "cd-01-limites",
+  "topic": "Límites",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Comprender el concepto de límite y sus técnicas de evaluación como base fundamental del cálculo diferencial",
   "tags": ["limites", "continuidad", "formas-indeterminadas", "asintotas", "infinito"],
   "skill_nodes": ["calculo:limites", "funciones:continuidad"],

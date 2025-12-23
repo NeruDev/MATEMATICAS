@@ -3,6 +3,7 @@
   "topic": "Curvas planas, ecuaciones paramétricas y coordenadas polares",
   "type": "learning_module",
   "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Describir y analizar curvas planas mediante parámetros y coordenadas polares para medir longitudes y áreas",
   "tags": ["curvas-parametricas", "coordenadas-polares", "longitud-de-arco", "area", "tangentes"],
   "skill_nodes": ["calculo:parametrizacion", "calculo:polares"],

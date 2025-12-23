@@ -1,6 +1,9 @@
 {
-  "topic_id": "02-derivadas",
-  "title": "La Derivada",
+  "id": "cd-02-derivadas",
+  "topic": "La Derivada",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Comprender la derivada como tasa de cambio instantánea y dominar las técnicas de diferenciación",
   "tags": ["derivada", "diferenciacion", "tasa-de-cambio", "reglas-derivacion", "derivadas-funciones"],
   "skill_nodes": ["calculo:derivadas", "calculo:diferenciacion"],

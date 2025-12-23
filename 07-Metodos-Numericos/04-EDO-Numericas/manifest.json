@@ -1,7 +1,10 @@
 {
+  "id": "mn-04-edo-numericas",
   "topic": "EDO Numéricas",
-  "id": "edo-numericas",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Métodos numéricos para EDO: Euler, Heun, Runge-Kutta y métodos multipaso.",
   "subtopics": [
     "Método de Euler",
     "Método de Heun",

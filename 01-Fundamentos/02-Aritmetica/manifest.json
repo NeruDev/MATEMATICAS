@@ -1,6 +1,9 @@
 {
-  "topic_id": "02-aritmetica",
-  "title": "Aritmética",
+  "id": "fun-02-aritmetica",
+  "topic": "Aritmética",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Dominar operaciones numéricas básicas y razonamiento aritmético para soportar álgebra y cálculo",
   "tags": ["numeros", "operaciones", "fracciones", "porcentajes", "divisibilidad", "factorizacion"],
   "skill_nodes": ["aritmetica:operaciones-basicas", "aritmetica:fracciones", "aritmetica:divisibilidad"],

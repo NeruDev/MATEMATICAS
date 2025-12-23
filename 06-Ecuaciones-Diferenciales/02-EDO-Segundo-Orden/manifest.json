@@ -1,7 +1,10 @@
 {
+  "id": "ed-02-edo-segundo-orden",
   "topic": "EDO de Segundo Orden",
-  "id": "edo-segundo-orden",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Ecuaciones diferenciales de segundo orden: homogéneas, no homogéneas y métodos de solución.",
   "subtopics": [
     {
       "id": "homogeneas-coef-constantes",

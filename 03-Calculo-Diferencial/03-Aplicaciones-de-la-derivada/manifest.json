@@ -1,6 +1,9 @@
 {
-  "topic_id": "03-aplicaciones-de-la-derivada",
-  "title": "Aplicaciones de la Derivada",
+  "id": "cd-03-aplicaciones-derivada",
+  "topic": "Aplicaciones de la Derivada",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
   "human_purpose": "Aplicar derivadas para resolver problemas de optimización, razones relacionadas y análisis de funciones",
   "tags": ["optimizacion", "maximos-minimos", "razones-relacionadas", "graficacion", "recta-tangente"],
   "skill_nodes": ["calculo:optimizacion", "calculo:analisis-funciones"],

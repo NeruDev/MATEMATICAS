@@ -1,7 +1,10 @@
 {
+  "id": "al-06-valores-propios",
   "topic": "Valores y Vectores Propios",
-  "id": "algebra-lineal-valores-propios",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Eigenvalores, eigenvectores, polinomio característico, espacios propios y diagonalización.",
   "resource_map": {
     "entry_point": "AL-06-Valores-Vectores-Propios-Intro.md",
     "main_theory": "theory/AL-06-Teoria-Valores-Vectores-Propios.md",

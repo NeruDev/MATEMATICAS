@@ -1,7 +1,10 @@
 {
+  "id": "ed-03-sistemas-edo",
   "topic": "Sistemas de EDO",
-  "id": "sistemas-edo",
-  "version": "1.0",
+  "type": "learning_module",
+  "status": "active",
+  "last_updated": "2024-12-23",
+  "human_purpose": "Sistemas de ecuaciones diferenciales: forma matricial y método de valores propios.",
   "subtopics": [
     {
       "id": "forma-matricial",
