@@ -1,15 +1,31 @@
 <!--
-IA:
-Directivas específicas para el tema de Derivadas.
+::METADATA::
+type: reference
+topic_id: derivadas
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas: La Derivada
+
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `CD-02-Teoria-Derivadas.md` | Teoría de derivadas |
+| `methods/` | `CD-02-Metodos-Derivadas.md` | Procedimientos paso a paso |
+| `problems/` | `CD-02-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `CD-02-Respuestas.md`, `CD-02-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `CD-02-Derivadas-Intro.md` | — | Entrada principal del tema |
+| `CD-02-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
 ## Clasificación del Tema
 
 | Campo | Valor |
 |-------|-------|
-| **Módulo** | 02-Calculo-Diferencial |
+| **Módulo** | 03-Calculo-Diferencial |
 | **Código** | 02 |
 | **Nombre** | La Derivada |
 | **Prerequisitos** | Límites |

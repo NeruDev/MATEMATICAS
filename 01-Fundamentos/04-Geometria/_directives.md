@@ -1,11 +1,29 @@
 <!--
-Directivas específicas para el tema de Geometría.
-Este archivo clasifica el contenido de cada carpeta dentro de 04-Geometria.
+::METADATA::
+type: reference
+topic_id: geometria
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas de Geometría (04)
 
-## Clasificación de Contenido
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `FUN-04-Teoria-Geometria.md` | Teoría de geometría |
+| `methods/` | `FUN-04-Metodos-Geometria.md` | Procedimientos paso a paso |
+| `problems/` | `FUN-04-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `FUN-04-Respuestas.md`, `FUN-04-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `FUN-04-Geometria-Intro.md` | — | Entrada principal del tema |
+| `FUN-04-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
+
+---
+
+## Contenido por Carpetas
 
 ### 📁 theory/
 **Propósito:** Fundamentos teóricos de geometría plana y del espacio.

@@ -69,10 +69,11 @@
   },
   "resource_map": {
     "entry_point": "CI-04-Aplicaciones-Integral-Intro.md",
-    "main_theory": "theory/CI-04-Teoria-Aplicaciones.md",
+    "main_theory": "theory/CI-04-Teoria-Aplicaciones-Integral.md",
     "cheat_sheet": "CI-04-Resumen-Formulas.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/CI-04-Metodos-Aplicaciones-Integral.md"],
+    "problems": ["problems/CI-04-Problemas.md"],
+    "answers": "solutions/CI-04-Respuestas.md",
+    "solutions": ["solutions/CI-04-Soluciones-Desarrolladas.md"]
   }
 }

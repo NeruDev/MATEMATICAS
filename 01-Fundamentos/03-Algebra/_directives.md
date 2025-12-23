@@ -9,12 +9,12 @@ topic_id: 03-algebra
 
 | Carpeta/Archivo | Archivo Principal | Descripción |
 |-----------------|-------------------|-------------|
-| `theory/` | `teoria.md` | Teoría completa de álgebra |
-| `methods/` | `metodos.md` | 15 procedimientos detallados |
-| `problems/` | `problemas.md` | 108 problemas (10+ por subtema) |
-| `solutions/` | `soluciones.md` | Soluciones contextualizadas |
-| `resumen-algebra.md` | — | Descripción general del tema |
-| `summary.md` | — | Resumen ejecutivo |
+| `theory/` | `FUN-03-Teoria-Algebra.md` | Teoría completa de álgebra |
+| `methods/` | `FUN-03-Metodos-Algebra.md` | 15 procedimientos detallados |
+| `problems/` | `FUN-03-Problemas.md` | 108 problemas (10+ por subtema) |
+| `solutions/` | `FUN-03-Respuestas.md`, `FUN-03-Soluciones-Desarrolladas.md` | Soluciones contextualizadas |
+| `FUN-03-Algebra-Intro.md` | — | Entrada principal del tema |
+| `FUN-03-Resumen-Formulas.md` | — | Resumen de fórmulas |
 | `manifest.json` | — | Metadatos y configuración |
 
 ## Subtemas (3.1 - 3.10)

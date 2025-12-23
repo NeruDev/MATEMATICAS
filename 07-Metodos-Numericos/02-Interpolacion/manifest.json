@@ -16,25 +16,12 @@
     "required_sections": ["Definición", "Métodos", "Error", "Ejemplos"]
   },
   "resource_map": {
-    "index": [
-      {
-        "id": "MN-02-Interpolacion-Intro",
-        "path": "MN-02-Interpolacion-Intro.md",
-        "title": "Introducción a Interpolación",
-        "type": "index"
-      }
-    ],
-    "cheatsheet": [
-      {
-        "id": "MN-02-Resumen-Formulas",
-        "path": "MN-02-Resumen-Formulas.md",
-        "title": "Resumen de Fórmulas - Interpolación",
-        "type": "cheatsheet"
-      }
-    ],
-    "theory": [],
-    "problems": [],
-    "solutions": [],
-    "applications": []
+    "entry_point": "MN-02-Interpolacion-Intro.md",
+    "cheat_sheet": "MN-02-Resumen-Formulas.md",
+    "main_theory": "theory/MN-02-Teoria-Interpolacion.md",
+    "methods": ["methods/MN-02-Metodos-Interpolacion.md"],
+    "problems": ["problems/MN-02-Problemas.md"],
+    "answers": "solutions/MN-02-Respuestas.md",
+    "solutions": ["solutions/MN-02-Soluciones-Desarrolladas.md"]
   }
 }

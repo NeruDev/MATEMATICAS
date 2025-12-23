@@ -1,16 +1,10 @@
 <!--
-HUMANO:
-Métodos de integración directa.
-
-IA:
-Cada método tiene: cuándo usar, pasos, ejemplo.
-
----
-content_type: methods
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: method
+topic_id: 01-integral-indefinida
+file_id: CI-01-Metodos-Integracion
+status: stable
+audience: student
 -->
 
 # Métodos de Integración Directa

@@ -5,9 +5,13 @@
   "tags": ["expresiones", "polinomios", "ecuaciones", "factorizacion", "desigualdades", "sistemas"],
   "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales", "algebra:ecuaciones-cuadraticas", "algebra:sistemas"],
   "resource_map": {
-    "index": "FUN-03-Algebra-Intro.md",
-    "cheatsheet": "FUN-03-Resumen-Formulas.md",
-    "theory": "theory/FUN-03-Teoria-Algebra.md"
+    "entry_point": "FUN-03-Algebra-Intro.md",
+    "cheat_sheet": "FUN-03-Resumen-Formulas.md",
+    "main_theory": "theory/FUN-03-Teoria-Algebra.md",
+    "methods": ["methods/FUN-03-Metodos-Algebra.md"],
+    "problems": ["problems/FUN-03-Problemas.md"],
+    "answers": "solutions/FUN-03-Respuestas.md",
+    "solutions": ["solutions/FUN-03-Soluciones-Desarrolladas.md"]
   },
   "subtopics": [
     {

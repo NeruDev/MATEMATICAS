@@ -59,16 +59,13 @@
     }
   },
   "resource_map": {
-    "index": {
-      "file_id": "CD-04-Teoremas-Intro",
-      "path": "CD-04-Teoremas-Intro.md",
-      "type": "index"
-    },
-    "cheatsheet": {
-      "file_id": "CD-04-Resumen-Formulas",
-      "path": "CD-04-Resumen-Formulas.md",
-      "type": "cheatsheet"
-    }
+    "entry_point": "CD-04-Teoremas-Intro.md",
+    "main_theory": "theory/CD-04-Teoria-Teoremas-Fundamentales.md",
+    "cheat_sheet": "CD-04-Resumen-Formulas.md",
+    "methods": ["methods/CD-04-Metodos-Teoremas-Fundamentales.md"],
+    "problems": ["problems/CD-04-Problemas.md"],
+    "answers": "solutions/CD-04-Respuestas.md",
+    "solutions": ["solutions/CD-04-Soluciones-Desarrolladas.md"]
   },
   "directories": {
     "theory": "theory",

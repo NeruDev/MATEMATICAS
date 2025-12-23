@@ -1,16 +1,10 @@
 <!--
-HUMANO:
-Teoría de integral indefinida.
-
-IA:
-Desarrolla el concepto de antiderivada y las fórmulas básicas.
-
----
-content_type: theory
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: theory
+topic_id: 01-integral-indefinida
+file_id: CI-01-Teoria-Integral-Indefinida
+status: stable
+audience: student
 -->
 
 # Teoría de la Integral Indefinida

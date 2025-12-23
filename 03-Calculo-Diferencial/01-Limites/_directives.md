@@ -1,15 +1,31 @@
 <!--
-IA:
-Este archivo contiene directivas específicas para el tema de Límites.
+::METADATA::
+type: reference
+topic_id: limites
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas: Límites
+
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `CD-01-Teoria-Limites.md` | Teoría de límites |
+| `methods/` | `CD-01-Metodos-Limites.md` | Procedimientos paso a paso |
+| `problems/` | `CD-01-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `CD-01-Respuestas.md`, `CD-01-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `CD-01-Limites-Intro.md` | — | Entrada principal del tema |
+| `CD-01-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
 ## Clasificación del Tema
 
 | Campo | Valor |
 |-------|-------|
-| **Módulo** | 02-Calculo-Diferencial |
+| **Módulo** | 03-Calculo-Diferencial |
 | **Código** | 01 |
 | **Nombre** | Límites |
 | **Prerequisitos** | Funciones, Álgebra |

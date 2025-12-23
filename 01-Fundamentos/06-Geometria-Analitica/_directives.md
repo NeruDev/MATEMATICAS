@@ -1,9 +1,25 @@
 <!--
-IA:
-Este archivo contiene directivas específicas para el tema de Geometría Analítica.
+::METADATA::
+type: reference
+topic_id: geometria-analitica
+file_id: _directives
+status: stable
+audience: ai_context
 -->
 
 # Directivas: Geometría Analítica
+
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `FUN-06-Teoria-Geometria-Analitica.md` | Teoría de geometría analítica |
+| `methods/` | `FUN-06-Metodos-Geometria-Analitica.md` | Procedimientos paso a paso |
+| `problems/` | `FUN-06-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `FUN-06-Respuestas.md`, `FUN-06-Soluciones-Desarrolladas.md` | Soluciones desarrolladas |
+| `FUN-06-Geometria-Analitica-Intro.md` | — | Entrada principal del tema |
+| `FUN-06-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
 ## Clasificación del Tema
 

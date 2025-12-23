@@ -69,16 +69,13 @@
     }
   },
   "resource_map": {
-    "index": {
-      "file_id": "CD-03-Aplicaciones-Intro",
-      "path": "CD-03-Aplicaciones-Intro.md",
-      "type": "index"
-    },
-    "cheatsheet": {
-      "file_id": "CD-03-Resumen-Formulas",
-      "path": "CD-03-Resumen-Formulas.md",
-      "type": "cheatsheet"
-    }
+    "entry_point": "CD-03-Aplicaciones-Intro.md",
+    "main_theory": "theory/CD-03-Teoria-Aplicaciones-Derivada.md",
+    "cheat_sheet": "CD-03-Resumen-Formulas.md",
+    "methods": ["methods/CD-03-Metodos-Aplicaciones-Derivada.md"],
+    "problems": ["problems/CD-03-Problemas.md"],
+    "answers": "solutions/CD-03-Respuestas.md",
+    "solutions": ["solutions/CD-03-Soluciones-Desarrolladas.md"]
   },
   "directories": {
     "theory": "theory",

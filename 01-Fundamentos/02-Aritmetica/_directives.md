@@ -9,12 +9,12 @@ topic_id: 02-aritmetica
 
 | Carpeta/Archivo | Archivo Principal | Descripción |
 |-----------------|-------------------|-------------|
-| `theory/` | `teoria.md` | Teoría completa de aritmética |
-| `methods/` | `metodos.md` | 12 procedimientos paso a paso |
-| `problems/` | `problemas.md` | 85 problemas (10+ por subtema) |
-| `solutions/` | `soluciones.md` | Soluciones contextualizadas |
-| `resumen-aritmetica.md` | — | Descripción general del tema |
-| `summary.md` | — | Resumen ejecutivo |
+| `theory/` | `FUN-02-Teoria-Aritmetica.md` | Teoría completa de aritmética |
+| `methods/` | `FUN-02-Metodos-Aritmetica.md` | 12 procedimientos paso a paso |
+| `problems/` | `FUN-02-Problemas.md` | 85 problemas (10+ por subtema) |
+| `solutions/` | `FUN-02-Respuestas.md`, `FUN-02-Soluciones-Desarrolladas.md` | Soluciones contextualizadas |
+| `FUN-02-Aritmetica-Intro.md` | — | Entrada principal del tema |
+| `FUN-02-Resumen-Formulas.md` | — | Resumen ejecutivo de fórmulas |
 | `manifest.json` | — | Metadatos y configuración |
 
 ## Subtemas (2.1 - 2.8)

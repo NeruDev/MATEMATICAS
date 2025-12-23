@@ -27,10 +27,11 @@
   },
   "resource_map": {
     "entry_point": "CI-02-Tecnicas-Integracion-Intro.md",
-    "main_theory": "theory/CI-02-Teoria-Tecnicas.md",
+    "main_theory": "theory/CI-02-Teoria-Tecnicas-Integracion.md",
     "cheat_sheet": "CI-02-Resumen-Formulas.md",
-    "methods": [],
-    "problems": [],
-    "solutions": []
+    "methods": ["methods/CI-02-Metodos-Tecnicas-Integracion.md"],
+    "problems": ["problems/CI-02-Problemas.md"],
+    "answers": "solutions/CI-02-Respuestas.md",
+    "solutions": ["solutions/CI-02-Soluciones-Desarrolladas.md"]
   }
 }
