@@ -1,16 +1,11 @@
 <!--
-HUMANO:
-Métodos para evaluar límites.
-
-IA:
-Cada método tiene: cuándo usar, pasos, ejemplo.
-
----
-content_type: methods
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: method
+topic_id: cd-01-limites
+file_id: CD-01-Metodos-Limites
+status: stable
+audience: student
+last_updated: 2024-12-23
 -->
 
 # Métodos para Evaluar Límites
