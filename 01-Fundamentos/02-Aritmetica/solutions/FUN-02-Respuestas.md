@@ -6,7 +6,7 @@ file_id: FUN-02-Respuestas
 status: stable
 audience: student
 total_problems: 85
-solved_detailed: 0
+solved_detailed: 8
 -->
 
 # Respuestas Rápidas - Aritmética
@@ -24,8 +24,8 @@ solved_detailed: 0
 | [Prob-05] | $0.7 < \frac{5}{7} < 0.\overline{72} < \frac{3}{4}$ | ➖ |
 | [Prob-06] | $\frac{5}{12}$ (o cualquier fracción entre ambas) | ➖ |
 | [Prob-07] | Irracional (no es periódico) | ➖ |
-| [Prob-08] | $\frac{311}{99}$ | ➖ |
-| [Prob-09] | Sean $\frac{a}{b}, \frac{c}{d} \in \mathbb{Q}$; suma $= \frac{ad+bc}{bd} \in \mathbb{Q}$ | ➖ |
+| [Prob-08] | $\frac{311}{99}$ | [✅](prob-08/solucion-metodo.md) |
+| [Prob-09] | Sean $\frac{a}{b}, \frac{c}{d} \in \mathbb{Q}$; suma $= \frac{ad+bc}{bd} \in \mathbb{Q}$ | [✅](prob-09/solucion-metodo.md) |
 | [Prob-10] | 15 enteros (de $-7$ a $7$) | ➖ |
 | [Prob-11] | 7 | ➖ |
 | [Prob-12] | 1 | ➖ |
@@ -48,7 +48,7 @@ solved_detailed: 0
 | [Prob-29] | Si $p$ fuera par ($p>2$), sería divisible por 2, contradicción | ➖ |
 | [Prob-30] | 11, 13, 17 | ➖ |
 | [Prob-31] | $\text{MCD}(84, 126) = 42$ | ➖ |
-| [Prob-32] | $\text{MCD}(252, 198) = 18$ | ➖ |
+| [Prob-32] | $\text{MCD}(252, 198) = 18$ | [✅](prob-32/solucion-metodo.md) |
 | [Prob-33] | $\text{MCM}(18, 24, 30) = 360$ | ➖ |
 | [Prob-34] | $a \in \{12, 24, 36, 48, 60, 84\}$ | ➖ |
 | [Prob-35] | 5 vueltas de la primera | ➖ |
@@ -56,19 +56,19 @@ solved_detailed: 0
 | [Prob-37] | 1020 | ➖ |
 | [Prob-38] | $\frac{2}{3}$ | ➖ |
 | [Prob-39] | 9:00 AM | ➖ |
-| [Prob-40] | $n = 20$ | ➖ |
+| [Prob-40] | $n = 20$ | [✅](prob-40/solucion-metodo.md) |
 | [Prob-41] | $\frac{5}{4}$ | ➖ |
 | [Prob-42] | 1 | ➖ |
 | [Prob-43] | $\frac{7}{12} < \frac{5}{8} < \frac{2}{3}$ | ➖ |
 | [Prob-44] | $a + b = 7$ | ➖ |
-| [Prob-45] | $\frac{4}{5}$ | ➖ |
+| [Prob-45] | $\frac{4}{5}$ | [✅](prob-45/solucion-metodo.md) |
 | [Prob-46] | $x = 6$ | ➖ |
 | [Prob-47] | 1 taza | ➖ |
-| [Prob-48] | $\frac{9}{4}$ | ➖ |
+| [Prob-48] | $\frac{9}{4}$ | [✅](prob-48/solucion-metodo.md) |
 | [Prob-49] | $\frac{3}{11}$ y $\frac{4}{15}$ (entre otras) | ➖ |
-| [Prob-50] | $\frac{a}{b} = \frac{4}{3}$ o $\frac{3}{4}$ | ➖ |
+| [Prob-50] | $\frac{a}{b} = \frac{4}{3}$ o $\frac{3}{4}$ | [✅](prob-50/solucion-metodo.md) |
 | [Prob-51] | $0.875$; $0.\overline{45}$; $0.68$ | ➖ |
-| [Prob-52] | $\frac{19}{55}$ | ➖ |
+| [Prob-52] | $\frac{19}{55}$ | [✅](prob-52/solucion-metodo.md) |
 | [Prob-53] | \$204 | ➖ |
 | [Prob-54] | 24% | ➖ |
 | [Prob-55] | 240 | ➖ |

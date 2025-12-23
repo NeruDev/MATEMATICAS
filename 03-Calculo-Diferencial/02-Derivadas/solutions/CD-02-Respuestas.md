@@ -6,7 +6,7 @@ file_id: CD-02-Respuestas
 status: stable
 audience: student
 total_problems: 59
-solved_detailed: 0
+solved_detailed: 5
 -->
 
 # Respuestas Rápidas - Derivadas
@@ -21,7 +21,7 @@ solved_detailed: 0
 | [Prob-01] | $f'(x) = 3$ | ➖ |
 | [Prob-02] | $f'(x) = 2x + 1$ | ➖ |
 | [Prob-03] | $f'(4) = \dfrac{1}{4}$ | ➖ |
-| [Prob-04] | $f'(x) = -\dfrac{1}{x^2}$ | ➖ |
+| [Prob-04] | $f'(x) = -\dfrac{1}{x^2}$ | [✅](./prob-04/solucion-metodo.md) |
 | [Prob-05] | $y = 6x - 9$ | ➖ |
 | **2.2 Derivadas de Funciones Elementales** |||
 | [Prob-06] | $f'(x) = 15x^2 - 4x + 7$ | ➖ |
@@ -40,7 +40,7 @@ solved_detailed: 0
 | [Prob-18] | $g'(x) = \dfrac{\cos x(\cos x + 1) + \sin^2 x}{(\cos x + 1)^2} = \dfrac{1 + \cos x}{(\cos x + 1)^2}$ | ➖ |
 | [Prob-19] | $h'(x) = 5x^4 - 2x^2 - 1$ | ➖ |
 | [Prob-20] | $f'(x) = \dfrac{(1 + \ln x) - x\ln x}{e^x} = \dfrac{1 + \ln x - x\ln x}{e^x}$ | ➖ |
-| [Prob-21] | $g'(x) = e^x(x^2\sin x + 2x\sin x + x^2\cos x)$ | ➖ |
+| [Prob-21] | $g'(x) = e^x(x^2\sin x + 2x\sin x + x^2\cos x)$ | [✅](./prob-21/solucion-metodo.md) |
 | **2.4 Regla de la Cadena** |||
 | [Prob-22] | $f'(x) = 15(3x+1)^4$ | ➖ |
 | [Prob-23] | $g'(x) = 2\cos(2x)$ | ➖ |
@@ -49,7 +49,7 @@ solved_detailed: 0
 | [Prob-26] | $g'(x) = \dfrac{2x+4}{x^2+4x}$ | ➖ |
 | [Prob-27] | $h'(x) = -3\cos^2(x)\sin(x)$ | ➖ |
 | [Prob-28] | $f'(x) = e^{\sin x}\cos x$ | ➖ |
-| [Prob-29] | $g'(x) = \cos(\cos(\tan x)) \cdot (-\sin(\tan x)) \cdot \sec^2 x$ | ➖ |
+| [Prob-29] | $g'(x) = \cos(\cos(\tan x)) \cdot (-\sin(\tan x)) \cdot \sec^2 x$ | [✅](./prob-29/solucion-metodo.md) |
 | [Prob-30] | $h'(x) = \dfrac{1}{4\sqrt{1+\sqrt{1+x}}\sqrt{1+x}}$ | ➖ |
 | [Prob-31] | $f'(x) = \sec x$ | ➖ |
 | **2.5 Derivación Implícita** |||
@@ -58,7 +58,7 @@ solved_detailed: 0
 | [Prob-34] | $\dfrac{dy}{dx} = -\dfrac{2x+y}{x+2y}$ | ➖ |
 | [Prob-35] | $\dfrac{dy}{dx} = \dfrac{1 - y\cos(xy)}{x\cos(xy) - 1}$ | ➖ |
 | [Prob-36] | $\dfrac{dy}{dx} = \dfrac{1 - ye^{xy}}{xe^{xy} + 1}$ | ➖ |
-| [Prob-37] | Pendiente $= -1$ | ➖ |
+| [Prob-37] | Pendiente $= -1$ | [✅](./prob-37/solucion-metodo.md) |
 | [Prob-38] | $\dfrac{dy}{dx} = \dfrac{4x(2x^2+2y^2-x)(2x-1) - 2x}{2y - 4y(2x^2+2y^2-x)(4y)}$ (simplificar según punto) | ➖ |
 | **2.6 Derivadas de Orden Superior** |||
 | [Prob-39] | $f''(x) = 12x^2 - 6$ | ➖ |
@@ -66,7 +66,7 @@ solved_detailed: 0
 | [Prob-41] | $f'''(x) = -\cos x$ | ➖ |
 | [Prob-42] | $y'' = e^x(x + 2)$ | ➖ |
 | [Prob-43] | $f^{(n)}(x) = a^n e^{ax}$ | ➖ |
-| [Prob-44] | $\dfrac{d^2y}{dx^2} = -\dfrac{1}{y^3}$ | ➖ |
+| [Prob-44] | $\dfrac{d^2y}{dx^2} = -\dfrac{1}{y^3}$ | [✅](./prob-44/solucion-metodo.md) |
 | **2.7 Derivadas de Funciones Inversas** |||
 | [Prob-45] | $\dfrac{d}{dx}[\arcsin(2x)] = \dfrac{2}{\sqrt{1-4x^2}}$ | ➖ |
 | [Prob-46] | $\dfrac{d}{dx}[\arctan(x^2)] = \dfrac{2x}{1+x^4}$ | ➖ |

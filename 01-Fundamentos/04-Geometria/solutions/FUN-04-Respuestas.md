@@ -6,7 +6,7 @@ file_id: FUN-04-Respuestas
 status: stable
 audience: student
 total_problems: 110
-solved_detailed: 0
+solved_detailed: 5
 -->
 
 # Respuestas Rápidas - Geometría
@@ -32,7 +32,7 @@ solved_detailed: 0
 | [Prob-13] | $\angle 3 = 105°$ | ➖ |
 | [Prob-14] | $x = 15°$; ángulo $= 60°$, complemento $= 30°$ | ➖ |
 | [Prob-15] | El otro segmento mide $7.5$ cm | ➖ |
-| [Prob-16] | Demostración trazando paralela a $BC$ por $A$ y usando ángulos alternos internos | ➖ |
+| [Prob-16] | Demostración trazando paralela a $BC$ por $A$ y usando ángulos alternos internos | [✅](prob-16/solucion-metodo.md) |
 | [Prob-17] | $\angle COD = 110°$, $\angle BOC = 70°$, $\angle AOD = 70°$ | ➖ |
 | [Prob-18] | Tercer ángulo $= 63°$; triángulo acutángulo | ➖ |
 | [Prob-19] | $40°$ y $40°$ | ➖ |
@@ -40,10 +40,10 @@ solved_detailed: 0
 | [Prob-21] | $\angle A = 105°$, $\angle B = 35°$, $\angle C = 40°$ | ➖ |
 | [Prob-22] | $40°$, $60°$ y $80°$ | ➖ |
 | [Prob-23] | No es posible ($3 + 4 = 7 < 8$) | ➖ |
-| [Prob-24] | $h = 3\sqrt{3}$ cm, $A = 9\sqrt{3}$ cm², $r = \sqrt{3}$ cm | ➖ |
+| [Prob-24] | $h = 3\sqrt{3}$ cm, $A = 9\sqrt{3}$ cm², $r = \sqrt{3}$ cm | [✅](prob-24/solucion-metodo.md) |
 | [Prob-25] | $h = 12$ cm | ➖ |
 | [Prob-26] | $AC = \frac{10\sin 60°}{\sin 75°} \approx 8.97$ cm | ➖ |
-| [Prob-27] | Demostración vectorial o por coordenadas | ➖ |
+| [Prob-27] | Demostración vectorial o por coordenadas | [✅](prob-27/solucion-metodo.md) |
 | [Prob-28] | Catetos: $12$ cm y $16$ cm | ➖ |
 | [Prob-29] | Sí, son congruentes (mismas longitudes de lados) | ➖ |
 | [Prob-30] | $70°$ | ➖ |
@@ -80,7 +80,7 @@ solved_detailed: 0
 | [Prob-61] | $A = \frac{12 \times 8}{2} = 48$ cm² | ➖ |
 | [Prob-62] | Ancho $= 5$ cm, Área $= 60$ cm² | ➖ |
 | [Prob-63] | $A = \frac{(10 + 16) \times 7}{2} = 91$ cm² | ➖ |
-| [Prob-64] | $s = 21$, $A = \sqrt{21 \times 8 \times 7 \times 6} = 84$ cm² | ➖ |
+| [Prob-64] | $s = 21$, $A = \sqrt{21 \times 8 \times 7 \times 6} = 84$ cm² | [✅](prob-64/solucion-metodo.md) |
 | [Prob-65] | Área $= 120$ cm², Perímetro $= 52$ cm | ➖ |
 | [Prob-66] | Área $= 48 + \frac{9\pi}{2} \approx 62.14$ cm² | ➖ |
 | [Prob-67] | Área $= \frac{d^2}{2} = \frac{100}{2} = 50$ cm² | ➖ |
@@ -93,7 +93,7 @@ solved_detailed: 0
 | [Prob-74] | $BC = 12.5$ cm | ➖ |
 | [Prob-75] | Altura del edificio $= 60$ m | ➖ |
 | [Prob-76] | Lado correspondiente $= 12$ cm | ➖ |
-| [Prob-77] | $CH = 6$ cm, $AC = 2\sqrt{13}$ cm, $BC = 3\sqrt{13}$ cm | ➖ |
+| [Prob-77] | $CH = 6$ cm, $AC = 2\sqrt{13}$ cm, $BC = 3\sqrt{13}$ cm | [✅](prob-77/solucion-metodo.md) |
 | [Prob-78] | Demostración usando que el tercer ángulo también es igual | ➖ |
 | [Prob-79] | Demostración usando ángulos alternos internos (paralelas) | ➖ |
 | [Prob-80] | Nuevas dimensiones: $25$ cm × $37.5$ cm; razón de áreas $= 25:4$ | ➖ |

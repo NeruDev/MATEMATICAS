@@ -6,7 +6,7 @@ file_id: CD-01-Respuestas
 status: stable
 audience: student
 total_problems: 57
-solved_detailed: 5
+solved_detailed: 11
 -->
 
 # Respuestas Rápidas - Límites
@@ -24,7 +24,7 @@ solved_detailed: 5
 | [Prob-01] | No existe (límites laterales diferentes) | ➖ |
 | [Prob-02] | $11$ | ➖ |
 | [Prob-03] | Demostración $\varepsilon$-$\delta$ completada | ➖ |
-| [Prob-04] | Demostración formal completada | ➖ |
+| [Prob-04] | Demostración formal completada | [✅](./prob-04/solucion-metodo.md) |
 | [Prob-05] | $\lim_{x \to 0^+} = 1$, $\lim_{x \to 0^-} = -1$ | [✅](./prob-05/solucion-metodo.md) |
 | [Prob-06] | $\lim_{x \to 1^-} = 1$, $\lim_{x \to 1^+} = 1$ | ➖ |
 | [Prob-07] | Sí existe, $\lim = 5$ | ➖ |
@@ -33,7 +33,7 @@ solved_detailed: 5
 | [Prob-10] | $19$ | ➖ |
 | [Prob-11] | $3$ | ➖ |
 | [Prob-12] | $0$ | ➖ |
-| [Prob-13] | $0$ | ➖ |
+| [Prob-13] | $0$ | [✅](./prob-13/solucion-metodo.md) |
 | [Prob-14] | $10$ | [✅](./prob-14/solucion-metodo.md) |
 | [Prob-15] | $-1$ | ➖ |
 | [Prob-16] | $6$ | ➖ |
@@ -41,7 +41,7 @@ solved_detailed: 5
 | [Prob-18] | $\dfrac{1}{4}$ | [✅](./prob-18/solucion-metodo.md) |
 | [Prob-19] | $\dfrac{1}{2}$ | ➖ |
 | [Prob-20] | $\dfrac{1}{6}$ | ➖ |
-| [Prob-21] | $1$ | ➖ |
+| [Prob-21] | $1$ | [✅](./prob-21/solucion-metodo.md) |
 | [Prob-22] | $12$ | ➖ |
 | [Prob-23] | $\dfrac{1}{3}$ | ➖ |
 | [Prob-24] | $5$ | [✅](./prob-24/solucion-metodo.md) |
@@ -50,7 +50,7 @@ solved_detailed: 5
 | [Prob-27] | $1$ | ➖ |
 | [Prob-28] | $\dfrac{1}{2}$ | ➖ |
 | [Prob-29] | $1$ | ➖ |
-| [Prob-30] | $\dfrac{1}{6}$ | ➖ |
+| [Prob-30] | $\dfrac{1}{6}$ | [✅](./prob-30/solucion-metodo.md) |
 | [Prob-31] | $\dfrac{1}{2}$ | ➖ |
 | [Prob-32] | $3$ | ➖ |
 | [Prob-33] | $\dfrac{\sqrt{2}}{2}$ | ➖ |
@@ -60,10 +60,10 @@ solved_detailed: 5
 | [Prob-37] | $+\infty$ | ➖ |
 | [Prob-38] | $2$ | ➖ |
 | [Prob-39] | $\dfrac{1}{2}$ | ➖ |
-| [Prob-40] | $2$ | ➖ |
+| [Prob-40] | $2$ | [✅](./prob-40/solucion-metodo.md) |
 | [Prob-41] | $\dfrac{1}{2}$ | ➖ |
 | [Prob-42] | $0$ | ➖ |
-| [Prob-43] | $e$ | ➖ |
+| [Prob-43] | $e$ | [✅](./prob-43/solucion-metodo.md) |
 | [Prob-44] | $+\infty$ | ➖ |
 | [Prob-45] | $+\infty$ | ➖ |
 | [Prob-46] | $+\infty$ | ➖ |
@@ -87,11 +87,14 @@ Las siguientes tienen desarrollo paso a paso completo:
 
 | Tema | Problemas con solución |
 |:-----|:-----------------------|
+| Demostración ε-δ | [Prob-04](./prob-04/) |
 | Límites laterales | [Prob-05](./prob-05/) |
+| Teorema del emparedado | [Prob-13](./prob-13/) |
 | Factorización | [Prob-14](./prob-14/) |
-| Racionalización | [Prob-18](./prob-18/) |
-| Límites trigonométricos | [Prob-24](./prob-24/) |
-| Límites al infinito | [Prob-34](./prob-34/) |
+| Racionalización | [Prob-18](./prob-18/), [Prob-21](./prob-21/) |
+| Límites trigonométricos | [Prob-24](./prob-24/), [Prob-30](./prob-30/) |
+| Límites al infinito | [Prob-34](./prob-34/), [Prob-40](./prob-40/) |
+| Definición de e | [Prob-43](./prob-43/) |
 
 ---
 

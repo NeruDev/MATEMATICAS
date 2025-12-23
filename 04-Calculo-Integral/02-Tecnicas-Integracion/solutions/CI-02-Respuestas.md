@@ -6,7 +6,7 @@ file_id: CI-02-Respuestas
 status: stable
 audience: student
 total_problems: 70
-solved_detailed: 0
+solved_detailed: 3
 -->
 
 # Respuestas Rápidas - Técnicas de Integración
@@ -34,10 +34,10 @@ solved_detailed: 0
 | [Prob-15] | $x\sin x + \cos x + C$ | ➖ |
 | [Prob-16] | $-x\cos x + \sin x + C$ | ➖ |
 | [Prob-17] | $x\ln x - x + C$ | ➖ |
-| [Prob-18] | $(x^2 - 2x + 2)e^x + C$ | ➖ |
+| [Prob-18] | $(x^2 - 2x + 2)e^x + C$ | [✅](./prob-18/solucion-metodo.md) |
 | [Prob-19] | $\dfrac{x^3}{3}\ln x - \dfrac{x^3}{9} + C$ | ➖ |
-| [Prob-20] | $\dfrac{e^x}{2}(\sin x + \cos x) + C$ | ➖ |
-| [Prob-21] | $\dfrac{e^x}{2}(\sin x - \cos x) + C$ | ➖ |
+| [Prob-20] | $\dfrac{e^x}{2}(\sin x + \cos x) + C$ | [✅](./prob-20/solucion-metodo.md) |
+| [Prob-21] | $\dfrac{e^x}{2}(\sin x - \cos x) + C$ | [✅](./prob-21/solucion-metodo.md) |
 | [Prob-22] | $x\arctan x - \dfrac{1}{2}\ln(1+x^2) + C$ | ➖ |
 | [Prob-23] | $x\arcsin x + \sqrt{1-x^2} + C$ | ➖ |
 | [Prob-24] | $\dfrac{1}{2}(x^2-1)e^{x^2} + C$ | ➖ |
