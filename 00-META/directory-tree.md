@@ -6,7 +6,7 @@ file_id: directory-tree
 status: stable
 audience: ai_context
 last_updated: 2024-12-23
-change_log: "Actualización completa a nomenclatura estándar PREFIJO-XX-Contenido"
+change_log: "Corregido 02-Algebra-Lineal/00-Index.md (era carpeta vacía, ahora es archivo)"
 -->
 
 # Árbol de Directorios del Repositorio de Matemáticas
