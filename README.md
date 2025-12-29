@@ -123,7 +123,7 @@ IA: Sigue estas instrucciones al interactuar con usuarios.
 | [02-Algebra-Lineal](./02-Algebra-Lineal/00-Index.md) | Matrices, espacios vectoriales, transformaciones | 6 | ✅ Completo |
 | [03-Calculo-Diferencial](./03-Calculo-Diferencial/00-Index.md) | Límites y derivadas | 1 | 🔄 En desarrollo |
 | [04-Calculo-Integral](./04-Calculo-Integral/00-Index.md) | Integrales y aplicaciones | 5 | ✅ Completo |
-| [05-Calculo-Vectorial](./05-Calculo-Vectorial/00-Index.md) | Cálculo multivariable | - | ⏳ Pendiente |
+| [05-Calculo-Vectorial](./05-Calculo-Vectorial/00-Index.md) | Cálculo multivariable | 5 | 🔄 En desarrollo |
 | [06-Ecuaciones-Diferenciales](./06-Ecuaciones-Diferenciales/00-Index.md) | EDO, sistemas, Laplace | 5 | ✅ Completo |
 | [07-Metodos-Numericos](./07-Metodos-Numericos/00-Index.md) | Raíces, interpolación, integración, EDO numéricas | 4 | ✅ Completo |
 
