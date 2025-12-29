@@ -41,10 +41,5 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
-  },
-  "legacy_files": {
-    "_note": "Archivos anteriores al sistema de nomenclatura semántica - pueden eliminarse",
-    "old_readme": "README.md",
-    "old_summary": "summary.md"
   }
 }

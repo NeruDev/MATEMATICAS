@@ -448,6 +448,55 @@ difficulty_distribution: {basico: 12, intermedio: 14, avanzado: 6}
 
 ---
 
+## 6.8 Archivo de Directivas `_directives.md`
+
+Cada tema puede incluir un archivo `_directives.md` en la raíz del directorio del tema. Este archivo proporciona contexto rápido para la IA sin necesidad de leer el `manifest.json` completo.
+
+**Ubicación:** `[modulo]/[tema]/_directives.md`
+
+**Propósito:**
+- Resumen de la estructura de archivos del tema
+- Directivas específicas para generación de contenido por IA
+- Referencia rápida de audiencia y formato de salida
+
+**Estructura estándar:**
+
+```markdown
+# Directivas — [Nombre del Tema]
+
+<!--
+::METADATA::
+type: reference
+topic_id: [id-del-manifest]
+file_id: _directives
+status: stable
+audience: ai_context
+-->
+
+## Clasificación del Contenido
+
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `PREFIJO-XX-Teoria-Nombre.md` | Teoría del tema |
+| `methods/` | `PREFIJO-XX-Metodos.md` | Procedimientos paso a paso |
+| `problems/` | `PREFIJO-XX-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `PREFIJO-XX-Respuestas.md` | Respuestas y soluciones |
+
+## Directivas para IA
+
+- **Audiencia:** [tipo de estudiante]
+- **Formato de salida:** Markdown con LaTeX
+- **Notación:** Seguir `00-META/notation-cheatsheet.md`
+- **Tareas permitidas:** [lista de tareas]
+```
+
+**Convenciones:**
+- El nombre siempre es `_directives.md` (con guion bajo inicial para ordenar primero)
+- Incluye bloque `::METADATA::` con `audience: ai_context`
+- Complementa (no reemplaza) al `manifest.json`
+
+---
+
 ## 7. Migración de Archivos Existentes
 
 Para migrar archivos del formato antiguo:

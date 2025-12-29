@@ -35,19 +35,19 @@ La siguiente lista detalla las acciones requeridas para alcanzar el 100% de cump
 
 ### Inmediato
 
-- [ ] **Limpieza en CV-01 (Vectores):**
-  * Verificar que el contenido de `05-Calculo-Vectorial/01-Vectores-en-el-espacio/problems/README.md` esté totalmente incluido en `CV-01-Problemas.md`.
-  * Verificar que `solutions/README.md` sea redundante respecto a `CV-01-Respuestas.md`.
-  * **Acción:** Eliminar los archivos `README.md` de estas subcarpetas tras la verificación.
-* [ ] **Actualización de Estado Global:**
-  * El `README.md` raíz lista "Calculo Vectorial" como "⏳ Pendiente".
-  * **Acción:** Actualizar a "🔄 En desarrollo" dado que el módulo 01 ya tiene estructura completa.
+- [x] **Limpieza en CV-01 (Vectores):** ✅ *Completado 2025-12-29*
+  * ~~Verificar que el contenido de `05-Calculo-Vectorial/01-Vectores-en-el-espacio/problems/README.md` esté totalmente incluido en `CV-01-Problemas.md`.~~
+  * ~~Verificar que `solutions/README.md` sea redundante respecto a `CV-01-Respuestas.md`.~~
+  * **Acción realizada:** Archivos `README.md` eliminados de `problems/` y `solutions/`. El contenido estándar está en `CV-01-Problemas.md` y `CV-01-Respuestas.md`.
+* [x] **Actualización de Estado Global:** ✅ *Completado 2025-12-29*
+  * ~~El `README.md` raíz lista "Calculo Vectorial" como "⏳ Pendiente".~~
+  * **Acción realizada:** Estado actualizado a "🔄 En desarrollo" con 1 subtema completado.
 
 ### Mantenimiento y Estandarización
 
-- [ ] **Documentación de `_directives.md`:**
-  * Se encontró el archivo `_directives.md` en múltiples directorios de tema (`FUN-02`, `CV-01`, `CD-01`).
-  * **Acción:** Verificar si este archivo es parte oficial del estándar. Si lo es, agregarlo a `00-META/nomenclatura-estandar.md` y `repo-tests.md`. Si es un remanente o un experimento, estandarizar su uso o migrar su contenido al `manifest.json` (sección `ai_config`).
+- [x] **Documentación de `_directives.md`:** ✅ *Completado 2025-12-29*
+  * ~~Se encontró el archivo `_directives.md` en múltiples directorios de tema (`FUN-02`, `CV-01`, `CD-01`).~~
+  * **Acción realizada:** Archivo `_directives.md` documentado oficialmente en `00-META/nomenclatura-estandar.md` (Sección 6.8). Se establece como archivo estándar opcional para proveer contexto rápido a la IA.
 
 ## 4. Conclusión
 
