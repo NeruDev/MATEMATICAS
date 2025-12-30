@@ -1,247 +1,849 @@
 <!--
 content_type: methods
 topic: EDO de Primer Orden
+version: 2.0
+last_updated: 2025-01-14
 ---
 -->
 
 # Métodos: EDO de Primer Orden
 
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver ecuaciones diferenciales ordinarias de primer orden.
+
+---
+
+## Índice de Métodos
+
+| # | Método | Forma de Ecuación | Complejidad |
+|---|--------|-------------------|-------------|
+| 1 | [Variables Separables](#método-1-resolver-ecuación-separable) | $\frac{dy}{dx} = g(x)h(y)$ | ⭐ |
+| 2 | [Ecuación Lineal](#método-2-resolver-ecuación-lineal) | $y' + P(x)y = Q(x)$ | ⭐⭐ |
+| 3 | [Ecuación Exacta](#método-3-resolver-ecuación-exacta) | $M\,dx + N\,dy = 0$, $M_y = N_x$ | ⭐⭐ |
+| 4 | [Factor Integrante](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ | ⭐⭐⭐ |
+| 5 | [Bernoulli](#método-5-resolver-ecuación-de-bernoulli) | $y' + P(x)y = Q(x)y^n$ | ⭐⭐⭐ |
+| 6 | [Homogénea](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
+| 7 | [Reducción a Separable](#método-7-sustitución-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
+| 8 | [Ricatti](#método-8-ecuación-de-ricatti) | $y' = P(x) + Q(x)y + R(x)y^2$ | ⭐⭐⭐⭐ |
+| 9 | [Identificación de Tipo](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
+| 10 | [Resolver PVI](#método-10-resolver-problema-de-valor-inicial) | Con condición inicial | ⭐ |
+
 ---
 
 ## Método 1: Resolver Ecuación Separable
 
-**Objetivo:** Resolver $\frac{dy}{dx} = g(x)h(y)$
+### Cuándo Usar
 
-### Pasos
+- La ecuación se puede escribir como $\frac{dy}{dx} = g(x) \cdot h(y)$
+- Las variables pueden separarse completamente
 
-1. Separar variables: $\frac{dy}{h(y)} = g(x)dx$
-2. Integrar ambos lados
-3. Despejar $y$ si es posible
-4. Aplicar condición inicial si hay PVI
+### Fórmula
 
-### Ejemplo
+$$\frac{dy}{dx} = g(x)h(y) \implies \int \frac{dy}{h(y)} = \int g(x)\,dx + C$$
 
-$\frac{dy}{dx} = \frac{x}{y}$, $y(0) = 2$
+### Algoritmo de Resolución
 
-**Paso 1:** $y\,dy = x\,dx$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Separar** | Llevar todos los términos con $y$ a un lado y con $x$ al otro |
+| 2 | **Verificar** | Confirmar que $h(y) \neq 0$ en el dominio |
+| 3 | **Integrar** | Integrar ambos lados independientemente |
+| 4 | **Despejar** | Obtener $y$ explícitamente si es posible |
+| 5 | **Añadir constante** | Incluir una única constante de integración $C$ |
 
-**Paso 2:** $\frac{y^2}{2} = \frac{x^2}{2} + C$
+### Ejemplo Detallado
 
-**Paso 3:** $y^2 = x^2 + C_1$
+**Problema:** Resolver $\frac{dy}{dx} = \frac{x^2}{1 + y^2}$, $y(0) = 1$
 
-**Paso 4:** $4 = 0 + C_1 \Rightarrow C_1 = 4$
+---
 
-**Solución:** $y = \sqrt{x^2 + 4}$ (tomamos raíz positiva por $y(0) = 2 > 0$)
+**Paso 1: Separar variables**
+
+$$\frac{dy}{dx} = \frac{x^2}{1 + y^2}$$
+
+$$(1 + y^2)\,dy = x^2\,dx$$
+
+---
+
+**Paso 2: Integrar ambos lados**
+
+$$\int (1 + y^2)\,dy = \int x^2\,dx$$
+
+$$y + \frac{y^3}{3} = \frac{x^3}{3} + C$$
+
+---
+
+**Paso 3: Aplicar condición inicial** $y(0) = 1$
+
+$$1 + \frac{1^3}{3} = \frac{0^3}{3} + C$$
+
+$$1 + \frac{1}{3} = C \implies C = \frac{4}{3}$$
+
+---
+
+**Paso 4: Escribir solución particular**
+
+$$y + \frac{y^3}{3} = \frac{x^3}{3} + \frac{4}{3}$$
+
+Multiplicando por 3:
+
+$$\boxed{3y + y^3 = x^3 + 4}$$
+
+---
+
+**Verificación:** En $x = 0$: $3(1) + 1 = 0 + 4 \implies 4 = 4$ ✓
 
 ---
 
 ## Método 2: Resolver Ecuación Lineal
 
-**Objetivo:** Resolver $\frac{dy}{dx} + P(x)y = Q(x)$
+### Cuándo Usar
 
-### Pasos
+- Forma estándar: $\frac{dy}{dx} + P(x)y = Q(x)$
+- $y$ aparece solo en primera potencia
 
-1. Identificar $P(x)$ y $Q(x)$
-2. Calcular factor integrante: $\mu = e^{\int P\,dx}$
-3. Multiplicar toda la ecuación por $\mu$
-4. Reconocer que el lado izquierdo es $\frac{d}{dx}(\mu y)$
-5. Integrar: $\mu y = \int \mu Q\,dx + C$
-6. Despejar $y$
+### Fórmula
 
-### Ejemplo
+**Factor integrante:** $\mu(x) = e^{\int P(x)\,dx}$
 
-$\frac{dy}{dx} - 3y = e^{2x}$
+**Solución:**
+$$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
 
-**Paso 1:** $P(x) = -3$, $Q(x) = e^{2x}$
+### Algoritmo de Resolución
 
-**Paso 2:** $\mu = e^{\int -3dx} = e^{-3x}$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Forma estándar** | Escribir como $y' + P(x)y = Q(x)$ |
+| 2 | **Identificar** | Determinar $P(x)$ y $Q(x)$ |
+| 3 | **Factor integrante** | Calcular $\mu = e^{\int P\,dx}$ |
+| 4 | **Multiplicar** | Multiplicar toda la ecuación por $\mu$ |
+| 5 | **Reconocer derivada** | El lado izquierdo es $\frac{d}{dx}(\mu y)$ |
+| 6 | **Integrar** | $\mu y = \int \mu Q\,dx + C$ |
+| 7 | **Despejar** | $y = \frac{1}{\mu}\left[\int \mu Q\,dx + C\right]$ |
 
-**Paso 3:** $e^{-3x}\frac{dy}{dx} - 3e^{-3x}y = e^{-x}$
+### Ejemplo Detallado
 
-**Paso 4:** $\frac{d}{dx}(e^{-3x}y) = e^{-x}$
+**Problema:** Resolver $xy' - 2y = x^4$
 
-**Paso 5:** $e^{-3x}y = -e^{-x} + C$
+---
 
-**Paso 6:** $y = -e^{2x} + Ce^{3x}$
+**Paso 1: Forma estándar** (dividir por $x$)
+
+$$y' - \frac{2}{x}y = x^3$$
+
+---
+
+**Paso 2: Identificar**
+
+$$P(x) = -\frac{2}{x}, \quad Q(x) = x^3$$
+
+---
+
+**Paso 3: Factor integrante**
+
+$$\mu = e^{\int -\frac{2}{x}dx} = e^{-2\ln|x|} = e^{\ln|x|^{-2}} = x^{-2} = \frac{1}{x^2}$$
+
+---
+
+**Paso 4: Multiplicar por** $\mu = \frac{1}{x^2}$
+
+$$\frac{1}{x^2}y' - \frac{2}{x^3}y = x$$
+
+---
+
+**Paso 5: Reconocer derivada**
+
+$$\frac{d}{dx}\left(\frac{y}{x^2}\right) = x$$
+
+---
+
+**Paso 6: Integrar**
+
+$$\frac{y}{x^2} = \int x\,dx = \frac{x^2}{2} + C$$
+
+---
+
+**Paso 7: Despejar $y$**
+
+$$y = x^2\left(\frac{x^2}{2} + C\right)$$
+
+$$\boxed{y = \frac{x^4}{2} + Cx^2}$$
+
+---
+
+**Verificación:** $y' = 2x^3 + 2Cx$
+
+$xy' - 2y = x(2x^3 + 2Cx) - 2\left(\frac{x^4}{2} + Cx^2\right) = 2x^4 + 2Cx^2 - x^4 - 2Cx^2 = x^4$ ✓
 
 ---
 
 ## Método 3: Resolver Ecuación Exacta
 
-**Objetivo:** Resolver $M(x,y)dx + N(x,y)dy = 0$
+### Cuándo Usar
 
-### Pasos
+- Forma: $M(x,y)\,dx + N(x,y)\,dy = 0$
+- Condición de exactitud: $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$
 
-1. Verificar exactitud: $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$
-2. Integrar $M$ respecto a $x$: $F = \int M\,dx + g(y)$
-3. Derivar $F$ respecto a $y$: $\frac{\partial F}{\partial y} = ... + g'(y)$
-4. Igualar a $N$ y despejar $g'(y)$
-5. Integrar $g'(y)$ para obtener $g(y)$
-6. Escribir solución: $F(x,y) = C$
+### Fórmula
 
-### Ejemplo
+Si es exacta, existe $F(x,y)$ tal que:
+$$\frac{\partial F}{\partial x} = M, \quad \frac{\partial F}{\partial y} = N$$
 
-$(2xy + 1)dx + (x^2 + 2y)dy = 0$
+**Solución:** $F(x,y) = C$
 
-**Paso 1:** $M_y = 2x$, $N_x = 2x$ ✓
+### Algoritmo de Resolución
 
-**Paso 2:** $F = \int (2xy + 1)dx = x^2y + x + g(y)$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Identificar** | Determinar $M(x,y)$ y $N(x,y)$ |
+| 2 | **Verificar exactitud** | Comprobar $M_y = N_x$ |
+| 3 | **Integrar $M$** | $F = \int M\,dx + g(y)$ |
+| 4 | **Derivar** | $\frac{\partial F}{\partial y} = \frac{\partial}{\partial y}\int M\,dx + g'(y)$ |
+| 5 | **Igualar a $N$** | Despejar $g'(y)$ |
+| 6 | **Integrar $g'(y)$** | Obtener $g(y)$ |
+| 7 | **Escribir solución** | $F(x,y) = C$ |
 
-**Paso 3:** $\frac{\partial F}{\partial y} = x^2 + g'(y)$
+### Ejemplo Detallado
 
-**Paso 4:** $x^2 + g'(y) = x^2 + 2y \Rightarrow g'(y) = 2y$
+**Problema:** Resolver $(3x^2 + y\cos x)\,dx + (\sin x - 4y^3)\,dy = 0$
 
-**Paso 5:** $g(y) = y^2$
+---
 
-**Paso 6:** $x^2y + x + y^2 = C$
+**Paso 1: Identificar**
+
+$$M = 3x^2 + y\cos x, \quad N = \sin x - 4y^3$$
+
+---
+
+**Paso 2: Verificar exactitud**
+
+$$M_y = \frac{\partial}{\partial y}(3x^2 + y\cos x) = \cos x$$
+
+$$N_x = \frac{\partial}{\partial x}(\sin x - 4y^3) = \cos x$$
+
+$M_y = N_x$ ✓ **Es exacta**
+
+---
+
+**Paso 3: Integrar $M$ respecto a $x$**
+
+$$F = \int (3x^2 + y\cos x)\,dx = x^3 + y\sin x + g(y)$$
+
+---
+
+**Paso 4: Derivar $F$ respecto a $y$**
+
+$$\frac{\partial F}{\partial y} = \sin x + g'(y)$$
+
+---
+
+**Paso 5: Igualar a $N$**
+
+$$\sin x + g'(y) = \sin x - 4y^3$$
+
+$$g'(y) = -4y^3$$
+
+---
+
+**Paso 6: Integrar para obtener $g(y)$**
+
+$$g(y) = \int -4y^3\,dy = -y^4$$
+
+---
+
+**Paso 7: Escribir solución**
+
+$$F(x,y) = x^3 + y\sin x - y^4 = C$$
+
+$$\boxed{x^3 + y\sin x - y^4 = C}$$
 
 ---
 
 ## Método 4: Factor Integrante para No Exactas
 
-**Objetivo:** Encontrar $\mu$ para hacer exacta $Mdx + Ndy = 0$
+### Cuándo Usar
 
-### Pasos
+- La ecuación $M\,dx + N\,dy = 0$ NO es exacta ($M_y \neq N_x$)
+- Se puede encontrar $\mu(x)$ o $\mu(y)$ para hacerla exacta
 
-1. Calcular $M_y - N_x$
-2. Intentar $\frac{M_y - N_x}{N}$. Si solo depende de $x$: $\mu(x) = e^{\int \frac{M_y - N_x}{N}dx}$
-3. Si no, intentar $\frac{N_x - M_y}{M}$. Si solo depende de $y$: $\mu(y) = e^{\int \frac{N_x - M_y}{M}dy}$
-4. Multiplicar ecuación por $\mu$ y resolver como exacta
+### Fórmulas para Factor Integrante
 
-### Ejemplo
+**Caso 1:** Si $\frac{M_y - N_x}{N}$ depende solo de $x$:
+$$\mu(x) = e^{\int \frac{M_y - N_x}{N}dx}$$
 
-$(y + 1)dx - xdy = 0$
+**Caso 2:** Si $\frac{N_x - M_y}{M}$ depende solo de $y$:
+$$\mu(y) = e^{\int \frac{N_x - M_y}{M}dy}$$
 
-$M = y + 1$, $N = -x$
+### Algoritmo de Resolución
 
-$M_y = 1$, $N_x = -1$, $M_y - N_x = 2$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Calcular** | $M_y$, $N_x$, y $M_y - N_x$ |
+| 2 | **Intentar** $\mu(x)$ | Ver si $\frac{M_y - N_x}{N}$ solo depende de $x$ |
+| 3 | **Si no, intentar** $\mu(y)$ | Ver si $\frac{N_x - M_y}{M}$ solo depende de $y$ |
+| 4 | **Calcular** $\mu$ | Integrar la expresión encontrada |
+| 5 | **Multiplicar** | Nueva ecuación: $\mu M\,dx + \mu N\,dy = 0$ |
+| 6 | **Resolver** | Aplicar método de ecuación exacta |
 
-$\frac{M_y - N_x}{N} = \frac{2}{-x} = -\frac{2}{x}$ (depende solo de $x$) ✓
+### Ejemplo Detallado
 
-$\mu = e^{\int -\frac{2}{x}dx} = e^{-2\ln|x|} = x^{-2}$
+**Problema:** Resolver $(xy + 1)\,dx + x(x + 4y - 2)\,dy = 0$
 
-Nueva ecuación: $\frac{y+1}{x^2}dx - \frac{1}{x}dy = 0$
+---
 
-Verificar: ahora es exacta y resolver.
+**Paso 1: Calcular derivadas parciales**
+
+$$M = xy + 1, \quad N = x^2 + 4xy - 2x$$
+
+$$M_y = x, \quad N_x = 2x + 4y - 2$$
+
+$$M_y - N_x = x - (2x + 4y - 2) = -x - 4y + 2$$
+
+No es exacta.
+
+---
+
+**Paso 2: Intentar** $\mu(x)$
+
+$$\frac{M_y - N_x}{N} = \frac{-x - 4y + 2}{x^2 + 4xy - 2x} = \frac{-x - 4y + 2}{x(x + 4y - 2)}$$
+
+Factorizando: $\frac{-(x + 4y - 2)}{x(x + 4y - 2)} = -\frac{1}{x}$
+
+¡Solo depende de $x$! ✓
+
+---
+
+**Paso 3: Calcular factor integrante**
+
+$$\mu(x) = e^{\int -\frac{1}{x}dx} = e^{-\ln|x|} = \frac{1}{x}$$
+
+---
+
+**Paso 4: Multiplicar ecuación por** $\mu = \frac{1}{x}$
+
+$$\frac{xy + 1}{x}\,dx + \frac{x^2 + 4xy - 2x}{x}\,dy = 0$$
+
+$$\left(y + \frac{1}{x}\right)dx + (x + 4y - 2)\,dy = 0$$
+
+---
+
+**Paso 5: Verificar que ahora es exacta**
+
+$$M^* = y + \frac{1}{x}, \quad N^* = x + 4y - 2$$
+
+$$M^*_y = 1, \quad N^*_x = 1$$ ✓
+
+---
+
+**Paso 6: Resolver como exacta**
+
+$$F = \int \left(y + \frac{1}{x}\right)dx = xy + \ln|x| + g(y)$$
+
+$$\frac{\partial F}{\partial y} = x + g'(y) = x + 4y - 2$$
+
+$$g'(y) = 4y - 2 \implies g(y) = 2y^2 - 2y$$
+
+$$\boxed{xy + \ln|x| + 2y^2 - 2y = C}$$
 
 ---
 
 ## Método 5: Resolver Ecuación de Bernoulli
 
-**Objetivo:** Resolver $\frac{dy}{dx} + P(x)y = Q(x)y^n$
+### Cuándo Usar
 
-### Pasos
+- Forma: $\frac{dy}{dx} + P(x)y = Q(x)y^n$ donde $n \neq 0, 1$
+- Se transforma en lineal mediante sustitución
 
-1. Identificar $n$, $P(x)$, $Q(x)$
-2. Dividir por $y^n$: $y^{-n}\frac{dy}{dx} + P(x)y^{1-n} = Q(x)$
-3. Sustituir $v = y^{1-n}$, entonces $\frac{dv}{dx} = (1-n)y^{-n}\frac{dy}{dx}$
-4. Reescribir: $\frac{1}{1-n}\frac{dv}{dx} + P(x)v = Q(x)$
-5. Resolver ecuación lineal en $v$
-6. Volver a $y$: $y = v^{\frac{1}{1-n}}$
+### Fórmula
 
-### Ejemplo
+**Sustitución:** $v = y^{1-n}$
 
-$\frac{dy}{dx} + \frac{y}{x} = xy^2$
+**Ecuación transformada:** $\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$
 
-**Paso 1:** $n = 2$, $P = \frac{1}{x}$, $Q = x$
+### Algoritmo de Resolución
 
-**Paso 2:** $y^{-2}\frac{dy}{dx} + \frac{1}{x}y^{-1} = x$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Identificar** | Determinar $n$, $P(x)$, $Q(x)$ |
+| 2 | **Dividir** | Por $y^n$: $y^{-n}y' + Py^{1-n} = Q$ |
+| 3 | **Sustituir** | $v = y^{1-n}$, $v' = (1-n)y^{-n}y'$ |
+| 4 | **Transformar** | $\frac{v'}{1-n} + Pv = Q$ |
+| 5 | **Resolver lineal** | Ecuación en $v$ |
+| 6 | **Regresar** | $y = v^{\frac{1}{1-n}}$ |
 
-**Paso 3:** $v = y^{-1}$, $\frac{dv}{dx} = -y^{-2}\frac{dy}{dx}$
+### Ejemplo Detallado
 
-**Paso 4:** $-\frac{dv}{dx} + \frac{v}{x} = x \Rightarrow \frac{dv}{dx} - \frac{v}{x} = -x$
+**Problema:** Resolver $y' - \frac{y}{x} = -\frac{y^3}{x^2}$
 
-**Paso 5:** $\mu = e^{-\ln x} = \frac{1}{x}$
+---
 
-$\frac{v}{x} = -\int 1\,dx + C = -x + C$
+**Paso 1: Identificar**
 
-$v = -x^2 + Cx$
+Forma: $y' + \left(-\frac{1}{x}\right)y = \left(-\frac{1}{x^2}\right)y^3$
 
-**Paso 6:** $y = \frac{1}{v} = \frac{1}{Cx - x^2}$
+$$n = 3, \quad P(x) = -\frac{1}{x}, \quad Q(x) = -\frac{1}{x^2}$$
+
+---
+
+**Paso 2: Dividir por $y^3$**
+
+$$y^{-3}y' - \frac{y^{-2}}{x} = -\frac{1}{x^2}$$
+
+---
+
+**Paso 3: Sustituir** $v = y^{1-3} = y^{-2}$
+
+$$\frac{dv}{dx} = -2y^{-3}\frac{dy}{dx} \implies y^{-3}y' = -\frac{1}{2}\frac{dv}{dx}$$
+
+---
+
+**Paso 4: Transformar a ecuación lineal**
+
+$$-\frac{1}{2}\frac{dv}{dx} - \frac{v}{x} = -\frac{1}{x^2}$$
+
+Multiplicar por $-2$:
+
+$$\frac{dv}{dx} + \frac{2v}{x} = \frac{2}{x^2}$$
+
+---
+
+**Paso 5: Resolver ecuación lineal**
+
+Factor integrante: $\mu = e^{\int \frac{2}{x}dx} = e^{2\ln|x|} = x^2$
+
+$$x^2\frac{dv}{dx} + 2xv = 2$$
+
+$$\frac{d}{dx}(x^2 v) = 2$$
+
+$$x^2 v = 2x + C$$
+
+$$v = \frac{2}{x} + \frac{C}{x^2}$$
+
+---
+
+**Paso 6: Regresar a $y$**
+
+$$y^{-2} = \frac{2}{x} + \frac{C}{x^2} = \frac{2x + C}{x^2}$$
+
+$$y^2 = \frac{x^2}{2x + C}$$
+
+$$\boxed{y = \pm\sqrt{\frac{x^2}{2x + C}} = \pm\frac{x}{\sqrt{2x + C}}}$$
 
 ---
 
 ## Método 6: Resolver Ecuación Homogénea
 
-**Objetivo:** Resolver $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$
+### Cuándo Usar
 
-### Pasos
+- La función $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
+- Equivalente: $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$
 
-1. Verificar que es homogénea (reescribir como función de $\frac{y}{x}$)
-2. Sustituir $y = vx$ donde $v = \frac{y}{x}$
-3. Calcular $\frac{dy}{dx} = v + x\frac{dv}{dx}$
-4. Sustituir en la ecuación
-5. Separar variables en $v$ y $x$
-6. Integrar
-7. Volver a $y = vx$
+### Fórmula
 
-### Ejemplo
+**Sustitución:** $y = vx$ donde $v = \frac{y}{x}$
 
-$\frac{dy}{dx} = \frac{y^2 + xy}{x^2}$
+**Derivada:** $\frac{dy}{dx} = v + x\frac{dv}{dx}$
 
-**Paso 1:** $\frac{dy}{dx} = \left(\frac{y}{x}\right)^2 + \frac{y}{x} = v^2 + v$
+### Algoritmo de Resolución
 
-**Paso 2-3:** $y = vx$, $\frac{dy}{dx} = v + x\frac{dv}{dx}$
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Verificar** | Comprobar que $f(tx,ty) = f(x,y)$ |
+| 2 | **Reescribir** | Expresar como $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$ |
+| 3 | **Sustituir** | $y = vx$, $y' = v + xv'$ |
+| 4 | **Simplificar** | $v + xv' = F(v)$ |
+| 5 | **Separar** | $\frac{dv}{F(v) - v} = \frac{dx}{x}$ |
+| 6 | **Integrar** | Ambos lados |
+| 7 | **Regresar** | Sustituir $v = \frac{y}{x}$ |
 
-**Paso 4:** $v + x\frac{dv}{dx} = v^2 + v$
+### Ejemplo Detallado
 
-**Paso 5:** $x\frac{dv}{dx} = v^2$, $\frac{dv}{v^2} = \frac{dx}{x}$
-
-**Paso 6:** $-\frac{1}{v} = \ln|x| + C$
-
-**Paso 7:** $-\frac{x}{y} = \ln|x| + C$, entonces $y = \frac{-x}{\ln|x| + C}$
+**Problema:** Resolver $(x^2 + y^2)\,dx - 2xy\,dy = 0$
 
 ---
 
-## Método 7: Identificar Tipo de Ecuación
+**Paso 1: Reescribir como** $y' = f(x,y)$
 
-**Objetivo:** Determinar qué método usar.
+$$\frac{dy}{dx} = \frac{x^2 + y^2}{2xy}$$
+
+---
+
+**Paso 2: Verificar homogeneidad**
+
+$$f(tx, ty) = \frac{t^2x^2 + t^2y^2}{2(tx)(ty)} = \frac{t^2(x^2 + y^2)}{2t^2xy} = \frac{x^2 + y^2}{2xy} = f(x,y)$$ ✓
+
+---
+
+**Paso 3: Reescribir en términos de** $v = \frac{y}{x}$
+
+$$\frac{dy}{dx} = \frac{x^2 + y^2}{2xy} = \frac{1 + (y/x)^2}{2(y/x)} = \frac{1 + v^2}{2v}$$
+
+---
+
+**Paso 4: Sustituir** $y = vx$
+
+$$v + x\frac{dv}{dx} = \frac{1 + v^2}{2v}$$
+
+$$x\frac{dv}{dx} = \frac{1 + v^2}{2v} - v = \frac{1 + v^2 - 2v^2}{2v} = \frac{1 - v^2}{2v}$$
+
+---
+
+**Paso 5: Separar variables**
+
+$$\frac{2v\,dv}{1 - v^2} = \frac{dx}{x}$$
+
+---
+
+**Paso 6: Integrar**
+
+$$-\int \frac{-2v\,dv}{1 - v^2} = \int \frac{dx}{x}$$
+
+$$-\ln|1 - v^2| = \ln|x| + C_1$$
+
+$$\ln|1 - v^2| = -\ln|x| - C_1 = \ln\left|\frac{1}{x}\right| + C_2$$
+
+$$1 - v^2 = \frac{C}{x}$$
+
+---
+
+**Paso 7: Regresar a** $y$
+
+$$1 - \frac{y^2}{x^2} = \frac{C}{x}$$
+
+$$x^2 - y^2 = Cx$$
+
+$$\boxed{x^2 - y^2 = Cx}$$
+
+---
+
+## Método 7: Sustitución Especial
+
+### Cuándo Usar
+
+- Forma: $\frac{dy}{dx} = f(ax + by + c)$
+- Sustitución convierte en separable
+
+### Fórmula
+
+**Sustitución:** $u = ax + by + c$
+
+**Derivada:** $\frac{du}{dx} = a + b\frac{dy}{dx}$
+
+### Algoritmo de Resolución
+
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Identificar** | $a$, $b$, $c$ en $ax + by + c$ |
+| 2 | **Sustituir** | $u = ax + by + c$ |
+| 3 | **Derivar** | $u' = a + by'$ |
+| 4 | **Despejar** $y'$ | $y' = \frac{u' - a}{b}$ |
+| 5 | **Reemplazar** | $\frac{u' - a}{b} = f(u)$ |
+| 6 | **Separar y resolver** | Ecuación en $u$ |
+| 7 | **Regresar** | $u = ax + by + c$ |
+
+### Ejemplo Detallado
+
+**Problema:** Resolver $y' = (x + y + 1)^2$
+
+---
+
+**Paso 1: Identificar**
+
+$$a = 1, \quad b = 1, \quad c = 1$$
+
+---
+
+**Paso 2: Sustituir** $u = x + y + 1$
+
+---
+
+**Paso 3: Derivar**
+
+$$\frac{du}{dx} = 1 + \frac{dy}{dx}$$
+
+$$\frac{dy}{dx} = \frac{du}{dx} - 1$$
+
+---
+
+**Paso 4: Reemplazar en la ecuación**
+
+$$\frac{du}{dx} - 1 = u^2$$
+
+$$\frac{du}{dx} = u^2 + 1$$
+
+---
+
+**Paso 5: Separar variables**
+
+$$\frac{du}{u^2 + 1} = dx$$
+
+---
+
+**Paso 6: Integrar**
+
+$$\arctan(u) = x + C$$
+
+$$u = \tan(x + C)$$
+
+---
+
+**Paso 7: Regresar a** $y$
+
+$$x + y + 1 = \tan(x + C)$$
+
+$$\boxed{y = \tan(x + C) - x - 1}$$
+
+---
+
+**Verificación:**
+
+$y' = \sec^2(x + C) - 1 = \tan^2(x + C) = (x + y + 1)^2$ ✓
+
+---
+
+## Método 8: Ecuación de Ricatti
+
+### Cuándo Usar
+
+- Forma: $\frac{dy}{dx} = P(x) + Q(x)y + R(x)y^2$
+- Se conoce una solución particular $y_1(x)$
+
+### Fórmula
+
+**Sustitución:** $y = y_1 + \frac{1}{v}$
+
+**Ecuación transformada:** $\frac{dv}{dx} + [Q(x) + 2R(x)y_1]v = -R(x)$ (lineal en $v$)
+
+### Algoritmo de Resolución
+
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Identificar** | $P$, $Q$, $R$ y solución particular $y_1$ |
+| 2 | **Verificar** | Comprobar que $y_1$ satisface la ecuación |
+| 3 | **Sustituir** | $y = y_1 + \frac{1}{v}$ |
+| 4 | **Derivar** | $y' = y_1' - \frac{v'}{v^2}$ |
+| 5 | **Reemplazar** | Sustituir en la ecuación original |
+| 6 | **Simplificar** | Obtener ecuación lineal en $v$ |
+| 7 | **Resolver** | Aplicar método de ecuación lineal |
+| 8 | **Regresar** | $y = y_1 + \frac{1}{v}$ |
+
+### Ejemplo Detallado
+
+**Problema:** Resolver $y' = 1 + x^2 - 2xy + y^2$, sabiendo que $y_1 = x$ es solución
+
+---
+
+**Paso 1: Identificar**
+
+$$P(x) = 1 + x^2, \quad Q(x) = -2x, \quad R(x) = 1$$
+
+---
+
+**Paso 2: Verificar que** $y_1 = x$ **es solución**
+
+$y_1' = 1$
+
+$1 + x^2 - 2x(x) + x^2 = 1 + x^2 - 2x^2 + x^2 = 1$ ✓
+
+---
+
+**Paso 3: Sustituir** $y = x + \frac{1}{v}$
+
+$$y' = 1 - \frac{v'}{v^2}$$
+
+---
+
+**Paso 4: Reemplazar en la ecuación**
+
+$$1 - \frac{v'}{v^2} = 1 + x^2 - 2x\left(x + \frac{1}{v}\right) + \left(x + \frac{1}{v}\right)^2$$
+
+$$1 - \frac{v'}{v^2} = 1 + x^2 - 2x^2 - \frac{2x}{v} + x^2 + \frac{2x}{v} + \frac{1}{v^2}$$
+
+$$1 - \frac{v'}{v^2} = 1 + \frac{1}{v^2}$$
+
+---
+
+**Paso 5: Simplificar**
+
+$$-\frac{v'}{v^2} = \frac{1}{v^2}$$
+
+$$v' = -1$$
+
+---
+
+**Paso 6: Integrar**
+
+$$v = -x + C$$
+
+---
+
+**Paso 7: Escribir solución**
+
+$$y = x + \frac{1}{-x + C} = x - \frac{1}{x - C}$$
+
+$$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
+
+---
+
+## Método 9: Identificar Tipo de Ecuación
 
 ### Diagrama de Decisión
 
 ```
-¿La ecuación tiene forma dy/dx = f(x,y)?
-│
-├─ ¿f(x,y) = g(x)·h(y)? ──────► SEPARABLE
-│
-├─ ¿Forma dy/dx + P(x)y = Q(x)? ──────► LINEAL
-│
-├─ ¿Forma dy/dx + P(x)y = Q(x)y^n? ──────► BERNOULLI
-│
-├─ ¿f(tx,ty) = f(x,y)? ──────► HOMOGÉNEA
-│
-└─ ¿Forma M dx + N dy = 0?
-    │
-    ├─ ¿M_y = N_x? ──────► EXACTA
-    │
-    └─ ¿Existe μ(x) o μ(y)? ──────► FACTOR INTEGRANTE
+┌─────────────────────────────────────────────────────────────┐
+│                    ¿Qué forma tiene?                        │
+└─────────────────────────────────────────────────────────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         ▼                    ▼                    ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│ y' = g(x)·h(y)  │  │ y' + P(x)y = Q  │  │ M dx + N dy = 0 │
+│   SEPARABLE     │  │    LINEAL       │  │                 │
+└─────────────────┘  └─────────────────┘  └────────┬────────┘
+                                                   │
+                              ┌─────────────────────┴─────────┐
+                              ▼                               ▼
+                     ┌─────────────┐               ┌─────────────────┐
+                     │ ¿M_y = N_x? │               │ ¿M_y ≠ N_x?     │
+                     │   EXACTA    │               │ FACTOR INTEG.   │
+                     └─────────────┘               └─────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                   Casos especiales                          │
+└─────────────────────────────────────────────────────────────┘
+                              │
+    ┌─────────────┬───────────┴───────────┬─────────────┐
+    ▼             ▼                       ▼             ▼
+┌─────────┐ ┌───────────┐         ┌───────────┐ ┌───────────┐
+│y'+Py=Qy^n│ │y'=F(y/x) │         │y'=f(ax+by)│ │y'=P+Qy+Ry²│
+│BERNOULLI │ │HOMOGÉNEA │         │SUSTITUCIÓN│ │  RICATTI  │
+└─────────┘ └───────────┘         └───────────┘ └───────────┘
 ```
+
+### Tabla Resumen
+
+| Tipo | Identificación | Método |
+|------|----------------|--------|
+| Separable | $y' = g(x)h(y)$ | Separar e integrar |
+| Lineal | $y' + P(x)y = Q(x)$ | Factor integrante $e^{\int P\,dx}$ |
+| Exacta | $M_y = N_x$ | Buscar $F$ tal que $F_x = M$, $F_y = N$ |
+| No exacta | $M_y \neq N_x$ | Buscar factor integrante $\mu(x)$ o $\mu(y)$ |
+| Bernoulli | $y' + Py = Qy^n$ | Sustitución $v = y^{1-n}$ |
+| Homogénea | $f(tx,ty) = f(x,y)$ | Sustitución $y = vx$ |
+| Sustitución | $y' = f(ax+by+c)$ | Sustitución $u = ax + by + c$ |
+| Ricatti | $y' = P + Qy + Ry^2$ | Conocer $y_1$, usar $y = y_1 + 1/v$ |
 
 ---
 
-## Método 8: Resolver PVI
+## Método 10: Resolver Problema de Valor Inicial
 
-**Objetivo:** Resolver $\frac{dy}{dx} = f(x,y)$, $y(x_0) = y_0$
+### Cuándo Usar
 
-### Pasos
+- Se tiene EDO junto con condición inicial $y(x_0) = y_0$
+- Se busca solución particular única
 
-1. Resolver la EDO obteniendo solución general con constante $C$
-2. Sustituir la condición inicial: $y(x_0) = y_0$
-3. Despejar $C$
-4. Escribir la solución particular
+### Algoritmo de Resolución
 
-### Ejemplo
+| Paso | Acción | Detalle |
+|:----:|--------|---------|
+| 1 | **Identificar tipo** | Clasificar la EDO |
+| 2 | **Resolver** | Obtener solución general con $C$ |
+| 3 | **Aplicar CI** | Sustituir $(x_0, y_0)$ |
+| 4 | **Despejar** $C$ | Encontrar valor de la constante |
+| 5 | **Escribir** | Solución particular |
+| 6 | **Verificar** | Comprobar en ecuación y CI |
 
-$\frac{dy}{dx} = 2xy$, $y(0) = 3$
+### Ejemplo Detallado
 
-**Paso 1:** Separable: $\frac{dy}{y} = 2x\,dx$
+**Problema:** Resolver $y' + 2xy = 2xe^{-x^2}$, $y(0) = 3$
 
-$\ln|y| = x^2 + C_1$
+---
 
-$y = Ce^{x^2}$
+**Paso 1: Identificar tipo**
 
-**Paso 2:** $y(0) = Ce^0 = C = 3$
+Ecuación lineal: $P(x) = 2x$, $Q(x) = 2xe^{-x^2}$
 
-**Paso 3:** $C = 3$
+---
 
-**Paso 4:** $y = 3e^{x^2}$
+**Paso 2: Resolver ecuación lineal**
+
+Factor integrante:
+$$\mu = e^{\int 2x\,dx} = e^{x^2}$$
+
+Multiplicar:
+$$e^{x^2}y' + 2xe^{x^2}y = 2x$$
+
+$$\frac{d}{dx}(e^{x^2}y) = 2x$$
+
+Integrar:
+$$e^{x^2}y = x^2 + C$$
+
+$$y = (x^2 + C)e^{-x^2}$$
+
+---
+
+**Paso 3: Aplicar condición inicial** $y(0) = 3$
+
+$$3 = (0 + C)e^0 = C$$
+
+$$C = 3$$
+
+---
+
+**Paso 4: Escribir solución particular**
+
+$$\boxed{y = (x^2 + 3)e^{-x^2}}$$
+
+---
+
+**Paso 5: Verificación**
+
+$y' = 2xe^{-x^2} + (x^2 + 3)(-2x)e^{-x^2} = 2xe^{-x^2} - 2x(x^2 + 3)e^{-x^2}$
+
+$y' = e^{-x^2}[2x - 2x^3 - 6x] = e^{-x^2}[-2x^3 - 4x]$
+
+$y' + 2xy = e^{-x^2}[-2x^3 - 4x] + 2x(x^2 + 3)e^{-x^2}$
+$= e^{-x^2}[-2x^3 - 4x + 2x^3 + 6x] = 2xe^{-x^2}$ ✓
+
+$y(0) = (0 + 3)e^0 = 3$ ✓
+
+---
+
+## Tabla Resumen de Fórmulas
+
+| Tipo | Forma | Solución/Técnica |
+|------|-------|------------------|
+| **Separable** | $y' = g(x)h(y)$ | $\int \frac{dy}{h(y)} = \int g(x)\,dx + C$ |
+| **Lineal** | $y' + Py = Q$ | $y = \frac{1}{\mu}\left[\int \mu Q\,dx + C\right]$, $\mu = e^{\int P\,dx}$ |
+| **Exacta** | $M\,dx + N\,dy = 0$ | Encontrar $F$ con $F_x = M$, $F_y = N$; sol: $F = C$ |
+| **Bernoulli** | $y' + Py = Qy^n$ | Sustituir $v = y^{1-n}$ → lineal |
+| **Homogénea** | $y' = F(y/x)$ | Sustituir $y = vx$ → separable |
+| **Ricatti** | $y' = P + Qy + Ry^2$ | Con $y_1$ conocida: $y = y_1 + 1/v$ → lineal |
+
+---
+
+## Errores Comunes a Evitar
+
+| Error | Consecuencia | Prevención |
+|-------|--------------|------------|
+| Olvidar constante $C$ | Solución incompleta | Siempre añadir $+C$ al integrar |
+| No verificar $h(y) \neq 0$ | Pérdida de soluciones singulares | Analizar casos donde $h(y) = 0$ |
+| Error en forma estándar | Factor integrante incorrecto | Dividir toda la ecuación correctamente |
+| Confundir $M_y$ con $N_x$ | Clasificación errónea | $M$ va con $dx$, $N$ va con $dy$ |
+| Olvidar verificar exactitud | Aplicar método incorrecto | Siempre calcular $M_y - N_x$ |
+| Error en sustitución Bernoulli | Ecuación mal transformada | $v = y^{1-n}$, no $y^{n-1}$ |
+
+---
+
+## Problemas de Práctica Sugeridos
+
+1. **Separable:** $y' = \frac{y(1-y)}{x}$
+2. **Lineal:** $y' + \frac{y}{x} = \sin x$
+3. **Exacta:** $(2x + 3y)\,dx + (3x + 4y)\,dy = 0$
+4. **Factor integrante:** $y\,dx + (2x - ye^y)\,dy = 0$
+5. **Bernoulli:** $y' + y = y^2 e^x$
+6. **Homogénea:** $(x^2 + xy)\,dx - x^2\,dy = 0$
+7. **Ricatti:** $y' = y^2 - xy + 1$, $y_1 = x$
+
+---
+
+*Documento actualizado con formato expandido para estudio detallado.*
