@@ -1,23 +1,11 @@
 <!--
-HUMANO:
-Este archivo es la puerta de entrada del repositorio.
-Debe permitir entender la estructura, propósito y cómo navegar el contenido.
-
-IA:
-Este archivo define el CONTEXTO GLOBAL del repositorio.
-Úsalo como referencia primaria antes de generar cualquier contenido.
-Respeta la estructura definida aquí.
-
----
-content_type: repository_overview
-expected_output:
-  default: markdown
-  alternative:
-    - natural_language
-    - summary
-audience: self-study
-formality: technical
----
+::METADATA::
+type: index
+topic_id: repo-readme
+file_id: README
+status: stable
+audience: student
+last_updated: 2025-12-30
 -->
 
 # Repositorio de Matemáticas Universitarias
@@ -40,19 +28,19 @@ Este repositorio contiene material de estudio para matemáticas universitarias, 
 MATEMATICAS/
 │
 ├── README.md                  ← Estás aquí
-├── glossary.md                ← Glosario de términos
+├── glossary.md                ← Glosario de términos (~150 términos)
 │
-├── .assets/                   ← Recursos globales
+├── 00-META/                   ← Configuración y guías
+│   ├── ia-contract.md         ← Contrato principal para IA
+│   ├── study-guide.md         ← Guía de estudio
+│   ├── notation-cheatsheet.md ← Símbolos y notación
+│   ├── nomenclatura-estandar.md
+│   └── tools/
+│       └── validate_repo.py   ← Validador del repositorio
 │
-├── 00-META/                   ← Metadatos y guías
-│   ├── study-guide.md
-│   ├── ia-contract.md
-│   ├── notation-cheatsheet.md
-│   └── repo-tests.md
-│
-├── 01-Fundamentos/            ← Funciones, Aritmética, Álgebra, Geometría, Trigonometría
+├── 01-Fundamentos/            ← Simbología, Aritmética, Álgebra, Geometría, Trigonometría
 │   ├── 00-Index.md
-│   ├── 01-Funciones/
+│   ├── 01-Simbologia-Matematica/
 │   ├── 02-Aritmetica/
 │   ├── 03-Algebra/
 │   ├── 04-Geometria/
@@ -68,9 +56,12 @@ MATEMATICAS/
 │   ├── 05-Transformaciones-Lineales/
 │   └── 06-Valores-Vectores-Propios/
 │
-├── 03-Calculo-Diferencial/    ← Límites y Derivadas
+├── 03-Calculo-Diferencial/    ← Límites, Derivadas, Aplicaciones
 │   ├── 00-Index.md
-│   └── 01-Limites/
+│   ├── 01-Limites/
+│   ├── 02-Derivadas/
+│   ├── 03-Aplicaciones-de-la-derivada/
+│   └── 04-Teoremas-fundamentales/
 │
 ├── 04-Calculo-Integral/       ← Integrales y Aplicaciones
 │   ├── 00-Index.md
@@ -81,17 +72,22 @@ MATEMATICAS/
 │   └── 05-Integrales-Impropias/
 │
 ├── 05-Calculo-Vectorial/      ← Cálculo Multivariable
-│   └── 00-Index.md
-│
-├── 06-Ecuaciones-Diferenciales/ ← EDO y EDP
 │   ├── 00-Index.md
-│   ├── 01-Introduccion-EDO/
-│   ├── 02-EDO-Primer-Orden/
-│   ├── 03-EDO-Segundo-Orden/
-│   ├── 04-Sistemas-EDO/
-│   └── 05-Transformada-Laplace/
+│   ├── 01-Vectores-en-el-espacio/
+│   ├── 02-Curvas-planas-parametricas-y-polares/
+│   ├── 03-Funciones-vectoriales/
+│   ├── 04-Funciones-de-varias-variables/
+│   └── 05-Integracion-multiple/
 │
-└── 07-Metodos-Numericos/      ← Métodos Numéricos
+├── 06-Ecuaciones-Diferenciales/
+│   ├── 00-Index.md
+│   ├── 01-EDO-Primer-Orden/
+│   ├── 02-EDO-Segundo-Orden/
+│   ├── 03-Sistemas-EDO/
+│   ├── 04-Transformada-Laplace/
+│   └── 05-Series-Potencias/
+│
+└── 07-Metodos-Numericos/
     ├── 00-Index.md
     ├── 01-Raices-Ecuaciones/
     ├── 02-Interpolacion/
@@ -101,31 +97,28 @@ MATEMATICAS/
 
 ## Cómo usar este repositorio
 
-<!--
-IA: Sigue estas instrucciones al interactuar con usuarios.
--->
-
 ### Para estudiantes:
 1. Comienza leyendo [00-META/study-guide.md](./00-META/study-guide.md)
 2. Navega los módulos en orden numérico
-3. Dentro de cada tema, sigue: README → theory → methods → problems
+3. Dentro de cada tema, sigue: `*-Intro.md` → `theory/` → `methods/` → `problems/`
+4. Consulta `*-Resumen-Formulas.md` para repaso rápido
 
 ### Para IA (Copilot):
 1. Lee siempre [00-META/ia-contract.md](./00-META/ia-contract.md) primero
-2. Respeta la separación semántica de contenido
-3. Genera contenido siguiendo las plantillas establecidas
+2. Respeta la nomenclatura: `[PREFIJO]-[XX]-[Contenido].md`
+3. Usa el `manifest.json` de cada tema para ubicar recursos
 
 ## Módulos disponibles
 
-| Módulo | Descripción | Subtemas | Estado |
-|--------|-------------|----------|--------|
-| [01-Fundamentos](./01-Fundamentos/00-Index.md) | Bases matemáticas | 6 | ✅ Completo |
-| [02-Algebra-Lineal](./02-Algebra-Lineal/00-Index.md) | Matrices, espacios vectoriales, transformaciones | 6 | ✅ Completo |
-| [03-Calculo-Diferencial](./03-Calculo-Diferencial/00-Index.md) | Límites y derivadas | 1 | 🔄 En desarrollo |
-| [04-Calculo-Integral](./04-Calculo-Integral/00-Index.md) | Integrales y aplicaciones | 5 | ✅ Completo |
-| [05-Calculo-Vectorial](./05-Calculo-Vectorial/00-Index.md) | Cálculo multivariable | 5 | 🔄 En desarrollo |
-| [06-Ecuaciones-Diferenciales](./06-Ecuaciones-Diferenciales/00-Index.md) | EDO, sistemas, Laplace | 5 | ✅ Completo |
-| [07-Metodos-Numericos](./07-Metodos-Numericos/00-Index.md) | Raíces, interpolación, integración, EDO numéricas | 4 | ✅ Completo |
+| Módulo | Prefijo | Descripción | Subtemas | Estado |
+|--------|---------|-------------|----------|--------|
+| [01-Fundamentos](./01-Fundamentos/00-Index.md) | `FUN` | Bases matemáticas | 6 | ✅ Completo |
+| [02-Algebra-Lineal](./02-Algebra-Lineal/00-Index.md) | `AL` | Matrices, espacios vectoriales | 6 | ✅ Completo |
+| [03-Calculo-Diferencial](./03-Calculo-Diferencial/00-Index.md) | `CD` | Límites, derivadas, aplicaciones | 4 | ✅ Completo |
+| [04-Calculo-Integral](./04-Calculo-Integral/00-Index.md) | `CI` | Integrales y aplicaciones | 5 | ✅ Completo |
+| [05-Calculo-Vectorial](./05-Calculo-Vectorial/00-Index.md) | `CV` | Cálculo multivariable | 5 | ✅ Completo |
+| [06-Ecuaciones-Diferenciales](./06-Ecuaciones-Diferenciales/00-Index.md) | `ED` | EDO, sistemas, Laplace | 5 | ✅ Completo |
+| [07-Metodos-Numericos](./07-Metodos-Numericos/00-Index.md) | `MN` | Métodos numéricos | 4 | ✅ Completo |
 
 ## Skill tree (Mapa de dependencias)
 
@@ -173,14 +166,14 @@ flowchart TD
 
 ## Referencias rápidas
 
-- [Glosario de términos](./glossary.md)
-- [Notación matemática](./00-META/notation-cheatsheet.md)
-- [Guía de estudio](./00-META/study-guide.md)
+| Recurso | Descripción |
+|---------|-------------|
+| [Glosario](./glossary.md) | ~150 términos con analogías |
+| [Guía de estudio](./00-META/study-guide.md) | Rutas de aprendizaje |
+| [Notación](./00-META/notation-cheatsheet.md) | Símbolos y convenciones |
+| [Contrato IA](./00-META/ia-contract.md) | Reglas para generación |
+| [Validador](./00-META/tools/validate_repo.py) | Verificar integridad |
 
 ---
 
-<!--
-IA: Este README define la estructura canónica.
-No modifiques la estructura sin actualizar este archivo.
-Todo tema nuevo debe seguir el patrón establecido.
--->
+*Última actualización: 2025-12-30*

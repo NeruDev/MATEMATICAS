@@ -1,9 +1,29 @@
+<!--
+::METADATA::
+type: reference
+file_id: pull-request-template
+status: stable
+last_updated: 2025-12-30
+-->
+
 ## Checklist PR — Añadiendo o modificando contenido
 
-- [ ] ¿El nuevo tema sigue la plantilla `theory/methods/problems/solutions/media/manifest.json`?
-- [ ] ¿Todos los .md tienen frontmatter (`content_type`, `expected_output`)?
-- [ ] ¿manifest.json contiene `tags` y `ai_contract`?
-- [ ] ¿media/ incluye preview PNG o SVG de < 800px ancho?
-- [ ] ¿Se añadió/actualizó `00-META/repo-tests.md` o se pasó el script validate_repo.py?
-- [ ] ¿Los diagnósticos (`diagnostic/pre-test.md`) cubren los prerequisitos?
-- [ ] ¿Existe `summary.md` con los puntos clave del tema?
+### Estructura
+- [ ] ¿El nuevo tema sigue la estructura `theory/methods/problems/solutions/manifest.json`?
+- [ ] ¿El archivo de entrada es `PREFIJO-XX-*-Intro.md` (no README.md)?
+- [ ] ¿Existe `PREFIJO-XX-Resumen-Formulas.md` con las fórmulas clave?
+
+### Metadatos
+- [ ] ¿Todos los .md tienen bloque `::METADATA::` con `type` y `status`?
+- [ ] ¿`manifest.json` contiene `resource_map` y `ai_contract`?
+
+### Nomenclatura
+- [ ] ¿Los archivos siguen el patrón `[PREFIJO]-[XX]-[Contenido].md`?
+- [ ] ¿El prefijo corresponde al módulo? (FUN, AL, CD, CI, CV, ED, MN)
+
+### Validación
+- [ ] ¿Se ejecutó `python 00-META/tools/validate_repo.py` sin errores?
+
+### Opcional
+- [ ] ¿`media/` incluye recursos visuales (PNG/SVG < 800px)?
+- [ ] ¿`diagnostic/` contiene pre-test de prerequisitos?
