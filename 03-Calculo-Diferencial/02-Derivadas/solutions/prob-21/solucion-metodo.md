@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem-id: CD-02-21
@@ -7,6 +8,7 @@ difficulty: intermedio
 tags: [derivada, producto-triple, exponencial, trigonométrica]
 created: 2024-12-22
 ---
+-->
 
 # Solución: Derivada de g(x) = x² eˣ sin x (Producto Triple)
 

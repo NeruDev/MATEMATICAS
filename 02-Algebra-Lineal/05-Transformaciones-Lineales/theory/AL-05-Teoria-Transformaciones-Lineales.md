@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Transformaciones Lineales
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría de Transformaciones Lineales

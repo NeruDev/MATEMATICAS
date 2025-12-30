@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: Transformada de Laplace
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Transformada de Laplace
@@ -40,8 +38,8 @@ last_updated: 2025-01-14
 | $e^{at}$ | $\frac{1}{s-a}$ | $s > a$ |
 | $\sin bt$ | $\frac{b}{s^2+b^2}$ | $s > 0$ |
 | $\cos bt$ | $\frac{s}{s^2+b^2}$ | $s > 0$ |
-| $\sinh bt$ | $\frac{b}{s^2-b^2}$ | $s > |b|$ |
-| $\cosh bt$ | $\frac{s}{s^2-b^2}$ | $s > |b|$ |
+| $\sinh bt$ | $\frac{b}{s^2-b^2}$ | $s > \lvert b \rvert$ |
+| $\cosh bt$ | $\frac{s}{s^2-b^2}$ | $s > \lvert b \rvert$ |
 | $t^n e^{at}$ | $\frac{n!}{(s-a)^{n+1}}$ | $s > a$ |
 | $e^{at}\sin bt$ | $\frac{b}{(s-a)^2+b^2}$ | $s > a$ |
 | $e^{at}\cos bt$ | $\frac{s-a}{(s-a)^2+b^2}$ | $s > a$ |

@@ -24,7 +24,7 @@ solved_detailed: 0
 | Prob-02 | Sí, es lineal (derivada es operador lineal) | ➖ |
 | Prob-03 | Sí, $\text{tr}(A+B) = \text{tr}(A) + \text{tr}(B)$ y $\text{tr}(cA) = c\cdot\text{tr}(A)$ | ➖ |
 | Prob-04 | Sí, es lineal | ➖ |
-| Prob-05 | No, $|{-x}| \neq -|x|$ | ➖ |
+| Prob-05 | No, $\lvert {-x} \rvert \neq -\lvert x \rvert$ | ➖ |
 | Prob-06 | $\ker(T) = \{(t,t,t): t \in \mathbb{R}\}$; $\text{Im}(T) = \mathbb{R}^2$; dim(ker) = 1, dim(Im) = 2 | ➖ |
 | Prob-07 | $\ker(T) = \{\vec{0}\}$; $\text{Im}(T) = \text{span}\{(1,1,2), (1,-1,0)\}$; Inyectiva: Sí; Sobreyectiva: No | ➖ |
 | Prob-08 | $\ker(T) = \{c: c \in \mathbb{R}\}$ (constantes); $\text{Im}(T) = P_2$ | ➖ |

@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem_id: FUN-05-PROB-67
@@ -8,6 +9,7 @@ difficulty: intermedio
 tags: [ecuaciones, identidad-pitagorica, ecuacion-cuadratica, soluciones-multiples]
 created: 2025-12-22
 ---
+-->
 
 # Resolver: 2sin²θ + 3cosθ = 3 en [0, 2π)
 

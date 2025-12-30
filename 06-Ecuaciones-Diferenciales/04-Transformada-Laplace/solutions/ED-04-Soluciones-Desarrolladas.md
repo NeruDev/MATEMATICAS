@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: Transformada de Laplace
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Transformada de Laplace

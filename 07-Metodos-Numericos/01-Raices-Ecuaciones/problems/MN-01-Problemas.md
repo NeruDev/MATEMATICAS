@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: mn-01-raices-ecuaciones
@@ -5,6 +6,7 @@ file_id: MN-01-Problemas
 title: Problemas - Raíces de Ecuaciones
 description: Colección de problemas sobre métodos numéricos para encontrar raíces
 ---
+-->
 
 # Problemas: Raíces de Ecuaciones
 

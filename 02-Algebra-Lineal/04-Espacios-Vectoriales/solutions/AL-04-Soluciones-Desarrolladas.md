@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-format: step_by_step
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Espacios Vectoriales

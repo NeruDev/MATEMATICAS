@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integración por Partes Iteradas"
 type: solution
@@ -14,6 +15,7 @@ tags:
   - partes-repetidas
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int x^2 e^x \, dx$
 

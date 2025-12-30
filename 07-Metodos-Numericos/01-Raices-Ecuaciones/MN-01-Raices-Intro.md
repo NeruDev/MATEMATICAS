@@ -1,3 +1,4 @@
+<!--
 ---
 title: Introducción a Métodos de Raíces de Ecuaciones
 type: index
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, raíces, bisección, newton-raphson, secante, punto-
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Métodos Numéricos para Raíces de Ecuaciones
 

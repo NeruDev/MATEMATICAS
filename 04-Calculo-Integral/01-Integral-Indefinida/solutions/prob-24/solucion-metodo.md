@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integral de Binomio Exponencial al Cuadrado"
 type: solution
@@ -14,6 +15,7 @@ tags:
   - cosh
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int(e^x + e^{-x})^2 \, dx$
 

@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem_id: FUN-05-PROB-70
@@ -8,6 +9,7 @@ difficulty: intermedio
 tags: [ecuaciones, identidad-auxiliar, soluciones-extranas, metodos-multiples]
 created: 2025-12-22
 ---
+-->
 
 # Resolver: sinθ + cosθ = 1
 

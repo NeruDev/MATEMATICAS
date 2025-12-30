@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Espacios Vectoriales
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría de Espacios Vectoriales

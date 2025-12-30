@@ -74,9 +74,6 @@
     "answers": "solutions/FUN-02-Respuestas.md",
     "solutions": ["solutions/FUN-02-Soluciones-Desarrolladas.md"]
   },
-  "ai_config": {
-    "strict_mode": true
-  },
   "legacy_files": {
     "note": "All files migrated to standard nomenclature FUN-02-*"
   },

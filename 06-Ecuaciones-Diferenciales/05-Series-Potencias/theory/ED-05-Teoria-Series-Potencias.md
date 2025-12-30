@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Series de Potencias para EDO
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Series de Potencias para EDO

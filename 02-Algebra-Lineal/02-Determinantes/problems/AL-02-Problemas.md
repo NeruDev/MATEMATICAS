@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: al-02-determinantes
@@ -8,6 +9,7 @@ difficulty_distribution:
   intermedio: 11
   avanzado: 5
 ---
+-->
 
 # Problemas de Determinantes
 

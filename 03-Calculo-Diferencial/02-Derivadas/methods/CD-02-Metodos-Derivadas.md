@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos para Calcular Derivadas
 
 > Guía completa de reglas de derivación con algoritmos detallados, tablas de fórmulas y ejemplos paso a paso.
@@ -490,8 +496,8 @@ $$\boxed{f'(x) = 6\sec^3(2x)\tan(2x)}$$
 | $\arccos x$ | $-\frac{1}{\sqrt{1-x^2}}$ | $-1 < x < 1$ |
 | $\arctan x$ | $\frac{1}{1+x^2}$ | $\mathbb{R}$ |
 | $\text{arccot } x$ | $-\frac{1}{1+x^2}$ | $\mathbb{R}$ |
-| $\text{arcsec } x$ | $\frac{1}{|x|\sqrt{x^2-1}}$ | $|x| > 1$ |
-| $\text{arccsc } x$ | $-\frac{1}{|x|\sqrt{x^2-1}}$ | $|x| > 1$ |
+| $\text{arcsec } x$ | $\frac{1}{\vert x\vert\sqrt{x^2-1}}$ | $\vert x\vert > 1$ |
+| $\text{arccsc } x$ | $-\frac{1}{\vert x\vert\sqrt{x^2-1}}$ | $\vert x\vert > 1$ |
 
 ### Ejemplo Detallado
 

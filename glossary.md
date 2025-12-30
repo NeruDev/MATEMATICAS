@@ -398,7 +398,7 @@ Referencia: [→ Analogía: Nombre] en las definiciones técnicas.
 | $\vec{u} \times \vec{v}$ | Producto cruz | Vector perpendicular (en $\mathbb{R}^3$) |
 | $A^T$ | Transpuesta | Intercambiar filas y columnas |
 | $A^{-1}$ | Inversa | $AA^{-1} = I$ |
-| $\det(A)$ o $|A|$ | Determinante | Número que caracteriza $A$ |
+| $\det(A)$ o $\lvert A \rvert$ | Determinante | Número que caracteriza $A$ |
 | $\text{tr}(A)$ | Traza | Suma de la diagonal |
 | $\text{ker}(A)$ | Núcleo | Soluciones de $Ax = 0$ |
 | $\text{im}(A)$ | Imagen | Columnas de $A$ generan |

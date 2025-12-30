@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integral de Cociente de Polinomios"
 type: solution
@@ -14,6 +15,7 @@ tags:
   - arctangente
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int\frac{x^4 - 1}{x^2 + 1} \, dx$
 

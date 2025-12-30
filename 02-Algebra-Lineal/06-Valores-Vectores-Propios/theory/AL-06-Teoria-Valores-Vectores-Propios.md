@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Valores y Vectores Propios
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría de Valores y Vectores Propios

@@ -1,8 +1,7 @@
 <!--
-content_type: solutions
-topic: EDO Numéricas
-scope: soluciones representativas
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: EDO Numéricas

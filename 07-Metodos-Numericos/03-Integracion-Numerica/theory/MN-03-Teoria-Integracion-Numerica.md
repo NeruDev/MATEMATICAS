@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Integración Numérica
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Integración Numérica

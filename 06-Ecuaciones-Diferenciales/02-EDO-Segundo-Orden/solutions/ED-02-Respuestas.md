@@ -28,8 +28,8 @@ solved_detailed: 0
 | [Prob-09] | a) $y = (C_1 + C_2 x)e^x + \frac{x^2}{2}e^x$; b) $y = C_1\cos 2x + C_2\sin 2x - \frac{x}{4}\sin 2x$; c) $y = C_1 e^x + C_2 e^{-x} + \frac{x}{2}e^x$; d) $y = C_1\cos x + C_2\sin x - \frac{x}{2}\cos x$ | ➖ |
 | [Prob-10] | a) $y = C_1 e^{2x} + C_2 e^{-2x} + \frac{x}{4}e^{2x}$; b) $y = C_1\cos 2x + C_2\sin 2x - \frac{3x}{4}\cos 2x$ | ➖ |
 | [Prob-11] | a) $y = C_1 e^x + C_2 e^{-x} + \frac{x}{2}e^x - x$; b) $y = C_1\cos x + C_2\sin x + x - \frac{x}{2}\cos x$; c) $y = C_1 e^x + C_2 e^{2x} - xe^x + xe^{2x}$ | ➖ |
-| [Prob-12] | a) $y = C_1\cos x + C_2\sin x + \sin x \ln|\sec x + \tan x|$; b) $y = C_1\cos x + C_2\sin x - \cos x \ln|\sec x + \tan x|$; c) $y = C_1\cos x + C_2\sin x - x\cos x + \sin x \ln|\sin x|$ | ➖ |
-| [Prob-13] | a) $y = C_1 e^x + C_2 e^{-x} + \frac{1}{2}\ln(e^x + 1)$; b) $y = C_1\cos 2x + C_2\sin 2x + \frac{1}{2}\sin 2x \ln|\sec 2x + \tan 2x|$; c) $y = (C_1 + C_2 x)e^x + e^x(\ln|x| - 1)$ | ➖ |
+| [Prob-12] | a) $y = C_1\cos x + C_2\sin x + \sin x \ln\lvert \sec x + \tan x \rvert$; b) $y = C_1\cos x + C_2\sin x - \cos x \ln\lvert \sec x + \tan x \rvert$; c) $y = C_1\cos x + C_2\sin x - x\cos x + \sin x \ln\lvert \sin x \rvert$ | ➖ |
+| [Prob-13] | a) $y = C_1 e^x + C_2 e^{-x} + \frac{1}{2}\ln(e^x + 1)$; b) $y = C_1\cos 2x + C_2\sin 2x + \frac{1}{2}\sin 2x \ln\lvert \sec 2x + \tan 2x \rvert$; c) $y = (C_1 + C_2 x)e^x + e^x(\ln\lvert x \rvert - 1)$ | ➖ |
 | [Prob-14] | a) $y = C_1\cos x + C_2\sin x + \tan x - x$; b) $y = C_1 e^x + C_2 e^{-x} + e^x(x\ln x - x)$ | ➖ |
 | [Prob-15] | a) $y = C_1 x^4 + C_2 x^{-1}$; b) $y = C_1 x + C_2 x^{-1}$; c) $y = x(C_1 + C_2 \ln x)$; d) $y = x^{-1}(C_1 + C_2 \ln x)$ | ➖ |
 | [Prob-16] | a) $y = C_1\cos(2\ln x) + C_2\sin(2\ln x)$; b) $y = x^2(C_1 + C_2 \ln x)$ | ➖ |
@@ -44,7 +44,7 @@ solved_detailed: 0
 | [Prob-25] | a) $L\ddot{q} + R\dot{q} + \frac{q}{C} = 0$; b) Sobreamortiguado; c) $q(t) = \frac{3}{2}e^{-3t} - \frac{1}{2}e^{-3t}$ | ➖ |
 | [Prob-26] | a) $q_{ss} = CE = 0.5$ C; b) $q(t) = 0.5 - (0.5 + t)e^{-4t}$ C | ➖ |
 | [Prob-27] | a) Sí, $\omega_0 = \omega_f = 5$ rad/s; b) $i(t) = 10t\cos 5t$ A | ➖ |
-| [Prob-28] | a) $y = (C_1 + C_2 x)e^{-x} + \frac{x^3}{6}e^{-x}$; b) $y = x^{1/2}(C_1 + C_2\ln x)$; c) $y = (C_1 + C_2 x)e^{2x} + e^{2x}\ln|x|$ | ➖ |
+| [Prob-28] | a) $y = (C_1 + C_2 x)e^{-x} + \frac{x^3}{6}e^{-x}$; b) $y = x^{1/2}(C_1 + C_2\ln x)$; c) $y = (C_1 + C_2 x)e^{2x} + e^{2x}\ln\lvert x \rvert$ | ➖ |
 | [Prob-29] | a) $y'' - 2y' - 3y = 0$; b) $y'' - 4y' + 13y = 0$; c) $y'' + 4y' + 4y = 0$ | ➖ |
 | [Prob-30] | a) $k = 40$ N/m; b) Críticamente amortiguado ($c^2 = 4mk$); c) $x(t) = (0.1 + 0.4t)e^{-2t}$ m | ➖ |
 

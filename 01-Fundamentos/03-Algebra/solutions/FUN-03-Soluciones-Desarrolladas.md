@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: solution
+status: active
+-->
+
 # Soluciones — Álgebra
 
 ---

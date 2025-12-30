@@ -24,7 +24,7 @@
       "solutions/prob-32/"
     ]
   },
-  "ai_config": {"strict_mode": true},
+  "ai_contract": {"strict_mode": true},
   "prerequisites": ["01-fundamentos"],
   "learning_objectives": [
     "Definir y clasificar matrices por forma y propiedades",

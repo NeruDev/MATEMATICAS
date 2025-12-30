@@ -1,3 +1,4 @@
+<!--
 ---
 title: Resumen de Fórmulas - Integración Numérica
 type: cheatsheet
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, integración, fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Resumen de Fórmulas: Integración Numérica
 

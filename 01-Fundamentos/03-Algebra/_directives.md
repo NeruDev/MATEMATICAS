@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: reference
+status: active
+-->
+
 # Directivas — Álgebra
 
 ---

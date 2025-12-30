@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: Series de Potencias para EDO
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Series de Potencias para EDO

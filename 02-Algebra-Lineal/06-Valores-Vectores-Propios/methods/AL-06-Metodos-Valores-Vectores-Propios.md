@@ -1,7 +1,7 @@
 <!--
-content_type: methods
-topic: Valores y Vectores Propios
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Valores y Vectores Propios

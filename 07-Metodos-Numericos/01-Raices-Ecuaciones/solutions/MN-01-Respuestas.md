@@ -46,17 +46,17 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-13] | $g_1(x) = \sqrt[3]{x+1}$ converge; otras pueden diverger según $\|g'(x)\|$ | ➖ |
+| [Prob-13] | $g_1(x) = \sqrt[3]{x+1}$ converge; otras pueden diverger según $\lvert g'(x) \rvert$ | ➖ |
 | [Prob-14] | $x \approx 1.8955$ (solución de $x = 2\sin(x)$) | ➖ |
-| [Prob-15] | $\|g'(x)\| = e^{-x} < 1$ en $[0,1]$, por Teorema del Punto Fijo converge a $x \approx 0.5671$ | ➖ |
-| [Prob-16] | $g_2$: diverge ($\|g'_2(x)\| > 1$); $g_3$: converge cuadráticamente a $\sqrt[3]{2} \approx 1.2599$ | ➖ |
+| [Prob-15] | $\lvert g'(x) \rvert = e^{-x} < 1$ en $[0,1]$, por Teorema del Punto Fijo converge a $x \approx 0.5671$ | ➖ |
+| [Prob-16] | $g_2$: diverge ($\lvert g'_2(x) \rvert > 1$); $g_3$: converge cuadráticamente a $\sqrt[3]{2} \approx 1.2599$ | ➖ |
 
 ### Sección 5: Análisis de Convergencia
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
 | [Prob-17] | Newton: $x_{n+1} = \frac{1}{2}\left(x_n + \frac{a}{x_n}\right)$; convergencia cuadrática: $e_{n+1} \approx \frac{e_n^2}{2\sqrt{a}}$ | ➖ |
-| [Prob-18] | Bisección: orden 1 (lineal); $\|e_{n+1}\| \approx 0.5\|e_n\|$ | ➖ |
+| [Prob-18] | Bisección: orden 1 (lineal); $\lvert e_{n+1} \rvert \approx 0.5\lvert e_n \rvert$ | ➖ |
 | [Prob-19] | Newton: $IE = 2^{1/2} \approx 1.414$; Secante: $IE = \phi^{1/1} \approx 1.618$; Secante más eficiente | ➖ |
 
 ### Sección 6: Problemas Aplicados

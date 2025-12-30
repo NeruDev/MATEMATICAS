@@ -41,7 +41,7 @@ solved_detailed: 5
 | [Prob-22] | $y = -x + 5$ ó $x + y - 5 = 0$ | ➖ |
 | [Prob-23] | $y - 1 = x - 2$ ó $x - y - 1 = 0$ | ➖ |
 | [Prob-24] | Área $= 8$ u² | ➖ |
-| [Prob-25] | $\theta = \arctan\left(\dfrac{5}{1 + 3(-2)}\right) = \arctan(-1) = 45°$ (usando $\|\tan\theta\|$) | [✅](prob-25/solucion-metodo.md) |
+| [Prob-25] | $\theta = \arctan\left(\dfrac{5}{1 + 3(-2)}\right) = \arctan(-1) = 45°$ (usando $\lvert \tan\theta \rvert$) | [✅](prob-25/solucion-metodo.md) |
 | [Prob-26] | $3x - 4y + 14 = 0$ y $x = 2$ | ➖ |
 | [Prob-27] | a) $x = 4$, b) $y = \dfrac{4}{5}x$, c) $x = 3$ | ➖ |
 | [Prob-28] | $(x - 3)^2 + (y + 2)^2 = 25$ | ➖ |

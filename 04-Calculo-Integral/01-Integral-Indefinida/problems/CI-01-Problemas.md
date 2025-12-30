@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: ci-01-integral-indefinida
@@ -9,6 +10,7 @@ difficulty_distribution:
   advanced: 15
 last_updated: 2025-12-20
 ---
+-->
 
 # Problemas de Integral Indefinida
 

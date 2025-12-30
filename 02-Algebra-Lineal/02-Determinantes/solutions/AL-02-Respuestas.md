@@ -45,7 +45,7 @@ solved_detailed: 0
 | Prob-23 | $x = 3$, $y = 1$ | ➖ |
 | Prob-24 | $x = 1$, $y = 2$, $z = 3$ | ➖ |
 | Prob-25 | $k = \pm\sqrt{2}$ | ➖ |
-| Prob-26 | Demostración: Área $= \frac{1}{2}|\det|$ (desarrollo de Sarrus) | ➖ |
+| Prob-26 | Demostración: Área $= \frac{1}{2}\lvert \det \rvert$ (desarrollo de Sarrus) | ➖ |
 | Prob-27 | $\det(A^3) = [\det(A)]^3 = 5^3 = 125$ | ➖ |
 | Prob-28 | $A^2 = A \Rightarrow \det(A)^2 = \det(A) \Rightarrow \det(A) \in \{0, 1\}$ | ➖ |
 

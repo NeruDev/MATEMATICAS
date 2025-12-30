@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: EDO Numéricas
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Solución Numérica de EDO
@@ -50,7 +48,7 @@ $$\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0$$
 | Error | Definición |
 |-------|------------|
 | **Local** | Error en un paso (suponiendo $y_n$ exacto) |
-| **Global** | Error acumulado $|y_n - y(x_n)|$ |
+| **Global** | Error acumulado $\vert y_n - y(x_n)\vert$ |
 | **De truncamiento** | Por truncar serie de Taylor |
 | **De redondeo** | Por aritmética de punto flotante |
 
@@ -684,7 +682,7 @@ Para $f$ no lineal: iteración de punto fijo o Newton.
 |:----:|--------|---------|
 | 1 | **Predictor** | $y^{(0)} = y_n + hf(x_n, y_n)$ |
 | 2 | **Iterar** | $y^{(k+1)} = y_n + hf(x_{n+1}, y^{(k)})$ |
-| 3 | **Convergencia** | Hasta $|y^{(k+1)} - y^{(k)}| < \varepsilon$ |
+| 3 | **Convergencia** | Hasta $\vert y^{(k+1)} - y^{(k)}\vert < \varepsilon$ |
 | 4 | **Aceptar** | $y_{n+1} = y^{(k+1)}$ |
 
 ### Pseudocódigo
@@ -933,9 +931,9 @@ $$y' = \lambda y, \quad \lambda \in \mathbb{C}$$
 
 | Método | Región ($z = h\lambda$) |
 |--------|------------------------|
-| Euler explícito | $|1 + z| < 1$ |
-| Euler implícito | $|1 - z|^{-1} < 1$ (todo $\text{Re}(z) < 0$) |
-| RK4 | $|1 + z + z^2/2 + z^3/6 + z^4/24| < 1$ |
+| Euler explícito | $\vert 1 + z\vert < 1$ |
+| Euler implícito | $\vert 1 - z\vert^{-1} < 1$ (todo $\text{Re}(z) < 0$) |
+| RK4 | $\vert 1 + z + z^2/2 + z^3/6 + z^4/24\vert < 1$ |
 | Trapecio | Todo $\text{Re}(z) < 0$ |
 
 ### EDO Rígida (Stiff)

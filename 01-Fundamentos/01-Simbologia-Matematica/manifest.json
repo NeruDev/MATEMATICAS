@@ -15,7 +15,7 @@
     "entry_point": "FUN-01-Simbologia-Intro.md",
     "content": ["theory/Tablas-de-Simbolos-Matematicos.md"]
   },
-  "ai_config": {
+  "ai_contract": {
     "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": ["explain_concept", "convert_format", "lookup_symbol"]

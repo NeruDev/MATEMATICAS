@@ -342,7 +342,7 @@ $$\int \frac{1}{\sqrt{4+x^2}} \, dx = \ln\left|\frac{\sqrt{4+x^2}}{2} + \frac{x}
 | 3 | Escribir la descomposición | $\frac{A}{x-r_1} + \frac{B}{x-r_2} + \cdots$ |
 | 4 | Multiplicar por denominador común | Eliminar fracciones |
 | 5 | Sustituir raíces para hallar constantes | $x = r_1, r_2, \ldots$ |
-| 6 | Integrar cada fracción | $\int \frac{A}{x-r} dx = A\ln|x-r|$ |
+| 6 | Integrar cada fracción | $\int \frac{A}{x-r} dx = A\ln\lvert x-r \rvert$ |
 
 ### Ejemplo Detallado
 

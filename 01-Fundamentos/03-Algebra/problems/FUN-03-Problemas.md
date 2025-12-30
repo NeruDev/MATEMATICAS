@@ -1,3 +1,4 @@
+<!--
 ---
 type: problem_set
 topic_id: fun-03-algebra
@@ -11,6 +12,7 @@ difficulty_distribution:
   avanzado: 20
 last_updated: 2024-12-20
 ---
+-->
 
 # Problemas de Álgebra
 

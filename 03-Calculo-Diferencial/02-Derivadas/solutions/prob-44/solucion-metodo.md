@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem-id: CD-02-44
@@ -7,6 +8,7 @@ difficulty: avanzado
 tags: [derivada, implícita, segunda-derivada, círculo-unitario]
 created: 2024-12-22
 ---
+-->
 
 # Solución: Segunda derivada de x² + y² = 1
 

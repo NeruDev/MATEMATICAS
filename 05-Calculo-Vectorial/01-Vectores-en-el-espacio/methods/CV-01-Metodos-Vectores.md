@@ -412,7 +412,7 @@ donde el plano es $ax + by + cz = d$ y el punto es $(x_1, y_1, z_1)$.
 |------|--------|---------|
 | 1 | Identificar coeficientes del plano | $a$, $b$, $c$, $d$ |
 | 2 | Sustituir el punto en $ax + by + cz - d$ | Valor con signo |
-| 3 | Tomar valor absoluto | $|ax_1 + by_1 + cz_1 - d|$ |
+| 3 | Tomar valor absoluto | $\vert ax_1 + by_1 + cz_1 - d\vert$ |
 | 4 | Calcular $\sqrt{a^2 + b^2 + c^2}$ | Magnitud del normal |
 | 5 | Dividir | Distancia final |
 
@@ -454,7 +454,7 @@ $$\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = \begin{vmatrix} u_x & u_y & 
 |-------|-------------|
 | $\neq 0$ | Vectores **no coplanares** |
 | $= 0$ | Vectores **coplanares** |
-| $|\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|$ | Volumen del paralelepípedo |
+| $\vert\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})\vert$ | Volumen del paralelepípedo |
 
 ### Algoritmo de Resolución
 
@@ -462,7 +462,7 @@ $$\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = \begin{vmatrix} u_x & u_y & 
 |------|--------|--------|
 | 1 | Calcular $\mathbf{v} \times \mathbf{w}$ | Método 5 |
 | 2 | Calcular $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$ | Método 3 |
-| 3 | Si se pide volumen, tomar valor absoluto | $\|$ resultado $\|$ |
+| 3 | Si se pide volumen, tomar valor absoluto | $\lvert \text{resultado} \rvert$ |
 
 ### Ejemplo Detallado
 

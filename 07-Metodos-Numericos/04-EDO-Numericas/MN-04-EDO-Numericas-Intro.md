@@ -1,3 +1,4 @@
+<!--
 ---
 title: Introducción a EDO Numéricas
 type: index
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, EDO, euler, runge-kutta, sistemas]
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Métodos Numéricos para EDO
 

@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Aritmética
 
 > Guía completa de métodos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

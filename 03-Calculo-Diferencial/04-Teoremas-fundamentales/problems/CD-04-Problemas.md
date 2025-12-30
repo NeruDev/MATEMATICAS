@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Problemas de Teoremas Fundamentales del Cálculo"
 description: "Colección de problemas sobre Rolle, TVM, Cauchy, L'Hôpital y Taylor"
@@ -9,6 +10,7 @@ date_created: 2025-12-20
 difficulty_levels: [básico, intermedio, avanzado]
 total_problems: 80
 ---
+-->
 
 # Problemas de Teoremas Fundamentales
 

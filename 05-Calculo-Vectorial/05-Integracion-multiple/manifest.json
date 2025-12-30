@@ -16,7 +16,7 @@
     "problems": [],
     "solutions": []
   },
-  "ai_config": {
+  "ai_contract": {
     "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": [

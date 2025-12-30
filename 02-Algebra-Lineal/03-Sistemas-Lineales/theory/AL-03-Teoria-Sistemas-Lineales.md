@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-format: formal_exposition
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría de Sistemas de Ecuaciones Lineales

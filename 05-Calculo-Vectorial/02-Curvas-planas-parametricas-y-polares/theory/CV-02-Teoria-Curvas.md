@@ -129,7 +129,7 @@ Una **curva polar** se define como $r = f(\theta)$ o implícitamente $F(r, \thet
 | Círculo (centro en origen) | $r = a$ | Radio $a$ |
 | Círculo (pasa por origen) | $r = a\cos\theta$ o $r = a\sin\theta$ | Diámetro $a$ |
 | Cardioide | $r = a(1 \pm \cos\theta)$ o $r = a(1 \pm \sin\theta)$ | Forma de corazón |
-| Limaçon | $r = a + b\cos\theta$ | Con/sin lazo según $|a/b|$ |
+| Limaçon | $r = a + b\cos\theta$ | Con/sin lazo según $\lvert a/b \rvert$ |
 | Rosa de $n$ pétalos | $r = a\cos(n\theta)$ o $r = a\sin(n\theta)$ | $n$ pétalos si $n$ impar, $2n$ si par |
 | Lemniscata | $r^2 = a^2\cos(2\theta)$ | Forma de $\infty$ |
 | Espiral de Arquímedes | $r = a\theta$ | Espiral uniforme |

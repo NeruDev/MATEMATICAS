@@ -5,13 +5,13 @@ topic_id: meta-directory
 file_id: directory-tree
 status: stable
 audience: ai_context
-last_updated: 2024-12-23
-change_log: "Corregido 02-Algebra-Lineal/00-Index.md (era carpeta vacía, ahora es archivo)"
+last_updated: 2025-12-30
+change_log: "Eliminado hide_frontmatter.py (integrado en validate_repo.py), actualizada estructura"
 -->
 
 # Árbol de Directorios del Repositorio de Matemáticas
 
-*Última actualización: 2024-12-23*
+*Última actualización: 2025-12-30*
 
 > **Nota:** Este archivo debe actualizarse con cada cambio estructural en el repositorio.
 
@@ -36,8 +36,7 @@ MATEMATICAS GITHUB/
 │   ├── repo-tests.md
 │   ├── study-guide.md
 │   └── tools/
-│       ├── hide_frontmatter.py
-│       └── validate_repo.py
+│       └── validate_repo.py           # Validador consolidado del repositorio
 │
 ├── 01-Fundamentos/
 │   ├── 00-Index.md

@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: index
+status: active
+-->
+
 # Ecuaciones Diferenciales
 
 Módulo dedicado al estudio de ecuaciones diferenciales ordinarias y sus métodos de solución.

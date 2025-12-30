@@ -24,7 +24,7 @@ solved_detailed: [número con solución desarrollada]
 | [Prob-01] | [Respuesta concisa] | ➖ |
 | [Prob-02] | [Respuesta concisa] | [✅](./prob-02/solucion-metodo.md) |
 | [Prob-03] | [Respuesta concisa] | ➖ |
-<!-- Continuar con todos los problemas -->
+<!-- Continuar con todos los problemas
 
 ---
 
@@ -38,6 +38,7 @@ Las siguientes tienen desarrollo paso a paso completo:
 | [Subtema 2] | [Prob-ZZ](./prob-ZZ/) |
 
 ---
+-->
 
 > 📚 **Archivo de problemas:** [`problems/XX-NN-Problemas.md`](../problems/XX-NN-Problemas.md)
 

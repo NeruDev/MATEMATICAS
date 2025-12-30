@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Problemas de Integrales Impropias"
 topic_id: ci-05-integrales-impropias
@@ -9,6 +10,7 @@ difficulty_distribution:
   advanced: 17
 total_problems: 40
 ---
+-->
 
 # Problemas de Integrales Impropias
 

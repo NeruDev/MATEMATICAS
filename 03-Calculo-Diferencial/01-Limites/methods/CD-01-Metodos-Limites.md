@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos para Evaluar Límites
 
 > Guía completa de métodos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

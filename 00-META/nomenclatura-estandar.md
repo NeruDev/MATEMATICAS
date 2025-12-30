@@ -5,10 +5,13 @@ topic_id: meta-nomenclatura
 file_id: nomenclatura-estandar
 status: stable
 audience: ai_context
-last_updated: 2025-01-30
+last_updated: 2025-12-30
 -->
 
 # Estándar de Nomenclatura de Archivos
+
+> **Nota:** Este documento contiene especificaciones técnicas detalladas.
+> Para la guía rápida, consultar [ia-contract.md](ia-contract.md).
 
 Este documento define las convenciones de nombrado para todos los archivos del repositorio.
 
@@ -185,9 +188,11 @@ requires: [lista-de-dependencias]
     "answers": "solutions/PREFIJO-XX-Respuestas.md",
     "solutions": ["solutions/prob-XX/"]
   },
-  "ai_config": {
-    "strict_mode": true,
-    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"]
+  "ai_contract": {
+    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"],
+    "solution_guidelines": {
+      "format": "context + development + verification"
+    }
   }
 }
 ```

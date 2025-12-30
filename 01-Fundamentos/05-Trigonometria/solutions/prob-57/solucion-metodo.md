@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem_id: FUN-05-PROB-57
@@ -8,6 +9,7 @@ difficulty: intermedio
 tags: [identidades, angulo-triple, demostracion, coseno]
 created: 2025-12-22
 ---
+-->
 
 # Demostración: cos(3θ) = 4cos³θ - 3cosθ
 

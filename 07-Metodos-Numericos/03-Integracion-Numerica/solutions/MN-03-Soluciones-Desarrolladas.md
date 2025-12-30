@@ -1,8 +1,7 @@
 <!--
-content_type: solutions
-topic: Integración Numérica
-scope: soluciones representativas
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Integración Numérica

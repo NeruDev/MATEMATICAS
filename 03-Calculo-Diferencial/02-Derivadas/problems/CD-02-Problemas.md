@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: cd-02-derivadas
@@ -10,6 +11,7 @@ difficulty_distribution:
   avanzado: 14
 total_problems: 55
 ---
+-->
 
 # Problemas de Derivadas
 

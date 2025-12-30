@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: Raíces de Ecuaciones
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Raíces de Ecuaciones
@@ -35,9 +33,9 @@ last_updated: 2025-01-14
 
 | Tipo | Definición | Ejemplo |
 |------|------------|---------|
-| **Lineal** | $|e_{n+1}| \approx c|e_n|$ con $0 < c < 1$ | Bisección |
-| **Cuadrática** | $|e_{n+1}| \approx c|e_n|^2$ | Newton-Raphson |
-| **Orden $p$** | $|e_{n+1}| \approx c|e_n|^p$ | Secante ($p \approx 1.618$) |
+| **Lineal** | $\vert e_{n+1}\vert \approx c\vert e_n\vert$ con $0 < c < 1$ | Bisección |
+| **Cuadrática** | $\vert e_{n+1}\vert \approx c\vert e_n\vert^2$ | Newton-Raphson |
+| **Orden $p$** | $\vert e_{n+1}\vert \approx c\vert e_n\vert^p$ | Secante ($p \approx 1.618$) |
 
 ### Criterios de Parada
 
@@ -68,7 +66,7 @@ $$c = \frac{a + b}{2}$$
 | 2 | **Calcular** | $c = \frac{a+b}{2}$ |
 | 3 | **Evaluar** | $f(c)$ |
 | 4 | **Actualizar** | Si $f(a)f(c) < 0$: $b = c$; sino: $a = c$ |
-| 5 | **Verificar** | Si $|b-a| < 2\varepsilon$: terminar |
+| 5 | **Verificar** | Si $\vert b-a\vert < 2\varepsilon$: terminar |
 | 6 | **Repetir** | Desde paso 2 |
 
 ### Pseudocódigo
@@ -149,7 +147,7 @@ $$c = b - f(b)\frac{b - a}{f(b) - f(a)} = \frac{af(b) - bf(a)}{f(b) - f(a)}$$
 | 2 | **Calcular** | $c = \frac{af(b) - bf(a)}{f(b) - f(a)}$ |
 | 3 | **Evaluar** | $f(c)$ |
 | 4 | **Actualizar** | Si $f(a)f(c) < 0$: $b = c$; sino: $a = c$ |
-| 5 | **Verificar** | Si $|f(c)| < \varepsilon$: terminar |
+| 5 | **Verificar** | Si $\vert f(c)\vert < \varepsilon$: terminar |
 | 6 | **Repetir** | Desde paso 2 |
 
 ### Pseudocódigo
@@ -221,9 +219,9 @@ La recta tangente a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
 |:----:|--------|---------|
 | 1 | **Elegir** | Punto inicial $x_0$ |
 | 2 | **Evaluar** | $f(x_n)$ y $f'(x_n)$ |
-| 3 | **Verificar** | Si $|f'(x_n)| \approx 0$: problema |
+| 3 | **Verificar** | Si $\vert f'(x_n)\vert \approx 0$: problema |
 | 4 | **Calcular** | $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$ |
-| 5 | **Verificar** | Si $|x_{n+1} - x_n| < \varepsilon$: terminar |
+| 5 | **Verificar** | Si $\vert x_{n+1} - x_n\vert < \varepsilon$: terminar |
 | 6 | **Repetir** | Desde paso 2 |
 
 ### Pseudocódigo
@@ -313,7 +311,7 @@ Aproxima $f'(x_n)$ con la diferencia finita $\frac{f(x_n) - f(x_{n-1})}{x_n - x_
 | 1 | **Elegir** | Dos puntos $x_0$, $x_1$ |
 | 2 | **Evaluar** | $f(x_n)$ y $f(x_{n-1})$ |
 | 3 | **Calcular** | $x_{n+1} = x_n - f(x_n)\frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$ |
-| 4 | **Verificar** | Si $|x_{n+1} - x_n| < \varepsilon$: terminar |
+| 4 | **Verificar** | Si $\vert x_{n+1} - x_n\vert < \varepsilon$: terminar |
 | 5 | **Actualizar** | $x_{n-1} = x_n$, $x_n = x_{n+1}$ |
 | 6 | **Repetir** | Desde paso 2 |
 
@@ -381,10 +379,10 @@ Si $|g'(x)| < 1$ en un entorno de la raíz $x^*$, entonces el método converge p
 | Paso | Acción | Detalle |
 |:----:|--------|---------|
 | 1 | **Reformular** | $f(x) = 0$ como $x = g(x)$ |
-| 2 | **Verificar** | $|g'(x^*)| < 1$ (si es posible) |
+| 2 | **Verificar** | $\vert g'(x^*)\vert < 1$ (si es posible) |
 | 3 | **Elegir** | Punto inicial $x_0$ |
 | 4 | **Calcular** | $x_{n+1} = g(x_n)$ |
-| 5 | **Verificar** | Si $|x_{n+1} - x_n| < \varepsilon$: terminar |
+| 5 | **Verificar** | Si $\vert x_{n+1} - x_n\vert < \varepsilon$: terminar |
 | 6 | **Repetir** | Desde paso 4 |
 
 ### Pseudocódigo
@@ -419,8 +417,8 @@ $|g'(0.5)| = e^{-0.5} \approx 0.607 < 1$ ✓
 
 **Iteraciones con** $x_0 = 0.5$:
 
-| $n$ | $x_n$ | $g(x_n) = e^{-x_n}$ | $|x_{n+1} - x_n|$ |
-|:---:|:-----:|:-------------------:|:-----------------:|
+| $n$ | $x_n$ | $g(x_n) = e^{-x_n}$ | $\vert x_{n+1} - x_n\vert$ |
+|:---:|:-----:|:-------------------:|:--------------------------:|
 | 0 | 0.5000 | 0.6065 | 0.1065 |
 | 1 | 0.6065 | 0.5452 | 0.0613 |
 | 2 | 0.5452 | 0.5797 | 0.0345 |
@@ -790,7 +788,7 @@ $$\boxed{(x^*, y^*) \approx (1.9319, 0.5176)}$$
 | División por cero en Newton | Falla del método | Verificar $f'(x_n) \neq 0$ |
 | Mal punto inicial | No convergencia | Graficar primero |
 | Intervalo sin cambio de signo | Bisección falla | Verificar $f(a)f(b) < 0$ |
-| $|g'| \geq 1$ en punto fijo | Divergencia | Reformular $g(x)$ |
+| $\vert g'\vert \geq 1$ en punto fijo | Divergencia | Reformular $g(x)$ |
 | Tolerancia muy pequeña | No termina | Considerar precisión de máquina |
 
 ---

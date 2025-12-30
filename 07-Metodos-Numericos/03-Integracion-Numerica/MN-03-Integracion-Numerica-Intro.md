@@ -1,3 +1,4 @@
+<!--
 ---
 title: Introducción a Integración Numérica
 type: index
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, integración, trapecios, simpson, cuadratura]
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Integración Numérica (Cuadratura)
 

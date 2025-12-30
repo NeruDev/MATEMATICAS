@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Raíces de Ecuaciones
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Raíces de Ecuaciones

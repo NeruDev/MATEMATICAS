@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Aplicaciones de la Derivada
 
 > Guía completa de aplicaciones prácticas de la derivada con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
@@ -627,7 +633,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 | 1 | Elegir $x_0$ | Estimación inicial cercana a la raíz |
 | 2 | Calcular $f(x_n)$ y $f'(x_n)$ | En el punto actual |
 | 3 | Aplicar fórmula | Obtener $x_{n+1}$ |
-| 4 | Verificar convergencia | Si $|x_{n+1} - x_n| < \epsilon$ |
+| 4 | Verificar convergencia | Si $\vert x_{n+1} - x_n\vert < \epsilon$ |
 | 5 | Repetir | Hasta convergencia |
 
 ### Ejemplo Detallado

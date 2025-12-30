@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem-id: CD-02-37
@@ -7,6 +8,7 @@ difficulty: avanzado
 tags: [derivada, implícita, folio-descartes, curvas-algebraicas, pendiente]
 created: 2024-12-22
 ---
+-->
 
 # Solución: Pendiente del Folio de Descartes en (3,3)
 
