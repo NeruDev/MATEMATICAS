@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem-id: CD-02-29
@@ -7,6 +8,7 @@ difficulty: avanzado
 tags: [derivada, cadena-triple, funciones-compuestas, trigonométricas]
 created: 2024-12-22
 ---
+-->
 
 # Solución: Derivada de g(x) = sin(cos(tan x)) (Cadena Triple)
 

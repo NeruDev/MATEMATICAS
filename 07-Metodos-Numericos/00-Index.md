@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: index
+status: active
+-->
+
 # Métodos Numéricos
 
 Módulo dedicado a algoritmos para aproximar soluciones de problemas matemáticos.

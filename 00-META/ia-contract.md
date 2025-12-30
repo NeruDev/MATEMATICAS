@@ -1,298 +1,251 @@
 <!--
-HUMANO:
-Este archivo define las reglas que la IA debe seguir
-al interactuar con el repositorio.
-
-IA:
-ESTE ES TU CONTRATO. Léelo SIEMPRE antes de generar contenido.
-
----
-content_type: meta
-expected_output:
-  default: markdown
-audience: ai-assistant
-formality: technical
----
+::METADATA::
+type: reference
+topic_id: meta-ia-contract
+file_id: ia-contract
+status: stable
+audience: ai_context
+last_updated: 2025-12-30
 -->
 
-# Contrato de IA para Generación de Contenido
+# Contrato de IA para el Repositorio de Matemáticas
 
-## Estructura del Repositorio (actualizado 2025)
-
-Este repositorio contiene **7 módulos principales**:
-
-| Módulo | Temas | Estado |
-|--------|-------|--------|
-| 01-Fundamentos | Funciones, Aritmética, Álgebra, Geometría, Trigonometría, Geometría Analítica | ✅ Completo |
-| 02-Algebra-Lineal | Matrices, Determinantes, Sistemas de Ecuaciones, Espacios Vectoriales, Transformaciones, Valores Propios | ✅ Completo |
-| 03-Calculo-Diferencial | Límites, Derivadas, Aplicaciones de la Derivada, Series y Sucesiones | ✅ Completo |
-| 04-Calculo-Integral | Integral Indefinida, Integral Definida, Técnicas de Integración, Aplicaciones, Integrales Impropias | ✅ Completo |
-| 05-Calculo-Vectorial | Funciones Vectoriales, Gradiente y Derivadas Direccionales, Integrales de Línea, Integrales de Superficie, Teoremas Integrales | ✅ Completo |
-| 06-Ecuaciones-Diferenciales | EDO de Primer Orden, EDO de Orden Superior, Sistemas de EDO, Transformada de Laplace | ✅ Completo |
-| 07-Metodos-Numericos | Raíces de Ecuaciones, Interpolación, Integración Numérica, EDO Numéricas | ✅ Completo |
-
-## Estructura de cada tema
-
-Cada tema sigue la estructura:
-```
-tema/
-├── manifest.json          # Metadatos con resource_map
-├── [PREFIJO]-Intro.md     # Entrada principal (entry_point)
-├── [PREFIJO]-Resumen.md   # Fórmulas clave (cheat_sheet)
-├── theory/                # Definiciones, teoremas, pruebas
-│   └── [PREFIJO]-Teoria-[subtema].md
-├── methods/               # Procedimientos paso a paso
-│   └── [PREFIJO]-Metodo-[nombre].md
-├── problems/              # Enunciados (sin soluciones)
-├── solutions/             # Soluciones organizadas por problema
-├── applications/          # Casos aplicados
-├── diagnostic/            # Pre-test de prerequisitos
-└── media/                 # Videos, GeoGebra, imágenes
-```
+> **IMPORTANTE:** Este archivo es la guía principal para cualquier IA que interactúe con el repositorio.
+> Lee este documento COMPLETAMENTE antes de generar o modificar contenido.
 
 ---
 
-## Sistema de Nomenclatura de Archivos (Anti-Confusión)
+## 1. Estructura del Repositorio
 
-### Regla de prefijos semánticos
-Los archivos deben seguir el patrón: `[PREFIJO]-[Contenido].md`
+### 1.1 Módulos Principales
 
-**Prefijos por módulo:**
-| Módulo | Prefijo |
-|--------|---------|
-| 01-Fundamentos | `FUN-XX` |
-| 02-Algebra-Lineal | `AL-XX` |
-| 03-Calculo-Diferencial | `CD-XX` |
-| 04-Calculo-Integral | `CI-XX` |
-| 05-Calculo-Vectorial | `CV-XX` |
-| 06-Ecuaciones-Diferenciales | `ED-XX` |
-| 07-Metodos-Numericos | `MN-XX` |
+| # | Módulo | Prefijo | Subtemas | Estado |
+|---|--------|---------|----------|--------|
+| 01 | Fundamentos | `FUN` | Simbología, Aritmética, Álgebra, Geometría, Trigonometría, Geometría Analítica | ✅ Completo |
+| 02 | Álgebra Lineal | `AL` | Matrices, Determinantes, Sistemas Lineales, Espacios Vectoriales, Transformaciones, Valores Propios | ✅ Completo |
+| 03 | Cálculo Diferencial | `CD` | Límites, Derivadas, Aplicaciones, Teoremas Fundamentales | ✅ Completo |
+| 04 | Cálculo Integral | `CI` | Integral Indefinida, Técnicas, Integral Definida, Aplicaciones, Impropias | ✅ Completo |
+| 05 | Cálculo Vectorial | `CV` | Vectores, Curvas, Funciones Vectoriales, Varias Variables, Integración Múltiple | ✅ Completo |
+| 06 | Ecuaciones Diferenciales | `ED` | EDO Primer Orden, Segundo Orden, Sistemas, Laplace, Series de Potencias | ✅ Completo |
+| 07 | Métodos Numéricos | `MN` | Raíces, Interpolación, Integración Numérica, EDO Numéricas | ✅ Completo |
 
-Donde `XX` es el número del subtema (01, 02, etc.)
+### 1.2 Estructura de cada Subtema
 
-**Ejemplos de aplicación:**
-- `01-Vectores.../README.md` → `CV-01-Vectores-Intro.md`
-- `01-Vectores.../theory/README.md` → `theory/CV-01-Teoria-Vectores.md`
-- `01-Vectores.../summary.md` → `CV-01-Resumen-Formulas.md`
+```
+XX-Nombre-Subtema/
+├── manifest.json                    # Metadatos y configuración IA (OBLIGATORIO)
+├── PREFIJO-XX-*-Intro.md            # Punto de entrada (OBLIGATORIO)
+├── PREFIJO-XX-Resumen-Formulas.md   # Cheat sheet (OBLIGATORIO)
+├── theory/
+│   └── PREFIJO-XX-Teoria-*.md       # Teoría completa
+├── methods/
+│   └── PREFIJO-XX-Metodos-*.md      # Procedimientos paso a paso
+├── problems/
+│   └── PREFIJO-XX-Problemas.md      # Lista de problemas con IDs [Prob-XX]
+├── solutions/
+│   ├── PREFIJO-XX-Respuestas.md     # Tabla de TODAS las respuestas
+│   └── prob-XX/                     # Soluciones desarrolladas (selectas)
+│       └── solucion-metodo.md
+├── applications/                    # (opcional)
+└── media/                           # (opcional)
+```
 
-**Beneficio:** La IA no encontrará 50 archivos con el mismo nombre, sino archivos con identificadores únicos que dan contexto inmediato.
+**⚠️ NO existen archivos `README.md` en los subtemas.** El punto de entrada es siempre `*-Intro.md`.
 
 ---
 
-## Estándar de Metadatos YAML (::METADATA::)
+## 2. Sistema de Nomenclatura
 
-Todo archivo `.md` debe comenzar con este bloque de metadatos:
+### 2.1 Patrón de Nombres
+
+Todos los archivos `.md` siguen: `[PREFIJO]-[XX]-[Contenido].md`
+
+| Prefijo | Módulo |
+|---------|--------|
+| `FUN-XX` | 01-Fundamentos |
+| `AL-XX` | 02-Algebra-Lineal |
+| `CD-XX` | 03-Calculo-Diferencial |
+| `CI-XX` | 04-Calculo-Integral |
+| `CV-XX` | 05-Calculo-Vectorial |
+| `ED-XX` | 06-Ecuaciones-Diferenciales |
+| `MN-XX` | 07-Metodos-Numericos |
+
+### 2.2 Excepciones
+
+| Excepción | Razón |
+|-----------|-------|
+| `01-Simbologia-Matematica/theory/*` | Biblioteca de referencia sin secuencia |
+| `solutions/prob-XX/solucion-*.md` | Contexto implícito por carpeta padre |
+| `00-META/*` | Archivos de configuración del repositorio |
+| `00-Index.md` | Archivo índice por módulo principal |
+
+---
+
+## 3. Metadatos Obligatorios
+
+### 3.1 Bloque ::METADATA:: en archivos .md
+
+Todo archivo `.md` debe comenzar con:
 
 ```markdown
 <!--
 ::METADATA::
-type: [theory | method | problem | solution | reference | index | cheatsheet]
-topic_id: [id-del-tema-en-manifest]
-file_id: [identificador-unico-del-archivo]
-status: [draft | review | stable]
-audience: [student | ai_context | exam_review]
-requires: [lista-de-dependencias-opcional]
+type: [theory | method | problem | solution | reference | index | cheatsheet | answer-key]
+status: [draft | review | stable | active]
 -->
 ```
 
-**Campos obligatorios:**
-- `type`: Función técnica del archivo
-- `topic_id`: Coincide con el `id` del `manifest.json`
-- `file_id`: Identificador único (igual al nombre del archivo sin extensión)
-- `status`: Estado de revisión
-- `audience`: Audiencia objetivo
+Para archivos completos, incluir también:
+- `topic_id`: ID del tema (coincide con `manifest.json`)
+- `file_id`: Nombre del archivo sin extensión
+- `audience`: student | ai_context | exam_review
+- `last_updated`: YYYY-MM-DD
 
----
-
-## Estructura del manifest.json (Mapeo Flexible)
-
-El `manifest.json` actúa como mapa de recursos con la siguiente estructura:
+### 3.2 Estructura del manifest.json
 
 ```json
 {
-  "id": "modulo-subtema",
-  "topic": "Nombre del Tema",
+  "id": "prefijo-numero-tema",
+  "topic": "Nombre Legible",
   "type": "learning_module",
   "status": "active",
   "tags": ["etiqueta1", "etiqueta2"],
-  "prereqs": ["ruta/prerequisito"],
   "resource_map": {
-    "entry_point": "PREFIJO-XX-Intro.md",
-    "main_theory": "theory/PREFIJO-XX-Teoria-Nombre.md",
-    "cheat_sheet": "PREFIJO-XX-Resumen-Formulas.md",
-    "methods": ["methods/PREFIJO-XX-Metodo-Nombre.md"],
-    "problems": ["problems/PREFIJO-XX-Problema-Nombre.md"]
+    "entry_point": "PREFIJO-XX-*-Intro.md",
+    "formula_sheet": "PREFIJO-XX-Resumen-Formulas.md",
+    "theory": "theory/",
+    "methods": "methods/PREFIJO-XX-Metodos-*.md",
+    "problems": "problems/PREFIJO-XX-Problemas.md",
+    "solutions": "solutions/"
   },
-  "ai_config": {
-    "strict_mode": true,
-    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"]
+  "ai_contract": {
+    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"],
+    "solution_guidelines": {
+      "format": "context + development + verification",
+      "context_requirement": "Explicar concepto aplicable antes de resolver"
+    }
   }
 }
 ```
 
-**Ventaja:** Permite cambiar nombres de archivo legibles mientras la IA siempre sabe cuál es el `entry_point` consultando el mapa.
+**Campos obligatorios:** `id`, `topic`, `type`, `status`, `tags`, `resource_map`, `ai_contract`
 
 ---
 
-## Tipos Especiales de Módulos
+## 4. Reglas de Generación de Contenido
 
-### `reference_library` (Bibliotecas de Referencia)
-Para recursos como "Simbología Matemática" o "Tablas de Integrales":
-- Establecer `"type": "reference_library"` en el manifest
-- **No requieren** carpetas de `problems/`, `solutions/`, o `methods/`
-- Requisitos mínimos: archivo índice y contenido listado en `resource_map`
+### 4.1 Separación Semántica
 
-```json
-{
-  "id": "ref-simbologia",
-  "topic": "Simbología Matemática",
-  "type": "reference_library",
-  "status": "active",
-  "resource_map": {
-    "entry_point": "REF-Simbologia-Index.md",
-    "content": ["REF-Simbologia-Griegos.md", "REF-Simbologia-Operadores.md"]
-  }
-}
+| Contenido | Ubicación | NO incluir |
+|-----------|-----------|------------|
+| Definiciones, teoremas, demostraciones | `theory/` | Procedimientos paso a paso |
+| Algoritmos, métodos, pasos | `methods/` | Definiciones teóricas |
+| Enunciados de problemas | `problems/` | Soluciones |
+| Respuestas y desarrollos | `solutions/` | Enunciados completos |
+
+### 4.2 Formato de Problemas (Tres Niveles)
+
+**Nivel 1 - Problemas** (`problems/PREFIJO-XX-Problemas.md`):
+- Un archivo único con TODOS los problemas
+- Cada problema con ID: `### [Prob-XX] Título ⭐`
+- Dificultad: ⭐ (básico), ⭐⭐ (intermedio), ⭐⭐⭐ (avanzado)
+
+**Nivel 2 - Respuestas** (`solutions/PREFIJO-XX-Respuestas.md`):
+- Tabla con TODAS las respuestas finales
+- Formato: `| [Prob-XX] | respuesta | [Ver](./prob-XX/...) |`
+
+**Nivel 3 - Soluciones desarrolladas** (`solutions/prob-XX/`):
+- Solo para problemas selectos (difíciles, representativos)
+- Archivo obligatorio: `solucion-metodo.md`
+
+### 4.3 Formato de Soluciones
+
+```markdown
+**[Prob-XX])** *Contexto: [Explicación del concepto/método aplicable]*
+
+[Desarrollo paso a paso de la solución]
+
+**Verificación:** [Comprobación del resultado]
+```
+
+### 4.4 Notación Matemática en Tablas
+
+⚠️ El símbolo `|` interfiere con tablas Markdown. Usar alternativas:
+
+| Símbolo | Alternativa LaTeX |
+|---------|-------------------|
+| Valor absoluto `\|x\|` | `$\lvert x \rvert$` |
+| Norma `\|\|v\|\|` | `$\lVert v \rVert$` |
+| Evaluado en | `$\big\vert$` |
+| Tal que (conjuntos) | `$\mid$` |
+
+---
+
+## 5. Tareas Permitidas
+
+| Tarea | Descripción |
+|-------|-------------|
+| `explain_concept` | Explicar conceptos de teoría |
+| `generate_problems` | Crear nuevos problemas |
+| `verify_solution` | Verificar si una solución es correcta |
+| `solve_problem` | Resolver problemas existentes |
+| `convert_format` | Convertir entre formatos (Markdown, LaTeX) |
+| `add_examples` | Agregar ejemplos a teoría existente |
+| `create_summary` | Crear resúmenes de fórmulas |
+
+---
+
+## 6. Prohibiciones
+
+❌ **NO hacer:**
+- Mezclar teoría con métodos en el mismo archivo
+- Incluir soluciones en archivos de problemas
+- Crear archivos `README.md` en subtemas (usar `*-Intro.md`)
+- Usar `|` para valor absoluto dentro de tablas
+- Asumir conocimientos no declarados en prerequisitos
+- Inventar métodos alternativos cuando hay `assigned_method`
+- Usar nombres de archivo en inglés para contenido nuevo
+
+---
+
+## 7. Recursos de Referencia
+
+| Recurso | Ubicación | Uso |
+|---------|-----------|-----|
+| Glosario | `glossary.md` | ~150 términos con analogías |
+| Notación | `00-META/notation-cheatsheet.md` | Símbolos y convenciones |
+| Plantilla respuestas | `00-META/plantilla-respuestas.md` | Formato de archivo de respuestas |
+| Validador | `00-META/tools/validate_repo.py` | Verificar integridad del repo |
+| Nomenclatura detallada | `00-META/nomenclatura-estandar.md` | Especificaciones técnicas completas |
+
+---
+
+## 8. Flujo de Trabajo para Nuevo Contenido
+
+```
+1. Consultar manifest.json del tema
+2. Verificar nomenclatura según prefijo del módulo
+3. Agregar bloque ::METADATA:: al inicio
+4. Respetar separación semántica
+5. Actualizar resource_map si es necesario
+6. Ejecutar validate_repo.py antes de finalizar
 ```
 
 ---
 
-## Reglas para generación automática
+## 9. Idioma y Estilo
 
-1. **Nunca mezclar teoría con métodos.**
-   - Teoría va en `theory/`: definiciones, teoremas, demostraciones
-   - Métodos van en `methods/`: algoritmos paso a paso
-   - Son archivos separados con propósitos distintos
-
-2. **FORMATO HÍBRIDO DE TRES NIVELES para Problemas y Soluciones (OBLIGATORIO).**
-   
-   ```
-   [modulo]/[tema]/
-   ├── problems/
-   │   └── XX-NN-Problemas.md           # Nivel 1: Lista de problemas
-   │
-   └── solutions/
-       ├── XX-NN-Respuestas.md          # Nivel 2: Respuestas rápidas (TODAS)
-       └── prob-XX/                      # Nivel 3: Soluciones desarrolladas
-           └── solucion-metodo.md
-   ```
-   
-   **Nivel 1 - Problemas (`PREFIJO-XX-Problemas.md`):**
-   - Un archivo único por tema con TODOS los problemas
-   - Cada problema DEBE tener ID explícito: `### [Prob-XX] Título ⭐`
-   - IDs secuenciales (01, 02, ...) únicos dentro del tema
-   - Indicadores: ⭐ (básico), ⭐⭐ (intermedio), ⭐⭐⭐ (avanzado)
-   
-   **Nivel 2 - Respuestas (`PREFIJO-XX-Respuestas.md`):**
-   - Archivo OBLIGATORIO con TODAS las respuestas finales en tabla
-   - Formato: `| [Prob-XX] | respuesta | [Ver](./prob-XX/solucion-metodo.md) |`
-   - Enlaza a soluciones desarrolladas cuando existen
-   
-   **Nivel 3 - Soluciones desarrolladas (`solutions/prob-XX/`):**
-   - Carpetas individuales solo para problemas selectos (representativos, difíciles)
-   - Archivo obligatorio: `solucion-metodo.md` (solución paso a paso)
-   - Archivo opcional: `solucion-detallada.md` (explicación extendida)
-   
-   **NAVEGACIÓN PARA IA:**
-   1. Para obtener cualquier respuesta → `solutions/XX-NN-Respuestas.md`
-   2. Para obtener el proceso de resolución → `solutions/prob-XX/solucion-metodo.md`
-   
-   **Prohibido:**
-   - ❌ Archivos monolíticos de soluciones (ej: `Soluciones-Completas.md`)
-   - ❌ Problemas sin ID explícito `[Prob-XX]`
-   - ❌ Temas sin archivo de respuestas rápidas
-   - ❌ Usar nombres en inglés (`method-solution.md`, `detailed-solution.md`)
-
-3. **Respetar siempre `assigned_method`.**
-   - Si un problema tiene un método asignado, la solución debe usar ese método
-   - No introducir métodos alternativos en `solucion-metodo.md`
-
-4. **No inventar prerequisitos no declarados.**
-   - Solo asumir conocimientos listados en las conexiones del tema
-   - Consultar `study-guide.md` para prerequisitos generales
-   - Las conexiones se definen en `manifest.json`
-
-5. **Usar Markdown válido y limpio.**
-   - LaTeX entre `$...$` para inline, `$$...$$` para bloques
-   - **NO usar comandos LaTeX de tablas** (como `\multicolumn`) en Markdown
-   - Usar encabezados jerárquicos correctamente
-   - Incluir frontmatter YAML en todos los archivos
-
-6. **Ocultar metadatos del renderizado humano.**
-   - El frontmatter YAML SIEMPRE debe estar dentro de un comentario HTML.
-   - Formato obligatorio para todo archivo `.md`:
-     ```markdown
-     <!--
-     HUMANO:
-     [Descripción breve para el lector humano]
-
-     IA:
-     [Instrucciones para la IA]
-
-     ---
-     content_type: [tipo]
-     expected_output:
-       default: markdown
-     audience: [audiencia]
-     ---
-     -->
-
-     # Título del documento
-     ```
-   - Nunca colocar `---` fuera del comentario HTML.
-   - El contenido visible para humanos comienza después de `-->`.
-
-7. **Priorizar claridad sobre brevedad.**
-   - Mejor explicar de más que de menos
-   - Usar ejemplos cuando ayuden a la comprensión
-   - Incluir intuiciones y analogías donde sea útil
-
-8. **No asumir contexto fuera del tema actual.**
-   - Cada tema es autocontenido
-   - Consultar `manifest.json` para saber qué está permitido
-   - Usar referencias cruzadas `[→ término]` al glosario
-
-9. **Validar campos obligatorios en `manifest.json`.**
-   - Campos requeridos: `id`, `topic`, `status`, `tags`, `ai_contract`
-   - El campo `tags` debe contener etiquetas relevantes al tema
-   - El campo `ai_contract` referencia este archivo
-
-10. **Seguir convenciones de nombrado.**
-    - Archivos: `nombre-descriptivo.md` (kebab-case)
-    - Carpetas de soluciones: `solutions/nombre-del-problema/`
-    - IDs en manifest: formato `módulo-subtema` (ej: `fund-funciones`)
-
-## Tareas permitidas por defecto
-
-- `explain_concept` - Explicar conceptos de teoría
-- `generate_problems` - Crear nuevos problemas
-- `solve_problem` - Resolver problemas existentes
-- `convert_format` - Convertir entre formatos (Markdown, LaTeX, etc.)
-- `verify_solution` - Verificar si una solución es correcta
-- `add_examples` - Agregar ejemplos a teoría existente
-- `create_summary` - Crear resúmenes de fórmulas
-
-## Estructura de respuestas
-
-Al generar contenido nuevo:
-
-1. Identificar el `content_type` apropiado
-2. Incluir frontmatter YAML completo dentro de comentario HTML
-3. Seguir la plantilla correspondiente al tipo de archivo
-4. Incluir comentarios para humano e IA
-5. Verificar que el contenido sea compatible con Markdown puro
-
-## Recursos de referencia
-
-- `glossary.md` - Glosario con ~150 términos y analogías
-- `00-META/notation-cheatsheet.md` - Convenciones de notación
-- `00-META/study-guide.md` - Guía de estudio y rutas de aprendizaje
-- `00-META/tools/validate_repo.py` - Script de validación del repositorio
+- **Idioma:** Español
+- **Nivel:** Universitario
+- **Estilo:** Didáctico, progresivo, con ejemplos prácticos
+- **Formato matemático:** LaTeX con `$` (inline) y `$$` (display)
+- **Priorizar:** Claridad sobre brevedad
 
 ---
 
 <!--
-IA: Viola cualquiera de estas reglas = contenido rechazado.
+::AI_DIRECTIVE::
+Este es tu CONTRATO. Viola cualquiera de estas reglas = contenido rechazado.
 Ante la duda, pregunta al usuario.
 Valida tu output mentalmente antes de generarlo.
 -->

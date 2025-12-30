@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: ed-02-edo-segundo-orden
@@ -8,6 +9,7 @@ difficulty_distribution:
   intermediate: 14
   advanced: 6
 ---
+-->
 
 # Problemas: EDO de Segundo Orden
 

@@ -1,18 +1,11 @@
 <!--
-HUMANO:
-Esta guía explica cómo usar este repositorio para estudiar matemáticas.
-Sigue el orden sugerido para un aprendizaje óptimo.
-
-IA:
-Usa esta guía para entender la estructura del repositorio
-y las expectativas de progresión del usuario.
-
----
-content_type: meta
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: reference
+topic_id: meta-study-guide
+file_id: study-guide
+status: stable
+audience: student
+last_updated: 2025-12-30
 -->
 
 # Guía de Estudio
@@ -21,52 +14,83 @@ audience: self-study
 
 ### 1. Estructura de navegación
 
-El repositorio está organizado en módulos numerados:
+El repositorio está organizado en **7 módulos** numerados:
 
-1. **01-Fundamentos** - Conceptos básicos necesarios
-2. **02-Calculo-Diferencial** - Límites, derivadas y aplicaciones
-3. **03-Calculo-Integral** - Integrales y técnicas de integración
-4. **04-Calculo-Vectorial** - Cálculo en múltiples variables
+| # | Módulo | Descripción |
+|---|--------|-------------|
+| 01 | **Fundamentos** | Simbología, Aritmética, Álgebra, Geometría, Trigonometría, Geometría Analítica |
+| 02 | **Álgebra Lineal** | Matrices, Determinantes, Sistemas Lineales, Espacios Vectoriales, Transformaciones |
+| 03 | **Cálculo Diferencial** | Límites, Derivadas, Aplicaciones, Teoremas Fundamentales |
+| 04 | **Cálculo Integral** | Integral Indefinida/Definida, Técnicas, Aplicaciones, Impropias |
+| 05 | **Cálculo Vectorial** | Vectores, Curvas, Funciones Vectoriales, Varias Variables, Integración Múltiple |
+| 06 | **Ecuaciones Diferenciales** | EDO Primer/Segundo Orden, Sistemas, Laplace, Series de Potencias |
+| 07 | **Métodos Numéricos** | Raíces, Interpolación, Integración Numérica, EDO Numéricas |
 
 ### 2. Dentro de cada tema
 
-Cada tema sigue esta estructura:
+Cada subtema sigue esta estructura estándar:
 
 ```
-tema/
-├── README.md      ← Empieza aquí: visión general
-├── theory/        ← Conceptos y definiciones
-├── methods/       ← Procedimientos paso a paso
-├── problems/      ← Ejercicios para practicar
-├── solutions/     ← Soluciones detalladas
-├── media/         ← Recursos visuales
-└── manifest.json  ← Metadatos del tema
+XX-Nombre-Tema/
+├── manifest.json                    ← Metadatos y configuración
+├── PREFIJO-XX-*-Intro.md            ← 🚀 EMPIEZA AQUÍ
+├── PREFIJO-XX-Resumen-Formulas.md   ← Fórmulas clave (cheat sheet)
+├── theory/                          ← Conceptos y definiciones
+├── methods/                         ← Procedimientos paso a paso
+├── problems/                        ← Ejercicios para practicar
+├── solutions/                       ← Soluciones detalladas
+├── applications/                    ← Casos aplicados (opcional)
+└── media/                           ← Recursos visuales (opcional)
 ```
 
-### 3. Orden recomendado de estudio
+**Nota:** El punto de entrada siempre es el archivo `*-Intro.md`, no hay archivos `README.md` en los subtemas.
 
-1. Lee el `README.md` del tema
-2. Estudia la teoría en `theory/`
-3. Aprende los métodos en `methods/`
-4. Practica con `problems/`
-5. Verifica tus respuestas en `solutions/`
+### 3. Sistema de prefijos
 
-### 4. Uso con IA (Copilot)
+Los archivos usan prefijos que indican su módulo:
 
-- La IA puede generar problemas adicionales
-- La IA puede explicar conceptos de forma diferente
-- La IA respeta los métodos definidos en cada tema
+| Prefijo | Módulo | Ejemplo |
+|---------|--------|---------|
+| `FUN-XX` | Fundamentos | `FUN-02-Aritmetica-Intro.md` |
+| `AL-XX` | Álgebra Lineal | `AL-03-Sistemas-Teoria.md` |
+| `CD-XX` | Cálculo Diferencial | `CD-02-Derivadas-Metodos.md` |
+| `CI-XX` | Cálculo Integral | `CI-04-Aplicaciones-Problemas.md` |
+| `CV-XX` | Cálculo Vectorial | `CV-01-Vectores-Intro.md` |
+| `ED-XX` | Ecuaciones Diferenciales | `ED-02-Segundo-Orden-Teoria.md` |
+| `MN-XX` | Métodos Numéricos | `MN-03-Integracion-Numerica.md` |
 
-## Prerequisitos
+### 4. Orden recomendado de estudio
+
+1. **Lee el archivo `*-Intro.md`** del tema (visión general)
+2. **Estudia la teoría** en `theory/` (definiciones, teoremas)
+3. **Aprende los métodos** en `methods/` (procedimientos paso a paso)
+4. **Practica** con `problems/` (ejercicios clasificados por dificultad)
+5. **Verifica** tus respuestas en `solutions/`
+6. **Consulta** el `*-Resumen-Formulas.md` para repasos rápidos
+
+### 5. Uso con IA (Copilot/ChatGPT)
+
+La IA puede ayudarte a:
+- 📚 Explicar conceptos de forma alternativa
+- ✏️ Generar problemas adicionales de práctica
+- ✅ Verificar si tus soluciones son correctas
+- 🔍 Identificar qué prerequisitos necesitas reforzar
+
+La IA respeta los métodos definidos en cada tema y no asume conocimientos fuera de los prerequisitos declarados.
+
+### 6. Recursos de consulta rápida
+
+| Recurso | Ubicación | Uso |
+|---------|-----------|-----|
+| Glosario | [`glossary.md`](../glossary.md) | ~150 términos con analogías |
+| Notación | [`00-META/notation-cheatsheet.md`](notation-cheatsheet.md) | Símbolos y convenciones |
+| Fórmulas | `PREFIJO-XX-Resumen-Formulas.md` | Por cada tema |
+
+## Prerequisitos generales
 
 Antes de comenzar, debes tener conocimientos básicos de:
-- Álgebra elemental
-- Geometría analítica
-- Trigonometría básica
+- ✓ Álgebra elemental (operaciones, ecuaciones)
+- ✓ Geometría analítica básica (coordenadas, rectas)
+- ✓ Trigonometría básica (funciones, identidades fundamentales)
 
----
-
-<!--
-IA: Recomienda este archivo a usuarios nuevos.
-No asumas conocimientos más allá de los prerequisitos listados.
--->
+El módulo **01-Fundamentos** te ayuda a reforzar estos conceptos si es necesario.

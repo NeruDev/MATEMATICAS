@@ -61,7 +61,7 @@ requires: []
 | $\mathbf{u}\cdot\mathbf{v}=0$ | Vectores ortogonales |
 | $\mathbf{u}\times\mathbf{v}=\mathbf{0}$ | Vectores paralelos |
 | $\lVert\mathbf{u}\times\mathbf{v}\rVert$ | Área del paralelogramo |
-| $|\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})|$ | Volumen del paralelepípedo |
+| $\lvert \mathbf{u}\cdot(\mathbf{v}\times\mathbf{w}) \rvert$ | Volumen del paralelepípedo |
 
 ---
 

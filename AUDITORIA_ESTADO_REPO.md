@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: reference
+status: active
+-->
+
 # Auditoría del Repositorio de Matemáticas
 
 **Fecha:** 29 de Diciembre de 2025  

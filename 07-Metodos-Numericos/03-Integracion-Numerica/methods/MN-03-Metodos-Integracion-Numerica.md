@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: Integración Numérica
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Integración Numérica
@@ -382,7 +380,7 @@ $$R_{k,j} = \frac{4^j R_{k,j-1} - R_{k-1,j-1}}{4^j - 1}$$
 | 2 | **Para** $k = 1, 2, \ldots$ | |
 | 3 | → **Trapecio** | $R_{k,0}$ con $2^k$ intervalos |
 | 4 | → **Extrapolar** | $R_{k,j}$ para $j = 1, \ldots, k$ |
-| 5 | → **Verificar** | Si $|R_{k,k} - R_{k-1,k-1}| < \varepsilon$: terminar |
+| 5 | → **Verificar** | Si $\vert R_{k,k} - R_{k-1,k-1}\vert < \varepsilon$: terminar |
 
 ### Pseudocódigo
 

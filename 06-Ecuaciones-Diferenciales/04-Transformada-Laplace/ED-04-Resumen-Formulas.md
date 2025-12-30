@@ -29,8 +29,8 @@ $$\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt$$
 | $t^n e^{at}$ | $\dfrac{n!}{(s-a)^{n+1}}$ | $s > a$ |
 | $\sin(bt)$ | $\dfrac{b}{s^2+b^2}$ | $s > 0$ |
 | $\cos(bt)$ | $\dfrac{s}{s^2+b^2}$ | $s > 0$ |
-| $\sinh(bt)$ | $\dfrac{b}{s^2-b^2}$ | $s > |b|$ |
-| $\cosh(bt)$ | $\dfrac{s}{s^2-b^2}$ | $s > |b|$ |
+| $\sinh(bt)$ | $\dfrac{b}{s^2-b^2}$ | $s > \lvert b \rvert$ |
+| $\cosh(bt)$ | $\dfrac{s}{s^2-b^2}$ | $s > \lvert b \rvert$ |
 | $e^{at}\sin(bt)$ | $\dfrac{b}{(s-a)^2+b^2}$ | $s > a$ |
 | $e^{at}\cos(bt)$ | $\dfrac{s-a}{(s-a)^2+b^2}$ | $s > a$ |
 | $t\sin(bt)$ | $\dfrac{2bs}{(s^2+b^2)^2}$ | $s > 0$ |

@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: fun-05-trigonometria
@@ -8,6 +9,7 @@ author: Repositorio Matemáticas
 date_created: 2025-12-20
 version: 1.0
 ---
+-->
 
 # Problemas de Trigonometría
 

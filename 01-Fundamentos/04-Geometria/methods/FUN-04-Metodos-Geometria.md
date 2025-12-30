@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Geometría
 
 > Guía completa de métodos geométricos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
@@ -574,7 +580,7 @@ $$\boxed{A = 96\sqrt{3} \text{ cm}^2 \approx 166.28 \text{ cm}^2}$$
 | Distancia | $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ |
 | Punto medio | $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$ |
 | Pendiente | $m = \frac{y_2 - y_1}{x_2 - x_1}$ |
-| Área triángulo | $A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$ |
+| Área triángulo | $A = \frac{1}{2}\lvert x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \rvert$ |
 
 ### Ejemplo Detallado
 

@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Interpolación
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Interpolación

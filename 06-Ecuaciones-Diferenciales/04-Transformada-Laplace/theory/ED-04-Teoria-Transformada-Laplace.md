@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Transformada de Laplace
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Transformada de Laplace

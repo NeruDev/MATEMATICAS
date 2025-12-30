@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: EDO de Segundo Orden
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Ecuaciones Diferenciales de Segundo Orden

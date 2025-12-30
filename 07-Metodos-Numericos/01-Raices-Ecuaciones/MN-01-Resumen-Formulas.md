@@ -1,3 +1,4 @@
+<!--
 ---
 title: Resumen de Fórmulas - Raíces de Ecuaciones
 type: cheatsheet
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, raíces, fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Resumen de Fórmulas: Raíces de Ecuaciones
 

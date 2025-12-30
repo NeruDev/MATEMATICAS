@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos para Teoremas Fundamentales del Cálculo Diferencial
 
 > Guía completa de teoremas fundamentales con demostraciones, algoritmos de aplicación y ejemplos detallados.

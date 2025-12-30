@@ -14,6 +14,16 @@ audience: self-study
 ---
 -->
 
+<!--
+::METADATA::
+type: reference
+topic_id: meta-notation
+file_id: notation-cheatsheet
+status: stable
+audience: ai_context
+last_updated: 2025-12-30
+-->
+
 # Cheatsheet de Notación Matemática
 
 ## Conjuntos Numéricos

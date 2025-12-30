@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: fun-06-geometria-analitica
@@ -20,6 +21,7 @@ tags:
   - elipse
   - hipérbola
 ---
+-->
 
 # Problemas de Geometría Analítica
 

@@ -1,9 +1,11 @@
+<!--
 ---
 content_type: problem_set
 topic_id: ed-04-transformada-laplace
 file_id: ED-04-Problemas
 created: 2025-12-20
 ---
+-->
 
 # Problemas: Transformada de Laplace
 

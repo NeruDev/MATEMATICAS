@@ -1,7 +1,7 @@
 <!--
-content_type: methods
-topic: Transformaciones Lineales
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Transformaciones Lineales

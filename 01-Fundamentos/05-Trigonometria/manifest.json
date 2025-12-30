@@ -90,5 +90,13 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "resource_map": {
+    "entry_point": "FUN-05-Trigonometria-Intro.md",
+    "formula_sheet": "FUN-05-Resumen-Formulas.md",
+    "theory": "theory/",
+    "methods": "methods/FUN-05-Metodos-Trigonometria.md",
+    "problems": "problems/FUN-05-Problemas.md",
+    "solutions": "solutions/"
   }
 }

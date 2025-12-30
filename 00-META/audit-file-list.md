@@ -1,270 +1,169 @@
+<!--
+::METADATA::
+type: reference
+topic_id: meta-audit
+file_id: audit-file-list
+status: stable
+audience: ai_context
+last_updated: 2025-12-30
+-->
+
 # Lista de Archivos para Auditoría
 
-*Este archivo contiene la lista completa de archivos que deben ser validados por las herramientas de `00-META/tools/`.*
+*Lista de archivos validados por `00-META/tools/validate_repo.py`.*
 
 ---
 
-## Archivos Críticos (Validación Obligatoria)
+## 1. Archivos Críticos (Obligatorios)
 
-### manifest.json (Todos los subtemas)
+### 1.1 manifest.json por Subtema (35 total)
 
-Estos archivos **DEBEN** contener los campos `tags` y `ai_contract` para pasar la validación.
+Cada subtema DEBE tener un `manifest.json` con campos obligatorios: `id`, `topic`, `type`, `status`, `tags`, `resource_map`, `ai_contract`.
 
 ```
-01-Fundamentos/01-Simbologia-Matematica/manifest.json
-01-Fundamentos/02-Aritmetica/manifest.json
-01-Fundamentos/03-Algebra/manifest.json
-01-Fundamentos/04-Geometria/manifest.json
-01-Fundamentos/05-Trigonometria/manifest.json
-01-Fundamentos/06-Geometria-Analitica/manifest.json
+01-Fundamentos/
+├── 01-Simbologia-Matematica/manifest.json
+├── 02-Aritmetica/manifest.json
+├── 03-Algebra/manifest.json
+├── 04-Geometria/manifest.json
+├── 05-Trigonometria/manifest.json
+└── 06-Geometria-Analitica/manifest.json
 
-02-Algebra-Lineal/01-Matrices/manifest.json
-02-Algebra-Lineal/02-Determinantes/manifest.json
-02-Algebra-Lineal/03-Sistemas-Lineales/manifest.json
-02-Algebra-Lineal/04-Espacios-Vectoriales/manifest.json
-02-Algebra-Lineal/05-Transformaciones-Lineales/manifest.json
-02-Algebra-Lineal/06-Valores-Vectores-Propios/manifest.json
+02-Algebra-Lineal/
+├── 01-Matrices/manifest.json
+├── 02-Determinantes/manifest.json
+├── 03-Sistemas-Lineales/manifest.json
+├── 04-Espacios-Vectoriales/manifest.json
+├── 05-Transformaciones-Lineales/manifest.json
+└── 06-Valores-Vectores-Propios/manifest.json
 
-03-Calculo-Diferencial/01-Limites/manifest.json
-03-Calculo-Diferencial/02-Derivadas/manifest.json
-03-Calculo-Diferencial/03-Aplicaciones-de-la-derivada/manifest.json
-03-Calculo-Diferencial/04-Teoremas-fundamentales/manifest.json
+03-Calculo-Diferencial/
+├── 01-Limites/manifest.json
+├── 02-Derivadas/manifest.json
+├── 03-Aplicaciones-de-la-derivada/manifest.json
+└── 04-Teoremas-fundamentales/manifest.json
 
-04-Calculo-Integral/01-Integral-Indefinida/manifest.json
-04-Calculo-Integral/02-Tecnicas-Integracion/manifest.json
-04-Calculo-Integral/03-Integral-Definida/manifest.json
-04-Calculo-Integral/04-Aplicaciones-Integral/manifest.json
-04-Calculo-Integral/05-Integrales-Impropias/manifest.json
+04-Calculo-Integral/
+├── 01-Integral-Indefinida/manifest.json
+├── 02-Tecnicas-Integracion/manifest.json
+├── 03-Integral-Definida/manifest.json
+├── 04-Aplicaciones-Integral/manifest.json
+└── 05-Integrales-Impropias/manifest.json
 
-05-Calculo-Vectorial/01-Vectores-en-el-espacio/manifest.json
-05-Calculo-Vectorial/02-Curvas-planas-parametricas-y-polares/manifest.json
-05-Calculo-Vectorial/03-Funciones-vectoriales/manifest.json
-05-Calculo-Vectorial/04-Funciones-de-varias-variables/manifest.json
-05-Calculo-Vectorial/05-Integracion-multiple/manifest.json
+05-Calculo-Vectorial/
+├── 01-Vectores-en-el-espacio/manifest.json
+├── 02-Curvas-planas-parametricas-y-polares/manifest.json
+├── 03-Funciones-vectoriales/manifest.json
+├── 04-Funciones-de-varias-variables/manifest.json
+└── 05-Integracion-multiple/manifest.json
 
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/manifest.json
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/manifest.json
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/manifest.json
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/manifest.json
-06-Ecuaciones-Diferenciales/05-Series-Potencias/manifest.json
+06-Ecuaciones-Diferenciales/
+├── 01-EDO-Primer-Orden/manifest.json
+├── 02-EDO-Segundo-Orden/manifest.json
+├── 03-Sistemas-EDO/manifest.json
+├── 04-Transformada-Laplace/manifest.json
+└── 05-Series-Potencias/manifest.json
 
-07-Metodos-Numericos/01-Raices-Ecuaciones/manifest.json
-07-Metodos-Numericos/02-Interpolacion/manifest.json
-07-Metodos-Numericos/03-Integracion-Numerica/manifest.json
-07-Metodos-Numericos/04-EDO-Numericas/manifest.json
+07-Metodos-Numericos/
+├── 01-Raices-Ecuaciones/manifest.json
+├── 02-Interpolacion/manifest.json
+├── 03-Integracion-Numerica/manifest.json
+└── 04-EDO-Numericas/manifest.json
 ```
-
-**Total: 35 archivos manifest.json**
 
 ---
 
-## Archivos de Contenido Principal
+### 1.2 Archivos *-Intro.md (Punto de Entrada)
 
-### README.md (Índices de subtemas)
+Cada subtema DEBE tener un archivo de entrada con nomenclatura `PREFIJO-XX-*-Intro.md`.
 
-```
-01-Fundamentos/01-Simbologia-Matematica/README.md
-01-Fundamentos/02-Aritmetica/README.md
-01-Fundamentos/03-Algebra/README.md
-01-Fundamentos/04-Geometria/README.md
-01-Fundamentos/05-Trigonometria/README.md
-01-Fundamentos/06-Geometria-Analitica/README.md
+**⚠️ NO se usan archivos `README.md` en subtemas.**
 
-02-Algebra-Lineal/01-Matrices/README.md
-02-Algebra-Lineal/02-Determinantes/README.md
-02-Algebra-Lineal/03-Sistemas-Lineales/README.md
-02-Algebra-Lineal/04-Espacios-Vectoriales/README.md
-02-Algebra-Lineal/05-Transformaciones-Lineales/README.md
-02-Algebra-Lineal/06-Valores-Vectores-Propios/README.md
-
-03-Calculo-Diferencial/01-Limites/README.md
-03-Calculo-Diferencial/02-Derivadas/README.md
-03-Calculo-Diferencial/03-Aplicaciones-de-la-derivada/README.md
-03-Calculo-Diferencial/04-Teoremas-fundamentales/README.md
-
-04-Calculo-Integral/01-Integral-Indefinida/README.md
-04-Calculo-Integral/02-Tecnicas-Integracion/README.md
-04-Calculo-Integral/03-Integral-Definida/README.md
-04-Calculo-Integral/04-Aplicaciones-Integral/README.md
-04-Calculo-Integral/05-Integrales-Impropias/README.md
-
-05-Calculo-Vectorial/01-Vectores-en-el-espacio/README.md
-05-Calculo-Vectorial/02-Curvas-planas-parametricas-y-polares/README.md
-05-Calculo-Vectorial/03-Funciones-vectoriales/README.md
-05-Calculo-Vectorial/04-Funciones-de-varias-variables/README.md
-05-Calculo-Vectorial/05-Integracion-multiple/README.md
-
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/README.md
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/README.md
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/README.md
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/README.md
-06-Ecuaciones-Diferenciales/05-Series-Potencias/README.md
-
-07-Metodos-Numericos/01-Raices-Ecuaciones/README.md
-07-Metodos-Numericos/02-Interpolacion/README.md
-07-Metodos-Numericos/03-Integracion-Numerica/README.md
-07-Metodos-Numericos/04-EDO-Numericas/README.md
-```
-
-**Total: 35 archivos README.md de subtemas**
+| Módulo | Prefijo | Ejemplo |
+|--------|---------|---------|
+| 01-Fundamentos | `FUN-XX` | `FUN-02-Aritmetica-Intro.md` |
+| 02-Algebra-Lineal | `AL-XX` | `AL-01-Matrices-Intro.md` |
+| 03-Calculo-Diferencial | `CD-XX` | `CD-01-Limites-Intro.md` |
+| 04-Calculo-Integral | `CI-XX` | `CI-02-Tecnicas-Integracion-Intro.md` |
+| 05-Calculo-Vectorial | `CV-XX` | `CV-01-Vectores-Intro.md` |
+| 06-Ecuaciones-Diferenciales | `ED-XX` | `ED-01-EDO-Primer-Orden-Intro.md` |
+| 07-Metodos-Numericos | `MN-XX` | `MN-01-Raices-Intro.md` |
 
 ---
 
-### summary.md (Resúmenes)
+### 1.3 Archivos *-Resumen-Formulas.md (Cheat Sheet)
 
-```
-01-Fundamentos/01-Simbologia-Matematica/summary.md
-01-Fundamentos/02-Aritmetica/summary.md
-01-Fundamentos/03-Algebra/summary.md
-01-Fundamentos/04-Geometria/summary.md
-01-Fundamentos/05-Trigonometria/summary.md
-01-Fundamentos/06-Geometria-Analitica/summary.md
+Cada subtema (excepto bibliotecas de referencia) DEBE tener un resumen de fórmulas.
 
-02-Algebra-Lineal/01-Matrices/summary.md
-02-Algebra-Lineal/02-Determinantes/summary.md
-02-Algebra-Lineal/03-Sistemas-Lineales/summary.md
-02-Algebra-Lineal/04-Espacios-Vectoriales/summary.md
-02-Algebra-Lineal/05-Transformaciones-Lineales/summary.md
-02-Algebra-Lineal/06-Valores-Vectores-Propios/summary.md
+**⚠️ NO se usan archivos `summary.md`.**
 
-03-Calculo-Diferencial/01-Limites/summary.md
-03-Calculo-Diferencial/02-Derivadas/summary.md
-03-Calculo-Diferencial/03-Aplicaciones-de-la-derivada/summary.md
-03-Calculo-Diferencial/04-Teoremas-fundamentales/summary.md
-
-04-Calculo-Integral/01-Integral-Indefinida/summary.md
-04-Calculo-Integral/02-Tecnicas-Integracion/summary.md
-04-Calculo-Integral/03-Integral-Definida/summary.md
-04-Calculo-Integral/04-Aplicaciones-Integral/summary.md
-04-Calculo-Integral/05-Integrales-Impropias/summary.md
-
-05-Calculo-Vectorial/01-Vectores-en-el-espacio/summary.md
-05-Calculo-Vectorial/02-Curvas-planas-parametricas-y-polares/summary.md
-05-Calculo-Vectorial/03-Funciones-vectoriales/summary.md
-05-Calculo-Vectorial/04-Funciones-de-varias-variables/summary.md
-05-Calculo-Vectorial/05-Integracion-multiple/summary.md
-
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/summary.md
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/summary.md
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/summary.md
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/summary.md
-06-Ecuaciones-Diferenciales/05-Series-Potencias/summary.md
-
-07-Metodos-Numericos/01-Raices-Ecuaciones/summary.md
-07-Metodos-Numericos/02-Interpolacion/summary.md
-07-Metodos-Numericos/03-Integracion-Numerica/summary.md
-07-Metodos-Numericos/04-EDO-Numericas/summary.md
-```
-
-**Total: 35 archivos summary.md**
+Patrón: `PREFIJO-XX-Resumen-Formulas.md`
 
 ---
 
-## Archivos de Contenido (theory, methods, problems, solutions)
+## 2. Archivos de Contenido por Carpeta
 
-### 02-Algebra-Lineal (Completo)
+### 2.1 Estructura Esperada
 
 ```
-02-Algebra-Lineal/01-Matrices/theory/Teoria-Matrices.md
-02-Algebra-Lineal/01-Matrices/methods/Metodos-Matrices.md
-02-Algebra-Lineal/01-Matrices/problems/Problemas-Matrices.md
-02-Algebra-Lineal/01-Matrices/solutions/Soluciones-Matrices.md
-
-02-Algebra-Lineal/02-Determinantes/theory/Teoria-Determinantes.md
-02-Algebra-Lineal/02-Determinantes/methods/Metodos-Determinantes.md
-02-Algebra-Lineal/02-Determinantes/problems/Problemas-Determinantes.md
-02-Algebra-Lineal/02-Determinantes/solutions/Soluciones-Determinantes.md
-
-02-Algebra-Lineal/03-Sistemas-Lineales/theory/Teoria-Sistemas-Lineales.md
-02-Algebra-Lineal/03-Sistemas-Lineales/methods/Metodos-Sistemas-Lineales.md
-02-Algebra-Lineal/03-Sistemas-Lineales/problems/Problemas-Sistemas-Lineales.md
-02-Algebra-Lineal/03-Sistemas-Lineales/solutions/Soluciones-Sistemas-Lineales.md
-
-02-Algebra-Lineal/04-Espacios-Vectoriales/theory/Teoria-Espacios-Vectoriales.md
-02-Algebra-Lineal/04-Espacios-Vectoriales/methods/Metodos-Espacios-Vectoriales.md
-02-Algebra-Lineal/04-Espacios-Vectoriales/problems/Problemas-Espacios-Vectoriales.md
-02-Algebra-Lineal/04-Espacios-Vectoriales/solutions/Soluciones-Espacios-Vectoriales.md
-
-02-Algebra-Lineal/05-Transformaciones-Lineales/theory/Teoria-Transformaciones-Lineales.md
-02-Algebra-Lineal/05-Transformaciones-Lineales/methods/Metodos-Transformaciones-Lineales.md
-02-Algebra-Lineal/05-Transformaciones-Lineales/problems/Problemas-Transformaciones-Lineales.md
-02-Algebra-Lineal/05-Transformaciones-Lineales/solutions/Soluciones-Transformaciones-Lineales.md
-
-02-Algebra-Lineal/06-Valores-Vectores-Propios/theory/Teoria-Valores-Vectores-Propios.md
-02-Algebra-Lineal/06-Valores-Vectores-Propios/methods/Metodos-Valores-Vectores-Propios.md
-02-Algebra-Lineal/06-Valores-Vectores-Propios/problems/Problemas-Valores-Vectores-Propios.md
-02-Algebra-Lineal/06-Valores-Vectores-Propios/solutions/Soluciones-Valores-Vectores-Propios.md
+XX-Nombre-Subtema/
+├── manifest.json                    # Obligatorio
+├── PREFIJO-XX-*-Intro.md            # Obligatorio
+├── PREFIJO-XX-Resumen-Formulas.md   # Obligatorio (excepto reference_library)
+├── theory/
+│   └── PREFIJO-XX-Teoria-*.md
+├── methods/
+│   └── PREFIJO-XX-Metodos-*.md
+├── problems/
+│   └── PREFIJO-XX-Problemas.md
+└── solutions/
+    ├── PREFIJO-XX-Respuestas.md     # Tabla de respuestas (obligatorio)
+    └── prob-XX/
+        └── solucion-metodo.md
 ```
 
-**Total: 24 archivos de contenido (02-Algebra-Lineal)**
+### 2.2 Ejemplo: 02-Algebra-Lineal/01-Matrices
+
+```
+01-Matrices/
+├── manifest.json
+├── AL-01-Matrices-Intro.md
+├── AL-01-Resumen-Formulas.md
+├── theory/
+│   └── AL-01-Teoria-Matrices.md
+├── methods/
+│   └── AL-01-Metodos-Operaciones.md
+├── problems/
+│   └── AL-01-Problemas.md
+└── solutions/
+    ├── AL-01-Respuestas.md
+    └── prob-01/
+        └── solucion-metodo.md
+```
 
 ---
 
-### 06-Ecuaciones-Diferenciales (Completo)
+## 3. Archivos META
 
 ```
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/theory/Teoria-EDO-Primer-Orden.md
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/methods/Metodos-EDO-Primer-Orden.md
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/problems/Problemas-EDO-Primer-Orden.md
-06-Ecuaciones-Diferenciales/01-EDO-Primer-Orden/solutions/Soluciones-EDO-Primer-Orden.md
-
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/theory/Teoria-EDO-Segundo-Orden.md
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/methods/Metodos-EDO-Segundo-Orden.md
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/problems/Problemas-EDO-Segundo-Orden.md
-06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/solutions/Soluciones-EDO-Segundo-Orden.md
-
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/theory/Teoria-Sistemas-EDO.md
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/methods/Metodos-Sistemas-EDO.md
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/problems/Problemas-Sistemas-EDO.md
-06-Ecuaciones-Diferenciales/03-Sistemas-EDO/solutions/Soluciones-Sistemas-EDO.md
-
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/theory/Teoria-Transformada-Laplace.md
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/methods/Metodos-Transformada-Laplace.md
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/problems/Problemas-Transformada-Laplace.md
-06-Ecuaciones-Diferenciales/04-Transformada-Laplace/solutions/Soluciones-Transformada-Laplace.md
-
-06-Ecuaciones-Diferenciales/05-Series-Potencias/theory/Teoria-Series-Potencias.md
-06-Ecuaciones-Diferenciales/05-Series-Potencias/methods/Metodos-Series-Potencias.md
-06-Ecuaciones-Diferenciales/05-Series-Potencias/problems/Problemas-Series-Potencias.md
-06-Ecuaciones-Diferenciales/05-Series-Potencias/solutions/Soluciones-Series-Potencias.md
+00-META/
+├── ai-directives.md        # Directivas técnicas para IA
+├── audit-file-list.md      # Este archivo
+├── directory-tree.md       # Estructura del repositorio
+├── ia-contract.md          # Contrato principal para IA
+├── nomenclatura-estandar.md # Especificaciones técnicas detalladas
+├── notation-cheatsheet.md  # Símbolos y convenciones
+├── plantilla-respuestas.md # Plantilla para archivos de respuestas
+├── prompts-for-students.md # Prompts de ejemplo
+├── repo-tests.md           # Documentación del validador
+├── study-guide.md          # Guía de estudio
+└── tools/
+    └── validate_repo.py    # Script de validación
 ```
-
-**Total: 20 archivos de contenido (06-Ecuaciones-Diferenciales)**
 
 ---
 
-## Archivos de Meta-información
-
-```
-00-META/ai-directives.md
-00-META/ia-contract.md
-00-META/notation-cheatsheet.md
-00-META/prompts-for-students.md
-00-META/repo-tests.md
-00-META/study-guide.md
-00-META/directory-tree.md
-00-META/audit-file-list.md
-
-00-META/tools/hide_frontmatter.py
-00-META/tools/validate_repo.py
-```
-
-**Total: 10 archivos META**
-
----
-
-## Archivos Raíz
-
-```
-README.md
-glossary.md
-```
-
-**Total: 2 archivos raíz**
-
----
-
-## Archivos Index de Módulos
+## 4. Archivos Índice de Módulos
 
 ```
 01-Fundamentos/00-Index.md
@@ -276,68 +175,53 @@ glossary.md
 07-Metodos-Numericos/00-Index.md
 ```
 
-**Total: 7 archivos Index**
-
 ---
 
-## Resumen de Conteo
+## 5. Archivos Raíz
 
-| Categoría | Cantidad |
-|-----------|----------|
-| manifest.json | 35 |
-| README.md (subtemas) | 35 |
-| summary.md | 35 |
-| 00-Index.md | 7 |
-| Archivos META | 10 |
-| Archivos raíz | 2 |
-| **Contenido 02-Algebra-Lineal** | 24 |
-| **Contenido 06-Ecuaciones-Diferenciales** | 20 |
-| Otros archivos de contenido | ~150+ |
-
-**Total estimado: ~300+ archivos**
-
----
-
-## Validaciones Requeridas por `validate_repo.py`
-
-### Para manifest.json:
-
-1. ✅ Campo `subtopics` (array)
-2. ✅ Campo `tags` (array) - **NUEVO REQUISITO**
-3. ✅ Campo `ai_contract` (object) - **NUEVO REQUISITO**
-   - `summary_min_words`: número mínimo de palabras en summary
-   - `required_sections`: secciones obligatorias en archivos .md
-
-### Para archivos .md:
-
-1. ✅ Frontmatter (formato HTML comment o YAML)
-2. ✅ Campos requeridos según `ai_contract`:
-   - `content_type`
-   - `topic`
-
-### Formato de Frontmatter Válido:
-
-```markdown
-<!--
-content_type: theory|methods|problems|solutions|summary
-topic: Nombre del Tema
----
--->
-
-# Título del Documento
+```
+README.md       # Único README permitido
+glossary.md     # Glosario global
 ```
 
 ---
 
-## Comandos de Validación
+## 6. Resumen de Conteo
+
+| Categoría | Cantidad |
+|-----------|----------|
+| manifest.json | 35 |
+| *-Intro.md | 35 |
+| *-Resumen-Formulas.md | ~35 |
+| 00-Index.md | 7 |
+| Archivos 00-META | 11 |
+| Archivos raíz | 2 |
+| Archivos theory/ | ~50+ |
+| Archivos methods/ | ~40+ |
+| Archivos problems/ | ~35 |
+| Archivos solutions/ | ~100+ |
+
+**Total estimado: ~350+ archivos**
+
+---
+
+## 7. Validaciones del Script
+
+### Para manifest.json
+
+- ✅ Campos obligatorios: `id`, `topic`, `type`, `status`, `tags`
+- ✅ Campo `resource_map` con `entry_point`
+- ✅ Campo `ai_contract` con `allowed_tasks`
+
+### Para archivos .md
+
+- ✅ Bloque `::METADATA::` con campos `type` y `status`
+- ✅ Nomenclatura correcta según prefijo del módulo
+- ✅ Sin tablas con `|` problemático (excepto `\|` escapado)
+
+### Comando de Validación
 
 ```bash
-# Desde la raíz del repositorio
 cd "g:\MATEMATICAS GITHUB"
-
-# Ejecutar validación completa
 python 00-META/tools/validate_repo.py
-
-# Validar un módulo específico
-python 00-META/tools/validate_repo.py --module 06-Ecuaciones-Diferenciales
 ```

@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: EDO de Primer Orden
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría de EDO de Primer Orden

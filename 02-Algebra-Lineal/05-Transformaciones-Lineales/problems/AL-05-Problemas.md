@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: al-05-transformaciones-lineales
@@ -15,6 +16,7 @@ difficulty_distribution:
   advanced: 6
 total_problems: 28
 ---
+-->
 
 # Problemas: Transformaciones Lineales
 

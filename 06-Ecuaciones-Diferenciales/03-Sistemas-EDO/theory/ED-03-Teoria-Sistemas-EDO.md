@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: Sistemas de EDO
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Sistemas de Ecuaciones Diferenciales Ordinarias

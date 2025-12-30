@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: Raíces de Ecuaciones
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Raíces de Ecuaciones

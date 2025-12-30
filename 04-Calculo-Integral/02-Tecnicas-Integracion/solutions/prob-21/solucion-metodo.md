@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integración por Partes Cíclicas (Exponencial-Seno)"
 type: solution
@@ -14,6 +15,7 @@ tags:
   - sistema-ecuaciones
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int e^x \sin x \, dx$
 

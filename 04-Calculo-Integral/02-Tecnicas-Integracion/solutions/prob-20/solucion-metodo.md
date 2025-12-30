@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integración por Partes Cíclicas (Exponencial-Coseno)"
 type: solution
@@ -14,6 +15,7 @@ tags:
   - sistema-ecuaciones
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int e^x \cos x \, dx$
 

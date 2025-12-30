@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem_id: FUN-05-PROB-78
@@ -8,6 +9,7 @@ difficulty: intermedio
 tags: [funciones-inversas, arcoseno, arcocoseno, demostracion, identidades]
 created: 2025-12-22
 ---
+-->
 
 # Demostración: arcsin x + arccos x = π/2
 

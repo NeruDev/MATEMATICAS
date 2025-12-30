@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: cd-03-aplicaciones-derivada
@@ -8,6 +9,7 @@ audience: self-study
 difficulty_levels: [básico, intermedio, avanzado]
 total_problems: 48
 ---
+-->
 
 # Problemas de Aplicaciones de la Derivada
 

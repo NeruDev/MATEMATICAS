@@ -1,3 +1,4 @@
+<!--
 ---
 content_type: problem_set
 topic_id: al-06-valores-vectores-propios
@@ -9,6 +10,7 @@ difficulty_distribution:
   intermediate: 12
   advanced: 6
 ---
+-->
 
 # Problemas: Valores y Vectores Propios
 

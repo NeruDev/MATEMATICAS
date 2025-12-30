@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Álgebra
 
 > Guía completa de métodos algebraicos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

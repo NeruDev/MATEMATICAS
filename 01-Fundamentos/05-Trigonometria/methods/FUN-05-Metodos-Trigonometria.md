@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Trigonometría
 
 > Guía completa de métodos trigonométricos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
@@ -189,8 +195,8 @@ $$y = A \cos(B(x - C)) + D$$
 
 | Parámetro | Efecto | Fórmula |
 |-----------|--------|---------|
-| $A$ | Amplitud | $\|A\|$ |
-| $B$ | Período | $T = \frac{2\pi}{|B|}$ |
+| $A$ | Amplitud | $\lvert A \rvert$ |
+| $B$ | Período | $T = \frac{2\pi}{\lvert B \rvert}$ |
 | $C$ | Desplazamiento horizontal | Hacia la derecha si $C > 0$ |
 | $D$ | Desplazamiento vertical | Hacia arriba si $D > 0$ |
 
@@ -199,8 +205,8 @@ $$y = A \cos(B(x - C)) + D$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar parámetros | $A$, $B$, $C$, $D$ |
-| 2 | Calcular amplitud | $|A|$ |
-| 3 | Calcular período | $T = \frac{2\pi}{|B|}$ |
+| 2 | Calcular amplitud | $\vert A\vert$ |
+| 3 | Calcular período | $T = \frac{2\pi}{\vert B\vert}$ |
 | 4 | Determinar valores extremos | $D \pm A$ |
 | 5 | Graficar puntos clave | Inicio, cuartos de período |
 

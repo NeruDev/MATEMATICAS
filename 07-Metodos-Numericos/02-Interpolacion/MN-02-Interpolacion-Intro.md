@@ -1,3 +1,4 @@
+<!--
 ---
 title: Introducción a Interpolación
 type: index
@@ -6,6 +7,7 @@ tags: [métodos-numéricos, interpolación, lagrange, newton, splines]
 created: 2025-12-20
 updated: 2025-12-20
 ---
+-->
 
 # Métodos de Interpolación
 

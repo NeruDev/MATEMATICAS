@@ -1,7 +1,7 @@
 <!--
-content_type: methods
-topic: Espacios Vectoriales
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Espacios Vectoriales

@@ -1,3 +1,9 @@
+<!--
+::METADATA::
+type: method
+status: active
+-->
+
 # Métodos de Geometría Analítica
 
 > Guía completa de métodos de geometría analítica con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

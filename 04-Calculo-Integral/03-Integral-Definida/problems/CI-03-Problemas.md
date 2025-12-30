@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Problemas de Integral Definida"
 topic_id: ci-03-integral-definida
@@ -11,6 +12,7 @@ difficulty_distribution:
   advanced: 7
 total_problems: 42
 ---
+-->
 
 # Problemas de Integral Definida
 

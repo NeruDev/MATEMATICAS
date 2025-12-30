@@ -86,7 +86,7 @@ Si $s(t)$ es la posición:
 | Concepto | Fórmula |
 |----------|---------|
 | Velocidad | $v(t) = s'(t)$ |
-| Rapidez | $|v(t)|$ |
+| Rapidez | $\lvert v(t) \rvert$ |
 | Aceleración | $a(t) = v'(t) = s''(t)$ |
 
 ## Optimización: Proceso Sistemático

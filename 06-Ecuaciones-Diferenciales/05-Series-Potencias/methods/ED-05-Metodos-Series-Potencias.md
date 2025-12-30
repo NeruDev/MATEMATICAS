@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: Series de Potencias para EDO
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: Series de Potencias para EDO

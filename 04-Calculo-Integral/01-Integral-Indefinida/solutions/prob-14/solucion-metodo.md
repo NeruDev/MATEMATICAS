@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Solución - Integral de Binomio con Radicales al Cuadrado"
 type: solution
@@ -13,6 +14,7 @@ tags:
   - potencias-fraccionarias
 created: 2025-12-22
 ---
+-->
 
 # Solución: $\int(\sqrt{x} + \frac{1}{\sqrt{x}})^2 \, dx$
 
@@ -58,7 +60,7 @@ Aplicando las fórmulas básicas de integración:
 |---------|----------|
 | $\int x \, dx$ | $\frac{x^2}{2}$ |
 | $\int 2 \, dx$ | $2x$ |
-| $\int \frac{1}{x} \, dx$ | $\ln|x|$ |
+| $\int \frac{1}{x} \, dx$ | $\ln\lvert x \rvert$ |
 
 ### Paso 4: Combinar resultados
 

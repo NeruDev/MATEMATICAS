@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: Sistemas de EDO
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Sistemas de EDO

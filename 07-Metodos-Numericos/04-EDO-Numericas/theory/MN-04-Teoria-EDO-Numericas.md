@@ -1,7 +1,7 @@
 <!--
-content_type: theory
-topic: EDO Numéricas
----
+::METADATA::
+type: theory
+status: active
 -->
 
 # Teoría: Solución Numérica de EDO

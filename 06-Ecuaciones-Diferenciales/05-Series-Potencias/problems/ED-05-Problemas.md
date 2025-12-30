@@ -1,9 +1,11 @@
+<!--
 ---
 content_type: problem_set
 topic_id: ed-05-series-potencias
 file_id: ED-05-Problemas
 description: Problemas de Series de Potencias para EDO
 ---
+-->
 
 # Problemas: Series de Potencias para EDO
 

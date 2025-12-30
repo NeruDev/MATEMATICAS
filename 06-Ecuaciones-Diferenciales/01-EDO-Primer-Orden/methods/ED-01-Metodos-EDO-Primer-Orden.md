@@ -1,9 +1,7 @@
 <!--
-content_type: methods
-topic: EDO de Primer Orden
-version: 2.0
-last_updated: 2025-01-14
----
+::METADATA::
+type: method
+status: active
 -->
 
 # Métodos: EDO de Primer Orden

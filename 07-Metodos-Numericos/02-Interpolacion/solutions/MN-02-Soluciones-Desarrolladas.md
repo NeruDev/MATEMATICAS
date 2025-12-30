@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: Interpolación
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: Interpolación

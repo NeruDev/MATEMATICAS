@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Problemas de Técnicas de Integración"
 topic_id: ci-02-tecnicas-integracion
@@ -10,6 +11,7 @@ format: problem_set
 difficulty_levels: [básico, intermedio, avanzado]
 total_problems: 70
 ---
+-->
 
 # Problemas de Técnicas de Integración
 

@@ -1,103 +1,151 @@
 <!--
-HUMANO:
-Tests de verificación para asegurar que el repositorio
-mantiene su integridad estructural.
-
-IA:
-Usa estos tests para validar contenido antes de agregarlo.
-
----
-content_type: meta
-expected_output:
-  default: markdown
+::METADATA::
+type: reference
+topic_id: meta-tests
+file_id: repo-tests
+status: stable
 audience: maintainer
----
+last_updated: 2025-12-30
 -->
 
 # Tests de Verificación del Repositorio
 
-## Test 1: Integridad Estructural
+## Validación Automatizada
 
-**Pregunta:** ¿Cada tema tiene todos los componentes requeridos?
+El repositorio cuenta con un script de validación consolidado:
 
-### Checklist por tema:
-- [ ] `README.md` - Visión general del tema
-- [ ] `theory/` - Directorio de teoría
-- [ ] `methods/` - Directorio de métodos
-- [ ] `problems/` - Directorio de problemas
-- [ ] `solutions/` - Directorio de soluciones
-- [ ] `media/` - Directorio de recursos multimedia
-- [ ] `manifest.json` - Metadatos del tema
+```powershell
+# Desde la raíz del repositorio
+python 00-META/tools/validate_repo.py
 
-**Resultado esperado:** Todos los elementos presentes.
+# Modo verbose (todos los detalles)
+python 00-META/tools/validate_repo.py --verbose
 
----
+# Salida en JSON (para automatización)
+python 00-META/tools/validate_repo.py --json
+```
 
-## Test 2: Separación Semántica
+### Validaciones incluidas
 
-**Pregunta:** ¿El contenido está en el lugar correcto?
+| Validador | Qué verifica |
+|-----------|--------------|
+| **MetadataValidator** | Bloques `::METADATA::` en archivos .md |
+| **ManifestValidator** | Campos obligatorios en `manifest.json` |
+| **NomenclatureValidator** | Nombres de archivo según estándar `[PREFIJO]-[XX]-[Contenido].md` |
+| **TableSyntaxValidator** | Uso correcto de `\vert` en tablas con matemáticas |
+| **ReferenceValidator** | Archivos referenciados en manifests existan |
 
-### Verificaciones:
+### Opciones de validación selectiva
 
-| Verificación | Correcto | Error |
-|--------------|----------|-------|
-| ¿Hay soluciones dentro de `problems/`? | No | Sí |
-| ¿Hay procedimientos dentro de `theory/`? | No | Sí |
-| ¿Hay teoría dentro de `methods/`? | No | Sí |
-| ¿Hay enunciados dentro de `solutions/`? | No | Sí |
+```powershell
+python 00-META/tools/validate_repo.py --no-metadata      # Omitir metadatos
+python 00-META/tools/validate_repo.py --no-manifests     # Omitir manifests
+python 00-META/tools/validate_repo.py --no-nomenclature  # Omitir nomenclatura
+python 00-META/tools/validate_repo.py --no-tables        # Omitir sintaxis tablas
+python 00-META/tools/validate_repo.py --no-references    # Omitir referencias
+```
 
-**Resultado esperado:** Todas las verificaciones en "Correcto".
+### Transformación de frontmatter legacy
 
----
+```powershell
+# Ver qué archivos necesitan transformación
+python 00-META/tools/validate_repo.py --transform --dry-run
 
-## Test 3: Contrato IA
-
-**Pregunta:** ¿Los archivos cumplen con el contrato de IA?
-
-### Checklist:
-- [ ] Cada archivo tiene `content_type` en frontmatter
-- [ ] Las soluciones respetan `assigned_method`
-- [ ] Los comentarios para IA están presentes
-- [ ] El Markdown es válido y limpio
-
-**Resultado esperado:** Todos los elementos marcados.
-
----
-
-## Test 4: Legibilidad
-
-**Pregunta:** ¿El contenido es comprensible?
-
-### Para humanos:
-- [ ] ¿Un estudiante puede entender el tema leyendo solo README + theory?
-- [ ] ¿Los métodos son claros y paso a paso?
-- [ ] ¿Los problemas tienen enunciados completos?
-
-### Para IA:
-- [ ] ¿La IA puede generar un problema nuevo sin salir del tema?
-- [ ] ¿La IA puede identificar el método correcto para un problema?
-- [ ] ¿Los metadatos son suficientes para clasificar el contenido?
-
-**Resultado esperado:** Todas las preguntas con respuesta "Sí".
+# Aplicar transformación
+python 00-META/tools/validate_repo.py --transform
+```
 
 ---
 
-## Cómo ejecutar los tests
+## Tests Manuales (Checklist)
 
-### Manual:
-1. Navegar al tema a verificar
-2. Revisar cada checklist
-3. Documentar cualquier fallo
+### Test 1: Integridad Estructural
 
-### Automatizado - Shell (Test rápido)
+**Pregunta:** ¿Cada subtema tiene los componentes requeridos?
 
-```bash
-# Test 1 — ¿Todos los temas tienen manifest.json?
-for d in */; do
-  if [ -f "$d/manifest.json" ]; then
-    echo "OK: $d/manifest.json"
-  else
-    echo "MISSING: $d/manifest.json"
+| Componente | Obligatorio | Archivo |
+|------------|:-----------:|---------|
+| Metadatos | ✅ | `manifest.json` |
+| Entrada | ✅ | `PREFIJO-XX-*-Intro.md` |
+| Fórmulas | ✅ | `PREFIJO-XX-Resumen-Formulas.md` |
+| Teoría | ✅ | `theory/PREFIJO-XX-Teoria-*.md` |
+| Métodos | ✅ | `methods/PREFIJO-XX-Metodos-*.md` |
+| Problemas | ✅ | `problems/PREFIJO-XX-Problemas.md` |
+| Respuestas | ✅ | `solutions/PREFIJO-XX-Respuestas.md` |
+| Soluciones | ⚪ | `solutions/prob-XX/solucion-metodo.md` |
+| Aplicaciones | ⚪ | `applications/` |
+| Media | ⚪ | `media/` |
+
+✅ = Obligatorio | ⚪ = Opcional
+
+---
+
+### Test 2: Separación Semántica
+
+| Verificación | Correcto |
+|--------------|:--------:|
+| ¿Hay soluciones dentro de `problems/`? | ❌ No debe |
+| ¿Hay procedimientos dentro de `theory/`? | ❌ No debe |
+| ¿Hay teoría dentro de `methods/`? | ❌ No debe |
+| ¿Hay archivos README.md en subtemas? | ❌ No debe |
+
+---
+
+### Test 3: Metadatos
+
+Todo archivo `.md` debe tener al inicio:
+
+```markdown
+<!--
+::METADATA::
+type: [theory | method | problem | solution | reference | index | cheatsheet]
+status: [draft | review | stable | active]
+-->
+```
+
+Para archivos completos, incluir también:
+- `topic_id`: ID del tema en manifest
+- `file_id`: Nombre del archivo sin extensión
+- `audience`: student | ai_context | exam_review
+- `last_updated`: YYYY-MM-DD
+
+---
+
+### Test 4: manifest.json
+
+Campos obligatorios:
+
+```json
+{
+  "id": "modulo-subtema",
+  "topic": "Nombre del Tema",
+  "type": "learning_module",
+  "status": "active",
+  "tags": ["etiqueta1", "etiqueta2"],
+  "resource_map": {
+    "entry_point": "PREFIJO-XX-*-Intro.md"
+  },
+  "ai_contract": {
+    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution"]
+  }
+}
+```
+
+---
+
+## Resultados Esperados
+
+```
+======================================================================
+REPORTE DE VALIDACIÓN DEL REPOSITORIO
+======================================================================
+❌ Errores: 0
+⚠️ Advertencias: 0
+ℹ️ Información: 0
+======================================================================
+✅ VALIDACIÓN EXITOSA - Todo en orden
+======================================================================
+```
   fi
 done
 

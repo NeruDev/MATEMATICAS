@@ -1,9 +1,11 @@
+<!--
 ---
 content_type: problem_set
 topic_id: mn-02-interpolacion
 file_id: MN-02-Problemas
 title: "Problemas: Interpolación"
 ---
+-->
 
 # Problemas: Interpolación
 

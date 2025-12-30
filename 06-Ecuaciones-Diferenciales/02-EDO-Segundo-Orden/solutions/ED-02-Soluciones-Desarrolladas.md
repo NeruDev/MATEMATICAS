@@ -1,7 +1,7 @@
 <!--
-content_type: solutions
-topic: EDO de Segundo Orden
----
+::METADATA::
+type: solution
+status: active
 -->
 
 # Soluciones: EDO de Segundo Orden

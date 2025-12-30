@@ -1,3 +1,4 @@
+<!--
 ---
 type: solution
 problem-id: CD-02-04
@@ -7,6 +8,7 @@ difficulty: intermedio
 tags: [derivada, definición, límite, función-racional]
 created: 2024-12-22
 ---
+-->
 
 # Solución: Derivada de f(x) = 1/x usando la definición
 

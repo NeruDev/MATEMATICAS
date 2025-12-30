@@ -1,8 +1,10 @@
+<!--
 ---
 content_type: problem_set
 topic_id: ci-04-aplicaciones-integral
 file_id: CI-04-Problemas
 ---
+-->
 
 # Problemas de Aplicaciones de la Integral
 
