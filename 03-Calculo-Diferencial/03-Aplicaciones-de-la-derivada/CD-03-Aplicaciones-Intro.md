@@ -16,7 +16,7 @@ audience: student
 
 ## Descripción General
 
-Las **aplicaciones de la [derivada](../../glossary.md#derivada)** muestran el poder del [cálculo diferencial](../../glossary.md#calculo-diferencial) para resolver problemas del mundo real. Desde encontrar valores óptimos hasta analizar el comportamiento de funciones, la derivada es una herramienta indispensable.
+Las **aplicaciones de la [derivada](../..](../../glossary.md)#derivada)** muestran el poder del [cálculo diferencial](../..](../../glossary.md)#calculo-diferencial) para resolver problemas del mundo real. Desde encontrar valores óptimos hasta analizar el comportamiento de funciones, la derivada es una herramienta indispensable.
 
 ## Objetivos de Aprendizaje
 
@@ -24,8 +24,8 @@ Al finalizar este tema, serás capaz de:
 
 1. Encontrar máximos y mínimos de funciones (absolutos y relativos)
 2. Resolver problemas de optimización
-3. Analizar la [concavidad](../../glossary.md#concavidad) y puntos de inflexión
-4. Aplicar la [derivada](../../glossary.md#derivada) a problemas de razón de cambio
+3. Analizar la [concavidad](../..](../../glossary.md)#concavidad) y puntos de inflexión
+4. Aplicar la [derivada](../..](../../glossary.md)#derivada) a problemas de razón de cambio
 5. Trazar gráficas de funciones usando criterios de la derivada
 
 ## Contenido del Tema
@@ -45,7 +45,7 @@ Al finalizar este tema, serás capaz de:
 2. **Razón de cambio relacionadas**: Problemas donde varias cantidades varían simultáneamente
 3. **Análisis de gráficas**: Trazado completo de curvas
 4. **Movimiento rectilíneo**: Posición, velocidad, aceleración
-5. **Aproximación lineal**: Estimaciones usando la recta [tangente](../../glossary.md#tangente)
+5. **Aproximación lineal**: Estimaciones usando la recta [tangente](../..](../../glossary.md)#tangente)
 
 ## Criterios para Extremos
 
@@ -62,7 +62,7 @@ Al finalizar este tema, serás capaz de:
 
 ## Prerrequisitos
 
-- Cálculo de [derivadas](../../glossary.md#derivadas)
+- Cálculo de [derivadas](../..](../../glossary.md)#derivadas)
 - Resolución de ecuaciones
 - Geometría analítica básica
 

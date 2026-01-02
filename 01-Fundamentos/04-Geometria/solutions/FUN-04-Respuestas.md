@@ -133,4 +133,4 @@ solved_detailed: 5
 | [Prob-109] | Cuerdas: $16$ cm y $12$ cm; Área del cuadrilátero $\approx 96$ cm² | ➖ |
 | [Prob-110] | Área máxima $= \frac{3\sqrt{3}}{4}R^2$ (triángulo equilátero inscrito) | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/FUN-04-Problemas.md`](../problems/FUN-04-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/FUN-04-Problemas.md](../problems/FUN-04-Problemas.md)

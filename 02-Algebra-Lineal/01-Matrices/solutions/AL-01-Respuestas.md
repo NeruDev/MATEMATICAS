@@ -74,4 +74,4 @@ Las siguientes tienen desarrollo paso a paso completo:
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/AL-01-Problemas.md`](../problems/AL-01-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/AL-01-Problemas.md](../problems/AL-01-Problemas.md)

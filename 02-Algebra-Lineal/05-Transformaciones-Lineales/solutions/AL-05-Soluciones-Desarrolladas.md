@@ -59,16 +59,16 @@ $$\begin{cases} x - y = 0 \\ y - z = 0 \end{cases}$$
 De aquí: $x = y = z$. Sea $x = t$:
 $$\ker(T) = \{(t, t, t) : t \in \mathbb{R}\} = \text{span}\{(1, 1, 1)\}$$
 
-**[Base](../../../glossary.md#base) de $\ker(T)$:** $\{(1, 1, 1)\}$, **nulidad = 1**
+**[Base](../../..](../../../glossary.md)#base) de $\ker(T)$:** $\{(1, 1, 1)\}$, **nulidad = 1**
 
 **b) Imagen:**
 - $T(1, 0, 0) = (1, 0)$
 - $T(0, 1, 0) = (-1, 1)$
 - $T(0, 0, 1) = (0, -1)$
 
-[Matriz](../../../glossary.md#matriz): $\begin{pmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \end{pmatrix}$ ya está en forma escalonada.
+[Matriz](../../..](../../../glossary.md)#matriz): $\begin{pmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \end{pmatrix}$ ya está en forma escalonada.
 
-**[Base](../../../glossary.md#base) de $\text{Im}(T)$:** $\{(1, 0), (-1, 1)\}$ o equivalente $\{(1, 0), (0, 1)\}$
+**[Base](../../..](../../../glossary.md)#base) de $\text{Im}(T)$:** $\{(1, 0), (-1, 1)\}$ o equivalente $\{(1, 0), (0, 1)\}$
 
 **$\text{Im}(T) = \mathbb{R}^2$**, **rango = 2**
 
@@ -77,7 +77,7 @@ $$\ker(T) = \{(t, t, t) : t \in \mathbb{R}\} = \text{span}\{(1, 1, 1)\}$$
 ---
 
 ## Problema 11a
-**Enunciado:** [Matriz](../../../glossary.md#matriz) de $T(x, y) = (3x - y, 2x + 4y)$
+**Enunciado:** [Matriz](../../..](../../../glossary.md)#matriz) de $T(x, y) = (3x - y, 2x + 4y)$
 
 **Solución:**
 
@@ -168,7 +168,7 @@ $$= \begin{pmatrix} 0 & 2 \\ 3 & -1 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & 0 
 
 **Solución:**
 
-Matrices similares tienen el mismo [determinante](../../../glossary.md#determinante) y [traza](../../../glossary.md#traza).
+Matrices similares tienen el mismo [determinante](../../..](../../../glossary.md)#determinante) y [traza](../../..](../../../glossary.md)#traza).
 
 - $\det(A) = 1$, $\det(B) = 1$ ✓
 - $\text{tr}(A) = 2$, $\text{tr}(B) = 2$ ✓

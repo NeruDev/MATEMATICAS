@@ -1,8 +1,8 @@
 <!--
 ::METADATA::
 type: method
-topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
-file_id: AL-02-Metodos-[Determinantes](../../../glossary.md#determinantes)
+topic_id: al-02-[determinantes](../../..](../../../glossary.md)#determinantes)
+file_id: AL-02-Metodos-[Determinantes](../../..](../../../glossary.md)#determinantes)
 status: stable
 audience: student
 last_updated: 2024-12-29
@@ -68,7 +68,7 @@ det = (+) - (-)
 
 ### Ejemplo Detallado
 
-**Problema:** Calcular el [determinante](../../../glossary.md#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
+**Problema:** Calcular el [determinante](../../..](../../../glossary.md)#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
 
 **Paso 1:** Copiamos las dos primeras columnas:
 ```
@@ -112,10 +112,10 @@ $$\det(A) = \sum_{j=1}^{n} a_{ij} C_{ij}$$
 **Por columna $j$:**
 $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 
-donde el **[cofactor](../../../glossary.md#cofactor)** es:
+donde el **[cofactor](../../..](../../../glossary.md)#cofactor)** es:
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
 
-y $M_{ij}$ es el **[menor](../../../glossary.md#menor)** ([determinante](../../../glossary.md#determinante) de la submatriz sin fila $i$ y columna $j$).
+y $M_{ij}$ es el **[menor](../../..](../../../glossary.md)#menor)** ([determinante](../../..](../../../glossary.md)#determinante) de la submatriz sin fila $i$ y columna $j$).
 
 ### Patrón de Signos
 $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + & - & \cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{pmatrix}$$
@@ -155,7 +155,7 @@ $$\det(A) = 3 \cdot (-7) = \boxed{-21}$$
 - Método más eficiente computacionalmente
 
 ### Propiedad Clave
-Para una [matriz](../../../glossary.md#matriz) triangular (superior o inferior):
+Para una [matriz](../../..](../../../glossary.md)#matriz) triangular (superior o inferior):
 $$\det(A) = \prod_{i=1}^{n} a_{ii} = a_{11} \cdot a_{22} \cdot \ldots \cdot a_{nn}$$
 
 ### Efecto de las Operaciones de Fila
@@ -278,7 +278,7 @@ donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por $b$.
 **Problema:** Resolver el sistema usando Cramer:
 $$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 4 \end{cases}$$
 
-**Paso 1:** Matriz de coeficientes y [vector](../../../glossary.md#vector) de términos independientes:
+**Paso 1:** Matriz de coeficientes y [vector](../../..](../../../glossary.md)#vector) de términos independientes:
 $$A = \begin{pmatrix} 2 & 1 & -1 \\ 1 & -1 & 2 \\ 3 & 2 & 1 \end{pmatrix}, \quad b = \begin{pmatrix} 3 \\ 1 \\ 4 \end{pmatrix}$$
 
 **Paso 2:** Calculamos $\det(A)$ (por Sarrus):
@@ -374,7 +374,7 @@ $$A = \frac{1}{2}|14| = \boxed{7 \text{ unidades}^2}$$
 
 ### Cuándo Usar
 - Matrices con estructura especial de potencias
-- [Interpolación](../../../glossary.md#interpolacion) polinomial
+- [Interpolación](../../..](../../../glossary.md)#interpolacion) polinomial
 
 ### Fórmula
 $$\det\begin{pmatrix} 1 & x_1 & x_1^2 \\ 1 & x_2 & x_2^2 \\ 1 & x_3 & x_3^2 \end{pmatrix} = (x_2 - x_1)(x_3 - x_1)(x_3 - x_2)$$

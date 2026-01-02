@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: cd-02-[derivadas](../../glossary.md#derivadas)
+topic_id: cd-02-[derivadas](../..](../../glossary.md)#derivadas)
 file_id: CD-02-Resumen-Formulas
 status: stable
 audience: student
@@ -110,4 +110,4 @@ $$f''(x) = \frac{d^2f}{dx^2}, \quad f'''(x) = \frac{d^3f}{dx^3}, \quad f^{(n)}(x
 
 ---
 
-> **Tip**: Memoriza las [derivadas](../../glossary.md#derivadas) básicas y practica la [regla de la cadena](../../glossary.md#regla-de-la-cadena) hasta que sea automática.
+> **Tip**: Memoriza las [derivadas](../..](../../glossary.md)#derivadas) básicas y practica la [regla de la cadena](../..](../../glossary.md)#regla-de-la-cadena) hasta que sea automática.

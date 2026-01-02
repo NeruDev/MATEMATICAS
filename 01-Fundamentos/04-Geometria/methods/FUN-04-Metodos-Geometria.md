@@ -120,7 +120,7 @@ $$A = \frac{(B + b) \times h}{2}$$
 
 ---
 
-**[Sustitución](../../../glossary.md#sustitucion):**
+**[Sustitución](../../..](../../../glossary.md)#sustitucion):**
 
 $$A = \frac{(12 + 8) \times 5}{2} = \frac{20 \times 5}{2} = \frac{100}{2} = 50$$
 
@@ -220,7 +220,7 @@ Donde $c$ es la hipotenusa (lado opuesto al ángulo recto).
 
 ### Ejemplo Detallado
 
-**Problema:** Una escalera de 13 m se apoya contra una pared. Si la [base](../../../glossary.md#base) está a 5 m de la pared, ¿a qué altura llega?
+**Problema:** Una escalera de 13 m se apoya contra una pared. Si la [base](../../..](../../../glossary.md)#base) está a 5 m de la pared, ¿a qué altura llega?
 
 ---
 
@@ -350,7 +350,7 @@ $$A = \sqrt{7056} = 84$$
 ---
 
 **Verificación alternativa:** Este es un triángulo que puede descomponerse:
-- [Base](../../../glossary.md#base) 14, altura 12 → $A = \frac{14 \times 12}{2} = 84$ ✓
+- [Base](../../..](../../../glossary.md)#base) 14, altura 12 → $A = \frac{14 \times 12}{2} = 84$ ✓
 
 $$\boxed{A = 84 \text{ unidades}^2}$$
 
@@ -609,7 +609,7 @@ $$P = 6 + 3\sqrt{5} + 3\sqrt{5} = 6 + 6\sqrt{5} \approx 19.42$$
 
 ---
 
-**Paso 3: Área (fórmula del [determinante](../../../glossary.md#determinante))**
+**Paso 3: Área (fórmula del [determinante](../../..](../../../glossary.md)#determinante))**
 
 $$A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$
 
@@ -652,7 +652,7 @@ $$\boxed{P = 6 + 6\sqrt{5} \approx 19.42, \quad A = 18 \text{ unidades}^2}$$
 
 ### Ejemplo Detallado
 
-**Problema:** Desde un punto $P$ exterior a un círculo se [traza](../../../glossary.md#traza) una [tangente](../../../glossary.md#tangente) $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
+**Problema:** Desde un punto $P$ exterior a un círculo se [traza](../../..](../../../glossary.md)#traza) una [tangente](../../..](../../../glossary.md)#tangente) $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
 
 ---
 

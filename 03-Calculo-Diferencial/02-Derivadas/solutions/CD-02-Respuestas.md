@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: cd-02-[derivadas](../../../glossary.md#derivadas)
+topic_id: cd-02-[derivadas](../../..](../../../glossary.md)#derivadas)
 file_id: CD-02-Respuestas
 status: stable
 audience: student
@@ -91,4 +91,4 @@ solved_detailed: 5
 | [Prob-58] | $\dfrac{d}{dx}[\arcsin x + \arccos x] = \dfrac{1}{\sqrt{1-x^2}} - \dfrac{1}{\sqrt{1-x^2}} = 0$ | ➖ |
 | [Prob-59] | $y'' + y = (-A\sin x - B\cos x) + (A\sin x + B\cos x) = 0$ ✓ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CD-02-Problemas.md`](../problems/CD-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CD-02-Problemas.md](../problems/CD-02-Problemas.md)

@@ -223,7 +223,7 @@ $$= \pi\left(\frac{1}{3} - \frac{1}{5}\right) = \pi\left(\frac{5 - 3}{15}\right)
 
 ### Cuándo Usar
 - Cuando el método de discos/arandelas es complicado
-- Especialmente útil cuando se rota alrededor del eje $y$ una [función](../../../glossary.md#funcion) $y = f(x)$
+- Especialmente útil cuando se rota alrededor del eje $y$ una [función](../../..](../../../glossary.md)#funcion) $y = f(x)$
 
 ### Fórmula
 $$V = 2\pi\int_a^b (\text{radio}) \cdot (\text{altura})\,dx$$
@@ -281,7 +281,7 @@ $$L = \int_a^b \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx$$
 
 **Problema:** Calcular la longitud de $y = x^{3/2}$ de $x = 0$ a $x = 4$.
 
-**Paso 1:** Calculamos la [derivada](../../../glossary.md#derivada):
+**Paso 1:** Calculamos la [derivada](../../..](../../../glossary.md)#derivada):
 $$\frac{dy}{dx} = \frac{3}{2}x^{1/2} = \frac{3}{2}\sqrt{x}$$
 
 **Paso 2:** Elevamos al cuadrado:
@@ -293,7 +293,7 @@ $$1 + \frac{9}{4}x = \frac{4 + 9x}{4}$$
 **Paso 4:** Planteamos la integral:
 $$L = \int_0^4 \sqrt{1 + \frac{9x}{4}}\,dx = \int_0^4 \sqrt{\frac{4 + 9x}{4}}\,dx = \frac{1}{2}\int_0^4 \sqrt{4 + 9x}\,dx$$
 
-**Paso 5:** Usamos [sustitución](../../../glossary.md#sustitucion) $u = 4 + 9x$, $du = 9dx$:
+**Paso 5:** Usamos [sustitución](../../..](../../../glossary.md)#sustitucion) $u = 4 + 9x$, $du = 9dx$:
 
 Cuando $x = 0$: $u = 4$
 Cuando $x = 4$: $u = 40$
@@ -460,7 +460,7 @@ $$f_{\text{prom}} = \frac{1}{b-a}\int_a^b f(x)\,dx$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el [valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en el intervalo $[0, 3]$.
+**Problema:** Encontrar el [valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x) = x^2$ en el intervalo $[0, 3]$.
 
 **Paso 1:** Identificamos:
 - $a = 0$
@@ -473,6 +473,6 @@ $$\int_0^3 x^2\,dx = \left[\frac{x^3}{3}\right]_0^3 = \frac{27}{3} - 0 = 9$$
 **Paso 3:** Dividimos por la longitud del intervalo:
 $$f_{\text{prom}} = \frac{1}{3} \cdot 9 = 3$$
 
-**Resultado:** El [valor promedio](../../../glossary.md#valor-promedio) es $\boxed{3}$.
+**Resultado:** El [valor promedio](../../..](../../../glossary.md)#valor-promedio) es $\boxed{3}$.
 
 **Interpretación:** Aunque $f(x) = x^2$ varía de 0 a 9 en el intervalo, su valor "típico" es 3.

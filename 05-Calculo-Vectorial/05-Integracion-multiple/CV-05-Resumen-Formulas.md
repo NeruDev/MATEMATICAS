@@ -112,6 +112,6 @@ $$f_{\text{prom}} = \frac{1}{\text{Área}(R)} \iint_R f(x,y)\, dA$$
 
 <!--
 IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta theory/CV-05-Teoria-Integracion.md
+Para desarrollo completo, consulta [theory/CV-05-Teoria-Integracion.md](theory/CV-05-Teoria-Integracion.md)
 file_id: CV-05-Resumen-Formulas
 -->

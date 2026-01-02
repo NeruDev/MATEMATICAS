@@ -21,15 +21,15 @@ difficulty_distribution:
 
 > **Instrucciones:** Resuelve cada problema mostrando el procedimiento completo.
 >
-> **Respuestas:** Consulta [`solutions/CV-04-Respuestas.md`](../solutions/CV-04-Respuestas.md)
+> **Respuestas:** Consulta [solutions/CV-04-Respuestas.md](../solutions/CV-04-Respuestas.md)
 
 ---
 
 ## 4.1 Dominio y Curvas de Nivel
 
-**[Prob-01]** Encuentra y grafica el [dominio](../../../glossary.md#dominio) de $f(x, y) = \sqrt{9 - x^2 - y^2}$.
+**[Prob-01]** Encuentra y grafica el [dominio](../../..](../../../glossary.md)#dominio) de $f(x, y) = \sqrt{9 - x^2 - y^2}$.
 
-**[Prob-02]** Determina el [dominio](../../../glossary.md#dominio) de $f(x, y) = \ln(x - y^2)$.
+**[Prob-02]** Determina el [dominio](../../..](../../../glossary.md)#dominio) de $f(x, y) = \ln(x - y^2)$.
 
 **[Prob-03]** Encuentra el dominio de $f(x, y) = \frac{1}{\sqrt{x^2 + y^2 - 4}}$.
 
@@ -55,7 +55,7 @@ difficulty_distribution:
 
 **[Prob-12]** Evalúa $\displaystyle\lim_{(x,y) \to (0,0)} \frac{\sin(x^2 + y^2)}{x^2 + y^2}$.
 
-**[Prob-13]** Determina si la [función](../../../glossary.md#funcion) es continua en el origen:
+**[Prob-13]** Determina si la [función](../../..](../../../glossary.md)#funcion) es continua en el origen:
 $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) = (0,0) \end{cases}$$
 
 ---
@@ -64,7 +64,7 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 
 **[Prob-14]** Encuentra $f_x$ y $f_y$ para $f(x, y) = x^3y^2 - 2x^2y + 5y$.
 
-**[Prob-15]** Calcula las [derivadas](../../../glossary.md#derivadas) parciales de $f(x, y) = e^{xy}\sin(x + y)$.
+**[Prob-15]** Calcula las [derivadas](../../..](../../../glossary.md)#derivadas) parciales de $f(x, y) = e^{xy}\sin(x + y)$.
 
 **[Prob-16]** Si $f(x, y) = \ln(x^2 + y^2)$, encuentra $f_x$ y $f_y$.
 
@@ -110,13 +110,13 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 
 **[Prob-31]** Calcula el gradiente de $f(x, y, z) = xyz + x^2y^2z^2$ en $(1, 1, 1)$.
 
-**[Prob-32]** Encuentra la [derivada](../../../glossary.md#derivada) direccional de $f(x, y) = x^2 + xy - y^2$ en $(2, 1)$ en dirección de $\mathbf{u} = \langle 3, 4 \rangle$.
+**[Prob-32]** Encuentra la [derivada](../../..](../../../glossary.md)#derivada) direccional de $f(x, y) = x^2 + xy - y^2$ en $(2, 1)$ en dirección de $\mathbf{u} = \langle 3, 4 \rangle$.
 
-**[Prob-33]** Para $f(x, y, z) = xy + yz + zx$, calcula $D_{\mathbf{u}}f$ en $(1, 1, 1)$ en dirección del [vector](../../../glossary.md#vector) $\langle 1, 2, 2 \rangle$.
+**[Prob-33]** Para $f(x, y, z) = xy + yz + zx$, calcula $D_{\mathbf{u}}f$ en $(1, 1, 1)$ en dirección del [vector](../../..](../../../glossary.md)#vector) $\langle 1, 2, 2 \rangle$.
 
 **[Prob-34]** Encuentra la dirección de máximo crecimiento de $f(x, y) = xe^y$ en el punto $(2, 0)$.
 
-**[Prob-35]** Si $f(x, y) = x^2 - xy + y^2$, ¿en qué dirección desde $(1, 1)$ es la [derivada](../../../glossary.md#derivada) direccional cero?
+**[Prob-35]** Si $f(x, y) = x^2 - xy + y^2$, ¿en qué dirección desde $(1, 1)$ es la [derivada](../../..](../../../glossary.md)#derivada) direccional cero?
 
 **[Prob-36]** La temperatura en un punto $(x, y, z)$ es $T = 100 - x^2 - 2y^2 - z^2$. Una abeja está en $(1, 1, 1)$. ¿En qué dirección debe volar para enfriarse más rápido?
 
@@ -124,9 +124,9 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 
 ## 4.7 Plano Tangente y Aproximación Lineal
 
-**[Prob-37]** Encuentra la ecuación del plano [tangente](../../../glossary.md#tangente) a $z = x^2 + y^2$ en $(1, 2, 5)$.
+**[Prob-37]** Encuentra la ecuación del plano [tangente](../../..](../../../glossary.md)#tangente) a $z = x^2 + y^2$ en $(1, 2, 5)$.
 
-**[Prob-38]** Halla el plano [tangente](../../../glossary.md#tangente) a $z = \ln(x^2 + y)$ en $(1, 1, \ln 2)$.
+**[Prob-38]** Halla el plano [tangente](../../..](../../../glossary.md)#tangente) a $z = \ln(x^2 + y)$ en $(1, 1, \ln 2)$.
 
 **[Prob-39]** Encuentra el plano tangente a la superficie $x^2 + 2y^2 + 3z^2 = 6$ en $(1, 1, 1)$.
 
@@ -172,7 +172,7 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 a) Con presupuesto de \$30,000, encuentra L y K que maximizan Q
 b) Calcula la producción máxima
 
-**[Prob-54]** Demuestra que si $(a, b)$ es un [punto crítico](../../../glossary.md#punto-critico) de $f(x, y)$ y la [matriz](../../../glossary.md#matriz) Hessiana tiene [determinante](../../../glossary.md#determinante) positivo con $f_{xx}(a, b) > 0$, entonces $(a, b)$ es un mínimo local.
+**[Prob-54]** Demuestra que si $(a, b)$ es un [punto crítico](../../..](../../../glossary.md)#punto-critico) de $f(x, y)$ y la [matriz](../../..](../../../glossary.md)#matriz) Hessiana tiene [determinante](../../..](../../../glossary.md)#determinante) positivo con $f_{xx}(a, b) > 0$, entonces $(a, b)$ es un mínimo local.
 
 **[Prob-55]** La ecuación de estado de un gas ideal es $PV = nRT$. Si $n = 1$ mol, $R = 8.314$ J/(mol·K), $T = 300$ K, y las mediciones tienen errores $\Delta P = 0.02$ atm y $\Delta T = 0.5$ K:
 a) Calcula V cuando $P = 1$ atm
@@ -180,6 +180,6 @@ b) Estima el error en V usando diferenciales
 
 ---
 
-> 📚 **Respuestas:** [`solutions/CV-04-Respuestas.md`](../solutions/CV-04-Respuestas.md)
+> 📚 **Respuestas:** [solutions/CV-04-Respuestas.md](../solutions/CV-04-Respuestas.md)
 > 📖 **Teoría:** [`theory/`](../theory/)
-> 📋 **Fórmulas:** [`CV-04-Resumen-Formulas.md`](../CV-04-Resumen-Formulas.md)
+> 📋 **Fórmulas:** [CV-04-Resumen-Formulas.md](../CV-04-Resumen-Formulas.md)

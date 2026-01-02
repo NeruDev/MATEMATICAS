@@ -76,4 +76,4 @@ solved_detailed: 0
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/ED-04-Problemas.md`](../problems/ED-04-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/ED-04-Problemas.md](../problems/ED-04-Problemas.md)

@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Sistemas de EDO
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver sistemas de [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias lineales.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver sistemas de [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias lineales.
 
 ---
 
@@ -37,11 +37,11 @@ status: active
 ### Cuándo Usar
 
 - Sistema $\mathbf{X}' = A\mathbf{X}$ donde $A$ es $n \times n$
-- La [matriz](../../../glossary.md#matriz) tiene $n$ eigenvalores reales distintos
+- La [matriz](../../..](../../../glossary.md)#matriz) tiene $n$ eigenvalores reales distintos
 
 ### Fórmula
 
-**[Solución general](../../../glossary.md#solucion-general):**
+**[Solución general](../../..](../../../glossary.md)#solucion-general):**
 $$\mathbf{X}(t) = C_1 e^{\lambda_1 t}\mathbf{v}_1 + C_2 e^{\lambda_2 t}\mathbf{v}_2 + \cdots + C_n e^{\lambda_n t}\mathbf{v}_n$$
 
 ### Algoritmo de Resolución
@@ -207,9 +207,9 @@ $$y(t) = C_1\cos 2t + C_2\sin 2t$$
 
 ### Cuándo Usar
 
-- Eigenvalor $\lambda$ con [multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica) $> 1$
-- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) = algebraica: caso simple
-- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) < algebraica: se necesitan vectores generalizados
+- Eigenvalor $\lambda$ con [multiplicidad algebraica](../../..](../../../glossary.md)#multiplicidad-algebraica) $> 1$
+- Si [multiplicidad geométrica](../../..](../../../glossary.md)#multiplicidad-geometrica) = algebraica: caso simple
+- Si [multiplicidad geométrica](../../..](../../../glossary.md)#multiplicidad-geometrica) < algebraica: se necesitan vectores generalizados
 
 ### Caso A: Dos Eigenvectores Independientes
 
@@ -220,7 +220,7 @@ $$y(t) = C_1\cos 2t + C_2\sin 2t$$
 **Solución:**
 $$\mathbf{X} = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + \mathbf{w})$$
 
-donde $\mathbf{w}$ es el **[vector](../../../glossary.md#vector) generalizado**: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
+donde $\mathbf{w}$ es el **[vector](../../..](../../../glossary.md)#vector) generalizado**: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
 
 ### Algoritmo de Resolución (Caso Deficiente)
 
@@ -266,9 +266,9 @@ $$\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
 
 **Paso 3: Verificar**
 
-Solo un eigenvector independiente (espacio propio de [dimensión](../../../glossary.md#dimension) 1).
+Solo un eigenvector independiente (espacio propio de [dimensión](../../..](../../../glossary.md)#dimension) 1).
 
-Se necesita [vector](../../../glossary.md#vector) generalizado.
+Se necesita [vector](../../..](../../../glossary.md)#vector) generalizado.
 
 ---
 
@@ -317,7 +317,7 @@ $A\mathbf{X}_2 = \begin{pmatrix} 3 & 1 \\ -1 & 5 \end{pmatrix}e^{4t}\begin{pmatr
 
 ### Fórmula (Variación de Parámetros)
 
-**[Solución particular](../../../glossary.md#solucion-particular):**
+**[Solución particular](../../..](../../../glossary.md)#solucion-particular):**
 $$\mathbf{X}_p = \Phi(t)\int \Phi^{-1}(t)\mathbf{F}(t)\,dt$$
 
 donde $\Phi(t)$ es la **matriz fundamental** (columnas son soluciones independientes).
@@ -554,9 +554,9 @@ $$\boxed{\begin{cases} x = c_1 e^t + c_2 e^{3t} \\ y = -c_1 e^t + c_2 e^{3t} \en
 
 ### Fórmulas
 
-**[Traza](../../../glossary.md#traza):** $\tau = \text{tr}(A) = a_{11} + a_{22}$
+**[Traza](../../..](../../../glossary.md)#traza):** $\tau = \text{tr}(A) = a_{11} + a_{22}$
 
-**[Determinante](../../../glossary.md#determinante):** $\Delta = \det(A)$
+**[Determinante](../../..](../../../glossary.md)#determinante):** $\Delta = \det(A)$
 
 **Discriminante:** $D = \tau^2 - 4\Delta$
 
@@ -597,7 +597,7 @@ $$\boxed{\begin{cases} x = c_1 e^t + c_2 e^{3t} \\ y = -c_1 e^t + c_2 e^{3t} \en
 
 ---
 
-**Paso 1: Calcular [traza](../../../glossary.md#traza) y [determinante](../../../glossary.md#determinante)**
+**Paso 1: Calcular [traza](../../..](../../../glossary.md)#traza) y [determinante](../../..](../../../glossary.md)#determinante)**
 
 $\tau = 1 + (-3) = -2$
 
@@ -692,7 +692,7 @@ $C_1 = 2 - \frac{5}{2} = -\frac{1}{2}$
 
 ---
 
-**Paso 5: [Solución particular](../../../glossary.md#solucion-particular)**
+**Paso 5: [Solución particular](../../..](../../../glossary.md)#solucion-particular)**
 
 $$\boxed{\mathbf{X}(t) = -\frac{1}{2}e^{-t}\begin{pmatrix} 1 \\ -2 \end{pmatrix} + \frac{5}{2}e^{3t}\begin{pmatrix} 1 \\ 2 \end{pmatrix}}$$
 
@@ -771,14 +771,14 @@ $$\boxed{\mathbf{X}(t) = C_1 e^t\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix} + C_2 
 
 ### Cuándo Usar
 
-- Convertir una [EDO](../../../glossary.md#edo) de [orden](../../../glossary.md#orden) $n$ a sistema de primer orden
+- Convertir una [EDO](../../..](../../../glossary.md)#edo) de [orden](../../..](../../../glossary.md)#orden) $n$ a sistema de primer orden
 - Útil para aplicar métodos de sistemas
 
 ### Fórmula
 
 Para $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1y' + a_0y = f(t)$
 
-**[Sustitución](../../../glossary.md#sustitucion):**
+**[Sustitución](../../..](../../../glossary.md)#sustitucion):**
 $$x_1 = y, \quad x_2 = y', \quad \ldots, \quad x_n = y^{(n-1)}$$
 
 ### Algoritmo de Resolución

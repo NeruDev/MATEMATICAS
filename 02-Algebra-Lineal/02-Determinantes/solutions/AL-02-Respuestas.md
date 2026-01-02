@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
+topic_id: al-02-[determinantes](../../..](../../../glossary.md)#determinantes)
 file_id: AL-02-Respuestas
 status: stable
 audience: student
@@ -56,4 +56,4 @@ solved_detailed: 0
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/AL-02-Problemas.md`](../problems/AL-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/AL-02-Problemas.md](../problems/AL-02-Problemas.md)

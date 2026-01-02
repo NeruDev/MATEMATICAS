@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Índice del módulo de [Cálculo Diferencial](../glossary.md#calculo-diferencial).
+Índice del módulo de [Cálculo Diferencial](..](../glossary.md)#calculo-diferencial).
 Lista todos los temas disponibles en este módulo.
 
 IA:
@@ -23,7 +23,7 @@ audience: self-study
 
 ## Descripción del módulo
 
-Este módulo cubre el [cálculo diferencial](../glossary.md#calculo-diferencial): [límites](../glossary.md#limites), [derivadas](../glossary.md#derivadas) y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
+Este módulo cubre el [cálculo diferencial](..](../glossary.md)#calculo-diferencial): [límites](..](../glossary.md)#limites), [derivadas](..](../glossary.md)#derivadas) y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
 
 ## Temas del módulo
 
@@ -36,12 +36,12 @@ Este módulo cubre el [cálculo diferencial](../glossary.md#calculo-diferencial)
 
 ## Prerequisitos
 
-- **01-[Fundamentos](../glossary.md#fundamentos)** completo
-- [Dominio](../glossary.md#dominio) de funciones algebraicas y trascendentes
+- **01-[Fundamentos](..](../glossary.md)#fundamentos)** completo
+- [Dominio](..](../glossary.md)#dominio) de funciones algebraicas y trascendentes
 
 ## Conexión con otros módulos
 
-- **Anterior:** 01-[Fundamentos](../glossary.md#fundamentos)
+- **Anterior:** 01-[Fundamentos](..](../glossary.md)#fundamentos)
 - **Siguiente:** 03-Calculo-Integral (integración como operación inversa)
 
 ---

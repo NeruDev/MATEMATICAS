@@ -56,7 +56,7 @@ $$\int_0^1 \left(2x^2 + \frac{8}{3}\right)\, dx = \left[\frac{2x^3}{3} + \frac{8
 
 ### Cuándo Usar
 - Región no rectangular
-- [Límites](../../../glossary.md#limites) de una variable dependen de la otra
+- [Límites](../../..](../../../glossary.md)#limites) de una variable dependen de la otra
 
 ### Tipos de Región
 
@@ -93,7 +93,7 @@ $$\int_0^1 \frac{x^3 - x^5}{2}\, dx = \frac{1}{2}\left[\frac{x^4}{4} - \frac{x^6
 ## Método 3: Cambio de Orden de Integración
 
 ### Cuándo Usar
-- La integral en un [orden](../../../glossary.md#orden) es difícil o imposible
+- La integral en un [orden](../../..](../../../glossary.md)#orden) es difícil o imposible
 - Optimizar cálculos
 
 ### Algoritmo de Resolución
@@ -128,7 +128,7 @@ $$\int_0^y e^{y^2}\, dx = e^{y^2} \cdot y = ye^{y^2}$$
 **Paso 6:** Integramos respecto a $y$:
 $$\int_0^1 ye^{y^2}\, dy$$
 
-[Sustitución](../../../glossary.md#sustitucion): $u = y^2$, $du = 2y\, dy$
+[Sustitución](../../..](../../../glossary.md)#sustitucion): $u = y^2$, $du = 2y\, dy$
 $$= \frac{1}{2}\int_0^1 e^u\, du = \frac{1}{2}[e^u]_0^1 = \frac{1}{2}(e - 1)$$
 
 **Resultado:** $\int_0^1 \int_x^1 e^{y^2}\, dy\, dx = \boxed{\frac{e-1}{2}}$
@@ -169,7 +169,7 @@ $$\int_0^{2\pi} \int_0^2 e^{-r^2} \cdot r\, dr\, d\theta$$
 **Paso 3:** Integramos respecto a $r$:
 $$\int_0^2 re^{-r^2}\, dr$$
 
-[Sustitución](../../../glossary.md#sustitucion): $u = -r^2$, $du = -2r\, dr$
+[Sustitución](../../..](../../../glossary.md)#sustitucion): $u = -r^2$, $du = -2r\, dr$
 $$= -\frac{1}{2}\int_0^{-4} e^u\, du = -\frac{1}{2}[e^u]_0^{-4} = -\frac{1}{2}(e^{-4} - 1) = \frac{1 - e^{-4}}{2}$$
 
 **Paso 4:** Integramos respecto a $\theta$:
@@ -483,7 +483,7 @@ $$S = \iint_D \sqrt{1 + \left(\frac{\partial z}{\partial x}\right)^2 + \left(\fr
 
 **Problema:** Encontrar el área de la porción del paraboloide $z = x^2 + y^2$ que está debajo del plano $z = 4$
 
-**Paso 1:** Calculamos las [derivadas](../../../glossary.md#derivadas) parciales:
+**Paso 1:** Calculamos las [derivadas](../../..](../../../glossary.md)#derivadas) parciales:
 $$\frac{\partial z}{\partial x} = 2x, \quad \frac{\partial z}{\partial y} = 2y$$
 
 **Paso 2:** Calculamos el integrando:

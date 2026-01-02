@@ -11,7 +11,7 @@ status: active
 
 # Métodos: EDO de Primer Orden
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias de primer [orden](../../../glossary.md#orden).
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias de primer [orden](../../..](../../../glossary.md)#orden).
 
 ---
 
@@ -83,7 +83,7 @@ $$1 + \frac{1}{3} = C \implies C = \frac{4}{3}$$
 
 ---
 
-**Paso 4: Escribir [solución particular](../../../glossary.md#solucion-particular)**
+**Paso 4: Escribir [solución particular](../../..](../../../glossary.md)#solucion-particular)**
 
 $$y + \frac{y^3}{3} = \frac{x^3}{3} + \frac{4}{3}$$
 
@@ -106,7 +106,7 @@ $$\boxed{3y + y^3 = x^3 + 4}$$
 
 ### Fórmula
 
-**[Factor integrante](../../../glossary.md#factor-integrante):** $\mu(x) = e^{\int P(x)\,dx}$
+**[Factor integrante](../../..](../../../glossary.md)#factor-integrante):** $\mu(x) = e^{\int P(x)\,dx}$
 
 **Solución:**
 $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
@@ -141,7 +141,7 @@ $$P(x) = -\frac{2}{x}, \quad Q(x) = x^3$$
 
 ---
 
-**Paso 3: [Factor integrante](../../../glossary.md#factor-integrante)**
+**Paso 3: [Factor integrante](../../..](../../../glossary.md)#factor-integrante)**
 
 $$\mu = e^{\int -\frac{2}{x}dx} = e^{-2\ln|x|} = e^{\ln|x|^{-2}} = x^{-2} = \frac{1}{x^2}$$
 
@@ -153,7 +153,7 @@ $$\frac{1}{x^2}y' - \frac{2}{x^3}y = x$$
 
 ---
 
-**Paso 5: Reconocer [derivada](../../../glossary.md#derivada)**
+**Paso 5: Reconocer [derivada](../../..](../../../glossary.md)#derivada)**
 
 $$\frac{d}{dx}\left(\frac{y}{x^2}\right) = x$$
 
@@ -188,7 +188,7 @@ $xy' - 2y = x(2x^3 + 2Cx) - 2\left(\frac{x^4}{2} + Cx^2\right) = 2x^4 + 2Cx^2 - 
 
 ### Fórmula
 
-Si es exacta, existe $F(x,y)$ [tal que](../../../glossary.md#tal-que):
+Si es exacta, existe $F(x,y)$ [tal que](../../..](../../../glossary.md)#tal-que):
 $$\frac{\partial F}{\partial x} = M, \quad \frac{\partial F}{\partial y} = N$$
 
 **Solución:** $F(x,y) = C$
@@ -293,7 +293,7 @@ $$\mu(y) = e^{\int \frac{N_x - M_y}{M}dy}$$
 
 ---
 
-**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas) parciales**
+**Paso 1: Calcular [derivadas](../../..](../../../glossary.md)#derivadas) parciales**
 
 $$M = xy + 1, \quad N = x^2 + 4xy - 2x$$
 
@@ -354,7 +354,7 @@ $$\boxed{xy + \ln|x| + 2y^2 - 2y = C}$$
 ### Cuándo Usar
 
 - Forma: $\frac{dy}{dx} + P(x)y = Q(x)y^n$ donde $n \neq 0, 1$
-- Se transforma en lineal mediante [sustitución](../../../glossary.md#sustitucion)
+- Se transforma en lineal mediante [sustitución](../../..](../../../glossary.md)#sustitucion)
 
 ### Fórmula
 
@@ -437,14 +437,14 @@ $$\boxed{y = \pm\sqrt{\frac{x^2}{2x + C}} = \pm\frac{x}{\sqrt{2x + C}}}$$
 
 ### Cuándo Usar
 
-- La [función](../../../glossary.md#funcion) $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
+- La [función](../../..](../../../glossary.md)#funcion) $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
 - Equivalente: $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$
 
 ### Fórmula
 
 **Sustitución:** $y = vx$ donde $v = \frac{y}{x}$
 
-**[Derivada](../../../glossary.md#derivada):** $\frac{dy}{dx} = v + x\frac{dv}{dx}$
+**[Derivada](../../..](../../../glossary.md)#derivada):** $\frac{dy}{dx} = v + x\frac{dv}{dx}$
 
 ### Algoritmo de Resolución
 
@@ -608,7 +608,7 @@ $y' = \sec^2(x + C) - 1 = \tan^2(x + C) = (x + y + 1)^2$ ✓
 ### Cuándo Usar
 
 - Forma: $\frac{dy}{dx} = P(x) + Q(x)y + R(x)y^2$
-- Se conoce una [solución particular](../../../glossary.md#solucion-particular) $y_1(x)$
+- Se conoce una [solución particular](../../..](../../../glossary.md)#solucion-particular) $y_1(x)$
 
 ### Fórmula
 
@@ -741,7 +741,7 @@ $$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
 
 ### Cuándo Usar
 
-- Se tiene [EDO](../../../glossary.md#edo) junto con condición inicial $y(x_0) = y_0$
+- Se tiene [EDO](../../..](../../../glossary.md)#edo) junto con condición inicial $y(x_0) = y_0$
 - Se busca solución particular única
 
 ### Algoritmo de Resolución

@@ -60,9 +60,9 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 Dados $a=\prod p_i^{\alpha_i}$, $b=\prod p_i^{\beta_i}$:
 
 $$\gcd(a,b)=\prod p_i^{\min(\alpha_i,\beta_i)}$$
-$$\text{[mcm](../../glossary.md#mcm)}(a,b)=\prod p_i^{\max(\alpha_i,\beta_i)}$$
+$$\text{[mcm](../..](../../glossary.md)#mcm)}(a,b)=\prod p_i^{\max(\alpha_i,\beta_i)}$$
 
-**Relación:** $\gcd(a,b) \cdot \text{[mcm](../../glossary.md#mcm)}(a,b) = a \cdot b$
+**Relación:** $\gcd(a,b) \cdot \text{[mcm](../..](../../glossary.md)#mcm)}(a,b) = a \cdot b$
 
 ## Porcentajes
 
@@ -73,6 +73,6 @@ $$\text{[mcm](../../glossary.md#mcm)}(a,b)=\prod p_i^{\max(\alpha_i,\beta_i)}$$
 
 <!--
 IA: Hoja de referencia rápida.
-Para desarrollo completo: theory/FUN-02-Teoria-Aritmetica.md
+Para desarrollo completo: [theory/FUN-02-Teoria-Aritmetica.md](theory/FUN-02-Teoria-Aritmetica.md)
 file_id: FUN-02-Resumen-Formulas
 -->

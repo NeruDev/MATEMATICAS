@@ -93,4 +93,4 @@ solved_detailed: 3
 | [Prob-69] | $\dfrac{\arctan x}{2(1+x^2)} + C$ | ➖ |
 | [Prob-70] | $-\dfrac{\ln(1+x^2)}{x} + 2\arctan x + C$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CI-02-Problemas.md`](../problems/CI-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CI-02-Problemas.md](../problems/CI-02-Problemas.md)

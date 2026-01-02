@@ -63,4 +63,4 @@ solved_detailed: 0
 | [Prob-39] | Converge (condicionalmente), $= \dfrac{\pi}{2}$ | ➖ |
 | [Prob-40] | $-\dfrac{1}{(p+1)^2}$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CI-05-Problemas.md`](../problems/CI-05-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CI-05-Problemas.md](../problems/CI-05-Problemas.md)

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden)
+topic_id: ed-02-[edo](../..](../../glossary.md)#edo)-segundo-[orden](../..](../../glossary.md)#orden)
 file_id: ED-02-Resumen-Formulas
 status: stable
 audience: exam_review
@@ -43,7 +43,7 @@ $$ar^2 + br + c = 0 \quad \Rightarrow \quad r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2
 
 $$ay'' + by' + cy = g(x)$$
 
-**[Solución general](../../glossary.md#solucion-general):** $y = y_h + y_p$
+**[Solución general](../..](../../glossary.md)#solucion-general):** $y = y_h + y_p$
 
 ---
 
@@ -65,10 +65,10 @@ $$ay'' + by' + cy = g(x)$$
 
 Para $y'' + P(x)y' + Q(x)y = g(x)$, con solución homogénea $y_h = C_1 y_1 + C_2 y_2$:
 
-**[Solución particular](../../glossary.md#solucion-particular):**
+**[Solución particular](../..](../../glossary.md)#solucion-particular):**
 $$y_p = u_1(x) y_1(x) + u_2(x) y_2(x)$$
 
-**[Wronskiano](../../glossary.md#wronskiano):**
+**[Wronskiano](../..](../../glossary.md)#wronskiano):**
 $$W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} = y_1 y_2' - y_2 y_1'$$
 
 **Fórmulas:**
@@ -80,7 +80,7 @@ $$u_1 = -\int \frac{y_2 \cdot g(x)}{W}\,dx, \quad u_2 = \int \frac{y_1 \cdot g(x
 
 $$ax^2 y'' + bxy' + cy = 0$$
 
-**[Sustitución](../../glossary.md#sustitucion):** $y = x^m$ o $x = e^t$
+**[Sustitución](../..](../../glossary.md)#sustitucion):** $y = x^m$ o $x = e^t$
 
 **Ecuación auxiliar:**
 $$am(m-1) + bm + c = 0 \quad \Rightarrow \quad am^2 + (b-a)m + c = 0$$
@@ -119,7 +119,7 @@ $$my'' + cy' + ky = F(t)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [EDO](../../glossary.md#edo) de Segundo [Orden](../../glossary.md#orden).
-Para desarrollo completo: theory/ED-02-Teoria-EDO-Segundo-Orden.md
+IA: Hoja de referencia rápida para [EDO](../..](../../glossary.md)#edo) de Segundo [Orden](../..](../../glossary.md)#orden).
+Para desarrollo completo: [theory/ED-02-Teoria-EDO-Segundo-Orden.md](theory/ED-02-Teoria-EDO-Segundo-Orden.md)
 file_id: ED-02-Resumen-Formulas
 -->

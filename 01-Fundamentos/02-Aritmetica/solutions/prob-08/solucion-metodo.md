@@ -48,7 +48,7 @@ Factorizamos ambos números:
 - $311$ es primo (no es divisible por 2, 3, 5, 7, 11, 13, 17 y $19^2 > 311$)
 - $99 = 9 \times 11 = 3^2 \times 11$
 
-Como $\text{[MCD](../../../../glossary.md#mcd)}(311, 99) = 1$, la fracción ya es irreducible.
+Como $\text{[MCD](../../../..](../../../../glossary.md)#mcd)}(311, 99) = 1$, la fracción ya es irreducible.
 
 ---
 

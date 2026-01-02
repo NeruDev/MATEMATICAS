@@ -131,4 +131,4 @@ solved_detailed: 6
 | [Prob-107] | $t = 3$ segundos | ➖ |
 | [Prob-108] | Primero: 4 h, segundo: 6 h | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/FUN-03-Problemas.md`](../problems/FUN-03-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/FUN-03-Problemas.md](../problems/FUN-03-Problemas.md)

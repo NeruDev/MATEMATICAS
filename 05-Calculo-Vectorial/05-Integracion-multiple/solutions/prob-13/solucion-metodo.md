@@ -39,7 +39,7 @@ $$x^2 + y^2 = r^2$$
 **Jacobiano de la transformación:**
 $$dA = dx\,dy = r\,dr\,d\theta$$
 
-**[Límites](../../../../glossary.md#limites) para un disco de radio $R$ centrado en el origen:**
+**[Límites](../../../..](../../../../glossary.md)#limites) para un disco de radio $R$ centrado en el origen:**
 $$0 \leq r \leq R, \quad 0 \leq \theta \leq 2\pi$$
 
 ---
@@ -62,7 +62,7 @@ $$x^2 + y^2 = r^2$$
 **El elemento de área:**
 $$dA = r \, dr \, d\theta$$
 
-**Los [límites](../../../../glossary.md#limites) de integración:**
+**Los [límites](../../../..](../../../../glossary.md)#limites) de integración:**
 - $r$: desde $0$ hasta $2$
 - $\theta$: desde $0$ hasta $2\pi$
 
@@ -115,13 +115,13 @@ $$\boxed{\iint_D (x^2 + y^2) \, dA = 8\pi}$$
 ## Verificación
 
 **Verificación dimensional:**
-- El integrando $x^2 + y^2$ tiene [dimensión](../../../../glossary.md#dimension) $[\text{longitud}]^2$
-- El área $dA$ tiene [dimensión](../../../../glossary.md#dimension) $[\text{longitud}]^2$
+- El integrando $x^2 + y^2$ tiene [dimensión](../../../..](../../../../glossary.md)#dimension) $[\text{longitud}]^2$
+- El área $dA$ tiene [dimensión](../../../..](../../../../glossary.md)#dimension) $[\text{longitud}]^2$
 - La integral tiene dimensión $[\text{longitud}]^4$ ✓
 
 **Verificación por estimación:**
 - Área del disco: $\pi R^2 = 4\pi$
-- [Valor promedio](../../../../glossary.md#valor-promedio) de $r^2$ en el disco: entre $0$ y $4$
+- [Valor promedio](../../../..](../../../../glossary.md)#valor-promedio) de $r^2$ en el disco: entre $0$ y $4$
 - El promedio ponderado de $r^2$ con densidad $r$ es $\frac{\int_0^2 r^3 \, dr}{\int_0^2 r \, dr} = \frac{4}{2} = 2$
 - Estimación: $\text{promedio} \times \text{área} = 2 \times 4\pi = 8\pi$ ✓
 

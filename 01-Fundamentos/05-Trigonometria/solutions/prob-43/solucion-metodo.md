@@ -90,7 +90,7 @@ $$\frac{4\sqrt{3}}{3} = \frac{4\sqrt{3}}{3} \checkmark$$
 ---
 
 ## Restricciones
-La identidad es válida para todo $\theta$ [tal que](../../../../glossary.md#tal-que):
+La identidad es válida para todo $\theta$ [tal que](../../../..](../../../../glossary.md)#tal-que):
 - $\sin\theta \neq 0$ (es decir, $\theta \neq n\pi$)
 - $\cos\theta \neq 0$ (es decir, $\theta \neq \frac{\pi}{2} + n\pi$)
 

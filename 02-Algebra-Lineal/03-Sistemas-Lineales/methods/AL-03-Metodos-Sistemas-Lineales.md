@@ -26,7 +26,7 @@ last_updated: 2024-12-29
 - Método estándar y sistemático
 
 ### Objetivo
-Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../../glossary.md#sustitucion) hacia atrás**.
+Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás**.
 
 ### Algoritmo de Resolución
 
@@ -43,7 +43,7 @@ Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[
 **Problema:** Resolver el sistema:
 $$\begin{cases} x + 2y + z = 9 \\ 2x + 5y + 3z = 22 \\ 3x + 6y + 4z = 28 \end{cases}$$
 
-**Paso 1:** Escribimos la [matriz](../../../glossary.md#matriz) aumentada:
+**Paso 1:** Escribimos la [matriz](../../..](../../../glossary.md)#matriz) aumentada:
 $$\left(\begin{array}{ccc|c} 1 & 2 & 1 & 9 \\ 2 & 5 & 3 & 22 \\ 3 & 6 & 4 & 28 \end{array}\right)$$
 
 **Paso 2:** Hacemos ceros en la columna 1 debajo del pivote:
@@ -216,12 +216,12 @@ $$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix
 
 ### Cuándo Usar
 - Sistema con todos los términos independientes iguales a cero
-- Encontrar el [núcleo (kernel)](../../../glossary.md#nucleo-kernel) de una matriz
+- Encontrar el [núcleo (kernel)](../../..](../../../glossary.md)#nucleo-kernel) de una matriz
 
 ### Propiedades
-- **Siempre** tiene la solución [trivial](../../../glossary.md#trivial) $x = 0$
+- **Siempre** tiene la solución [trivial](../../..](../../../glossary.md)#trivial) $x = 0$
 - Si $\text{rango}(A) < n$, tiene infinitas soluciones no triviales
-- El conjunto solución es un **[subespacio](../../../glossary.md#subespacio) vectorial**
+- El conjunto solución es un **[subespacio](../../..](../../../glossary.md)#subespacio) vectorial**
 
 ### Algoritmo de Resolución
 
@@ -251,7 +251,7 @@ $$x_1 = -2t, \quad x_3 = 0$$
 **Resultado:** El espacio solución es:
 $$\boxed{\ker(A) = \text{span}\left\{\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix}\right\}}$$
 
-[Dimensión](../../../glossary.md#dimension) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
+[Dimensión](../../..](../../../glossary.md)#dimension) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
 
 ---
 
@@ -299,9 +299,9 @@ $$\boxed{x = 1, \quad y = 3}$$
 ### Fórmula
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
-donde $A_i$ tiene la columna $i$ reemplazada por el [vector](../../../glossary.md#vector) $b$.
+donde $A_i$ tiene la columna $i$ reemplazada por el [vector](../../..](../../../glossary.md)#vector) $b$.
 
-*Ver Método 7 de [Determinantes](../../../glossary.md#determinantes) para ejemplo detallado.*
+*Ver Método 7 de [Determinantes](../../..](../../../glossary.md)#determinantes) para ejemplo detallado.*
 
 ---
 
@@ -326,7 +326,7 @@ Descomponer $A = LU$ donde:
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../../glossary.md#factorizar) y resolver:
+**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) y resolver:
 $$\begin{cases} 2x + y + z = 1 \\ 4x + 3y + 3z = 1 \\ 8x + 7y + 9z = 5 \end{cases}$$
 
 **Paso 1:** Eliminación guardando multiplicadores:
@@ -377,7 +377,7 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 **Problema:** Para qué valores de $k$ el sistema tiene solución única, infinitas o ninguna:
 $$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 1 \\ x + 2y + kz = 1 \end{cases}$$
 
-**Paso 1:** Calculamos el [determinante](../../../glossary.md#determinante):
+**Paso 1:** Calculamos el [determinante](../../..](../../../glossary.md)#determinante):
 $$\det(A) = \det\begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & k \end{pmatrix}$$
 
 Expandiendo por la columna 1:

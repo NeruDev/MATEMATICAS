@@ -310,14 +310,14 @@ Un satélite de 1000 kg se eleva desde la superficie terrestre (radio 6371 km) h
 ## 4.7 Valor Promedio
 
 ### [Prob-41] Valor promedio de función cuadrática ⭐
-[Valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en $[0, 2]$.
+[Valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x) = x^2$ en $[0, 2]$.
 
 > **Solución:** [solutions/prob-41/](../solutions/prob-41/)
 
 ---
 
 ### [Prob-42] Valor promedio de función seno ⭐
-[Valor promedio](../../../glossary.md#valor-promedio) de $f(x) = \sin x$ en $[0, \pi]$.
+[Valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x) = \sin x$ en $[0, \pi]$.
 
 > **Solución:** [solutions/prob-42/](../solutions/prob-42/)
 

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: mn-04-[edo](../../../glossary.md#edo)-numericas
+topic_id: mn-04-[edo](../../..](../../../glossary.md)#edo)-numericas
 file_id: MN-04-Respuestas
 status: stable
 audience: student
@@ -96,4 +96,4 @@ solved_detailed: 0
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/MN-04-Problemas.md`](../problems/MN-04-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/MN-04-Problemas.md](../problems/MN-04-Problemas.md)

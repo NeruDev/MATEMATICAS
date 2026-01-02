@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
+topic_id: cd-03-aplicaciones-[derivada](../../..](../../../glossary.md)#derivada)
 file_id: CD-03-Respuestas
 status: stable
 audience: student
@@ -81,4 +81,4 @@ solved_detailed: 0
 | [Prob-47] | $h = \dfrac{4R}{3}$; $r = \dfrac{2\sqrt{2}R}{3}$; $V_{max} = \dfrac{32\pi R^3}{81}$ | ➖ |
 | [Prob-48] | Sea $f(x) = e^x - 1 - x$; $f(0) = 0$, $f'(x) = e^x - 1 \geq 0$ para $x \geq 0$, y $f'(x) \leq 0$ para $x \leq 0$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CD-03-Problemas.md`](../problems/CD-03-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CD-03-Problemas.md](../problems/CD-03-Problemas.md)

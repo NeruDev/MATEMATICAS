@@ -21,5 +21,5 @@ estimated_time: 8
 3) Escribe la ecuación de la recta con pendiente $-1$ que pasa por $(2,5)$ en forma punto-pendiente.
 
 <!--
-IA: Si falla 2/3, sugerir repaso de geometría básica y [álgebra lineal](../../../glossary.md#algebra-lineal) elemental (rectas).
+IA: Si falla 2/3, sugerir repaso de geometría básica y [álgebra lineal](../../..](../../../glossary.md)#algebra-lineal) elemental (rectas).
 -->

@@ -78,7 +78,7 @@ $\nabla f = \mathbf{0}$ o $\nabla f$ no existe
 
 ### Criterio de la segunda derivada ($z = f(x,y)$)
 
-Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el [punto crítico](../../glossary.md#punto-critico):
+Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el [punto crítico](../..](../../glossary.md)#punto-critico):
 
 | Condición | Conclusión |
 |-----------|------------|
@@ -111,6 +111,6 @@ $$F_x(x-x_0) + F_y(y-y_0) + F_z(z-z_0) = 0$$
 
 <!--
 IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta theory/CV-04-Teoria-Varias.md
+Para desarrollo completo, consulta [theory/CV-04-Teoria-Varias.md](theory/CV-04-Teoria-Varias.md)
 file_id: CV-04-Resumen-Formulas
 -->

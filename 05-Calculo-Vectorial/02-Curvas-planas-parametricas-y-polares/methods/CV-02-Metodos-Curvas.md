@@ -62,8 +62,8 @@ $$x^2 + y^2 = \cos^2 t + \sin^2 t = 1$$
 ## Método 2: Pendiente de la Tangente (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Encontrar la pendiente de la recta [tangente](../../../glossary.md#tangente) en un punto
-- Analizar puntos donde la [tangente](../../../glossary.md#tangente) es horizontal o vertical
+- Encontrar la pendiente de la recta [tangente](../../..](../../../glossary.md)#tangente) en un punto
+- Analizar puntos donde la [tangente](../../..](../../../glossary.md)#tangente) es horizontal o vertical
 
 ### Fórmula
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{y'(t)}{x'(t)}$$
@@ -110,7 +110,7 @@ $$\frac{dy}{dx}\bigg|_{t=2} = \frac{3(2)}{2} = 3$$
 ## Método 3: Segunda Derivada (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Determinar [concavidad](../../../glossary.md#concavidad) de la curva
+- Determinar [concavidad](../../..](../../../glossary.md)#concavidad) de la curva
 - Encontrar puntos de inflexión
 
 ### Fórmula

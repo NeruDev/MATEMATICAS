@@ -63,7 +63,7 @@ La carpeta `01-Fundamentos/01-Simbologia-Matematica/` está **exenta** del siste
 ```
 01-Simbologia-Matematica/
 ├── manifest.json                      # type: "reference_library"
-├── FUN-01-Simbologia-Intro.md         # Punto de entrada (único archivo con prefijo)
+├── [FUN-01-Simbologia-Intro.md](FUN-01-Simbologia-Intro.md)         # Punto de entrada (único archivo con prefijo)
 └── theory/
     └── Tablas-de-Simbolos-Matematicos.md  # Contenido libre de nomenclatura
 ```
@@ -238,14 +238,14 @@ requires: [lista-de-dependencias]
 ```
 05-Calculo-Vectorial/01-Vectores-en-el-espacio/
 ├── manifest.json
-├── CV-01-Vectores-Intro.md          # entry_point
-├── CV-01-Resumen-Formulas.md        # cheat_sheet
+├── [CV-01-Vectores-Intro.md](CV-01-Vectores-Intro.md)          # entry_point
+├── [CV-01-Resumen-Formulas.md](CV-01-Resumen-Formulas.md)        # cheat_sheet
 ├── theory/
-│   └── CV-01-Teoria-Vectores.md     # main_theory
+│   └── [CV-01-Teoria-Vectores.md](CV-01-Teoria-Vectores.md)     # main_theory
 ├── methods/
-│   └── CV-01-Metodo-Producto-Cruz.md
+│   └── [CV-01-Metodo-Producto-Cruz.md](CV-01-Metodo-Producto-Cruz.md)
 ├── problems/
-│   └── CV-01-Problema-Recta-Plano.md
+│   └── [CV-01-Problema-Recta-Plano.md](CV-01-Problema-Recta-Plano.md)
 └── solutions/
     └── CV-01-Solucion-Recta-Plano/
 ```
@@ -424,9 +424,9 @@ Estudiante quiere verificar respuesta
 ```
 02-Algebra-Lineal/01-Matrices/
 ├── problems/
-│   └── AL-01-Problemas.md          # 32 problemas con [Prob-01] a [Prob-32]
+│   └── [AL-01-Problemas.md](AL-01-Problemas.md)          # 32 problemas con [Prob-01] a [Prob-32]
 └── solutions/
-    ├── AL-01-Respuestas.md         # 32 respuestas en tabla
+    ├── [AL-01-Respuestas.md](AL-01-Respuestas.md)         # 32 respuestas en tabla
     ├── prob-04/
     │   └── solucion-metodo.md
     ├── prob-09/
@@ -491,7 +491,7 @@ audience: ai_context
 
 - **Audiencia:** [tipo de estudiante]
 - **Formato de salida:** Markdown con LaTeX
-- **Notación:** Seguir `00-META/notation-cheatsheet.md`
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](notation-cheatsheet.md)`
 - **Tareas permitidas:** [lista de tareas]
 ```
 

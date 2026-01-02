@@ -22,10 +22,10 @@ Dominar las funciones trigonométricas, sus identidades y aplicaciones en la res
 ## Mapa de recursos
 
 ```
-FUN-05-Trigonometria-Intro.md           ← Estás aquí
-FUN-05-Resumen-Formulas.md              ← Identidades y fórmulas
+[FUN-05-Trigonometria-Intro.md](FUN-05-Trigonometria-Intro.md)           ← Estás aquí
+[FUN-05-Resumen-Formulas.md](FUN-05-Resumen-Formulas.md)              ← Identidades y fórmulas
 theory/
-  └── FUN-05-Teoria-Trigonometria.md    ← Desarrollo completo
+  └── [FUN-05-Teoria-Trigonometria.md](FUN-05-Teoria-Trigonometria.md)    ← Desarrollo completo
 methods/
   └── [métodos de resolución]
 problems/
@@ -34,7 +34,7 @@ problems/
 
 ## Ruta de aprendizaje
 
-1. **Razones trigonométricas**: [seno](../../glossary.md#seno), [coseno](../../glossary.md#coseno), [tangente](../../glossary.md#tangente) en triángulos rectángulos
+1. **Razones trigonométricas**: [seno](../..](../../glossary.md)#seno), [coseno](../..](../../glossary.md)#coseno), [tangente](../..](../../glossary.md)#tangente) en triángulos rectángulos
 2. **Funciones trigonométricas**: círculo unitario, gráficas
 3. **Identidades fundamentales**: pitagóricas, cociente, recíprocas
 4. **Identidades de suma y diferencia**: sen(α±β), cos(α±β)
@@ -58,6 +58,6 @@ problems/
 ---
 
 <!--
-IA: Punto de entrada para [trigonometría](../../glossary.md#trigonometria).
+IA: Punto de entrada para [trigonometría](../..](../../glossary.md)#trigonometria).
 file_id: FUN-05-Trigonometria-Intro
 -->

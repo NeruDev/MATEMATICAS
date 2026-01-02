@@ -18,10 +18,10 @@ audience: student
 
 **Método aplicado:** Fórmula de inversa 2×2
 
-**Paso 1: Calcular el [determinante](../../../../glossary.md#determinante)**
+**Paso 1: Calcular el [determinante](../../../..](../../../../glossary.md)#determinante)**
 $$\det = 1(1) - a(0) = 1 \neq 0$$
 
-La [matriz](../../../../glossary.md#matriz) es invertible para cualquier valor de $a$.
+La [matriz](../../../..](../../../../glossary.md)#matriz) es invertible para cualquier valor de $a$.
 
 **Paso 2: Aplicar la fórmula**
 Para $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, $A^{-1} = \frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$

@@ -113,9 +113,9 @@ $$\boxed{A = 84 \text{ cm}^2}$$
 
 Podemos verificar encontrando la altura del triángulo.
 
-**Usando la [base](../../../../glossary.md#base) $c = 15$ cm:**
+**Usando la [base](../../../..](../../../../glossary.md)#base) $c = 15$ cm:**
 
-$$A = \frac{1}{2} \times \text{[base](../../../../glossary.md#base)} \times \text{altura}$$
+$$A = \frac{1}{2} \times \text{[base](../../../..](../../../../glossary.md)#base)} \times \text{altura}$$
 
 $$84 = \frac{1}{2} \times 15 \times h$$
 

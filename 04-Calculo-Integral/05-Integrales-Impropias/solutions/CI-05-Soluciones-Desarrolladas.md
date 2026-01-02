@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones de [integrales impropias](../../../glossary.md#integrales-impropias).
+Soluciones de [integrales impropias](../../..](../../../glossary.md)#integrales-impropias).
 
 IA:
 Soluciones detalladas de problemas representativos.
@@ -36,7 +36,7 @@ $$= \lim_{t \to \infty} (-e^{-t} + e^0) = 0 + 1 = 1$$
 **Enunciado:** $\displaystyle\int_0^{\infty} xe^{-x}\,dx$
 
 **Solución:**
-Usamos [integración por partes](../../../glossary.md#integracion-por-partes): $u = x$, $dv = e^{-x}dx$
+Usamos [integración por partes](../../..](../../../glossary.md)#integracion-por-partes): $u = x$, $dv = e^{-x}dx$
 
 $$\int xe^{-x}\,dx = -xe^{-x} + \int e^{-x}\,dx = -xe^{-x} - e^{-x} = -(x+1)e^{-x}$$
 
@@ -71,7 +71,7 @@ $$= (0 - (-\frac{\pi}{2})) + (\frac{\pi}{2} - 0) = \frac{\pi}{2} + \frac{\pi}{2}
 **Enunciado:** $\displaystyle\int_1^{\infty} \frac{\ln x}{x^2}\,dx$
 
 **Solución:**
-[Integración por partes](../../../glossary.md#integracion-por-partes): $u = \ln x$, $dv = x^{-2}dx$
+[Integración por partes](../../..](../../../glossary.md)#integracion-por-partes): $u = \ln x$, $dv = x^{-2}dx$
 
 $$du = \frac{1}{x}dx, \quad v = -\frac{1}{x}$$
 
@@ -134,12 +134,12 @@ $$= 3(2)^{1/3} - 0 = 3\sqrt[3]{2}$$
 ---
 
 ## Problema 24
-**Enunciado:** Determinar [convergencia](../../../glossary.md#convergencia) de $\displaystyle\int_1^{\infty} \frac{1}{\sqrt{x^3+1}}\,dx$
+**Enunciado:** Determinar [convergencia](../../..](../../../glossary.md)#convergencia) de $\displaystyle\int_1^{\infty} \frac{1}{\sqrt{x^3+1}}\,dx$
 
 **Solución:**
 Para $x$ grande: $\sqrt{x^3+1} \approx x^{3/2}$
 
-Comparación por [límite](../../../glossary.md#limite) con $g(x) = \frac{1}{x^{3/2}}$:
+Comparación por [límite](../../..](../../../glossary.md)#limite) con $g(x) = \frac{1}{x^{3/2}}$:
 
 $$\lim_{x \to \infty} \frac{1/\sqrt{x^3+1}}{1/x^{3/2}} = \lim_{x \to \infty} \frac{x^{3/2}}{\sqrt{x^3+1}} = \lim_{x \to \infty} \sqrt{\frac{x^3}{x^3+1}} = 1$$
 

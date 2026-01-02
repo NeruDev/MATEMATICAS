@@ -22,9 +22,9 @@ Esta sección sirve como referencia rápida para todos los símbolos matemático
 ## Mapa de recursos
 
 ```
-FUN-01-Simbologia-Intro.md              ← Estás aquí
+[FUN-01-Simbologia-Intro.md](FUN-01-Simbologia-Intro.md)              ← Estás aquí
 theory/
-  └── FUN-01-Tablas-Simbolos.md         ← Tablas completas de símbolos
+  └── [FUN-01-Tablas-Simbolos.md](FUN-01-Tablas-Simbolos.md)         ← Tablas completas de símbolos
 ```
 
 ## Contenido

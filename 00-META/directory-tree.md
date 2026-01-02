@@ -43,51 +43,51 @@ MATEMATICAS GITHUB/
 │   │
 │   ├── 01-Simbologia-Matematica/      ⚠️ EXCEPCIÓN: reference_library
 │   │   ├── manifest.json
-│   │   ├── FUN-01-Simbologia-Intro.md
+│   │   ├── [FUN-01-Simbologia-Intro.md](FUN-01-Simbologia-Intro.md)
 │   │   ├── _directives.md
 │   │   └── theory/
 │   │       └── Tablas-de-Simbolos-Matematicos.md
 │   │
 │   ├── 02-Aritmetica/
 │   │   ├── manifest.json
-│   │   ├── FUN-02-Aritmetica-Intro.md
-│   │   ├── FUN-02-Resumen-Formulas.md
+│   │   ├── [FUN-02-Aritmetica-Intro.md](FUN-02-Aritmetica-Intro.md)
+│   │   ├── [FUN-02-Resumen-Formulas.md](FUN-02-Resumen-Formulas.md)
 │   │   ├── _directives.md
 │   │   ├── applications/
 │   │   ├── diagnostic/
 │   │   ├── media/
 │   │   ├── methods/
-│   │   │   └── FUN-02-Metodos-Aritmetica.md
+│   │   │   └── [FUN-02-Metodos-Aritmetica.md](FUN-02-Metodos-Aritmetica.md)
 │   │   ├── problems/
-│   │   │   └── FUN-02-Problemas.md
+│   │   │   └── [FUN-02-Problemas.md](FUN-02-Problemas.md)
 │   │   ├── solutions/
-│   │   │   ├── FUN-02-Respuestas.md
+│   │   │   ├── [FUN-02-Respuestas.md](FUN-02-Respuestas.md)
 │   │   │   └── [prob-XX/]
 │   │   └── theory/
-│   │       └── FUN-02-Teoria-Aritmetica.md
+│   │       └── [FUN-02-Teoria-Aritmetica.md](FUN-02-Teoria-Aritmetica.md)
 │   │
 │   ├── 03-Algebra/
 │   │   ├── manifest.json
-│   │   ├── FUN-03-Algebra-Intro.md
-│   │   ├── FUN-03-Resumen-Formulas.md
+│   │   ├── [FUN-03-Algebra-Intro.md](FUN-03-Algebra-Intro.md)
+│   │   ├── [FUN-03-Resumen-Formulas.md](FUN-03-Resumen-Formulas.md)
 │   │   └── ...
 │   │
 │   ├── 04-Geometria/
 │   │   ├── manifest.json
-│   │   ├── FUN-04-Geometria-Intro.md
-│   │   ├── FUN-04-Resumen-Formulas.md
+│   │   ├── [FUN-04-Geometria-Intro.md](FUN-04-Geometria-Intro.md)
+│   │   ├── [FUN-04-Resumen-Formulas.md](FUN-04-Resumen-Formulas.md)
 │   │   └── ...
 │   │
 │   ├── 05-Trigonometria/
 │   │   ├── manifest.json
-│   │   ├── FUN-05-Trigonometria-Intro.md
-│   │   ├── FUN-05-Resumen-Formulas.md
+│   │   ├── [FUN-05-Trigonometria-Intro.md](FUN-05-Trigonometria-Intro.md)
+│   │   ├── [FUN-05-Resumen-Formulas.md](FUN-05-Resumen-Formulas.md)
 │   │   └── ...
 │   │
 │   └── 06-Geometria-Analitica/
 │       ├── manifest.json
-│       ├── FUN-06-Geometria-Analitica-Intro.md
-│       ├── FUN-06-Resumen-Formulas.md
+│       ├── [FUN-06-Geometria-Analitica-Intro.md](FUN-06-Geometria-Analitica-Intro.md)
+│       ├── [FUN-06-Resumen-Formulas.md](FUN-06-Resumen-Formulas.md)
 │       └── ...
 │
 ├── 02-Algebra-Lineal/
@@ -95,8 +95,8 @@ MATEMATICAS GITHUB/
 │   │
 │   ├── 01-Matrices/
 │   │   ├── manifest.json
-│   │   ├── AL-01-Matrices-Intro.md
-│   │   ├── AL-01-Resumen-Formulas.md
+│   │   ├── [AL-01-Matrices-Intro.md](AL-01-Matrices-Intro.md)
+│   │   ├── [AL-01-Resumen-Formulas.md](AL-01-Resumen-Formulas.md)
 │   │   └── ...
 │   │
 │   ├── 02-Determinantes/       → AL-02-*

@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Índice del módulo de [Cálculo Integral](../glossary.md#calculo-integral).
+Índice del módulo de [Cálculo Integral](..](../glossary.md)#calculo-integral).
 Lista todos los temas disponibles en este módulo.
 
 IA:
@@ -23,7 +23,7 @@ audience: self-study
 
 ## Descripción del módulo
 
-Este módulo cubre el [cálculo integral](../glossary.md#calculo-integral): antiderivadas, [técnicas de integración](../glossary.md#tecnicas-de-integracion), integrales definidas y sus aplicaciones. Es fundamental para calcular áreas, volúmenes y resolver problemas de acumulación.
+Este módulo cubre el [cálculo integral](..](../glossary.md)#calculo-integral): antiderivadas, [técnicas de integración](..](../glossary.md)#tecnicas-de-integracion), integrales definidas y sus aplicaciones. Es fundamental para calcular áreas, volúmenes y resolver problemas de acumulación.
 
 ## Temas del módulo
 
@@ -37,8 +37,8 @@ Este módulo cubre el [cálculo integral](../glossary.md#calculo-integral): anti
 
 ## Prerrequisitos
 
-- **01-[Fundamentos](../glossary.md#fundamentos)** completo
-- **03-Calculo-Diferencial** (especialmente [derivadas](../glossary.md#derivadas))
+- **01-[Fundamentos](..](../glossary.md)#fundamentos)** completo
+- **03-Calculo-Diferencial** (especialmente [derivadas](..](../glossary.md)#derivadas))
 
 ## Conexión con otros módulos
 

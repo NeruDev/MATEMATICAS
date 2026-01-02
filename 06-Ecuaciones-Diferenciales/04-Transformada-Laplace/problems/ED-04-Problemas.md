@@ -20,7 +20,7 @@ created: 2025-12-20
 
 ### [Prob-01] Transformadas de funciones elementales ⭐
 
-Calcular la [transformada de Laplace](../../../glossary.md#transformada-de-laplace):
+Calcular la [transformada de Laplace](../../..](../../../glossary.md)#transformada-de-laplace):
 
 a) $f(t) = 5$
 
@@ -130,7 +130,7 @@ d) $F(s) = \frac{s}{s^2+9}$
 
 ### [Prob-08] Fracciones parciales simples ⭐⭐
 
-Usar [fracciones parciales](../../../glossary.md#fracciones-parciales):
+Usar [fracciones parciales](../../..](../../../glossary.md)#fracciones-parciales):
 
 a) $F(s) = \frac{1}{s(s-2)}$
 
@@ -176,7 +176,7 @@ c) $F(s) = \frac{2s-3}{s^2-6s+13}$
 
 ### [Prob-11] PVI de primer orden ⭐⭐
 
-Resolver usando [transformada de Laplace](../../../glossary.md#transformada-de-laplace):
+Resolver usando [transformada de Laplace](../../..](../../../glossary.md)#transformada-de-laplace):
 
 a) $y' + 2y = 0$, $y(0) = 3$
 
@@ -232,7 +232,7 @@ b) $y''' - y' = 0$, $y(0) = 0$, $y'(0) = 1$, $y''(0) = 0$
 
 ### [Prob-15] Expresión con función escalón ⭐⭐
 
-Escribir usando la [función](../../../glossary.md#funcion) escalón unitario:
+Escribir usando la [función](../../..](../../../glossary.md)#funcion) escalón unitario:
 
 a) $f(t) = \begin{cases} 0, & t < 3 \\ 2, & t \geq 3 \end{cases}$
 
@@ -294,7 +294,7 @@ c) $y'' + 2y' + y = \delta(t)$, $y(0) = 0$, $y'(0) = 0$
 
 ### [Prob-19] Transformada inversa por convolución ⭐⭐⭐
 
-Calcular usando [convolución](../../../glossary.md#convolucion):
+Calcular usando [convolución](../../..](../../../glossary.md)#convolucion):
 
 a) $\mathcal{L}^{-1}\left\{\frac{1}{s^2(s-1)}\right\}$
 
@@ -306,7 +306,7 @@ b) $\mathcal{L}^{-1}\left\{\frac{1}{(s-1)(s-2)}\right\}$
 
 ### [Prob-20] Teorema de convolución ⭐⭐⭐
 
-Usar el teorema de [convolución](../../../glossary.md#convolucion) para resolver:
+Usar el teorema de [convolución](../../..](../../../glossary.md)#convolucion) para resolver:
 
 $y'' + y = f(t)$, $y(0) = 0$, $y'(0) = 0$
 

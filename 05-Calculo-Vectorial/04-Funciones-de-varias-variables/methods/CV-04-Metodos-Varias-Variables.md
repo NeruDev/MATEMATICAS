@@ -14,14 +14,14 @@ audience: student
 
 # Métodos para Funciones de Varias Variables
 
-> **Objetivo:** Dominar el [cálculo diferencial](../../../glossary.md#calculo-diferencial) de funciones de varias variables con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.
+> **Objetivo:** Dominar el [cálculo diferencial](../../..](../../../glossary.md)#calculo-diferencial) de funciones de varias variables con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.
 
 ---
 
 ## Método 1: Dominio de Funciones de Varias Variables
 
 ### Cuándo Usar
-- Determinar el conjunto de puntos $(x, y)$ o $(x, y, z)$ donde la [función](../../../glossary.md#funcion) está definida
+- Determinar el conjunto de puntos $(x, y)$ o $(x, y, z)$ donde la [función](../../..](../../../glossary.md)#funcion) está definida
 
 ### Restricciones Comunes
 
@@ -34,7 +34,7 @@ audience: student
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el [dominio](../../../glossary.md#dominio) de $f(x,y) = \sqrt{9 - x^2 - y^2}$
+**Problema:** Encontrar el [dominio](../../..](../../../glossary.md)#dominio) de $f(x,y) = \sqrt{9 - x^2 - y^2}$
 
 **Paso 1:** Identificamos la restricción:
 $$9 - x^2 - y^2 \geq 0$$
@@ -42,7 +42,7 @@ $$9 - x^2 - y^2 \geq 0$$
 **Paso 2:** Despejamos:
 $$x^2 + y^2 \leq 9$$
 
-**Resultado:** El [dominio](../../../glossary.md#dominio) es el **disco cerrado** de radio 3 centrado en el origen:
+**Resultado:** El [dominio](../../..](../../../glossary.md)#dominio) es el **disco cerrado** de radio 3 centrado en el origen:
 $$\text{Dom}(f) = \boxed{\{(x,y) : x^2 + y^2 \leq 9\}}$$
 
 ---
@@ -117,7 +117,7 @@ $$\lim_{y \to 0} \frac{0 \cdot y}{0 + y^2} = \lim_{y \to 0} \frac{0}{y^2} = 0$$
 **Por la recta $y = x$**:
 $$\lim_{x \to 0} \frac{x \cdot x}{x^2 + x^2} = \lim_{x \to 0} \frac{x^2}{2x^2} = \frac{1}{2}$$
 
-**Resultado:** El [límite](../../../glossary.md#limite) **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
+**Resultado:** El [límite](../../..](../../../glossary.md)#limite) **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
 
 ### Ejemplo Detallado (SÍ existe)
 
@@ -133,7 +133,7 @@ $$\lim_{r \to 0} r\cos^2\theta \sin\theta = 0$$
 
 **Verificación:** $|r\cos^2\theta \sin\theta| \leq r \cdot 1 \cdot 1 = r \to 0$
 
-**Resultado:** El [límite](../../../glossary.md#limite) es $\boxed{0}$
+**Resultado:** El [límite](../../..](../../../glossary.md)#limite) es $\boxed{0}$
 
 ---
 
@@ -155,10 +155,10 @@ $$\frac{\partial f}{\partial y} = \lim_{h \to 0} \frac{f(x, y+h) - f(x, y)}{h}$$
 
 **Problema:** Encontrar $\frac{\partial f}{\partial x}$ y $\frac{\partial f}{\partial y}$ para $f(x,y) = x^3y^2 + 3xy^4 - 2y$
 
-**[Derivada](../../../glossary.md#derivada) parcial respecto a $x$** ($y$ constante):
+**[Derivada](../../..](../../../glossary.md)#derivada) parcial respecto a $x$** ($y$ constante):
 $$\frac{\partial f}{\partial x} = 3x^2y^2 + 3y^4 + 0 = \boxed{3x^2y^2 + 3y^4}$$
 
-**[Derivada](../../../glossary.md#derivada) parcial respecto a $y$** ($x$ constante):
+**[Derivada](../../..](../../../glossary.md)#derivada) parcial respecto a $y$** ($x$ constante):
 $$\frac{\partial f}{\partial y} = 2x^3y + 12xy^3 - 2 = \boxed{2x^3y + 12xy^3 - 2}$$
 
 ---
@@ -166,7 +166,7 @@ $$\frac{\partial f}{\partial y} = 2x^3y + 12xy^3 - 2 = \boxed{2x^3y + 12xy^3 - 2
 ## Método 5: Derivadas Parciales de Orden Superior
 
 ### Cuándo Usar
-- Calcular segundas [derivadas](../../../glossary.md#derivadas), derivadas mixtas
+- Calcular segundas [derivadas](../../..](../../../glossary.md)#derivadas), derivadas mixtas
 - Análisis de extremos (Hessiano)
 
 ### Notación
@@ -182,7 +182,7 @@ Si $f_{xy}$ y $f_{yx}$ son continuas: $f_{xy} = f_{yx}$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar todas las segundas [derivadas](../../../glossary.md#derivadas) de $f(x,y) = x^3 + x^2y^3 - 2y^2$
+**Problema:** Encontrar todas las segundas [derivadas](../../..](../../../glossary.md)#derivadas) de $f(x,y) = x^3 + x^2y^3 - 2y^2$
 
 **Paso 1:** Primeras derivadas:
 $$f_x = 3x^2 + 2xy^3$$
@@ -206,7 +206,7 @@ $$f_{yx} = \frac{\partial}{\partial x}(3x^2y^2 - 4y) = \boxed{6xy^2}$$
 ### Cuándo Usar
 - Encontrar la dirección de máximo crecimiento
 - Calcular derivadas direccionales
-- [Vector](../../../glossary.md#vector) normal a superficies de nivel
+- [Vector](../../..](../../../glossary.md)#vector) normal a superficies de nivel
 
 ### Fórmulas
 
@@ -248,7 +248,7 @@ $$\nabla f(1, -2, -1) = \boxed{\langle 8, -1, -10 \rangle}$$
 ### Fórmula
 $$D_\mathbf{u}f = \nabla f \cdot \mathbf{u}$$
 
-donde $\mathbf{u}$ es un **[vector](../../../glossary.md#vector) unitario**.
+donde $\mathbf{u}$ es un **[vector](../../..](../../../glossary.md)#vector) unitario**.
 
 ### Algoritmo de Resolución
 
@@ -279,7 +279,7 @@ $$= 0 \cdot \frac{3}{5} + 3 \cdot \left(-\frac{4}{5}\right) = -\frac{12}{5}$$
 **Resultado:**
 $$D_\mathbf{u}f(1, 2) = \boxed{-\frac{12}{5}}$$
 
-**Interpretación:** La [función](../../../glossary.md#funcion) decrece en la dirección dada (tasa negativa).
+**Interpretación:** La [función](../../..](../../../glossary.md)#funcion) decrece en la dirección dada (tasa negativa).
 
 ---
 
@@ -301,7 +301,7 @@ $$\nabla F \cdot \langle x-x_0, y-y_0, z-z_0 \rangle = 0$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el plano [tangente](../../../glossary.md#tangente) a $z = x^2 + y^2$ en $(1, 1, 2)$
+**Problema:** Encontrar el plano [tangente](../../..](../../../glossary.md)#tangente) a $z = x^2 + y^2$ en $(1, 1, 2)$
 
 **Paso 1:** Calculamos las derivadas parciales:
 $$f_x = 2x \implies f_x(1, 1) = 2$$
@@ -311,7 +311,7 @@ $$f_y = 2y \implies f_y(1, 1) = 2$$
 $$z - 2 = 2(x - 1) + 2(y - 1)$$
 $$z = 2x + 2y - 2$$
 
-**Resultado:** El plano [tangente](../../../glossary.md#tangente) es $\boxed{2x + 2y - z = 2}$
+**Resultado:** El plano [tangente](../../..](../../../glossary.md)#tangente) es $\boxed{2x + 2y - z = 2}$
 
 ---
 
@@ -459,7 +459,7 @@ $$\frac{\partial z}{\partial y} = x^2 + 2xy$$
 $$\frac{\partial x}{\partial s} = 1$$
 $$\frac{\partial y}{\partial s} = t$$
 
-**Paso 3:** Aplicamos la [regla de la cadena](../../../glossary.md#regla-de-la-cadena):
+**Paso 3:** Aplicamos la [regla de la cadena](../../..](../../../glossary.md)#regla-de-la-cadena):
 $$\frac{\partial z}{\partial s} = (2xy + y^2)(1) + (x^2 + 2xy)(t)$$
 
 **Paso 4:** Sustituimos $x = s+t$, $y = st$:

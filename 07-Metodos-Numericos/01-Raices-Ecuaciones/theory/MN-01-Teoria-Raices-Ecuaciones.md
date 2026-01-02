@@ -28,19 +28,19 @@ El problema de encontrar raíces consiste en hallar valores $x^*$ tales que $f(x
 
 ### 2.1 Teorema del Valor Intermedio
 
-> Si $f$ es continua en $[a, b]$ y $f(a) \cdot f(b) < 0$, entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que) $f(c) = 0$.
+> Si $f$ es continua en $[a, b]$ y $f(a) \cdot f(b) < 0$, entonces existe al menos un $c \in (a, b)$ [tal que](../../..](../../../glossary.md)#tal-que) $f(c) = 0$.
 
 Este teorema fundamenta los **métodos cerrados**.
 
 ### 2.2 Teorema del Punto Fijo
 
 > Sea $g: [a, b] \to [a, b]$ continua. Si $|g'(x)| \leq L < 1$ para todo $x \in (a, b)$, entonces:
-> 1. Existe un único punto fijo $p$ [tal que](../../../glossary.md#tal-que) $g(p) = p$
+> 1. Existe un único punto fijo $p$ [tal que](../../..](../../../glossary.md)#tal-que) $g(p) = p$
 > 2. La sucesión $x_{n+1} = g(x_n)$ converge a $p$ para cualquier $x_0 \in [a, b]$
 
 ### 2.3 Series de Taylor
 
-[Base](../../../glossary.md#base) teórica del [método de Newton-Raphson](../../../glossary.md#metodo-de-newton-raphson):
+[Base](../../..](../../../glossary.md)#base) teórica del [método de Newton-Raphson](../../..](../../../glossary.md)#metodo-de-newton-raphson):
 
 $$f(x) = f(x_n) + f'(x_n)(x - x_n) + \frac{f''(\xi)}{2}(x - x_n)^2$$
 
@@ -62,7 +62,7 @@ $$x^* \approx x_n - \frac{f(x_n)}{f'(x_n)}$$
 3. Si $f(c) = 0$ → terminar
 4. Si $f(a) \cdot f(c) < 0$ → $b = c$
 5. Si no → $a = c$
-6. Repetir hasta [convergencia](../../../glossary.md#convergencia)
+6. Repetir hasta [convergencia](../../..](../../../glossary.md)#convergencia)
 
 **Análisis de error:**
 Después de $n$ iteraciones:
@@ -78,7 +78,7 @@ $$n \geq \frac{\ln(b - a) - \ln(\varepsilon)}{\ln(2)}$$
 $$c = b - f(b)\frac{b - a}{f(b) - f(a)}$$
 
 **Ventaja:** Generalmente más rápido que bisección.
-**Desventaja:** Puede tener [convergencia](../../../glossary.md#convergencia) lenta si un extremo queda fijo.
+**Desventaja:** Puede tener [convergencia](../../..](../../../glossary.md)#convergencia) lenta si un extremo queda fijo.
 
 ---
 
@@ -86,7 +86,7 @@ $$c = b - f(b)\frac{b - a}{f(b) - f(a)}$$
 
 ### 4.1 Método de Newton-Raphson
 
-**Derivación geométrica:** La [tangente](../../../glossary.md#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
+**Derivación geométrica:** La [tangente](../../..](../../../glossary.md)#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
 
 $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
@@ -109,7 +109,7 @@ $$f'(x_n) \approx \frac{f(x_n) - f(x_{n-1})}{x_n - x_{n-1}}$$
 **Fórmula:**
 $$x_{n+1} = x_n - f(x_n)\frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$$
 
-**[Orden de convergencia](../../../glossary.md#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
+**[Orden de convergencia](../../..](../../../glossary.md)#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
 
 **Ventaja:** No requiere calcular $f'(x)$.
 
@@ -134,7 +134,7 @@ $$x_{n+1} = g(x_n)$$
 
 ### 5.1 Error y Orden de Convergencia
 
-**Definición:** Un método tiene [orden](../../../glossary.md#orden) de convergencia $p$ si:
+**Definición:** Un método tiene [orden](../../..](../../../glossary.md)#orden) de convergencia $p$ si:
 $$\lim_{n \to \infty} \frac{|e_{n+1}|}{|e_n|^p} = C \neq 0$$
 
 donde $e_n = x_n - x^*$.
@@ -151,7 +151,7 @@ donde $e_n = x_n - x^*$.
 
 $$EI = p^{1/k}$$
 
-donde $k$ = número de evaluaciones de [función](../../../glossary.md#funcion) por iteración.
+donde $k$ = número de evaluaciones de [función](../../..](../../../glossary.md)#funcion) por iteración.
 
 | Método | $k$ | $EI$ |
 |--------|-----|------|

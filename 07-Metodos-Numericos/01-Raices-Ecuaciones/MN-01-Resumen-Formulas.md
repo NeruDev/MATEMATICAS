@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Raíces de Ecuaciones](../../glossary.md#raices-de-ecuaciones)
+title: Resumen de Fórmulas - [Raíces de Ecuaciones](../..](../../glossary.md)#raices-de-ecuaciones)
 type: cheatsheet
 topic: raices-ecuaciones
 tags: [métodos-numéricos, raíces, fórmulas, cheatsheet]
@@ -26,7 +26,7 @@ $$x_m = \frac{a + b}{2}$$
 2. Calcular $x_m = \frac{a + b}{2}$
 3. Si $f(a) \cdot f(x_m) < 0$: $b = x_m$
 4. Si $f(a) \cdot f(x_m) > 0$: $a = x_m$
-5. Repetir hasta [convergencia](../../glossary.md#convergencia)
+5. Repetir hasta [convergencia](../..](../../glossary.md)#convergencia)
 
 ### Error y Convergencia
 $$\varepsilon_n = \frac{b - a}{2^n}$$
@@ -46,7 +46,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 - $x_0$ suficientemente cercano a la raíz
 
 ### Orden de Convergencia
-**[Convergencia](../../glossary.md#convergencia) cuadrática** ([orden](../../glossary.md#orden) 2):
+**[Convergencia](../..](../../glossary.md)#convergencia) cuadrática** ([orden](../..](../../glossary.md)#orden) 2):
 $$|e_{n+1}| \approx C|e_n|^2$$
 
 ### Error Aproximado
@@ -60,9 +60,9 @@ $$\varepsilon_a = \left|\frac{x_{n+1} - x_n}{x_{n+1}}\right| \times 100\%$$
 $$x_{n+1} = x_n - f(x_n) \cdot \frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$$
 
 ### Características
-- No requiere [derivada](../../glossary.md#derivada)
+- No requiere [derivada](../..](../../glossary.md)#derivada)
 - Necesita dos valores iniciales $x_0$ y $x_1$
-- [Orden de convergencia](../../glossary.md#orden-de-convergencia): $\phi = \frac{1 + \sqrt{5}}{2} \approx 1.618$
+- [Orden de convergencia](../..](../../glossary.md)#orden-de-convergencia): $\phi = \frac{1 + \sqrt{5}}{2} \approx 1.618$
 
 ---
 

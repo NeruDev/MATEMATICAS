@@ -20,16 +20,16 @@ requires: [CV-01-Teoria-Vectores, CV-02-Teoria-Curvas]
 ## 3.1 Definición y representación
 
 ### Concepto intuitivo
-Una **[función](../../../glossary.md#funcion) vectorial** asigna a cada valor de un parámetro real $t$ un [vector](../../../glossary.md#vector) en el espacio. Describe la trayectoria de una partícula: dado el tiempo, devuelve la posición.
+Una **[función](../../..](../../../glossary.md)#funcion) vectorial** asigna a cada valor de un parámetro real $t$ un [vector](../../..](../../../glossary.md)#vector) en el espacio. Describe la trayectoria de una partícula: dado el tiempo, devuelve la posición.
 
 ### Definición formal
-Una **[función](../../../glossary.md#funcion) vectorial** $\mathbf{r}: I \subseteq \mathbb{R} \to \mathbb{R}^n$ es:
+Una **[función](../../..](../../../glossary.md)#funcion) vectorial** $\mathbf{r}: I \subseteq \mathbb{R} \to \mathbb{R}^n$ es:
 $$\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle = x(t)\mathbf{i} + y(t)\mathbf{j} + z(t)\mathbf{k}$$
 
 donde $x(t)$, $y(t)$, $z(t)$ son las **funciones componentes** (escalares).
 
 ### Dominio
-El [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t)$ es la intersección de los dominios de sus componentes:
+El [dominio](../../..](../../../glossary.md)#dominio) de $\mathbf{r}(t)$ es la intersección de los dominios de sus componentes:
 $$\text{Dom}(\mathbf{r}) = \text{Dom}(x) \cap \text{Dom}(y) \cap \text{Dom}(z)$$
 
 ### Curva en el espacio
@@ -52,7 +52,7 @@ La imagen de $\mathbf{r}(t)$ es una **curva en el espacio** (o curva espacial). 
 
 $$\lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} x(t), \lim_{t \to a} y(t), \lim_{t \to a} z(t) \right\rangle$$
 
-El [límite](../../../glossary.md#limite) existe si y solo si existen los [límites](../../../glossary.md#limites) de cada componente.
+El [límite](../../..](../../../glossary.md)#limite) existe si y solo si existen los [límites](../../..](../../../glossary.md)#limites) de cada componente.
 
 ### Continuidad
 
@@ -79,13 +79,13 @@ $$\mathbf{r}'(t) = \lim_{h \to 0} \frac{\mathbf{r}(t+h) - \mathbf{r}(t)}{h}$$
 
 $$\mathbf{r}'(t) = \langle x'(t), y'(t), z'(t) \rangle$$
 
-La [derivada](../../../glossary.md#derivada) existe si y solo si existen las [derivadas](../../../glossary.md#derivadas) de cada componente.
+La [derivada](../../..](../../../glossary.md)#derivada) existe si y solo si existen las [derivadas](../../..](../../../glossary.md)#derivadas) de cada componente.
 
 ### Interpretación geométrica
 
-- $\mathbf{r}'(t)$ es el **[vector](../../../glossary.md#vector) [tangente](../../../glossary.md#tangente)** a la curva en el punto $\mathbf{r}(t)$
+- $\mathbf{r}'(t)$ es el **[vector](../../..](../../../glossary.md)#vector) [tangente](../../..](../../../glossary.md)#tangente)** a la curva en el punto $\mathbf{r}(t)$
 - Apunta en la dirección del movimiento (según la orientación)
-- $\mathbf{r}'(t) \neq \mathbf{0}$ garantiza que la [tangente](../../../glossary.md#tangente) está bien definida
+- $\mathbf{r}'(t) \neq \mathbf{0}$ garantiza que la [tangente](../../..](../../../glossary.md)#tangente) está bien definida
 
 ### Interpretación física (cinemática)
 
@@ -107,14 +107,14 @@ La [derivada](../../../glossary.md#derivada) existe si y solo si existen las [de
 | Producto vectorial | $[\mathbf{u}(t) \times \mathbf{v}(t)]' = \mathbf{u}'(t) \times \mathbf{v}(t) + \mathbf{u}(t) \times \mathbf{v}'(t)$ |
 | [Regla de la cadena](../../../glossary.md#regla-de-la-cadena) | $[\mathbf{r}(f(t))]' = \mathbf{r}'(f(t)) \cdot f'(t)$ |
 
-**Nota importante**: En el producto vectorial, el [orden](../../../glossary.md#orden) es crucial (no es conmutativo).
+**Nota importante**: En el producto vectorial, el [orden](../../..](../../../glossary.md)#orden) es crucial (no es conmutativo).
 
 ### Propiedades útiles
 
 Si $\lVert \mathbf{r}(t) \rVert = c$ (constante), entonces:
 $$\mathbf{r}(t) \cdot \mathbf{r}'(t) = 0$$
 
-**Interpretación**: Si un vector tiene magnitud constante, su [derivada](../../../glossary.md#derivada) es perpendicular a él.
+**Interpretación**: Si un vector tiene magnitud constante, su [derivada](../../..](../../../glossary.md)#derivada) es perpendicular a él.
 
 ---
 
@@ -190,7 +190,7 @@ $$\mathbf{N}(t) = \frac{\mathbf{T}'(t)}{\lVert \mathbf{T}'(t) \rVert}$$
 $$\mathbf{B}(t) = \mathbf{T}(t) \times \mathbf{N}(t)$$
 
 - Perpendicular tanto a $\mathbf{T}$ como a $\mathbf{N}$
-- $\{\mathbf{T}, \mathbf{N}, \mathbf{B}\}$ forman una [base](../../../glossary.md#base) ortonormal dextrógira
+- $\{\mathbf{T}, \mathbf{N}, \mathbf{B}\}$ forman una [base](../../..](../../../glossary.md)#base) ortonormal dextrógira
 
 ### Planos asociados
 

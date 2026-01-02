@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Solución - [Integración por Partes](../../../../glossary.md#integracion-por-partes) Cíclicas (Exponencial-[Coseno](../../../../glossary.md#coseno))"
+title: "Solución - [Integración por Partes](../../../..](../../../../glossary.md)#integracion-por-partes) Cíclicas (Exponencial-[Coseno](../../../..](../../../../glossary.md)#coseno))"
 type: solution
 topic: tecnicas-integracion
 problem_id: CI-02-020
@@ -26,7 +26,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
+Calcular la [integral indefinida](../../../..](../../../../glossary.md)#integral-indefinida):
 $$\int e^x \cos x \, dx$$
 
 ---

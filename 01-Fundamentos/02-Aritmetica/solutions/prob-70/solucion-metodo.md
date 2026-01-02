@@ -6,7 +6,7 @@ file_id: FUN-02-Prob-70-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-70]"
-methods: ["ecuación de punto fijo", "ecuación cuadrática", "análisis de [convergencia](../../../../glossary.md#convergencia)"]
+methods: ["ecuación de punto fijo", "ecuación cuadrática", "análisis de [convergencia](../../../..](../../../../glossary.md)#convergencia)"]
 -->
 
 
@@ -122,10 +122,10 @@ Por lo tanto, $a_{n+1} > a_n$ (sucesión creciente).
 
 ### Paso 4: Conclusión
 
-Por el teorema de [convergencia](../../../../glossary.md#convergencia) monótona:
+Por el teorema de [convergencia](../../../..](../../../../glossary.md)#convergencia) monótona:
 - La sucesión es creciente y acotada superiormente
 - Por lo tanto, converge
-- El [límite](../../../../glossary.md#limite) satisface $L = \sqrt{12 + L}$, lo que da $L = 4$
+- El [límite](../../../..](../../../../glossary.md)#limite) satisface $L = \sqrt{12 + L}$, lo que da $L = 4$
 
 ---
 

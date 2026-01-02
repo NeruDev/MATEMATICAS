@@ -25,8 +25,8 @@ requires: []
 
 ## Tangentes paramétricas
 
-- **[Tangente](../../glossary.md#tangente) horizontal:** $dy/dt = 0$ y $dx/dt \neq 0$
-- **[Tangente](../../glossary.md#tangente) vertical:** $dx/dt = 0$ y $dy/dt \neq 0$
+- **[Tangente](../..](../../glossary.md)#tangente) horizontal:** $dy/dt = 0$ y $dx/dt \neq 0$
+- **[Tangente](../..](../../glossary.md)#tangente) vertical:** $dx/dt = 0$ y $dy/dt \neq 0$
 - **Punto singular:** $dx/dt = 0$ y $dy/dt = 0$ (requiere análisis adicional)
 
 ## Longitud de arco paramétrico
@@ -82,6 +82,6 @@ $$L = \int_\alpha^\beta \sqrt{r^2 + \left(\frac{dr}{d\theta}\right)^2}\, d\theta
 
 <!--
 IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta theory/CV-02-Teoria-Curvas.md
+Para desarrollo completo, consulta [theory/CV-02-Teoria-Curvas.md](theory/CV-02-Teoria-Curvas.md)
 file_id: CV-02-Resumen-Formulas
 -->

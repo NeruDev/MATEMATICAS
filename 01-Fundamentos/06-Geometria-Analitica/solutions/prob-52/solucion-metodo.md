@@ -86,7 +86,7 @@ $$\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1 \quad (a > b)$$
 Identificamos:
 - $h = 2$, $k = -1$ → **Centro:** $(2, -1)$
 - El denominador mayor está bajo $(x-2)^2$: $a^2 = 9$ → $a = 3$
-- El denominador [menor](../../../../glossary.md#menor): $b^2 = 4$ → $b = 2$
+- El denominador [menor](../../../..](../../../../glossary.md)#menor): $b^2 = 4$ → $b = 2$
 
 Como $a^2 = 9$ está asociado a $x$, el **eje mayor es horizontal**.
 
@@ -138,7 +138,7 @@ $$F_2 = (h - c, k) = (2 - \sqrt{5}, -1) = \boxed{(2 - \sqrt{5}, -1)}$$
 ### Longitud de los ejes
 
 - **Eje mayor:** $2a = 2(3) = \boxed{6}$
-- **Eje [menor](../../../../glossary.md#menor):** $2b = 2(2) = \boxed{4}$
+- **Eje [menor](../../../..](../../../../glossary.md)#menor):** $2b = 2(2) = \boxed{4}$
 
 ### Lado recto (latus rectum)
 

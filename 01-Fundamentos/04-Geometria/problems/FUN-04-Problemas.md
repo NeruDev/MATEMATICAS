@@ -32,7 +32,7 @@ d) Una semirrecta tiene dos puntos extremos.
 ---
 
 ### [Prob-02] Puntos Colineales y Distancias ⭐
-En una recta se marcan los puntos $A$, $B$, $C$ y $D$ en ese [orden](../../../glossary.md#orden). Si $AB = 3$ cm, $BC = 5$ cm y $AD = 12$ cm, encuentra $CD$.
+En una recta se marcan los puntos $A$, $B$, $C$ y $D$ en ese [orden](../../..](../../../glossary.md)#orden). Si $AB = 3$ cm, $BC = 5$ cm y $AD = 12$ cm, encuentra $CD$.
 
 📎 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
 
@@ -205,7 +205,7 @@ En un triángulo equilátero de lado 6 cm, encuentra la altura, el área y el ra
 ---
 
 ### [Prob-25] Altura de Triángulo Isósceles ⭐⭐
-La [base](../../../glossary.md#base) de un triángulo isósceles mide 10 cm y los lados iguales miden 13 cm cada uno. Calcula la altura correspondiente a la base.
+La [base](../../..](../../../glossary.md)#base) de un triángulo isósceles mide 10 cm y los lados iguales miden 13 cm cada uno. Calcula la altura correspondiente a la base.
 
 📎 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
 
@@ -291,7 +291,7 @@ Las diagonales de un cuadrado miden $6\sqrt{2}$ cm. Calcula el lado, el perímet
 ---
 
 ### [Prob-37] Trapecio Rectángulo ⭐⭐⭐
-En un trapecio rectángulo, la [base](../../../glossary.md#base) mayor mide 12 cm, la base [menor](../../../glossary.md#menor) mide 8 cm, y el lado perpendicular a las bases mide 5 cm. Encuentra el área y el lado oblicuo.
+En un trapecio rectángulo, la [base](../../..](../../../glossary.md)#base) mayor mide 12 cm, la base [menor](../../..](../../../glossary.md)#menor) mide 8 cm, y el lado perpendicular a las bases mide 5 cm. Encuentra el área y el lado oblicuo.
 
 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 
@@ -435,7 +435,7 @@ Dos circunferencias tienen radios 5 cm y 12 cm, y la distancia entre sus centros
 ---
 
 ### [Prob-57] Longitud de Tangente ⭐⭐⭐
-Una [tangente](../../../glossary.md#tangente) a un círculo de radio 5 cm se [traza](../../../glossary.md#traza) desde un punto exterior a 13 cm del centro. Calcula la longitud de la tangente.
+Una [tangente](../../..](../../../glossary.md)#tangente) a un círculo de radio 5 cm se [traza](../../..](../../../glossary.md)#traza) desde un punto exterior a 13 cm del centro. Calcula la longitud de la tangente.
 
 📎 **Solución:** [solutions/prob-57/](../solutions/prob-57/)
 
@@ -551,14 +551,14 @@ Los lados de un triángulo miden 3 cm, 4 cm y 5 cm. Los lados de otro triángulo
 ---
 
 ### [Prob-73] Razón de Semejanza ⭐
-Dos triángulos semejantes tienen razón de semejanza 3:5. Si un lado del triángulo [menor](../../../glossary.md#menor) mide 9 cm, ¿cuánto mide el lado correspondiente del mayor?
+Dos triángulos semejantes tienen razón de semejanza 3:5. Si un lado del triángulo [menor](../../..](../../../glossary.md)#menor) mide 9 cm, ¿cuánto mide el lado correspondiente del mayor?
 
 📎 **Solución:** [solutions/prob-73/](../solutions/prob-73/)
 
 ---
 
 ### [Prob-74] Paralela a un Lado del Triángulo ⭐⭐
-En un triángulo $ABC$, se [traza](../../../glossary.md#traza) una paralela al lado $BC$ que corta a $AB$ en $D$ y a $AC$ en $E$. Si $AD = 4$ cm, $DB = 6$ cm y $DE = 5$ cm, encuentra $BC$.
+En un triángulo $ABC$, se [traza](../../..](../../../glossary.md)#traza) una paralela al lado $BC$ que corta a $AB$ en $D$ y a $AC$ en $E$. Si $AD = 4$ cm, $DB = 6$ cm y $DE = 5$ cm, encuentra $BC$.
 
 📎 **Solución:** [solutions/prob-74/](../solutions/prob-74/)
 

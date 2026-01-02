@@ -511,7 +511,7 @@ $$c = 4$$
 - **Centro:** $C(0, 0)$
 - **Vértices:** $V_1(-5, 0)$, $V_2(5, 0)$
 - **Focos:** $F_1(-4, 0)$, $F_2(4, 0)$
-- **Extremos eje [menor](../../../glossary.md#menor):** $(0, -3)$, $(0, 3)$
+- **Extremos eje [menor](../../..](../../../glossary.md)#menor):** $(0, -3)$, $(0, 3)$
 - **Excentricidad:** $e = \frac{4}{5} = 0.8$
 
 ---
@@ -638,7 +638,7 @@ Es una **hipérbola**.
 Agrupar:
 $$(9x^2 - 36x) + (-16y^2 - 32y) = 124$$
 
-[Factorizar](../../../glossary.md#factorizar):
+[Factorizar](../../..](../../../glossary.md)#factorizar):
 $$9(x^2 - 4x) - 16(y^2 + 2y) = 124$$
 
 Completar cuadrados:

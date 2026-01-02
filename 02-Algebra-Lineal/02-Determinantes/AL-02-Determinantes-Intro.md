@@ -1,8 +1,8 @@
 <!--
 ::METADATA::
 type: index
-topic_id: al-02-[determinantes](../../glossary.md#determinantes)
-file_id: AL-02-[Determinantes](../../glossary.md#determinantes)-Intro
+topic_id: al-02-[determinantes](../..](../../glossary.md)#determinantes)
+file_id: AL-02-[Determinantes](../..](../../glossary.md)#determinantes)-Intro
 status: stable
 audience: student
 -->
@@ -15,7 +15,7 @@ audience: student
 
 ## Propósito
 
-Los determinantes son valores escalares asociados a matrices cuadradas que encapsulan información fundamental sobre la [matriz](../../glossary.md#matriz). Este módulo te enseñará a calcularlos eficientemente y a aplicarlos para resolver sistemas de ecuaciones, calcular inversas y determinar propiedades de [transformaciones lineales](../../glossary.md#transformaciones-lineales).
+Los determinantes son valores escalares asociados a matrices cuadradas que encapsulan información fundamental sobre la [matriz](../..](../../glossary.md)#matriz). Este módulo te enseñará a calcularlos eficientemente y a aplicarlos para resolver sistemas de ecuaciones, calcular inversas y determinar propiedades de [transformaciones lineales](../..](../../glossary.md)#transformaciones-lineales).
 
 ## Mapa de recursos
 
@@ -48,7 +48,7 @@ Los determinantes son valores escalares asociados a matrices cuadradas que encap
 1. **Fórmulas directas** (1h): Dominar det 2×2 y 3×3 (Sarrus)
 2. **Propiedades** (1h): Aprender a simplificar antes de calcular
 3. **Cofactores** (1.5h): Expansión por cofactores para matrices grandes
-4. **Aplicaciones** (1.5h): Inversa por adjunta y [regla de Cramer](../../glossary.md#regla-de-cramer)
+4. **Aplicaciones** (1.5h): Inversa por adjunta y [regla de Cramer](../..](../../glossary.md)#regla-de-cramer)
 
 ## Prerequisitos
 

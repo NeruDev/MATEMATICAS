@@ -22,7 +22,7 @@ Entender cómo representar y operar con vectores en el plano y en el espacio par
 ## Ruta de aprendizaje
 
 1. **Definición y geometría:** vectores en el plano y en el espacio; magnitud y dirección.
-2. **Álgebra vectorial:** suma, resta, [combinación lineal](../../glossary.md#combinacion-lineal) y propiedades geométricas.
+2. **Álgebra vectorial:** suma, resta, [combinación lineal](../..](../../glossary.md)#combinacion-lineal) y propiedades geométricas.
 3. **Productos:** producto escalar (ángulos, proyecciones) y producto vectorial (áreas, ortogonalidad).
 4. **Rectas:** ecuaciones vectorial, paramétrica y simétrica; intersecciones básicas.
 5. **Planos:** ecuación general y normal; ángulos entre planos y entre plano-recta.
@@ -30,10 +30,10 @@ Entender cómo representar y operar con vectores en el plano y en el espacio par
 ## Mapa de recursos
 
 ```
-CV-01-Vectores-Intro.md        ← Estás aquí
-CV-01-Resumen-Formulas.md      ← Fórmulas clave para repaso rápido
+[CV-01-Vectores-Intro.md](CV-01-Vectores-Intro.md)        ← Estás aquí
+[CV-01-Resumen-Formulas.md](CV-01-Resumen-Formulas.md)      ← Fórmulas clave para repaso rápido
 theory/
-  └── CV-01-Teoria-Vectores.md ← Desarrollo completo de la teoría
+  └── [CV-01-Teoria-Vectores.md](CV-01-Teoria-Vectores.md) ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/

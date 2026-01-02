@@ -110,4 +110,4 @@ solved_detailed: 0
 | [Prob-79] | $-\dfrac{1}{2}$ | ➖ |
 | [Prob-80] | $-\dfrac{1}{2}$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CD-04-Problemas.md`](../problems/CD-04-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CD-04-Problemas.md](../problems/CD-04-Problemas.md)

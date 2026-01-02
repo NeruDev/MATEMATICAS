@@ -17,7 +17,7 @@ audience: student
 
 ## Problema
 
-Encontrar y clasificar todos los puntos críticos de la [función](../../../../glossary.md#funcion):
+Encontrar y clasificar todos los puntos críticos de la [función](../../../..](../../../../glossary.md)#funcion):
 
 $$f(x,y) = x^3 + y^3 - 3xy$$
 
@@ -30,7 +30,7 @@ $$\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}
 
 **Puntos críticos:** Soluciones de $\nabla f = \mathbf{0}$
 
-**[Matriz](../../../../glossary.md#matriz) Hessiana:**
+**[Matriz](../../../..](../../../../glossary.md)#matriz) Hessiana:**
 $$H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy} \end{pmatrix}$$
 
 **Discriminante:**
@@ -82,11 +82,11 @@ $$x(x^3 - 1) = 0$$
 
 **Caso A:** $x = 0$
 - De (1): $y = 0^2 = 0$
-- [Punto crítico](../../../../glossary.md#punto-critico): $(0, 0)$
+- [Punto crítico](../../../..](../../../../glossary.md)#punto-critico): $(0, 0)$
 
 **Caso B:** $x^3 = 1 \Rightarrow x = 1$
 - De (1): $y = 1^2 = 1$
-- [Punto crítico](../../../../glossary.md#punto-critico): $(1, 1)$
+- [Punto crítico](../../../..](../../../../glossary.md)#punto-critico): $(1, 1)$
 
 **Puntos críticos encontrados:** $(0, 0)$ y $(1, 1)$
 
@@ -126,7 +126,7 @@ Como $D = -9 < 0$:
 
 $$\boxed{(0, 0) \text{ es un punto silla}}$$
 
-**[Matriz](../../../../glossary.md#matriz) Hessiana en $(0,0)$:**
+**[Matriz](../../../..](../../../../glossary.md)#matriz) Hessiana en $(0,0)$:**
 $$H(0,0) = \begin{pmatrix} 0 & -3 \\ -3 & 0 \end{pmatrix}$$
 
 ---
@@ -184,7 +184,7 @@ $$\boxed{\begin{array}{|c|c|c|c|c|}
   - Para $x > 0$: $f > 0$
   - Para $x < 0$: $f < 0$
 
-La [función](../../../../glossary.md#funcion) toma valores tanto positivos como negativos cerca del origen, confirmando el punto silla.
+La [función](../../../..](../../../../glossary.md)#funcion) toma valores tanto positivos como negativos cerca del origen, confirmando el punto silla.
 
 **Verificación del mínimo $(1,1)$:**
 

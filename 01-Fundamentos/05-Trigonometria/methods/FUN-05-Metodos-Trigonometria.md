@@ -161,7 +161,7 @@ $240°$ está en el tercer cuadrante (entre $180°$ y $270°$)
 
 **Paso 2: Determinar signos**
 
-En el tercer cuadrante: solo [tangente](../../../glossary.md#tangente) y cotangente son positivas.
+En el tercer cuadrante: solo [tangente](../../..](../../../glossary.md)#tangente) y cotangente son positivas.
 
 - $\sin(240°) < 0$
 - $\cos(240°) < 0$
@@ -332,7 +332,7 @@ $$\boxed{\frac{\sin\theta}{1 - \cos\theta} = \frac{1 + \cos\theta}{\sin\theta} \
 
 ## Método 6: Resolver Ecuaciones Trigonométricas
 
-**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../../glossary.md#funcion) trigonométrica.
+**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../..](../../../glossary.md)#funcion) trigonométrica.
 
 ### Algoritmo de Resolución
 
@@ -357,7 +357,7 @@ $$2u^2 - u - 1 = 0$$
 
 ---
 
-**Paso 2: [Factorizar](../../../glossary.md#factorizar)**
+**Paso 2: [Factorizar](../../..](../../../glossary.md)#factorizar)**
 
 $$(2u + 1)(u - 1) = 0$$
 

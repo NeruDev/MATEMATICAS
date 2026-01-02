@@ -1,9 +1,9 @@
 <!--
 ---
 content_type: problem_set
-topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
+topic_id: cd-03-aplicaciones-[derivada](../../..](../../../glossary.md)#derivada)
 file_id: CD-03-Problemas
-title: Problemas de Aplicaciones de la [Derivada](../../../glossary.md#derivada)
+title: Problemas de Aplicaciones de la [Derivada](../../..](../../../glossary.md)#derivada)
 description: Colección de problemas sobre rectas tangentes, razones relacionadas, extremos, optimización, aproximaciones y análisis de funciones
 audience: self-study
 difficulty_levels: [básico, intermedio, avanzado]
@@ -23,7 +23,7 @@ total_problems: 48
 ## 3.1 Recta Tangente y Normal
 
 ### [Prob-01] Tangente a polinomio cúbico ⭐
-Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $y = x^3 - 2x$ en $x = 1$.
+Encuentra la ecuación de la recta [tangente](../../..](../../../glossary.md)#tangente) a $y = x^3 - 2x$ en $x = 1$.
 
 📁 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -37,7 +37,7 @@ Encuentra la ecuación de la recta normal a $y = \sqrt{x}$ en $x = 4$.
 ---
 
 ### [Prob-03] Tangentes horizontales ⭐⭐
-Encuentra los puntos de $y = x^3 - 3x + 1$ donde la [tangente](../../../glossary.md#tangente) es horizontal.
+Encuentra los puntos de $y = x^3 - 3x + 1$ donde la [tangente](../../..](../../../glossary.md)#tangente) es horizontal.
 
 📁 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
 
@@ -67,14 +67,14 @@ Un globo esférico se infla de modo que su volumen aumenta a razón de 8 cm³/s.
 ---
 
 ### [Prob-07] Escalera deslizante ⭐⭐
-Una escalera de 5 m está apoyada contra una pared. Si la [base](../../../glossary.md#base) se desliza alejándose de la pared a 0.5 m/s, ¿qué tan rápido desciende la parte superior cuando la base está a 3 m de la pared?
+Una escalera de 5 m está apoyada contra una pared. Si la [base](../../..](../../../glossary.md)#base) se desliza alejándose de la pared a 0.5 m/s, ¿qué tan rápido desciende la parte superior cuando la base está a 3 m de la pared?
 
 📁 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
 
 ---
 
 ### [Prob-08] Cono de arena ⭐⭐
-Un cono de arena tiene altura igual al radio de la [base](../../../glossary.md#base). Si la arena cae a razón de 2 m³/min, ¿qué tan rápido aumenta la altura cuando $h = 4$ m?
+Un cono de arena tiene altura igual al radio de la [base](../../..](../../../glossary.md)#base). Si la arena cae a razón de 2 m³/min, ¿qué tan rápido aumenta la altura cuando $h = 4$ m?
 
 📁 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
 
@@ -164,7 +164,7 @@ Analiza $f(x) = \frac{x^2}{x-1}$ para crecimiento y extremos.
 ## 3.5 Criterio de la Segunda Derivada
 
 ### [Prob-20] Concavidad de cúbica ⭐
-Determina la [concavidad](../../../glossary.md#concavidad) de $f(x) = x^3 - 3x$.
+Determina la [concavidad](../../..](../../../glossary.md)#concavidad) de $f(x) = x^3 - 3x$.
 
 📁 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
 

@@ -37,7 +37,7 @@ $$\text{Dom}(\mathbf{r}) = \text{Dom}(f) \cap \text{Dom}(g) \cap \text{Dom}(h)$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
+**Problema:** Encontrar el [dominio](../../..](../../../glossary.md)#dominio) de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
 
 **Paso 1:** Identificamos restricciones:
 - $\sqrt{t}$ requiere $t \geq 0$
@@ -88,7 +88,7 @@ $$\lim_{t \to 0} \mathbf{r}(t) = \boxed{\left\langle 1, 1, \frac{1}{2} \right\ra
 ## Método 3: Derivada de una Función Vectorial
 
 ### Cuándo Usar
-- Encontrar el [vector](../../../glossary.md#vector) [tangente](../../../glossary.md#tangente) $\mathbf{r}'(t)$
+- Encontrar el [vector](../../..](../../../glossary.md)#vector) [tangente](../../..](../../../glossary.md)#tangente) $\mathbf{r}'(t)$
 - Calcular velocidad en curvas del espacio
 
 ### Fórmula
@@ -126,10 +126,10 @@ $$\mathbf{r}'(t) = \boxed{\langle 3t^2, -2\sin(2t), -e^{-t} \rangle}$$
 - Calcular integrales definidas de funciones vectoriales
 
 ### Fórmulas
-**[Integral indefinida](../../../glossary.md#integral-indefinida):**
+**[Integral indefinida](../../..](../../../glossary.md)#integral-indefinida):**
 $$\int \mathbf{r}(t)\, dt = \left\langle \int f(t)\, dt, \int g(t)\, dt, \int h(t)\, dt \right\rangle$$
 
-**[Integral definida](../../../glossary.md#integral-definida):**
+**[Integral definida](../../..](../../../glossary.md)#integral-definida):**
 $$\int_a^b \mathbf{r}(t)\, dt = \left\langle \int_a^b f(t)\, dt, \int_a^b g(t)\, dt, \int_a^b h(t)\, dt \right\rangle$$
 
 ### Ejemplo Detallado
@@ -309,7 +309,7 @@ $$\kappa = \frac{|y''|}{(1 + (y')^2)^{3/2}}$$
 
 **Problema:** Calcular la curvatura de $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 1$
 
-**Paso 1:** Calculamos las [derivadas](../../../glossary.md#derivadas):
+**Paso 1:** Calculamos las [derivadas](../../..](../../../glossary.md)#derivadas):
 $$\mathbf{r}'(t) = \langle 1, 2t, 0 \rangle$$
 $$\mathbf{r}''(t) = \langle 0, 2, 0 \rangle$$
 

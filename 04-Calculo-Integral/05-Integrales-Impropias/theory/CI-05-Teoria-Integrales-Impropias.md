@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría de [integrales impropias](../../../glossary.md#integrales-impropias).
+Teoría de [integrales impropias](../../..](../../../glossary.md)#integrales-impropias).
 
 IA:
 Desarrollo formal con todos los tipos y criterios.
@@ -22,8 +22,8 @@ format: formal_exposition
 
 ## Introducción
 
-Una **[integral impropia](../../../glossary.md#integral-impropia)** es una [integral definida](../../../glossary.md#integral-definida) donde:
-1. Uno o ambos [límites](../../../glossary.md#limites) de integración son infinitos (Tipo I)
+Una **[integral impropia](../../..](../../../glossary.md)#integral-impropia)** es una [integral definida](../../..](../../../glossary.md)#integral-definida) donde:
+1. Uno o ambos [límites](../../..](../../../glossary.md)#limites) de integración son infinitos (Tipo I)
 2. El integrando tiene una discontinuidad en el intervalo (Tipo II)
 
 ---
@@ -32,13 +32,13 @@ Una **[integral impropia](../../../glossary.md#integral-impropia)** es una [inte
 
 ### Definición
 
-**[Límite](../../../glossary.md#limite) superior infinito:**
+**[Límite](../../..](../../../glossary.md)#limite) superior infinito:**
 $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
-**[Límite](../../../glossary.md#limite) inferior infinito:**
+**[Límite](../../..](../../../glossary.md)#limite) inferior infinito:**
 $$\int_{-\infty}^{b} f(x)\,dx = \lim_{t \to -\infty} \int_t^b f(x)\,dx$$
 
-**Ambos [límites](../../../glossary.md#limites) infinitos:**
+**Ambos [límites](../../..](../../../glossary.md)#limites) infinitos:**
 $$\int_{-\infty}^{\infty} f(x)\,dx = \int_{-\infty}^{c} f(x)\,dx + \int_c^{\infty} f(x)\,dx$$
 
 donde $c$ es cualquier número real (si ambas integrales convergen).
@@ -105,14 +105,14 @@ $$= \lim_{t \to 0^+} [\ln x]_t^1 = \lim_{t \to 0^+} (0 - \ln t) = \infty$$
 Para que $\int_a^{\infty} f(x)\,dx$ tenga posibilidad de converger:
 $$\lim_{x \to \infty} f(x) = 0$$
 
-⚠️ **Nota:** Esta condición es necesaria pero NO [suficiente](../../../glossary.md#suficiente) (ver $1/x$).
+⚠️ **Nota:** Esta condición es necesaria pero NO [suficiente](../../..](../../../glossary.md)#suficiente) (ver $1/x$).
 
 ### Convergencia Absoluta
 
 $\int_a^{\infty} f(x)\,dx$ **converge absolutamente** si:
 $$\int_a^{\infty} |f(x)|\,dx < \infty$$
 
-La [convergencia](../../../glossary.md#convergencia) absoluta implica convergencia.
+La [convergencia](../../..](../../../glossary.md)#convergencia) absoluta implica convergencia.
 
 ### Convergencia Condicional
 

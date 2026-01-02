@@ -46,7 +46,7 @@ $$A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = 
 ## Método 2: Multiplicación por Escalar
 
 ### Cuándo Usar
-- Escalar todos los elementos de una [matriz](../../../glossary.md#matriz) por un factor constante
+- Escalar todos los elementos de una [matriz](../../..](../../../glossary.md)#matriz) por un factor constante
 
 ### Fórmula
 $$(kA)_{ij} = k \cdot a_{ij}$$
@@ -63,9 +63,9 @@ $$3A = 3 \begin{pmatrix} 1 & -2 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 3(1) & 
 ## Método 3: Multiplicación de Matrices (Fila × Columna)
 
 ### Cuándo Usar
-- [Composición](../../../glossary.md#composicion) de [transformaciones lineales](../../../glossary.md#transformaciones-lineales)
+- [Composición](../../..](../../../glossary.md)#composicion) de [transformaciones lineales](../../..](../../../glossary.md)#transformaciones-lineales)
 - Sistemas de ecuaciones
-- Cambios de [base](../../../glossary.md#base)
+- Cambios de [base](../../..](../../../glossary.md)#base)
 
 ### Requisito
 Columnas de $A$ = Filas de $B$: $(m \times n) \cdot (n \times p) = (m \times p)$
@@ -165,7 +165,7 @@ $$\det(A) = 4(1) - 3(2) = 4 - 6 = -2$$
 
 **Paso 2:** Como $\det(A) = -2 \neq 0$, la inversa existe.
 
-**Paso 3-4:** Formamos la [matriz](../../../glossary.md#matriz) adjunta:
+**Paso 3-4:** Formamos la [matriz](../../..](../../../glossary.md)#matriz) adjunta:
 $$\text{adj}(A) = \begin{pmatrix} 1 & -3 \\ -2 & 4 \end{pmatrix}$$
 
 **Paso 5:** Dividimos entre el determinante:
@@ -241,8 +241,8 @@ $$A^{-1} = \boxed{\begin{pmatrix} 7 & -2 \\ -3 & 1 \end{pmatrix}}$$
 ## Método 7: Rango de una Matriz
 
 ### Cuándo Usar
-- Determinar la [dimensión](../../../glossary.md#dimension) del espacio columna
-- Verificar [independencia lineal](../../../glossary.md#independencia-lineal)
+- Determinar la [dimensión](../../..](../../../glossary.md)#dimension) del espacio columna
+- Verificar [independencia lineal](../../..](../../../glossary.md)#independencia-lineal)
 - Analizar sistemas de ecuaciones
 
 ### Definición
@@ -351,7 +351,7 @@ $$\begin{pmatrix} + & - & + & \cdots \\ - & + & - & \cdots \\ + & - & + & \cdots
 
 **Problema:** Encontrar $\text{adj}(A)$ para $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 1 & 0 & 6 \end{pmatrix}$
 
-**Paso 1-2:** Calculamos cada [cofactor](../../../glossary.md#cofactor):
+**Paso 1-2:** Calculamos cada [cofactor](../../..](../../../glossary.md)#cofactor):
 
 $$C_{11} = (+1)\begin{vmatrix} 4 & 5 \\ 0 & 6 \end{vmatrix} = 24$$
 

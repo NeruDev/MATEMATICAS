@@ -38,7 +38,7 @@ $$x^4 - 16 = (x^2 + 4)(x^2 - 4)$$
 
 **Factor 1: $x^2 + 4$**
 
-Este es una **suma de cuadrados**. En los números reales, $x^2 + 4$ **no se puede [factorizar](../../../../glossary.md#factorizar)** porque:
+Este es una **suma de cuadrados**. En los números reales, $x^2 + 4$ **no se puede [factorizar](../../../..](../../../../glossary.md)#factorizar)** porque:
 - $x^2 \geq 0$ para todo $x \in \mathbb{R}$
 - $x^2 + 4 \geq 4 > 0$ (nunca es cero)
 - No tiene raíces reales
@@ -156,7 +156,7 @@ Para $x = 3$:
 **Expresión original:**
 $$3^4 - 16 = 81 - 16 = 65$$
 
-**[Factorización](../../../../glossary.md#factorizacion):**
+**[Factorización](../../../..](../../../../glossary.md)#factorizacion):**
 $$(3^2 + 4)(3 + 2)(3 - 2) = (9 + 4)(5)(1)$$
 
 $$= 13 \cdot 5 \cdot 1 = 65 \quad \checkmark$$
@@ -165,7 +165,7 @@ $$= 13 \cdot 5 \cdot 1 = 65 \quad \checkmark$$
 
 ## Nota importante
 
-⚠️ **Error común:** Intentar [factorizar](../../../../glossary.md#factorizar) $x^2 + 4$ como $(x + 2)^2$ o $(x + 2)(x + 2)$.
+⚠️ **Error común:** Intentar [factorizar](../../../..](../../../../glossary.md)#factorizar) $x^2 + 4$ como $(x + 2)^2$ o $(x + 2)(x + 2)$.
 
 Esto es **incorrecto** porque:
 $$(x + 2)^2 = x^2 + 4x + 4 \neq x^2 + 4$$

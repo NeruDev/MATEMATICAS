@@ -92,7 +92,7 @@ Si $f(x), g(x) > 0$ y $\lim_{x\to\infty} \dfrac{f(x)}{g(x)} = L$:
 
 ## Comportamiento asintótico
 
-Para determinar [convergencia](../../glossary.md#convergencia), analizar el comportamiento cuando $x \to \infty$:
+Para determinar [convergencia](../..](../../glossary.md)#convergencia), analizar el comportamiento cuando $x \to \infty$:
 
 | Si $f(x) \sim \dfrac{1}{x^p}$ cuando $x \to \infty$ | Entonces |
 |-----------------------------------------------------|----------|
@@ -112,7 +112,7 @@ Para ∫_a^∞ f(x)dx:
 ---
 
 <!--
-IA: Hoja de referencia rápida para [integrales impropias](../../glossary.md#integrales-impropias).
-Para desarrollo completo: theory/CI-05-Teoria-Impropias.md
+IA: Hoja de referencia rápida para [integrales impropias](../..](../../glossary.md)#integrales-impropias).
+Para desarrollo completo: [theory/CI-05-Teoria-Impropias.md](theory/CI-05-Teoria-Impropias.md)
 file_id: CI-05-Resumen-Formulas
 -->

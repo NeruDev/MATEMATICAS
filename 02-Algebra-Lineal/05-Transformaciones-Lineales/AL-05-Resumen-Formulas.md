@@ -15,7 +15,7 @@ audience: student
 
 ## Definición
 
-$T: V \to W$ es **[transformación lineal](../../glossary.md#transformacion-lineal)** si:
+$T: V \to W$ es **[transformación lineal](../..](../../glossary.md)#transformacion-lineal)** si:
 1. $T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})$ (aditividad)
 2. $T(c\vec{v}) = cT(\vec{v})$ (homogeneidad)
 
@@ -30,14 +30,14 @@ $T: V \to W$ es **[transformación lineal](../../glossary.md#transformacion-line
 
 $$\ker(T) = \{\vec{v} \in V : T(\vec{v}) = \vec{0}\}$$
 
-- $\ker(T)$ es [subespacio](../../glossary.md#subespacio) de $V$
+- $\ker(T)$ es [subespacio](../..](../../glossary.md)#subespacio) de $V$
 - **Nulidad**: $\text{nul}(T) = \dim(\ker(T))$
 
 ## Imagen (Rango)
 
 $$\text{Im}(T) = \{T(\vec{v}) : \vec{v} \in V\} = \{w \in W : \exists \vec{v} \in V, T(\vec{v}) = w\}$$
 
-- $\text{Im}(T)$ es [subespacio](../../glossary.md#subespacio) de $W$
+- $\text{Im}(T)$ es [subespacio](../..](../../glossary.md)#subespacio) de $W$
 - **Rango**: $\text{rang}(T) = \dim(\text{Im}(T))$
 
 ## Teorema del rango-nulidad
@@ -56,7 +56,7 @@ $$\dim(V) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
 
 ## Matriz de una transformación lineal
 
-Si $\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es [base](../../glossary.md#base) de $V$ y $\mathcal{C}$ es base de $W$:
+Si $\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es [base](../..](../../glossary.md)#base) de $V$ y $\mathcal{C}$ es base de $W$:
 
 $$[T]_{\mathcal{B}}^{\mathcal{C}} = \begin{pmatrix} | & | & & | \\ [T(\vec{v}_1)]_{\mathcal{C}} & [T(\vec{v}_2)]_{\mathcal{C}} & \cdots & [T(\vec{v}_n)]_{\mathcal{C}} \\ | & | & & | \end{pmatrix}$$
 
@@ -73,7 +73,7 @@ $$[S \circ T] = [S][T]$$
 
 ## Transformación inversa
 
-Si $T: V \to W$ es [isomorfismo](../../glossary.md#isomorfismo):
+Si $T: V \to W$ es [isomorfismo](../..](../../glossary.md)#isomorfismo):
 $$T^{-1}: W \to V$$
 $$T^{-1}(T(\vec{v})) = \vec{v}$$
 
@@ -82,14 +82,14 @@ $$[T^{-1}] = [T]^{-1}$$
 
 ## Cambio de base
 
-Si $T: V \to V$ y cambiamos de [base](../../glossary.md#base) $\mathcal{B}$ a $\mathcal{B}'$:
+Si $T: V \to V$ y cambiamos de [base](../..](../../glossary.md)#base) $\mathcal{B}$ a $\mathcal{B}'$:
 
 $$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}}P$$
 
-donde $P = P_{\mathcal{B}' \to \mathcal{B}}$ es la [matriz](../../glossary.md#matriz) de cambio de base.
+donde $P = P_{\mathcal{B}' \to \mathcal{B}}$ es la [matriz](../..](../../glossary.md)#matriz) de cambio de base.
 
 ### Matrices similares
-$A$ y $B$ son **similares** si existe $P$ invertible [tal que](../../glossary.md#tal-que):
+$A$ y $B$ son **similares** si existe $P$ invertible [tal que](../..](../../glossary.md)#tal-que):
 $$B = P^{-1}AP$$
 
 ## Transformaciones importantes en $\mathbb{R}^2$

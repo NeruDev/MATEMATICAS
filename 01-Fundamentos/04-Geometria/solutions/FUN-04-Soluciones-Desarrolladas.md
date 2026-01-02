@@ -49,7 +49,7 @@ d) **FALSO.** Una semirrecta tiene exactamente un punto extremo (su origen).
 **Contexto:** Los puntos sobre una recta se pueden ordenar y las distancias se suman algebraicamente.
 
 **Desarrollo:**
-Como los puntos están en [orden](../../../glossary.md#orden) $A$, $B$, $C$, $D$:
+Como los puntos están en [orden](../../..](../../../glossary.md)#orden) $A$, $B$, $C$, $D$:
 $$AD = AB + BC + CD$$
 $$12 = 3 + 5 + CD$$
 $$CD = 12 - 8 = 4 \text{ cm}$$
@@ -122,7 +122,7 @@ $$MN = a + b = \frac{2(a+b)}{2} = \frac{AC}{2}$$
 **Contexto:** Los ángulos se clasifican según su medida en: agudo (0°-90°), recto (90°), obtuso (90°-180°), llano (180°), cóncavo (180°-360°) y completo (360°).
 
 **Desarrollo:**
-a) 47° → **Agudo** ([menor](../../../glossary.md#menor) que 90°)
+a) 47° → **Agudo** ([menor](../../..](../../../glossary.md)#menor) que 90°)
 b) 90° → **Recto** (exactamente 90°)
 c) 123° → **Obtuso** (entre 90° y 180°)
 d) 180° → **Llano** (exactamente 180°)
@@ -135,7 +135,7 @@ f) 360° → **Completo/perigonal** (exactamente 360°)
 **Contexto:** Dos ángulos complementarios suman 90°.
 
 **Desarrollo:**
-Sea $x$ el ángulo [menor](../../../glossary.md#menor). El otro ángulo es $3x$.
+Sea $x$ el ángulo [menor](../../..](../../../glossary.md)#menor). El otro ángulo es $3x$.
 $$x + 3x = 90°$$
 $$4x = 90°$$
 $$x = 22.5°$$
@@ -212,10 +212,10 @@ $$\angle C = 180° - 45° - 72° = 63°$$
 ---
 
 ### Solución 4.3.2
-**Contexto:** En un triángulo isósceles, los ángulos de la [base](../../../glossary.md#base) (opuestos a los lados iguales) son iguales.
+**Contexto:** En un triángulo isósceles, los ángulos de la [base](../../..](../../../glossary.md)#base) (opuestos a los lados iguales) son iguales.
 
 **Desarrollo:**
-El ángulo de 100° debe ser el ángulo del vértice (no puede ser de la [base](../../../glossary.md#base), pues $2 \times 100° = 200° > 180°$).
+El ángulo de 100° debe ser el ángulo del vértice (no puede ser de la [base](../../..](../../../glossary.md)#base), pues $2 \times 100° = 200° > 180°$).
 
 Sea $x$ el ángulo de cada ángulo de la base:
 $$100° + x + x = 180°$$
@@ -511,10 +511,10 @@ $$A = \frac{120°}{360°} \times \pi(6)^2 = \frac{1}{3} \times 36\pi = 12\pi \ap
 ---
 
 ### Solución 4.6.8
-**Contexto:** La [tangente](../../../glossary.md#tangente) desde un punto exterior es perpendicular al radio en el punto de tangencia, formando un triángulo rectángulo.
+**Contexto:** La [tangente](../../..](../../../glossary.md)#tangente) desde un punto exterior es perpendicular al radio en el punto de tangencia, formando un triángulo rectángulo.
 
 **Desarrollo:**
-Sea $T$ la longitud de la [tangente](../../../glossary.md#tangente):
+Sea $T$ la longitud de la [tangente](../../..](../../../glossary.md)#tangente):
 $$T^2 + 5^2 = 13^2$$
 $$T^2 = 169 - 25 = 144$$
 $$T = 12 \text{ cm}$$

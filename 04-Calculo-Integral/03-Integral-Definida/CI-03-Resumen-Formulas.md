@@ -27,7 +27,7 @@ donde $\Delta x = \dfrac{b-a}{n}$ y $x_i^* \in [x_{i-1}, x_i]$
 
 $$\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$$
 
-**Forma general ([regla de la cadena](../../glossary.md#regla-de-la-cadena)):**
+**Forma general ([regla de la cadena](../..](../../glossary.md)#regla-de-la-cadena)):**
 
 $$\frac{d}{dx}\int_{g(x)}^{h(x)} f(t)\,dt = f(h(x)) \cdot h'(x) - f(g(x)) \cdot g'(x)$$
 
@@ -82,7 +82,7 @@ $$f_{\text{prom}} = \frac{1}{b-a}\int_a^b f(x)\,dx$$
 
 ## Teorema del valor medio para integrales
 
-Si $f$ es continua en $[a,b]$, existe $c \in [a,b]$ [tal que](../../glossary.md#tal-que):
+Si $f$ es continua en $[a,b]$, existe $c \in [a,b]$ [tal que](../..](../../glossary.md)#tal-que):
 $$\int_a^b f(x)\,dx = f(c)(b-a)$$
 
 ## Integrales definidas notables
@@ -96,7 +96,7 @@ $$\int_0^{2\pi} \sin x\,dx = \int_0^{2\pi} \cos x\,dx = 0$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [integral definida](../../glossary.md#integral-definida).
-Para desarrollo completo: theory/CI-03-Teoria-Integral-Definida.md
+IA: Hoja de referencia rápida para [integral definida](../..](../../glossary.md)#integral-definida).
+Para desarrollo completo: [theory/CI-03-Teoria-Integral-Definida.md](theory/CI-03-Teoria-Integral-Definida.md)
 file_id: CI-03-Resumen-Formulas
 -->

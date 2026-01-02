@@ -48,7 +48,7 @@ $$\boxed{a + b \text{ es irracional}}$$
 - $\frac{5}{7} \approx 0.714...$
 - $0.\overline{72} = 0.7272...$
 
-**[Orden](../../../glossary.md#orden):** $0.7 < \frac{5}{7} < 0.\overline{72} < \frac{3}{4}$
+**[Orden](../../..](../../../glossary.md)#orden):** $0.7 < \frac{5}{7} < 0.\overline{72} < \frac{3}{4}$
 
 **6)** *Contexto: Usamos la propiedad de densidad de ℚ.*
 
@@ -141,8 +141,8 @@ Primos a probar: 2, 3, 5, 7, 11
 
 **127 es primo** ✓
 
-**25)** *Contexto: Buscamos $\text{[MCM](../../../glossary.md#mcm)}(4,6,9) + 1$*
-$$\text{[MCM](../../../glossary.md#mcm)}(4,6,9) = \text{MCM}(2^2, 2 \times 3, 3^2) = 2^2 \times 3^2 = 36$$
+**25)** *Contexto: Buscamos $\text{[MCM](../../..](../../../glossary.md)#mcm)}(4,6,9) + 1$*
+$$\text{[MCM](../../..](../../../glossary.md)#mcm)}(4,6,9) = \text{MCM}(2^2, 2 \times 3, 3^2) = 2^2 \times 3^2 = 36$$
 $$\boxed{36 + 1 = 37}$$
 
 **26)** *Contexto: Listamos primos en el rango.*
@@ -180,7 +180,7 @@ $$11 \times 13 \times 17 = 143 \times 17 = 2431$$ ✓
 - $84 = 2^2 \times 3 \times 7$
 - $126 = 2 \times 3^2 \times 7$
 
-$\text{[MCD](../../../glossary.md#mcd)} = 2^1 \times 3^1 \times 7^1 = \boxed{42}$
+$\text{[MCD](../../..](../../../glossary.md)#mcd)} = 2^1 \times 3^1 \times 7^1 = \boxed{42}$
 
 **32)** *Contexto: Aplicamos algoritmo de Euclides.*
 $$252 = 198 \times 1 + 54$$
@@ -188,13 +188,13 @@ $$198 = 54 \times 3 + 36$$
 $$54 = 36 \times 1 + 18$$
 $$36 = 18 \times 2 + 0$$
 
-$\text{[MCD](../../../glossary.md#mcd)}(252, 198) = \boxed{18}$
+$\text{[MCD](../../..](../../../glossary.md)#mcd)}(252, 198) = \boxed{18}$
 
 **33)** *Contexto: $18 = 2 \times 3^2$, $24 = 2^3 \times 3$, $30 = 2 \times 3 \times 5$*
 
 $\text{MCM} = 2^3 \times 3^2 \times 5 = \boxed{360}$
 
-**34)** *Contexto: $a$ debe ser múltiplo de 12 [tal que](../../../glossary.md#tal-que) $\text{MCD}(a, 36) = 12$.*
+**34)** *Contexto: $a$ debe ser múltiplo de 12 [tal que](../../..](../../../glossary.md)#tal-que) $\text{MCD}(a, 36) = 12$.*
 
 $36 = 2^2 \times 3^2$ y $12 = 2^2 \times 3$
 
@@ -222,7 +222,7 @@ $$a \times b = 6 \times 180 = \boxed{1080}$$
 
 $\text{MCM}(12, 15, 20) = \text{MCM}(2^2 \times 3, 3 \times 5, 2^2 \times 5) = 2^2 \times 3 \times 5 = 60$
 
-[Menor](../../../glossary.md#menor) número de 4 dígitos: $\lceil 1000/60 \rceil \times 60 = 17 \times 60 = \boxed{1020}$
+[Menor](../../..](../../../glossary.md)#menor) número de 4 dígitos: $\lceil 1000/60 \rceil \times 60 = 17 \times 60 = \boxed{1020}$
 
 **38)** *Contexto: Dividimos numerador y denominador por su MCD.*
 
@@ -254,19 +254,19 @@ $$\frac{2}{3} \times \frac{9}{14} \div \frac{3}{7} = \frac{2}{3} \times \frac{9}
 - $\frac{7}{12} = \frac{14}{24}$
 - $\frac{2}{3} = \frac{16}{24}$
 
-**[Orden](../../../glossary.md#orden):** $\frac{7}{12} < \frac{5}{8} < \frac{2}{3}$
+**[Orden](../../..](../../../glossary.md)#orden):** $\frac{7}{12} < \frac{5}{8} < \frac{2}{3}$
 
 **44)** *Contexto: Simplificamos $\frac{36}{48}$.*
 $$\frac{36}{48} = \frac{36 \div 12}{48 \div 12} = \frac{3}{4}$$
 $$a + b = 3 + 4 = \boxed{7}$$
 
-**45)** *Contexto: Usamos [fracciones parciales](../../../glossary.md#fracciones-parciales): $\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$*
+**45)** *Contexto: Usamos [fracciones parciales](../../..](../../../glossary.md)#fracciones-parciales): $\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$*
 $$= \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{4}\right) + \left(\frac{1}{4} - \frac{1}{5}\right) = 1 - \frac{1}{5} = \boxed{\frac{4}{5}}$$
 
 **46)** *Contexto: Combinamos fracciones con igual denominador.*
 $$\frac{5}{x} = \frac{5}{6} \Rightarrow x = \boxed{6}$$
 
-**47)** *Contexto: Multiplicamos la cantidad por el [factor de escala](../../../glossary.md#factor-de-escala).*
+**47)** *Contexto: Multiplicamos la cantidad por el [factor de escala](../../..](../../../glossary.md)#factor-de-escala).*
 $$\frac{2}{3} \times 1\frac{1}{2} = \frac{2}{3} \times \frac{3}{2} = \boxed{1 \text{ taza}}$$
 
 **48)** *Contexto: Simplificamos numerador y denominador por separado.*
@@ -312,7 +312,7 @@ $$x = \frac{84}{0.35} = \boxed{240}$$
 
 **56)** *Contexto: Calculamos el efecto combinado.*
 $$P_{\text{final}} = P \times 1.20 \times 0.80 = P \times 0.96$$
-El precio final es **[menor](../../../glossary.md#menor)** (4% menos que el original)
+El precio final es **[menor](../../..](../../../glossary.md)#menor)** (4% menos que el original)
 
 **57)** *Contexto: Convertimos todo a decimales.*
 - $0.45 = 0.45$
@@ -338,10 +338,10 @@ $$\frac{7}{12} \times 100 = \boxed{58.33\%}$$
 **61)** *Contexto: Aplicamos $a^m \times a^n = a^{m+n}$ y $a^m \div a^n = a^{m-n}$*
 $$2^3 \times 2^5 \div 2^4 = 2^{3+5-4} = 2^4 = \boxed{16}$$
 
-**62)** *Contexto: Exponente negativo invierte la [base](../../../glossary.md#base).*
+**62)** *Contexto: Exponente negativo invierte la [base](../../..](../../../glossary.md)#base).*
 $$\left(\frac{3}{4}\right)^{-2} = \left(\frac{4}{3}\right)^2 = \boxed{\frac{16}{9}}$$
 
-**63)** *Contexto: Expresamos en [base](../../../glossary.md#base) prima.*
+**63)** *Contexto: Expresamos en [base](../../..](../../../glossary.md)#base) prima.*
 $$\frac{6^5 \times 9^2}{2^4 \times 27} = \frac{(2 \times 3)^5 \times (3^2)^2}{2^4 \times 3^3} = \frac{2^5 \times 3^5 \times 3^4}{2^4 \times 3^3} = 2^1 \times 3^6 = 2 \times 729 = \boxed{1458}$$
 
 **64)** *Contexto: Evaluamos cada radical.*

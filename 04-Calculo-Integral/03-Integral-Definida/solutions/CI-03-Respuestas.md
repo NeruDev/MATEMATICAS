@@ -65,4 +65,4 @@ solved_detailed: 0
 | [Prob-41] | $a = 2\sqrt[3]{3}$ | ➖ |
 | [Prob-42] | Demostración por [sustitución](../../../glossary.md#sustitucion) $u = \dfrac{\pi}{2} - x$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CI-03-Problemas.md`](../problems/CI-03-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CI-03-Problemas.md](../problems/CI-03-Problemas.md)

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-01-[edo](../../../glossary.md#edo)-primer-[orden](../../../glossary.md#orden)
+topic_id: ed-01-[edo](../../..](../../../glossary.md)#edo)-primer-[orden](../../..](../../../glossary.md)#orden)
 file_id: ED-01-Respuestas
 status: stable
 audience: student
@@ -72,4 +72,4 @@ $$\frac{dy}{dx} = f\left(\frac{y}{x}\right) \quad\Rightarrow\quad v = \frac{y}{x
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/ED-01-Problemas.md`](../problems/ED-01-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/ED-01-Problemas.md](../problems/ED-01-Problemas.md)

@@ -103,7 +103,7 @@ $$a \cdot (b + c) = a \cdot b + a \cdot c$$
 
 ### Jerarquía de operaciones (PEMDAS)
 
-[Orden](../../../glossary.md#orden) de evaluación:
+[Orden](../../..](../../../glossary.md)#orden) de evaluación:
 1. **P**aréntesis (y otros agrupadores)
 2. **E**xponentes (potencias y raíces)
 3. **M**ultiplicación y **D**ivisión (izquierda a derecha)
@@ -127,7 +127,7 @@ $$a \cdot (b + c) = a \cdot b + a \cdot c$$
 
 ### Divisibilidad
 
-**Definición**: Decimos que $a$ **divide** a $b$ (escrito $a \mid b$) si existe un entero $k$ [tal que](../../../glossary.md#tal-que) $b = a \cdot k$.
+**Definición**: Decimos que $a$ **divide** a $b$ (escrito $a \mid b$) si existe un entero $k$ [tal que](../../..](../../../glossary.md)#tal-que) $b = a \cdot k$.
 
 **Ejemplos**: $3 \mid 12$ porque $12 = 3 \times 4$. Pero $3 \nmid 10$.
 
@@ -157,7 +157,7 @@ $$a \cdot (b + c) = a \cdot b + a \cdot c$$
 
 ### Teorema fundamental de la aritmética
 
-> Todo entero $n > 1$ puede expresarse de manera **única** como producto de primos (salvo el [orden](../../../glossary.md#orden) de los factores).
+> Todo entero $n > 1$ puede expresarse de manera **única** como producto de primos (salvo el [orden](../../..](../../../glossary.md)#orden) de los factores).
 
 $$n = p_1^{a_1} \cdot p_2^{a_2} \cdot \ldots \cdot p_k^{a_k}$$
 
@@ -172,13 +172,13 @@ $$n = p_1^{a_1} \cdot p_2^{a_2} \cdot \ldots \cdot p_k^{a_k}$$
 
 ### Máximo Común Divisor
 
-**Definición**: El [MCD](../../../glossary.md#mcd) de dos números es el mayor número que divide a ambos.
+**Definición**: El [MCD](../../..](../../../glossary.md)#mcd) de dos números es el mayor número que divide a ambos.
 
-$$\text{[MCD](../../../glossary.md#mcd)}(a, b) = \max\{d : d \mid a \text{ y } d \mid b\}$$
+$$\text{[MCD](../../..](../../../glossary.md)#mcd)}(a, b) = \max\{d : d \mid a \text{ y } d \mid b\}$$
 
-**Método por [factorización](../../../glossary.md#factorizacion)**:
+**Método por [factorización](../../..](../../../glossary.md)#factorizacion)**:
 1. Descomponer ambos números en factores primos.
-2. Tomar los factores comunes con el **[menor](../../../glossary.md#menor)** exponente.
+2. Tomar los factores comunes con el **[menor](../../..](../../../glossary.md)#menor)** exponente.
 
 **Ejemplo**: $\text{MCD}(60, 84)$
 - $60 = 2^2 \cdot 3 \cdot 5$
@@ -201,11 +201,11 @@ Repetir hasta que el residuo sea 0.
 
 ### Mínimo Común Múltiplo
 
-**Definición**: El [MCM](../../../glossary.md#mcm) de dos números es el [menor](../../../glossary.md#menor) número positivo divisible por ambos.
+**Definición**: El [MCM](../../..](../../../glossary.md)#mcm) de dos números es el [menor](../../..](../../../glossary.md)#menor) número positivo divisible por ambos.
 
-$$\text{[MCM](../../../glossary.md#mcm)}(a, b) = \min\{m > 0 : a \mid m \text{ y } b \mid m\}$$
+$$\text{[MCM](../../..](../../../glossary.md)#mcm)}(a, b) = \min\{m > 0 : a \mid m \text{ y } b \mid m\}$$
 
-**Método por [factorización](../../../glossary.md#factorizacion)**:
+**Método por [factorización](../../..](../../../glossary.md)#factorizacion)**:
 1. Descomponer ambos números en factores primos.
 2. Tomar todos los factores con el **mayor** exponente.
 
@@ -389,7 +389,7 @@ La aritmética sustenta estructuras de mayor complejidad en:
 
 ### Fundamentación axiomática de $\mathbb{N}$ (Axiomas de Peano)
 
-Sea $N$ un conjunto y $S: N \to N$ la [función](../../../glossary.md#funcion) sucesor. Existe un elemento distinguido $1 \in N$ [tal que](../../../glossary.md#tal-que):
+Sea $N$ un conjunto y $S: N \to N$ la [función](../../..](../../../glossary.md)#funcion) sucesor. Existe un elemento distinguido $1 \in N$ [tal que](../../..](../../../glossary.md)#tal-que):
 
 1. **Existencia del elemento inicial:** $1 \in N$.
 2. **Clausura bajo sucesión:** $\forall n \in N,\ S(n) \in N$.
@@ -481,6 +481,6 @@ Si $p=7$ y queremos verificar si $7 \mid (84\cdot 25)$:
 
 <!--
 IA: Teoría completa de aritmética.
-Incluye [fundamentos](../../../glossary.md#fundamentos) axiomáticos (Peano) y TFA formal.
+Incluye [fundamentos](../../..](../../../glossary.md)#fundamentos) axiomáticos (Peano) y TFA formal.
 file_id: FUN-02-Teoria-Aritmetica
 -->

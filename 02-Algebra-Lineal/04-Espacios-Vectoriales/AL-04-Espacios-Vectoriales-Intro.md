@@ -15,7 +15,7 @@ audience: student
 
 ## Propósito
 
-Los [espacios vectoriales](../../glossary.md#espacios-vectoriales) proporcionan el marco abstracto que unifica el [álgebra lineal](../../glossary.md#algebra-lineal). Este módulo desarrolla los conceptos fundamentales de [independencia lineal](../../glossary.md#independencia-lineal), bases y [dimensión](../../glossary.md#dimension), que son esenciales para comprender [transformaciones lineales](../../glossary.md#transformaciones-lineales), valores propios y aplicaciones avanzadas.
+Los [espacios vectoriales](../..](../../glossary.md)#espacios-vectoriales) proporcionan el marco abstracto que unifica el [álgebra lineal](../..](../../glossary.md)#algebra-lineal). Este módulo desarrolla los conceptos fundamentales de [independencia lineal](../..](../../glossary.md)#independencia-lineal), bases y [dimensión](../..](../../glossary.md)#dimension), que son esenciales para comprender [transformaciones lineales](../..](../../glossary.md)#transformaciones-lineales), valores propios y aplicaciones avanzadas.
 
 ## Mapa de recursos
 
@@ -47,11 +47,11 @@ Los [espacios vectoriales](../../glossary.md#espacios-vectoriales) proporcionan 
 
 ### Secuencia recomendada
 
-1. **[Fundamentos](../../glossary.md#fundamentos)** (1.5h): Axiomas de [espacio vectorial](../../glossary.md#espacio-vectorial) y ejemplos
+1. **[Fundamentos](../..](../../glossary.md)#fundamentos)** (1.5h): Axiomas de [espacio vectorial](../..](../../glossary.md)#espacio-vectorial) y ejemplos
 2. **Subespacios** (1h): Criterios y construcción de subespacios
 3. **Generadores** (1.5h): Span y combinaciones lineales
 4. **Independencia** (1.5h): Criterios y aplicaciones
-5. **Bases** (2h): [Dimensión](../../glossary.md#dimension), coordenadas y cambio de [base](../../glossary.md#base)
+5. **Bases** (2h): [Dimensión](../..](../../glossary.md)#dimension), coordenadas y cambio de [base](../..](../../glossary.md)#base)
 
 ## Prerequisitos
 
@@ -61,4 +61,4 @@ Los [espacios vectoriales](../../glossary.md#espacios-vectoriales) proporcionan 
 ## Conexiones
 
 - **Siguiente**: [05-Transformaciones-Lineales](../05-Transformaciones-Lineales/AL-05-Transformaciones-Lineales-Intro.md)
-- **Aplica en**: [Transformaciones lineales](../../glossary.md#transformaciones-lineales), valores propios, espacios de funciones, mecánica cuántica
+- **Aplica en**: [Transformaciones lineales](../..](../../glossary.md)#transformaciones-lineales), valores propios, espacios de funciones, mecánica cuántica

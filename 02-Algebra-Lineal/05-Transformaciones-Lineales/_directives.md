@@ -25,5 +25,5 @@ audience: ai_context
 
 - **Audiencia:** Estudiante universitario de álgebra lineal
 - **Formato de salida:** Markdown con LaTeX
-- **Notación:** Seguir `00-META/notation-cheatsheet.md`
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
 - **Tareas permitidas:** explain_concept, generate_problems, convert_format, verify_solution, diagnostic_check

@@ -1,7 +1,7 @@
 <!--
 ---
 content_type: problem_set
-topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
+topic_id: al-02-[determinantes](../../..](../../../glossary.md)#determinantes)
 file_id: AL-02-Problemas
 total_problems: 28
 difficulty_distribution:
@@ -24,7 +24,7 @@ difficulty_distribution:
 
 ### [Prob-01] Determinante 2×2 básico ⭐
 
-Calcular el [determinante](../../../glossary.md#determinante):
+Calcular el [determinante](../../..](../../../glossary.md)#determinante):
 
 $$\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix}$$
 
@@ -34,7 +34,7 @@ $$\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix}$$
 
 ### [Prob-02] Determinante 2×2 con negativos ⭐
 
-Calcular el [determinante](../../../glossary.md#determinante):
+Calcular el [determinante](../../..](../../../glossary.md)#determinante):
 
 $$\begin{vmatrix} 5 & -2 \\ 3 & 7 \end{vmatrix}$$
 
@@ -274,7 +274,7 @@ $$\text{Área} = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1
 
 ### [Prob-27] Determinante de potencia de matriz ⭐⭐⭐
 
-Si $A$ es una [matriz](../../../glossary.md#matriz) $n \times n$ y $\det(A) = 5$, hallar $\det(A^3)$.
+Si $A$ es una [matriz](../../..](../../../glossary.md)#matriz) $n \times n$ y $\det(A) = 5$, hallar $\det(A^3)$.
 
 > 📎 [Solución](../solutions/prob-27/)
 

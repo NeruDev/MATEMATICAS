@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Solución Numérica de EDO
 
-> **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../../glossary.md#metodos-numericos) para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos) para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
@@ -59,7 +59,7 @@ $$\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0$$
 
 ### Estabilidad
 
-Un método es **estable** si los errores no crecen sin [límite](../../../glossary.md#limite).
+Un método es **estable** si los errores no crecen sin [límite](../../..](../../../glossary.md)#limite).
 
 **Región de estabilidad:** Valores de $h\lambda$ donde el método es estable para $y' = \lambda y$.
 
@@ -69,9 +69,9 @@ Un método es **estable** si los errores no crecen sin [límite](../../../glossa
 
 ### Cuándo Usar
 
-- Introducción a [métodos numéricos](../../../glossary.md#metodos-numericos)
+- Introducción a [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos)
 - Problemas donde la velocidad prima sobre precisión
-- [Base](../../../glossary.md#base) para métodos más avanzados
+- [Base](../../..](../../../glossary.md)#base) para métodos más avanzados
 
 ### Fórmula
 
@@ -243,8 +243,8 @@ $$\boxed{y(0.4) \approx 1.5818}$$
 ### Cuándo Usar
 
 - Alternativa a Heun
-- Precisión de segundo [orden](../../../glossary.md#orden)
-- [Base](../../../glossary.md#base) para entender RK2
+- Precisión de segundo [orden](../../..](../../../glossary.md)#orden)
+- [Base](../../..](../../../glossary.md)#base) para entender RK2
 
 ### Fórmula
 
@@ -284,7 +284,7 @@ def punto_medio(f, x0, y0, xf, h):
 
 - Compromiso velocidad-precisión
 - Entender la estructura de métodos RK
-- Problemas donde $O(h^2)$ es [suficiente](../../../glossary.md#suficiente)
+- Problemas donde $O(h^2)$ es [suficiente](../../..](../../../glossary.md)#suficiente)
 
 ### Familia RK2
 
@@ -560,7 +560,7 @@ $$= 1.3997 + \frac{0.1}{24}(44.13) = 1.3997 + 0.1839 = 1.5836$$
 
 - Mayor precisión que Adams-Bashforth del mismo orden
 - Como corrector en métodos predictor-corrector
-- [EDO](../../../glossary.md#edo) menos rígidas
+- [EDO](../../..](../../../glossary.md)#edo) menos rígidas
 
 ### Idea
 
@@ -724,7 +724,7 @@ def euler_implicito(f, x0, y0, xf, h, tol=1e-8, max_iter=100):
 
 - EDO rígidas con precisión $O(h^2)$
 - A-estable
-- Ecuaciones en [derivadas](../../../glossary.md#derivadas) parciales parabólicas
+- Ecuaciones en [derivadas](../../..](../../../glossary.md)#derivadas) parciales parabólicas
 
 ### Fórmula
 
@@ -837,7 +837,7 @@ $$z_2' = -4z_1$$
 
 ---
 
-**Paso 2: Definir [función](../../../glossary.md#funcion)**
+**Paso 2: Definir [función](../../..](../../../glossary.md)#funcion)**
 
 ```python
 def f(x, z):

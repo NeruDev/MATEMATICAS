@@ -17,15 +17,15 @@ requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
 
 ## Propósito del tema
 
-Aplicar la [integral definida](../../glossary.md#integral-definida) para resolver problemas geométricos y físicos: cálculo de áreas, volúmenes, longitud de arco, área de superficie y trabajo.
+Aplicar la [integral definida](../..](../../glossary.md)#integral-definida) para resolver problemas geométricos y físicos: cálculo de áreas, volúmenes, longitud de arco, área de superficie y trabajo.
 
 ## Mapa de recursos
 
 ```
-CI-04-Aplicaciones-Integral-Intro.md    ← Estás aquí
-CI-04-Resumen-Formulas.md               ← Fórmulas clave para repaso
+[CI-04-Aplicaciones-Integral-Intro.md](CI-04-Aplicaciones-Integral-Intro.md)    ← Estás aquí
+[CI-04-Resumen-Formulas.md](CI-04-Resumen-Formulas.md)               ← Fórmulas clave para repaso
 theory/
-  └── CI-04-Teoria-Aplicaciones.md      ← Desarrollo completo
+  └── [CI-04-Teoria-Aplicaciones.md](CI-04-Teoria-Aplicaciones.md)      ← Desarrollo completo
 methods/
   └── [métodos paso a paso]
 problems/
@@ -46,7 +46,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerrequisitos**: [Integral definida](../../glossary.md#integral-definida), [Técnicas de integración](../../glossary.md#tecnicas-de-integracion), Geometría analítica
+- **Prerrequisitos**: [Integral definida](../..](../../glossary.md)#integral-definida), [Técnicas de integración](../..](../../glossary.md)#tecnicas-de-integracion), Geometría analítica
 - **Usos posteriores**: Cálculo vectorial, Física, Ingeniería
 
 ## Vista previa de conceptos clave

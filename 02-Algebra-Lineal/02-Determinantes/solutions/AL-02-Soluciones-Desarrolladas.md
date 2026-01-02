@@ -77,7 +77,7 @@ $$\det = 2(-2) + 1(5) + 3(-20) = -4 + 5 - 60 = -59$$
 **Enunciado:** $\begin{vmatrix} 1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 1 \end{vmatrix}$
 
 **Solución:**
-Es una [matriz](../../../glossary.md#matriz) triangular superior. El [determinante](../../../glossary.md#determinante) es el producto de la diagonal:
+Es una [matriz](../../..](../../../glossary.md)#matriz) triangular superior. El [determinante](../../..](../../../glossary.md)#determinante) es el producto de la diagonal:
 
 $$\det = 1 \cdot 1 \cdot 1 \cdot 1 = 1$$
 
@@ -93,7 +93,7 @@ Cofactores:
 - $C_{21} = -1$
 - $C_{22} = 2$
 
-[Matriz](../../../glossary.md#matriz) de cofactores: $C = \begin{pmatrix} 3 & -5 \\ -1 & 2 \end{pmatrix}$
+[Matriz](../../..](../../../glossary.md)#matriz) de cofactores: $C = \begin{pmatrix} 3 & -5 \\ -1 & 2 \end{pmatrix}$
 
 $$\text{adj}(A) = C^T = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
 

@@ -19,7 +19,7 @@ status: active
 
 **Cuándo Usar:** Para evaluar correctamente cualquier expresión aritmética que contenga múltiples operaciones.
 
-**Regla:** La jerarquía evita ambigüedad en el [orden](../../../glossary.md#orden) de las operaciones.
+**Regla:** La jerarquía evita ambigüedad en el [orden](../../..](../../../glossary.md)#orden) de las operaciones.
 
 ### Algoritmo de Resolución
 
@@ -98,7 +98,7 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 ## Método 2: Descomponer en Factores Primos
 
-**Cuándo Usar:** [Base](../../../glossary.md#base) fundamental para calcular [MCD](../../../glossary.md#mcd), [MCM](../../../glossary.md#mcm), simplificar fracciones y raíces.
+**Cuándo Usar:** [Base](../../..](../../../glossary.md)#base) fundamental para calcular [MCD](../../..](../../../glossary.md)#mcd), [MCM](../../..](../../../glossary.md)#mcm), simplificar fracciones y raíces.
 
 **Definición:** Todo número entero mayor que 1 puede expresarse como producto de números primos de manera única (Teorema Fundamental de la Aritmética).
 
@@ -114,7 +114,7 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../../glossary.md#factorizar) 2520 en primos.
+**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) 2520 en primos.
 
 ---
 
@@ -148,7 +148,7 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Cuándo Usar:** Para simplificar fracciones al máximo o encontrar el mayor divisor común de varios números.
 
-**Definición:** El [MCD](../../../glossary.md#mcd) es el mayor número que divide exactamente a todos los números dados.
+**Definición:** El [MCD](../../..](../../../glossary.md)#mcd) es el mayor número que divide exactamente a todos los números dados.
 
 ### Algoritmo de Resolución
 
@@ -251,9 +251,9 @@ $$\boxed{\text{MCD}(1071, 462) = 21}$$
 
 **Objetivo:** Encontrar $x, y$ tales que $ax + by = \text{MCD}(a, b)$
 
-**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../../glossary.md#combinacion-lineal).
+**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal).
 
-**Método de [sustitución](../../../glossary.md#sustitucion) hacia atrás:**
+**Método de [sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás:**
 
 De la tabla:
 - $21 = 462 - 147 \times 3$
@@ -272,7 +272,7 @@ $$\boxed{21 = 462(7) + 1071(-3)}$$
 
 **Cuándo Usar:** Para encontrar denominadores comunes en sumas de fracciones, problemas de ciclos.
 
-**Definición:** El [MCM](../../../glossary.md#mcm) es el menor número que es múltiplo de todos los números dados.
+**Definición:** El [MCM](../../..](../../../glossary.md)#mcm) es el menor número que es múltiplo de todos los números dados.
 
 ### Algoritmo de Resolución
 

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: problem_set
-topic_id: ed-01-[edo](../../../glossary.md#edo)-primer-[orden](../../../glossary.md#orden)
+topic_id: ed-01-[edo](../../..](../../../glossary.md)#edo)-primer-[orden](../../..](../../../glossary.md)#orden)
 file_id: ED-01-Problemas
 status: stable
 audience: student
@@ -22,7 +22,7 @@ difficulty_distribution: {basic: 10, intermediate: 12, advanced: 6}
 
 ### [Prob-01] Clasificación de EDOs por orden y grado ⭐
 
-Clasificar las siguientes ecuaciones por [orden](../../../glossary.md#orden) y grado:
+Clasificar las siguientes ecuaciones por [orden](../../..](../../../glossary.md)#orden) y grado:
 
 a) $\frac{dy}{dx} + xy = e^x$
 
@@ -36,7 +36,7 @@ c) $y''' + (y')^3 = \sin x$
 
 ### [Prob-02] Verificación de solución general (lineal) ⭐
 
-Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../../glossary.md#solucion-general) de $\frac{dy}{dx} + y = x$.
+Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../..](../../../glossary.md)#solucion-general) de $\frac{dy}{dx} + y = x$.
 
 > 📁 Solución: `solutions/prob-02/`
 
@@ -44,7 +44,7 @@ Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../../glossary.md#
 
 ### [Prob-03] Verificación de solución general (no lineal) ⭐
 
-Para $\frac{dy}{dx} = y^2$, verificar que $y = -\frac{1}{x+C}$ es [solución general](../../../glossary.md#solucion-general).
+Para $\frac{dy}{dx} = y^2$, verificar que $y = -\frac{1}{x+C}$ es [solución general](../../..](../../../glossary.md)#solucion-general).
 
 > 📁 Solución: `solutions/prob-03/`
 
@@ -166,7 +166,7 @@ Resolver el PVI: $(y\cos x + 2xe^y)dx + (\sin x + x^2e^y)dy = 0$, $y(0) = 0$
 
 ### [Prob-15] Factor integrante básico ⭐⭐
 
-Encontrar el [factor integrante](../../../glossary.md#factor-integrante) y resolver:
+Encontrar el [factor integrante](../../..](../../../glossary.md)#factor-integrante) y resolver:
 
 a) $(y + 1)dx - xdy = 0$
 
@@ -290,7 +290,7 @@ Si $i(0) = 0$, encontrar $i(t)$.
 
 ### [Prob-27] Problema de Mezcla ⭐⭐⭐
 
-Un tanque contiene 100L de agua con 10kg de sal. Entra solución a 3L/min con concentración 0.2 kg/L, y sale mezcla a 3L/min. Encontrar la cantidad de sal en el tanque en [función](../../../glossary.md#funcion) del tiempo.
+Un tanque contiene 100L de agua con 10kg de sal. Entra solución a 3L/min con concentración 0.2 kg/L, y sale mezcla a 3L/min. Encontrar la cantidad de sal en el tanque en [función](../../..](../../../glossary.md)#funcion) del tiempo.
 
 > 📁 Solución: `solutions/prob-27/`
 

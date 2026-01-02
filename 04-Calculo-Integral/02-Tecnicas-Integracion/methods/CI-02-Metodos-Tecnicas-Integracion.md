@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Métodos de [técnicas de integración](../../../glossary.md#tecnicas-de-integracion).
+Métodos de [técnicas de integración](../../..](../../../glossary.md)#tecnicas-de-integracion).
 
 IA:
 Procedimientos paso a paso para cada técnica.
@@ -27,8 +27,8 @@ audience: self-study
 ## Método 1: Sustitución Simple
 
 ### Cuándo Usar
-- Se identifica una [función](../../../glossary.md#funcion) y su [derivada](../../../glossary.md#derivada) (o múltiplo) en el integrando
-- Hay una "[función](../../../glossary.md#funcion) interna" compuesta
+- Se identifica una [función](../../..](../../../glossary.md)#funcion) y su [derivada](../../..](../../../glossary.md)#derivada) (o múltiplo) en el integrando
+- Hay una "[función](../../..](../../../glossary.md)#funcion) interna" compuesta
 
 ### Algoritmo de Resolución
 
@@ -47,7 +47,7 @@ audience: self-study
 
 **Paso 1:** Identificamos la función interna:
 $$u = x^2 + 1$$
-Observamos que $x$ (que está en el numerador) es proporcional a la [derivada](../../../glossary.md#derivada) de $u$.
+Observamos que $x$ (que está en el numerador) es proporcional a la [derivada](../../..](../../../glossary.md)#derivada) de $u$.
 
 **Paso 2:** Calculamos $du$:
 $$du = 2x \, dx$$
@@ -73,7 +73,7 @@ $$\int \frac{x}{x^2+1} \, dx = \frac{1}{2}\ln(x^2+1) + C$$
 ### Cuándo Usar
 - Producto de funciones de diferentes tipos
 - Integrales de $\ln x$, funciones trigonométricas inversas
-- Cuando la [sustitución](../../../glossary.md#sustitucion) simple no funciona
+- Cuando la [sustitución](../../..](../../../glossary.md)#sustitucion) simple no funciona
 
 ### Fórmula Fundamental
 $$\int u \, dv = uv - \int v \, du$$
@@ -159,13 +159,13 @@ $$\int \sin^2 x \cos^3 x \, dx = \int \sin^2 x \cos^2 x \cdot \cos x \, dx$$
 **Paso 2:** Convertimos $\cos^2 x$ usando la identidad pitagórica:
 $$= \int \sin^2 x (1 - \sin^2 x) \cos x \, dx$$
 
-**Paso 3:** Hacemos la [sustitución](../../../glossary.md#sustitucion):
+**Paso 3:** Hacemos la [sustitución](../../..](../../../glossary.md)#sustitucion):
 $$u = \sin x \implies du = \cos x \, dx$$
 
 **Paso 4:** Sustituimos completamente:
 $$= \int u^2(1-u^2) \, du = \int (u^2 - u^4) \, du$$
 
-**Paso 5:** Integramos el [polinomio](../../../glossary.md#polinomio):
+**Paso 5:** Integramos el [polinomio](../../..](../../../glossary.md)#polinomio):
 $$= \frac{u^3}{3} - \frac{u^5}{5} + C$$
 
 **Paso 6:** Regresamos a $x$:
@@ -469,7 +469,7 @@ $= \int \frac{du}{u^2 + 4} = \frac{1}{2}\arctan\frac{u}{2} + C = \frac{1}{2}\arc
 - $\int x^n e^{ax} dx$, $\int x^n \sin(ax) dx$, $\int x^n \cos(ax) dx$
 
 ### Pasos
-1. Crear tabla con [derivadas](../../../glossary.md#derivadas) sucesivas de $x^n$ y primitivas de la otra función
+1. Crear tabla con [derivadas](../../..](../../../glossary.md)#derivadas) sucesivas de $x^n$ y primitivas de la otra función
 2. Alternar signos: $+, -, +, -, \ldots$
 3. Multiplicar diagonalmente
 

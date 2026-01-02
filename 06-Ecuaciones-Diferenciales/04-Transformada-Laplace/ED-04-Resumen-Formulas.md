@@ -19,7 +19,7 @@ requires: []
 
 $$\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt$$
 
-**Condición de existencia:** $f(t)$ de [orden](../../glossary.md#orden) exponencial y seccionalmente continua.
+**Condición de existencia:** $f(t)$ de [orden](../..](../../glossary.md)#orden) exponencial y seccionalmente continua.
 
 ---
 
@@ -72,7 +72,7 @@ $$\mathcal{L}\{e^{at}f(t)\} = F(s-a)$$
 ### Segunda traslación (en $t$)
 $$\mathcal{L}\{u(t-a)f(t-a)\} = e^{-as}F(s)$$
 
-donde $u(t-a)$ es la [función](../../glossary.md#funcion) escalón unitario.
+donde $u(t-a)$ es la [función](../..](../../glossary.md)#funcion) escalón unitario.
 
 ---
 
@@ -119,8 +119,8 @@ $$\frac{P(s)}{s^2+bs+c} = \frac{As+B}{s^2+bs+c}$$
 ## Resolución de PVI
 
 ### Método
-1. Aplicar $\mathcal{L}$ a ambos lados de la [EDO](../../glossary.md#edo)
-2. Usar propiedades de [derivadas](../../glossary.md#derivadas) con condiciones iniciales
+1. Aplicar $\mathcal{L}$ a ambos lados de la [EDO](../..](../../glossary.md)#edo)
+2. Usar propiedades de [derivadas](../..](../../glossary.md)#derivadas) con condiciones iniciales
 3. Despejar $Y(s)$
 4. Aplicar $\mathcal{L}^{-1}$ para obtener $y(t)$
 
@@ -142,7 +142,7 @@ $$H(s) = \frac{Y(s)}{F(s)} = \frac{1}{as^2 + bs + c}$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [Transformada de Laplace](../../glossary.md#transformada-de-laplace).
-Para desarrollo completo: theory/ED-04-Teoria-Laplace.md
+IA: Hoja de referencia rápida para [Transformada de Laplace](../..](../../glossary.md)#transformada-de-laplace).
+Para desarrollo completo: [theory/ED-04-Teoria-Laplace.md](theory/ED-04-Teoria-Laplace.md)
 file_id: ED-04-Resumen-Formulas
 -->
