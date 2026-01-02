@@ -29,7 +29,7 @@ $$\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix}$$
 
 ### [Prob-02] Determinante 2×2 con negativos ⭐
 
-Calcular el determinante:
+Calcular el [determinante](../../../glossary.md#determinante):
 
 $$\begin{vmatrix} 5 & -2 \\ 3 & 7 \end{vmatrix}$$
 

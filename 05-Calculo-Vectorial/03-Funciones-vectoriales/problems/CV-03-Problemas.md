@@ -24,7 +24,7 @@ difficulty_distribution:
 
 **[Prob-01]** Encuentra el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t-1}, \ln(4-t), e^t \rangle$.
 
-**[Prob-02]** Encuentra el dominio de $\mathbf{r}(t) = \langle \frac{1}{t}, \arcsin t, \sqrt{9-t^2} \rangle$.
+**[Prob-02]** Encuentra el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \frac{1}{t}, \arcsin t, \sqrt{9-t^2} \rangle$.
 
 **[Prob-03]** Calcula $\displaystyle\lim_{t \to 0} \left\langle \frac{\sin t}{t}, \frac{e^t - 1}{t}, \cos t \right\rangle$.
 
@@ -76,7 +76,7 @@ b) Encuentra $\mathbf{r}''(t)$
 a) Encuentra $\mathbf{T}(t)$
 b) Evalúa $\mathbf{T}(\pi/4)$
 
-**[Prob-20]** Encuentra la ecuación de la recta tangente a $\mathbf{r}(t) = \langle e^t, e^{-t}, e^{2t} \rangle$ en $t = 0$.
+**[Prob-20]** Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $\mathbf{r}(t) = \langle e^t, e^{-t}, e^{2t} \rangle$ en $t = 0$.
 
 **[Prob-21]** Halla la recta tangente a la curva $\mathbf{r}(t) = \langle t^2 + 1, 2t - 1, t^3 \rangle$ en el punto $(2, 1, 1)$.
 
@@ -90,7 +90,7 @@ b) Evalúa $\mathbf{T}(\pi/4)$
 
 **[Prob-24]** Calcula la longitud de la hélice $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$ para $t \in [0, 2\pi]$.
 
-**[Prob-25]** Encuentra la [función](../../../glossary.md#función) longitud de arco $s(t)$ desde $t = 0$ para $\mathbf{r}(t) = \langle t^2, \frac{2\sqrt{2}}{3}t^{3/2}, \frac{t^2}{2} \rangle$.
+**[Prob-25]** Encuentra la [función](../../../glossary.md#funcion) longitud de arco $s(t)$ desde $t = 0$ para $\mathbf{r}(t) = \langle t^2, \frac{2\sqrt{2}}{3}t^{3/2}, \frac{t^2}{2} \rangle$.
 
 **[Prob-26]** Reparametriza la curva $\mathbf{r}(t) = \langle 3t, 4t, 0 \rangle$ usando la longitud de arco.
 
@@ -116,7 +116,7 @@ b) Evalúa $\mathbf{T}(\pi/4)$
 
 **[Prob-33]** Para $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$, encuentra $\mathbf{T}$, $\mathbf{N}$ y $\mathbf{B}$.
 
-**[Prob-34]** Calcula el vector normal principal $\mathbf{N}(t)$ para $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 1$.
+**[Prob-34]** Calcula el [vector](../../../glossary.md#vector) normal principal $\mathbf{N}(t)$ para $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 1$.
 
 **[Prob-35]** Encuentra la torsión de la hélice $\mathbf{r}(t) = \langle 3\cos t, 3\sin t, 4t \rangle$.
 

@@ -1,9 +1,9 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Interpolación](../../glossary.md#interpolación)
+title: Resumen de Fórmulas - [Interpolación](../../glossary.md#interpolacion)
 type: cheatsheet
 topic: interpolacion
-tags: [métodos-numéricos, interpolación, fórmulas, cheatsheet]
+tags: [métodos-numéricos, [interpolación](../../glossary.md#interpolacion), fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
 ---
@@ -34,7 +34,7 @@ $$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0) + f[x_0,x_1,x_2](x-x_0)(x-x_1) + \cdots$$
 **[Orden](../../glossary.md#orden) 0:**
 $$f[x_i] = f(x_i) = y_i$$
 
-**Orden 1:**
+**[Orden](../../glossary.md#orden) 1:**
 $$f[x_i, x_{i+1}] = \frac{f[x_{i+1}] - f[x_i]}{x_{i+1} - x_i}$$
 
 **Orden 2:**
@@ -73,7 +73,7 @@ $$S_i(x) = a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3$$
 1. $S_i(x_i) = y_i$ (pasa por los puntos)
 2. $S_i(x_{i+1}) = S_{i+1}(x_{i+1})$ ([continuidad](../../glossary.md#continuidad))
 3. $S'_i(x_{i+1}) = S'_{i+1}(x_{i+1})$ ([derivada](../../glossary.md#derivada) primera continua)
-4. $S''_i(x_{i+1}) = S''_{i+1}(x_{i+1})$ (derivada segunda continua)
+4. $S''_i(x_{i+1}) = S''_{i+1}(x_{i+1})$ ([derivada](../../glossary.md#derivada) segunda continua)
 
 ### Spline Natural (Condiciones de Frontera)
 $$S''(x_0) = 0 \quad \text{y} \quad S''(x_n) = 0$$

@@ -53,7 +53,7 @@ $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 - $\det(AB) = \det(A) \cdot \det(B)$
 - $\det(A^T) = \det(A)$
 - $\det(A^{-1}) = \frac{1}{\det(A)}$
-- $\det(kA) = k^n \det(A)$ para matriz $n \times n$
+- $\det(kA) = k^n \det(A)$ para [matriz](../../glossary.md#matriz) $n \times n$
 - $\det(I) = 1$
 
 ## Matriz adjunta

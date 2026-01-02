@@ -35,13 +35,13 @@ $$\lambda = \frac{\text{tr}(A) \pm \sqrt{\text{tr}(A)^2 - 4\det(A)}}{2}$$
 
 ---
 
-**Paso 1: Calcular la traza**
+**Paso 1: Calcular la [traza](../../../glossary.md#traza)**
 
 $$\text{tr}(A) = 5 + (-4) = 1$$
 
 ---
 
-**Paso 2: Calcular el determinante**
+**Paso 2: Calcular el [determinante](../../../glossary.md#determinante)**
 
 $$\det(A) = (5)(-4) - (-2)(3) = -20 + 6 = -14$$
 
@@ -96,7 +96,7 @@ $$\boxed{\lambda_1 = 2 + i, \quad \lambda_2 = 2 - i}$$
 
 ## Método 2: Encontrar Eigenvalores (Matriz 3×3)
 
-**Cuándo Usar:** Para matrices 3×3 o cuando se necesita el [polinomio característico](../../../glossary.md#polinomio-característico) explícito.
+**Cuándo Usar:** Para matrices 3×3 o cuando se necesita el [polinomio característico](../../../glossary.md#polinomio-caracteristico) explícito.
 
 **Fórmula:** $p(\lambda) = \det(A - \lambda I) = 0$
 
@@ -205,7 +205,7 @@ $$E_\lambda = \ker(A - \lambda I) = \{\mathbf{v} : A\mathbf{v} = \lambda\mathbf{
 | 2 | Reducir a RREF | Gauss-Jordan |
 | 3 | Resolver sistema homogéneo | $(A - \lambda I)\mathbf{v} = \mathbf{0}$ |
 | 4 | Parametrizar | Variables libres generan la [base](../../../glossary.md#base) |
-| 5 | Escribir base | Vectores propios LI |
+| 5 | Escribir [base](../../../glossary.md#base) | Vectores propios LI |
 
 ### Ejemplo Detallado
 
@@ -262,14 +262,14 @@ $$A\mathbf{v}_2 = \begin{pmatrix} 4 & 2 \\ 1 & 3 \end{pmatrix}\begin{pmatrix} -1
 
 ## Método 4: Verificar Diagonalizabilidad
 
-**Cuándo Usar:** Para determinar si una matriz puede escribirse como $A = PDP^{-1}$ con $D$ diagonal.
+**Cuándo Usar:** Para determinar si una [matriz](../../../glossary.md#matriz) puede escribirse como $A = PDP^{-1}$ con $D$ diagonal.
 
 **Criterio:** $A$ es diagonalizable si y solo si para cada eigenvalor:
 $$m_g(\lambda) = m_a(\lambda)$$
 
 donde:
 - $m_a(\lambda)$ = [multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica) (exponente en el [polinomio](../../../glossary.md#polinomio) característico)
-- $m_g(\lambda)$ = [multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica) = $\dim(E_\lambda)$
+- $m_g(\lambda)$ = [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) = $\dim(E_\lambda)$
 
 ### Algoritmo de Resolución
 
@@ -285,7 +285,7 @@ donde:
 | Condición | Resultado |
 |-----------|-----------|
 | $n$ eigenvalores distintos | Siempre diagonalizable |
-| [Matriz simétrica](../../../glossary.md#matriz-simétrica) ($A = A^T$) | Siempre diagonalizable |
+| [Matriz simétrica](../../../glossary.md#matriz-simetrica) ($A = A^T$) | Siempre diagonalizable |
 | Algún $m_g < m_a$ | NO diagonalizable |
 
 ### Ejemplo: Matriz Diagonalizable
@@ -303,7 +303,7 @@ $A$ es triangular: eigenvalores = $\{1, 3, 3\}$
 
 ---
 
-**Paso 2: Calcular multiplicidad geométrica de $\lambda = 3$**
+**Paso 2: Calcular [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) de $\lambda = 3$**
 
 $$A - 3I = \begin{pmatrix} -2 & 2 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
 
@@ -499,7 +499,7 @@ $$A^k = \begin{pmatrix} 3^k & 3^k - 1 \\ 0 & 1 \end{pmatrix}$$
 **Teorema Espectral:** Si $A = A^T$, entonces:
 1. Todos los eigenvalores son reales
 2. Eigenvectores de distintos eigenvalores son ortogonales
-3. Existe $Q$ ortogonal ($Q^TQ = I$) tal que $Q^TAQ = D$
+3. Existe $Q$ ortogonal ($Q^TQ = I$) [tal que](../../../glossary.md#tal-que) $Q^TAQ = D$
 
 ### Algoritmo de Resolución
 
@@ -580,7 +580,7 @@ $$\boxed{A = QDQ^T = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmat
 
 ## Método 8: Estado Estacionario (Cadenas de Markov)
 
-**Cuándo Usar:** Para encontrar la distribución [límite](../../../glossary.md#límite) de una cadena de Markov.
+**Cuándo Usar:** Para encontrar la distribución [límite](../../../glossary.md#limite) de una cadena de Markov.
 
 **Definición:** Una matriz de Markov $P$ satisface:
 - Todos los elementos son $\geq 0$
@@ -706,7 +706,7 @@ Del sistema: $4x_2 + 2x_3 = 0$, $3x_3 = 0$
 
 $x_3 = 0$, $x_2 = 0$, $x_1$ libre: $\mathbf{v}_1 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$
 
-Vector generalizado de rango 2: $(A - 5I)\mathbf{v}_2 = \mathbf{v}_1$
+[Vector](../../../glossary.md#vector) generalizado de rango 2: $(A - 5I)\mathbf{v}_2 = \mathbf{v}_1$
 
 $$\begin{pmatrix} 0 & 4 & 2 \\ 0 & 0 & 3 \\ 0 & 0 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$$
 
@@ -786,9 +786,9 @@ $$\mathbf{x}(t) = e^{At}\mathbf{x}_0$$
 
 ## Método 11: Teorema de Cayley-Hamilton
 
-**Cuándo Usar:** Para expresar potencias altas de $A$ o calcular $A^{-1}$ usando el polinomio característico.
+**Cuándo Usar:** Para expresar potencias altas de $A$ o calcular $A^{-1}$ usando el [polinomio característico](../../../glossary.md#polinomio-caracteristico).
 
-**Teorema:** Toda matriz satisface su propio polinomio característico:
+**Teorema:** Toda matriz satisface su propio [polinomio](../../../glossary.md#polinomio) característico:
 $$p(A) = 0$$
 
 ### Aplicación: Calcular $A^{-1}$
@@ -839,7 +839,7 @@ $$AA^{-1} = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}\frac{1}{10}\begin{pmatr
 | Polinomio característico | $p(\lambda) = \det(A - \lambda I)$ |
 | Eigenvalores 2×2 | $\lambda = \frac{\text{tr}(A) \pm \sqrt{\text{tr}(A)^2 - 4\det(A)}}{2}$ |
 | Eigenvector | Resolver $(A - \lambda I)\mathbf{v} = \mathbf{0}$ |
-| [Diagonalización](../../../glossary.md#diagonalización) | $A = PDP^{-1}$ |
+| [Diagonalización](../../../glossary.md#diagonalizacion) | $A = PDP^{-1}$ |
 | Potencias | $A^k = PD^kP^{-1}$ |
 | Diag. ortogonal | $A = QDQ^T$ para $A$ simétrica |
 | Estado estacionario | $(P - I)\mathbf{\pi} = \mathbf{0}$, $\sum \pi_i = 1$ |
@@ -854,7 +854,7 @@ $$AA^{-1} = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}\frac{1}{10}\begin{pmatr
 | Error | Corrección |
 |-------|------------|
 | Confundir $m_a$ con $m_g$ | $m_a$ = algebraica (polinomio), $m_g$ = geométrica (eigenespacio) |
-| Ordenar mal $P$ y $D$ | El orden de columnas en $P$ debe corresponder a diagonal de $D$ |
+| Ordenar mal $P$ y $D$ | El [orden](../../../glossary.md#orden) de columnas en $P$ debe corresponder a diagonal de $D$ |
 | Olvidar normalizar en Markov | El vector de estado debe sumar 1 |
 | Usar RREF para eigenvalores | Solo REF; los eigenvalores ya están en el polinomio |
 | Asumir diagonalizable | Verificar siempre que $m_g = m_a$ |

@@ -19,7 +19,7 @@ Una **[matriz](../../../glossary.md#matriz)** es un arreglo rectangular de núme
 $$A = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix}$$
 
 ### Notación
-- $A_{m \times n}$ o $A \in \mathbb{R}^{m \times n}$: matriz con $m$ filas y $n$ columnas
+- $A_{m \times n}$ o $A \in \mathbb{R}^{m \times n}$: [matriz](../../../glossary.md#matriz) con $m$ filas y $n$ columnas
 - $a_{ij}$ o $(A)_{ij}$: elemento en la fila $i$, columna $j$
 - Forma compacta: $A = (a_{ij})$
 
@@ -61,7 +61,7 @@ $$L = \begin{pmatrix} l_{11} & 0 & 0 \\ l_{21} & l_{22} & 0 \\ l_{31} & l_{32} &
 
 ### Suma de Matrices
 
-Si $A$ y $B$ son de la misma [dimensión](../../../glossary.md#dimensión) $m \times n$:
+Si $A$ y $B$ son de la misma [dimensión](../../../glossary.md#dimension) $m \times n$:
 $$(A + B)_{ij} = a_{ij} + b_{ij}$$
 
 **Propiedades:**
@@ -142,7 +142,7 @@ $$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix} \Rightarrow A^T = \be
 
 **Antisimétrica:** $A = -A^T$ (diagonal principal es cero)
 
-**Teorema:** Toda matriz cuadrada se puede escribir como:
+**Teorema:** Toda [matriz cuadrada](../../../glossary.md#matriz-cuadrada) se puede escribir como:
 $$A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)$$
 (parte simétrica + parte antisimétrica)
 
@@ -173,7 +173,7 @@ Para encontrar $A^{-1}$:
 ### Propiedades
 
 1. $(A^{-1})^{-1} = A$
-2. $(AB)^{-1} = B^{-1}A^{-1}$ (**nota el orden**)
+2. $(AB)^{-1} = B^{-1}A^{-1}$ (**nota el [orden](../../../glossary.md#orden)**)
 3. $(A^T)^{-1} = (A^{-1})^T$
 4. $(cA)^{-1} = \frac{1}{c}A^{-1}$ para $c \neq 0$
 5. $\det(A^{-1}) = \frac{1}{\det(A)}$

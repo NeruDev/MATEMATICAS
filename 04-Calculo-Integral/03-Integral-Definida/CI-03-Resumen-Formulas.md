@@ -38,8 +38,8 @@ donde $F'(x) = f(x)$
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| [Límites](../../glossary.md#límites) iguales | $\int_a^a f(x)\,dx = 0$ |
-| Inversión de límites | $\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$ |
+| [Límites](../../glossary.md#limites) iguales | $\int_a^a f(x)\,dx = 0$ |
+| Inversión de [límites](../../glossary.md#limites) | $\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$ |
 | Constante | $\int_a^b c\,dx = c(b-a)$ |
 | [Linealidad](../../glossary.md#linealidad) | $\int_a^b [cf(x) + dg(x)]\,dx = c\int_a^b f(x)\,dx + d\int_a^b g(x)\,dx$ |
 

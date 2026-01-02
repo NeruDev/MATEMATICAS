@@ -111,7 +111,7 @@ $\Delta < 0$ → **Punto silla** (inestable)
 ---
 
 ## Problema 12c
-**Matriz:** $A = \begin{pmatrix} 0 & 1 \\ -4 & 0 \end{pmatrix}$
+**[Matriz](../../../glossary.md#matriz):** $A = \begin{pmatrix} 0 & 1 \\ -4 & 0 \end{pmatrix}$
 
 **Solución:**
 $\tau = 0$, $\Delta = 4 > 0$

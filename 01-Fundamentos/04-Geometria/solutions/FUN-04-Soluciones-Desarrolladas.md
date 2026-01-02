@@ -130,7 +130,7 @@ f) 360° → **Completo/perigonal** (exactamente 360°)
 **Contexto:** Dos ángulos complementarios suman 90°.
 
 **Desarrollo:**
-Sea $x$ el ángulo menor. El otro ángulo es $3x$.
+Sea $x$ el ángulo [menor](../../../glossary.md#menor). El otro ángulo es $3x$.
 $$x + 3x = 90°$$
 $$4x = 90°$$
 $$x = 22.5°$$
@@ -210,7 +210,7 @@ $$\angle C = 180° - 45° - 72° = 63°$$
 **Contexto:** En un triángulo isósceles, los ángulos de la [base](../../../glossary.md#base) (opuestos a los lados iguales) son iguales.
 
 **Desarrollo:**
-El ángulo de 100° debe ser el ángulo del vértice (no puede ser de la base, pues $2 \times 100° = 200° > 180°$).
+El ángulo de 100° debe ser el ángulo del vértice (no puede ser de la [base](../../../glossary.md#base), pues $2 \times 100° = 200° > 180°$).
 
 Sea $x$ el ángulo de cada ángulo de la base:
 $$100° + x + x = 180°$$
@@ -509,7 +509,7 @@ $$A = \frac{120°}{360°} \times \pi(6)^2 = \frac{1}{3} \times 36\pi = 12\pi \ap
 **Contexto:** La [tangente](../../../glossary.md#tangente) desde un punto exterior es perpendicular al radio en el punto de tangencia, formando un triángulo rectángulo.
 
 **Desarrollo:**
-Sea $T$ la longitud de la tangente:
+Sea $T$ la longitud de la [tangente](../../../glossary.md#tangente):
 $$T^2 + 5^2 = 13^2$$
 $$T^2 = 169 - 25 = 144$$
 $$T = 12 \text{ cm}$$

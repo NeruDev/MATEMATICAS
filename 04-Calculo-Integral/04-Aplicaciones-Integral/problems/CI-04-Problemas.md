@@ -312,7 +312,7 @@ Un satélite de 1000 kg se eleva desde la superficie terrestre (radio 6371 km) h
 ---
 
 ### [Prob-42] Valor promedio de función seno ⭐
-Valor promedio de $f(x) = \sin x$ en $[0, \pi]$.
+[Valor promedio](../../../glossary.md#valor-promedio) de $f(x) = \sin x$ en $[0, \pi]$.
 
 > **Solución:** [solutions/prob-42/](../solutions/prob-42/)
 

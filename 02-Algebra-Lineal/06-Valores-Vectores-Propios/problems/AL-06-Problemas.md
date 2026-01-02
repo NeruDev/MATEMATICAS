@@ -69,7 +69,7 @@ Si $\lambda$ es eigenvalor de $A$, demostrar que $\lambda^2$ es eigenvalor de $A
 
 ### [Prob-06] Polinomio característico paramétrico ⭐⭐
 
-Escribir el [polinomio característico](../../../glossary.md#polinomio-característico) de:
+Escribir el [polinomio característico](../../../glossary.md#polinomio-caracteristico) de:
 
 a) $\begin{pmatrix} a & b \\ b & a \end{pmatrix}$
 
@@ -105,7 +105,7 @@ d) Eigenvalores de $A + 2I$
 
 ### [Prob-09] Eigenvalor desconocido ⭐⭐
 
-Sea $A$ una matriz $3 \times 3$ con $\text{tr}(A) = 6$, $\det(A) = 8$, y eigenvalores $\lambda, 2, 2$. Encontrar $\lambda$.
+Sea $A$ una [matriz](../../../glossary.md#matriz) $3 \times 3$ con $\text{tr}(A) = 6$, $\det(A) = 8$, y eigenvalores $\lambda, 2, 2$. Encontrar $\lambda$.
 
 > 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
 
@@ -197,7 +197,7 @@ b) Diagonalizar $A$
 
 ### [Prob-17] Diagonalización ortogonal 2×2 ⭐⭐
 
-Diagonalizar ortogonalmente la [matriz simétrica](../../../glossary.md#matriz-simétrica):
+Diagonalizar ortogonalmente la [matriz simétrica](../../../glossary.md#matriz-simetrica):
 $$A = \begin{pmatrix} 3 & 1 \\ 1 & 3 \end{pmatrix}$$
 
 > 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
@@ -217,7 +217,7 @@ $$A = \begin{pmatrix} 1 & 2 & 0 \\ 2 & 1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
 
 ### [Prob-19] Potencia mediante diagonalización ⭐⭐
 
-Usando [diagonalización](../../../glossary.md#diagonalización), calcular $A^{10}$ donde:
+Usando [diagonalización](../../../glossary.md#diagonalizacion), calcular $A^{10}$ donde:
 $$A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$$
 
 > 📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
@@ -273,7 +273,7 @@ La sucesión de Fibonacci satisface $F_n = F_{n-1} + F_{n-2}$.
 
 a) Expresar como sistema matricial
 
-b) Usar diagonalización para encontrar fórmula cerrada de $F_n$
+b) Usar [diagonalización](../../../glossary.md#diagonalizacion) para encontrar fórmula cerrada de $F_n$
 
 > 📂 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
 

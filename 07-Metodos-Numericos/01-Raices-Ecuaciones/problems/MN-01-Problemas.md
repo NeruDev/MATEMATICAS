@@ -3,8 +3,8 @@
 content_type: problem_set
 topic_id: mn-01-raices-ecuaciones
 file_id: MN-01-Problemas
-title: Problemas - [Raíces de Ecuaciones](../../../glossary.md#raíces-de-ecuaciones)
-description: Colección de problemas sobre [métodos numéricos](../../../glossary.md#métodos-numéricos) para encontrar raíces
+title: Problemas - [Raíces de Ecuaciones](../../../glossary.md#raices-de-ecuaciones)
+description: Colección de problemas sobre [métodos numéricos](../../../glossary.md#metodos-numericos) para encontrar raíces
 ---
 -->
 
@@ -15,7 +15,7 @@ description: Colección de problemas sobre [métodos numéricos](../../../glossa
 ## Sección 1: Método de Bisección
 
 ### [Prob-01] Bisección para polinomio cúbico ⭐
-Usar el [método de bisección](../../../glossary.md#método-de-bisección) para encontrar la raíz de $f(x) = x^3 - x - 1$ en $[1, 2]$ con tolerancia $\varepsilon = 0.01$.
+Usar el [método de bisección](../../../glossary.md#metodo-de-biseccion) para encontrar la raíz de $f(x) = x^3 - x - 1$ en $[1, 2]$ con tolerancia $\varepsilon = 0.01$.
 
 > 📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -89,7 +89,7 @@ Usar el método de la secante para resolver $x^3 + x - 1 = 0$ con $x_0 = 0$, $x_
 ---
 
 ### [Prob-11] Comparación Newton vs Secante ⭐⭐
-Comparar la convergencia de Newton-Raphson y Secante para $f(x) = x - e^{-x}$ con valores iniciales apropiados.
+Comparar la [convergencia](../../../glossary.md#convergencia) de Newton-Raphson y Secante para $f(x) = x - e^{-x}$ con valores iniciales apropiados.
 
 > 📂 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
 
@@ -215,21 +215,21 @@ Encontrar $\omega > 0$.
 ## Sección 7: Problemas de Implementación
 
 ### [Prob-25] Implementación de bisección ⭐⭐
-Implementar el método de bisección en Python/MATLAB y probar con $\sin(x) - x/2 = 0$ en $[\pi/2, \pi]$.
+Implementar el [método de bisección](../../../glossary.md#metodo-de-biseccion) en Python/MATLAB y probar con $\sin(x) - x/2 = 0$ en $[\pi/2, \pi]$.
 
 > 📂 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
 
 ---
 
 ### [Prob-26] Newton-Raphson con detección de divergencia ⭐⭐
-Implementar Newton-Raphson con un [límite](../../../glossary.md#límite) de iteraciones y detectar [divergencia](../../../glossary.md#divergencia).
+Implementar Newton-Raphson con un [límite](../../../glossary.md#limite) de iteraciones y detectar [divergencia](../../../glossary.md#divergencia).
 
 > 📂 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
 
 ---
 
 ### [Prob-27] Selector automático de método ⭐⭐⭐
-Crear una [función](../../../glossary.md#función) que elija automáticamente entre bisección y Newton según la disponibilidad de $f'$.
+Crear una [función](../../../glossary.md#funcion) que elija automáticamente entre bisección y Newton según la disponibilidad de $f'$.
 
 > 📂 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
 

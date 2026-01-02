@@ -55,7 +55,7 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-17] | Newton: $x_{n+1} = \frac{1}{2}\left(x_n + \frac{a}{x_n}\right)$; convergencia cuadrática: $e_{n+1} \approx \frac{e_n^2}{2\sqrt{a}}$ | ➖ |
+| [Prob-17] | Newton: $x_{n+1} = \frac{1}{2}\left(x_n + \frac{a}{x_n}\right)$; [convergencia](../../../glossary.md#convergencia) cuadrática: $e_{n+1} \approx \frac{e_n^2}{2\sqrt{a}}$ | ➖ |
 | [Prob-18] | Bisección: [orden](../../../glossary.md#orden) 1 (lineal); $\lvert e_{n+1} \rvert \approx 0.5\lvert e_n \rvert$ | ➖ |
 | [Prob-19] | Newton: $IE = 2^{1/2} \approx 1.414$; Secante: $IE = \phi^{1/1} \approx 1.618$; Secante más eficiente | ➖ |
 
@@ -82,7 +82,7 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-29] | $e_{n+1} \approx \frac{f''(x^*)}{2f'(x^*)}e_n^2$ implica orden 2 | ➖ |
+| [Prob-29] | $e_{n+1} \approx \frac{f''(x^*)}{2f'(x^*)}e_n^2$ implica [orden](../../../glossary.md#orden) 2 | ➖ |
 | [Prob-30] | Orden $= \phi = \frac{1+\sqrt{5}}{2} \approx 1.618$ (número áureo) | ➖ |
 | [Prob-31] | Teorema de Banach: contracción en espacio completo tiene punto fijo único | ➖ |
 | [Prob-32] | Ciclo: $0 \to 1 \to 0 \to 1 \to \ldots$ (comportamiento periódico) | ➖ |

@@ -25,7 +25,7 @@ solved_detailed: 0
 | Prob-03 | No, no es cerrado bajo multiplicación escalar | ➖ |
 | Prob-04 | a) Sí; b) No (no contiene $\vec{0}$); c) No (no cerrado); d) Sí | ➖ |
 | Prob-05 | Sí, es [subespacio](../../../glossary.md#subespacio) | ➖ |
-| Prob-06 | Sí, es subespacio | ➖ |
+| Prob-06 | Sí, es [subespacio](../../../glossary.md#subespacio) | ➖ |
 | Prob-07 | Demostración: cerrado bajo suma y producto escalar, contiene $\vec{0}$ | ➖ |
 | Prob-08 | No, no es cerrado bajo multiplicación escalar | ➖ |
 | Prob-09 | No, $(1,2,3) \neq c_1(1,0,1) + c_2(0,1,1)$ para ningún $c_1, c_2$ | ➖ |
@@ -38,7 +38,7 @@ solved_detailed: 0
 | Prob-16 | $k = -1$ | ➖ |
 | Prob-17 | Demostración por definición de LI | ➖ |
 | Prob-18 | LD (ya que $\sin^2 x + \cos^2 x = 1$) | ➖ |
-| Prob-19 | a) Base: $\{(2,1,0), (-1,0,1)\}$, dim = 2; b) Base: $\{(1,-1,0,0), (0,0,1,-1)\}$, dim = 2 | ➖ |
+| Prob-19 | a) [Base](../../../glossary.md#base): $\{(2,1,0), (-1,0,1)\}$, dim = 2; b) Base: $\{(1,-1,0,0), (0,0,1,-1)\}$, dim = 2 | ➖ |
 | Prob-20 | Base: $\left\{\begin{pmatrix}1&0\\0&0\end{pmatrix}, \begin{pmatrix}0&1\\1&0\end{pmatrix}, \begin{pmatrix}0&0\\0&1\end{pmatrix}\right\}$, dim = 3 | ➖ |
 | Prob-21 | Base: $\{(1,-2,1,0), (-3,0,0,1)\}$, dim = 2 | ➖ |
 | Prob-22 | Base: $\{(1,2,1)^T, (1,2,3)^T\}$, dim = 2 | ➖ |
@@ -51,7 +51,7 @@ solved_detailed: 0
 | Prob-29 | $P_{\mathcal{E} \to \mathcal{B}} = \begin{pmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 1 \end{pmatrix}$ | ➖ |
 | Prob-30 | 3 ecuaciones independientes ($5 - 2 = 3$) | ➖ |
 | Prob-31 | Sí, son LI ([Wronskiano](../../../glossary.md#wronskiano) $\neq 0$) | ➖ |
-| Prob-32 | Subespacio de [dimensión](../../../glossary.md#dimensión) $k$ generado por vectores base | ➖ |
+| Prob-32 | Subespacio de [dimensión](../../../glossary.md#dimension) $k$ generado por vectores base | ➖ |
 
 ---
 

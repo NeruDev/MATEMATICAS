@@ -60,7 +60,7 @@ solved_detailed: 0
 | [Prob-19] | $(x(0.4), y(0.4)) \approx (1.1756, 0.7052)$ | ➖ |
 | [Prob-20] | Oscilaciones: presas y depredadores oscilan desfasados; período $\approx 15$ unidades | ➖ |
 | [Prob-21] | Péndulo oscila: $\theta(2) \approx -0.48$ rad (cuasi-periódico) | ➖ |
-| [Prob-22] | Van der Pol: ciclo [límite](../../../glossary.md#límite); oscilaciones no armónicas | ➖ |
+| [Prob-22] | Van der Pol: ciclo [límite](../../../glossary.md#limite); oscilaciones no armónicas | ➖ |
 
 ### Sección 6: Análisis de Error y Estabilidad
 

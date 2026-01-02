@@ -12,16 +12,16 @@ status: active
 
 ### Definición de Ecuación Diferencial
 
-Una **[ecuación diferencial](../../../glossary.md#ecuación-diferencial)** es una ecuación que relaciona una [función](../../../glossary.md#función) desconocida con sus [derivadas](../../../glossary.md#derivadas).
+Una **[ecuación diferencial](../../../glossary.md#ecuacion-diferencial)** es una ecuación que relaciona una [función](../../../glossary.md#funcion) desconocida con sus [derivadas](../../../glossary.md#derivadas).
 
-**Ecuación Diferencial Ordinaria ([EDO](../../../glossary.md#edo)):** Involucra una función de una sola variable independiente.
+**[Ecuación Diferencial](../../../glossary.md#ecuacion-diferencial) Ordinaria ([EDO](../../../glossary.md#edo)):** Involucra una [función](../../../glossary.md#funcion) de una sola variable independiente.
 
 $$F\left(x, y, \frac{dy}{dx}, \frac{d^2y}{dx^2}, ..., \frac{d^ny}{dx^n}\right) = 0$$
 
 ### Orden y Grado
 
 - **[Orden](../../../glossary.md#orden):** El orden de la [derivada](../../../glossary.md#derivada) más alta que aparece
-- **Grado:** El exponente de la derivada de mayor orden (cuando es polinomial)
+- **Grado:** El exponente de la [derivada](../../../glossary.md#derivada) de mayor [orden](../../../glossary.md#orden) (cuando es polinomial)
 
 | Ejemplo | Orden | Grado |
 |---------|-------|-------|
@@ -31,15 +31,15 @@ $$F\left(x, y, \frac{dy}{dx}, \frac{d^2y}{dx^2}, ..., \frac{d^ny}{dx^n}\right) =
 
 ### Tipos de Soluciones
 
-**[Solución general](../../../glossary.md#solución-general):** Contiene constantes arbitrarias (una por cada orden).
+**[Solución general](../../../glossary.md#solucion-general):** Contiene constantes arbitrarias (una por cada orden).
 
-**[Solución particular](../../../glossary.md#solución-particular):** Se obtiene asignando valores a las constantes.
+**[Solución particular](../../../glossary.md#solucion-particular):** Se obtiene asignando valores a las constantes.
 
 **Solución singular:** No se obtiene de la general ([tangente](../../../glossary.md#tangente) a la familia de curvas).
 
 ### Problema de Valor Inicial (PVI)
 
-Un PVI consiste en una EDO junto con condiciones iniciales:
+Un PVI consiste en una [EDO](../../../glossary.md#edo) junto con condiciones iniciales:
 $$\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0$$
 
 ### Teorema de Existencia y Unicidad (Picard-Lindelöf)
@@ -159,7 +159,7 @@ $g'(y) = 4y \Rightarrow g(y) = 2y^2$
 
 ### Cuando No es Exacta
 
-Si $M_y \neq N_x$, buscamos un factor integrante $\mu$ tal que:
+Si $M_y \neq N_x$, buscamos un [factor integrante](../../../glossary.md#factor-integrante) $\mu$ [tal que](../../../glossary.md#tal-que):
 $$\mu M\,dx + \mu N\,dy = 0$$
 sea exacta.
 
@@ -181,7 +181,7 @@ $$\frac{dy}{dx} + P(x)y = Q(x)y^n \quad (n \neq 0, 1)$$
 
 ### Método de Solución
 
-**[Sustitución](../../../glossary.md#sustitución):** $v = y^{1-n}$
+**[Sustitución](../../../glossary.md#sustitucion):** $v = y^{1-n}$
 
 Entonces: $\frac{dv}{dx} = (1-n)y^{-n}\frac{dy}{dx}$
 
@@ -217,7 +217,7 @@ $$\frac{dy}{dx} = F\left(\frac{y}{x}\right)$$
 
 ### Método de Solución
 
-**Sustitución:** $y = vx$ donde $v = \frac{y}{x}$
+**[Sustitución](../../../glossary.md#sustitucion):** $y = vx$ donde $v = \frac{y}{x}$
 
 Entonces: $\frac{dy}{dx} = v + x\frac{dv}{dx}$
 

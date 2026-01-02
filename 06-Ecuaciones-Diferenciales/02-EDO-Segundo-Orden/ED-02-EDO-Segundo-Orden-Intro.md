@@ -2,7 +2,7 @@
 ::METADATA::
 type: index
 topic_id: ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden)
-file_id: ED-02-EDO-Segundo-Orden-Intro
+file_id: ED-02-[EDO](../../glossary.md#edo)-Segundo-[Orden](../../glossary.md#orden)-Intro
 status: stable
 audience: student
 requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
@@ -40,7 +40,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../../glossary.md#álgebra-lineal) (valores propios)
+- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../../glossary.md#algebra-lineal) (valores propios)
 - **Usos posteriores**: Sistemas de EDO, [Transformada de Laplace](../../glossary.md#transformada-de-laplace), Vibraciones
 
 ## Vista previa de conceptos clave

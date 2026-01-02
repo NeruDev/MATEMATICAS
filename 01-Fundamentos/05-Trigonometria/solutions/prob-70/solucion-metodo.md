@@ -23,7 +23,7 @@ $$\sin\theta + \cos\theta = 1$$
 
 ## 🎯 Estrategia de Solución
 
-Presentamos dos [métodos de solución](../../../../glossary.md#métodos-de-solución):
+Presentamos dos [métodos de solución](../../../../glossary.md#metodos-de-solucion):
 - **Método 1:** Elevar al cuadrado ambos lados
 - **Método 2:** Usar la identidad auxiliar $R\sin(\theta + \phi)$
 
@@ -134,7 +134,7 @@ $$\sin\left(\theta + \frac{\pi}{4}\right) = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}
 
 ### Paso 7: Resolver para (θ + π/4)
 
-El seno vale $\frac{\sqrt{2}}{2}$ cuando el argumento es:
+El [seno](../../../../glossary.md#seno) vale $\frac{\sqrt{2}}{2}$ cuando el argumento es:
 
 $$\theta + \frac{\pi}{4} = \frac{\pi}{4} + 2n\pi \quad \text{o} \quad \theta + \frac{\pi}{4} = \pi - \frac{\pi}{4} + 2n\pi$$
 

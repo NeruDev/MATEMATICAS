@@ -60,7 +60,7 @@ $$- a_{13}a_{22}a_{31} - a_{12}a_{21}a_{33} - a_{11}a_{23}a_{32}$$
 - Fila o columna de ceros $\Rightarrow \det = 0$
 - Dos filas o columnas iguales $\Rightarrow \det = 0$
 - Dos filas o columnas proporcionales $\Rightarrow \det = 0$
-- Matriz triangular $\Rightarrow \det =$ producto de diagonal
+- [Matriz](../../../glossary.md#matriz) triangular $\Rightarrow \det =$ producto de diagonal
 
 $$\det\begin{pmatrix} a_{11} & * & * \\ 0 & a_{22} & * \\ 0 & 0 & a_{33} \end{pmatrix} = a_{11} \cdot a_{22} \cdot a_{33}$$
 

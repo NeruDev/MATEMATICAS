@@ -11,7 +11,7 @@ audience: student
 
 ## Descripción General
 
-Las **aplicaciones de la [derivada](../../glossary.md#derivada)** muestran el poder del [cálculo diferencial](../../glossary.md#cálculo-diferencial) para resolver problemas del mundo real. Desde encontrar valores óptimos hasta analizar el comportamiento de funciones, la derivada es una herramienta indispensable.
+Las **aplicaciones de la [derivada](../../glossary.md#derivada)** muestran el poder del [cálculo diferencial](../../glossary.md#calculo-diferencial) para resolver problemas del mundo real. Desde encontrar valores óptimos hasta analizar el comportamiento de funciones, la derivada es una herramienta indispensable.
 
 ## Objetivos de Aprendizaje
 
@@ -20,7 +20,7 @@ Al finalizar este tema, serás capaz de:
 1. Encontrar máximos y mínimos de funciones (absolutos y relativos)
 2. Resolver problemas de optimización
 3. Analizar la [concavidad](../../glossary.md#concavidad) y puntos de inflexión
-4. Aplicar la derivada a problemas de razón de cambio
+4. Aplicar la [derivada](../../glossary.md#derivada) a problemas de razón de cambio
 5. Trazar gráficas de funciones usando criterios de la derivada
 
 ## Contenido del Tema
@@ -31,7 +31,7 @@ Al finalizar este tema, serás capaz de:
 |----------|-------------|
 | Crecimiento/Decrecimiento | Primera derivada |
 | Máximos y mínimos locales | Puntos críticos + criterio |
-| Concavidad | Segunda derivada |
+| [Concavidad](../../glossary.md#concavidad) | Segunda derivada |
 | Puntos de inflexión | Cambio de concavidad |
 
 ### Aplicaciones Principales

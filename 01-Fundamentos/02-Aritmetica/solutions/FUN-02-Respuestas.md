@@ -48,7 +48,7 @@ solved_detailed: 8
 | [Prob-29] | Si $p$ fuera par ($p>2$), sería divisible por 2, contradicción | ➖ |
 | [Prob-30] | 11, 13, 17 | ➖ |
 | [Prob-31] | $\text{[MCD](../../../glossary.md#mcd)}(84, 126) = 42$ | ➖ |
-| [Prob-32] | $\text{MCD}(252, 198) = 18$ | [✅](prob-32/solucion-metodo.md) |
+| [Prob-32] | $\text{[MCD](../../../glossary.md#mcd)}(252, 198) = 18$ | [✅](prob-32/solucion-metodo.md) |
 | [Prob-33] | $\text{[MCM](../../../glossary.md#mcm)}(18, 24, 30) = 360$ | ➖ |
 | [Prob-34] | $a \in \{12, 24, 36, 48, 60, 84\}$ | ➖ |
 | [Prob-35] | 5 vueltas de la primera | ➖ |

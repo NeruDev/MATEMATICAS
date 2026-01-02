@@ -28,7 +28,7 @@ $$\boxed{\mathbf{X}' = A\mathbf{X} + \mathbf{F}(t)}$$
 donde:
 - $\mathbf{X} = \begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}$ es el [vector](../../../glossary.md#vector) de incógnitas
 - $A = (a_{ij})$ es la [matriz](../../../glossary.md#matriz) de coeficientes $n \times n$
-- $\mathbf{F}(t) = \begin{pmatrix} f_1(t) \\ f_2(t) \\ \vdots \\ f_n(t) \end{pmatrix}$ es el vector de términos forzantes
+- $\mathbf{F}(t) = \begin{pmatrix} f_1(t) \\ f_2(t) \\ \vdots \\ f_n(t) \end{pmatrix}$ es el [vector](../../../glossary.md#vector) de términos forzantes
 
 ### Sistema Homogéneo
 
@@ -38,7 +38,7 @@ $$\mathbf{X}' = A\mathbf{X}$$
 
 ### Conversión de EDO de Orden Superior
 
-Una [EDO](../../../glossary.md#edo) de orden $n$:
+Una [EDO](../../../glossary.md#edo) de [orden](../../../glossary.md#orden) $n$:
 $$y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1y' + a_0y = f(t)$$
 
 Se convierte en sistema con: $x_1 = y$, $x_2 = y'$, ..., $x_n = y^{(n-1)}$
@@ -121,7 +121,7 @@ $$\boxed{\mathbf{X}_1 = e^{\alpha t}(\mathbf{a}\cos\beta t - \mathbf{b}\sin\beta
 
 $$\boxed{\mathbf{X}_2 = e^{\alpha t}(\mathbf{a}\sin\beta t + \mathbf{b}\cos\beta t)}$$
 
-[Solución general](../../../glossary.md#solución-general):
+[Solución general](../../../glossary.md#solucion-general):
 
 $$\mathbf{X} = C_1\mathbf{X}_1 + C_2\mathbf{X}_2$$
 
@@ -187,7 +187,7 @@ El **punto de equilibrio** del sistema $\mathbf{X}' = A\mathbf{X}$ es $\mathbf{X
 
 ### Clasificación (Sistema 2×2)
 
-Para matriz $A$ con eigenvalores $\lambda_1, \lambda_2$:
+Para [matriz](../../../glossary.md#matriz) $A$ con eigenvalores $\lambda_1, \lambda_2$:
 
 | Eigenvalores | Tipo | Descripción |
 |--------------|------|-------------|

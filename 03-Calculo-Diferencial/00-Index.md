@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Índice del módulo de [Cálculo Diferencial](../glossary.md#cálculo-diferencial).
+Índice del módulo de [Cálculo Diferencial](../glossary.md#calculo-diferencial).
 Lista todos los temas disponibles en este módulo.
 
 IA:
@@ -18,14 +18,14 @@ audience: self-study
 
 ## Descripción del módulo
 
-Este módulo cubre el cálculo diferencial: [límites](../glossary.md#límites), [derivadas](../glossary.md#derivadas) y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
+Este módulo cubre el [cálculo diferencial](../glossary.md#calculo-diferencial): [límites](../glossary.md#limites), [derivadas](../glossary.md#derivadas) y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
 
 ## Temas del módulo
 
 | # | Tema | Descripción |
 |---|------|-------------|
-| 1 | [01-Límites](./01-Limites/README.md) | Concepto de [límite](../glossary.md#límite), [continuidad](../glossary.md#continuidad), técnicas de evaluación |
-| 2 | [02-Derivadas](./02-Derivadas/README.md) | Definición, reglas de diferenciación, derivadas de [orden](../glossary.md#orden) superior |
+| 1 | [01-Límites](./01-Limites/README.md) | Concepto de [límite](../glossary.md#limite), [continuidad](../glossary.md#continuidad), técnicas de evaluación |
+| 2 | [02-Derivadas](./02-[Derivadas](../glossary.md#derivadas)/README.md) | Definición, reglas de diferenciación, derivadas de [orden](../glossary.md#orden) superior |
 | 3 | [03-Aplicaciones de la Derivada](./03-Aplicaciones-de-la-[derivada](../glossary.md#derivada)/README.md) | Optimización, análisis de funciones, razones relacionadas |
 | 4 | [04-Teoremas Fundamentales](./04-Teoremas-fundamentales/README.md) | Rolle, valor medio, L'Hôpital, Taylor |
 
@@ -36,7 +36,7 @@ Este módulo cubre el cálculo diferencial: [límites](../glossary.md#límites),
 
 ## Conexión con otros módulos
 
-- **Anterior:** 01-Fundamentos
+- **Anterior:** 01-[Fundamentos](../glossary.md#fundamentos)
 - **Siguiente:** 03-Calculo-Integral (integración como operación inversa)
 
 ---

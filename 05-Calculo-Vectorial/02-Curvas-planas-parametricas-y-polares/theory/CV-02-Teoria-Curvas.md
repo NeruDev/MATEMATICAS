@@ -15,7 +15,7 @@ requires: [CD-02-[Derivadas](../../../glossary.md#derivadas), FUN-05-Trigonometr
 ## 2.1 Ecuaciones paramétricas
 
 ### Concepto intuitivo
-Una **curva paramétrica** describe la posición de un punto en el plano como [función](../../../glossary.md#función) de un parámetro $t$ (que frecuentemente representa el tiempo). En lugar de expresar $y$ directamente en función de $x$, ambas coordenadas dependen de $t$.
+Una **curva paramétrica** describe la posición de un punto en el plano como [función](../../../glossary.md#funcion) de un parámetro $t$ (que frecuentemente representa el tiempo). En lugar de expresar $y$ directamente en función de $x$, ambas coordenadas dependen de $t$.
 
 ### Definición formal
 Una **curva paramétrica plana** es el conjunto de puntos $(x, y)$ donde:
@@ -59,7 +59,7 @@ $$\frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{dx/dt}$$
 
 ### Clasificación de tangentes
 
-| Condición | Tipo de tangente |
+| Condición | Tipo de [tangente](../../../glossary.md#tangente) |
 |-----------|------------------|
 | $y'(t) = 0$, $x'(t) \neq 0$ | Horizontal |
 | $x'(t) = 0$, $y'(t) \neq 0$ | Vertical |
@@ -175,7 +175,7 @@ $$A = \frac{1}{2}\int_\alpha^\beta r^2\, d\theta = \frac{1}{2}\int_\alpha^\beta 
 Si $r_{\text{int}} \leq r_{\text{ext}}$ para $\theta \in [\alpha, \beta]$:
 $$A = \frac{1}{2}\int_\alpha^\beta \left[ r_{\text{ext}}^2 - r_{\text{int}}^2 \right] d\theta$$
 
-**Importante**: Identificar correctamente los [límites](../../../glossary.md#límites) de integración encontrando los puntos de intersección.
+**Importante**: Identificar correctamente los [límites](../../../glossary.md#limites) de integración encontrando los puntos de intersección.
 
 ### Intersección de curvas polares
 

@@ -46,7 +46,7 @@ difficulty_distribution:
 
 **[Prob-10]** Cambia el [orden](../../../glossary.md#orden) de integración y evalúa: $\displaystyle\int_0^1 \int_x^1 e^{y^2}\, dy\, dx$.
 
-**[Prob-11]** Cambia el orden de integración: $\displaystyle\int_0^2 \int_{y/2}^1 f(x, y)\, dx\, dy$.
+**[Prob-11]** Cambia el [orden](../../../glossary.md#orden) de integración: $\displaystyle\int_0^2 \int_{y/2}^1 f(x, y)\, dx\, dy$.
 
 **[Prob-12]** Evalúa $\displaystyle\int_0^1 \int_y^1 \sin(x^2)\, dx\, dy$ cambiando el orden.
 

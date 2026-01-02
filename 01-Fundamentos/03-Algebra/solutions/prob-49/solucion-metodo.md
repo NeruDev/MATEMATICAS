@@ -25,7 +25,7 @@ Esta es una fracción donde tanto el numerador como el denominador contienen fra
 
 Los denominadores internos son $x$ e $y$.
 
-$$\text{MCM}(x, y) = xy$$
+$$\text{[MCM](../../../../glossary.md#mcm)}(x, y) = xy$$
 
 ### Paso 3: Multiplicar numerador y denominador por el MCM
 

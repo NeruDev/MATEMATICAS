@@ -16,7 +16,7 @@ Un conjunto $V$ con operaciones $+$ y $\cdot$ es [espacio vectorial](../../gloss
 1. $\vec{u} + \vec{v} = \vec{v} + \vec{u}$ (conmutativa)
 2. $(\vec{u} + \vec{v}) + \vec{w} = \vec{u} + (\vec{v} + \vec{w})$ (asociativa)
 3. Existe $\vec{0}$ [tal que](../../glossary.md#tal-que) $\vec{v} + \vec{0} = \vec{v}$ (neutro)
-4. Existe $-\vec{v}$ tal que $\vec{v} + (-\vec{v}) = \vec{0}$ (inverso)
+4. Existe $-\vec{v}$ [tal que](../../glossary.md#tal-que) $\vec{v} + (-\vec{v}) = \vec{0}$ (inverso)
 
 ### Producto por escalar
 5. $c(\vec{u} + \vec{v}) = c\vec{u} + c\vec{v}$
@@ -48,7 +48,7 @@ $$c_1\vec{v}_1 + c_2\vec{v}_2 + \cdots + c_n\vec{v}_n = \vec{0} \Rightarrow c_1 
 
 ### Criterios prácticos
 - En $\mathbb{R}^n$: formar [matriz](../../glossary.md#matriz) y verificar $\det \neq 0$ (si es cuadrada)
-- Calcular rango de la matriz formada por los vectores
+- Calcular rango de la [matriz](../../glossary.md#matriz) formada por los vectores
 
 ## Base
 
@@ -63,7 +63,7 @@ donde $\vec{e}_i$ tiene 1 en posición $i$ y 0 en las demás.
 
 ## Dimensión
 
-$$\dim(V) = \text{número de vectores en cualquier base de } V$$
+$$\dim(V) = \text{número de vectores en cualquier [base](../../glossary.md#base) de } V$$
 
 ### Dimensiones importantes
 - $\dim(\mathbb{R}^n) = n$
@@ -89,7 +89,7 @@ $$P_{\mathcal{B}' \to \mathcal{B}} = \left(P_{\mathcal{B} \to \mathcal{B}'}\righ
 ## Teoremas importantes
 
 ### Teorema de la dimensión para subespacios
-Si $W$ es subespacio de $V$:
+Si $W$ es [subespacio](../../glossary.md#subespacio) de $V$:
 $$\dim(W) \leq \dim(V)$$
 
 ### Suma de subespacios

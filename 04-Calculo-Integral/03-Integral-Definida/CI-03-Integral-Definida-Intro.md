@@ -12,7 +12,7 @@ requires: [ci-01-integral-indefinida, ci-02-tecnicas-integracion]
 
 ## Propósito del tema
 
-Comprender la [integral definida](../../glossary.md#integral-definida) como [límite](../../glossary.md#límite) de sumas de Riemann y aplicar el [Teorema Fundamental del Cálculo](../../glossary.md#teorema-fundamental-del-cálculo) para evaluar integrales.
+Comprender la [integral definida](../../glossary.md#integral-definida) como [límite](../../glossary.md#limite) de sumas de Riemann y aplicar el [Teorema Fundamental del Cálculo](../../glossary.md#teorema-fundamental-del-calculo) para evaluar integrales.
 
 ## Mapa de recursos
 
@@ -32,16 +32,16 @@ solutions/
 ## Ruta de aprendizaje
 
 1. **Sumas de Riemann**: aproximación del área bajo la curva
-2. **Definición de integral definida**: límite de sumas de Riemann
+2. **Definición de [integral definida](../../glossary.md#integral-definida)**: [límite](../../glossary.md#limite) de sumas de Riemann
 3. **Propiedades de la integral definida**: [linealidad](../../glossary.md#linealidad), aditividad, comparación
-4. **Teorema Fundamental del Cálculo (Parte 1)**: [derivada](../../glossary.md#derivada) de la [función](../../glossary.md#función) integral
+4. **[Teorema Fundamental del Cálculo](../../glossary.md#teorema-fundamental-del-calculo) (Parte 1)**: [derivada](../../glossary.md#derivada) de la [función](../../glossary.md#funcion) integral
 5. **Teorema Fundamental del Cálculo (Parte 2)**: evaluación de integrales
-6. **[Sustitución](../../glossary.md#sustitución) en integrales definidas**: cambio de [límites](../../glossary.md#límites)
+6. **[Sustitución](../../glossary.md#sustitucion) en integrales definidas**: cambio de [límites](../../glossary.md#limites)
 7. **Funciones pares e impares**: simplificación de cálculos
 
 ## Conexiones
 
-- **Prerrequisitos**: [Integral indefinida](../../glossary.md#integral-indefinida), [Técnicas de integración](../../glossary.md#técnicas-de-integración), Límites
+- **Prerrequisitos**: [Integral indefinida](../../glossary.md#integral-indefinida), [Técnicas de integración](../../glossary.md#tecnicas-de-integracion), [Límites](../../glossary.md#limites)
 - **Usos posteriores**: Aplicaciones de la integral, [Integrales impropias](../../glossary.md#integrales-impropias), Cálculo vectorial
 
 ## Vista previa de conceptos clave

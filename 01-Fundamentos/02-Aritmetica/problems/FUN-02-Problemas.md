@@ -145,12 +145,12 @@ Descompón en factores primos: 504.
 > 📁 Solución: `solutions/prob-23/`
 
 ### [Prob-24] Verificar si es primo ⭐⭐
-¿Es 127 un [número primo](../../../glossary.md#número-primo)? Justifica tu respuesta.
+¿Es 127 un [número primo](../../../glossary.md#numero-primo)? Justifica tu respuesta.
 
 > 📁 Solución: `solutions/prob-24/`
 
 ### [Prob-25] Residuos y MCM ⭐⭐
-Encuentra el menor número que al dividirlo por 4, 6 y 9 deja residuo 1.
+Encuentra el [menor](../../../glossary.md#menor) número que al dividirlo por 4, 6 y 9 deja residuo 1.
 
 > 📁 Solución: `solutions/prob-25/`
 
@@ -184,12 +184,12 @@ El producto de tres primos consecutivos es 2431. ¿Cuáles son?
 ## Sección 2.4 MCD y MCM
 
 ### [Prob-31] MCD por factorización ⭐
-Calcula $\text{[MCD](../../../glossary.md#mcd)}(84, 126)$ por [factorización](../../../glossary.md#factorización).
+Calcula $\text{[MCD](../../../glossary.md#mcd)}(84, 126)$ por [factorización](../../../glossary.md#factorizacion).
 
 > 📁 Solución: `solutions/prob-31/`
 
 ### [Prob-32] MCD por algoritmo de Euclides ⭐⭐
-Calcula $\text{MCD}(252, 198)$ usando el algoritmo de Euclides.
+Calcula $\text{[MCD](../../../glossary.md#mcd)}(252, 198)$ usando el algoritmo de Euclides.
 
 > 📁 Solución: `solutions/prob-32/`
 
@@ -209,7 +209,7 @@ Dos ruedas dentadas con 48 y 60 dientes respectivamente empiezan alineadas. ¿De
 > 📁 Solución: `solutions/prob-35/`
 
 ### [Prob-36] Relación MCD-MCM-producto ⭐⭐
-Si $\text{MCD}(a, b) = 6$ y $\text{MCM}(a, b) = 180$, encuentra $a \times b$.
+Si $\text{MCD}(a, b) = 6$ y $\text{[MCM](../../../glossary.md#mcm)}(a, b) = 180$, encuentra $a \times b$.
 
 > 📁 Solución: `solutions/prob-36/`
 
@@ -415,7 +415,7 @@ Dos números están en razón 4:7. Si su suma es 132, encuentra los números.
 > 📁 Solución: `solutions/prob-73/`
 
 ### [Prob-74] Proporcionalidad directa ⭐
-Una [máquina](../../../glossary.md#máquina) produce 450 piezas en 6 horas. ¿Cuántas piezas produce en 10 horas?
+Una [máquina](../../../glossary.md#maquina) produce 450 piezas en 6 horas. ¿Cuántas piezas produce en 10 horas?
 
 > 📁 Solución: `solutions/prob-74/`
 

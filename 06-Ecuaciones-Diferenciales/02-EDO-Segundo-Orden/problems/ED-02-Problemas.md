@@ -291,7 +291,7 @@ c) $y'' + 4y = \cos 2x$, $y(0) = 0$, $y'(0) = 1$
 
 Una masa de 2 kg está unida a un resorte con $k = 18$ N/m. El sistema no tiene amortiguamiento.
 
-a) Escribir la [ecuación diferencial](../../../glossary.md#ecuación-diferencial) del movimiento
+a) Escribir la [ecuación diferencial](../../../glossary.md#ecuacion-diferencial) del movimiento
 
 b) Si $x(0) = 0.1$ m y $\dot{x}(0) = 0$, encontrar $x(t)$
 
@@ -335,7 +335,7 @@ Un oscilador con $m = 1$ kg, $c = 0$, $k = 9$ N/m está sujeto a $F(t) = 10\cos 
 
 a) Escribir y resolver la ecuación del movimiento
 
-b) Si $x(0) = 0$ y $\dot{x}(0) = 0$, encontrar la [solución particular](../../../glossary.md#solución-particular)
+b) Si $x(0) = 0$ y $\dot{x}(0) = 0$, encontrar la [solución particular](../../../glossary.md#solucion-particular)
 
 > 📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
 
@@ -411,7 +411,7 @@ c) $y'' - 4y' + 4y = e^{2x}/x$ (usar variación de parámetros)
 
 #### [Prob-29] Construcción de ecuaciones diferenciales ⭐
 
-Encontrar una ecuación diferencial de segundo orden con coeficientes constantes cuya [solución general](../../../glossary.md#solución-general) sea:
+Encontrar una [ecuación diferencial](../../../glossary.md#ecuacion-diferencial) de segundo [orden](../../../glossary.md#orden) con coeficientes constantes cuya [solución general](../../../glossary.md#solucion-general) sea:
 
 a) $y = C_1 e^{3x} + C_2 e^{-x}$
 

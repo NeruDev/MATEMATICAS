@@ -18,7 +18,7 @@ format: formal_exposition
 ## Introducción
 
 Una **[integral impropia](../../../glossary.md#integral-impropia)** es una [integral definida](../../../glossary.md#integral-definida) donde:
-1. Uno o ambos [límites](../../../glossary.md#límites) de integración son infinitos (Tipo I)
+1. Uno o ambos [límites](../../../glossary.md#limites) de integración son infinitos (Tipo I)
 2. El integrando tiene una discontinuidad en el intervalo (Tipo II)
 
 ---
@@ -27,13 +27,13 @@ Una **[integral impropia](../../../glossary.md#integral-impropia)** es una [inte
 
 ### Definición
 
-**[Límite](../../../glossary.md#límite) superior infinito:**
+**[Límite](../../../glossary.md#limite) superior infinito:**
 $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
-**Límite inferior infinito:**
+**[Límite](../../../glossary.md#limite) inferior infinito:**
 $$\int_{-\infty}^{b} f(x)\,dx = \lim_{t \to -\infty} \int_t^b f(x)\,dx$$
 
-**Ambos límites infinitos:**
+**Ambos [límites](../../../glossary.md#limites) infinitos:**
 $$\int_{-\infty}^{\infty} f(x)\,dx = \int_{-\infty}^{c} f(x)\,dx + \int_c^{\infty} f(x)\,dx$$
 
 donde $c$ es cualquier número real (si ambas integrales convergen).
@@ -158,7 +158,7 @@ $$\int_0^{1} \frac{dx}{x^p} = \begin{cases} \dfrac{1}{1-p} & \text{si } p < 1 \\
 
 ### Regla Práctica
 
-| Comportamiento de $f(x)$ | Convergencia |
+| Comportamiento de $f(x)$ | [Convergencia](../../../glossary.md#convergencia) |
 |--------------------------|--------------|
 | $f(x) \sim \frac{1}{x^p}$ cuando $x \to \infty$ | Converge si $p > 1$ |
 | $f(x) \sim \frac{1}{(x-a)^p}$ cuando $x \to a$ | Converge si $p < 1$ |

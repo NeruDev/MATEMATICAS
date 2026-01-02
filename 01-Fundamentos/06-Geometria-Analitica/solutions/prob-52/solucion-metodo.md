@@ -133,7 +133,7 @@ $$F_2 = (h - c, k) = (2 - \sqrt{5}, -1) = \boxed{(2 - \sqrt{5}, -1)}$$
 ### Longitud de los ejes
 
 - **Eje mayor:** $2a = 2(3) = \boxed{6}$
-- **Eje menor:** $2b = 2(2) = \boxed{4}$
+- **Eje [menor](../../../../glossary.md#menor):** $2b = 2(2) = \boxed{4}$
 
 ### Lado recto (latus rectum)
 

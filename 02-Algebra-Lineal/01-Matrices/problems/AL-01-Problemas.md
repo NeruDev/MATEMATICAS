@@ -148,7 +148,7 @@ Verificar que $(A^T)^T = A$ para $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \e
 
 ### [Prob-20] Clasificación de matrices simétricas ⭐
 
-Determinar si cada matriz es simétrica, antisimétrica o ninguna:
+Determinar si cada [matriz](../../../glossary.md#matriz) es simétrica, antisimétrica o ninguna:
    - $\begin{pmatrix} 1 & 2 \\ 2 & 3 \end{pmatrix}$
    - $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
    - $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$
@@ -169,7 +169,7 @@ Demostrar que $A + A^T$ es simétrica para cualquier [matriz cuadrada](../../../
 
 ### [Prob-23] Descomposición simétrica-antisimétrica ⭐⭐
 
-Expresar $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ como suma de [matriz simétrica](../../../glossary.md#matriz-simétrica) y antisimétrica.
+Expresar $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ como suma de [matriz simétrica](../../../glossary.md#matriz-simetrica) y antisimétrica.
 
 > 📁 Solución: `solutions/prob-23/`
 

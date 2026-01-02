@@ -12,12 +12,12 @@ status: active
 
 ### Definiciones Fundamentales
 
-Sea $A$ una [matriz](../../../glossary.md#matriz) $n \times n$ (o $T: V \to V$ una [transformación lineal](../../../glossary.md#transformación-lineal)).
+Sea $A$ una [matriz](../../../glossary.md#matriz) $n \times n$ (o $T: V \to V$ una [transformación lineal](../../../glossary.md#transformacion-lineal)).
 
 > **Definición:** Un escalar $\lambda$ es **valor propio** (eigenvalor) de $A$ si existe un [vector](../../../glossary.md#vector) no nulo $v$ [tal que](../../../glossary.md#tal-que):
 > $$Av = \lambda v$$
 
-> **Definición:** El vector $v \neq \mathbf{0}$ que satisface $Av = \lambda v$ se llama **vector propio** (eigenvector) asociado a $\lambda$.
+> **Definición:** El [vector](../../../glossary.md#vector) $v \neq \mathbf{0}$ que satisface $Av = \lambda v$ se llama **vector propio** (eigenvector) asociado a $\lambda$.
 
 ### Interpretación Geométrica
 
@@ -59,7 +59,7 @@ Para que exista $v \neq \mathbf{0}$, necesitamos que $(A - \lambda I)$ sea singu
 
 ### Definición
 
-El **[polinomio característico](../../../glossary.md#polinomio-característico)** de $A$ es:
+El **[polinomio característico](../../../glossary.md#polinomio-caracteristico)** de $A$ es:
 $$p(\lambda) = \det(A - \lambda I)$$
 
 Es un [polinomio](../../../glossary.md#polinomio) de grado $n$ en $\lambda$.
@@ -80,7 +80,7 @@ $$p(\lambda) = -\lambda^3 + \text{tr}(A)\lambda^2 - (\text{suma de menores } 2\t
 
 ### Propiedades del Polinomio Característico
 
-> **Teorema:** Para una matriz $n \times n$ con eigenvalores $\lambda_1, ..., \lambda_n$ (contando multiplicidad):
+> **Teorema:** Para una [matriz](../../../glossary.md#matriz) $n \times n$ con eigenvalores $\lambda_1, ..., \lambda_n$ (contando multiplicidad):
 > 1. $\lambda_1 + \lambda_2 + ... + \lambda_n = \text{tr}(A)$
 > 2. $\lambda_1 \cdot \lambda_2 \cdots \lambda_n = \det(A)$
 
@@ -111,10 +111,10 @@ $$E_\lambda = \ker(A - \lambda I) = \{v \in \mathbb{R}^n : Av = \lambda v\}$$
 
 **[Multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica)** $m_a(\lambda)$: 
 - Número de veces que $\lambda$ aparece como raíz de $p(\lambda)$
-- Es el exponente de $(\lambda - \lambda_i)$ en la [factorización](../../../glossary.md#factorización) de $p(\lambda)$
+- Es el exponente de $(\lambda - \lambda_i)$ en la [factorización](../../../glossary.md#factorizacion) de $p(\lambda)$
 
-**[Multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica)** $m_g(\lambda)$:
-- [Dimensión](../../../glossary.md#dimensión) del espacio propio: $m_g(\lambda) = \dim(E_\lambda)$
+**[Multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica)** $m_g(\lambda)$:
+- [Dimensión](../../../glossary.md#dimension) del espacio propio: $m_g(\lambda) = \dim(E_\lambda)$
 - Número máximo de eigenvectores LI asociados a $\lambda$
 
 > **Teorema Fundamental:**
@@ -142,7 +142,7 @@ Aquí $m_g(2) < m_a(2)$.
 
 ### Definición
 
-Una matriz $A$ es **diagonalizable** si existe una matriz invertible $P$ tal que:
+Una matriz $A$ es **diagonalizable** si existe una matriz invertible $P$ [tal que](../../../glossary.md#tal-que):
 $$P^{-1}AP = D$$
 donde $D$ es diagonal.
 
@@ -222,7 +222,7 @@ Para datos con matriz de covarianza $\Sigma$:
 
 ### Teorema de Cayley-Hamilton
 
-> **Teorema:** Toda matriz $A$ satisface su propio polinomio característico:
+> **Teorema:** Toda matriz $A$ satisface su propio [polinomio característico](../../../glossary.md#polinomio-caracteristico):
 > $$p(A) = A^n - c_{n-1}A^{n-1} - ... - c_1A - c_0I = O$$
 
 **Utilidad:** Permite expresar $A^{-1}$ y potencias altas de $A$ en términos de potencias menores.
@@ -240,6 +240,6 @@ Para datos con matriz de covarianza $\Sigma$:
 
 ### Matrices Definidas Positivas
 
-Una [matriz simétrica](../../../glossary.md#matriz-simétrica) $A$ es **definida positiva** si todos sus eigenvalores son positivos.
+Una [matriz simétrica](../../../glossary.md#matriz-simetrica) $A$ es **definida positiva** si todos sus eigenvalores son positivos.
 
 Equivalentemente: $x^TAx > 0$ para todo $x \neq \mathbf{0}$.

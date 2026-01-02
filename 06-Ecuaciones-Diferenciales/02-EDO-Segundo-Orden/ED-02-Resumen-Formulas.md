@@ -26,7 +26,7 @@ $$ar^2 + br + c = 0 \quad \Rightarrow \quad r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2
 
 ### Solución según discriminante
 
-| Discriminante | Raíces | [Solución general](../../glossary.md#solución-general) |
+| Discriminante | Raíces | [Solución general](../../glossary.md#solucion-general) |
 |---------------|--------|------------------|
 | $\Delta > 0$ | $r_1, r_2$ reales distintas | $y = C_1 e^{r_1 x} + C_2 e^{r_2 x}$ |
 | $\Delta = 0$ | $r$ real repetida | $y = (C_1 + C_2 x)e^{rx}$ |
@@ -38,7 +38,7 @@ $$ar^2 + br + c = 0 \quad \Rightarrow \quad r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2
 
 $$ay'' + by' + cy = g(x)$$
 
-**Solución general:** $y = y_h + y_p$
+**[Solución general](../../glossary.md#solucion-general):** $y = y_h + y_p$
 
 ---
 
@@ -60,7 +60,7 @@ $$ay'' + by' + cy = g(x)$$
 
 Para $y'' + P(x)y' + Q(x)y = g(x)$, con solución homogénea $y_h = C_1 y_1 + C_2 y_2$:
 
-**[Solución particular](../../glossary.md#solución-particular):**
+**[Solución particular](../../glossary.md#solucion-particular):**
 $$y_p = u_1(x) y_1(x) + u_2(x) y_2(x)$$
 
 **[Wronskiano](../../glossary.md#wronskiano):**
@@ -75,7 +75,7 @@ $$u_1 = -\int \frac{y_2 \cdot g(x)}{W}\,dx, \quad u_2 = \int \frac{y_1 \cdot g(x
 
 $$ax^2 y'' + bxy' + cy = 0$$
 
-**[Sustitución](../../glossary.md#sustitución):** $y = x^m$ o $x = e^t$
+**[Sustitución](../../glossary.md#sustitucion):** $y = x^m$ o $x = e^t$
 
 **Ecuación auxiliar:**
 $$am(m-1) + bm + c = 0 \quad \Rightarrow \quad am^2 + (b-a)m + c = 0$$
@@ -114,7 +114,7 @@ $$my'' + cy' + ky = F(t)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para EDO de Segundo Orden.
+IA: Hoja de referencia rápida para [EDO](../../glossary.md#edo) de Segundo [Orden](../../glossary.md#orden).
 Para desarrollo completo: theory/ED-02-Teoria-EDO-Segundo-Orden.md
 file_id: ED-02-Resumen-Formulas
 -->

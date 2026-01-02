@@ -43,7 +43,7 @@ $$S_n = \sum_{i=1}^{n} f(x_i^*) \Delta x_i$$
 ## 3.2 Definición de Integral Definida
 
 ### Definición
-Si $f$ es una [función](../../../glossary.md#función) continua en $[a, b]$, la **integral definida** de $f$ de $a$ a $b$ es:
+Si $f$ es una [función](../../../glossary.md#funcion) continua en $[a, b]$, la **[integral definida](../../../glossary.md#integral-definida)** de $f$ de $a$ a $b$ es:
 
 $$\boxed{\int_a^b f(x) \, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x}$$
 
@@ -68,7 +68,7 @@ $$\int_a^b f(x) \, dx = \Big[ F(x) \Big]_a^b = F(b) - F(a)$$
 **1. Integral sobre intervalo de longitud cero:**
 $$\int_a^a f(x) \, dx = 0$$
 
-**2. Inversión de [límites](../../../glossary.md#límites):**
+**2. Inversión de [límites](../../../glossary.md#limites):**
 $$\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx$$
 
 **3. Constante multiplicativa:**
@@ -97,7 +97,7 @@ $$m(b-a) \leq \int_a^b f(x) \, dx \leq M(b-a)$$
 ## 3.4 Teorema Fundamental del Cálculo (Parte 1)
 
 ### Enunciado
-Si $f$ es continua en $[a, b]$, entonces la función $g$ definida por:
+Si $f$ es continua en $[a, b]$, entonces la [función](../../../glossary.md#funcion) $g$ definida por:
 
 $$g(x) = \int_a^x f(t) \, dt, \quad a \leq x \leq b$$
 
@@ -106,10 +106,10 @@ es continua en $[a, b]$ y diferenciable en $(a, b)$, y su [derivada](../../../gl
 $$\boxed{g'(x) = f(x)}$$
 
 ### Interpretación
-La derivada de una integral con [límite](../../../glossary.md#límite) variable es el integrando evaluado en ese límite.
+La [derivada](../../../glossary.md#derivada) de una integral con [límite](../../../glossary.md#limite) variable es el integrando evaluado en ese límite.
 
 ### Generalización (Regla de Leibniz)
-Si los límites son funciones:
+Si los [límites](../../../glossary.md#limites) son funciones:
 
 $$\frac{d}{dx}\int_{u(x)}^{v(x)} f(t) \, dt = f(v(x)) \cdot v'(x) - f(u(x)) \cdot u'(x)$$
 
@@ -141,7 +141,7 @@ $$\int_0^{\pi} \sin x \, dx = [-\cos x]_0^{\pi} = -\cos\pi - (-\cos 0) = -(-1) +
 ## 3.6 Sustitución en Integrales Definidas
 
 ### Método
-Al hacer [sustitución](../../../glossary.md#sustitución) $u = g(x)$ en una integral definida, los límites deben **cambiarse**:
+Al hacer [sustitución](../../../glossary.md#sustitucion) $u = g(x)$ en una integral definida, los límites deben **cambiarse**:
 
 $$\int_a^b f(g(x)) g'(x) \, dx = \int_{g(a)}^{g(b)} f(u) \, du$$
 

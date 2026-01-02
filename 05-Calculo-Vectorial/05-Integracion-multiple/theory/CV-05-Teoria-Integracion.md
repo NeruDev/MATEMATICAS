@@ -61,9 +61,9 @@ $$\iint_D f(x, y)\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x, y)\, dx\, dy$$
 
 ### Selección del orden de integración
 
-- Elegir el orden que simplifique los [límites](../../../glossary.md#límites)
+- Elegir el [orden](../../../glossary.md#orden) que simplifique los [límites](../../../glossary.md#limites)
 - A veces un orden es imposible o muy difícil; el otro puede ser factible
-- Para cambiar el orden: dibujar la región e identificar los nuevos límites
+- Para cambiar el orden: dibujar la región e identificar los nuevos [límites](../../../glossary.md#limites)
 
 ### Valor medio
 

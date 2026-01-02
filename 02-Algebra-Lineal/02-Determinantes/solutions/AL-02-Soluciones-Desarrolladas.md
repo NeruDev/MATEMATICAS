@@ -88,7 +88,7 @@ Cofactores:
 - $C_{21} = -1$
 - $C_{22} = 2$
 
-Matriz de cofactores: $C = \begin{pmatrix} 3 & -5 \\ -1 & 2 \end{pmatrix}$
+[Matriz](../../../glossary.md#matriz) de cofactores: $C = \begin{pmatrix} 3 & -5 \\ -1 & 2 \end{pmatrix}$
 
 $$\text{adj}(A) = C^T = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
 

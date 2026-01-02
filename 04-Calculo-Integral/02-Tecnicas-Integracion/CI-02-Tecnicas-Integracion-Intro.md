@@ -31,10 +31,10 @@ solutions/
 
 ## Ruta de aprendizaje
 
-1. **[Sustitución](../../glossary.md#sustitución) (cambio de variable)**: $u = g(x)$, $du = g'(x)\,dx$
-2. **[Integración por partes](../../glossary.md#integración-por-partes)**: $\int u\,dv = uv - \int v\,du$
+1. **[Sustitución](../../glossary.md#sustitucion) (cambio de variable)**: $u = g(x)$, $du = g'(x)\,dx$
+2. **[Integración por partes](../../glossary.md#integracion-por-partes)**: $\int u\,dv = uv - \int v\,du$
 3. **Integrales trigonométricas**: productos de senos, cosenos, tangentes
-4. **[Sustitución trigonométrica](../../glossary.md#sustitución-trigonométrica)**: para raíces $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, $\sqrt{x^2-a^2}$
+4. **[Sustitución trigonométrica](../../glossary.md#sustitucion-trigonometrica)**: para raíces $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, $\sqrt{x^2-a^2}$
 5. **[Fracciones parciales](../../glossary.md#fracciones-parciales)**: descomposición de fracciones racionales
 6. **Racionalización**: sustituciones para radicales
 7. **Estrategias de integración**: cómo elegir la técnica adecuada
@@ -48,11 +48,11 @@ solutions/
 
 | Técnica | Cuándo usarla |
 |---------|---------------|
-| Sustitución | [Composición](../../glossary.md#composición) de funciones, cadena inversa |
+| [Sustitución](../../glossary.md#sustitucion) | [Composición](../../glossary.md#composicion) de funciones, cadena inversa |
 | Por partes | Productos de funciones diferentes |
 | Trigonométricas | $\sin^m x \cos^n x$, $\tan^m x \sec^n x$ |
 | Sust. trigonométrica | Radicales con $a^2 \pm x^2$ o $x^2 - a^2$ |
-| Fracciones parciales | Cocientes de polinomios |
+| [Fracciones parciales](../../glossary.md#fracciones-parciales) | Cocientes de polinomios |
 
 ## Regla LIATE para integración por partes
 
@@ -66,7 +66,7 @@ solutions/
 ---
 
 <!--
-IA: Punto de entrada para [técnicas de integración](../../glossary.md#técnicas-de-integración).
+IA: Punto de entrada para [técnicas de integración](../../glossary.md#tecnicas-de-integracion).
 Verificar [dominio](../../glossary.md#dominio) de integrales básicas antes de continuar.
 file_id: CI-02-Tecnicas-Integracion-Intro
 -->

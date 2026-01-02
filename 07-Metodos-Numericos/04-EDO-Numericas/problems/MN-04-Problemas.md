@@ -16,7 +16,7 @@ difficulty_distribution: {basic: 10, intermediate: 12, advanced: 8}
 ## Sección 1: Método de Euler
 
 ### [Prob-01] Aproximación de Euler con Comparación Exacta ⭐
-Usa el [método de Euler](../../../glossary.md#método-de-euler) con $h = 0.1$ para aproximar $y(0.5)$ si:
+Usa el [método de Euler](../../../glossary.md#metodo-de-euler) con $h = 0.1$ para aproximar $y(0.5)$ si:
 $$y' = 2xy, \quad y(0) = 1$$
 Compara con la solución exacta $y = e^{x^2}$.
 
@@ -51,7 +51,7 @@ Usa Euler ($h = 5$ min) para encontrar $y(30)$.
 ---
 
 ### [Prob-05] Euler Implícito y Análisis de Estabilidad ⭐⭐⭐
-Implementa el método de Euler implícito para $y' = -10y$, $y(0) = 1$ con $h = 0.3$. ¿Por qué es estable cuando Euler explícito no lo es?
+Implementa el [método de Euler](../../../glossary.md#metodo-de-euler) implícito para $y' = -10y$, $y(0) = 1$ con $h = 0.3$. ¿Por qué es estable cuando Euler explícito no lo es?
 
 > 📁 Solución: `solutions/prob-05/`
 
@@ -60,7 +60,7 @@ Implementa el método de Euler implícito para $y' = -10y$, $y(0) = 1$ con $h = 
 ## Sección 2: Método de Heun
 
 ### [Prob-06] Método de Heun con Comparación a Euler ⭐
-Aplica el [método de Heun](../../../glossary.md#método-de-heun) con $h = 0.2$ para resolver:
+Aplica el [método de Heun](../../../glossary.md#metodo-de-heun) con $h = 0.2$ para resolver:
 $$y' = x^2 + y, \quad y(0) = 1$$
 Calcula $y(0.4)$ y compara con Euler.
 
@@ -271,7 +271,7 @@ b) Estimar la velocidad terminal
 ---
 
 ### [Prob-30] Cinética Química de Segundo Orden ⭐
-En una reacción de segundo orden: $c' = -kc^2$ con $k = 0.5$ y $c(0) = 2$ mol/L. Calcula $c(5)$ con RK4.
+En una reacción de segundo [orden](../../../glossary.md#orden): $c' = -kc^2$ con $k = 0.5$ y $c(0) = 2$ mol/L. Calcula $c(5)$ con RK4.
 
 > 📁 Solución: `solutions/prob-30/`
 
@@ -316,10 +316,10 @@ Implementa y aplica a $y' = y$, $y(0) = 1$ con tolerancia $10^{-8}$.
 | Sección | Problemas | Dificultad |
 |---------|-----------|------------|
 | 1. Método de Euler | Prob-01 a Prob-05 | ⭐ a ⭐⭐⭐ |
-| 2. Método de Heun | Prob-06 a Prob-09 | ⭐ a ⭐⭐ |
+| 2. [Método de Heun](../../../glossary.md#metodo-de-heun) | Prob-06 a Prob-09 | ⭐ a ⭐⭐ |
 | 3. Runge-Kutta | Prob-10 a Prob-14 | ⭐ a ⭐⭐⭐ |
-| 4. [Métodos Multipaso](../../../glossary.md#métodos-multipaso) | Prob-15 a Prob-17 | ⭐⭐ a ⭐⭐⭐ |
-| 5. Sistemas de EDO | Prob-18 a Prob-22 | ⭐⭐ a ⭐⭐⭐ |
+| 4. [Métodos Multipaso](../../../glossary.md#metodos-multipaso) | Prob-15 a Prob-17 | ⭐⭐ a ⭐⭐⭐ |
+| 5. Sistemas de [EDO](../../../glossary.md#edo) | Prob-18 a Prob-22 | ⭐⭐ a ⭐⭐⭐ |
 | 6. Error y Estabilidad | Prob-23 a Prob-26 | ⭐⭐ a ⭐⭐⭐ |
 | 7. Problemas Aplicados | Prob-27 a Prob-31 | ⭐ a ⭐⭐ |
 | 8. Problemas de Diseño | Prob-32 a Prob-34 | ⭐⭐⭐ |

@@ -115,7 +115,7 @@ $$A = \frac{(B + b) \times h}{2}$$
 
 ---
 
-**[Sustitución](../../../glossary.md#sustitución):**
+**[Sustitución](../../../glossary.md#sustitucion):**
 
 $$A = \frac{(12 + 8) \times 5}{2} = \frac{20 \times 5}{2} = \frac{100}{2} = 50$$
 
@@ -345,7 +345,7 @@ $$A = \sqrt{7056} = 84$$
 ---
 
 **Verificación alternativa:** Este es un triángulo que puede descomponerse:
-- Base 14, altura 12 → $A = \frac{14 \times 12}{2} = 84$ ✓
+- [Base](../../../glossary.md#base) 14, altura 12 → $A = \frac{14 \times 12}{2} = 84$ ✓
 
 $$\boxed{A = 84 \text{ unidades}^2}$$
 
@@ -647,7 +647,7 @@ $$\boxed{P = 6 + 6\sqrt{5} \approx 19.42, \quad A = 18 \text{ unidades}^2}$$
 
 ### Ejemplo Detallado
 
-**Problema:** Desde un punto $P$ exterior a un círculo se [traza](../../../glossary.md#traza) una tangente $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
+**Problema:** Desde un punto $P$ exterior a un círculo se [traza](../../../glossary.md#traza) una [tangente](../../../glossary.md#tangente) $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
 
 ---
 

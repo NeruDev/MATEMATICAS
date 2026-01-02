@@ -39,7 +39,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo orden, Series de Taylor
+- **Prerequisitos**: [EDO](../../glossary.md#edo) de segundo [orden](../../glossary.md#orden), Series de Taylor
 - **Usos posteriores**: Física matemática, Funciones especiales, [EDP](../../glossary.md#edp)
 
 ## Vista previa de conceptos clave

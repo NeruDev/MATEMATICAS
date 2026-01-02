@@ -32,7 +32,7 @@ $$\int \frac{dy}{g(y)} = \int f(x)\,dx + C$$
 **[Factor integrante](../../glossary.md#factor-integrante):**
 $$\mu(x) = e^{\int P(x)\,dx}$$
 
-**[Solución general](../../glossary.md#solución-general):**
+**[Solución general](../../glossary.md#solucion-general):**
 $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
 
 ---
@@ -55,7 +55,7 @@ Entonces $F(x,y) = C$ es la solución.
 
 Si no es exacta, buscar $\mu$:
 
-| Caso | Factor integrante |
+| Caso | [Factor integrante](../../glossary.md#factor-integrante) |
 |------|-------------------|
 | $\frac{1}{N}\left(\frac{\partial M}{\partial y} - \frac{\partial N}{\partial x}\right) = f(x)$ | $\mu = e^{\int f(x)\,dx}$ |
 | $\frac{1}{M}\left(\frac{\partial N}{\partial x} - \frac{\partial M}{\partial y}\right) = g(y)$ | $\mu = e^{\int g(y)\,dy}$ |
@@ -66,9 +66,9 @@ Si no es exacta, buscar $\mu$:
 
 **Forma:** $\frac{dy}{dx} + P(x)y = Q(x)y^n$, donde $n \neq 0, 1$
 
-**[Sustitución](../../glossary.md#sustitución):** $v = y^{1-n}$
+**[Sustitución](../../glossary.md#sustitucion):** $v = y^{1-n}$
 
-**EDO lineal resultante:**
+**[EDO](../../glossary.md#edo) lineal resultante:**
 $$\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$$
 
 ---
@@ -77,7 +77,7 @@ $$\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$$
 
 **Forma:** $\frac{dy}{dx} = f\left(\frac{y}{x}\right)$
 
-**Sustitución:** $y = vx \Rightarrow \frac{dy}{dx} = v + x\frac{dv}{dx}$
+**[Sustitución](../../glossary.md#sustitucion):** $y = vx \Rightarrow \frac{dy}{dx} = v + x\frac{dv}{dx}$
 
 **EDO separable resultante:**
 $$x\frac{dv}{dx} = f(v) - v$$
@@ -119,7 +119,7 @@ $$\frac{du}{dx} = a + bf(u)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para EDO de Primer Orden.
+IA: Hoja de referencia rápida para EDO de Primer [Orden](../../glossary.md#orden).
 Para desarrollo completo: theory/ED-01-Teoria-EDO-Primer-Orden.md
 file_id: ED-01-Resumen-Formulas
 -->

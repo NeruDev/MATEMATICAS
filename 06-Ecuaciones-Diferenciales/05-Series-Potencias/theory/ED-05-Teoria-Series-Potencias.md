@@ -40,7 +40,7 @@ $$\int \sum_{n=0}^{\infty} c_n x^n \, dx = \sum_{n=0}^{\infty} \frac{c_n}{n+1} x
 
 ### Función Analítica
 
-Una [función](../../../glossary.md#función) es **analítica** en $x_0$ si tiene desarrollo en serie de potencias convergente en un entorno de $x_0$.
+Una [función](../../../glossary.md#funcion) es **analítica** en $x_0$ si tiene desarrollo en serie de potencias convergente en un entorno de $x_0$.
 
 ---
 
@@ -78,7 +78,7 @@ que convergen en un intervalo $|x - x_0| < R$, donde $R$ es al menos la distanci
 
 5. Obtener **relación de recurrencia** para los $c_n$
 
-6. Escribir la [solución general](../../../glossary.md#solución-general)
+6. Escribir la [solución general](../../../glossary.md#solucion-general)
 
 > **Ejemplo:** Resolver $y'' + y = 0$
 > 
@@ -110,7 +110,7 @@ Un punto singular $x_0$ de:
 
 $$P(x)y'' + Q(x)y' + R(x)y = 0$$
 
-es **regular** si los [límites](../../../glossary.md#límites):
+es **regular** si los [límites](../../../glossary.md#limites):
 
 $$p_0 = \lim_{x \to x_0} (x-x_0)\frac{Q(x)}{P(x)}, \quad q_0 = \lim_{x \to x_0} (x-x_0)^2\frac{R(x)}{P(x)}$$
 
@@ -124,7 +124,7 @@ $$\boxed{y = x^r \sum_{n=0}^{\infty} c_n x^n = \sum_{n=0}^{\infty} c_n x^{n+r}, 
 
 ### Ecuación Indicial
 
-Al sustituir en la EDO, el coeficiente de la potencia más baja da la **ecuación indicial**:
+Al sustituir en la [EDO](../../../glossary.md#edo), el coeficiente de la potencia más baja da la **ecuación indicial**:
 
 $$\boxed{r(r-1) + p_0 r + q_0 = 0}$$
 
@@ -175,10 +175,10 @@ $$x^2y'' + xy' + (x^2 - \nu^2)y = 0$$
 
 donde $\nu \geq 0$ es el **[orden](../../../glossary.md#orden)**.
 
-**Solución general:**
+**[Solución general](../../../glossary.md#solucion-general):**
 $$y = C_1 J_\nu(x) + C_2 Y_\nu(x)$$
 
-**Función de Bessel de primera especie:**
+**[Función](../../../glossary.md#funcion) de Bessel de primera especie:**
 $$J_\nu(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{n!\,\Gamma(n+\nu+1)}\left(\frac{x}{2}\right)^{2n+\nu}$$
 
 Para $\nu = 0$:

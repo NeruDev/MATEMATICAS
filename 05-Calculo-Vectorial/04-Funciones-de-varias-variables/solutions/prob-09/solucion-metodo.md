@@ -12,7 +12,7 @@ audience: student
 
 ## Problema
 
-Demostrar que el siguiente [límite](../../../../glossary.md#límite) no existe:
+Demostrar que el siguiente [límite](../../../../glossary.md#limite) no existe:
 
 $$\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$$
 
@@ -20,7 +20,7 @@ $$\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$$
 
 ## Conceptos clave
 
-**Criterio de inexistencia de límite:** Si al aproximarnos al punto $(a,b)$ por diferentes trayectorias obtenemos valores distintos, entonces el límite no existe.
+**Criterio de inexistencia de [límite](../../../../glossary.md#limite):** Si al aproximarnos al punto $(a,b)$ por diferentes trayectorias obtenemos valores distintos, entonces el límite no existe.
 
 **Trayectorias comunes a evaluar:**
 - Ejes coordenados: $y = 0$, $x = 0$
@@ -33,7 +33,7 @@ $$\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$$
 
 ### Paso 1: Análisis por la trayectoria $y = 0$ (eje $x$)
 
-Sustituimos $y = 0$ en la [función](../../../../glossary.md#función):
+Sustituimos $y = 0$ en la [función](../../../../glossary.md#funcion):
 
 $$f(x, 0) = \frac{x \cdot 0}{x^2 + 0^2} = \frac{0}{x^2} = 0$$
 
@@ -47,7 +47,7 @@ $$\lim_{x \to 0} f(x, 0) = \lim_{x \to 0} 0 = 0$$
 
 ### Paso 2: Análisis por la trayectoria $x = 0$ (eje $y$)
 
-Sustituimos $x = 0$ en la función:
+Sustituimos $x = 0$ en la [función](../../../../glossary.md#funcion):
 
 $$f(0, y) = \frac{0 \cdot y}{0^2 + y^2} = \frac{0}{y^2} = 0$$
 

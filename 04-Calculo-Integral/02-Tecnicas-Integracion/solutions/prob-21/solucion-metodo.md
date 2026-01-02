@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Solución - [Integración por Partes](../../../../glossary.md#integración-por-partes) Cíclicas (Exponencial-[Seno](../../../../glossary.md#seno))"
+title: "Solución - [Integración por Partes](../../../../glossary.md#integracion-por-partes) Cíclicas (Exponencial-[Seno](../../../../glossary.md#seno))"
 type: solution
 topic: tecnicas-integracion
 problem_id: CI-02-021
@@ -213,10 +213,10 @@ $$\int e^x \sin x \, dx = \frac{e^x(1 \cdot \sin x - 1 \cdot \cos x)}{1^2 + 1^2}
 
 > **Consistencia en las elecciones:** Es fundamental mantener el mismo tipo de elección ($u = \text{trig}$ o $u = e^x$) en ambas aplicaciones de partes para que la integral original reaparezca.
 
-> **Signo del ciclo:** Al integrar seno, el ciclo produce un signo **negativo** frente a la integral que reaparece (a diferencia del [coseno](../../../../glossary.md#coseno) que produce signo positivo).
+> **Signo del ciclo:** Al integrar [seno](../../../../glossary.md#seno), el ciclo produce un signo **negativo** frente a la integral que reaparece (a diferencia del [coseno](../../../../glossary.md#coseno) que produce signo positivo).
 
 > **Truco de memoria:** 
-> - Coseno: $\frac{e^x(\sin x + \cos x)}{2}$ (ambos signos positivos)
+> - [Coseno](../../../../glossary.md#coseno): $\frac{e^x(\sin x + \cos x)}{2}$ (ambos signos positivos)
 > - Seno: $\frac{e^x(\sin x - \cos x)}{2}$ (seno positivo, coseno negativo)
 
 > **Relación con la fórmula de Euler:**

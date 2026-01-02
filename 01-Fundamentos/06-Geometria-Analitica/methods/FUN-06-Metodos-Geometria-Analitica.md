@@ -414,7 +414,7 @@ $$\boxed{(x-3)^2 + (y-4)^2 = 25}$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar forma | Por la variable al cuadrado |
-| 2 | Completar cuadrado | Si es necesario |
+| 2 | Completar cuadrado | Si es [necesario](../../../glossary.md#necesario) |
 | 3 | Determinar $4p$ | Del coeficiente |
 | 4 | Calcular elementos | Vértice, foco, directriz, eje |
 
@@ -506,7 +506,7 @@ $$c = 4$$
 - **Centro:** $C(0, 0)$
 - **Vértices:** $V_1(-5, 0)$, $V_2(5, 0)$
 - **Focos:** $F_1(-4, 0)$, $F_2(4, 0)$
-- **Extremos eje menor:** $(0, -3)$, $(0, 3)$
+- **Extremos eje [menor](../../../glossary.md#menor):** $(0, -3)$, $(0, 3)$
 - **Excentricidad:** $e = \frac{4}{5} = 0.8$
 
 ---

@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría de teoremas fundamentales del [cálculo diferencial](../../../glossary.md#cálculo-diferencial).
+Teoría de teoremas fundamentales del [cálculo diferencial](../../../glossary.md#calculo-diferencial).
 
 IA:
 Teoremas, demostraciones y aplicaciones.
@@ -41,11 +41,11 @@ Si $f$ es:
 1. Continua en $[a, b]$
 2. Diferenciable en $(a, b)$
 
-Entonces existe al menos un $c \in (a, b)$ tal que:
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que):
 $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 ### Interpretación Geométrica
-La pendiente de alguna tangente iguala la pendiente de la recta secante entre los extremos.
+La pendiente de alguna [tangente](../../../glossary.md#tangente) iguala la pendiente de la recta secante entre los extremos.
 
 ### Interpretación Física
 Si $f(t)$ es posición, la velocidad instantánea en algún momento iguala la velocidad promedio.
@@ -69,7 +69,7 @@ Entonces existe $c \in (a, b)$ tal que:
 $$\frac{f'(c)}{g'(c)} = \frac{f(b) - f(a)}{g(b) - g(a)}$$
 
 ### Aplicación Principal
-Es la base de la demostración de la Regla de L'Hôpital.
+Es la [base](../../../glossary.md#base) de la demostración de la Regla de L'Hôpital.
 
 ---
 
@@ -90,7 +90,7 @@ Si $\lim_{x \to a} f(x) = \pm\infty$ y $\lim_{x \to a} g(x) = \pm\infty$, aplica
 ### Advertencias
 1. Verificar que sea [forma indeterminada](../../../glossary.md#forma-indeterminada) antes de aplicar
 2. Se puede aplicar repetidamente si es [necesario](../../../glossary.md#necesario)
-3. No siempre funciona; el [límite](../../../glossary.md#límite) del cociente de [derivadas](../../../glossary.md#derivadas) puede no existir
+3. No siempre funciona; el [límite](../../../glossary.md#limite) del cociente de [derivadas](../../../glossary.md#derivadas) puede no existir
 
 ---
 

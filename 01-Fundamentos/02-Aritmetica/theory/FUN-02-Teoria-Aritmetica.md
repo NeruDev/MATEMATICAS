@@ -152,7 +152,7 @@ $$a \cdot (b + c) = a \cdot b + a \cdot c$$
 
 ### Teorema fundamental de la aritmética
 
-> Todo entero $n > 1$ puede expresarse de manera **única** como producto de primos (salvo el orden de los factores).
+> Todo entero $n > 1$ puede expresarse de manera **única** como producto de primos (salvo el [orden](../../../glossary.md#orden) de los factores).
 
 $$n = p_1^{a_1} \cdot p_2^{a_2} \cdot \ldots \cdot p_k^{a_k}$$
 
@@ -169,9 +169,9 @@ $$n = p_1^{a_1} \cdot p_2^{a_2} \cdot \ldots \cdot p_k^{a_k}$$
 
 **Definición**: El [MCD](../../../glossary.md#mcd) de dos números es el mayor número que divide a ambos.
 
-$$\text{MCD}(a, b) = \max\{d : d \mid a \text{ y } d \mid b\}$$
+$$\text{[MCD](../../../glossary.md#mcd)}(a, b) = \max\{d : d \mid a \text{ y } d \mid b\}$$
 
-**Método por [factorización](../../../glossary.md#factorización)**:
+**Método por [factorización](../../../glossary.md#factorizacion)**:
 1. Descomponer ambos números en factores primos.
 2. Tomar los factores comunes con el **[menor](../../../glossary.md#menor)** exponente.
 
@@ -196,11 +196,11 @@ Repetir hasta que el residuo sea 0.
 
 ### Mínimo Común Múltiplo
 
-**Definición**: El [MCM](../../../glossary.md#mcm) de dos números es el menor número positivo divisible por ambos.
+**Definición**: El [MCM](../../../glossary.md#mcm) de dos números es el [menor](../../../glossary.md#menor) número positivo divisible por ambos.
 
-$$\text{MCM}(a, b) = \min\{m > 0 : a \mid m \text{ y } b \mid m\}$$
+$$\text{[MCM](../../../glossary.md#mcm)}(a, b) = \min\{m > 0 : a \mid m \text{ y } b \mid m\}$$
 
-**Método por factorización**:
+**Método por [factorización](../../../glossary.md#factorizacion)**:
 1. Descomponer ambos números en factores primos.
 2. Tomar todos los factores con el **mayor** exponente.
 
@@ -384,7 +384,7 @@ La aritmética sustenta estructuras de mayor complejidad en:
 
 ### Fundamentación axiomática de $\mathbb{N}$ (Axiomas de Peano)
 
-Sea $N$ un conjunto y $S: N \to N$ la [función](../../../glossary.md#función) sucesor. Existe un elemento distinguido $1 \in N$ tal que:
+Sea $N$ un conjunto y $S: N \to N$ la [función](../../../glossary.md#funcion) sucesor. Existe un elemento distinguido $1 \in N$ [tal que](../../../glossary.md#tal-que):
 
 1. **Existencia del elemento inicial:** $1 \in N$.
 2. **Clausura bajo sucesión:** $\forall n \in N,\ S(n) \in N$.

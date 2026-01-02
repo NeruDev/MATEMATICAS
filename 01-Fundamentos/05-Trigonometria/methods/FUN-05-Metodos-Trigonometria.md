@@ -156,7 +156,7 @@ $240°$ está en el tercer cuadrante (entre $180°$ y $270°$)
 
 **Paso 2: Determinar signos**
 
-En el tercer cuadrante: solo tangente y cotangente son positivas.
+En el tercer cuadrante: solo [tangente](../../../glossary.md#tangente) y cotangente son positivas.
 
 - $\sin(240°) < 0$
 - $\cos(240°) < 0$
@@ -280,7 +280,7 @@ $$\boxed{\text{Amplitud: } 3, \quad \text{Período: } \pi, \quad \text{Rango: } 
 | Estrategia | Descripción |
 |------------|-------------|
 | Trabajar un lado | Transformar hasta igualar al otro |
-| Convertir a sen/cos | Expresar todo en términos de seno y coseno |
+| Convertir a sen/cos | Expresar todo en términos de [seno](../../../glossary.md#seno) y [coseno](../../../glossary.md#coseno) |
 | [Factorizar](../../../glossary.md#factorizar) | Buscar factores comunes |
 | Conjugado | Multiplicar por conjugado |
 | Identidades pitagóricas | Usar $\sin^2 + \cos^2 = 1$ |
@@ -327,13 +327,13 @@ $$\boxed{\frac{\sin\theta}{1 - \cos\theta} = \frac{1 + \cos\theta}{\sin\theta} \
 
 ## Método 6: Resolver Ecuaciones Trigonométricas
 
-**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../../glossary.md#función) trigonométrica.
+**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../../glossary.md#funcion) trigonométrica.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Aislar función trig | Dejar $\sin x$, $\cos x$, etc. solos |
+| 1 | Aislar [función](../../../glossary.md#funcion) trig | Dejar $\sin x$, $\cos x$, etc. solos |
 | 2 | Encontrar ángulo de referencia | Usando valor absoluto |
 | 3 | Identificar cuadrantes | Donde la función tiene ese signo |
 | 4 | Escribir soluciones | En el intervalo pedido |
@@ -352,7 +352,7 @@ $$2u^2 - u - 1 = 0$$
 
 ---
 
-**Paso 2: Factorizar**
+**Paso 2: [Factorizar](../../../glossary.md#factorizar)**
 
 $$(2u + 1)(u - 1) = 0$$
 

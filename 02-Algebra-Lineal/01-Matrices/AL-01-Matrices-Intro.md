@@ -10,7 +10,7 @@ audience: student
 
 ## Propósito
 
-Este módulo introduce el concepto fundamental de matrices: arreglos rectangulares de números que son la herramienta central del [álgebra lineal](../../glossary.md#álgebra-lineal). Aprenderás a clasificar matrices, realizar operaciones básicas y calcular inversas, habilidades esenciales para todo el desarrollo posterior del curso.
+Este módulo introduce el concepto fundamental de matrices: arreglos rectangulares de números que son la herramienta central del [álgebra lineal](../../glossary.md#algebra-lineal). Aprenderás a clasificar matrices, realizar operaciones básicas y calcular inversas, habilidades esenciales para todo el desarrollo posterior del curso.
 
 ## Mapa de recursos
 

@@ -25,7 +25,7 @@ $$\iint_R f(x,y)\, dA = \int_a^b \int_c^d f(x,y)\, dy\, dx = \int_c^d \int_a^b f
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar [límites](../../../glossary.md#límites) | $a \leq x \leq b$, $c \leq y \leq d$ |
+| 1 | Identificar [límites](../../../glossary.md#limites) | $a \leq x \leq b$, $c \leq y \leq d$ |
 | 2 | Elegir [orden](../../../glossary.md#orden) de integración | El que simplifique más |
 | 3 | Integrar la variable interior | Tratar la otra como constante |
 | 4 | Integrar la variable exterior | Con el resultado del paso 3 |
@@ -51,7 +51,7 @@ $$\int_0^1 \left(2x^2 + \frac{8}{3}\right)\, dx = \left[\frac{2x^3}{3} + \frac{8
 
 ### Cuándo Usar
 - Región no rectangular
-- Límites de una variable dependen de la otra
+- [Límites](../../../glossary.md#limites) de una variable dependen de la otra
 
 ### Tipos de Región
 
@@ -88,16 +88,16 @@ $$\int_0^1 \frac{x^3 - x^5}{2}\, dx = \frac{1}{2}\left[\frac{x^4}{4} - \frac{x^6
 ## Método 3: Cambio de Orden de Integración
 
 ### Cuándo Usar
-- La integral en un orden es difícil o imposible
+- La integral en un [orden](../../../glossary.md#orden) es difícil o imposible
 - Optimizar cálculos
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Graficar la región | Identificar curvas [límite](../../../glossary.md#límite) |
-| 2 | Expresar como Tipo I | Límites en [función](../../../glossary.md#función) de $x$ |
-| 3 | Expresar como Tipo II | Límites en función de $y$ |
+| 1 | Graficar la región | Identificar curvas [límite](../../../glossary.md#limite) |
+| 2 | Expresar como Tipo I | Límites en [función](../../../glossary.md#funcion) de $x$ |
+| 3 | Expresar como Tipo II | Límites en [función](../../../glossary.md#funcion) de $y$ |
 | 4 | Elegir el orden más simple | Para el integrando dado |
 
 ### Ejemplo Detallado
@@ -123,7 +123,7 @@ $$\int_0^y e^{y^2}\, dx = e^{y^2} \cdot y = ye^{y^2}$$
 **Paso 6:** Integramos respecto a $y$:
 $$\int_0^1 ye^{y^2}\, dy$$
 
-[Sustitución](../../../glossary.md#sustitución): $u = y^2$, $du = 2y\, dy$
+[Sustitución](../../../glossary.md#sustitucion): $u = y^2$, $du = 2y\, dy$
 $$= \frac{1}{2}\int_0^1 e^u\, du = \frac{1}{2}[e^u]_0^1 = \frac{1}{2}(e - 1)$$
 
 **Resultado:** $\int_0^1 \int_x^1 e^{y^2}\, dy\, dx = \boxed{\frac{e-1}{2}}$
@@ -164,7 +164,7 @@ $$\int_0^{2\pi} \int_0^2 e^{-r^2} \cdot r\, dr\, d\theta$$
 **Paso 3:** Integramos respecto a $r$:
 $$\int_0^2 re^{-r^2}\, dr$$
 
-Sustitución: $u = -r^2$, $du = -2r\, dr$
+[Sustitución](../../../glossary.md#sustitucion): $u = -r^2$, $du = -2r\, dr$
 $$= -\frac{1}{2}\int_0^{-4} e^u\, du = -\frac{1}{2}[e^u]_0^{-4} = -\frac{1}{2}(e^{-4} - 1) = \frac{1 - e^{-4}}{2}$$
 
 **Paso 4:** Integramos respecto a $\theta$:

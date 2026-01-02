@@ -15,7 +15,7 @@ created: 2025-12-22
 
 ## 📋 Enunciado del Problema
 
-**Demuestra la siguiente [identidad trigonométrica](../../../../glossary.md#identidad-trigonométrica):**
+**Demuestra la siguiente [identidad trigonométrica](../../../../glossary.md#identidad-trigonometrica):**
 
 $$\cos(3\theta) = 4\cos^3\theta - 3\cos\theta$$
 
@@ -29,7 +29,7 @@ Utilizaremos las **identidades de suma de ángulos** y la **identidad del ángul
 
 | Identidad | Fórmula |
 |-----------|---------|
-| Coseno de suma | $\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$ |
+| [Coseno](../../../../glossary.md#coseno) de suma | $\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$ |
 | Coseno del ángulo doble | $\cos(2\theta) = 2\cos^2\theta - 1$ |
 | [Seno](../../../../glossary.md#seno) del ángulo doble | $\sin(2\theta) = 2\sin\theta\cos\theta$ |
 | Identidad pitagórica | $\sin^2\theta + \cos^2\theta = 1$ |
@@ -146,5 +146,5 @@ $$= 4 \cdot \frac{3\sqrt{3}}{8} - \frac{3\sqrt{3}}{2} = \frac{3\sqrt{3}}{2} - \f
 
 ### Identidades Relacionadas
 
-- **Seno del ángulo triple:** $\sin(3\theta) = 3\sin\theta - 4\sin^3\theta$
+- **[Seno](../../../../glossary.md#seno) del ángulo triple:** $\sin(3\theta) = 3\sin\theta - 4\sin^3\theta$
 - **[Tangente](../../../../glossary.md#tangente) del ángulo triple:** $\tan(3\theta) = \dfrac{3\tan\theta - \tan^3\theta}{1 - 3\tan^2\theta}$

@@ -184,9 +184,9 @@ $$g(x) = 5$$
 
 ### Comportamiento de $f(x)$
 
-- **Dominio:** $x \geq 0$
+- **[Dominio](../../../../glossary.md#dominio):** $x \geq 0$
 - **En $x = 0$:** $f(0) = \sqrt{5} + 0 = \sqrt{5} \approx 2.24$
-- **[Función](../../../../glossary.md#función) creciente:** la suma de dos funciones crecientes
+- **[Función](../../../../glossary.md#funcion) creciente:** la suma de dos funciones crecientes
 - **En $x = 4$:** $f(4) = 3 + 2 = 5$
 
 ### Gráfica

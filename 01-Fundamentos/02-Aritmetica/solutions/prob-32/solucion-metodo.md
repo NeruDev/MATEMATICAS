@@ -18,7 +18,7 @@ Calcula $\text{[MCD](../../../../glossary.md#mcd)}(252, 198)$ usando el algoritm
 ## Método: Algoritmo de Euclides
 
 ### Fundamento teórico
-El algoritmo de Euclides se basa en que $\text{MCD}(a, b) = \text{MCD}(b, r)$, donde $r$ es el residuo de dividir $a$ entre $b$.
+El algoritmo de Euclides se basa en que $\text{[MCD](../../../../glossary.md#mcd)}(a, b) = \text{MCD}(b, r)$, donde $r$ es el residuo de dividir $a$ entre $b$.
 
 ### Paso 1: Primera división
 $$252 = 198 \times 1 + 54$$

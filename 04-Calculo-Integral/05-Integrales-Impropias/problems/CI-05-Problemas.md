@@ -32,7 +32,7 @@ $$\int_1^{\infty} \frac{1}{x^2}\,dx$$
 
 ### [Prob-02] Integral exponencial decreciente ⭐
 
-Evalúa la siguiente integral impropia:
+Evalúa la siguiente [integral impropia](../../../glossary.md#integral-impropia):
 
 $$\int_0^{\infty} e^{-x}\,dx$$
 
@@ -72,7 +72,7 @@ $$\int_1^{\infty} \frac{1}{\sqrt{x}}\,dx$$
 
 ### [Prob-06] Integral con producto xe^(-x) ⭐⭐
 
-Evalúa la siguiente integral impropia ([integración por partes](../../../glossary.md#integración-por-partes)):
+Evalúa la siguiente integral impropia ([integración por partes](../../../glossary.md#integracion-por-partes)):
 
 $$\int_0^{\infty} xe^{-x}\,dx$$
 
@@ -112,7 +112,7 @@ $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx$$
 
 ### [Prob-10] Integral con x²e^(-x) ⭐⭐
 
-Evalúa la siguiente integral impropia (integración por partes doble):
+Evalúa la siguiente integral impropia ([integración por partes](../../../glossary.md#integracion-por-partes) doble):
 
 $$\int_0^{\infty} x^2 e^{-x}\,dx$$
 

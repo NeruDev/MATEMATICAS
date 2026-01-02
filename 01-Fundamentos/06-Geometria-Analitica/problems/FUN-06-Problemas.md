@@ -303,7 +303,7 @@ Determina el valor de $k$ para que la recta $3x + 4y = k$ sea [tangente](../../.
 ---
 
 ### [Prob-37] Circunferencia tangente a recta y eje ⭐⭐⭐
-Encuentra la ecuación de la circunferencia de centro $(h, 0)$ que es tangente tanto al eje $y$ como a la recta $y = x$.
+Encuentra la ecuación de la circunferencia de centro $(h, 0)$ que es [tangente](../../../glossary.md#tangente) tanto al eje $y$ como a la recta $y = x$.
 
 > 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 
@@ -505,7 +505,7 @@ Encuentra la ecuación de la hipérbola equilátera (con asíntotas perpendicula
 ---
 
 ### [Prob-65] Hipérbola trasladada ⭐⭐⭐
-Una hipérbola tiene centro en $(1, 2)$, un vértice en $(4, 2)$ y una [asíntota](../../../glossary.md#asíntota) con pendiente $\frac{2}{3}$. Encuentra su ecuación.
+Una hipérbola tiene centro en $(1, 2)$, un vértice en $(4, 2)$ y una [asíntota](../../../glossary.md#asintota) con pendiente $\frac{2}{3}$. Encuentra su ecuación.
 
 > 📎 **Solución:** [solutions/prob-65/](../solutions/prob-65/)
 

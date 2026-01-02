@@ -11,7 +11,7 @@ requires: [fun-03-algebra]
 # Geometría
 
 ## Propósito
-Entender figuras, medidas y propiedades espaciales para preparar [trigonometría](../../glossary.md#trigonometría) y geometría analítica.
+Entender figuras, medidas y propiedades espaciales para preparar [trigonometría](../../glossary.md#trigonometria) y geometría analítica.
 
 ## Mapa de recursos
 - FUN-04-Geometria-Intro.md ← Estás aquí

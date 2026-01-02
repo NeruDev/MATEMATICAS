@@ -18,7 +18,7 @@ status: active
 | 2 | [Coeficientes Indeterminados](#método-2-coeficientes-indeterminados) | $ay'' + by' + cy = f(x)$ especial | ⭐⭐⭐ |
 | 3 | [Variación de Parámetros](#método-3-variación-de-parámetros) | $y'' + Py' + Qy = f(x)$ general | ⭐⭐⭐ |
 | 4 | [Cauchy-Euler](#método-4-ecuación-de-cauchy-euler) | $ax^2y'' + bxy' + cy = 0$ | ⭐⭐⭐ |
-| 5 | [Reducción de Orden](#método-5-reducción-de-orden) | Conocida una solución $y_1$ | ⭐⭐⭐ |
+| 5 | [Reducción de Orden](#método-5-reducción-de-[orden](../../../glossary.md#orden)) | Conocida una solución $y_1$ | ⭐⭐⭐ |
 | 6 | [Operador Anulador](#método-6-método-del-operador-anulador) | $f(x)$ [polinomio](../../../glossary.md#polinomio), exp, trig | ⭐⭐⭐⭐ |
 | 7 | [Superposición](#método-7-principio-de-superposición) | Múltiples términos en $f(x)$ | ⭐⭐ |
 | 8 | [PVI Segundo Orden](#método-8-resolver-pvi-de-segundo-orden) | Con condiciones iniciales | ⭐⭐ |
@@ -40,7 +40,7 @@ status: active
 
 **Solución según discriminante** $\Delta = b^2 - 4ac$:
 
-| Caso | Raíces | [Solución General](../../../glossary.md#solución-general) |
+| Caso | Raíces | [Solución General](../../../glossary.md#solucion-general) |
 |------|--------|------------------|
 | $\Delta > 0$ | $r_1, r_2$ reales distintas | $y = C_1 e^{r_1 x} + C_2 e^{r_2 x}$ |
 | $\Delta = 0$ | $r$ real doble | $y = (C_1 + C_2 x)e^{rx}$ |
@@ -109,7 +109,7 @@ $y'' + 6y' + 25y = e^{-3x}[(-7 - 18 + 25)\cos 4x + (24 - 24)\sin 4x] = 0$ ✓
 ### Cuándo Usar
 
 - Ecuación $ay'' + by' + cy = f(x)$ donde $f(x)$ es:
-  - Polinomio
+  - [Polinomio](../../../glossary.md#polinomio)
   - Exponencial $e^{ax}$
   - [Seno](../../../glossary.md#seno)/[coseno](../../../glossary.md#coseno) $\sin bx$, $\cos bx$
   - Productos de los anteriores
@@ -149,7 +149,7 @@ Si la propuesta $y_p$ contiene términos de $y_h$:
 
 ---
 
-**Paso 1: Resolver [ecuación homogénea](../../../glossary.md#ecuación-homogénea)**
+**Paso 1: Resolver [ecuación homogénea](../../../glossary.md#ecuacion-homogenea)**
 
 $r^2 - 4 = 0 \implies r = \pm 2$
 
@@ -203,7 +203,7 @@ $4Ae^{2x} - 4Bx - 4D = 8e^{2x} + 3x$
 
 ---
 
-**Paso 7: Escribir solución general**
+**Paso 7: Escribir [solución general](../../../glossary.md#solucion-general)**
 
 $$y_p = 2xe^{2x} - \frac{3x}{4}$$
 
@@ -227,7 +227,7 @@ $$W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} = y_1 y_2' - y_2 y_
 **Funciones auxiliares:**
 $$u_1' = -\frac{y_2 f(x)}{W}, \quad u_2' = \frac{y_1 f(x)}{W}$$
 
-**[Solución particular](../../../glossary.md#solución-particular):**
+**[Solución particular](../../../glossary.md#solucion-particular):**
 $$y_p = u_1 y_1 + u_2 y_2$$
 
 ### Algoritmo de Resolución
@@ -264,7 +264,7 @@ $y_1 = \cos x$, $y_2 = \sin x$
 
 ---
 
-**Paso 3: Calcular Wronskiano**
+**Paso 3: Calcular [Wronskiano](../../../glossary.md#wronskiano)**
 
 $$W = \begin{vmatrix} \cos x & \sin x \\ -\sin x & \cos x \end{vmatrix} = \cos^2 x + \sin^2 x = 1$$
 
@@ -286,7 +286,7 @@ $$u_2 = \int 1\,dx = x$$
 
 ---
 
-**Paso 6: Formar solución particular**
+**Paso 6: Formar [solución particular](../../../glossary.md#solucion-particular)**
 
 $$y_p = u_1 y_1 + u_2 y_2 = \ln|\cos x| \cdot \cos x + x \cdot \sin x$$
 
@@ -323,7 +323,7 @@ $= \frac{\sin^2 x}{\cos x} + \cos x = \frac{\sin^2 x + \cos^2 x}{\cos x} = \sec 
 
 ### Fórmula
 
-**[Sustitución](../../../glossary.md#sustitución):** $y = x^m$ transforma en ecuación auxiliar:
+**[Sustitución](../../../glossary.md#sustitucion):** $y = x^m$ transforma en ecuación auxiliar:
 
 $$am(m-1) + bm + c = 0 \implies am^2 + (b-a)m + c = 0$$
 
@@ -385,7 +385,7 @@ $$\boxed{y = x^1[C_1 \cos(2\ln x) + C_2 \sin(2\ln x)] = x[C_1 \cos(2\ln x) + C_2
 
 ---
 
-**Método alternativo: Sustitución** $x = e^t$
+**Método alternativo: [Sustitución](../../../glossary.md#sustitucion)** $x = e^t$
 
 $t = \ln x$, $\frac{dt}{dx} = \frac{1}{x}$
 
@@ -802,7 +802,7 @@ $y'(0) = 0 + 4 = 4$ ✓
 | $a, b, c$ constantes, $f(x) = 0$ | Ecuación característica |
 | $ax^2, bx, c$ coeficientes, $f(x) = 0$ | Cauchy-Euler |
 | $f(x)$ = polinomio, exp, sin/cos | Coeficientes indeterminados |
-| $f(x)$ cualquier [función](../../../glossary.md#función) | Variación de parámetros |
+| $f(x)$ cualquier [función](../../../glossary.md#funcion) | Variación de parámetros |
 | Conocida una solución $y_1$ | Reducción de orden |
 
 ---

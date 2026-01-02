@@ -21,7 +21,7 @@ Un **[vector](../../../glossary.md#vector)** es un objeto matemático que tiene 
 - En el plano $\mathbb{R}^2$: $\mathbf{v} = \langle v_x, v_y \rangle$
 - En el espacio $\mathbb{R}^3$: $\mathbf{v} = \langle v_x, v_y, v_z \rangle$
 
-Las componentes $v_x, v_y, v_z$ indican cuánto "avanza" el vector en cada eje coordenado.
+Las componentes $v_x, v_y, v_z$ indican cuánto "avanza" el [vector](../../../glossary.md#vector) en cada eje coordenado.
 
 ### Vector posición
 Dado un punto $P = (a, b, c)$, el **vector posición** $\overrightarrow{OP}$ va del origen al punto:

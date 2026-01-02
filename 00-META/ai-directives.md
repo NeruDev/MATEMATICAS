@@ -80,6 +80,6 @@ last_updated: 2025-12-30
 
 ## 6. Referencias Cruzadas
 
-Para términos del glosario, usar formato: `[→ término](../glossary.md#término)`
+Para términos del glosario, usar formato: `[→ término](../glossary.md#termino)`
 
-Ejemplo: `[→ función](../glossary.md#función)`
+Ejemplo: `[→ función](../glossary.md#funcion)`

@@ -34,7 +34,7 @@ $$x^2 + y^2 = r^2$$
 **Jacobiano de la transformación:**
 $$dA = dx\,dy = r\,dr\,d\theta$$
 
-**[Límites](../../../../glossary.md#límites) para un disco de radio $R$ centrado en el origen:**
+**[Límites](../../../../glossary.md#limites) para un disco de radio $R$ centrado en el origen:**
 $$0 \leq r \leq R, \quad 0 \leq \theta \leq 2\pi$$
 
 ---
@@ -57,7 +57,7 @@ $$x^2 + y^2 = r^2$$
 **El elemento de área:**
 $$dA = r \, dr \, d\theta$$
 
-**Los límites de integración:**
+**Los [límites](../../../../glossary.md#limites) de integración:**
 - $r$: desde $0$ hasta $2$
 - $\theta$: desde $0$ hasta $2\pi$
 
@@ -110,8 +110,8 @@ $$\boxed{\iint_D (x^2 + y^2) \, dA = 8\pi}$$
 ## Verificación
 
 **Verificación dimensional:**
-- El integrando $x^2 + y^2$ tiene [dimensión](../../../../glossary.md#dimensión) $[\text{longitud}]^2$
-- El área $dA$ tiene dimensión $[\text{longitud}]^2$
+- El integrando $x^2 + y^2$ tiene [dimensión](../../../../glossary.md#dimension) $[\text{longitud}]^2$
+- El área $dA$ tiene [dimensión](../../../../glossary.md#dimension) $[\text{longitud}]^2$
 - La integral tiene dimensión $[\text{longitud}]^4$ ✓
 
 **Verificación por estimación:**

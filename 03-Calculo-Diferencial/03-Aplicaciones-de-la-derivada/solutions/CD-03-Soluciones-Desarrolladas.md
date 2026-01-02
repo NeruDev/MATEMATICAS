@@ -26,7 +26,7 @@ audience: self-study
 $f(x) = x^3 - 2x$, $f(1) = 1 - 2 = -1$
 $f'(x) = 3x^2 - 2$, $f'(1) = 3 - 2 = 1$
 
-Tangente: $y - (-1) = 1(x - 1)$ → $y = x - 2$
+[Tangente](../../../glossary.md#tangente): $y - (-1) = 1(x - 1)$ → $y = x - 2$
 
 ---
 
@@ -88,7 +88,7 @@ $A'' = -4 < 0$ → máximo
 **Contexto:** Caja de lámina 12×12 cm cortando cuadrados de lado $x$.
 
 **Desarrollo:**
-Base: $(12 - 2x) \times (12 - 2x)$, Altura: $x$
+[Base](../../../glossary.md#base): $(12 - 2x) \times (12 - 2x)$, Altura: $x$
 Volumen: $V = x(12-2x)^2 = x(144 - 48x + 4x^2) = 4x^3 - 48x^2 + 144x$
 
 $V' = 12x^2 - 96x + 144 = 12(x^2 - 8x + 12) = 12(x-2)(x-6) = 0$
@@ -150,7 +150,7 @@ $x_2 = 2.25 - \frac{0.0625}{4.5} = 2.2361...$
 ## Problemas de Síntesis
 
 ### Solución 3.S.4
-**Contexto:** Usar análisis de [función](../../../glossary.md#función) $g(x) = e^x - 1 - x$.
+**Contexto:** Usar análisis de [función](../../../glossary.md#funcion) $g(x) = e^x - 1 - x$.
 
 **Desarrollo:**
 $g(x) = e^x - 1 - x$

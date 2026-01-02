@@ -164,7 +164,7 @@ Combinar Adams-Bashforth (predictor) con Adams-Moulton (corrector):
 
 ### 5.5 Arranque
 
-Los [métodos multipaso](../../../glossary.md#métodos-multipaso) necesitan valores iniciales $y_1, y_2, ...$
+Los [métodos multipaso](../../../glossary.md#metodos-multipaso) necesitan valores iniciales $y_1, y_2, ...$
 
 **Solución:** Usar RK4 para los primeros pasos.
 
@@ -188,7 +188,7 @@ $$y_{i,n+1} = y_{i,n} + h \cdot f_i(x_n, y_{1,n}, ..., y_{m,n})$$
 
 ### 6.3 Reducción de Orden
 
-[EDO](../../../glossary.md#edo) de orden $m$:
+[EDO](../../../glossary.md#edo) de [orden](../../../glossary.md#orden) $m$:
 $$y^{(m)} = g(x, y, y', ..., y^{(m-1)})$$
 
 Se convierte en sistema introduciendo:

@@ -16,7 +16,7 @@ Estudiar curvas en el espacio mediante funciones vectoriales, analizando velocid
 
 ## Ruta de aprendizaje
 
-1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, [límites](../../glossary.md#límites) y [continuidad](../../glossary.md#continuidad).
+1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, [límites](../../glossary.md#limites) y [continuidad](../../glossary.md#continuidad).
 2. **[Derivada](../../glossary.md#derivada) vectorial:** [vector](../../glossary.md#vector) [tangente](../../glossary.md#tangente), velocidad y aceleración.
 3. **Integral vectorial:** antiderivadas de funciones vectoriales.
 4. **Longitud de arco:** parametrización por longitud de arco.
@@ -46,9 +46,9 @@ solutions/
 
 | Concepto | Descripción breve |
 |----------|-------------------|
-| [Función](../../glossary.md#función) vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
-| Derivada | $\mathbf{r}'(t) = \langle x'(t), y'(t), z'(t) \rangle$ |
-| Vector tangente unitario | $\mathbf{T} = \mathbf{r}'/\lVert\mathbf{r}'\rVert$ |
+| [Función](../../glossary.md#funcion) vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
+| [Derivada](../../glossary.md#derivada) | $\mathbf{r}'(t) = \langle x'(t), y'(t), z'(t) \rangle$ |
+| [Vector](../../glossary.md#vector) [tangente](../../glossary.md#tangente) unitario | $\mathbf{T} = \mathbf{r}'/\lVert\mathbf{r}'\rVert$ |
 | Curvatura | $\kappa = \lVert d\mathbf{T}/ds \rVert$ |
 | Marco TNB | Tangente, Normal, Binormal |
 

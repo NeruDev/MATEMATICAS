@@ -22,7 +22,7 @@ $$L_1(x) = \frac{(x-0)(x-2)}{(1-0)(1-2)} = \frac{x(x-2)}{-1} = -x(x-2)$$
 
 $$L_2(x) = \frac{(x-0)(x-1)}{(2-0)(2-1)} = \frac{x(x-1)}{2}$$
 
-**Paso 2:** Construir polinomio:
+**Paso 2:** Construir [polinomio](../../../glossary.md#polinomio):
 
 $$P(x) = 1 \cdot L_0(x) + 0 \cdot L_1(x) + 1 \cdot L_2(x)$$
 
@@ -110,7 +110,7 @@ $$\boxed{P(x) = \frac{3x^4 - 10x^3 + 15x^2 - 8x + 8}{8}}$$
 
 ## Solución Problema 12 (Error de Interpolación)
 
-**Acotar [error de interpolación](../../../glossary.md#error-de-[interpolación](../../../glossary.md#interpolación)) lineal de $e^x$ en $[0, 1]$**
+**Acotar [error de interpolación](../../../glossary.md#error-de-[interpolacion](../../../glossary.md#interpolacion)) lineal de $e^x$ en $[0, 1]$**
 
 Fórmula del error:
 $$|f(x) - P_1(x)| \leq \frac{M_2}{2!}|(x - x_0)(x - x_1)|$$

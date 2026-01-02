@@ -15,12 +15,12 @@ audience: student
 
 ### Definición
 
-Una [función](../../../glossary.md#función) $F(x)$ es una **[antiderivada](../../../glossary.md#antiderivada)** (o [primitiva](../../../glossary.md#primitiva)) de $f(x)$ en un intervalo $I$ si:
+Una [función](../../../glossary.md#funcion) $F(x)$ es una **[antiderivada](../../../glossary.md#antiderivada)** (o [primitiva](../../../glossary.md#primitiva)) de $f(x)$ en un intervalo $I$ si:
 
 $$F'(x) = f(x) \quad \text{para todo } x \in I$$
 
 ### Ejemplo
-Si $F(x) = x^3$, entonces $F'(x) = 3x^2$, por lo que $F(x) = x^3$ es una antiderivada de $f(x) = 3x^2$.
+Si $F(x) = x^3$, entonces $F'(x) = 3x^2$, por lo que $F(x) = x^3$ es una [antiderivada](../../../glossary.md#antiderivada) de $f(x) = 3x^2$.
 
 ### Observación Importante
 Si $F(x)$ es una antiderivada de $f(x)$, entonces $F(x) + C$ también lo es para cualquier constante $C$, porque:
@@ -40,7 +40,7 @@ donde:
 - $f(x)$ es el **integrando**
 - $dx$ indica la variable de integración
 - $F(x)$ es una antiderivada de $f(x)$
-- $C$ es la **[constante de integración](../../../glossary.md#constante-de-integración)**
+- $C$ es la **[constante de integración](../../../glossary.md#constante-de-integracion)**
 
 ### La Constante de Integración
 La constante $C$ representa que hay infinitas antiderivadas que difieren por una constante.
@@ -96,7 +96,7 @@ $$\int e^{kx} \, dx = \frac{e^{kx}}{k} + C$$
 
 ## 1.5 Integrales de Funciones Logarítmicas
 
-La integral de $\ln x$ requiere [integración por partes](../../../glossary.md#integración-por-partes) (ver [Técnicas de Integración](../../../glossary.md#técnicas-de-integración)):
+La integral de $\ln x$ requiere [integración por partes](../../../glossary.md#integracion-por-partes) (ver [Técnicas de Integración](../../../glossary.md#tecnicas-de-integracion)):
 
 $$\int \ln x \, dx = x \ln x - x + C$$
 
@@ -164,7 +164,7 @@ $$\int [af(x) + bg(x)] \, dx = a\int f(x) \, dx + b\int g(x) \, dx$$
 
 ### Tabla Resumen de Integrales Básicas
 
-| Función | Integral |
+| [Función](../../../glossary.md#funcion) | Integral |
 |---------|----------|
 | $x^n$ $(n \neq -1)$ | $\frac{x^{n+1}}{n+1} + C$ |
 | $\frac{1}{x}$ | $\ln\lvert x \rvert + C$ |

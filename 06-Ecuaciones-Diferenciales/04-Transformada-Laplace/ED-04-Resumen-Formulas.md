@@ -67,7 +67,7 @@ $$\mathcal{L}\{e^{at}f(t)\} = F(s-a)$$
 ### Segunda traslación (en $t$)
 $$\mathcal{L}\{u(t-a)f(t-a)\} = e^{-as}F(s)$$
 
-donde $u(t-a)$ es la [función](../../glossary.md#función) escalón unitario.
+donde $u(t-a)$ es la [función](../../glossary.md#funcion) escalón unitario.
 
 ---
 

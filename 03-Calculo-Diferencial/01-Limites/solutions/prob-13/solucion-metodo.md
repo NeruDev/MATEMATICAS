@@ -72,6 +72,6 @@ $$\boxed{\lim_{x \to 0} x^2 \cos\left(\frac{1}{x}\right) = 0}$$
 ---
 
 ## Nota importante
-El [límite](../../../../glossary.md#límite) existe a pesar de que $\cos\left(\frac{1}{x}\right)$ no tiene límite cuando $x \to 0$. El factor $x^2$ "aplasta" las oscilaciones hacia cero.
+El [límite](../../../../glossary.md#limite) existe a pesar de que $\cos\left(\frac{1}{x}\right)$ no tiene límite cuando $x \to 0$. El factor $x^2$ "aplasta" las oscilaciones hacia cero.
 
-Este es un ejemplo clásico donde la [sustitución](../../../../glossary.md#sustitución) directa no funciona pero el teorema del emparedado sí.
+Este es un ejemplo clásico donde la [sustitución](../../../../glossary.md#sustitucion) directa no funciona pero el teorema del emparedado sí.
