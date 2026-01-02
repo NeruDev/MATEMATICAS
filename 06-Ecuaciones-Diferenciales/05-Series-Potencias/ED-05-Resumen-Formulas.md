@@ -35,7 +35,7 @@ Para $y'' + P(x)y' + Q(x)y = 0$:
 1. Proponer $y = \sum_{n=0}^{\infty} a_n x^n$
 2. Calcular $y' = \sum_{n=1}^{\infty} n a_n x^{n-1}$
 3. Calcular $y'' = \sum_{n=2}^{\infty} n(n-1) a_n x^{n-2}$
-4. Sustituir en la EDO
+4. Sustituir en la [EDO](../../glossary.md#edo)
 5. Igualar coeficientes de potencias iguales
 6. Obtener **relación de recurrencia** para $a_n$
 
@@ -49,7 +49,7 @@ $$y = x^r \sum_{n=0}^{\infty} a_n x^n = \sum_{n=0}^{\infty} a_n x^{n+r}$$
 
 ### Ecuación indicial
 
-De $a_0 \neq 0$, el término de menor potencia da:
+De $a_0 \neq 0$, el término de [menor](../../glossary.md#menor) potencia da:
 
 $$r(r-1) + p_0 r + q_0 = 0$$
 
@@ -86,7 +86,7 @@ $$x^2 y'' + xy' + (x^2 - \nu^2)y = 0$$
 
 ### Soluciones
 
-| Orden $\nu$ | Soluciones |
+| [Orden](../../glossary.md#orden) $\nu$ | Soluciones |
 |-------------|------------|
 | $\nu \notin \mathbb{Z}$ | $y = C_1 J_\nu(x) + C_2 J_{-\nu}(x)$ |
 | $\nu = n \in \mathbb{Z}$ | $y = C_1 J_n(x) + C_2 Y_n(x)$ |

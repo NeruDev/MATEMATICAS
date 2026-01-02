@@ -6,13 +6,13 @@ status: active
 
 # Métodos: Solución Numérica de EDO
 
-> **Referencia rápida:** Esta guía presenta 12 métodos numéricos para resolver ecuaciones diferenciales ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../../glossary.md#métodos-numéricos) para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
 ## Índice de Métodos
 
-| # | Método | Orden de Error | Complejidad |
+| # | Método | [Orden](../../../glossary.md#orden) de Error | Complejidad |
 |---|--------|----------------|-------------|
 | 1 | [Euler Explícito](#método-1-euler-explícito) | $O(h)$ | ⭐ |
 | 2 | [Heun (Euler Mejorado)](#método-2-heun-euler-mejorado) | $O(h^2)$ | ⭐ |
@@ -25,7 +25,7 @@ status: active
 | 9 | [Predictor-Corrector](#método-9-predictor-corrector) | $O(h^4)$-$O(h^5)$ | ⭐⭐⭐ |
 | 10 | [Euler Implícito](#método-10-euler-implícito) | $O(h)$ | ⭐⭐ |
 | 11 | [Trapecio (Crank-Nicolson)](#método-11-trapecio-crank-nicolson) | $O(h^2)$ | ⭐⭐⭐ |
-| 12 | [Sistemas de EDO](#método-12-sistemas-de-edo-con-rk4) | Variable | ⭐⭐⭐ |
+| 12 | [Sistemas de EDO](#método-12-sistemas-de-[edo](../../../glossary.md#edo)-con-rk4) | Variable | ⭐⭐⭐ |
 
 ---
 
@@ -54,7 +54,7 @@ $$\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0$$
 
 ### Estabilidad
 
-Un método es **estable** si los errores no crecen sin límite.
+Un método es **estable** si los errores no crecen sin [límite](../../../glossary.md#límite).
 
 **Región de estabilidad:** Valores de $h\lambda$ donde el método es estable para $y' = \lambda y$.
 
@@ -66,7 +66,7 @@ Un método es **estable** si los errores no crecen sin límite.
 
 - Introducción a métodos numéricos
 - Problemas donde la velocidad prima sobre precisión
-- Base para métodos más avanzados
+- [Base](../../../glossary.md#base) para métodos más avanzados
 
 ### Fórmula
 
@@ -279,7 +279,7 @@ def punto_medio(f, x0, y0, xf, h):
 
 - Compromiso velocidad-precisión
 - Entender la estructura de métodos RK
-- Problemas donde $O(h^2)$ es suficiente
+- Problemas donde $O(h^2)$ es [suficiente](../../../glossary.md#suficiente)
 
 ### Familia RK2
 
@@ -719,7 +719,7 @@ def euler_implicito(f, x0, y0, xf, h, tol=1e-8, max_iter=100):
 
 - EDO rígidas con precisión $O(h^2)$
 - A-estable
-- Ecuaciones en derivadas parciales parabólicas
+- Ecuaciones en [derivadas](../../../glossary.md#derivadas) parciales parabólicas
 
 ### Fórmula
 
@@ -832,7 +832,7 @@ $$z_2' = -4z_1$$
 
 ---
 
-**Paso 2: Definir función**
+**Paso 2: Definir [función](../../../glossary.md#función)**
 
 ```python
 def f(x, z):

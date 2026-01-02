@@ -14,8 +14,8 @@ Sistema de $m$ ecuaciones con $n$ incógnitas:
 $$Ax = b$$
 
 donde:
-- $A$: matriz de coeficientes ($m \times n$)
-- $x$: vector de incógnitas ($n \times 1$)
+- $A$: [matriz](../../glossary.md#matriz) de coeficientes ($m \times n$)
+- $x$: [vector](../../glossary.md#vector) de incógnitas ($n \times 1$)
 - $b$: vector de términos independientes ($m \times 1$)
 
 **Matriz aumentada**: $[A | b]$
@@ -24,9 +24,9 @@ donde:
 
 | Operación | Notación | Efecto |
 |-----------|----------|--------|
-| Intercambiar filas | $F_i \leftrightarrow F_j$ | Cambia orden |
+| Intercambiar filas | $F_i \leftrightarrow F_j$ | Cambia [orden](../../glossary.md#orden) |
 | Multiplicar por escalar | $kF_i \to F_i$ | $k \neq 0$ |
-| Sumar múltiplo | $F_i + kF_j \to F_i$ | Combinación lineal |
+| Sumar múltiplo | $F_i + kF_j \to F_i$ | [Combinación lineal](../../glossary.md#combinación-lineal) |
 
 ## Formas escalonadas
 
@@ -67,7 +67,7 @@ $$\text{rang}(A) = \text{rang}([A|b])$$
 $$Ax = 0$$
 
 ### Propiedades
-- Siempre tiene solución trivial: $x = 0$
+- Siempre tiene solución [trivial](../../glossary.md#trivial): $x = 0$
 - Tiene soluciones no triviales si y solo si $\text{rang}(A) < n$
 - Número de parámetros libres: $n - \text{rang}(A)$
 
@@ -80,8 +80,8 @@ $$\dim(\text{Nul}(A)) = n - \text{rang}(A)$$
 $$x = x_p + x_h$$
 
 donde:
-- $x_p$: solución particular de $Ax = b$
-- $x_h$: solución general de $Ax = 0$
+- $x_p$: [solución particular](../../glossary.md#solución-particular) de $Ax = b$
+- $x_h$: [solución general](../../glossary.md#solución-general) de $Ax = 0$
 
 ## Métodos de solución directa
 
@@ -90,7 +90,7 @@ donde:
 **Inversa**:
 $$x = A^{-1}b$$
 
-**Regla de Cramer**:
+**[Regla de Cramer](../../glossary.md#regla-de-cramer)**:
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
 ## Variables pivote y libres

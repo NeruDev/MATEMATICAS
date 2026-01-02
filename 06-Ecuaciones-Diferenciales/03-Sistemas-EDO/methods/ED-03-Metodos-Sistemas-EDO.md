@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Sistemas de EDO
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver sistemas de ecuaciones diferenciales ordinarias lineales.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver sistemas de [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias lineales.
 
 ---
 
@@ -18,12 +18,12 @@ status: active
 | 2 | [Eigenvalores Complejos](#método-2-eigenvalores-complejos) | Sistemas oscilatorios | ⭐⭐⭐ |
 | 3 | [Eigenvalor Repetido](#método-3-eigenvalor-repetido) | Deficiencia algebraica | ⭐⭐⭐ |
 | 4 | [Sistema No Homogéneo](#método-4-sistema-no-homogéneo) | $\mathbf{X}' = A\mathbf{X} + \mathbf{F}(t)$ | ⭐⭐⭐ |
-| 5 | [Matriz Exponencial](#método-5-matriz-exponencial) | Solución general elegante | ⭐⭐⭐⭐ |
-| 6 | [Desacoplamiento](#método-6-desacoplamiento-por-diagonalización) | Sistemas diagonalizables | ⭐⭐⭐ |
+| 5 | [Matriz Exponencial](#método-5-[matriz](../../../glossary.md#matriz)-exponencial) | [Solución general](../../../glossary.md#solución-general) elegante | ⭐⭐⭐⭐ |
+| 6 | [Desacoplamiento](#método-6-desacoplamiento-por-[diagonalización](../../../glossary.md#diagonalización)) | Sistemas diagonalizables | ⭐⭐⭐ |
 | 7 | [Clasificar Retrato de Fase](#método-7-clasificar-retrato-de-fase) | Análisis cualitativo | ⭐⭐ |
 | 8 | [PVI de Sistema](#método-8-resolver-pvi-de-sistema) | Con condiciones iniciales | ⭐⭐ |
-| 9 | [Sistemas $3\times 3$](#método-9-sistemas-3times-3) | Mayor dimensión | ⭐⭐⭐⭐ |
-| 10 | [Conversión EDO-Sistema](#método-10-conversión-edo-a-sistema) | EDO de orden superior | ⭐⭐ |
+| 9 | [Sistemas $3\times 3$](#método-9-sistemas-3times-3) | Mayor [dimensión](../../../glossary.md#dimensión) | ⭐⭐⭐⭐ |
+| 10 | [Conversión [EDO](../../../glossary.md#edo)-Sistema](#método-10-conversión-edo-a-sistema) | EDO de [orden](../../../glossary.md#orden) superior | ⭐⭐ |
 
 ---
 
@@ -202,8 +202,8 @@ $$y(t) = C_1\cos 2t + C_2\sin 2t$$
 
 ### Cuándo Usar
 
-- Eigenvalor $\lambda$ con multiplicidad algebraica $> 1$
-- Si multiplicidad geométrica = algebraica: caso simple
+- Eigenvalor $\lambda$ con [multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica) $> 1$
+- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica) = algebraica: caso simple
 - Si multiplicidad geométrica < algebraica: se necesitan vectores generalizados
 
 ### Caso A: Dos Eigenvectores Independientes
@@ -215,7 +215,7 @@ $$y(t) = C_1\cos 2t + C_2\sin 2t$$
 **Solución:**
 $$\mathbf{X} = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + \mathbf{w})$$
 
-donde $\mathbf{w}$ es el **vector generalizado**: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
+donde $\mathbf{w}$ es el **[vector](../../../glossary.md#vector) generalizado**: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
 
 ### Algoritmo de Resolución (Caso Deficiente)
 
@@ -312,7 +312,7 @@ $A\mathbf{X}_2 = \begin{pmatrix} 3 & 1 \\ -1 & 5 \end{pmatrix}e^{4t}\begin{pmatr
 
 ### Fórmula (Variación de Parámetros)
 
-**Solución particular:**
+**[Solución particular](../../../glossary.md#solución-particular):**
 $$\mathbf{X}_p = \Phi(t)\int \Phi^{-1}(t)\mathbf{F}(t)\,dt$$
 
 donde $\Phi(t)$ es la **matriz fundamental** (columnas son soluciones independientes).
@@ -549,9 +549,9 @@ $$\boxed{\begin{cases} x = c_1 e^t + c_2 e^{3t} \\ y = -c_1 e^t + c_2 e^{3t} \en
 
 ### Fórmulas
 
-**Traza:** $\tau = \text{tr}(A) = a_{11} + a_{22}$
+**[Traza](../../../glossary.md#traza):** $\tau = \text{tr}(A) = a_{11} + a_{22}$
 
-**Determinante:** $\Delta = \det(A)$
+**[Determinante](../../../glossary.md#determinante):** $\Delta = \det(A)$
 
 **Discriminante:** $D = \tau^2 - 4\Delta$
 
@@ -773,7 +773,7 @@ $$\boxed{\mathbf{X}(t) = C_1 e^t\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix} + C_2 
 
 Para $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1y' + a_0y = f(t)$
 
-**Sustitución:**
+**[Sustitución](../../../glossary.md#sustitución):**
 $$x_1 = y, \quad x_2 = y', \quad \ldots, \quad x_n = y^{(n-1)}$$
 
 ### Algoritmo de Resolución
@@ -840,7 +840,7 @@ Esta es la **matriz compañera** de la EDO.
 | Eigenvector con error de signo | Solución incorrecta | Verificar $(A-\lambda I)\mathbf{v} = \mathbf{0}$ |
 | Confundir $\mathbf{a}$ y $\mathbf{b}$ | Solución real incorrecta | $\mathbf{v} = \mathbf{a} + i\mathbf{b}$ claramente |
 | Olvidar vector generalizado | Sistema incompleto | Si eigenvalor repetido, buscar $\mathbf{w}$ |
-| Wronskiano mal calculado | Integral particular errónea | Verificar $\det(\Phi) \neq 0$ |
+| [Wronskiano](../../../glossary.md#wronskiano) mal calculado | Integral particular errónea | Verificar $\det(\Phi) \neq 0$ |
 | Error en clasificación | Análisis cualitativo erróneo | Calcular $\tau$, $\Delta$, $D$ cuidadosamente |
 
 ---

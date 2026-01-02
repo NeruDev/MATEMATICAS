@@ -15,7 +15,7 @@ requires: [FUN-04-Geometria, FUN-06-Geometria-Analitica]
 ## 1.1 Definición de un vector en el plano y en el espacio
 
 ### Concepto intuitivo
-Un **vector** es un objeto matemático que tiene **magnitud** (longitud) y **dirección**. Geométricamente se representa como una flecha que va de un punto inicial a un punto final.
+Un **[vector](../../../glossary.md#vector)** es un objeto matemático que tiene **magnitud** (longitud) y **dirección**. Geométricamente se representa como una flecha que va de un punto inicial a un punto final.
 
 ### Representación en coordenadas
 - En el plano $\mathbb{R}^2$: $\mathbf{v} = \langle v_x, v_y \rangle$
@@ -88,7 +88,7 @@ $$c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \cdots + c_n\mathbf{v}_n$$
 **Aplicación**: dos vectores no paralelos generan un plano; tres vectores no coplanares generan todo $\mathbb{R}^3$.
 
 ### Vectores paralelos
-$\mathbf{u} \parallel \mathbf{v}$ si existe $k \in \mathbb{R}$ tal que $\mathbf{u} = k\mathbf{v}$.
+$\mathbf{u} \parallel \mathbf{v}$ si existe $k \in \mathbb{R}$ [tal que](../../../glossary.md#tal-que) $\mathbf{u} = k\mathbf{v}$.
 
 ---
 
@@ -119,7 +119,7 @@ $$\text{proy}_{\mathbf{v}}\mathbf{u} = \frac{\mathbf{u} \cdot \mathbf{v}}{\lVert
 
 **Solo en $\mathbb{R}^3$**. El resultado es un **vector**.
 
-**Definición mediante determinante**:
+**Definición mediante [determinante](../../../glossary.md#determinante)**:
 $$\mathbf{u} \times \mathbf{v} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ u_x & u_y & u_z \\ v_x & v_y & v_z \end{vmatrix}$$
 
 Expandiendo:

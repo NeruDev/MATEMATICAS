@@ -12,7 +12,7 @@ audience: student
 
 ## Problema
 
-Calcular la integral impropia:
+Calcular la [integral impropia](../../../../glossary.md#integral-impropia):
 
 $$I = \int_0^{\infty} e^{-x^2} \, dx$$
 
@@ -68,7 +68,7 @@ Esta integral doble se extiende sobre el primer cuadrante del plano $xy$.
 
 ### Paso 3: Cambiar a coordenadas polares
 
-**Sustitución:**
+**[Sustitución](../../../../glossary.md#sustitución):**
 - $x^2 + y^2 = r^2$
 - $dx \, dy = r \, dr \, d\theta$
 
@@ -102,7 +102,7 @@ Para $\int_0^{\infty} r \, e^{-r^2} \, dr$, usamos sustitución:
 
 Sea $u = r^2$, entonces $du = 2r \, dr$, por lo tanto $r \, dr = \frac{1}{2} du$
 
-**Cambio de límites:**
+**Cambio de [límites](../../../../glossary.md#límites):**
 - Cuando $r = 0$: $u = 0$
 - Cuando $r \to \infty$: $u \to \infty$
 
@@ -151,7 +151,7 @@ $$\boxed{\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}}$$
 El valor numérico es:
 $$\frac{\sqrt{\pi}}{2} \approx \frac{1.7724...}{2} \approx 0.8862...$$
 
-Esto coincide con tablas de la función error y valores computados numéricamente.
+Esto coincide con tablas de la [función](../../../../glossary.md#función) error y valores computados numéricamente.
 
 ---
 
@@ -165,7 +165,7 @@ $$\text{erf}(\infty) = \frac{2}{\sqrt{\pi}} \cdot \frac{\sqrt{\pi}}{2} = 1 \quad
 
 ---
 
-**Generalización (Integral Gaussiana general):**
+**[Generalización](../../../../glossary.md#generalización) (Integral Gaussiana general):**
 
 Para $a > 0$:
 $$\int_0^{\infty} e^{-ax^2} \, dx = \frac{1}{2}\sqrt{\frac{\pi}{a}}$$

@@ -3,7 +3,7 @@
 content_type: problem_set
 topic_id: fun-05-trigonometria
 file_id: FUN-05-Problemas
-title: Problemas de Trigonometría
+title: Problemas de [Trigonometría](../../../glossary.md#trigonometría)
 description: Colección de problemas de trigonometría clasificados por tema y dificultad
 author: Repositorio Matemáticas
 date_created: 2025-12-20
@@ -140,7 +140,7 @@ Una escalera de 10 m forma un ángulo de 65° con el suelo. ¿A qué altura de l
 ---
 
 ### [Prob-17] Altura de edificio por elevación ⭐⭐
-Desde un punto a 50 m de la base de un edificio, el ángulo de elevación hacia la cima es 62°. ¿Cuál es la altura del edificio?
+Desde un punto a 50 m de la [base](../../../glossary.md#base) de un edificio, el ángulo de elevación hacia la cima es 62°. ¿Cuál es la altura del edificio?
 
 📎 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
 
@@ -268,7 +268,7 @@ Identifica amplitud, período y desplazamiento vertical de $y = 2\sin x + 3$.
 ---
 
 ### [Prob-34] Ecuación de función seno ⭐⭐
-Encuentra la ecuación de una función seno con amplitud 4, período $\pi$ y que pasa por el origen.
+Encuentra la ecuación de una [función](../../../glossary.md#función) [seno](../../../glossary.md#seno) con amplitud 4, período $\pi$ y que pasa por el origen.
 
 📎 **Solución:** [solutions/prob-34/](../solutions/prob-34/)
 
@@ -289,7 +289,7 @@ Encuentra el valor máximo, mínimo y rango de $y = -2\cos x + 5$.
 ---
 
 ### [Prob-37] Ecuación coseno con transformaciones ⭐⭐⭐
-Escribe la ecuación de una función coseno con amplitud 3, período $4\pi$, desplazamiento horizontal $\frac{\pi}{2}$ a la derecha y desplazamiento vertical 2 hacia arriba.
+Escribe la ecuación de una función [coseno](../../../glossary.md#coseno) con amplitud 3, período $4\pi$, desplazamiento horizontal $\frac{\pi}{2}$ a la derecha y desplazamiento vertical 2 hacia arriba.
 
 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 

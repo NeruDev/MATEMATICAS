@@ -102,7 +102,7 @@ Por la propiedad de clausura de $\mathbb{Z}$:
 
 ### Paso 5: Verificar denominador no nulo
 
-Como $\mathbb{Z}$ es un dominio de integridad (no tiene divisores de cero):
+Como $\mathbb{Z}$ es un [dominio](../../../../glossary.md#dominio) de integridad (no tiene divisores de cero):
 $$b \neq 0 \text{ y } d \neq 0 \implies bd \neq 0$$
 
 ### Paso 6: Conclusión

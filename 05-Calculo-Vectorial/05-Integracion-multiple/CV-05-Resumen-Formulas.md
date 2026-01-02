@@ -34,7 +34,7 @@ $$\iint_R f(x,y)\, dA = \int_\alpha^\beta \int_{r_1(\theta)}^{r_2(\theta)} f(r\c
 
 ## Integrales triples
 
-| Orden | Integral |
+| [Orden](../../glossary.md#orden) | Integral |
 |-------|----------|
 | $dz\,dy\,dx$ | $\int_a^b \int_{g_1(x)}^{g_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} f\, dz\, dy\, dx$ |
 

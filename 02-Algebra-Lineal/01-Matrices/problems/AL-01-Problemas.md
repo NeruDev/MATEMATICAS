@@ -25,7 +25,7 @@ Dada $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$, determinar: (a)
 
 ### [Prob-02] Identificación de tipos de matrices ⭐
 
-Identificar el tipo de cada matriz:
+Identificar el tipo de cada [matriz](../../../glossary.md#matriz):
    - $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}$
    - $\begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}$
    - $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
@@ -34,7 +34,7 @@ Identificar el tipo de cada matriz:
 
 ### [Prob-03] Matriz identidad ⭐
 
-Escribir la matriz identidad $I_4$.
+Escribir la [matriz identidad](../../../glossary.md#matriz-identidad) $I_4$.
 
 > 📁 Solución: `solutions/prob-03/`
 
@@ -163,13 +163,13 @@ Verificar que $(AB)^T = B^T A^T$ para $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{p
 
 ### [Prob-22] Simetría de A + Aᵀ ⭐⭐
 
-Demostrar que $A + A^T$ es simétrica para cualquier matriz cuadrada $A$.
+Demostrar que $A + A^T$ es simétrica para cualquier [matriz cuadrada](../../../glossary.md#matriz-cuadrada) $A$.
 
 > 📁 Solución: `solutions/prob-22/`
 
 ### [Prob-23] Descomposición simétrica-antisimétrica ⭐⭐
 
-Expresar $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ como suma de matriz simétrica y antisimétrica.
+Expresar $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ como suma de [matriz simétrica](../../../glossary.md#matriz-simétrica) y antisimétrica.
 
 > 📁 Solución: `solutions/prob-23/`
 

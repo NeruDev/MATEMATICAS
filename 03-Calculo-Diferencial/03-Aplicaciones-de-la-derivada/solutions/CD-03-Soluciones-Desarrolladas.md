@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones de aplicaciones de la derivada.
+Soluciones de aplicaciones de la [derivada](../../../glossary.md#derivada).
 
 IA:
 Cada solución incluye: contexto → desarrollo → verificación.
@@ -20,7 +20,7 @@ audience: self-study
 ## 3.1 Recta Tangente
 
 ### Solución 3.1.1
-**Contexto:** Tangente: $y - f(a) = f'(a)(x - a)$
+**Contexto:** [Tangente](../../../glossary.md#tangente): $y - f(a) = f'(a)(x - a)$
 
 **Desarrollo:**
 $f(x) = x^3 - 2x$, $f(1) = 1 - 2 = -1$
@@ -33,7 +33,7 @@ Tangente: $y - (-1) = 1(x - 1)$ → $y = x - 2$
 ## 3.2 Razones Relacionadas
 
 ### Solución 3.2.2
-**Contexto:** Relación pitagórica entre posición de base, altura y longitud.
+**Contexto:** Relación pitagórica entre posición de [base](../../../glossary.md#base), altura y longitud.
 
 **Desarrollo:**
 $x^2 + y^2 = 25$ (escalera de 5 m)
@@ -150,7 +150,7 @@ $x_2 = 2.25 - \frac{0.0625}{4.5} = 2.2361...$
 ## Problemas de Síntesis
 
 ### Solución 3.S.4
-**Contexto:** Usar análisis de función $g(x) = e^x - 1 - x$.
+**Contexto:** Usar análisis de [función](../../../glossary.md#función) $g(x) = e^x - 1 - x$.
 
 **Desarrollo:**
 $g(x) = e^x - 1 - x$

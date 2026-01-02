@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: ed-03-sistemas-edo
+topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)
 file_id: ED-03-Resumen-Formulas
 status: stable
 audience: exam_review
@@ -37,7 +37,7 @@ donde $\text{tr}(A) = a + d$ y $\det(A) = ad - bc$
 
 **Eigenvectores:** $\mathbf{v}_1, \mathbf{v}_2$
 
-**Solución general:**
+**[Solución general](../../glossary.md#solución-general):**
 $$\mathbf{X}(t) = C_1 e^{\lambda_1 t}\mathbf{v}_1 + C_2 e^{\lambda_2 t}\mathbf{v}_2$$
 
 ---
@@ -58,7 +58,7 @@ $$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v}_1 + C_2 e^{\lambda t}\mathbf{v}_2$
 
 **Si hay 1 eigenvector (deficiente):**
 - Eigenvector: $\mathbf{v}$
-- Vector generalizado: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
+- [Vector](../../glossary.md#vector) generalizado: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
 
 $$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + \mathbf{w})$$
 

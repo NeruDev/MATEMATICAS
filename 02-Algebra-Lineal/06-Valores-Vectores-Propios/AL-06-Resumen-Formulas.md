@@ -11,11 +11,11 @@ audience: student
 ## Definiciones fundamentales
 
 ### Valor propio (eigenvalor)
-$\lambda$ es **valor propio** de $A$ si existe $\vec{v} \neq \vec{0}$ tal que:
+$\lambda$ es **valor propio** de $A$ si existe $\vec{v} \neq \vec{0}$ [tal que](../../glossary.md#tal-que):
 $$A\vec{v} = \lambda\vec{v}$$
 
 ### Vector propio (eigenvector)
-$\vec{v} \neq \vec{0}$ es **vector propio** asociado a $\lambda$ si:
+$\vec{v} \neq \vec{0}$ es **[vector](../../glossary.md#vector) propio** asociado a $\lambda$ si:
 $$A\vec{v} = \lambda\vec{v}$$
 
 ### Ecuación característica
@@ -25,7 +25,7 @@ $$\det(A - \lambda I) = 0$$
 
 $$p(\lambda) = \det(A - \lambda I)$$
 
-Para matriz $n \times n$: polinomio de grado $n$.
+Para [matriz](../../glossary.md#matriz) $n \times n$: [polinomio](../../glossary.md#polinomio) de grado $n$.
 
 ### Caso 2×2
 $$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
@@ -34,8 +34,8 @@ $$p(\lambda) = \lambda^2 - (a+d)\lambda + (ad-bc)$$
 $$p(\lambda) = \lambda^2 - \text{tr}(A)\lambda + \det(A)$$
 
 ### Fórmulas útiles
-- **Traza**: $\text{tr}(A) = \sum \lambda_i$ (suma de valores propios)
-- **Determinante**: $\det(A) = \prod \lambda_i$ (producto de valores propios)
+- **[Traza](../../glossary.md#traza)**: $\text{tr}(A) = \sum \lambda_i$ (suma de valores propios)
+- **[Determinante](../../glossary.md#determinante)**: $\det(A) = \prod \lambda_i$ (producto de valores propios)
 
 ## Espacio propio (eigenespacio)
 
@@ -79,7 +79,7 @@ $A$ ($n \times n$) es diagonalizable si y solo si:
 
 ### Casos garantizados
 - $n$ valores propios distintos $\Rightarrow$ diagonalizable
-- Matriz simétrica real $\Rightarrow$ diagonalizable (con valores propios reales)
+- [Matriz simétrica](../../glossary.md#matriz-simétrica) real $\Rightarrow$ diagonalizable (con valores propios reales)
 
 ## Potencias de matrices
 
@@ -103,7 +103,7 @@ $$D^k = \begin{pmatrix} \lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots
 ## Matrices similares
 
 Si $B = P^{-1}AP$:
-- Mismo polinomio característico
+- Mismo [polinomio característico](../../glossary.md#polinomio-característico)
 - Mismos valores propios
 - Misma traza y determinante
 - Si $\vec{v}$ es eigenvector de $A$, entonces $P^{-1}\vec{v}$ es eigenvector de $B$

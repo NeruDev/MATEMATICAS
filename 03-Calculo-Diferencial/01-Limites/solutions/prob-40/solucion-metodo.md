@@ -16,7 +16,7 @@ Evalúa $\displaystyle\lim_{x \to \infty} \left(\sqrt{x^2 + 2x} - \sqrt{x^2 - 2x
 ---
 
 ## Análisis inicial
-Forma indeterminada: $\infty - \infty$
+[Forma indeterminada](../../../../glossary.md#forma-indeterminada): $\infty - \infty$
 
 ---
 

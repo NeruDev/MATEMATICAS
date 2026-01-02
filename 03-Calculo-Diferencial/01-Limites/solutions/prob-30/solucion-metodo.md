@@ -16,7 +16,7 @@ Evalúa $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$
 ---
 
 ## Análisis inicial
-Sustitución directa: $\frac{0 - 0}{0} = \frac{0}{0}$ → Forma indeterminada
+[Sustitución](../../../../glossary.md#sustitución) directa: $\frac{0 - 0}{0} = \frac{0}{0}$ → [Forma indeterminada](../../../../glossary.md#forma-indeterminada)
 
 ---
 
@@ -74,7 +74,7 @@ El valor se aproxima a $\frac{1}{6} \approx 0.16667$. ✓
 
 ## Límites relacionados importantes
 
-| Límite | Valor |
+| [Límite](../../../../glossary.md#límite) | Valor |
 |:-------|:-----:|
 | $\lim_{x \to 0} \frac{\sin x}{x}$ | 1 |
 | $\lim_{x \to 0} \frac{1 - \cos x}{x^2}$ | $\frac{1}{2}$ |

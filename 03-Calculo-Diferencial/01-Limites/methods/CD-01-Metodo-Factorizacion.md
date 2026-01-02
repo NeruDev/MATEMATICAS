@@ -18,7 +18,7 @@ Identificación del tipo de problema.
 -->
 
 Usa este método cuando:
-- La sustitución directa produce la forma indeterminada $\frac{0}{0}$
+- La [sustitución](../../../glossary.md#sustitución) directa produce la [forma indeterminada](../../../glossary.md#forma-indeterminada) $\frac{0}{0}$
 - El numerador y/o denominador son polinomios
 - Sospechas que hay un factor común que se puede cancelar
 
@@ -33,15 +33,15 @@ donde $P(x)$ y $Q(x)$ son polinomios.
    - Sustituir $x = a$ en la expresión
    - Si obtienes $\frac{0}{0}$, continuar con el paso 2
 
-2. **Factorizar numerador y denominador:**
+2. **[Factorizar](../../../glossary.md#factorizar) numerador y denominador:**
    - Buscar factores de la forma $(x - a)$ (ya que ambos se anulan en $x = a$)
-   - Usar técnicas de factorización: factor común, diferencia de cuadrados, trinomio, etc.
+   - Usar técnicas de [factorización](../../../glossary.md#factorización): factor común, diferencia de cuadrados, trinomio, etc.
 
 3. **Cancelar factores comunes:**
    - Simplificar la fracción eliminando $(x - a)$ del numerador y denominador
    - Esto es válido porque $x \neq a$ (solo nos acercamos a $a$)
 
-4. **Evaluar el límite simplificado:**
+4. **Evaluar el [límite](../../../glossary.md#límite) simplificado:**
    - Sustituir $x = a$ en la expresión simplificada
    - El resultado es el valor del límite
 
@@ -60,5 +60,5 @@ Casos donde este método falla o no aplica.
 ---
 
 <!--
-IA: Al resolver límites con forma 0/0, intenta este método primero.
+IA: Al resolver [límites](../../../glossary.md#límites) con forma 0/0, intenta este método primero.
 -->

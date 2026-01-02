@@ -35,7 +35,7 @@ solved_detailed: 0
 | [Prob-16] | a) $\frac{e^{-2s}}{s}$; b) $\frac{e^{-s}}{s^2}$; c) $\frac{e^{-3s}}{s+1}$; d) $\frac{e^{-\pi s}}{s^2+1}$ | ➖ |
 | [Prob-17] | a) $u(t-2)$; b) $(t-1)u(t-1)$; c) $\cos(t-\pi)u(t-\pi) = -\cos t \cdot u(t-\pi)$ | ➖ |
 | [Prob-18] | a) $y = e^{-(t-1)}u(t-1)$; b) $y = \frac{1}{2}\sin 2(t-\pi)u(t-\pi)$; c) $y = te^{-t}$ | ➖ |
-| [Prob-19] | a) $t - 1 + e^{-t}$ (por convolución); b) $e^{2t} - e^t$ | ➖ |
+| [Prob-19] | a) $t - 1 + e^{-t}$ (por [convolución](../../../glossary.md#convolución)); b) $e^{2t} - e^t$ | ➖ |
 | [Prob-20] | $y = \int_0^t f(\tau)\sin(t-\tau)\,d\tau = (f * \sin)(t)$ | ➖ |
 | [Prob-21] | $q(t) = 0.1(1 - e^{-t})$ C | ➖ |
 | [Prob-22] | $i(t) = 10te^{-t}$ A | ➖ |
@@ -62,10 +62,10 @@ solved_detailed: 0
 
 | Propiedad | Fórmula |
 |:----------|:--------|
-| Linealidad | $\mathcal{L}\{af + bg\} = aF + bG$ |
+| [Linealidad](../../../glossary.md#linealidad) | $\mathcal{L}\{af + bg\} = aF + bG$ |
 | Traslación en $s$ | $\mathcal{L}\{e^{at}f\} = F(s-a)$ |
 | Traslación en $t$ | $\mathcal{L}\{f(t-a)u(t-a)\} = e^{-as}F(s)$ |
-| Derivada | $\mathcal{L}\{f'\} = sF(s) - f(0)$ |
+| [Derivada](../../../glossary.md#derivada) | $\mathcal{L}\{f'\} = sF(s) - f(0)$ |
 | Multiplicación por $t$ | $\mathcal{L}\{tf\} = -F'(s)$ |
 | Convolución | $\mathcal{L}\{f * g\} = F(s)G(s)$ |
 

@@ -72,7 +72,7 @@ $$\det = 2(-2) + 1(5) + 3(-20) = -4 + 5 - 60 = -59$$
 **Enunciado:** $\begin{vmatrix} 1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 1 \end{vmatrix}$
 
 **Solución:**
-Es una matriz triangular superior. El determinante es el producto de la diagonal:
+Es una [matriz](../../../glossary.md#matriz) triangular superior. El [determinante](../../../glossary.md#determinante) es el producto de la diagonal:
 
 $$\det = 1 \cdot 1 \cdot 1 \cdot 1 = 1$$
 

@@ -29,7 +29,7 @@ problems/
 
 ## Ruta de aprendizaje
 
-1. **Sistema de coordenadas**: plano cartesiano, distancia, punto medio
+1. **[Sistema de coordenadas](../../glossary.md#sistema-de-coordenadas)**: plano cartesiano, distancia, punto medio
 2. **La recta**: pendiente, ecuaciones, paralelismo, perpendicularidad
 3. **La circunferencia**: ecuación canónica y general
 4. **La parábola**: vértice, foco, directriz

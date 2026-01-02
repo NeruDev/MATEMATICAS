@@ -11,7 +11,7 @@ difficulty_distribution: {basico: 18, intermedio: 24, avanzado: 12, experto: 3}
 
 # Problemas de Límites
 
-> **Instrucciones:** Evalúa cada límite. Indica si no existe y por qué. Las soluciones se encuentran en `solutions/prob-XX/`.
+> **Instrucciones:** Evalúa cada [límite](../../../glossary.md#límite). Indica si no existe y por qué. Las soluciones se encuentran en `solutions/prob-XX/`.
 
 ---
 
@@ -43,7 +43,7 @@ Demuestra que $\lim_{x \to 2} x^2 = 4$ usando la definición formal.
 ## 1.2 Límites Laterales
 
 ### [Prob-05] Límites laterales con valor absoluto ⭐
-Evalúa los límites laterales: $\lim_{x \to 0^+} \frac{\lvert x \rvert}{x}$ y $\lim_{x \to 0^-} \frac{\lvert x \rvert}{x}$
+Evalúa los [límites](../../../glossary.md#límites) laterales: $\lim_{x \to 0^+} \frac{\lvert x \rvert}{x}$ y $\lim_{x \to 0^-} \frac{\lvert x \rvert}{x}$
 
 > 📁 Solución: `solutions/prob-05/`
 
@@ -63,7 +63,7 @@ Evalúa $\lim_{x \to 2} \frac{x^2 - 4}{\lvert x - 2 \rvert}$
 > 📁 Solución: `solutions/prob-08/`
 
 ### [Prob-09] Función piso y límites laterales ⭐⭐⭐
-Para $f(x) = \lfloor x \rfloor$ (función piso), evalúa $\lim_{x \to 3^-} f(x)$ y $\lim_{x \to 3^+} f(x)$.
+Para $f(x) = \lfloor x \rfloor$ ([función](../../../glossary.md#función) piso), evalúa $\lim_{x \to 3^-} f(x)$ y $\lim_{x \to 3^+} f(x)$.
 
 > 📁 Solución: `solutions/prob-09/`
 

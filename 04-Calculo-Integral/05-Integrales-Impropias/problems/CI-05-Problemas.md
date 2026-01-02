@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Problemas de Integrales Impropias"
+title: "Problemas de [Integrales Impropias](../../../glossary.md#integrales-impropias)"
 topic_id: ci-05-integrales-impropias
 file_id: CI-05-Problemas
 content_type: problem_set
@@ -22,7 +22,7 @@ total_problems: 40
 
 ### [Prob-01] Integral impropia básica con potencia ⭐
 
-Evalúa la siguiente integral impropia:
+Evalúa la siguiente [integral impropia](../../../glossary.md#integral-impropia):
 
 $$\int_1^{\infty} \frac{1}{x^2}\,dx$$
 
@@ -72,7 +72,7 @@ $$\int_1^{\infty} \frac{1}{\sqrt{x}}\,dx$$
 
 ### [Prob-06] Integral con producto xe^(-x) ⭐⭐
 
-Evalúa la siguiente integral impropia (integración por partes):
+Evalúa la siguiente integral impropia ([integración por partes](../../../glossary.md#integración-por-partes)):
 
 $$\int_0^{\infty} xe^{-x}\,dx$$
 

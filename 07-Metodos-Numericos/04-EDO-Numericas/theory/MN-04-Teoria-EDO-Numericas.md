@@ -33,7 +33,7 @@ Buscamos aproximar $y(x)$ en puntos discretos $x_1, x_2, ..., x_n$.
 
 ### 2.1 Derivación Geométrica
 
-La pendiente de la recta tangente en $(x_n, y_n)$ es $f(x_n, y_n)$.
+La pendiente de la recta [tangente](../../../glossary.md#tangente) en $(x_n, y_n)$ es $f(x_n, y_n)$.
 
 Avanzando un paso $h$:
 $$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
@@ -42,7 +42,7 @@ $$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
 
 $$y(x_{n+1}) = y(x_n) + h y'(x_n) + \frac{h^2}{2}y''(\xi)$$
 
-Truncando en primer orden:
+Truncando en primer [orden](../../../glossary.md#orden):
 $$y_{n+1} = y_n + h f(x_n, y_n) + O(h^2)$$
 
 ### 2.3 Error
@@ -164,7 +164,7 @@ Combinar Adams-Bashforth (predictor) con Adams-Moulton (corrector):
 
 ### 5.5 Arranque
 
-Los métodos multipaso necesitan valores iniciales $y_1, y_2, ...$
+Los [métodos multipaso](../../../glossary.md#métodos-multipaso) necesitan valores iniciales $y_1, y_2, ...$
 
 **Solución:** Usar RK4 para los primeros pasos.
 
@@ -188,7 +188,7 @@ $$y_{i,n+1} = y_{i,n} + h \cdot f_i(x_n, y_{1,n}, ..., y_{m,n})$$
 
 ### 6.3 Reducción de Orden
 
-EDO de orden $m$:
+[EDO](../../../glossary.md#edo) de orden $m$:
 $$y^{(m)} = g(x, y, y', ..., y^{(m-1)})$$
 
 Se convierte en sistema introduciendo:
@@ -243,7 +243,7 @@ Solución exacta: $y(x) = y_0 e^{\lambda x} \to 0$
 
 $$y_{n+1} = y_n + h\lambda y_n = (1 + h\lambda)y_n$$
 
-Para convergencia a cero: $|1 + h\lambda| < 1$
+Para [convergencia](../../../glossary.md#convergencia) a cero: $|1 + h\lambda| < 1$
 
 **Región de estabilidad:** $-2 < h\lambda < 0$
 

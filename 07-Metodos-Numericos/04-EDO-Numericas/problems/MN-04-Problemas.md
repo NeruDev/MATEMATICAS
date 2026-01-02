@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: problem_set
-topic_id: mn-04-edo-numericas
+topic_id: mn-04-[edo](../../../glossary.md#edo)-numericas
 file_id: MN-04-Problemas
 status: stable
 audience: student
@@ -16,7 +16,7 @@ difficulty_distribution: {basic: 10, intermediate: 12, advanced: 8}
 ## Sección 1: Método de Euler
 
 ### [Prob-01] Aproximación de Euler con Comparación Exacta ⭐
-Usa el método de Euler con $h = 0.1$ para aproximar $y(0.5)$ si:
+Usa el [método de Euler](../../../glossary.md#método-de-euler) con $h = 0.1$ para aproximar $y(0.5)$ si:
 $$y' = 2xy, \quad y(0) = 1$$
 Compara con la solución exacta $y = e^{x^2}$.
 
@@ -60,7 +60,7 @@ Implementa el método de Euler implícito para $y' = -10y$, $y(0) = 1$ con $h = 
 ## Sección 2: Método de Heun
 
 ### [Prob-06] Método de Heun con Comparación a Euler ⭐
-Aplica el método de Heun con $h = 0.2$ para resolver:
+Aplica el [método de Heun](../../../glossary.md#método-de-heun) con $h = 0.2$ para resolver:
 $$y' = x^2 + y, \quad y(0) = 1$$
 Calcula $y(0.4)$ y compara con Euler.
 
@@ -125,7 +125,7 @@ Un circuito RL tiene $L\frac{di}{dt} + Ri = V$ con $L = 2$ H, $R = 4$ Ω, $V = 1
 ---
 
 ### [Prob-14] Demostración de Exactitud de RK4 ⭐⭐⭐
-Demuestra que RK4 integra exactamente el polinomio $y' = 1 + 2x + 3x^2 + 4x^3$ con $y(0) = 0$ usando cualquier tamaño de paso $h$.
+Demuestra que RK4 integra exactamente el [polinomio](../../../glossary.md#polinomio) $y' = 1 + 2x + 3x^2 + 4x^3$ con $y(0) = 0$ usando cualquier tamaño de paso $h$.
 
 > 📁 Solución: `solutions/prob-14/`
 
@@ -164,7 +164,7 @@ en $[0, 10]$ con $h = 0.1$. ¿Cuántas evaluaciones de $f$ requiere cada método
 ## Sección 5: Sistemas de EDO
 
 ### [Prob-18] Conversión a Sistema de Primer Orden ⭐⭐
-Convierte a sistema de primer orden y resuelve con Euler ($h = 0.1$):
+Convierte a sistema de primer [orden](../../../glossary.md#orden) y resuelve con Euler ($h = 0.1$):
 $$y'' + y = 0, \quad y(0) = 1, \; y'(0) = 0$$
 Calcula $y(0.3)$ y compara con $\cos(0.3)$.
 
@@ -288,7 +288,7 @@ Grafica la solución en $[0, 10]$ usando RK4 ($h = 0.1$).
 ## Sección 8: Problemas de Diseño
 
 ### [Prob-32] RK Adaptativo con Control de Error ⭐⭐⭐
-Implementa un algoritmo RK adaptativo que ajuste $h$ automáticamente para mantener error local menor que $10^{-6}$.
+Implementa un algoritmo RK adaptativo que ajuste $h$ automáticamente para mantener error local [menor](../../../glossary.md#menor) que $10^{-6}$.
 
 > 📁 Solución: `solutions/prob-32/`
 
@@ -318,7 +318,7 @@ Implementa y aplica a $y' = y$, $y(0) = 1$ con tolerancia $10^{-8}$.
 | 1. Método de Euler | Prob-01 a Prob-05 | ⭐ a ⭐⭐⭐ |
 | 2. Método de Heun | Prob-06 a Prob-09 | ⭐ a ⭐⭐ |
 | 3. Runge-Kutta | Prob-10 a Prob-14 | ⭐ a ⭐⭐⭐ |
-| 4. Métodos Multipaso | Prob-15 a Prob-17 | ⭐⭐ a ⭐⭐⭐ |
+| 4. [Métodos Multipaso](../../../glossary.md#métodos-multipaso) | Prob-15 a Prob-17 | ⭐⭐ a ⭐⭐⭐ |
 | 5. Sistemas de EDO | Prob-18 a Prob-22 | ⭐⭐ a ⭐⭐⭐ |
 | 6. Error y Estabilidad | Prob-23 a Prob-26 | ⭐⭐ a ⭐⭐⭐ |
 | 7. Problemas Aplicados | Prob-27 a Prob-31 | ⭐ a ⭐⭐ |

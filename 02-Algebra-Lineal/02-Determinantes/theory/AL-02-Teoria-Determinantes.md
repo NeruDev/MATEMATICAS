@@ -45,7 +45,7 @@ $$- a_{13}a_{22}a_{31} - a_{12}a_{21}a_{33} - a_{11}a_{23}a_{32}$$
 
 4. Si $A$ es invertible: $\det(A^{-1}) = \frac{1}{\det(A)}$
 
-5. $\det(cA) = c^n \det(A)$ para matriz $n \times n$
+5. $\det(cA) = c^n \det(A)$ para [matriz](../../../glossary.md#matriz) $n \times n$
 
 ### Efecto de Operaciones Elementales de Fila
 
@@ -70,7 +70,7 @@ $$\det\begin{pmatrix} a_{11} & * & * \\ 0 & a_{22} & * \\ 0 & 0 & a_{33} \end{pm
 
 ### Menor
 
-El **menor** $M_{ij}$ es el determinante de la submatriz obtenida al eliminar la fila $i$ y columna $j$.
+El **[menor](../../../glossary.md#menor)** $M_{ij}$ es el [determinante](../../../glossary.md#determinante) de la submatriz obtenida al eliminar la fila $i$ y columna $j$.
 
 **Ejemplo:** Para $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$
 
@@ -78,7 +78,7 @@ $$M_{11} = \det\begin{pmatrix} 5 & 6 \\ 8 & 9 \end{pmatrix} = 45 - 48 = -3$$
 
 ### Cofactor
 
-El **cofactor** $C_{ij}$ incluye el signo:
+El **[cofactor](../../../glossary.md#cofactor)** $C_{ij}$ incluye el signo:
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
 
 **Patrón de signos:**
@@ -117,7 +117,7 @@ $$= 1(5) + 2(12) = 29$$
 
 La **matriz de cofactores** es $C = (C_{ij})$.
 
-La **matriz adjunta** (o adjugada) es la transpuesta de la matriz de cofactores:
+La **matriz adjunta** (o adjugada) es la [transpuesta](../../../glossary.md#transpuesta) de la matriz de cofactores:
 $$\text{adj}(A) = C^T$$
 
 ### Fórmula para la Inversa
@@ -144,7 +144,7 @@ Para el sistema $Ax = b$ donde $A$ es $n \times n$ con $\det(A) \neq 0$:
 
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
-donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por el vector $b$.
+donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por el [vector](../../../glossary.md#vector) $b$.
 
 ### Ejemplo
 

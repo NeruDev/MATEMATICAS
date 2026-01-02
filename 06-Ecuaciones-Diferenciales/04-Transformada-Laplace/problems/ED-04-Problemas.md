@@ -15,7 +15,7 @@ created: 2025-12-20
 
 ### [Prob-01] Transformadas de funciones elementales ⭐
 
-Calcular la transformada de Laplace:
+Calcular la [transformada de Laplace](../../../glossary.md#transformada-de-laplace):
 
 a) $f(t) = 5$
 
@@ -125,7 +125,7 @@ d) $F(s) = \frac{s}{s^2+9}$
 
 ### [Prob-08] Fracciones parciales simples ⭐⭐
 
-Usar fracciones parciales:
+Usar [fracciones parciales](../../../glossary.md#fracciones-parciales):
 
 a) $F(s) = \frac{1}{s(s-2)}$
 
@@ -227,7 +227,7 @@ b) $y''' - y' = 0$, $y(0) = 0$, $y'(0) = 1$, $y''(0) = 0$
 
 ### [Prob-15] Expresión con función escalón ⭐⭐
 
-Escribir usando la función escalón unitario:
+Escribir usando la [función](../../../glossary.md#función) escalón unitario:
 
 a) $f(t) = \begin{cases} 0, & t < 3 \\ 2, & t \geq 3 \end{cases}$
 
@@ -289,7 +289,7 @@ c) $y'' + 2y' + y = \delta(t)$, $y(0) = 0$, $y'(0) = 0$
 
 ### [Prob-19] Transformada inversa por convolución ⭐⭐⭐
 
-Calcular usando convolución:
+Calcular usando [convolución](../../../glossary.md#convolución):
 
 a) $\mathcal{L}^{-1}\left\{\frac{1}{s^2(s-1)}\right\}$
 

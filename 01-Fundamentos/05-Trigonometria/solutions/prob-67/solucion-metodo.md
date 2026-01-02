@@ -23,7 +23,7 @@ $$2\sin^2\theta + 3\cos\theta = 3$$
 
 ## 🎯 Estrategia de Solución
 
-1. Usar la identidad pitagórica $\sin^2\theta = 1 - \cos^2\theta$ para expresar todo en términos de coseno
+1. Usar la identidad pitagórica $\sin^2\theta = 1 - \cos^2\theta$ para expresar todo en términos de [coseno](../../../../glossary.md#coseno)
 2. Resolver la ecuación cuadrática resultante en $\cos\theta$
 3. Encontrar todos los ángulos $\theta$ en el intervalo dado
 
@@ -68,7 +68,7 @@ $$2u^2 - 3u + 1 = 0$$
 
 ### Paso 5: Resolver la ecuación cuadrática
 
-**Método: Factorización**
+**Método: [Factorización](../../../../glossary.md#factorización)**
 
 Buscamos dos números que multiplicados den $2 \times 1 = 2$ y sumados den $-3$.
 
@@ -178,7 +178,7 @@ Círculo Unitario - Ubicación de Soluciones
 
 ## 📚 Notas del Método
 
-> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola función trigonométrica.
+> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola [función](../../../../glossary.md#función) trigonométrica.
 
 ### Resumen del Proceso
 

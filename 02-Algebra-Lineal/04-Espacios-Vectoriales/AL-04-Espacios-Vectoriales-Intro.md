@@ -10,7 +10,7 @@ audience: student
 
 ## Propósito
 
-Los espacios vectoriales proporcionan el marco abstracto que unifica el álgebra lineal. Este módulo desarrolla los conceptos fundamentales de independencia lineal, bases y dimensión, que son esenciales para comprender transformaciones lineales, valores propios y aplicaciones avanzadas.
+Los [espacios vectoriales](../../glossary.md#espacios-vectoriales) proporcionan el marco abstracto que unifica el [álgebra lineal](../../glossary.md#álgebra-lineal). Este módulo desarrolla los conceptos fundamentales de [independencia lineal](../../glossary.md#independencia-lineal), bases y [dimensión](../../glossary.md#dimensión), que son esenciales para comprender [transformaciones lineales](../../glossary.md#transformaciones-lineales), valores propios y aplicaciones avanzadas.
 
 ## Mapa de recursos
 
@@ -42,11 +42,11 @@ Los espacios vectoriales proporcionan el marco abstracto que unifica el álgebra
 
 ### Secuencia recomendada
 
-1. **Fundamentos** (1.5h): Axiomas de espacio vectorial y ejemplos
+1. **[Fundamentos](../../glossary.md#fundamentos)** (1.5h): Axiomas de [espacio vectorial](../../glossary.md#espacio-vectorial) y ejemplos
 2. **Subespacios** (1h): Criterios y construcción de subespacios
 3. **Generadores** (1.5h): Span y combinaciones lineales
 4. **Independencia** (1.5h): Criterios y aplicaciones
-5. **Bases** (2h): Dimensión, coordenadas y cambio de base
+5. **Bases** (2h): Dimensión, coordenadas y cambio de [base](../../glossary.md#base)
 
 ## Prerequisitos
 

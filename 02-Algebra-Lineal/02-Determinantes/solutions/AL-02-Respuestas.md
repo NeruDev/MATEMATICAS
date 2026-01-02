@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: al-02-determinantes
+topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
 file_id: AL-02-Respuestas
 status: stable
 audience: student
@@ -36,7 +36,7 @@ solved_detailed: 0
 | Prob-14 | $M_{11} = -3$, $C_{11} = -3$ | ➖ |
 | Prob-15 | $\det = 2(4 \cdot 0 - 1 \cdot 2) - 1(0 \cdot 0 - 1 \cdot 5) + 3(0 \cdot 2 - 4 \cdot 5) = -4 + 5 - 60 = -59$ | ➖ |
 | Prob-16 | $\det = 1 \cdot (1 \cdot 4 - 3 \cdot 2) = 1 \cdot (-2) = -2$ | ➖ |
-| Prob-17 | $\det = 1 \cdot 1 \cdot 1 \cdot 1 = 1$ (matriz triangular) | ➖ |
+| Prob-17 | $\det = 1 \cdot 1 \cdot 1 \cdot 1 = 1$ ([matriz](../../../glossary.md#matriz) triangular) | ➖ |
 | Prob-18 | $\text{adj}(A) = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$ | ➖ |
 | Prob-19 | $A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$ | ➖ |
 | Prob-20 | $\text{adj}(A) = \begin{pmatrix} -1 & 1 & -1 \\ 1 & -1 & -1 \\ -1 & -1 & 1 \end{pmatrix}$ | ➖ |

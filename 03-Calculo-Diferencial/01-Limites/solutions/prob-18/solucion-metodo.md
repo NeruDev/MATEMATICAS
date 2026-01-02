@@ -13,7 +13,7 @@ audience: student
 
 **Método aplicado:** Racionalización
 
-**Paso 1: Verificar forma indeterminada**
+**Paso 1: Verificar [forma indeterminada](../../../../glossary.md#forma-indeterminada)**
 $$\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4} = \frac{\sqrt{4} - 2}{4 - 4} = \frac{0}{0}$$
 
 **Paso 2: Multiplicar por el conjugado**
@@ -22,7 +22,7 @@ $$\frac{\sqrt{x} - 2}{x - 4} \cdot \frac{\sqrt{x} + 2}{\sqrt{x} + 2} = \frac{(\s
 **Paso 3: Simplificar**
 $$= \frac{x - 4}{(x - 4)(\sqrt{x} + 2)} = \frac{1}{\sqrt{x} + 2} \quad (x \neq 4)$$
 
-**Paso 4: Evaluar el límite**
+**Paso 4: Evaluar el [límite](../../../../glossary.md#límite)**
 $$\lim_{x \to 4} \frac{1}{\sqrt{x} + 2} = \frac{1}{\sqrt{4} + 2} = \frac{1}{2 + 2} = \frac{1}{4}$$
 
 **Respuesta:**

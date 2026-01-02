@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - Integración Numérica
+title: Resumen de Fórmulas - [Integración Numérica](../../glossary.md#integración-numérica)
 type: cheatsheet
 topic: integracion-numerica
 tags: [métodos-numéricos, integración, fórmulas, cheatsheet]
@@ -29,7 +29,7 @@ $$E_T = -\frac{h^3}{12}f''(\xi), \quad \xi \in [a,b]$$
 ### Error del Trapecio Compuesto
 $$E_T = -\frac{(b-a)h^2}{12}f''(\xi) = -\frac{(b-a)^3}{12n^2}f''(\xi)$$
 
-**Orden de precisión:** $O(h^2)$
+**[Orden](../../glossary.md#orden) de precisión:** $O(h^2)$
 
 ---
 

@@ -25,7 +25,7 @@ Matemática precisa. LaTeX permitido.
 
 ### Definición intuitiva
 
-El **límite** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
+El **[límite](../../../glossary.md#límite)** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
 
 $$\lim_{x \to a} f(x) = L$$
 
@@ -33,7 +33,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 $$\lim_{x \to a} f(x) = L$$
 
-Si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ tal que:
+Si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ [tal que](../../../glossary.md#tal-que):
 
 $$0 < |x - a| < \delta \Rightarrow |f(x) - L| < \varepsilon$$
 
@@ -47,7 +47,7 @@ $$\lim_{x \to a^+} f(x) = L$$
 $$\lim_{x \to a^-} f(x) = L$$
 ($x$ se aproxima a $a$ desde valores menores que $a$)
 
-**Teorema:** $\lim_{x \to a} f(x) = L$ existe si y solo si ambos límites laterales existen e son iguales.
+**Teorema:** $\lim_{x \to a} f(x) = L$ existe si y solo si ambos [límites](../../../glossary.md#límites) laterales existen e son iguales.
 
 ## Intuición
 
@@ -55,7 +55,7 @@ $$\lim_{x \to a^-} f(x) = L$$
 Explicación conceptual, no operativa.
 -->
 
-Piensa en el límite como una pregunta sobre el **destino**, no sobre la **llegada**:
+Piensa en el límite como una pregunta sobre el **[destino](../../../glossary.md#destino)**, no sobre la **llegada**:
 
 > "¿Hacia dónde va $f(x)$ cuando $x$ se acerca a $a$?"
 
@@ -70,8 +70,8 @@ Errores comunes y confusiones típicas.
 -->
 
 **NO es:**
-- El valor de la función en el punto: $\lim_{x \to a} f(x) \neq f(a)$ (en general)
-- Una sustitución directa siempre válida
+- El valor de la [función](../../../glossary.md#función) en el punto: $\lim_{x \to a} f(x) \neq f(a)$ (en general)
+- Una [sustitución](../../../glossary.md#sustitución) directa siempre válida
 - Un valor que $x$ "alcanza"
 
 **Errores comunes:**

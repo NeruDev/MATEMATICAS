@@ -11,13 +11,13 @@ audience: student
 
 ## Descripción General
 
-Los **límites** son el concepto fundamental del cálculo diferencial. Permiten describir el comportamiento de una función cuando su variable independiente se aproxima a un valor específico, sin necesariamente alcanzarlo.
+Los **[límites](../../glossary.md#límites)** son el concepto fundamental del [cálculo diferencial](../../glossary.md#cálculo-diferencial). Permiten describir el comportamiento de una [función](../../glossary.md#función) cuando su variable independiente se aproxima a un valor específico, sin necesariamente alcanzarlo.
 
 ## Objetivos de Aprendizaje
 
 Al finalizar este tema, serás capaz de:
 
-1. Comprender la definición intuitiva y formal (épsilon-delta) de límite
+1. Comprender la definición intuitiva y formal (épsilon-delta) de [límite](../../glossary.md#límite)
 2. Calcular límites usando técnicas algebraicas
 3. Evaluar límites laterales y determinar existencia de límites
 4. Aplicar límites notables y la regla de L'Hôpital
@@ -37,8 +37,8 @@ Al finalizar este tema, serás capaz de:
 
 ### Técnicas Fundamentales
 
-- **Sustitución directa**: Cuando la función es continua en el punto
-- **Factorización**: Para eliminar indeterminaciones $\frac{0}{0}$
+- **[Sustitución](../../glossary.md#sustitución) directa**: Cuando la función es continua en el punto
+- **[Factorización](../../glossary.md#factorización)**: Para eliminar indeterminaciones $\frac{0}{0}$
 - **Racionalización**: Útil con radicales
 - **Límites notables**: Resultados fundamentales memorizados
 - **Regla de L'Hôpital**: Para formas indeterminadas
@@ -61,4 +61,4 @@ $$\frac{0}{0}, \quad \frac{\infty}{\infty}, \quad 0 \cdot \infty, \quad \infty -
 
 ---
 
-> **Nota**: Los límites son la piedra angular del cálculo. Dominar este tema es esencial para comprender derivadas e integrales.
+> **Nota**: Los límites son la piedra angular del cálculo. Dominar este tema es esencial para comprender [derivadas](../../glossary.md#derivadas) e integrales.

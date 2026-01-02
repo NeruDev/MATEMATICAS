@@ -18,7 +18,7 @@ $$\sum_{n=0}^{\infty} c_n (x-x_0)^n = c_0 + c_1(x-x_0) + c_2(x-x_0)^2 + \cdots$$
 
 ### Radio de Convergencia
 
-El **radio de convergencia** $R$ se determina por:
+El **radio de [convergencia](../../../glossary.md#convergencia)** $R$ se determina por:
 
 $$\frac{1}{R} = \lim_{n\to\infty} \left|\frac{c_{n+1}}{c_n}\right| \quad \text{o} \quad \frac{1}{R} = \lim_{n\to\infty} |c_n|^{1/n}$$
 
@@ -40,7 +40,7 @@ $$\int \sum_{n=0}^{\infty} c_n x^n \, dx = \sum_{n=0}^{\infty} \frac{c_n}{n+1} x
 
 ### Función Analítica
 
-Una función es **analítica** en $x_0$ si tiene desarrollo en serie de potencias convergente en un entorno de $x_0$.
+Una [función](../../../glossary.md#función) es **analítica** en $x_0$ si tiene desarrollo en serie de potencias convergente en un entorno de $x_0$.
 
 ---
 
@@ -72,13 +72,13 @@ que convergen en un intervalo $|x - x_0| < R$, donde $R$ es al menos la distanci
    - $y' = \sum_{n=1}^{\infty} n c_n x^{n-1}$
    - $y'' = \sum_{n=2}^{\infty} n(n-1) c_n x^{n-2}$
 
-3. Sustituir en la EDO
+3. Sustituir en la [EDO](../../../glossary.md#edo)
 
 4. Igualar coeficientes de cada potencia a cero
 
 5. Obtener **relación de recurrencia** para los $c_n$
 
-6. Escribir la solución general
+6. Escribir la [solución general](../../../glossary.md#solución-general)
 
 > **Ejemplo:** Resolver $y'' + y = 0$
 > 
@@ -110,7 +110,7 @@ Un punto singular $x_0$ de:
 
 $$P(x)y'' + Q(x)y' + R(x)y = 0$$
 
-es **regular** si los límites:
+es **regular** si los [límites](../../../glossary.md#límites):
 
 $$p_0 = \lim_{x \to x_0} (x-x_0)\frac{Q(x)}{P(x)}, \quad q_0 = \lim_{x \to x_0} (x-x_0)^2\frac{R(x)}{P(x)}$$
 
@@ -173,7 +173,7 @@ donde $C$ puede ser 0 (en cuyo caso $y_2$ no tiene logaritmo).
 
 $$x^2y'' + xy' + (x^2 - \nu^2)y = 0$$
 
-donde $\nu \geq 0$ es el **orden**.
+donde $\nu \geq 0$ es el **[orden](../../../glossary.md#orden)**.
 
 **Solución general:**
 $$y = C_1 J_\nu(x) + C_2 Y_\nu(x)$$

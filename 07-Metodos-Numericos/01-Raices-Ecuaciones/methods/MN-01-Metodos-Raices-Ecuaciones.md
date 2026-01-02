@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Raíces de Ecuaciones
 
-> **Referencia rápida:** Esta guía presenta 10 métodos numéricos para encontrar raíces de ecuaciones $f(x) = 0$ con algoritmos detallados y análisis de convergencia.
+> **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../../glossary.md#métodos-numéricos) para encontrar [raíces de ecuaciones](../../../glossary.md#raíces-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../../glossary.md#convergencia).
 
 ---
 
@@ -133,7 +133,7 @@ Para $[1,2]$ y $\varepsilon = 10^{-6}$: $n \geq \frac{\ln 1 - \ln(2 \times 10^{-
 
 - Similar a bisección pero potencialmente más rápido
 - Intervalo con cambio de signo conocido
-- Función relativamente lineal
+- [Función](../../../glossary.md#función) relativamente lineal
 
 ### Fórmula
 
@@ -211,7 +211,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
 ### Interpretación Geométrica
 
-La recta tangente a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
+La recta [tangente](../../../glossary.md#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
 
 ### Algoritmo de Resolución
 
@@ -354,7 +354,7 @@ $$\boxed{x^* \approx 1.52138}$$
 
 ---
 
-**Orden de convergencia:** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
+**[Orden de convergencia](../../../glossary.md#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
 
 ---
 
@@ -507,8 +507,8 @@ $$\boxed{x^* = 1 \text{ (convergencia en 1 iteración)}}$$
 ### Cuándo Usar
 
 - Puede encontrar raíces complejas
-- No requiere derivada
-- Usa interpolación parabólica
+- No requiere [derivada](../../../glossary.md#derivada)
+- Usa [interpolación](../../../glossary.md#interpolación) parabólica
 
 ### Fórmula
 
@@ -657,7 +657,7 @@ $$\boxed{x^* \approx 0.56714}$$
 | Propiedad | Valor |
 |-----------|-------|
 | Garantía de convergencia | ✓ |
-| Orden de convergencia | Superlineal |
+| [Orden](../../../glossary.md#orden) de convergencia | Superlineal |
 | Requiere derivada | No |
 | Requiere intervalo | Sí |
 
@@ -686,7 +686,7 @@ raiz = brentq(f, 1, 2, xtol=1e-10)
 
 $$\mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}^{-1}(\mathbf{x}_n)\mathbf{F}(\mathbf{x}_n)$$
 
-donde $\mathbf{J}$ es la matriz jacobiana:
+donde $\mathbf{J}$ es la [matriz](../../../glossary.md#matriz) jacobiana:
 
 $$J_{ij} = \frac{\partial F_i}{\partial x_j}$$
 
@@ -788,8 +788,8 @@ $$\boxed{(x^*, y^*) \approx (1.9319, 0.5176)}$$
 | División por cero en Newton | Falla del método | Verificar $f'(x_n) \neq 0$ |
 | Mal punto inicial | No convergencia | Graficar primero |
 | Intervalo sin cambio de signo | Bisección falla | Verificar $f(a)f(b) < 0$ |
-| $\vert g'\vert \geq 1$ en punto fijo | Divergencia | Reformular $g(x)$ |
-| Tolerancia muy pequeña | No termina | Considerar precisión de máquina |
+| $\vert g'\vert \geq 1$ en punto fijo | [Divergencia](../../../glossary.md#divergencia) | Reformular $g(x)$ |
+| Tolerancia muy pequeña | No termina | Considerar precisión de [máquina](../../../glossary.md#máquina) |
 
 ---
 

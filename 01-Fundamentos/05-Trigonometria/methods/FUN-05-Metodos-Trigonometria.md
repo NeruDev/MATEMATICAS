@@ -63,9 +63,9 @@ $$\boxed{225° = \frac{5\pi}{4} \text{ rad}}$$
 
 | Razón | Definición | Mnemónico |
 |-------|------------|-----------|
-| Seno | $\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}}$ | SOH |
-| Coseno | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
-| Tangente | $\tan\theta = \frac{\text{opuesto}}{\text{adyacente}}$ | TOA |
+| [Seno](../../../glossary.md#seno) | $\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}}$ | SOH |
+| [Coseno](../../../glossary.md#coseno) | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
+| [Tangente](../../../glossary.md#tangente) | $\tan\theta = \frac{\text{opuesto}}{\text{adyacente}}$ | TOA |
 | Cosecante | $\csc\theta = \frac{\text{hipotenusa}}{\text{opuesto}}$ | |
 | Secante | $\sec\theta = \frac{\text{hipotenusa}}{\text{adyacente}}$ | |
 | Cotangente | $\cot\theta = \frac{\text{adyacente}}{\text{opuesto}}$ | |
@@ -281,7 +281,7 @@ $$\boxed{\text{Amplitud: } 3, \quad \text{Período: } \pi, \quad \text{Rango: } 
 |------------|-------------|
 | Trabajar un lado | Transformar hasta igualar al otro |
 | Convertir a sen/cos | Expresar todo en términos de seno y coseno |
-| Factorizar | Buscar factores comunes |
+| [Factorizar](../../../glossary.md#factorizar) | Buscar factores comunes |
 | Conjugado | Multiplicar por conjugado |
 | Identidades pitagóricas | Usar $\sin^2 + \cos^2 = 1$ |
 
@@ -327,7 +327,7 @@ $$\boxed{\frac{\sin\theta}{1 - \cos\theta} = \frac{1 + \cos\theta}{\sin\theta} \
 
 ## Método 6: Resolver Ecuaciones Trigonométricas
 
-**Cuándo Usar:** Cuando la incógnita está dentro de una función trigonométrica.
+**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../../glossary.md#función) trigonométrica.
 
 ### Algoritmo de Resolución
 

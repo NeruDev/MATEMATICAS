@@ -33,7 +33,7 @@ $$x^4 - 16 = (x^2 + 4)(x^2 - 4)$$
 
 **Factor 1: $x^2 + 4$**
 
-Este es una **suma de cuadrados**. En los números reales, $x^2 + 4$ **no se puede factorizar** porque:
+Este es una **suma de cuadrados**. En los números reales, $x^2 + 4$ **no se puede [factorizar](../../../../glossary.md#factorizar)** porque:
 - $x^2 \geq 0$ para todo $x \in \mathbb{R}$
 - $x^2 + 4 \geq 4 > 0$ (nunca es cero)
 - No tiene raíces reales
@@ -151,7 +151,7 @@ Para $x = 3$:
 **Expresión original:**
 $$3^4 - 16 = 81 - 16 = 65$$
 
-**Factorización:**
+**[Factorización](../../../../glossary.md#factorización):**
 $$(3^2 + 4)(3 + 2)(3 - 2) = (9 + 4)(5)(1)$$
 
 $$= 13 \cdot 5 \cdot 1 = 65 \quad \checkmark$$

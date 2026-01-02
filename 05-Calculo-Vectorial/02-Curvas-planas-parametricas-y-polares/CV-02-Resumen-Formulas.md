@@ -20,7 +20,7 @@ requires: []
 
 ## Tangentes paramétricas
 
-- **Tangente horizontal:** $dy/dt = 0$ y $dx/dt \neq 0$
+- **[Tangente](../../glossary.md#tangente) horizontal:** $dy/dt = 0$ y $dx/dt \neq 0$
 - **Tangente vertical:** $dx/dt = 0$ y $dy/dt \neq 0$
 - **Punto singular:** $dx/dt = 0$ y $dy/dt = 0$ (requiere análisis adicional)
 

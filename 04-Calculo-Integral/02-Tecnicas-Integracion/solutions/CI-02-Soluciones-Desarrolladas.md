@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones de técnicas de integración.
+Soluciones de [técnicas de integración](../../../glossary.md#técnicas-de-integración).
 
 IA:
 Soluciones representativas con desarrollo completo.
@@ -140,7 +140,7 @@ $$\int \frac{x+1}{x^2+2x+5} \, dx$$
 **Desarrollo:**
 Completamos: $x^2 + 2x + 5 = (x+1)^2 + 4$
 
-El numerador es exactamente la derivada del interior del cuadrado (casi):
+El numerador es exactamente la [derivada](../../../glossary.md#derivada) del interior del cuadrado (casi):
 
 $$\frac{d}{dx}(x^2+2x+5) = 2x + 2 = 2(x+1)$$
 

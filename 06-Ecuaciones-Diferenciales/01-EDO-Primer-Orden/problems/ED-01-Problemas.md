@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: problem_set
-topic_id: ed-01-edo-primer-orden
+topic_id: ed-01-[edo](../../../glossary.md#edo)-primer-[orden](../../../glossary.md#orden)
 file_id: ED-01-Problemas
 status: stable
 audience: student
@@ -31,7 +31,7 @@ c) $y''' + (y')^3 = \sin x$
 
 ### [Prob-02] Verificación de solución general (lineal) ⭐
 
-Verificar que $y = Ce^{-x} + x - 1$ es solución general de $\frac{dy}{dx} + y = x$.
+Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../../glossary.md#solución-general) de $\frac{dy}{dx} + y = x$.
 
 > 📁 Solución: `solutions/prob-02/`
 
@@ -161,7 +161,7 @@ Resolver el PVI: $(y\cos x + 2xe^y)dx + (\sin x + x^2e^y)dy = 0$, $y(0) = 0$
 
 ### [Prob-15] Factor integrante básico ⭐⭐
 
-Encontrar el factor integrante y resolver:
+Encontrar el [factor integrante](../../../glossary.md#factor-integrante) y resolver:
 
 a) $(y + 1)dx - xdy = 0$
 
@@ -285,7 +285,7 @@ Si $i(0) = 0$, encontrar $i(t)$.
 
 ### [Prob-27] Problema de Mezcla ⭐⭐⭐
 
-Un tanque contiene 100L de agua con 10kg de sal. Entra solución a 3L/min con concentración 0.2 kg/L, y sale mezcla a 3L/min. Encontrar la cantidad de sal en el tanque en función del tiempo.
+Un tanque contiene 100L de agua con 10kg de sal. Entra solución a 3L/min con concentración 0.2 kg/L, y sale mezcla a 3L/min. Encontrar la cantidad de sal en el tanque en [función](../../../glossary.md#función) del tiempo.
 
 > 📁 Solución: `solutions/prob-27/`
 

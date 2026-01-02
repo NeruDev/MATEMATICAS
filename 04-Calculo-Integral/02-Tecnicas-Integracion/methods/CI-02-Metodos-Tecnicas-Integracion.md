@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Métodos de técnicas de integración.
+Métodos de [técnicas de integración](../../../glossary.md#técnicas-de-integración).
 
 IA:
 Procedimientos paso a paso para cada técnica.
@@ -22,7 +22,7 @@ audience: self-study
 ## Método 1: Sustitución Simple
 
 ### Cuándo Usar
-- Se identifica una función y su derivada (o múltiplo) en el integrando
+- Se identifica una [función](../../../glossary.md#función) y su [derivada](../../../glossary.md#derivada) (o múltiplo) en el integrando
 - Hay una "función interna" compuesta
 
 ### Algoritmo de Resolución
@@ -68,7 +68,7 @@ $$\int \frac{x}{x^2+1} \, dx = \frac{1}{2}\ln(x^2+1) + C$$
 ### Cuándo Usar
 - Producto de funciones de diferentes tipos
 - Integrales de $\ln x$, funciones trigonométricas inversas
-- Cuando la sustitución simple no funciona
+- Cuando la [sustitución](../../../glossary.md#sustitución) simple no funciona
 
 ### Fórmula Fundamental
 $$\int u \, dv = uv - \int v \, du$$
@@ -141,7 +141,7 @@ Si $m$ es impar: separar un $\sin x$ y usar $\sin^2 x = 1 - \cos^2 x$
 | 1 | Separar un factor $\cos x$ | Reservar para $du$ |
 | 2 | Convertir $\cos^{n-1} x$ usando identidad | $\cos^2 x = 1 - \sin^2 x$ |
 | 3 | Sustituir $u = \sin x$ | $du = \cos x \, dx$ |
-| 4 | Integrar el polinomio en $u$ | Expandir y aplicar regla de potencia |
+| 4 | Integrar el [polinomio](../../../glossary.md#polinomio) en $u$ | Expandir y aplicar regla de potencia |
 | 5 | Regresar a $x$ | $u = \sin x$ |
 
 ### Ejemplo Detallado
@@ -338,7 +338,7 @@ $$\int \frac{1}{\sqrt{4+x^2}} \, dx = \ln\left|\frac{\sqrt{4+x^2}}{2} + \frac{x}
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Verificar que $\deg P < \deg Q$ | Si no, dividir primero |
-| 2 | Factorizar el denominador | Obtener $(x-r_1)(x-r_2)\cdots$ |
+| 2 | [Factorizar](../../../glossary.md#factorizar) el denominador | Obtener $(x-r_1)(x-r_2)\cdots$ |
 | 3 | Escribir la descomposición | $\frac{A}{x-r_1} + \frac{B}{x-r_2} + \cdots$ |
 | 4 | Multiplicar por denominador común | Eliminar fracciones |
 | 5 | Sustituir raíces para hallar constantes | $x = r_1, r_2, \ldots$ |
@@ -464,7 +464,7 @@ $= \int \frac{du}{u^2 + 4} = \frac{1}{2}\arctan\frac{u}{2} + C = \frac{1}{2}\arc
 - $\int x^n e^{ax} dx$, $\int x^n \sin(ax) dx$, $\int x^n \cos(ax) dx$
 
 ### Pasos
-1. Crear tabla con derivadas sucesivas de $x^n$ y primitivas de la otra función
+1. Crear tabla con [derivadas](../../../glossary.md#derivadas) sucesivas de $x^n$ y primitivas de la otra función
 2. Alternar signos: $+, -, +, -, \ldots$
 3. Multiplicar diagonalmente
 

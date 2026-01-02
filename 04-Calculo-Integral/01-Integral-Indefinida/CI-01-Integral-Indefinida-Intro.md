@@ -12,7 +12,7 @@ requires: [03-calculo-diferencial]
 
 ## Propósito del tema
 
-Comprender el concepto de antiderivada y dominar las fórmulas básicas de integración como proceso inverso de la derivación.
+Comprender el concepto de [antiderivada](../../glossary.md#antiderivada) y dominar las fórmulas básicas de integración como proceso inverso de la derivación.
 
 ## Mapa de recursos
 
@@ -32,24 +32,24 @@ solutions/
 ## Ruta de aprendizaje
 
 1. **Concepto de antiderivada**: Si $F'(x) = f(x)$, entonces $F(x)$ es antiderivada de $f(x)$
-2. **Notación y constante de integración**: $\int f(x)\,dx = F(x) + C$
+2. **Notación y [constante de integración](../../glossary.md#constante-de-integración)**: $\int f(x)\,dx = F(x) + C$
 3. **Integrales de funciones algebraicas**: potencias, polinomios
 4. **Integrales de funciones exponenciales**: $e^x$, $a^x$
 5. **Integrales de funciones logarítmicas**: $\ln|x|$
-6. **Integrales de funciones trigonométricas**: seno, coseno, tangente, etc.
+6. **Integrales de funciones trigonométricas**: [seno](../../glossary.md#seno), [coseno](../../glossary.md#coseno), [tangente](../../glossary.md#tangente), etc.
 7. **Integrales que producen funciones inversas**: $\arcsin$, $\arctan$, $\text{arcsec}$
-8. **Propiedades de la integral indefinida**: linealidad
+8. **Propiedades de la [integral indefinida](../../glossary.md#integral-indefinida)**: [linealidad](../../glossary.md#linealidad)
 
 ## Conexiones
 
-- **Prerrequisitos**: Cálculo Diferencial (derivadas)
-- **Usos posteriores**: Técnicas de integración, Integral definida, Ecuaciones diferenciales
+- **Prerrequisitos**: [Cálculo Diferencial](../../glossary.md#cálculo-diferencial) ([derivadas](../../glossary.md#derivadas))
+- **Usos posteriores**: [Técnicas de integración](../../glossary.md#técnicas-de-integración), [Integral definida](../../glossary.md#integral-definida), [Ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales)
 
 ## Vista previa de conceptos clave
 
 | Concepto | Descripción |
 |----------|-------------|
-| Antiderivada | Función cuya derivada es la función dada |
+| Antiderivada | [Función](../../glossary.md#función) cuya [derivada](../../glossary.md#derivada) es la función dada |
 | Constante $C$ | Representa familia de funciones primitivas |
 | Verificación | Derivar resultado debe dar función original |
 | Linealidad | $\int[af(x)+bg(x)]dx = a\int f(x)dx + b\int g(x)dx$ |

@@ -9,11 +9,11 @@ status: active
 ---
 
 ## Problema 4a
-**Enunciado:** ¿Es $W_1 = \{(x, y, z) : x + y + z = 0\}$ subespacio de $\mathbb{R}^3$?
+**Enunciado:** ¿Es $W_1 = \{(x, y, z) : x + y + z = 0\}$ [subespacio](../../../glossary.md#subespacio) de $\mathbb{R}^3$?
 
 **Solución:**
 
-1. **Vector cero:** $(0,0,0)$: $0 + 0 + 0 = 0$ ✓
+1. **[Vector](../../../glossary.md#vector) cero:** $(0,0,0)$: $0 + 0 + 0 = 0$ ✓
 
 2. **Cerradura suma:** Sean $u = (x_1, y_1, z_1)$, $v = (x_2, y_2, z_2) \in W_1$
    - $u + v = (x_1+x_2, y_1+y_2, z_1+z_2)$
@@ -39,7 +39,7 @@ $\mathbf{0} = (0,0,0)$: $0 + 0 + 0 = 0 \neq 1$
 ---
 
 ## Problema 9
-**Enunciado:** ¿Es $v = (1, 2, 3)$ combinación lineal de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
+**Enunciado:** ¿Es $v = (1, 2, 3)$ [combinación lineal](../../../glossary.md#combinación-lineal) de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
 
 **Solución:**
 
@@ -75,12 +75,12 @@ $$\begin{pmatrix} 1 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$$
 
 $\det = 1(1-0) - 0 + 1(1-0) = 1 + 1 = 2 \neq 0$
 
-**Son LI** (determinante no nulo)
+**Son LI** ([determinante](../../../glossary.md#determinante) no nulo)
 
 ---
 
 ## Problema 19a
-**Enunciado:** Encontrar base y dimensión de $W = \{(x, y, z) : x - 2y + z = 0\}$
+**Enunciado:** Encontrar [base](../../../glossary.md#base) y [dimensión](../../../glossary.md#dimensión) de $W = \{(x, y, z) : x - 2y + z = 0\}$
 
 **Solución:**
 
@@ -100,7 +100,7 @@ $$(x, y, z) = (2s - t, s, t) = s(2, 1, 0) + t(-1, 0, 1)$$
 
 **Solución:**
 
-Una matriz simétrica $2 \times 2$ tiene la forma:
+Una [matriz simétrica](../../../glossary.md#matriz-simétrica) $2 \times 2$ tiene la forma:
 $$A = \begin{pmatrix} a & b \\ b & c \end{pmatrix} = a\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + b\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} + c\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$$
 
 **Base:** $\left\{\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}\right\}$

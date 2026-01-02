@@ -64,8 +64,8 @@ Las siguientes tienen desarrollo paso a paso completo:
 |:-----|:-----------------------|
 | Operaciones básicas | [Prob-04](./prob-04/) |
 | Multiplicación | [Prob-09](./prob-09/), [Prob-10](./prob-10/), [Prob-13](./prob-13/) |
-| Transpuesta | [Prob-23](./prob-23/) |
-| Matriz inversa | [Prob-24](./prob-24/), [Prob-27](./prob-27/), [Prob-28](./prob-28/), [Prob-32](./prob-32/) |
+| [Transpuesta](../../../glossary.md#transpuesta) | [Prob-23](./prob-23/) |
+| [Matriz inversa](../../../glossary.md#matriz-inversa) | [Prob-24](./prob-24/), [Prob-27](./prob-27/), [Prob-28](./prob-28/), [Prob-32](./prob-32/) |
 
 ---
 

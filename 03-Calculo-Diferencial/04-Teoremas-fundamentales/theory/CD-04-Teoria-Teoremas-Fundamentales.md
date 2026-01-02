@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría de teoremas fundamentales del cálculo diferencial.
+Teoría de teoremas fundamentales del [cálculo diferencial](../../../glossary.md#cálculo-diferencial).
 
 IA:
 Teoremas, demostraciones y aplicaciones.
@@ -23,14 +23,14 @@ Si $f$ es:
 2. Diferenciable en $(a, b)$
 3. $f(a) = f(b)$
 
-Entonces existe al menos un $c \in (a, b)$ tal que $f'(c) = 0$.
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que) $f'(c) = 0$.
 
 ### Interpretación Geométrica
-Si una curva suave comienza y termina a la misma altura, en algún punto intermedio la tangente debe ser horizontal.
+Si una curva suave comienza y termina a la misma altura, en algún punto intermedio la [tangente](../../../glossary.md#tangente) debe ser horizontal.
 
 ### Aplicaciones
 - Garantizar existencia de puntos críticos
-- Base para el teorema del valor medio
+- [Base](../../../glossary.md#base) para el teorema del valor medio
 
 ---
 
@@ -88,9 +88,9 @@ Si $\lim_{x \to a} f(x) = \pm\infty$ y $\lim_{x \to a} g(x) = \pm\infty$, aplica
 - $x \to \infty$ o $x \to -\infty$
 
 ### Advertencias
-1. Verificar que sea forma indeterminada antes de aplicar
-2. Se puede aplicar repetidamente si es necesario
-3. No siempre funciona; el límite del cociente de derivadas puede no existir
+1. Verificar que sea [forma indeterminada](../../../glossary.md#forma-indeterminada) antes de aplicar
+2. Se puede aplicar repetidamente si es [necesario](../../../glossary.md#necesario)
+3. No siempre funciona; el [límite](../../../glossary.md#límite) del cociente de [derivadas](../../../glossary.md#derivadas) puede no existir
 
 ---
 
@@ -150,10 +150,10 @@ $$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}x^n$$
 **Exponencial:**
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$$
 
-**Seno:**
+**[Seno](../../../glossary.md#seno):**
 $$\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots$$
 
-**Coseno:**
+**[Coseno](../../../glossary.md#coseno):**
 $$\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots$$
 
 **Logaritmo Natural:**

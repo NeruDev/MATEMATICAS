@@ -40,7 +40,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos:** integral definida, funciones de varias variables.
+- **Prerequisitos:** [integral definida](../../glossary.md#integral-definida), funciones de varias variables.
 - **Usos posteriores:** integrales de línea, teoremas de Green, Stokes y Gauss.
 
 ## Vista previa de conceptos clave
@@ -49,7 +49,7 @@ solutions/
 |----------|-------------------|
 | Integral doble | $\iint_R f(x,y)\, dA$ |
 | Integral triple | $\iiint_E f(x,y,z)\, dV$ |
-| Jacobiano | Factor de escala en cambio de variables |
+| Jacobiano | [Factor de escala](../../glossary.md#factor-de-escala) en cambio de variables |
 | Coord. cilíndricas | $(r, \theta, z)$, $dV = r\,dr\,d\theta\,dz$ |
 | Coord. esféricas | $(\rho, \phi, \theta)$, $dV = \rho^2\sin\phi\,d\rho\,d\phi\,d\theta$ |
 

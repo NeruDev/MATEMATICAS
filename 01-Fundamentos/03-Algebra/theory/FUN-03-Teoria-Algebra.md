@@ -46,7 +46,7 @@ $$2(-2)^2 - 3(-2) + 1 = 2(4) + 6 + 1 = 8 + 6 + 1 = 15$$
 ### Grado de un término y polinomio
 
 - **Grado de un término**: Suma de los exponentes de sus variables.
-- **Grado de un polinomio**: El mayor grado de sus términos.
+- **Grado de un [polinomio](../../../glossary.md#polinomio)**: El mayor grado de sus términos.
 
 **Ejemplo:** En $5x^3y^2 - 2x^2y + 7x$:
 - Grado de $5x^3y^2$: $3 + 2 = 5$
@@ -84,7 +84,7 @@ $$= 2x^3 - x^2 - 4x + 3$$
 Para dividir $P(x) \div D(x)$:
 1. Dividir el primer término de $P$ entre el primer término de $D$
 2. Multiplicar el cociente por $D$ y restar de $P$
-3. Repetir hasta que el grado del residuo sea menor que el de $D$
+3. Repetir hasta que el grado del residuo sea [menor](../../../glossary.md#menor) que el de $D$
 
 **Ejemplo:** $(x^3 - 2x^2 + x - 3) \div (x - 1)$
 
@@ -199,7 +199,7 @@ Buscar dos números que sumen $b$ y multipliquen $c$.
 **Método AC:**
 1. Multiplicar $a \cdot c$
 2. Buscar dos números que sumen $b$ y multipliquen $ac$
-3. Reescribir y factorizar por agrupación
+3. Reescribir y [factorizar](../../../glossary.md#factorizar) por agrupación
 
 **Ejemplo:** $6x^2 + 7x - 3$
 - $ac = 6 \times (-3) = -18$
@@ -255,7 +255,7 @@ Una ecuación lineal tiene la forma $ax + b = 0$ con $a \neq 0$.
 
 **Método de solución:**
 1. Eliminar paréntesis (distribuir)
-2. Eliminar denominadores (multiplicar por MCM)
+2. Eliminar denominadores (multiplicar por [MCM](../../../glossary.md#mcm))
 3. Agrupar términos con variable a un lado
 4. Agrupar constantes al otro lado
 5. Despejar la variable
@@ -387,7 +387,7 @@ $$y = \frac{\Delta_y}{\Delta} = \frac{\begin{vmatrix} a_1 & c_1 \\ a_2 & c_2 \en
 
 Se resuelven por:
 - Eliminación sucesiva
-- Regla de Cramer (determinantes 3×3)
+- [Regla de Cramer](../../../glossary.md#regla-de-cramer) ([determinantes](../../../glossary.md#determinantes) 3×3)
 - Método de Gauss
 
 ---

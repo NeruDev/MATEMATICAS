@@ -12,7 +12,7 @@ audience: student
 
 ## Problema
 
-Demostrar que el siguiente límite no existe:
+Demostrar que el siguiente [límite](../../../../glossary.md#límite) no existe:
 
 $$\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$$
 
@@ -33,7 +33,7 @@ $$\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$$
 
 ### Paso 1: Análisis por la trayectoria $y = 0$ (eje $x$)
 
-Sustituimos $y = 0$ en la función:
+Sustituimos $y = 0$ en la [función](../../../../glossary.md#función):
 
 $$f(x, 0) = \frac{x \cdot 0}{x^2 + 0^2} = \frac{0}{x^2} = 0$$
 

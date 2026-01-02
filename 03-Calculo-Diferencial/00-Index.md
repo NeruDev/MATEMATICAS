@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Índice del módulo de Cálculo Diferencial.
+Índice del módulo de [Cálculo Diferencial](../glossary.md#cálculo-diferencial).
 Lista todos los temas disponibles en este módulo.
 
 IA:
@@ -18,21 +18,21 @@ audience: self-study
 
 ## Descripción del módulo
 
-Este módulo cubre el cálculo diferencial: límites, derivadas y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
+Este módulo cubre el cálculo diferencial: [límites](../glossary.md#límites), [derivadas](../glossary.md#derivadas) y sus aplicaciones. Es fundamental para entender tasas de cambio y optimización.
 
 ## Temas del módulo
 
 | # | Tema | Descripción |
 |---|------|-------------|
-| 1 | [01-Límites](./01-Limites/README.md) | Concepto de límite, continuidad, técnicas de evaluación |
-| 2 | [02-Derivadas](./02-Derivadas/README.md) | Definición, reglas de diferenciación, derivadas de orden superior |
-| 3 | [03-Aplicaciones de la Derivada](./03-Aplicaciones-de-la-derivada/README.md) | Optimización, análisis de funciones, razones relacionadas |
+| 1 | [01-Límites](./01-Limites/README.md) | Concepto de [límite](../glossary.md#límite), [continuidad](../glossary.md#continuidad), técnicas de evaluación |
+| 2 | [02-Derivadas](./02-Derivadas/README.md) | Definición, reglas de diferenciación, derivadas de [orden](../glossary.md#orden) superior |
+| 3 | [03-Aplicaciones de la Derivada](./03-Aplicaciones-de-la-[derivada](../glossary.md#derivada)/README.md) | Optimización, análisis de funciones, razones relacionadas |
 | 4 | [04-Teoremas Fundamentales](./04-Teoremas-fundamentales/README.md) | Rolle, valor medio, L'Hôpital, Taylor |
 
 ## Prerequisitos
 
-- **01-Fundamentos** completo
-- Dominio de funciones algebraicas y trascendentes
+- **01-[Fundamentos](../glossary.md#fundamentos)** completo
+- [Dominio](../glossary.md#dominio) de funciones algebraicas y trascendentes
 
 ## Conexión con otros módulos
 

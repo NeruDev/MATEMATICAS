@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: index
-topic_id: cd-02-derivadas
+topic_id: cd-02-[derivadas](../../glossary.md#derivadas)
 file_id: CD-02-Derivadas-Intro
 status: stable
 audience: student
@@ -11,16 +11,16 @@ audience: student
 
 ## Descripción General
 
-La **derivada** mide la tasa de cambio instantánea de una función. Es el concepto central del cálculo diferencial y tiene aplicaciones en física, economía, ingeniería y todas las ciencias.
+La **[derivada](../../glossary.md#derivada)** mide la tasa de cambio instantánea de una [función](../../glossary.md#función). Es el concepto central del [cálculo diferencial](../../glossary.md#cálculo-diferencial) y tiene aplicaciones en física, economía, ingeniería y todas las ciencias.
 
 ## Objetivos de Aprendizaje
 
 Al finalizar este tema, serás capaz de:
 
-1. Comprender la derivada como límite del cociente incremental
-2. Interpretar geométricamente la derivada como pendiente de la recta tangente
+1. Comprender la derivada como [límite](../../glossary.md#límite) del cociente incremental
+2. Interpretar geométricamente la derivada como pendiente de la recta [tangente](../../glossary.md#tangente)
 3. Aplicar las reglas de derivación
-4. Calcular derivadas de funciones compuestas (regla de la cadena)
+4. Calcular derivadas de funciones compuestas ([regla de la cadena](../../glossary.md#regla-de-la-cadena))
 5. Derivar funciones implícitas y paramétricas
 
 ## Contenido del Tema
@@ -44,10 +44,10 @@ $$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
 ### Temas Principales
 
 1. **Reglas básicas**: Constante, potencia, suma, producto, cociente
-2. **Regla de la cadena**: Derivada de composición de funciones
+2. **Regla de la cadena**: Derivada de [composición](../../glossary.md#composición) de funciones
 3. **Derivadas de funciones especiales**: Trigonométricas, exponenciales, logarítmicas
 4. **Derivación implícita**: Cuando $y$ no está despejada
-5. **Derivadas de orden superior**: Segunda derivada y más
+5. **Derivadas de [orden](../../glossary.md#orden) superior**: Segunda derivada y más
 
 ## Interpretaciones
 
@@ -57,7 +57,7 @@ $$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
 
 ## Prerrequisitos
 
-- Límites y continuidad
+- [Límites](../../glossary.md#límites) y [continuidad](../../glossary.md#continuidad)
 - Funciones trigonométricas y exponenciales
 - Álgebra de funciones
 

@@ -33,7 +33,7 @@ $$\sin t = 2\sin\left(\frac{t}{2}\right)\cos\left(\frac{t}{2}\right)$$
 
 ### Paso 1: Calcular las derivadas
 
-**Derivada de $x$:**
+**[Derivada](../../../../glossary.md#derivada) de $x$:**
 $$\frac{dx}{dt} = \frac{d}{dt}(t - \sin t) = 1 - \cos t$$
 
 **Derivada de $y$:**
@@ -74,9 +74,9 @@ $$L = \int_0^{2\pi} 2\sin\left(\frac{t}{2}\right) \, dt$$
 
 ### Paso 6: Resolver la integral
 
-Usamos la sustitución $u = \frac{t}{2}$, entonces $du = \frac{1}{2}dt$, es decir, $dt = 2\,du$.
+Usamos la [sustitución](../../../../glossary.md#sustitución) $u = \frac{t}{2}$, entonces $du = \frac{1}{2}dt$, es decir, $dt = 2\,du$.
 
-Cambio de límites:
+Cambio de [límites](../../../../glossary.md#límites):
 - Cuando $t = 0$: $u = 0$
 - Cuando $t = 2\pi$: $u = \pi$
 
@@ -128,6 +128,6 @@ Esta es una de las propiedades clásicas de la cicloide, descubierta por Christo
 
 ### Gráfica de la velocidad de arco
 
-La función $\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} = 2\sin\left(\frac{t}{2}\right)$:
+La [función](../../../../glossary.md#función) $\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} = 2\sin\left(\frac{t}{2}\right)$:
 - Es **cero** cuando $t = 0$ y $t = 2\pi$ (puntos cúspides)
 - Alcanza su **máximo** de 2 cuando $t = \pi$ (punto más alto de la cicloide)

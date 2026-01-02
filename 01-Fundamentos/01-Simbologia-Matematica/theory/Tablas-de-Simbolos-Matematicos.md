@@ -40,9 +40,9 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | $\neq$ | Desigualdad | `\neq` | No son iguales |
 | $\approx$ | Aproximación | `\approx` | Valor numérico cercano |
 | $\sim$ | Asintóticamente | `\sim` | Comportamiento similar (o distribución) |
-| $\equiv$ | Idénticamente igual | `\equiv` | Igualdad en todo el dominio |
+| $\equiv$ | Idénticamente igual | `\equiv` | Igualdad en todo el [dominio](../../../glossary.md#dominio) |
 | $\propto$ | Proporcional | `\propto` | Relación de proporcionalidad ($y=kx$) |
-| $<$ | Menor que | `<` | Comparación estricta |
+| $<$ | [Menor](../../../glossary.md#menor) que | `<` | Comparación estricta |
 | $>$ | Mayor que | `>` | Comparación estricta |
 | $\leq$ | Menor o igual | `\leq` | Comparación inclusiva |
 | $\geq$ | Mayor o igual | `\geq` | Comparación inclusiva |
@@ -126,7 +126,7 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
-| $\lim$ | Límite | `\lim` | Valor al que tiende una función |
+| $\lim$ | [Límite](../../../glossary.md#límite) | `\lim` | Valor al que tiende una [función](../../../glossary.md#función) |
 | $\lim_{x \to a}$ | Límite cuando x tiende a a | `\lim_{x \to a}` | Comportamiento cerca de $a$ |
 | $\lim_{x \to a^+}$ | Límite por derecha | `\lim_{x \to a^+}` | Aproximación desde valores mayores |
 | $\lim_{x \to a^-}$ | Límite por izquierda | `\lim_{x \to a^-}` | Aproximación desde valores menores |
@@ -136,9 +136,9 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
-| $f'(x)$ | Derivada (prima) | `f'(x)` | Primera derivada de $f$ |
+| $f'(x)$ | [Derivada](../../../glossary.md#derivada) (prima) | `f'(x)` | Primera derivada de $f$ |
 | $f''(x)$ | Segunda derivada | `f''(x)` | Derivada de la derivada |
-| $f^{(n)}(x)$ | Derivada n-ésima | `f^{(n)}(x)` | Derivada de orden $n$ |
+| $f^{(n)}(x)$ | Derivada n-ésima | `f^{(n)}(x)` | Derivada de [orden](../../../glossary.md#orden) $n$ |
 | $\frac{dy}{dx}$ | Derivada (Leibniz) | `\frac{dy}{dx}` | Tasa de cambio instantánea |
 | $\frac{d^n y}{dx^n}$ | Derivada n-ésima | `\frac{d^n y}{dx^n}` | Derivada de orden $n$ (Leibniz) |
 | $\dot{y}$ | Derivada temporal | `\dot{y}` | $\frac{dy}{dt}$ (física) |
@@ -161,8 +161,8 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
-| $\int$ | Integral indefinida | `\int` | Antiderivada |
-| $\int_a^b$ | Integral definida | `\int_a^b` | Área bajo la curva de $a$ a $b$ |
+| $\int$ | [Integral indefinida](../../../glossary.md#integral-indefinida) | `\int` | [Antiderivada](../../../glossary.md#antiderivada) |
+| $\int_a^b$ | [Integral definida](../../../glossary.md#integral-definida) | `\int_a^b` | Área bajo la curva de $a$ a $b$ |
 | $\oint$ | Integral de línea cerrada | `\oint` | Integral sobre curva cerrada |
 | $\iint$ | Integral doble | `\iint` | Integral de superficie |
 | $\iiint$ | Integral triple | `\iiint` | Integral de volumen |
@@ -173,9 +173,9 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
 | $dx$ | Diferencial | `dx` | Elemento infinitesimal |
-| $du$ | Cambio de variable | `du` | Sustitución |
+| $du$ | Cambio de variable | `du` | [Sustitución](../../../glossary.md#sustitución) |
 | $\Big\vert_a^b$ | Evaluación | `\Big\vert_a^b` | $F(b) - F(a)$ |
-| $+ C$ | Constante de integración | `+ C` | Familia de antiderivadas |
+| $+ C$ | [Constante de integración](../../../glossary.md#constante-de-integración) | `+ C` | Familia de antiderivadas |
 
 ---
 
@@ -186,8 +186,8 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
 | $\nabla$ | Nabla (Del) | `\nabla` | Operador diferencial vectorial |
-| $\nabla f$ | Gradiente | `\nabla f` | Vector de máxima variación |
-| $\nabla \cdot \vec{F}$ | Divergencia | `\nabla \cdot \vec{F}` | Flujo escalar de un campo |
+| $\nabla f$ | Gradiente | `\nabla f` | [Vector](../../../glossary.md#vector) de máxima variación |
+| $\nabla \cdot \vec{F}$ | [Divergencia](../../../glossary.md#divergencia) | `\nabla \cdot \vec{F}` | Flujo escalar de un campo |
 | $\nabla \times \vec{F}$ | Rotacional | `\nabla \times \vec{F}` | Tendencia a rotar (circulación) |
 | $\nabla^2$ | Laplaciano | `\nabla^2` | Divergencia del gradiente |
 | $\nabla^2 f$ | Laplaciano escalar | `\nabla^2 f` | $\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2}$ |
@@ -221,14 +221,14 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
-| $A^T$ | Transpuesta | `A^T` o `A^\top` | Filas por columnas |
-| $A^{-1}$ | Inversa | `A^{-1}` | Matriz tal que $AA^{-1}=I$ |
+| $A^T$ | [Transpuesta](../../../glossary.md#transpuesta) | `A^T` o `A^\top` | Filas por columnas |
+| $A^{-1}$ | Inversa | `A^{-1}` | [Matriz](../../../glossary.md#matriz) [tal que](../../../glossary.md#tal-que) $AA^{-1}=I$ |
 | $A^\dagger$ | Hermitiana (adjunta) | `A^\dagger` | Transpuesta conjugada |
 | $A^*$ | Conjugada | `A^*` | Conjugado de cada entrada |
-| $\det(A)$ | Determinante | `\det(A)` | Factor de escala / invertibilidad |
-| $\text{tr}(A)$ | Traza | `\text{tr}(A)` | Suma de elementos diagonales |
-| $\text{rank}(A)$ | Rango | `\text{rank}(A)` | Dimensión del espacio columna |
-| $I$ | Matriz identidad | `I` | Diagonal de unos |
+| $\det(A)$ | [Determinante](../../../glossary.md#determinante) | `\det(A)` | [Factor de escala](../../../glossary.md#factor-de-escala) / invertibilidad |
+| $\text{tr}(A)$ | [Traza](../../../glossary.md#traza) | `\text{tr}(A)` | Suma de elementos diagonales |
+| $\text{rank}(A)$ | Rango | `\text{rank}(A)` | [Dimensión](../../../glossary.md#dimensión) del espacio columna |
+| $I$ | [Matriz identidad](../../../glossary.md#matriz-identidad) | `I` | Diagonal de unos |
 | $O$ | Matriz cero | `O` | Todos los elementos son cero |
 
 ### Vectores
@@ -238,9 +238,9 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | $\vec{v}$ | Vector (flecha) | `\vec{v}` | Notación física de vector |
 | $\mathbf{v}$ | Vector (negrita) | `\mathbf{v}` | Notación algebraica de vector |
 | $\hat{v}$ | Vector unitario | `\hat{v}` | Vector de magnitud 1 |
-| $\hat{i}, \hat{j}, \hat{k}$ | Base canónica | `\hat{i}, \hat{j}, \hat{k}` | Vectores unitarios en $\mathbb{R}^3$ |
+| $\hat{i}, \hat{j}, \hat{k}$ | [Base](../../../glossary.md#base) canónica | `\hat{i}, \hat{j}, \hat{k}` | Vectores unitarios en $\mathbb{R}^3$ |
 | $\lVert v \rVert$ | Norma | `\lVert v \rVert` | Longitud/magnitud del vector |
-| $\langle u, v \rangle$ | Producto interno | `\langle u, v \rangle` | Generalización del producto punto |
+| $\langle u, v \rangle$ | Producto interno | `\langle u, v \rangle` | [Generalización](../../../glossary.md#generalización) del producto punto |
 | $u \cdot v$ | Producto punto | `u \cdot v` | Producto escalar |
 | $u \times v$ | Producto cruz | `u \times v` | Producto vectorial |
 
@@ -265,9 +265,9 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 
 | Símbolo | Nombre | LaTeX | Uso / Significado |
 | :---: | :--- | :--- | :--- |
-| $\sin \theta$ | Seno | `\sin` | Razón opuesto/hipotenusa |
-| $\cos \theta$ | Coseno | `\cos` | Razón adyacente/hipotenusa |
-| $\tan \theta$ | Tangente | `\tan` | Razón seno/coseno |
+| $\sin \theta$ | [Seno](../../../glossary.md#seno) | `\sin` | Razón opuesto/hipotenusa |
+| $\cos \theta$ | [Coseno](../../../glossary.md#coseno) | `\cos` | Razón adyacente/hipotenusa |
+| $\tan \theta$ | [Tangente](../../../glossary.md#tangente) | `\tan` | Razón seno/coseno |
 | $\cot \theta$ | Cotangente | `\cot` | Inverso de tangente |
 | $\sec \theta$ | Secante | `\sec` | Inverso de coseno |
 | $\csc \theta$ | Cosecante | `\csc` | Inverso de seno |
@@ -342,7 +342,7 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | $y'$ | Primera derivada | `y'` | $\frac{dy}{dx}$ |
 | $y''$ | Segunda derivada | `y''` | $\frac{d^2y}{dx^2}$ |
 | $y^{(n)}$ | Derivada n-ésima | `y^{(n)}` | $\frac{d^n y}{dx^n}$ |
-| $\mathcal{L}\{f\}$ | Transformada de Laplace | `\mathcal{L}\{f\}` | Transformación integral |
+| $\mathcal{L}\{f\}$ | [Transformada de Laplace](../../../glossary.md#transformada-de-laplace) | `\mathcal{L}\{f\}` | Transformación integral |
 | $\mathcal{L}^{-1}\{F\}$ | Laplace inversa | `\mathcal{L}^{-1}\{F\}` | Transformación inversa |
 | $s$ | Variable de Laplace | `s` | Dominio de frecuencia |
 | $\delta(t)$ | Delta de Dirac | `\delta(t)` | Impulso unitario |
@@ -375,7 +375,7 @@ Guía de referencia rápida para todos los símbolos matemáticos utilizados en 
 | :---: | :--- | :--- | :--- |
 | $x_n$ | Iteración n-ésima | `x_n` | Valor en paso $n$ |
 | $x_{n+1}$ | Siguiente iteración | `x_{n+1}` | Nuevo valor calculado |
-| $h$ | Tamaño de paso | `h` | Incremento en métodos numéricos |
+| $h$ | Tamaño de paso | `h` | Incremento en [métodos numéricos](../../../glossary.md#métodos-numéricos) |
 | $\Delta x$ | Incremento | `\Delta x` | Cambio en $x$ |
 
 ---

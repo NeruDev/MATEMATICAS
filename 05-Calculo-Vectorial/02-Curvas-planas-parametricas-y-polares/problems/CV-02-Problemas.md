@@ -37,7 +37,7 @@ $x = 2\cos t$, $y = 5\sin t$, $t \in [0, 2\pi]$
 **[Prob-05]** Encuentra $\frac{dy}{dx}$ para la curva:
 $x = t^2 - 1$, $y = t^3 - t$
 
-**[Prob-06]** Encuentra la pendiente de la tangente a la curva $x = e^t$, $y = e^{-t}$ en $t = 0$.
+**[Prob-06]** Encuentra la pendiente de la [tangente](../../../glossary.md#tangente) a la curva $x = e^t$, $y = e^{-t}$ en $t = 0$.
 
 **[Prob-07]** Para la curva $x = t - \sin t$, $y = 1 - \cos t$ (cicloide):
 a) Encuentra $\frac{dy}{dx}$
@@ -47,7 +47,7 @@ b) Halla los puntos donde la tangente es horizontal
 
 **[Prob-09]** Calcula $\frac{d^2y}{dx^2}$ para $x = t^2$, $y = t^3$.
 
-**[Prob-10]** Determina la concavidad de $x = t - t^2$, $y = t - t^3$ en $t = 1$.
+**[Prob-10]** Determina la [concavidad](../../../glossary.md#concavidad) de $x = t - t^2$, $y = t - t^3$ en $t = 1$.
 
 ---
 

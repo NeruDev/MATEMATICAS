@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Problemas de Técnicas de Integración"
+title: "Problemas de [Técnicas de Integración](../../../glossary.md#técnicas-de-integración)"
 topic_id: ci-02-tecnicas-integracion
 file_id: CI-02-Problemas
 author: AI-Assisted
@@ -23,7 +23,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ### Nivel Básico
 
-> **[Prob-01]** Sustitución simple con potencia ⭐
+> **[Prob-01]** [Sustitución](../../../glossary.md#sustitución) simple con potencia ⭐
 > 
 > Calcular: $\displaystyle\int 2x(x^2+1)^3 \, dx$
 > 
@@ -31,7 +31,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ---
 
-> **[Prob-02]** Sustitución trigonométrica básica ⭐
+> **[Prob-02]** [Sustitución trigonométrica](../../../glossary.md#sustitución-trigonométrica) básica ⭐
 > 
 > Calcular: $\displaystyle\int \cos x \sin^3 x \, dx$
 > 
@@ -81,7 +81,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ---
 
-> **[Prob-08]** Integral de tangente ⭐⭐
+> **[Prob-08]** Integral de [tangente](../../../glossary.md#tangente) ⭐⭐
 > 
 > Calcular: $\displaystyle\int \tan x \, dx$
 > 
@@ -97,7 +97,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ---
 
-> **[Prob-10]** Sustitución compuesta con seno ⭐⭐
+> **[Prob-10]** Sustitución compuesta con [seno](../../../glossary.md#seno) ⭐⭐
 > 
 > Calcular: $\displaystyle\int \frac{\sin(\ln x)}{x} \, dx$
 > 
@@ -143,7 +143,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ---
 
-> **[Prob-15]** Partes con coseno lineal ⭐
+> **[Prob-15]** Partes con [coseno](../../../glossary.md#coseno) lineal ⭐
 > 
 > Calcular: $\displaystyle\int x \cos x \, dx$
 > 
@@ -177,7 +177,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ### Nivel Intermedio
 
-> **[Prob-19]** Partes con polinomio y logaritmo ⭐⭐
+> **[Prob-19]** Partes con [polinomio](../../../glossary.md#polinomio) y logaritmo ⭐⭐
 > 
 > Calcular: $\displaystyle\int x^2 \ln x \, dx$
 > 
@@ -517,7 +517,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 
 ---
 
-> **[Prob-58]** Factorización compleja ⭐⭐⭐
+> **[Prob-58]** [Factorización](../../../glossary.md#factorización) compleja ⭐⭐⭐
 > 
 > Calcular: $\displaystyle\int \frac{1}{x^4-1} \, dx$
 > 

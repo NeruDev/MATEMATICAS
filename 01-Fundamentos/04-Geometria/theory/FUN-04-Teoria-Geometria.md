@@ -172,7 +172,7 @@ Cuadriláteros
 
 ### Trapecio
 
-- **Base mayor** y **base menor**: lados paralelos
+- **[Base](../../../glossary.md#base) mayor** y **base [menor](../../../glossary.md#menor)**: lados paralelos
 - **Mediana del trapecio**: $m = \frac{B + b}{2}$
 
 ---
@@ -223,7 +223,7 @@ Un polígono es **regular** si todos sus lados y ángulos son iguales.
 
 ### Propiedades de la tangente
 
-- La tangente es perpendicular al radio en el punto de tangencia
+- La [tangente](../../../glossary.md#tangente) es perpendicular al radio en el punto de tangencia
 - Desde un punto exterior, las dos tangentes tienen igual longitud
 
 ### Ángulos en la circunferencia

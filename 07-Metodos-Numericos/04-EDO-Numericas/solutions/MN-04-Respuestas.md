@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: mn-04-edo-numericas
+topic_id: mn-04-[edo](../../../glossary.md#edo)-numericas
 file_id: MN-04-Respuestas
 status: stable
 audience: student
@@ -32,7 +32,7 @@ solved_detailed: 0
 | [Prob-06] | Heun: $y(0.4) \approx 1.5948$; Euler: $\approx 1.5456$; Heun más preciso | ➖ |
 | [Prob-07] | $y(2) \approx 4.4817$ | ➖ |
 | [Prob-08] | $v(2) \approx 13.8$ m/s (velocidad descendiendo) | ➖ |
-| [Prob-09] | Razón errores $\approx 4:1$ (Heun orden 2, Euler orden 1) | ➖ |
+| [Prob-09] | Razón errores $\approx 4:1$ (Heun [orden](../../../glossary.md#orden) 2, Euler orden 1) | ➖ |
 
 ### Sección 3: Runge-Kutta
 
@@ -60,7 +60,7 @@ solved_detailed: 0
 | [Prob-19] | $(x(0.4), y(0.4)) \approx (1.1756, 0.7052)$ | ➖ |
 | [Prob-20] | Oscilaciones: presas y depredadores oscilan desfasados; período $\approx 15$ unidades | ➖ |
 | [Prob-21] | Péndulo oscila: $\theta(2) \approx -0.48$ rad (cuasi-periódico) | ➖ |
-| [Prob-22] | Van der Pol: ciclo límite; oscilaciones no armónicas | ➖ |
+| [Prob-22] | Van der Pol: ciclo [límite](../../../glossary.md#límite); oscilaciones no armónicas | ➖ |
 
 ### Sección 6: Análisis de Error y Estabilidad
 

@@ -10,7 +10,7 @@ audience: student
 
 ## Propósito
 
-Este módulo introduce el concepto fundamental de matrices: arreglos rectangulares de números que son la herramienta central del álgebra lineal. Aprenderás a clasificar matrices, realizar operaciones básicas y calcular inversas, habilidades esenciales para todo el desarrollo posterior del curso.
+Este módulo introduce el concepto fundamental de matrices: arreglos rectangulares de números que son la herramienta central del [álgebra lineal](../../glossary.md#álgebra-lineal). Aprenderás a clasificar matrices, realizar operaciones básicas y calcular inversas, habilidades esenciales para todo el desarrollo posterior del curso.
 
 ## Mapa de recursos
 
@@ -43,7 +43,7 @@ Este módulo introduce el concepto fundamental de matrices: arreglos rectangular
 1. **Fase conceptual** (1h): Estudiar definiciones y notación básica
 2. **Clasificación** (1h): Identificar tipos especiales de matrices
 3. **Operaciones** (1.5h): Dominar suma, resta, producto escalar y multiplicación
-4. **Propiedades avanzadas** (1.5h): Transpuesta e inversa
+4. **Propiedades avanzadas** (1.5h): [Transpuesta](../../glossary.md#transpuesta) e inversa
 
 ## Prerequisitos
 
@@ -52,5 +52,5 @@ Este módulo introduce el concepto fundamental de matrices: arreglos rectangular
 
 ## Conexiones
 
-- **Siguiente**: [02-Determinantes](../02-Determinantes/AL-02-Determinantes-Intro.md)
-- **Aplica en**: Sistemas lineales, transformaciones lineales, valores propios
+- **Siguiente**: [02-Determinantes](../02-[Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md)
+- **Aplica en**: Sistemas lineales, [transformaciones lineales](../../glossary.md#transformaciones-lineales), valores propios

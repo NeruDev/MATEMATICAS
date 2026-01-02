@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Métodos para integral definida.
+Métodos para [integral definida](../../../glossary.md#integral-definida).
 
 IA:
 10 métodos prácticos detallados con explicaciones paso a paso.
@@ -20,7 +20,7 @@ format: step_by_step
 ## Método 1: Evaluación Directa usando TFC
 
 ### Cuándo Usar
-Para cualquier integral donde se conoce la antiderivada.
+Para cualquier integral donde se conoce la [antiderivada](../../../glossary.md#antiderivada).
 
 ### Teorema Fundamental del Cálculo
 $$\int_a^b f(x) \, dx = F(b) - F(a) = \left[F(x)\right]_a^b$$
@@ -30,8 +30,8 @@ donde $F'(x) = f(x)$
 
 | Paso | Acción | Verificación |
 |------|--------|--------------|
-| 1 | Encontrar $F(x)$ tal que $F'(x) = f(x)$ | ¿La derivada da $f(x)$? |
-| 2 | Evaluar $F(b)$ | Sustituir límite superior |
+| 1 | Encontrar $F(x)$ [tal que](../../../glossary.md#tal-que) $F'(x) = f(x)$ | ¿La [derivada](../../../glossary.md#derivada) da $f(x)$? |
+| 2 | Evaluar $F(b)$ | Sustituir [límite](../../../glossary.md#límite) superior |
 | 3 | Evaluar $F(a)$ | Sustituir límite inferior |
 | 4 | Calcular $F(b) - F(a)$ | Restar los valores |
 
@@ -58,10 +58,10 @@ $$\int_0^2 x^2 \, dx = F(2) - F(0) = \frac{8}{3} - 0 = \frac{8}{3}$$
 ## Método 2: Sustitución con Cambio de Límites
 
 ### Cuándo Usar
-Integrales definidas que requieren sustitución $u = g(x)$.
+Integrales definidas que requieren [sustitución](../../../glossary.md#sustitución) $u = g(x)$.
 
 ### Ventaja del Cambio de Límites
-Al cambiar los límites de integración, no es necesario regresar a la variable original.
+Al cambiar los [límites](../../../glossary.md#límites) de integración, no es [necesario](../../../glossary.md#necesario) regresar a la variable original.
 
 ### Algoritmo de Resolución
 
@@ -102,7 +102,7 @@ $$\int_1^2 u^3 \, du = \left[\frac{u^4}{4}\right]_1^2 = \frac{2^4}{4} - \frac{1^
 ## Método 3: Simetría para Funciones Pares
 
 ### Cuándo Usar
-- La función satisface $f(-x) = f(x)$
+- La [función](../../../glossary.md#función) satisface $f(-x) = f(x)$
 - El intervalo de integración es simétrico: $[-a, a]$
 
 ### Fórmula de Simetría Par

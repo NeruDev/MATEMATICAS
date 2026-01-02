@@ -22,7 +22,7 @@ La **velocidad promedio** entre $t = 2$ y $t = 2 + h$ segundos es:
 
 $$v_{prom} = \frac{s(2+h) - s(2)}{h}$$
 
-La **velocidad instantánea** en $t = 2$ es el límite cuando $h \to 0$:
+La **velocidad instantánea** en $t = 2$ es el [límite](../../../glossary.md#límite) cuando $h \to 0$:
 
 $$v_{inst} = \lim_{h \to 0} \frac{s(2+h) - s(2)}{h}$$
 
@@ -38,7 +38,7 @@ $$v_{inst} = \lim_{h \to 0} \frac{(8 + 6h + h^2) - 8}{h} = \lim_{h \to 0} \frac{
 
 ## Conexión con el tema
 
-Este ejemplo muestra cómo los límites permiten calcular tasas de cambio instantáneas, que es la base del concepto de derivada.
+Este ejemplo muestra cómo los [límites](../../../glossary.md#límites) permiten calcular tasas de cambio instantáneas, que es la [base](../../../glossary.md#base) del concepto de [derivada](../../../glossary.md#derivada).
 
 ---
 

@@ -22,7 +22,7 @@ methods: ["leyes de exponentes", "simplificación algebraica"]
 Las leyes que aplicaremos son:
 - **Potencia de una potencia:** $(x^m)^n = x^{m \cdot n}$
 - **Potencia de un producto:** $(xy)^n = x^n \cdot y^n$
-- **Producto de potencias con la misma base:** $x^m \cdot x^n = x^{m+n}$
+- **Producto de potencias con la misma [base](../../../../glossary.md#base):** $x^m \cdot x^n = x^{m+n}$
 
 ### Paso 2: Aplicar la potencia de un producto a cada factor
 

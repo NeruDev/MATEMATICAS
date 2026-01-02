@@ -12,7 +12,7 @@ status: active
 
 ### Definición Formal
 
-Un **espacio vectorial** $V$ sobre un campo $\mathbb{F}$ (usualmente $\mathbb{R}$ o $\mathbb{C}$) es un conjunto no vacío con dos operaciones:
+Un **[espacio vectorial](../../../glossary.md#espacio-vectorial)** $V$ sobre un campo $\mathbb{F}$ (usualmente $\mathbb{R}$ o $\mathbb{C}$) es un conjunto no vacío con dos operaciones:
 
 1. **Suma vectorial:** $+: V \times V \to V$
 2. **Multiplicación escalar:** $\cdot: \mathbb{F} \times V \to V$
@@ -37,7 +37,7 @@ que satisfacen los siguientes **axiomas** para todo $u, v, w \in V$ y $a, b \in 
 | M2 | Asociatividad | $a(bv) = (ab)v$ |
 | M3 | Identidad | $1 \cdot v = v$ |
 | M4 | Distributividad (escalar) | $a(u + v) = au + av$ |
-| M5 | Distributividad (vector) | $(a + b)v = av + bv$ |
+| M5 | Distributividad ([vector](../../../glossary.md#vector)) | $(a + b)v = av + bv$ |
 
 ### Ejemplos Fundamentales
 
@@ -73,7 +73,7 @@ Funciones continuas en $[a,b]$ con suma y multiplicación escalar puntuales.
 
 ### Definición
 
-Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ es **subespacio vectorial** si $W$ es también un espacio vectorial con las mismas operaciones.
+Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ es **[subespacio](../../../glossary.md#subespacio) vectorial** si $W$ es también un espacio vectorial con las mismas operaciones.
 
 ### Criterio del Subespacio (Forma Práctica)
 
@@ -89,7 +89,7 @@ Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ 
 **En $\mathbb{R}^3$:**
 - Rectas por el origen: $W = \{t\mathbf{v} : t \in \mathbb{R}\}$
 - Planos por el origen: $W = \{s\mathbf{u} + t\mathbf{v} : s, t \in \mathbb{R}\}$
-- $\{\mathbf{0}\}$ (subespacio trivial)
+- $\{\mathbf{0}\}$ (subespacio [trivial](../../../glossary.md#trivial))
 - $\mathbb{R}^3$ mismo
 
 **No son subespacios:**
@@ -119,7 +119,7 @@ $$\text{Row}(A) = \text{span}\{\text{filas de } A\}$$
 
 ### Combinación Lineal
 
-Una **combinación lineal** de vectores $v_1, v_2, ..., v_k$ es:
+Una **[combinación lineal](../../../glossary.md#combinación-lineal)** de vectores $v_1, v_2, ..., v_k$ es:
 $$c_1v_1 + c_2v_2 + ... + c_kv_k$$
 donde $c_i \in \mathbb{F}$ son escalares.
 
@@ -178,7 +178,7 @@ $$c_1v_1 + c_2v_2 + ... + c_kv_k = \mathbf{0}$$
 ### Determinación de Independencia
 
 Para vectores en $\mathbb{R}^n$:
-1. Formar la matriz con vectores como columnas
+1. Formar la [matriz](../../../glossary.md#matriz) con vectores como columnas
 2. Reducir a forma escalonada
 3. Son LI si cada columna tiene pivote
 
@@ -188,7 +188,7 @@ Para vectores en $\mathbb{R}^n$:
 
 ### Definición de Base
 
-Una **base** de un espacio vectorial $V$ es un conjunto $\mathcal{B} = \{v_1, ..., v_n\}$ que:
+Una **[base](../../../glossary.md#base)** de un espacio vectorial $V$ es un conjunto $\mathcal{B} = \{v_1, ..., v_n\}$ que:
 1. Es **linealmente independiente**
 2. **Genera** a $V$
 
@@ -206,7 +206,7 @@ Una **base** de un espacio vectorial $V$ es un conjunto $\mathcal{B} = \{v_1, ..
 
 ### Dimensión
 
-> **Teorema de la Dimensión:** Todas las bases de un espacio vectorial finito-dimensional tienen el mismo número de elementos.
+> **Teorema de la [Dimensión](../../../glossary.md#dimensión):** Todas las bases de un espacio vectorial finito-dimensional tienen el mismo número de elementos.
 
 La **dimensión** de $V$ es el número de vectores en cualquier base:
 $$\dim(V) = n$$

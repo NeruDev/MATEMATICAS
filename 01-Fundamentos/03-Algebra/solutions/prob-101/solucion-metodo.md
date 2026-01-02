@@ -29,7 +29,7 @@ $$x + 5 \geq 0 \quad \Rightarrow \quad x \geq -5$$
 
 $$x \geq 0$$
 
-**Dominio válido:** $x \geq 0$
+**[Dominio](../../../../glossary.md#dominio) válido:** $x \geq 0$
 
 ### Paso 2: Aislar un radical
 
@@ -186,7 +186,7 @@ $$g(x) = 5$$
 
 - **Dominio:** $x \geq 0$
 - **En $x = 0$:** $f(0) = \sqrt{5} + 0 = \sqrt{5} \approx 2.24$
-- **Función creciente:** la suma de dos funciones crecientes
+- **[Función](../../../../glossary.md#función) creciente:** la suma de dos funciones crecientes
 - **En $x = 4$:** $f(4) = 3 + 2 = 5$
 
 ### Gráfica

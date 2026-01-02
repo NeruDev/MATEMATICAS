@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: cd-02-derivadas
+topic_id: cd-02-[derivadas](../../../glossary.md#derivadas)
 file_id: CD-02-Respuestas
 status: stable
 audience: student

@@ -70,7 +70,7 @@ Para un triángulo con vértices $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$:
 
 $$A = \frac{1}{2}\left|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\right|$$
 
-**Forma de determinante:**
+**Forma de [determinante](../../../glossary.md#determinante):**
 $$A = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix}\right|$$
 
 ---
@@ -449,6 +449,6 @@ $$x' = kx, \quad y' = ky$$
 ---
 
 <!--
-IA: Teoría completa de geometría analítica para nivel fundamentos.
+IA: Teoría completa de geometría analítica para nivel [fundamentos](../../../glossary.md#fundamentos).
 file_id: FUN-06-Teoria-Geometria-Analitica
 -->

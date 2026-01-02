@@ -22,7 +22,7 @@ $$\lim_{x \to \infty} \frac{3x + 2}{x - 1} = \lim_{x \to \infty} \frac{\frac{3x}
 **Paso 3: Simplificar**
 $$= \lim_{x \to \infty} \frac{3 + \frac{2}{x}}{1 - \frac{1}{x}}$$
 
-**Paso 4: Evaluar el límite**
+**Paso 4: Evaluar el [límite](../../../../glossary.md#límite)**
 Cuando $x \to \infty$: $\frac{2}{x} \to 0$ y $\frac{1}{x} \to 0$
 
 $$= \frac{3 + 0}{1 - 0} = \frac{3}{1} = 3$$

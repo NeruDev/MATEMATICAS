@@ -20,17 +20,17 @@ $$\lim_{x \to 5} \frac{x^2 - 25}{x - 5}$$
 
 ### Desarrollo paso a paso
 
-**Paso 1: Verificar si hay forma indeterminada**
+**Paso 1: Verificar si hay [forma indeterminada](../../../../glossary.md#forma-indeterminada)**
 
-Intentamos sustitución directa:
+Intentamos [sustitución](../../../../glossary.md#sustitución) directa:
 $$f(5) = \frac{5^2 - 25}{5 - 5} = \frac{25 - 25}{0} = \frac{0}{0}$$
 
 Obtenemos la forma indeterminada $\frac{0}{0}$, lo que nos indica que:
-- El límite **podría** existir (no está determinado aún)
+- El [límite](../../../../glossary.md#límite) **podría** existir (no está determinado aún)
 - Necesitamos técnicas algebraicas para resolverlo
 - Hay un factor común que se anula en ambos
 
-**Paso 2: Factorización del numerador**
+**Paso 2: [Factorización](../../../../glossary.md#factorización) del numerador**
 
 El numerador $x^2 - 25$ es una diferencia de cuadrados:
 $$x^2 - 25 = x^2 - 5^2 = (x - 5)(x + 5)$$
@@ -65,8 +65,8 @@ Los valores se aproximan a 10 desde ambos lados. ✓
 
 ### Método gráfico
 
-La función $f(x) = \frac{x^2-25}{x-5}$ tiene:
-- Un "hueco" en $x = 5$ (discontinuidad removible)
+La [función](../../../../glossary.md#función) $f(x) = \frac{x^2-25}{x-5}$ tiene:
+- Un "hueco" en $x = 5$ ([discontinuidad removible](../../../../glossary.md#discontinuidad-removible))
 - La gráfica es la recta $y = x + 5$ con un hueco en $(5, 10)$
 
 ### Comparación de métodos

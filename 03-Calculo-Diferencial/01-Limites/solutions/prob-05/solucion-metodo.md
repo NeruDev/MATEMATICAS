@@ -16,7 +16,7 @@ audience: student
 **Paso 1: Recordar la definición de valor absoluto**
 $$|x| = \begin{cases} x & \text{si } x \geq 0 \\ -x & \text{si } x < 0 \end{cases}$$
 
-**Paso 2: Límite por la derecha ($x \to 0^+$)**
+**Paso 2: [Límite](../../../../glossary.md#límite) por la derecha ($x \to 0^+$)**
 Cuando $x > 0$: $|x| = x$
 
 $$\lim_{x \to 0^+} \frac{|x|}{x} = \lim_{x \to 0^+} \frac{x}{x} = \lim_{x \to 0^+} 1 = 1$$

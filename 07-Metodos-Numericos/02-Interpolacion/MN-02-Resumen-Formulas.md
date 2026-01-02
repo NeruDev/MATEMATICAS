@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - Interpolación
+title: Resumen de Fórmulas - [Interpolación](../../glossary.md#interpolación)
 type: cheatsheet
 topic: interpolacion
 tags: [métodos-numéricos, interpolación, fórmulas, cheatsheet]
@@ -31,7 +31,7 @@ $$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0) + f[x_0,x_1,x_2](x-x_0)(x-x_1) + \cdots$$
 
 ### Diferencias Divididas
 
-**Orden 0:**
+**[Orden](../../glossary.md#orden) 0:**
 $$f[x_i] = f(x_i) = y_i$$
 
 **Orden 1:**
@@ -71,8 +71,8 @@ $$S_i(x) = a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3$$
 
 ### Condiciones de Continuidad
 1. $S_i(x_i) = y_i$ (pasa por los puntos)
-2. $S_i(x_{i+1}) = S_{i+1}(x_{i+1})$ (continuidad)
-3. $S'_i(x_{i+1}) = S'_{i+1}(x_{i+1})$ (derivada primera continua)
+2. $S_i(x_{i+1}) = S_{i+1}(x_{i+1})$ ([continuidad](../../glossary.md#continuidad))
+3. $S'_i(x_{i+1}) = S'_{i+1}(x_{i+1})$ ([derivada](../../glossary.md#derivada) primera continua)
 4. $S''_i(x_{i+1}) = S''_{i+1}(x_{i+1})$ (derivada segunda continua)
 
 ### Spline Natural (Condiciones de Frontera)
@@ -105,7 +105,7 @@ donde $M_{n+1} = \max|f^{(n+1)}(x)|$.
 |--------|----------|-------------|
 | Lagrange | Fórmula directa, conceptualmente simple | Recalcular todo al añadir puntos |
 | Newton | Fácil añadir puntos | Más cálculos iniciales |
-| Splines | Evita oscilaciones, derivadas continuas | Sistema de ecuaciones más grande |
+| Splines | Evita oscilaciones, [derivadas](../../glossary.md#derivadas) continuas | Sistema de ecuaciones más grande |
 
 ---
 
@@ -115,4 +115,4 @@ donde $M_{n+1} = \max|f^{(n+1)}(x)|$.
 $$\binom{s}{k} = \frac{s(s-1)(s-2)\cdots(s-k+1)}{k!}$$
 
 ### Unicidad del Polinomio
-Para $n+1$ puntos con $x_i$ distintos, existe un **único** polinomio de grado $\leq n$ que pasa por todos ellos.
+Para $n+1$ puntos con $x_i$ distintos, existe un **único** [polinomio](../../glossary.md#polinomio) de grado $\leq n$ que pasa por todos ellos.

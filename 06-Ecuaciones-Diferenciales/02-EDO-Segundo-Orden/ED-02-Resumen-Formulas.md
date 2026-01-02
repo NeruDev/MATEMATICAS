@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: ed-02-edo-segundo-orden
+topic_id: ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden)
 file_id: ED-02-Resumen-Formulas
 status: stable
 audience: exam_review
@@ -26,7 +26,7 @@ $$ar^2 + br + c = 0 \quad \Rightarrow \quad r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2
 
 ### Solución según discriminante
 
-| Discriminante | Raíces | Solución general |
+| Discriminante | Raíces | [Solución general](../../glossary.md#solución-general) |
 |---------------|--------|------------------|
 | $\Delta > 0$ | $r_1, r_2$ reales distintas | $y = C_1 e^{r_1 x} + C_2 e^{r_2 x}$ |
 | $\Delta = 0$ | $r$ real repetida | $y = (C_1 + C_2 x)e^{rx}$ |
@@ -46,7 +46,7 @@ $$ay'' + by' + cy = g(x)$$
 
 | $g(x)$ | Propuesta $y_p$ |
 |--------|-----------------|
-| $P_n(x)$ (polinomio grado $n$) | $x^s(A_n x^n + \cdots + A_1 x + A_0)$ |
+| $P_n(x)$ ([polinomio](../../glossary.md#polinomio) grado $n$) | $x^s(A_n x^n + \cdots + A_1 x + A_0)$ |
 | $e^{\alpha x}$ | $x^s A e^{\alpha x}$ |
 | $\cos\beta x$ o $\sin\beta x$ | $x^s(A\cos\beta x + B\sin\beta x)$ |
 | $e^{\alpha x}\cos\beta x$ | $x^s e^{\alpha x}(A\cos\beta x + B\sin\beta x)$ |
@@ -60,10 +60,10 @@ $$ay'' + by' + cy = g(x)$$
 
 Para $y'' + P(x)y' + Q(x)y = g(x)$, con solución homogénea $y_h = C_1 y_1 + C_2 y_2$:
 
-**Solución particular:**
+**[Solución particular](../../glossary.md#solución-particular):**
 $$y_p = u_1(x) y_1(x) + u_2(x) y_2(x)$$
 
-**Wronskiano:**
+**[Wronskiano](../../glossary.md#wronskiano):**
 $$W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} = y_1 y_2' - y_2 y_1'$$
 
 **Fórmulas:**
@@ -75,7 +75,7 @@ $$u_1 = -\int \frac{y_2 \cdot g(x)}{W}\,dx, \quad u_2 = \int \frac{y_1 \cdot g(x
 
 $$ax^2 y'' + bxy' + cy = 0$$
 
-**Sustitución:** $y = x^m$ o $x = e^t$
+**[Sustitución](../../glossary.md#sustitución):** $y = x^m$ o $x = e^t$
 
 **Ecuación auxiliar:**
 $$am(m-1) + bm + c = 0 \quad \Rightarrow \quad am^2 + (b-a)m + c = 0$$

@@ -65,7 +65,7 @@ $$\mathcal{L}\{t\sin 2t\} = \frac{4s}{(s^2+4)^2}$$
 ## Problema 8b
 $F(s) = \frac{s+3}{(s-1)(s+2)}$
 
-Fracciones parciales:
+[Fracciones parciales](../../../glossary.md#fracciones-parciales):
 $\frac{s+3}{(s-1)(s+2)} = \frac{A}{s-1} + \frac{B}{s+2}$
 
 $s+3 = A(s+2) + B(s-1)$

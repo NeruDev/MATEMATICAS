@@ -54,7 +54,7 @@ $$\int u\,dv = uv - \int v\,du$$
 
 ## 4. Sustitución trigonométrica
 
-| Expresión | Sustitución | Identidad usada |
+| Expresión | [Sustitución](../../glossary.md#sustitución) | Identidad usada |
 |-----------|-------------|-----------------|
 | $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ | $1 - \sin^2\theta = \cos^2\theta$ |
 | $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ | $1 + \tan^2\theta = \sec^2\theta$ |
@@ -104,7 +104,7 @@ $$ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 + c - \frac{b^2}{4a}$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para técnicas de integración.
+IA: Hoja de referencia rápida para [técnicas de integración](../../glossary.md#técnicas-de-integración).
 Para desarrollo completo: theory/CI-02-Teoria-Tecnicas.md
 file_id: CI-02-Resumen-Formulas
 -->

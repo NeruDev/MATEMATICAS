@@ -5,14 +5,14 @@ topic_id: ed-05-series-potencias
 file_id: ED-05-Series-Potencias-Intro
 status: stable
 audience: student
-requires: [ed-02-edo-segundo-orden, cd-series-taylor]
+requires: [ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden), cd-series-taylor]
 -->
 
 # Solución de EDO mediante Series de Potencias
 
 ## Propósito del tema
 
-Resolver ecuaciones diferenciales mediante series de potencias cuando los métodos algebraicos no son aplicables, incluyendo ecuaciones especiales de la física matemática.
+Resolver [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) mediante series de potencias cuando los métodos algebraicos no son aplicables, incluyendo ecuaciones especiales de la física matemática.
 
 ## Mapa de recursos
 
@@ -31,7 +31,7 @@ solutions/
 
 ## Ruta de aprendizaje
 
-1. **Repaso de series**: convergencia, radio de convergencia
+1. **Repaso de series**: [convergencia](../../glossary.md#convergencia), radio de convergencia
 2. **Puntos ordinarios**: método de series en $x_0$
 3. **Puntos singulares**: clasificación (regular vs irregular)
 4. **Método de Frobenius**: ecuación indicial, soluciones
@@ -40,7 +40,7 @@ solutions/
 ## Conexiones
 
 - **Prerequisitos**: EDO de segundo orden, Series de Taylor
-- **Usos posteriores**: Física matemática, Funciones especiales, EDP
+- **Usos posteriores**: Física matemática, Funciones especiales, [EDP](../../glossary.md#edp)
 
 ## Vista previa de conceptos clave
 

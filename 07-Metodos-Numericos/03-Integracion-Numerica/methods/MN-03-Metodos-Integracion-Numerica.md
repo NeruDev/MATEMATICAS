@@ -6,13 +6,13 @@ status: active
 
 # Métodos: Integración Numérica
 
-> **Referencia rápida:** Esta guía presenta 12 métodos de integración numérica (cuadratura) con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integración-numérica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
 ## Índice de Métodos
 
-| # | Método | Orden de Error | Complejidad |
+| # | Método | [Orden](../../../glossary.md#orden) de Error | Complejidad |
 |---|--------|----------------|-------------|
 | 1 | [Trapecio Simple](#método-1-regla-del-trapecio-simple) | $O(h^3)$ | ⭐ |
 | 2 | [Trapecio Compuesto](#método-2-trapecio-compuesto) | $O(h^2)$ | ⭐ |
@@ -21,7 +21,7 @@ status: active
 | 5 | [Simpson 3/8](#método-5-simpson-38) | $O(h^5)$ | ⭐⭐ |
 | 6 | [Romberg](#método-6-integración-de-romberg) | $O(h^{2k})$ | ⭐⭐⭐ |
 | 7 | [Gauss-Legendre](#método-7-cuadratura-de-gauss-legendre) | Exacto grado $2n-1$ | ⭐⭐⭐ |
-| 8 | [Gauss-Laguerre](#método-8-gauss-laguerre) | Integrales impropias | ⭐⭐⭐ |
+| 8 | [Gauss-Laguerre](#método-8-gauss-laguerre) | [Integrales impropias](../../../glossary.md#integrales-impropias) | ⭐⭐⭐ |
 | 9 | [Gauss-Hermite](#método-9-gauss-hermite) | Integrales $(-\infty, \infty)$ | ⭐⭐⭐ |
 | 10 | [Cuadratura Adaptativa](#método-10-cuadratura-adaptativa) | Variable | ⭐⭐⭐⭐ |
 | 11 | [Monte Carlo](#método-11-monte-carlo) | $O(1/\sqrt{n})$ | ⭐⭐ |
@@ -39,7 +39,7 @@ $$\int_a^b f(x)\,dx \approx \sum_{i=0}^{n} w_i f(x_i)$$
 
 ### Fórmulas de Newton-Cotes
 
-Basadas en interpolación polinomial con **nodos equiespaciados**.
+Basadas en [interpolación](../../../glossary.md#interpolación) polinomial con **nodos equiespaciados**.
 
 ### Cuadratura de Gauss
 
@@ -117,7 +117,7 @@ $$\boxed{I \approx 1.8591}$$
 
 - Mejor precisión que trapecio simple
 - Datos tabulados equiespaciados
-- Base para Romberg
+- [Base](../../../glossary.md#base) para Romberg
 
 ### Fórmula
 
@@ -355,7 +355,7 @@ Valor exacto: $e^3 - 1 = 19.086$
 ### Cuándo Usar
 
 - Alta precisión requerida
-- Función suave
+- [Función](../../../glossary.md#función) suave
 - Costo computacional aceptable
 
 ### Idea
@@ -629,7 +629,7 @@ $$\int_{-\infty}^{\infty} e^{-x^2} g(x)\,dx \approx \sum_{i=1}^{n} w_i g(x_i)$$
 1. Aplicar regla a todo $[a, b]$
 2. Dividir y aplicar a cada mitad
 3. Si diferencia > tolerancia, subdividir más
-4. Recursivamente hasta convergencia
+4. Recursivamente hasta [convergencia](../../../glossary.md#convergencia)
 
 ### Pseudocódigo
 
@@ -658,7 +658,7 @@ Concentra el esfuerzo donde la función es más difícil de integrar.
 
 - Dimensiones altas (integrales múltiples)
 - Dominios irregulares
-- Estimación probabilística suficiente
+- Estimación probabilística [suficiente](../../../glossary.md#suficiente)
 
 ### Fórmula Básica
 

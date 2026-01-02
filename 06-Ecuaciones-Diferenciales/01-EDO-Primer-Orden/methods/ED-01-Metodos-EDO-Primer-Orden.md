@@ -6,7 +6,7 @@ status: active
 
 # Métodos: EDO de Primer Orden
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver ecuaciones diferenciales ordinarias de primer orden.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias de primer [orden](../../../glossary.md#orden).
 
 ---
 
@@ -20,7 +20,7 @@ status: active
 | 4 | [Factor Integrante](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ | ⭐⭐⭐ |
 | 5 | [Bernoulli](#método-5-resolver-ecuación-de-bernoulli) | $y' + P(x)y = Q(x)y^n$ | ⭐⭐⭐ |
 | 6 | [Homogénea](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
-| 7 | [Reducción a Separable](#método-7-sustitución-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
+| 7 | [Reducción a Separable](#método-7-[sustitución](../../../glossary.md#sustitución)-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
 | 8 | [Ricatti](#método-8-ecuación-de-ricatti) | $y' = P(x) + Q(x)y + R(x)y^2$ | ⭐⭐⭐⭐ |
 | 9 | [Identificación de Tipo](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
 | 10 | [Resolver PVI](#método-10-resolver-problema-de-valor-inicial) | Con condición inicial | ⭐ |
@@ -78,7 +78,7 @@ $$1 + \frac{1}{3} = C \implies C = \frac{4}{3}$$
 
 ---
 
-**Paso 4: Escribir solución particular**
+**Paso 4: Escribir [solución particular](../../../glossary.md#solución-particular)**
 
 $$y + \frac{y^3}{3} = \frac{x^3}{3} + \frac{4}{3}$$
 
@@ -101,7 +101,7 @@ $$\boxed{3y + y^3 = x^3 + 4}$$
 
 ### Fórmula
 
-**Factor integrante:** $\mu(x) = e^{\int P(x)\,dx}$
+**[Factor integrante](../../../glossary.md#factor-integrante):** $\mu(x) = e^{\int P(x)\,dx}$
 
 **Solución:**
 $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
@@ -148,7 +148,7 @@ $$\frac{1}{x^2}y' - \frac{2}{x^3}y = x$$
 
 ---
 
-**Paso 5: Reconocer derivada**
+**Paso 5: Reconocer [derivada](../../../glossary.md#derivada)**
 
 $$\frac{d}{dx}\left(\frac{y}{x^2}\right) = x$$
 
@@ -183,7 +183,7 @@ $xy' - 2y = x(2x^3 + 2Cx) - 2\left(\frac{x^4}{2} + Cx^2\right) = 2x^4 + 2Cx^2 - 
 
 ### Fórmula
 
-Si es exacta, existe $F(x,y)$ tal que:
+Si es exacta, existe $F(x,y)$ [tal que](../../../glossary.md#tal-que):
 $$\frac{\partial F}{\partial x} = M, \quad \frac{\partial F}{\partial y} = N$$
 
 **Solución:** $F(x,y) = C$
@@ -288,7 +288,7 @@ $$\mu(y) = e^{\int \frac{N_x - M_y}{M}dy}$$
 
 ---
 
-**Paso 1: Calcular derivadas parciales**
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas) parciales**
 
 $$M = xy + 1, \quad N = x^2 + 4xy - 2x$$
 
@@ -432,7 +432,7 @@ $$\boxed{y = \pm\sqrt{\frac{x^2}{2x + C}} = \pm\frac{x}{\sqrt{2x + C}}}$$
 
 ### Cuándo Usar
 
-- La función $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
+- La [función](../../../glossary.md#función) $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
 - Equivalente: $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$
 
 ### Fórmula
@@ -736,7 +736,7 @@ $$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
 
 ### Cuándo Usar
 
-- Se tiene EDO junto con condición inicial $y(x_0) = y_0$
+- Se tiene [EDO](../../../glossary.md#edo) junto con condición inicial $y(x_0) = y_0$
 - Se busca solución particular única
 
 ### Algoritmo de Resolución

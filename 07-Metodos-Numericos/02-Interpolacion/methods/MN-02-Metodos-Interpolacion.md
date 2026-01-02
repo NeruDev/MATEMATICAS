@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Interpolación
 
-> **Referencia rápida:** Esta guía presenta 10 métodos de interpolación numérica con algoritmos detallados, ejemplos completos y análisis de error.
+> **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../../glossary.md#interpolación) numérica con algoritmos detallados, ejemplos completos y análisis de error.
 
 ---
 
@@ -18,7 +18,7 @@ status: active
 | 2 | [Diferencias Divididas](#método-2-diferencias-divididas-de-newton) | General, agregar puntos | ⭐⭐ |
 | 3 | [Newton Progresivo](#método-3-newton-progresivo) | Datos equiespaciados | ⭐⭐ |
 | 4 | [Newton Regresivo](#método-4-newton-regresivo) | Extrapolación final | ⭐⭐ |
-| 5 | [Hermite](#método-5-interpolación-de-hermite) | Con derivadas | ⭐⭐⭐ |
+| 5 | [Hermite](#método-5-interpolación-de-hermite) | Con [derivadas](../../../glossary.md#derivadas) | ⭐⭐⭐ |
 | 6 | [Splines Cúbicos](#método-6-splines-cúbicos-naturales) | Curvas suaves | ⭐⭐⭐ |
 | 7 | [Splines Sujetos](#método-7-splines-cúbicos-sujetos) | Derivadas en extremos | ⭐⭐⭐ |
 | 8 | [Neville](#método-8-algoritmo-de-neville) | Evaluación directa | ⭐⭐ |
@@ -31,7 +31,7 @@ status: active
 
 ### Teorema de Existencia y Unicidad
 
-Dados $n+1$ puntos $(x_0, y_0), \ldots, (x_n, y_n)$ con $x_i$ distintos, existe un **único** polinomio $P(x)$ de grado $\leq n$ tal que $P(x_i) = y_i$.
+Dados $n+1$ puntos $(x_0, y_0), \ldots, (x_n, y_n)$ con $x_i$ distintos, existe un **único** [polinomio](../../../glossary.md#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../../glossary.md#tal-que) $P(x_i) = y_i$.
 
 ### Error de Interpolación
 
@@ -59,7 +59,7 @@ Interpolación con muchos puntos equiespaciados puede **oscilar** en los extremo
 
 $$P_n(x) = \sum_{i=0}^{n} y_i L_i(x)$$
 
-donde los **polinomios base de Lagrange** son:
+donde los **polinomios [base](../../../glossary.md#base) de Lagrange** son:
 
 $$L_i(x) = \prod_{j=0, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}$$
 
@@ -149,7 +149,7 @@ $$\boxed{P(2) = \frac{5}{3} \approx 1.667}$$
 
 ### Fórmulas
 
-**Diferencias divididas:**
+**[Diferencias divididas](../../../glossary.md#diferencias-divididas):**
 
 $$f[x_i] = y_i$$
 
@@ -429,7 +429,7 @@ $z: 0, 0, 1, 1$
 
 **Cálculos:**
 
-- $f[z_0, z_1] = f'(0) = 1$ (derivada dada)
+- $f[z_0, z_1] = f'(0) = 1$ ([derivada](../../../glossary.md#derivada) dada)
 - $f[z_1, z_2] = \frac{1-0}{1-0} = 1$
 - $f[z_2, z_3] = f'(1) = 0$ (derivada dada)
 - $f[z_0, z_1, z_2] = \frac{1-1}{1-0} = 0$
@@ -505,7 +505,7 @@ $$d_i = \frac{c_{i+1} - c_i}{3h_i}$$
 
 ### Ejemplo Detallado
 
-**Problema:** Spline cúbico natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
+**Problema:** [Spline cúbico](../../../glossary.md#spline-cúbico) natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
@@ -650,7 +650,7 @@ $$\boxed{P(1.5) = 2.875}$$
 ### Cuándo Usar
 
 - Evaluación eficiente en múltiples puntos
-- Estabilidad numérica mejorada
+- [Estabilidad numérica](../../../glossary.md#estabilidad-numérica) mejorada
 
 ### Fórmulas
 
@@ -736,7 +736,7 @@ Newton  Neville    Trigono-  ¿Necesitas
 
 | Error | Consecuencia | Prevención |
 |-------|--------------|------------|
-| Muchos puntos equiespaciados | Fenómeno de Runge | Usar Chebyshev o splines |
+| Muchos puntos equiespaciados | [Fenómeno de Runge](../../../glossary.md#fenómeno-de-runge) | Usar Chebyshev o splines |
 | División por cero | Programa falla | Verificar $x_i$ distintos |
 | Extrapolación excesiva | Error grande | Limitar rango |
 | Splines en datos ruidosos | Ajuste excesivo | Usar mínimos cuadrados |

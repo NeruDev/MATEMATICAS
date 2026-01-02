@@ -22,7 +22,7 @@ expected_output:
 **Verificar Rolle para $f(x) = x^2 - 4x + 3$ en $[1, 3]$.**
 
 **Verificación de hipótesis:**
-- $f$ es polinomio → continua en $[1, 3]$ ✓
+- $f$ es [polinomio](../../../glossary.md#polinomio) → continua en $[1, 3]$ ✓
 - $f$ es polinomio → diferenciable en $(1, 3)$ ✓
 - $f(1) = 1 - 4 + 3 = 0$, $f(3) = 9 - 12 + 3 = 0$ → $f(1) = f(3)$ ✓
 
@@ -60,7 +60,7 @@ $f$ es estrictamente creciente, por lo que puede cruzar el eje $x$ a lo sumo una
 
 Por el TVM aplicado a $f(x) = \cos x$ en $[a, b]$ (o $[b, a]$):
 
-Existe $c$ entre $a$ y $b$ tal que:
+Existe $c$ entre $a$ y $b$ [tal que](../../../glossary.md#tal-que):
 $$\frac{\cos b - \cos a}{b - a} = f'(c) = -\sin c$$
 
 Por tanto:

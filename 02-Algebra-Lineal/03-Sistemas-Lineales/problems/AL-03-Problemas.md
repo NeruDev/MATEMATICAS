@@ -154,7 +154,7 @@ Hallar el rango de $A = \begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 3 \\ 2 & 1 & 7 \end
 
 ### [Prob-16] Rango paramétrico ⭐⭐
 
-¿Para qué valores de $k$ el rango es menor que 3?
+¿Para qué valores de $k$ el rango es [menor](../../../glossary.md#menor) que 3?
 $$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & k & 2 \\ 1 & 1 & 1 \end{pmatrix}$$
 
 > 📂 Solución: [solutions/prob-16/](../solutions/prob-16/)
@@ -182,7 +182,7 @@ $$\begin{cases} x + 2y + 3z = 0 \\ 2x + 4y + 6z = 0 \end{cases}$$
 
 ### [Prob-19] Base del espacio nulo ⭐⭐
 
-Hallar una base para el espacio nulo de $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 & 3 \end{pmatrix}$.
+Hallar una [base](../../../glossary.md#base) para el espacio nulo de $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 & 3 \end{pmatrix}$.
 
 > 📂 Solución: [solutions/prob-19/](../solutions/prob-19/)
 
@@ -190,7 +190,7 @@ Hallar una base para el espacio nulo de $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 
 
 ### [Prob-20] Condición para solución no trivial ⭐⭐
 
-¿Para qué valores de $k$ el sistema homogéneo tiene solución no trivial?
+¿Para qué valores de $k$ el sistema homogéneo tiene solución no [trivial](../../../glossary.md#trivial)?
 $$\begin{cases} x + y + kz = 0 \\ x + ky + z = 0 \\ kx + y + z = 0 \end{cases}$$
 
 > 📂 Solución: [solutions/prob-20/](../solutions/prob-20/)
@@ -210,7 +210,7 @@ $$\begin{cases} x + y = 5 \\ x - y = 1 \end{cases}$$
 
 ### [Prob-22] Interpolación parabólica ⭐⭐⭐
 
-Encontrar $a$, $b$, $c$ tal que la parábola $y = ax^2 + bx + c$ pase por $(1, 2)$, $(2, 3)$ y $(3, 6)$.
+Encontrar $a$, $b$, $c$ [tal que](../../../glossary.md#tal-que) la parábola $y = ax^2 + bx + c$ pase por $(1, 2)$, $(2, 3)$ y $(3, 6)$.
 
 > 📂 Solución: [solutions/prob-22/](../solutions/prob-22/)
 
@@ -218,6 +218,6 @@ Encontrar $a$, $b$, $c$ tal que la parábola $y = ax^2 + bx + c$ pase por $(1, 2
 
 ### [Prob-23] Polinomio interpolador ⭐⭐⭐
 
-Hallar el polinomio de grado 2 que interpola los puntos $(-1, 4)$, $(0, 1)$, $(2, 7)$.
+Hallar el [polinomio](../../../glossary.md#polinomio) de grado 2 que interpola los puntos $(-1, 4)$, $(0, 1)$, $(2, 7)$.
 
 > 📂 Solución: [solutions/prob-23/](../solutions/prob-23/)

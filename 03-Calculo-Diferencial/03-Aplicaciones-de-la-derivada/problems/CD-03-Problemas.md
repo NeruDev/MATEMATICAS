@@ -1,7 +1,7 @@
 <!--
 ---
 content_type: problem_set
-topic_id: cd-03-aplicaciones-derivada
+topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
 file_id: CD-03-Problemas
 title: Problemas de Aplicaciones de la Derivada
 description: Colección de problemas sobre rectas tangentes, razones relacionadas, extremos, optimización, aproximaciones y análisis de funciones
@@ -18,7 +18,7 @@ total_problems: 48
 ## 3.1 Recta Tangente y Normal
 
 ### [Prob-01] Tangente a polinomio cúbico ⭐
-Encuentra la ecuación de la recta tangente a $y = x^3 - 2x$ en $x = 1$.
+Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $y = x^3 - 2x$ en $x = 1$.
 
 📁 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -62,7 +62,7 @@ Un globo esférico se infla de modo que su volumen aumenta a razón de 8 cm³/s.
 ---
 
 ### [Prob-07] Escalera deslizante ⭐⭐
-Una escalera de 5 m está apoyada contra una pared. Si la base se desliza alejándose de la pared a 0.5 m/s, ¿qué tan rápido desciende la parte superior cuando la base está a 3 m de la pared?
+Una escalera de 5 m está apoyada contra una pared. Si la [base](../../../glossary.md#base) se desliza alejándose de la pared a 0.5 m/s, ¿qué tan rápido desciende la parte superior cuando la base está a 3 m de la pared?
 
 📁 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
 
@@ -159,7 +159,7 @@ Analiza $f(x) = \frac{x^2}{x-1}$ para crecimiento y extremos.
 ## 3.5 Criterio de la Segunda Derivada
 
 ### [Prob-20] Concavidad de cúbica ⭐
-Determina la concavidad de $f(x) = x^3 - 3x$.
+Determina la [concavidad](../../../glossary.md#concavidad) de $f(x) = x^3 - 3x$.
 
 📁 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
 

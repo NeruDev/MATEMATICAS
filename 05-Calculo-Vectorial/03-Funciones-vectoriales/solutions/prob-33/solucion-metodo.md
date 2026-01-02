@@ -17,7 +17,7 @@ Para $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$, encuentra los vectores
 
 ## Conceptos clave
 
-| Vector | Fórmula |
+| [Vector](../../../../glossary.md#vector) | Fórmula |
 |--------|---------|
 | **Tangente** | $\mathbf{T} = \frac{\mathbf{r}'}{\lVert \mathbf{r}' \rVert}$ |
 | **Normal** | $\mathbf{N} = \frac{\mathbf{T}'}{\lVert \mathbf{T}' \rVert}$ |

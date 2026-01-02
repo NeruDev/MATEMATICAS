@@ -124,7 +124,7 @@ Demuestra que los puntos $A(1, -1)$, $B(5, 3)$ y $C(-3, -5)$ son colineales.
 ---
 
 ### [Prob-13] Área de triángulo por determinante ⭐⭐⭐
-Calcula el área del triángulo con vértices $A(2, 3)$, $B(6, -1)$ y $C(-2, -3)$ usando la fórmula del determinante.
+Calcula el área del triángulo con vértices $A(2, 3)$, $B(6, -1)$ y $C(-2, -3)$ usando la fórmula del [determinante](../../../glossary.md#determinante).
 
 > 📎 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
 
@@ -296,7 +296,7 @@ Encuentra las ecuaciones de las rectas tangentes a la circunferencia $x^2 + y^2 
 ---
 
 ### [Prob-36] Condición de tangencia recta-circunferencia ⭐⭐⭐
-Determina el valor de $k$ para que la recta $3x + 4y = k$ sea tangente a la circunferencia $x^2 + y^2 = 4$.
+Determina el valor de $k$ para que la recta $3x + 4y = k$ sea [tangente](../../../glossary.md#tangente) a la circunferencia $x^2 + y^2 = 4$.
 
 > 📎 **Solución:** [solutions/prob-36/](../solutions/prob-36/)
 
@@ -419,7 +419,7 @@ Convierte a forma estándar: $4x^2 + 9y^2 - 16x + 18y - 11 = 0$.
 ---
 
 ### [Prob-53] Elipse trasladada con foco y semieje ⭐⭐
-Encuentra la ecuación de la elipse con centro $(2, -1)$, un foco en $(5, -1)$ y semieje menor $b = 3$.
+Encuentra la ecuación de la elipse con centro $(2, -1)$, un foco en $(5, -1)$ y semieje [menor](../../../glossary.md#menor) $b = 3$.
 
 > 📎 **Solución:** [solutions/prob-53/](../solutions/prob-53/)
 
@@ -505,7 +505,7 @@ Encuentra la ecuación de la hipérbola equilátera (con asíntotas perpendicula
 ---
 
 ### [Prob-65] Hipérbola trasladada ⭐⭐⭐
-Una hipérbola tiene centro en $(1, 2)$, un vértice en $(4, 2)$ y una asíntota con pendiente $\frac{2}{3}$. Encuentra su ecuación.
+Una hipérbola tiene centro en $(1, 2)$, un vértice en $(4, 2)$ y una [asíntota](../../../glossary.md#asíntota) con pendiente $\frac{2}{3}$. Encuentra su ecuación.
 
 > 📎 **Solución:** [solutions/prob-65/](../solutions/prob-65/)
 
@@ -560,7 +560,7 @@ a) Una elipse  b) Una parábola  c) Una hipérbola
 ---
 
 ### [Prob-72] Ángulo de rotación para eliminar xy ⭐⭐⭐
-Encuentra el ángulo de rotación necesario para eliminar el término $xy$ de $x^2 + 2\sqrt{3}xy + 3y^2 - 4 = 0$.
+Encuentra el ángulo de rotación [necesario](../../../glossary.md#necesario) para eliminar el término $xy$ de $x^2 + 2\sqrt{3}xy + 3y^2 - 4 = 0$.
 
 > 📎 **Solución:** [solutions/prob-72/](../solutions/prob-72/)
 

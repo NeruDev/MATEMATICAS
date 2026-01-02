@@ -90,7 +90,7 @@ $$-2 = \frac{4 + y_B}{2} \Rightarrow y_B = -4 - 4 = -8$$
 **Respuesta:** $B(-1, -8)$
 
 ### Solución 6.2.8
-**Contexto:** Área con determinante: $\text{Área} = \frac{1}{2}\lvert x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) \rvert$
+**Contexto:** Área con [determinante](../../../glossary.md#determinante): $\text{Área} = \frac{1}{2}\lvert x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) \rvert$
 
 **Desarrollo:**
 $$\text{Área} = \frac{1}{2}\lvert 2(-1-(-3)) + 6(-3-3) + (-2)(3-(-1)) \rvert$$
@@ -206,7 +206,7 @@ $x = 3 \Rightarrow y = 4$ → $(3, 4)$
 **Verificación:** $(-4)^2 + (-3)^2 = 16 + 9 = 25$ ✓
 
 ### Solución 6.4.9
-**Contexto:** Una recta es tangente a una circunferencia si la distancia del centro a la recta es igual al radio.
+**Contexto:** Una recta es [tangente](../../../glossary.md#tangente) a una circunferencia si la distancia del centro a la recta es igual al radio.
 
 **Desarrollo:**
 Centro: $(0, 0)$, Radio: $2$

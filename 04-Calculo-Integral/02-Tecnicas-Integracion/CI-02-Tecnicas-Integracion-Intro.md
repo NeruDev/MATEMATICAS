@@ -31,24 +31,24 @@ solutions/
 
 ## Ruta de aprendizaje
 
-1. **Sustitución (cambio de variable)**: $u = g(x)$, $du = g'(x)\,dx$
-2. **Integración por partes**: $\int u\,dv = uv - \int v\,du$
+1. **[Sustitución](../../glossary.md#sustitución) (cambio de variable)**: $u = g(x)$, $du = g'(x)\,dx$
+2. **[Integración por partes](../../glossary.md#integración-por-partes)**: $\int u\,dv = uv - \int v\,du$
 3. **Integrales trigonométricas**: productos de senos, cosenos, tangentes
-4. **Sustitución trigonométrica**: para raíces $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, $\sqrt{x^2-a^2}$
-5. **Fracciones parciales**: descomposición de fracciones racionales
+4. **[Sustitución trigonométrica](../../glossary.md#sustitución-trigonométrica)**: para raíces $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, $\sqrt{x^2-a^2}$
+5. **[Fracciones parciales](../../glossary.md#fracciones-parciales)**: descomposición de fracciones racionales
 6. **Racionalización**: sustituciones para radicales
 7. **Estrategias de integración**: cómo elegir la técnica adecuada
 
 ## Conexiones
 
-- **Prerrequisitos**: Integral indefinida, Derivadas, Identidades trigonométricas
-- **Usos posteriores**: Integral definida, Aplicaciones, Ecuaciones diferenciales
+- **Prerrequisitos**: [Integral indefinida](../../glossary.md#integral-indefinida), [Derivadas](../../glossary.md#derivadas), Identidades trigonométricas
+- **Usos posteriores**: [Integral definida](../../glossary.md#integral-definida), Aplicaciones, [Ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales)
 
 ## Vista previa de conceptos clave
 
 | Técnica | Cuándo usarla |
 |---------|---------------|
-| Sustitución | Composición de funciones, cadena inversa |
+| Sustitución | [Composición](../../glossary.md#composición) de funciones, cadena inversa |
 | Por partes | Productos de funciones diferentes |
 | Trigonométricas | $\sin^m x \cos^n x$, $\tan^m x \sec^n x$ |
 | Sust. trigonométrica | Radicales con $a^2 \pm x^2$ o $x^2 - a^2$ |
@@ -56,7 +56,7 @@ solutions/
 
 ## Regla LIATE para integración por partes
 
-Orden de prioridad para elegir $u$:
+[Orden](../../glossary.md#orden) de prioridad para elegir $u$:
 1. **L**ogarítmicas
 2. **I**nversas trigonométricas
 3. **A**lgebraicas
@@ -66,7 +66,7 @@ Orden de prioridad para elegir $u$:
 ---
 
 <!--
-IA: Punto de entrada para técnicas de integración.
-Verificar dominio de integrales básicas antes de continuar.
+IA: Punto de entrada para [técnicas de integración](../../glossary.md#técnicas-de-integración).
+Verificar [dominio](../../glossary.md#dominio) de integrales básicas antes de continuar.
 file_id: CI-02-Tecnicas-Integracion-Intro
 -->

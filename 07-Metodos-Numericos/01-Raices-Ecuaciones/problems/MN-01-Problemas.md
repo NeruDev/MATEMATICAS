@@ -3,8 +3,8 @@
 content_type: problem_set
 topic_id: mn-01-raices-ecuaciones
 file_id: MN-01-Problemas
-title: Problemas - Raíces de Ecuaciones
-description: Colección de problemas sobre métodos numéricos para encontrar raíces
+title: Problemas - [Raíces de Ecuaciones](../../../glossary.md#raíces-de-ecuaciones)
+description: Colección de problemas sobre [métodos numéricos](../../../glossary.md#métodos-numéricos) para encontrar raíces
 ---
 -->
 
@@ -15,7 +15,7 @@ description: Colección de problemas sobre métodos numéricos para encontrar ra
 ## Sección 1: Método de Bisección
 
 ### [Prob-01] Bisección para polinomio cúbico ⭐
-Usar el método de bisección para encontrar la raíz de $f(x) = x^3 - x - 1$ en $[1, 2]$ con tolerancia $\varepsilon = 0.01$.
+Usar el [método de bisección](../../../glossary.md#método-de-bisección) para encontrar la raíz de $f(x) = x^3 - x - 1$ en $[1, 2]$ con tolerancia $\varepsilon = 0.01$.
 
 > 📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -73,7 +73,7 @@ Encontrar la raíz de $\ln(x) - 1 = 0$ usando Newton-Raphson con $x_0 = 3$.
 ---
 
 ### [Prob-09] Raíces múltiples y Newton modificado ⭐⭐⭐
-Para $f(x) = x^2 - 2x + 1 = (x-1)^2$, la raíz $x = 1$ es doble. Aplicar Newton estándar y Newton modificado con $m = 2$. Comparar convergencia.
+Para $f(x) = x^2 - 2x + 1 = (x-1)^2$, la raíz $x = 1$ es doble. Aplicar Newton estándar y Newton modificado con $m = 2$. Comparar [convergencia](../../../glossary.md#convergencia).
 
 > 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
 
@@ -127,7 +127,7 @@ Demostrar que $g(x) = e^{-x}$ converge para resolver $e^{-x} - x = 0$ en $[0, 1]
 
 ### [Prob-16] Análisis comparativo de funciones de iteración ⭐⭐⭐
 La ecuación $x^3 = 2$ se puede resolver como:
-- $g_1(x) = \sqrt[3]{2}$ (trivial)
+- $g_1(x) = \sqrt[3]{2}$ ([trivial](../../../glossary.md#trivial))
 - $g_2(x) = 2/x^2$
 - $g_3(x) = \frac{2x + 2/x^2}{3}$ (Newton para $x^3 - 2$)
 
@@ -150,7 +150,7 @@ y verificar que la convergencia es cuadrática.
 ---
 
 ### [Prob-18] Orden de convergencia experimental ⭐⭐
-Calcular el orden de convergencia experimental para bisección aplicada a $x^3 - 2 = 0$ en $[1, 2]$.
+Calcular el [orden de convergencia](../../../glossary.md#orden-de-convergencia) experimental para bisección aplicada a $x^3 - 2 = 0$ en $[1, 2]$.
 
 > 📂 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
 
@@ -204,7 +204,7 @@ Encontrar $x$ en $(0, 1)$.
 ---
 
 ### [Prob-24] Frecuencia de resonancia RLC (Ingeniería Eléctrica) ⭐⭐
-En un circuito RLC, la frecuencia de resonancia satisface:
+En un circuito RLC, la frecuencia de [resonancia](../../../glossary.md#resonancia) satisface:
 $$\omega^3 - 2\omega - 5 = 0$$
 Encontrar $\omega > 0$.
 
@@ -222,14 +222,14 @@ Implementar el método de bisección en Python/MATLAB y probar con $\sin(x) - x/
 ---
 
 ### [Prob-26] Newton-Raphson con detección de divergencia ⭐⭐
-Implementar Newton-Raphson con un límite de iteraciones y detectar divergencia.
+Implementar Newton-Raphson con un [límite](../../../glossary.md#límite) de iteraciones y detectar [divergencia](../../../glossary.md#divergencia).
 
 > 📂 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
 
 ---
 
 ### [Prob-27] Selector automático de método ⭐⭐⭐
-Crear una función que elija automáticamente entre bisección y Newton según la disponibilidad de $f'$.
+Crear una [función](../../../glossary.md#función) que elija automáticamente entre bisección y Newton según la disponibilidad de $f'$.
 
 > 📂 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
 
@@ -253,7 +253,7 @@ Demostrar que si $f''$ es continua y $f'(x^*) \neq 0$, entonces Newton-Raphson t
 ---
 
 ### [Prob-30] Orden de convergencia del método de la secante ⭐⭐⭐
-Demostrar que el método de la secante tiene orden de convergencia $\phi = \frac{1+\sqrt{5}}{2}$.
+Demostrar que el método de la secante tiene [orden](../../../glossary.md#orden) de convergencia $\phi = \frac{1+\sqrt{5}}{2}$.
 
 > 📂 **Solución:** [solutions/prob-30/](../solutions/prob-30/)
 

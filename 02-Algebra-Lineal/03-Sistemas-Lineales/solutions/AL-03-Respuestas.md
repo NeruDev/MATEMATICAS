@@ -38,7 +38,7 @@ solved_detailed: 0
 | Prob-16 | $k = 4$ para rango < 3 | ➖ |
 | Prob-17 | Sol: $t(-2, 1)^T$, $t \in \mathbb{R}$ | ➖ |
 | Prob-18 | Sol: $s(-2, 1, 0)^T + t(-3, 0, 1)^T$, $s, t \in \mathbb{R}$ | ➖ |
-| Prob-19 | Base: $\{(-1, 0, 1)^T, (-2, 1, 0)^T\}$ | ➖ |
+| Prob-19 | [Base](../../../glossary.md#base): $\{(-1, 0, 1)^T, (-2, 1, 0)^T\}$ | ➖ |
 | Prob-20 | $k = -2$ o $k = 1$ | ➖ |
 | Prob-21 | Vértice: $(3, 2)$ | ➖ |
 | Prob-22 | $a = 1$, $b = -1$, $c = 2$ | ➖ |

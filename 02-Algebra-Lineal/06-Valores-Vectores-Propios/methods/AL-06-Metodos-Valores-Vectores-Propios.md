@@ -14,7 +14,7 @@ status: active
 
 **Cuándo Usar:** Para hallar los valores propios de matrices pequeñas de manera eficiente.
 
-**Definición:** $\lambda$ es eigenvalor de $A$ si existe $\mathbf{v} \neq \mathbf{0}$ tal que $A\mathbf{v} = \lambda\mathbf{v}$.
+**Definición:** $\lambda$ es eigenvalor de $A$ si existe $\mathbf{v} \neq \mathbf{0}$ [tal que](../../../glossary.md#tal-que) $A\mathbf{v} = \lambda\mathbf{v}$.
 
 **Fórmula Rápida para 2×2:** Para $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
@@ -24,8 +24,8 @@ $$\lambda = \frac{\text{tr}(A) \pm \sqrt{\text{tr}(A)^2 - 4\det(A)}}{2}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular traza | $\text{tr}(A) = a + d$ |
-| 2 | Calcular determinante | $\det(A) = ad - bc$ |
+| 1 | Calcular [traza](../../../glossary.md#traza) | $\text{tr}(A) = a + d$ |
+| 2 | Calcular [determinante](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
 | 3 | Calcular discriminante | $\Delta = \text{tr}(A)^2 - 4\det(A)$ |
 | 4 | Aplicar fórmula | $\lambda_{1,2} = \frac{\text{tr}(A) \pm \sqrt{\Delta}}{2}$ |
 
@@ -96,7 +96,7 @@ $$\boxed{\lambda_1 = 2 + i, \quad \lambda_2 = 2 - i}$$
 
 ## Método 2: Encontrar Eigenvalores (Matriz 3×3)
 
-**Cuándo Usar:** Para matrices 3×3 o cuando se necesita el polinomio característico explícito.
+**Cuándo Usar:** Para matrices 3×3 o cuando se necesita el [polinomio característico](../../../glossary.md#polinomio-característico) explícito.
 
 **Fórmula:** $p(\lambda) = \det(A - \lambda I) = 0$
 
@@ -107,7 +107,7 @@ $$\boxed{\lambda_1 = 2 + i, \quad \lambda_2 = 2 - i}$$
 | 1 | Formar $A - \lambda I$ | Restar $\lambda$ de la diagonal |
 | 2 | Calcular determinante | Expandir por cofactores o Sarrus |
 | 3 | Buscar raíces racionales | Probar divisores del término independiente |
-| 4 | Factorizar | División sintética si se encuentra raíz |
+| 4 | [Factorizar](../../../glossary.md#factorizar) | División sintética si se encuentra raíz |
 | 5 | Resolver | Aplicar fórmula cuadrática al factor restante |
 
 ### Caso Especial: Matrices Triangulares
@@ -121,7 +121,7 @@ $$\text{Eigenvalores} = \text{Elementos de la diagonal}$$
 
 ---
 
-**Paso 1: Identificar tipo de matriz**
+**Paso 1: Identificar tipo de [matriz](../../../glossary.md#matriz)**
 
 $A$ es triangular superior, por lo tanto:
 
@@ -204,7 +204,7 @@ $$E_\lambda = \ker(A - \lambda I) = \{\mathbf{v} : A\mathbf{v} = \lambda\mathbf{
 | 1 | Formar $A - \lambda I$ | Sustituir el eigenvalor dado |
 | 2 | Reducir a RREF | Gauss-Jordan |
 | 3 | Resolver sistema homogéneo | $(A - \lambda I)\mathbf{v} = \mathbf{0}$ |
-| 4 | Parametrizar | Variables libres generan la base |
+| 4 | Parametrizar | Variables libres generan la [base](../../../glossary.md#base) |
 | 5 | Escribir base | Vectores propios LI |
 
 ### Ejemplo Detallado
@@ -268,8 +268,8 @@ $$A\mathbf{v}_2 = \begin{pmatrix} 4 & 2 \\ 1 & 3 \end{pmatrix}\begin{pmatrix} -1
 $$m_g(\lambda) = m_a(\lambda)$$
 
 donde:
-- $m_a(\lambda)$ = multiplicidad algebraica (exponente en el polinomio característico)
-- $m_g(\lambda)$ = multiplicidad geométrica = $\dim(E_\lambda)$
+- $m_a(\lambda)$ = [multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica) (exponente en el [polinomio](../../../glossary.md#polinomio) característico)
+- $m_g(\lambda)$ = [multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica) = $\dim(E_\lambda)$
 
 ### Algoritmo de Resolución
 
@@ -285,7 +285,7 @@ donde:
 | Condición | Resultado |
 |-----------|-----------|
 | $n$ eigenvalores distintos | Siempre diagonalizable |
-| Matriz simétrica ($A = A^T$) | Siempre diagonalizable |
+| [Matriz simétrica](../../../glossary.md#matriz-simétrica) ($A = A^T$) | Siempre diagonalizable |
 | Algún $m_g < m_a$ | NO diagonalizable |
 
 ### Ejemplo: Matriz Diagonalizable
@@ -359,7 +359,7 @@ $$\boxed{A \text{ NO es diagonalizable}}$$
 **Estructura:**
 - $P$ = matriz de eigenvectores (como columnas)
 - $D$ = matriz diagonal con eigenvalores
-- El orden de eigenvalores en $D$ debe corresponder al orden de eigenvectores en $P$
+- El [orden](../../../glossary.md#orden) de eigenvalores en $D$ debe corresponder al orden de eigenvectores en $P$
 
 ### Algoritmo de Resolución
 
@@ -580,13 +580,13 @@ $$\boxed{A = QDQ^T = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmat
 
 ## Método 8: Estado Estacionario (Cadenas de Markov)
 
-**Cuándo Usar:** Para encontrar la distribución límite de una cadena de Markov.
+**Cuándo Usar:** Para encontrar la distribución [límite](../../../glossary.md#límite) de una cadena de Markov.
 
 **Definición:** Una matriz de Markov $P$ satisface:
 - Todos los elementos son $\geq 0$
 - Las columnas suman 1
 
-**Estado estacionario:** Vector $\mathbf{\pi}$ tal que $P\mathbf{\pi} = \mathbf{\pi}$ con $\sum \pi_i = 1$.
+**Estado estacionario:** [Vector](../../../glossary.md#vector) $\mathbf{\pi}$ tal que $P\mathbf{\pi} = \mathbf{\pi}$ con $\sum \pi_i = 1$.
 
 ### Algoritmo de Resolución
 
@@ -839,7 +839,7 @@ $$AA^{-1} = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}\frac{1}{10}\begin{pmatr
 | Polinomio característico | $p(\lambda) = \det(A - \lambda I)$ |
 | Eigenvalores 2×2 | $\lambda = \frac{\text{tr}(A) \pm \sqrt{\text{tr}(A)^2 - 4\det(A)}}{2}$ |
 | Eigenvector | Resolver $(A - \lambda I)\mathbf{v} = \mathbf{0}$ |
-| Diagonalización | $A = PDP^{-1}$ |
+| [Diagonalización](../../../glossary.md#diagonalización) | $A = PDP^{-1}$ |
 | Potencias | $A^k = PD^kP^{-1}$ |
 | Diag. ortogonal | $A = QDQ^T$ para $A$ simétrica |
 | Estado estacionario | $(P - I)\mathbf{\pi} = \mathbf{0}$, $\sum \pi_i = 1$ |

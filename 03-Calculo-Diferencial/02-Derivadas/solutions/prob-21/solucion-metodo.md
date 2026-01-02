@@ -2,7 +2,7 @@
 ---
 type: solution
 problem-id: CD-02-21
-topic: Derivadas
+topic: [Derivadas](../../../../glossary.md#derivadas)
 subtopic: Regla del producto
 difficulty: intermedio
 tags: [derivada, producto-triple, exponencial, trigonométrica]
@@ -24,7 +24,7 @@ Derivar $g(x) = x^2 e^x \sin x$ aplicando la regla del producto generalizada.
 
 Sea $g(x) = u(x) \cdot v(x) \cdot w(x)$ donde:
 
-| Función | Expresión | Derivada |
+| [Función](../../../../glossary.md#función) | Expresión | [Derivada](../../../../glossary.md#derivada) |
 |---------|-----------|----------|
 | $u(x)$ | $x^2$ | $u'(x) = 2x$ |
 | $v(x)$ | $e^x$ | $v'(x) = e^x$ |
@@ -108,4 +108,4 @@ Evaluando la fórmula: $g'(\pi/4) \approx 4.18 \checkmark$
 > **Regla general**: Para $n$ funciones multiplicadas:
 > $$\frac{d}{dx}[f_1 \cdot f_2 \cdots f_n] = \sum_{i=1}^{n} \left( f_1 \cdots f_{i-1} \cdot f_i' \cdot f_{i+1} \cdots f_n \right)$$
 
-> **Tip de factorización**: Siempre buscar factores comunes para simplificar la expresión final.
+> **Tip de [factorización](../../../../glossary.md#factorización)**: Siempre buscar factores comunes para simplificar la expresión final.

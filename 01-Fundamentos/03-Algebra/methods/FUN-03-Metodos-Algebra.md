@@ -110,13 +110,13 @@ $$\boxed{(3x - 5)(2x + 7) = 6x^2 + 11x - 35}$$
 
 ## Método 3: División Sintética (Ruffini)
 
-**Cuándo Usar:** Para dividir un polinomio entre $(x - c)$ de manera eficiente.
+**Cuándo Usar:** Para dividir un [polinomio](../../../glossary.md#polinomio) entre $(x - c)$ de manera eficiente.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir coeficientes | En orden descendente de grados |
+| 1 | Escribir coeficientes | En [orden](../../../glossary.md#orden) descendente de grados |
 | 2 | Colocar raíz | $c$ si dividimos entre $(x - c)$ |
 | 3 | Bajar primer coeficiente | Directamente |
 | 4 | Multiplicar y sumar | $c \times$ resultado, sumar al siguiente |
@@ -176,14 +176,14 @@ $$\boxed{\text{Cociente: } 2x^3 + x^2 + 2x - 1, \quad \text{Residuo: } 5}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar MCD | De coeficientes numéricos |
-| 2 | Identificar factor variable | Menor exponente de cada variable |
+| 1 | Identificar [MCD](../../../glossary.md#mcd) | De coeficientes numéricos |
+| 2 | Identificar factor variable | [Menor](../../../glossary.md#menor) exponente de cada variable |
 | 3 | Extraer factor común | Escribir fuera del paréntesis |
 | 4 | Dividir cada término | Lo que queda dentro del paréntesis |
 
 ### Ejemplo Detallado
 
-**Problema:** Factorizar $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
+**Problema:** [Factorizar](../../../glossary.md#factorizar) $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
 
 ---
 
@@ -478,8 +478,8 @@ $$\boxed{(3x + 5y^2)(9x^2 - 15xy^2 + 25y^4)}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Eliminar paréntesis | Distribuir si es necesario |
-| 2 | Eliminar fracciones | Multiplicar por MCM |
+| 1 | Eliminar paréntesis | Distribuir si es [necesario](../../../glossary.md#necesario) |
+| 2 | Eliminar fracciones | Multiplicar por [MCM](../../../glossary.md#mcm) |
 | 3 | Agrupar términos | Variables a un lado, constantes al otro |
 | 4 | Combinar | Términos semejantes |
 | 5 | Despejar | Dividir por coeficiente |
@@ -552,7 +552,7 @@ $$\boxed{x = 4}$$
 
 | Método | Cuándo Usar |
 |--------|-------------|
-| Factorización | Si es fácilmente factorizable |
+| [Factorización](../../../glossary.md#factorización) | Si es fácilmente factorizable |
 | Completar cuadrado | Para derivar fórmula general |
 | Fórmula general | Siempre funciona |
 
@@ -680,7 +680,7 @@ $$\boxed{x = -3 + \frac{5\sqrt{2}}{2} \approx 0.536, \quad x = -3 - \frac{5\sqrt
 
 | Método | Cuándo Usar |
 |--------|-------------|
-| Sustitución | Una variable fácil de despejar |
+| [Sustitución](../../../glossary.md#sustitución) | Una variable fácil de despejar |
 | Eliminación | Coeficientes permiten fácil eliminación |
 | Igualación | Cuando ambas ecuaciones despejan la misma variable |
 
@@ -736,7 +736,7 @@ $$\begin{cases} x + y + z = 6 \\ 2x - y + z = 3 \\ x + 2y - z = 2 \end{cases}$$
 
 ---
 
-**Paso 1: Matriz aumentada**
+**Paso 1: [Matriz](../../../glossary.md#matriz) aumentada**
 
 $$\left[\begin{array}{ccc|c} 1 & 1 & 1 & 6 \\ 2 & -1 & 1 & 3 \\ 1 & 2 & -1 & 2 \end{array}\right]$$
 

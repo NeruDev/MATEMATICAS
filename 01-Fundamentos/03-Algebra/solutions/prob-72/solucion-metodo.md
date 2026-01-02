@@ -19,7 +19,7 @@ Una **ecuación bicuadrática** tiene la forma:
 
 $$ax^4 + bx^2 + c = 0$$
 
-Se resuelve mediante la **sustitución** $u = x^2$, lo que la convierte en una ecuación cuadrática en $u$.
+Se resuelve mediante la **[sustitución](../../../../glossary.md#sustitución)** $u = x^2$, lo que la convierte en una ecuación cuadrática en $u$.
 
 ---
 
@@ -166,7 +166,7 @@ $$(-2)^4 - 5(-2)^2 + 4 = 16 - 20 + 4 = 0 \quad \checkmark$$
 
 ## Representación gráfica
 
-La función $f(x) = x^4 - 5x^2 + 4$ es un polinomio de grado 4:
+La [función](../../../../glossary.md#función) $f(x) = x^4 - 5x^2 + 4$ es un [polinomio](../../../../glossary.md#polinomio) de grado 4:
 
 ```
      y
@@ -257,7 +257,7 @@ $$\boxed{x = -2, \quad x = -1, \quad x = 1, \quad x = 2}$$
 
 **Conjunto solución:** $\{-2, -1, 1, 2\}$
 
-**Factorización completa:**
+**[Factorización](../../../../glossary.md#factorización) completa:**
 
 $$x^4 - 5x^2 + 4 = (x + 2)(x + 1)(x - 1)(x - 2)$$
 
