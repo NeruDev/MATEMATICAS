@@ -13,10 +13,10 @@ audience: student
 
 **Método aplicado:** Fórmula $A^{-1} = \frac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
 
-**Paso 1: Calcular el determinante**
+**Paso 1: Calcular el [determinante](../../../../glossary.md#determinante)**
 $$\det(A) = 2(3) - 1(5) = 6 - 5 = 1$$
 
-Como $\det(A) \neq 0$, la matriz es invertible.
+Como $\det(A) \neq 0$, la [matriz](../../../../glossary.md#matriz) es invertible.
 
 **Paso 2: Aplicar la fórmula**
 $$A^{-1} = \frac{1}{1}\begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$

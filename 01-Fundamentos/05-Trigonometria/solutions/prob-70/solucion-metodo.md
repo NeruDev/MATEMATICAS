@@ -2,7 +2,7 @@
 ---
 type: solution
 problem_id: FUN-05-PROB-70
-title: "Ecuación lineal en seno y coseno"
+title: "Ecuación lineal en [seno](../../../../glossary.md#seno) y [coseno](../../../../glossary.md#coseno)"
 topic: trigonometria
 subtopic: ecuaciones-trigonometricas
 difficulty: intermedio
@@ -23,7 +23,7 @@ $$\sin\theta + \cos\theta = 1$$
 
 ## 🎯 Estrategia de Solución
 
-Presentamos dos métodos de solución:
+Presentamos dos [métodos de solución](../../../../glossary.md#métodos-de-solución):
 - **Método 1:** Elevar al cuadrado ambos lados
 - **Método 2:** Usar la identidad auxiliar $R\sin(\theta + \phi)$
 
@@ -179,7 +179,7 @@ $$\sin\left(\frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = 1 + 0 = 1 \q
 
 | Aspecto | Método 1 (Cuadrado) | Método 2 (R·sin(θ+φ)) |
 |---------|---------------------|----------------------|
-| Dificultad | Menor | Mayor |
+| Dificultad | [Menor](../../../../glossary.md#menor) | Mayor |
 | Soluciones extrañas | Sí, requiere verificar | No |
 | Generalizable | Limitado | Muy general |
 | Errores comunes | Olvidar verificar | Cálculo de φ |

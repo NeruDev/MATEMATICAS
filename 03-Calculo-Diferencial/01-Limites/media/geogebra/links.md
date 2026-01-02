@@ -16,9 +16,9 @@ expected_output:
 
 | Concepto | Enlace | Descripción |
 |----------|--------|-------------|
-| Concepto de límite | *Por agregar* | Visualización de aproximación a un punto |
-| Límites laterales | *Por agregar* | Comparación de límites por izquierda y derecha |
-| Forma indeterminada | *Por agregar* | Ejemplo visual de 0/0 |
+| Concepto de [límite](../../../../glossary.md#límite) | *Por agregar* | Visualización de aproximación a un punto |
+| [Límites](../../../../glossary.md#límites) laterales | *Por agregar* | Comparación de límites por izquierda y derecha |
+| [Forma indeterminada](../../../../glossary.md#forma-indeterminada) | *Por agregar* | Ejemplo visual de 0/0 |
 
 ## Cómo agregar nuevos enlaces
 

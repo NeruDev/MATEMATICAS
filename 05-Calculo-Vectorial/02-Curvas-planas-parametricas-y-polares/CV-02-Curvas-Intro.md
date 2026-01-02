@@ -17,7 +17,7 @@ Describir trayectorias y curvas en el plano mediante parámetros y sistemas de c
 ## Ruta de aprendizaje
 
 1. **Ecuaciones paramétricas:** representación $x(t), y(t)$; trazado y orientación.
-2. **Cálculo con parámetros:** derivadas $dy/dx$, tangentes, concavidad.
+2. **Cálculo con parámetros:** [derivadas](../../glossary.md#derivadas) $dy/dx$, tangentes, [concavidad](../../glossary.md#concavidad).
 3. **Longitud de arco:** fórmula paramétrica para medir curvas.
 4. **Coordenadas polares:** conversión, gráficas de curvas polares clásicas.
 5. **Áreas en polares:** cálculo del área encerrada por curvas polares.

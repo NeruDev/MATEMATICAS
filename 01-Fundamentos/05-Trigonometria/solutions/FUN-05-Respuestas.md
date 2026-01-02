@@ -30,7 +30,7 @@ solved_detailed: 6
 | [Prob-11] | $\sin\theta = \frac{3}{5}$, $\cos\theta = \frac{4}{5}$, $\tan\theta = \frac{3}{4}$, $\csc\theta = \frac{5}{3}$, $\sec\theta = \frac{5}{4}$, $\cot\theta = \frac{4}{3}$ | ➖ |
 | [Prob-12] | $\sin\theta = \frac{5}{13}$, $\tan\theta = \frac{5}{12}$ | ➖ |
 | [Prob-13] | Hipotenusa $= 7\sqrt{2}$ | ➖ |
-| [Prob-14] | Cateto menor $= 10$, cateto mayor $= 10\sqrt{3}$ | ➖ |
+| [Prob-14] | Cateto [menor](../../../glossary.md#menor) $= 10$, cateto mayor $= 10\sqrt{3}$ | ➖ |
 | [Prob-15] | $\sec\theta = \frac{25}{24}$, $\csc\theta = \frac{25}{7}$ | ➖ |
 | [Prob-16] | Altura $= 10\sin 65° \approx 9.06$ m | ➖ |
 | [Prob-17] | Altura $= 50\tan 62° \approx 94.04$ m | ➖ |

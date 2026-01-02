@@ -29,7 +29,7 @@ problems/
 
 ## Ruta de aprendizaje
 
-1. **Razones trigonométricas**: seno, coseno, tangente en triángulos rectángulos
+1. **Razones trigonométricas**: [seno](../../glossary.md#seno), [coseno](../../glossary.md#coseno), [tangente](../../glossary.md#tangente) en triángulos rectángulos
 2. **Funciones trigonométricas**: círculo unitario, gráficas
 3. **Identidades fundamentales**: pitagóricas, cociente, recíprocas
 4. **Identidades de suma y diferencia**: sen(α±β), cos(α±β)
@@ -44,7 +44,7 @@ problems/
 
 ## Funciones fundamentales
 
-| Función | Definición | Recíproca |
+| [Función](../../glossary.md#función) | Definición | Recíproca |
 |---------|------------|-----------|
 | $\sin\theta$ | $\frac{\text{opuesto}}{\text{hipotenusa}}$ | $\csc\theta$ |
 | $\cos\theta$ | $\frac{\text{adyacente}}{\text{hipotenusa}}$ | $\sec\theta$ |
@@ -53,6 +53,6 @@ problems/
 ---
 
 <!--
-IA: Punto de entrada para trigonometría.
+IA: Punto de entrada para [trigonometría](../../glossary.md#trigonometría).
 file_id: FUN-05-Trigonometria-Intro
 -->

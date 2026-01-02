@@ -1,8 +1,8 @@
 <!--
 ---
-title: Introducción a EDO Numéricas
+title: Introducción a [EDO Numéricas](../../glossary.md#edo-numéricas)
 type: index
-topic: edo-numericas
+topic: [edo](../../glossary.md#edo)-numericas
 tags: [métodos-numéricos, EDO, euler, runge-kutta, sistemas]
 created: 2025-12-20
 updated: 2025-12-20
@@ -13,13 +13,13 @@ updated: 2025-12-20
 
 ## Descripción General
 
-Los métodos numéricos para ecuaciones diferenciales ordinarias (EDO) permiten aproximar soluciones de problemas de valor inicial cuando no es posible encontrar una solución analítica. Estos métodos son fundamentales en simulación y modelado.
+Los [métodos numéricos](../../glossary.md#métodos-numéricos) para [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) ordinarias (EDO) permiten aproximar soluciones de problemas de valor inicial cuando no es posible encontrar una solución analítica. Estos métodos son fundamentales en simulación y modelado.
 
 ## Contenido del Módulo
 
 ### Métodos de Un Paso
 - [[MN-04-T01-Euler|Método de Euler]]
-- [[MN-04-T02-Euler-Mejorado|Método de Euler Mejorado (Heun)]]
+- [[MN-04-T02-Euler-Mejorado|[Método de Euler](../../glossary.md#método-de-euler) Mejorado (Heun)]]
 - [[MN-04-T03-Runge-Kutta|Métodos de Runge-Kutta]]
 
 ### Métodos de Paso Múltiple
@@ -28,7 +28,7 @@ Los métodos numéricos para ecuaciones diferenciales ordinarias (EDO) permiten 
 
 ### Sistemas y Ecuaciones de Orden Superior
 - [[MN-04-T06-Sistemas-EDO|Sistemas de EDO]]
-- [[MN-04-T07-EDO-Orden-Superior|EDO de Orden Superior]]
+- [[MN-04-T07-EDO-[Orden](../../glossary.md#orden)-Superior|EDO de Orden Superior]]
 
 ### Recursos
 - [[MN-04-Resumen-Formulas|Resumen de Fórmulas]]
@@ -38,7 +38,7 @@ Los métodos numéricos para ecuaciones diferenciales ordinarias (EDO) permiten 
 1. Implementar el método de Euler para problemas de valor inicial
 2. Aplicar métodos de Runge-Kutta de diferentes órdenes
 3. Resolver sistemas de EDO numéricamente
-4. Analizar estabilidad y convergencia de los métodos
+4. Analizar estabilidad y [convergencia](../../glossary.md#convergencia) de los métodos
 
 ## Prerrequisitos
 

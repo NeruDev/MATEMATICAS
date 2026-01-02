@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones detalladas y contextualizadas para problemas de trigonometría.
+Soluciones detalladas y contextualizadas para problemas de [trigonometría](../../../glossary.md#trigonometría).
 
 IA:
 Antes de cada solución, incluye contexto teórico.
@@ -139,7 +139,7 @@ $$h = 50 \tan 62° = 50 \times 1.8807 \approx 94.0 \text{ m}$$
 ---
 
 ### Solución 5.2.10
-**Contexto:** Si $90° < \theta < 180°$ (segundo cuadrante), el coseno es negativo.
+**Contexto:** Si $90° < \theta < 180°$ (segundo cuadrante), el [coseno](../../../glossary.md#coseno) es negativo.
 
 **Desarrollo:**
 $$\cos^2\theta = 1 - \sin^2\theta = 1 - \frac{4}{9} = \frac{5}{9}$$
@@ -176,7 +176,7 @@ $$\tan 300° = -\tan 60° = -\sqrt{3}$$
 ---
 
 ### Solución 5.3.5
-**Contexto:** En el tercer cuadrante, seno y coseno son negativos.
+**Contexto:** En el tercer cuadrante, [seno](../../../glossary.md#seno) y coseno son negativos.
 
 **Desarrollo:**
 Dado $\cos\theta = -\frac{3}{5}$ en el cuadrante III:
@@ -423,7 +423,7 @@ $$d = \frac{50}{\tan 17°} = \frac{50}{0.3057} \approx 163.6 \text{ m}$$
 ---
 
 ### Solución 5.10.7
-**Contexto:** Modelamos con función seno/coseno. El pasajero sube y baja con el centro a 35 m.
+**Contexto:** Modelamos con [función](../../../glossary.md#función) seno/coseno. El pasajero sube y baja con el centro a 35 m.
 
 **Desarrollo:**
 - El centro está a 35 m, el radio es 30 m

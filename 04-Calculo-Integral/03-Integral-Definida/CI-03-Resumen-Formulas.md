@@ -22,7 +22,7 @@ donde $\Delta x = \dfrac{b-a}{n}$ y $x_i^* \in [x_{i-1}, x_i]$
 
 $$\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$$
 
-**Forma general (regla de la cadena):**
+**Forma general ([regla de la cadena](../../glossary.md#regla-de-la-cadena)):**
 
 $$\frac{d}{dx}\int_{g(x)}^{h(x)} f(t)\,dt = f(h(x)) \cdot h'(x) - f(g(x)) \cdot g'(x)$$
 
@@ -38,10 +38,10 @@ donde $F'(x) = f(x)$
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| Límites iguales | $\int_a^a f(x)\,dx = 0$ |
+| [Límites](../../glossary.md#límites) iguales | $\int_a^a f(x)\,dx = 0$ |
 | Inversión de límites | $\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$ |
 | Constante | $\int_a^b c\,dx = c(b-a)$ |
-| Linealidad | $\int_a^b [cf(x) + dg(x)]\,dx = c\int_a^b f(x)\,dx + d\int_a^b g(x)\,dx$ |
+| [Linealidad](../../glossary.md#linealidad) | $\int_a^b [cf(x) + dg(x)]\,dx = c\int_a^b f(x)\,dx + d\int_a^b g(x)\,dx$ |
 
 ### Propiedad aditiva
 
@@ -77,7 +77,7 @@ $$f_{\text{prom}} = \frac{1}{b-a}\int_a^b f(x)\,dx$$
 
 ## Teorema del valor medio para integrales
 
-Si $f$ es continua en $[a,b]$, existe $c \in [a,b]$ tal que:
+Si $f$ es continua en $[a,b]$, existe $c \in [a,b]$ [tal que](../../glossary.md#tal-que):
 $$\int_a^b f(x)\,dx = f(c)(b-a)$$
 
 ## Integrales definidas notables
@@ -91,7 +91,7 @@ $$\int_0^{2\pi} \sin x\,dx = \int_0^{2\pi} \cos x\,dx = 0$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para integral definida.
+IA: Hoja de referencia rápida para [integral definida](../../glossary.md#integral-definida).
 Para desarrollo completo: theory/CI-03-Teoria-Integral-Definida.md
 file_id: CI-03-Resumen-Formulas
 -->

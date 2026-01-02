@@ -26,16 +26,16 @@ theory/
 
 | Sección | Descripción |
 |---------|-------------|
-| Aritmética y Álgebra | Operaciones básicas, relaciones de orden |
+| Aritmética y Álgebra | Operaciones básicas, relaciones de [orden](../../glossary.md#orden) |
 | Lógica y Conjuntos | Cuantificadores, operaciones con conjuntos |
-| Cálculo Diferencial | Límites, derivadas, series |
-| Cálculo Integral | Integrales, notación de integración |
+| [Cálculo Diferencial](../../glossary.md#cálculo-diferencial) | [Límites](../../glossary.md#límites), [derivadas](../../glossary.md#derivadas), series |
+| [Cálculo Integral](../../glossary.md#cálculo-integral) | Integrales, notación de integración |
 | Cálculo Vectorial | Nabla, derivadas parciales, integrales múltiples |
-| Álgebra Lineal | Matrices, vectores, eigenvalores |
-| Trigonometría | Funciones circulares, hiperbólicas, geometría |
+| [Álgebra Lineal](../../glossary.md#álgebra-lineal) | Matrices, vectores, eigenvalores |
+| [Trigonometría](../../glossary.md#trigonometría) | Funciones circulares, hiperbólicas, geometría |
 | Números Complejos | Notación, operaciones |
-| Ecuaciones Diferenciales | Notación de EDO, transformadas |
-| Métodos Numéricos | Error, iteración |
+| [Ecuaciones Diferenciales](../../glossary.md#ecuaciones-diferenciales) | Notación de [EDO](../../glossary.md#edo), transformadas |
+| [Métodos Numéricos](../../glossary.md#métodos-numéricos) | Error, iteración |
 | Estadística | Probabilidad, distribuciones |
 
 ## Cómo usar esta referencia

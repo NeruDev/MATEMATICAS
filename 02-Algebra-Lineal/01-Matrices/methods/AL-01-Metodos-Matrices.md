@@ -41,7 +41,7 @@ $$A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = 
 ## Método 2: Multiplicación por Escalar
 
 ### Cuándo Usar
-- Escalar todos los elementos de una matriz por un factor constante
+- Escalar todos los elementos de una [matriz](../../../glossary.md#matriz) por un factor constante
 
 ### Fórmula
 $$(kA)_{ij} = k \cdot a_{ij}$$
@@ -58,9 +58,9 @@ $$3A = 3 \begin{pmatrix} 1 & -2 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 3(1) & 
 ## Método 3: Multiplicación de Matrices (Fila × Columna)
 
 ### Cuándo Usar
-- Composición de transformaciones lineales
+- [Composición](../../../glossary.md#composición) de [transformaciones lineales](../../../glossary.md#transformaciones-lineales)
 - Sistemas de ecuaciones
-- Cambios de base
+- Cambios de [base](../../../glossary.md#base)
 
 ### Requisito
 Columnas de $A$ = Filas de $B$: $(m \times n) \cdot (n \times p) = (m \times p)$
@@ -115,7 +115,7 @@ $$(A^T)_{ij} = a_{ji}$$
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| Doble transpuesta | $(A^T)^T = A$ |
+| Doble [transpuesta](../../../glossary.md#transpuesta) | $(A^T)^T = A$ |
 | Suma | $(A + B)^T = A^T + B^T$ |
 | Escalar | $(kA)^T = kA^T$ |
 | Producto | $(AB)^T = B^T A^T$ |
@@ -145,7 +145,7 @@ $$A^{-1} = \frac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \quad
 
 | Paso | Acción | Cálculo |
 |------|--------|---------|
-| 1 | Calcular determinante | $\det(A) = ad - bc$ |
+| 1 | Calcular [determinante](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
 | 2 | Verificar invertibilidad | Si $\det = 0$, no existe inversa |
 | 3 | Intercambiar diagonal principal | $a \leftrightarrow d$ |
 | 4 | Cambiar signo diagonal secundaria | $b \to -b$, $c \to -c$ |
@@ -236,8 +236,8 @@ $$A^{-1} = \boxed{\begin{pmatrix} 7 & -2 \\ -3 & 1 \end{pmatrix}}$$
 ## Método 7: Rango de una Matriz
 
 ### Cuándo Usar
-- Determinar la dimensión del espacio columna
-- Verificar independencia lineal
+- Determinar la [dimensión](../../../glossary.md#dimensión) del espacio columna
+- Verificar [independencia lineal](../../../glossary.md#independencia-lineal)
 - Analizar sistemas de ecuaciones
 
 ### Definición
@@ -346,7 +346,7 @@ $$\begin{pmatrix} + & - & + & \cdots \\ - & + & - & \cdots \\ + & - & + & \cdots
 
 **Problema:** Encontrar $\text{adj}(A)$ para $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 1 & 0 & 6 \end{pmatrix}$
 
-**Paso 1-2:** Calculamos cada cofactor:
+**Paso 1-2:** Calculamos cada [cofactor](../../../glossary.md#cofactor):
 
 $$C_{11} = (+1)\begin{vmatrix} 4 & 5 \\ 0 & 6 \end{vmatrix} = 24$$
 
@@ -383,7 +383,7 @@ Una matriz $A$ de $n \times n$ es invertible si y solo si:
 |----------|-----------|
 | Determinante | $\det(A) \neq 0$ |
 | Rango | $\text{rango}(A) = n$ |
-| Núcleo | $\ker(A) = \{0\}$ (solo solución trivial para $Ax = 0$) |
+| Núcleo | $\ker(A) = \{0\}$ (solo solución [trivial](../../../glossary.md#trivial) para $Ax = 0$) |
 | Columnas | Son linealmente independientes |
 | Filas | Son linealmente independientes |
 | RREF | Se puede reducir a $I_n$ |

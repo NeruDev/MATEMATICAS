@@ -23,7 +23,7 @@ status: active
 **3)** *Contexto: Sustituimos y evaluamos.*
 $$2(-2)^2 - 3(-2)(3) + (3)^2 = 2(4) + 18 + 9 = 8 + 18 + 9 = \boxed{35}$$
 
-**4)** *Contexto: El grado del polinomio es el mayor grado de sus términos.*
+**4)** *Contexto: El grado del [polinomio](../../../glossary.md#polinomio) es el mayor grado de sus términos.*
 - $5x^4y^2$: grado $4+2=6$
 - $-3x^3y^3$: grado $3+3=6$
 - $2x^2y$: grado $2+1=3$
@@ -144,7 +144,7 @@ $$(x + 1)^5 = x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1$$
 **31)** *Contexto: Factor común.*
 $$6x^3 - 9x^2 + 12x = \boxed{3x(2x^2 - 3x + 4)}$$
 
-**32)** *Contexto: Factorización por agrupación.*
+**32)** *Contexto: [Factorización](../../../glossary.md#factorización) por agrupación.*
 $$xy + 2x + 3y + 6 = x(y + 2) + 3(y + 2) = \boxed{(y + 2)(x + 3)}$$
 
 **33)** *Contexto: Trinomio cuadrado perfecto.*
@@ -187,7 +187,7 @@ $$\frac{x^2 - 9}{x^2 - 6x + 9} = \frac{(x+3)(x-3)}{(x-3)^2} = \boxed{\frac{x+3}{
 **44)** *Contexto: Factorizamos numerador y denominador.*
 $$\frac{2(x^2 - 4)}{(x+2)^2} = \frac{2(x+2)(x-2)}{(x+2)^2} = \boxed{\frac{2(x-2)}{x+2}}, \quad x \neq -2$$
 
-**45)** *Contexto: MCM de denominadores.*
+**45)** *Contexto: [MCM](../../../glossary.md#mcm) de denominadores.*
 $$\frac{2(x-1) + 3(x+1)}{(x+1)(x-1)} = \frac{2x - 2 + 3x + 3}{x^2 - 1} = \boxed{\frac{5x + 1}{x^2 - 1}}$$
 
 **46)** *Contexto: MCM es $(x+2)(x-2)$.*
@@ -210,7 +210,7 @@ $$3x = 3 \Rightarrow x = \boxed{1}$$
 **51)** *Contexto: Excluimos valores que hacen cero el denominador.*
 $$x^2 - 5x + 6 = (x-2)(x-3) = 0 \Rightarrow x = 2 \text{ o } x = 3$$
 
-**Dominio:** $\boxed{\mathbb{R} \setminus \{2, 3\}}$
+**[Dominio](../../../glossary.md#dominio):** $\boxed{\mathbb{R} \setminus \{2, 3\}}$
 
 **52)** *Contexto: Factorizamos usando suma de cubos.*
 $$\frac{(x-2)(x^2+2x+4)}{(x+2)(x-2)} = \boxed{\frac{x^2+2x+4}{x+2}}, \quad x \neq 2$$
@@ -315,7 +315,7 @@ $$(n - 11)(n + 12) = 0 \Rightarrow n = 11$$
 
 **Los números son 11 y 12** (o -12 y -11)
 
-**72)** *Contexto: Sustitución $u = x^2$.*
+**72)** *Contexto: [Sustitución](../../../glossary.md#sustitución) $u = x^2$.*
 $$u^2 - 5u + 4 = 0 \Rightarrow (u-1)(u-4) = 0$$
 $$u = 1 \Rightarrow x = \pm 1$$
 $$u = 4 \Rightarrow x = \pm 2$$
@@ -349,7 +349,7 @@ Eliminamos $y$: $(3x + 2y) \times 3 + (4x - 3y) \times 2$:
 $$9x + 6y + 8x - 6y = 72 + 24$$
 $$17x = 96 \Rightarrow x = \frac{96}{17}$$
 
-**76)** *Contexto: Regla de Cramer.*
+**76)** *Contexto: [Regla de Cramer](../../../glossary.md#regla-de-cramer).*
 $$\Delta = 10 + 12 = 22$$
 $$\Delta_x = 35 + 9 = 44 \Rightarrow x = 2$$
 $$\Delta_y = 6 - 28 = -22 \Rightarrow y = -1$$

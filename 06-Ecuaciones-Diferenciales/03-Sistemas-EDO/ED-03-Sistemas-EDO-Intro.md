@@ -1,18 +1,18 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-03-sistemas-edo
+topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)
 file_id: ED-03-Sistemas-EDO-Intro
 status: stable
 audience: student
-requires: [ed-02-edo-segundo-orden, al-valores-vectores-propios]
+requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vectores-propios]
 -->
 
 # Sistemas de Ecuaciones Diferenciales
 
 ## Propósito del tema
 
-Resolver sistemas de ecuaciones diferenciales usando métodos matriciales, esenciales para modelar sistemas interconectados y analizar estabilidad.
+Resolver sistemas de [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) usando métodos matriciales, esenciales para modelar sistemas interconectados y analizar estabilidad.
 
 ## Mapa de recursos
 
@@ -37,11 +37,11 @@ solutions/
 4. **Valores propios repetidos**: vectores generalizados
 5. **Sistemas no homogéneos**: variación de parámetros
 6. **Retratos de fase**: clasificación de puntos críticos
-7. **Matriz exponencial**: $e^{At}$ y solución fundamental
+7. **[Matriz](../../glossary.md#matriz) exponencial**: $e^{At}$ y solución fundamental
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo orden, Álgebra lineal (eigenvalores)
+- **Prerequisitos**: EDO de segundo orden, [Álgebra lineal](../../glossary.md#álgebra-lineal) (eigenvalores)
 - **Usos posteriores**: Estabilidad, Control, Modelado de sistemas
 
 ## Vista previa de conceptos clave

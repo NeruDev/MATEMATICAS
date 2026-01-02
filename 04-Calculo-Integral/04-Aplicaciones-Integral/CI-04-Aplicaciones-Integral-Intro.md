@@ -12,7 +12,7 @@ requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
 
 ## Propósito del tema
 
-Aplicar la integral definida para resolver problemas geométricos y físicos: cálculo de áreas, volúmenes, longitud de arco, área de superficie y trabajo.
+Aplicar la [integral definida](../../glossary.md#integral-definida) para resolver problemas geométricos y físicos: cálculo de áreas, volúmenes, longitud de arco, área de superficie y trabajo.
 
 ## Mapa de recursos
 
@@ -41,12 +41,12 @@ solutions/
 
 ## Conexiones
 
-- **Prerrequisitos**: Integral definida, Técnicas de integración, Geometría analítica
+- **Prerrequisitos**: Integral definida, [Técnicas de integración](../../glossary.md#técnicas-de-integración), Geometría analítica
 - **Usos posteriores**: Cálculo vectorial, Física, Ingeniería
 
 ## Vista previa de conceptos clave
 
-| Aplicación | Fórmula base |
+| Aplicación | Fórmula [base](../../glossary.md#base) |
 |------------|--------------|
 | Área entre curvas | $A = \int_a^b [f(x) - g(x)]\,dx$ |
 | Volumen (discos) | $V = \pi\int_a^b [R(x)]^2\,dx$ |

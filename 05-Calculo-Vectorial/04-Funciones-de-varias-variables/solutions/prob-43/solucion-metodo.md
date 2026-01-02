@@ -12,7 +12,7 @@ audience: student
 
 ## Problema
 
-Encontrar y clasificar todos los puntos críticos de la función:
+Encontrar y clasificar todos los puntos críticos de la [función](../../../../glossary.md#función):
 
 $$f(x,y) = x^3 + y^3 - 3xy$$
 
@@ -25,7 +25,7 @@ $$\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}
 
 **Puntos críticos:** Soluciones de $\nabla f = \mathbf{0}$
 
-**Matriz Hessiana:**
+**[Matriz](../../../../glossary.md#matriz) Hessiana:**
 $$H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy} \end{pmatrix}$$
 
 **Discriminante:**
@@ -77,7 +77,7 @@ $$x(x^3 - 1) = 0$$
 
 **Caso A:** $x = 0$
 - De (1): $y = 0^2 = 0$
-- Punto crítico: $(0, 0)$
+- [Punto crítico](../../../../glossary.md#punto-crítico): $(0, 0)$
 
 **Caso B:** $x^3 = 1 \Rightarrow x = 1$
 - De (1): $y = 1^2 = 1$

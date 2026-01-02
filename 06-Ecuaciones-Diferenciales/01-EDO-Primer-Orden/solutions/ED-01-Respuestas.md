@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-01-edo-primer-orden
+topic_id: ed-01-[edo](../../../glossary.md#edo)-primer-[orden](../../../glossary.md#orden)
 file_id: ED-01-Respuestas
 status: stable
 audience: student

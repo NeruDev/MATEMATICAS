@@ -22,7 +22,7 @@ methods: ["demostración por contradicción", "demostración directa"]
 Queremos demostrar: Si $p$ es primo y $p > 2$, entonces $p$ es impar.
 
 **Supongamos lo contrario** (para llegar a una contradicción):
-- Supongamos que existe un número $p$ tal que:
+- Supongamos que existe un número $p$ [tal que](../../../../glossary.md#tal-que):
   - $p$ es primo
   - $p > 2$
   - $p$ es **par**
@@ -44,7 +44,7 @@ Como $p$ es par, sus divisores incluyen:
 
 ### Paso 4: Encontrar la contradicción
 
-Por definición, un número primo tiene **exactamente dos divisores**: 1 y él mismo.
+Por definición, un [número primo](../../../../glossary.md#número-primo) tiene **exactamente dos divisores**: 1 y él mismo.
 
 Si $p > 2$ y $p$ es par, entonces:
 - $1$ divide a $p$

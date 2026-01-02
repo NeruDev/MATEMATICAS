@@ -2,10 +2,10 @@
 ---
 type: solution
 problem-id: CD-02-04
-topic: Derivadas
-subtopic: Definición de derivada
+topic: [Derivadas](../../../../glossary.md#derivadas)
+subtopic: Definición de [derivada](../../../../glossary.md#derivada)
 difficulty: intermedio
-tags: [derivada, definición, límite, función-racional]
+tags: [derivada, definición, [límite](../../../../glossary.md#límite), [función](../../../../glossary.md#función)-racional]
 created: 2024-12-22
 ---
 -->
@@ -92,6 +92,6 @@ $$\frac{f(2.001) - f(2)}{0.001} = \frac{\frac{1}{2.001} - \frac{1}{2}}{0.001} = 
 
 ## Notas adicionales
 
-> **Dominio de f'(x)**: La derivada $f'(x) = -\dfrac{1}{x^2}$ está definida para todo $x \neq 0$, igual que la función original.
+> **[Dominio](../../../../glossary.md#dominio) de f'(x)**: La derivada $f'(x) = -\dfrac{1}{x^2}$ está definida para todo $x \neq 0$, igual que la función original.
 
 > **Interpretación geométrica**: Como $f'(x) < 0$ para todo $x \neq 0$, la función $f(x) = \dfrac{1}{x}$ es **siempre decreciente** en cada uno de sus intervalos de dominio.

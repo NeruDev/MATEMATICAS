@@ -57,7 +57,7 @@ $$x^2 + y^2 = \cos^2 t + \sin^2 t = 1$$
 ## Método 2: Pendiente de la Tangente (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Encontrar la pendiente de la recta tangente en un punto
+- Encontrar la pendiente de la recta [tangente](../../../glossary.md#tangente) en un punto
 - Analizar puntos donde la tangente es horizontal o vertical
 
 ### Fórmula
@@ -105,7 +105,7 @@ $$\frac{dy}{dx}\bigg|_{t=2} = \frac{3(2)}{2} = 3$$
 ## Método 3: Segunda Derivada (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Determinar concavidad de la curva
+- Determinar [concavidad](../../../glossary.md#concavidad) de la curva
 - Encontrar puntos de inflexión
 
 ### Fórmula
@@ -117,7 +117,7 @@ $$\frac{d^2y}{dx^2} = \frac{d}{dt}\left(\frac{dy}{dx}\right) \cdot \frac{1}{dx/d
 |------|--------|---------|
 | 1 | Calcular $\frac{dy}{dx}$ | Método 2 |
 | 2 | Derivar $\frac{dy}{dx}$ respecto a $t$ | $\frac{d}{dt}\left(\frac{dy}{dx}\right)$ |
-| 3 | Dividir por $\frac{dx}{dt}$ | Segunda derivada |
+| 3 | Dividir por $\frac{dx}{dt}$ | Segunda [derivada](../../../glossary.md#derivada) |
 
 ### Ejemplo Detallado
 
@@ -156,7 +156,7 @@ $$L = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2
 | 2 | Calcular $\frac{dy}{dt}$ | Derivar $y(t)$ |
 | 3 | Elevar al cuadrado y sumar | $\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2$ |
 | 4 | Sacar raíz cuadrada | $\sqrt{\text{suma}}$ |
-| 5 | Integrar de $a$ a $b$ | Límites del parámetro |
+| 5 | Integrar de $a$ a $b$ | [Límites](../../../glossary.md#límites) del parámetro |
 
 ### Ejemplo Detallado
 

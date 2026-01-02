@@ -12,7 +12,7 @@ status: active
 
 ## Método 1: Verificar si una Función es Transformación Lineal
 
-**Cuándo Usar:** Para determinar si una función $T: V \to W$ preserva la estructura de espacio vectorial.
+**Cuándo Usar:** Para determinar si una [función](../../../glossary.md#función) $T: V \to W$ preserva la estructura de [espacio vectorial](../../../glossary.md#espacio-vectorial).
 
 **Definición:** $T$ es lineal si y solo si cumple:
 1. $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ (aditividad)
@@ -33,7 +33,7 @@ status: active
 
 ### Ejemplo Detallado: Transformación Lineal
 
-**Problema:** ¿Es $T: \mathbb{R}^3 \to \mathbb{R}^2$ definida por $T(x, y, z) = (2x - y + z, x + 3y)$ una transformación lineal?
+**Problema:** ¿Es $T: \mathbb{R}^3 \to \mathbb{R}^2$ definida por $T(x, y, z) = (2x - y + z, x + 3y)$ una [transformación lineal](../../../glossary.md#transformación-lineal)?
 
 ---
 
@@ -92,7 +92,7 @@ $$\boxed{T \text{ es una transformación lineal}}$$
 
 $$T(0, 0) = (0 + 1, 0^2) = (1, 0) \neq (0, 0)$$
 
-$$\boxed{T \text{ NO es lineal (falla en el vector cero)}}$$
+$$\boxed{T \text{ NO es lineal (falla en el [vector](../../../glossary.md#vector) cero)}}$$
 
 ---
 
@@ -119,7 +119,7 @@ $$\boxed{T \text{ NO es lineal (falla aditividad)}}$$
 **Definición:** $\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}$
 
 **Propiedades:**
-- $\ker(T)$ es subespacio de $V$
+- $\ker(T)$ es [subespacio](../../../glossary.md#subespacio) de $V$
 - $\dim(\ker(T)) =$ nulidad de $T$
 - $T$ inyectiva $\Leftrightarrow \ker(T) = \{\mathbf{0}\}$
 
@@ -129,10 +129,10 @@ $$\boxed{T \text{ NO es lineal (falla aditividad)}}$$
 |------|--------|---------|
 | 1 | Plantear ecuación | $T(\mathbf{v}) = \mathbf{0}$ |
 | 2 | Escribir sistema | Igualar cada componente a cero |
-| 3 | Formar matriz aumentada | Coeficientes del sistema |
+| 3 | Formar [matriz](../../../glossary.md#matriz) aumentada | Coeficientes del sistema |
 | 4 | Reducir a RREF | Gauss-Jordan |
 | 5 | Parametrizar | Expresar en función de variables libres |
-| 6 | Extraer base | Vectores que multiplican parámetros |
+| 6 | Extraer [base](../../../glossary.md#base) | Vectores que multiplican parámetros |
 
 ### Ejemplo Detallado
 
@@ -239,7 +239,7 @@ $$T(-1, 1, 0, 1) = (-1 + 1 - 0, 2(-1) + 1 + 1, -1 - 0 + 1) = (0, 0, 0) \checkmar
 
 ## Método 3: Encontrar la Imagen de una Transformación
 
-**Cuándo Usar:** Para hallar el conjunto de todos los vectores que son imagen de algún vector del dominio.
+**Cuándo Usar:** Para hallar el conjunto de todos los vectores que son imagen de algún vector del [dominio](../../../glossary.md#dominio).
 
 **Definición:** $\text{Im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\} = \{w \in W : \exists v \in V, T(v) = w\}$
 
@@ -344,7 +344,7 @@ $$[T]_{\mathcal{B}}^{\mathcal{C}} = \begin{pmatrix} | & | & & | \\ [T(\mathbf{v}
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar bases | $\mathcal{B}$ del dominio, $\mathcal{C}$ del codominio |
+| 1 | Identificar bases | $\mathcal{B}$ del dominio, $\mathcal{C}$ del [codominio](../../../glossary.md#codominio) |
 | 2 | Calcular imágenes | $T(\mathbf{v}_i)$ para cada $\mathbf{v}_i \in \mathcal{B}$ |
 | 3 | Expresar en base $\mathcal{C}$ | Escribir $T(\mathbf{v}_i)$ como combinación de vectores de $\mathcal{C}$ |
 | 4 | Formar columnas | Coeficientes como columnas de la matriz |
@@ -435,7 +435,7 @@ $$[T(\mathbf{v})]_{\mathcal{C}} = [T]_{\mathcal{B}}^{\mathcal{C}} \cdot [\mathbf
 | 1 | Obtener coordenadas | Escribir $[\mathbf{v}]_{\mathcal{B}}$ |
 | 2 | Multiplicar | $[T]_{\mathcal{B}}^{\mathcal{C}} \cdot [\mathbf{v}]_{\mathcal{B}}$ |
 | 3 | Interpretar | El resultado son coordenadas en base $\mathcal{C}$ |
-| 4 | Reconstruir (si necesario) | Convertir a forma estándar |
+| 4 | Reconstruir (si [necesario](../../../glossary.md#necesario)) | Convertir a forma estándar |
 
 ### Ejemplo Detallado
 
@@ -477,12 +477,12 @@ $$\boxed{T(4, 2) = (10, 5)}$$
 
 ## Método 6: Encontrar la Matriz de Composición
 
-**Cuándo Usar:** Para encontrar la matriz que representa la composición $S \circ T$.
+**Cuándo Usar:** Para encontrar la matriz que representa la [composición](../../../glossary.md#composición) $S \circ T$.
 
 **Fórmula:** 
 $$[S \circ T]_{\mathcal{B}}^{\mathcal{D}} = [S]_{\mathcal{C}}^{\mathcal{D}} \cdot [T]_{\mathcal{B}}^{\mathcal{C}}$$
 
-**Nota:** El orden de multiplicación es inverso al orden de aplicación.
+**Nota:** El [orden](../../../glossary.md#orden) de multiplicación es inverso al orden de aplicación.
 
 ### Algoritmo de Resolución
 
@@ -548,8 +548,8 @@ $$S(x + y, y + z) = (2(x+y) - (y+z), 3(y+z)) = (2x + y - z, 3y + 3z) \checkmark$
 
 **Definiciones:**
 - **Inyectiva (uno a uno):** $T(\mathbf{u}) = T(\mathbf{v}) \Rightarrow \mathbf{u} = \mathbf{v}$
-- **Sobreyectiva (sobre):** Para todo $\mathbf{w} \in W$, existe $\mathbf{v} \in V$ tal que $T(\mathbf{v}) = \mathbf{w}$
-- **Biyectiva (isomorfismo):** Inyectiva y sobreyectiva
+- **Sobreyectiva (sobre):** Para todo $\mathbf{w} \in W$, existe $\mathbf{v} \in V$ [tal que](../../../glossary.md#tal-que) $T(\mathbf{v}) = \mathbf{w}$
+- **Biyectiva ([isomorfismo](../../../glossary.md#isomorfismo)):** Inyectiva y sobreyectiva
 
 ### Criterios Algebraicos
 
@@ -693,7 +693,7 @@ Eigenvalores: $\lambda_1 = 5$, $\lambda_2 = 2$ ✓
 
 ## Método 9: Verificar si T es Isomorfismo
 
-**Cuándo Usar:** Para determinar si dos espacios vectoriales son estructuralmente idénticos.
+**Cuándo Usar:** Para determinar si dos [espacios vectoriales](../../../glossary.md#espacios-vectoriales) son estructuralmente idénticos.
 
 **Definición:** $T: V \to W$ es isomorfismo si es:
 1. Transformación lineal
@@ -705,9 +705,9 @@ Eigenvalores: $\lambda_1 = 5$, $\lambda_2 = 2$ ✓
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Verificar linealidad | $T(\mathbf{u}+\mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$, $T(c\mathbf{v}) = cT(\mathbf{v})$ |
+| 1 | Verificar [linealidad](../../../glossary.md#linealidad) | $T(\mathbf{u}+\mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$, $T(c\mathbf{v}) = cT(\mathbf{v})$ |
 | 2 | Construir matriz | $[T]$ respecto a bases elegidas |
-| 3 | Calcular determinante | Si bases son iguales en dimensión |
+| 3 | Calcular [determinante](../../../glossary.md#determinante) | Si bases son iguales en [dimensión](../../../glossary.md#dimensión) |
 | 4 | Analizar | $\det([T]) \neq 0 \Leftrightarrow$ isomorfismo |
 
 ### Ejemplo Detallado

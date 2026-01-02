@@ -14,7 +14,7 @@ status: active
 
 **Cuándo Usar:** Para evaluar correctamente cualquier expresión aritmética que contenga múltiples operaciones.
 
-**Regla:** La jerarquía evita ambigüedad en el orden de las operaciones.
+**Regla:** La jerarquía evita ambigüedad en el [orden](../../../glossary.md#orden) de las operaciones.
 
 ### Algoritmo de Resolución
 
@@ -93,7 +93,7 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 ## Método 2: Descomponer en Factores Primos
 
-**Cuándo Usar:** Base fundamental para calcular MCD, MCM, simplificar fracciones y raíces.
+**Cuándo Usar:** [Base](../../../glossary.md#base) fundamental para calcular [MCD](../../../glossary.md#mcd), [MCM](../../../glossary.md#mcm), simplificar fracciones y raíces.
 
 **Definición:** Todo número entero mayor que 1 puede expresarse como producto de números primos de manera única (Teorema Fundamental de la Aritmética).
 
@@ -101,15 +101,15 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Dividir por el menor primo | Comenzar por 2 |
+| 1 | Dividir por el [menor](../../../glossary.md#menor) primo | Comenzar por 2 |
 | 2 | Continuar dividiendo | Usar el mismo primo mientras sea posible |
 | 3 | Cambiar de primo | Cuando no divida, probar el siguiente primo |
 | 4 | Terminar | Cuando el cociente sea 1 |
-| 5 | Escribir factorización | Producto de primos con exponentes |
+| 5 | Escribir [factorización](../../../glossary.md#factorización) | Producto de primos con exponentes |
 
 ### Ejemplo Detallado
 
-**Problema:** Factorizar 2520 en primos.
+**Problema:** [Factorizar](../../../glossary.md#factorizar) 2520 en primos.
 
 ---
 
@@ -246,9 +246,9 @@ $$\boxed{\text{MCD}(1071, 462) = 21}$$
 
 **Objetivo:** Encontrar $x, y$ tales que $ax + by = \text{MCD}(a, b)$
 
-**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como combinación lineal.
+**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../../glossary.md#combinación-lineal).
 
-**Método de sustitución hacia atrás:**
+**Método de [sustitución](../../../glossary.md#sustitución) hacia atrás:**
 
 De la tabla:
 - $21 = 462 - 147 \times 3$

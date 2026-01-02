@@ -73,7 +73,7 @@ Si $\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0$ o $\pm\infty$, entonces:
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
-siempre que el límite del lado derecho exista.
+siempre que el [límite](../../glossary.md#límite) del lado derecho exista.
 
 ## Teorema del Sándwich (Squeeze)
 
@@ -87,7 +87,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ## Continuidad
 
-Una función $f$ es **continua** en $x = a$ si:
+Una [función](../../glossary.md#función) $f$ es **continua** en $x = a$ si:
 
 1. $f(a)$ está definida
 2. $\lim_{x \to a} f(x)$ existe
@@ -95,4 +95,4 @@ Una función $f$ es **continua** en $x = a$ si:
 
 ---
 
-> **Tip**: Siempre intenta sustitución directa primero. Si obtienes una forma indeterminada, aplica técnicas algebraicas o L'Hôpital.
+> **Tip**: Siempre intenta [sustitución](../../glossary.md#sustitución) directa primero. Si obtienes una [forma indeterminada](../../glossary.md#forma-indeterminada), aplica técnicas algebraicas o L'Hôpital.

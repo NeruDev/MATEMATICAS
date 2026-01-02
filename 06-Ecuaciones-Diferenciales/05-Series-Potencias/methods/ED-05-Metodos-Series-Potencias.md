@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Series de Potencias para EDO
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver ecuaciones diferenciales usando series de potencias y el método de Frobenius.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) usando series de potencias y el método de Frobenius.
 
 ---
 
@@ -14,13 +14,13 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Punto Ordinario](#método-1-solución-en-punto-ordinario) | EDO en punto ordinario | ⭐⭐ |
+| 1 | [Punto Ordinario](#método-1-solución-en-punto-ordinario) | [EDO](../../../glossary.md#edo) en punto ordinario | ⭐⭐ |
 | 2 | [Clasificar Puntos Singulares](#método-2-clasificar-puntos-singulares) | Identificar tipo de singularidad | ⭐⭐ |
 | 3 | [Ecuación Indicial](#método-3-ecuación-indicial) | Frobenius - encontrar exponentes | ⭐⭐ |
 | 4 | [Frobenius Caso 1](#método-4-frobenius-raíces-distintas-diferencia-no-entera) | $r_1 - r_2 \notin \mathbb{Z}$ | ⭐⭐⭐ |
 | 5 | [Frobenius Caso 2](#método-5-frobenius-raíces-iguales) | $r_1 = r_2$ | ⭐⭐⭐⭐ |
 | 6 | [Frobenius Caso 3](#método-6-frobenius-diferencia-entera) | $r_1 - r_2 \in \mathbb{Z}^+$ | ⭐⭐⭐⭐ |
-| 7 | [Radio de Convergencia](#método-7-determinar-radio-de-convergencia) | Analizar convergencia | ⭐⭐ |
+| 7 | [Radio de Convergencia](#método-7-determinar-radio-de-[convergencia](../../../glossary.md#convergencia)) | Analizar convergencia | ⭐⭐ |
 | 8 | [Ecuaciones Especiales](#método-8-identificar-ecuaciones-especiales) | Bessel, Legendre, etc. | ⭐⭐⭐ |
 | 9 | [Ecuación de Bessel](#método-9-resolver-ecuación-de-bessel) | Problemas cilíndricos | ⭐⭐⭐⭐ |
 | 10 | [Ecuación de Legendre](#método-10-resolver-ecuación-de-legendre) | Problemas esféricos | ⭐⭐⭐⭐ |
@@ -94,7 +94,7 @@ Ambas analíticas en $x = 0$ ✓ Punto ordinario
 
 ---
 
-**Paso 2-3: Suponer serie y derivadas**
+**Paso 2-3: Suponer serie y [derivadas](../../../glossary.md#derivadas)**
 
 $$y = \sum_{n=0}^{\infty} c_n x^n$$
 
@@ -544,7 +544,7 @@ $$y_1 = \frac{c_0}{x} = \frac{1}{x}$$
 
 ---
 
-**Paso 3: Encontrar** $y_2$ **por reducción de orden**
+**Paso 3: Encontrar** $y_2$ **por reducción de [orden](../../../glossary.md#orden)**
 
 $y'' + \frac{3}{x}y' + \frac{1}{x^2}y = 0$
 
@@ -780,7 +780,7 @@ $\nu^2 = 9 \Rightarrow \nu = 3$
 
 $$\boxed{\text{Ecuación de Bessel con } \nu = 3}$$
 
-**Solución general:** $y = C_1 J_3(x) + C_2 Y_3(x)$
+**[Solución general](../../../glossary.md#solución-general):** $y = C_1 J_3(x) + C_2 Y_3(x)$
 
 ---
 
@@ -798,7 +798,7 @@ $$x^2y'' + xy' + (x^2 - \nu^2)y = 0$$
 
 ### Soluciones
 
-**Función de Bessel de primera clase:**
+**[Función](../../../glossary.md#función) de Bessel de primera clase:**
 
 $$J_\nu(x) = \sum_{m=0}^{\infty} \frac{(-1)^m}{m!\,\Gamma(m+\nu+1)}\left(\frac{x}{2}\right)^{2m+\nu}$$
 
@@ -848,7 +848,7 @@ $$= \frac{x^2}{8} - \frac{x^4}{96} + \frac{x^6}{3072} - \cdots$$
 | Propiedad | Fórmula |
 |-----------|---------|
 | Recurrencia | $J_{\nu-1}(x) + J_{\nu+1}(x) = \frac{2\nu}{x}J_\nu(x)$ |
-| Derivada | $J'_\nu(x) = \frac{1}{2}[J_{\nu-1}(x) - J_{\nu+1}(x)]$ |
+| [Derivada](../../../glossary.md#derivada) | $J'_\nu(x) = \frac{1}{2}[J_{\nu-1}(x) - J_{\nu+1}(x)]$ |
 | Ceros | $J_0$ tiene ceros en $x \approx 2.405, 5.520, 8.654, \ldots$ |
 
 ---
@@ -987,7 +987,7 @@ Para problemas físicos en $[-1, 1]$, usualmente $C_2 = 0$.
 |-------|--------------|------------|
 | Usar serie en punto singular | Serie no converge | Clasificar punto primero |
 | Olvidar reindexar | Sumas incompatibles | Unificar potencias |
-| Error en recurrencia | Coeficientes incorrectos | Verificar con sustitución |
+| Error en recurrencia | Coeficientes incorrectos | Verificar con [sustitución](../../../glossary.md#sustitución) |
 | Confundir $p_0$ con $P(0)$ | Ecuación indicial mal | $xP(x)$ evaluado en 0 |
 | No considerar todos los casos | Segunda solución faltante | Analizar $r_1 - r_2$ |
 

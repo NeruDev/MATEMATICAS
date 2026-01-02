@@ -172,7 +172,7 @@ Expandiendo por la primera fila:
 
 $$|A| = 1 \cdot \begin{vmatrix} -1 & 1 \\ 2 & -1 \end{vmatrix} - 1 \cdot \begin{vmatrix} 2 & 1 \\ 1 & -1 \end{vmatrix} + 1 \cdot \begin{vmatrix} 2 & -1 \\ 1 & 2 \end{vmatrix}$$
 
-Calculamos cada determinante 2×2:
+Calculamos cada [determinante](../../../../glossary.md#determinante) 2×2:
 
 $$\begin{vmatrix} -1 & 1 \\ 2 & -1 \end{vmatrix} = (-1)(-1) - (1)(2) = 1 - 2 = -1$$
 

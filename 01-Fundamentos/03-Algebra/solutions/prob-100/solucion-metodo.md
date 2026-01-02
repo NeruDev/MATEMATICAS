@@ -6,7 +6,7 @@ file_id: FUN-03-Prob-100-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-100]"
-methods: ["elevar-al-cuadrado", "verificacion-soluciones", "analisis-dominio"]
+methods: ["elevar-al-cuadrado", "verificacion-soluciones", "analisis-[dominio](../../../../glossary.md#dominio)"]
 -->
 
 # Solución [Prob-100]: Ecuación radical (I)
@@ -45,7 +45,7 @@ $$x^2 - 2x - 3 = 0$$
 
 ### Paso 4: Resolver la ecuación cuadrática
 
-**Opción A: Factorización**
+**Opción A: [Factorización](../../../../glossary.md#factorización)**
 
 Buscamos dos números que multiplicados den $-3$ y sumados den $-2$:
 - Los números son $-3$ y $1$

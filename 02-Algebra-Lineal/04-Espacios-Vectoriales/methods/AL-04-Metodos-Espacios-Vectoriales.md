@@ -12,9 +12,9 @@ status: active
 
 ## Método 1: Verificar si un Conjunto es Subespacio
 
-**Cuándo Usar:** Para determinar si un subconjunto $W$ de un espacio vectorial $V$ es a su vez un espacio vectorial.
+**Cuándo Usar:** Para determinar si un subconjunto $W$ de un [espacio vectorial](../../../glossary.md#espacio-vectorial) $V$ es a su vez un espacio vectorial.
 
-**Teorema:** $W \subseteq V$ es subespacio si y solo si cumple las tres propiedades.
+**Teorema:** $W \subseteq V$ es [subespacio](../../../glossary.md#subespacio) si y solo si cumple las tres propiedades.
 
 ### Algoritmo de Resolución
 
@@ -31,7 +31,7 @@ status: active
 
 ---
 
-**Paso 1: Verificar que el vector cero pertenece a $W$**
+**Paso 1: Verificar que el [vector](../../../glossary.md#vector) cero pertenece a $W$**
 
 Sustituir $(0, 0, 0)$ en la ecuación:
 $$2(0) - (0) + 3(0) = 0 - 0 + 0 = 0 \checkmark$$
@@ -106,7 +106,7 @@ $$\boxed{W \text{ NO es subespacio}}$$
 **Cuándo Usar:** Para verificar si un conjunto de vectores $\{v_1, v_2, \ldots, v_k\}$ es linealmente independiente (LI) o linealmente dependiente (LD).
 
 **Definición:** 
-- **LI:** $c_1v_1 + c_2v_2 + \cdots + c_kv_k = \mathbf{0}$ solo tiene la solución trivial ($c_i = 0$ para todo $i$).
+- **LI:** $c_1v_1 + c_2v_2 + \cdots + c_kv_k = \mathbf{0}$ solo tiene la solución [trivial](../../../glossary.md#trivial) ($c_i = 0$ para todo $i$).
 - **LD:** Existe al menos una combinación no trivial que da el vector cero.
 
 ### Algoritmo de Resolución
@@ -114,7 +114,7 @@ $$\boxed{W \text{ NO es subespacio}}$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Plantear ecuación | $c_1v_1 + c_2v_2 + \cdots + c_kv_k = \mathbf{0}$ |
-| 2 | Formar matriz | Colocar vectores como columnas |
+| 2 | Formar [matriz](../../../glossary.md#matriz) | Colocar vectores como columnas |
 | 3 | Reducir | Llevar a forma escalonada (REF) |
 | 4 | Analizar | Sin variables libres → LI; con variables libres → LD |
 
@@ -189,7 +189,7 @@ $$\boxed{\text{Los vectores son LD con relación: } v_3 = 2v_1 - v_2}$$
 
 ## Método 3: Encontrar Base del Espacio Generado (Span)
 
-**Cuándo Usar:** Para hallar una base del espacio generado por un conjunto de vectores, eliminando vectores redundantes.
+**Cuándo Usar:** Para hallar una [base](../../../glossary.md#base) del espacio generado por un conjunto de vectores, eliminando vectores redundantes.
 
 ### Algoritmo de Resolución
 
@@ -266,7 +266,7 @@ $$\begin{pmatrix}
 
 $$\boxed{\text{Base de span} = \{v_1, v_3\} = \{(1, 2, 3), (1, 0, 1)\}}$$
 
-**Dimensión:** $\dim(\text{span}) = 2$
+**[Dimensión](../../../glossary.md#dimensión):** $\dim(\text{span}) = 2$
 
 ---
 
@@ -282,7 +282,7 @@ $$\boxed{\text{Base de span} = \{v_1, v_3\} = \{(1, 2, 3), (1, 0, 1)\}}$$
 |------|--------|---------|
 | 1 | Reducir a RREF | Llevar $A$ a forma escalonada reducida |
 | 2 | Identificar variables | Libres (sin pivote) y ligadas (con pivote) |
-| 3 | Parametrizar | Expresar ligadas en función de libres |
+| 3 | Parametrizar | Expresar ligadas en [función](../../../glossary.md#función) de libres |
 | 4 | Escribir solución | Forma vectorial con parámetros |
 | 5 | Extraer base | Vectores que multiplican a cada parámetro |
 
@@ -332,7 +332,7 @@ De fila 1: $x_1 + 2x_2 + x_4 = 0 \Rightarrow x_1 = -2s - t$
 
 ---
 
-**Paso 4: Escribir solución general**
+**Paso 4: Escribir [solución general](../../../glossary.md#solución-general)**
 
 $$\mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} -2s - t \\ s \\ -t \\ t \end{pmatrix}$$
 
@@ -426,7 +426,7 @@ $$\boxed{\text{Base de Col}(A) = \left\{ \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatri
 
 ## Método 6: Calcular Coordenadas en una Base
 
-**Cuándo Usar:** Para expresar un vector $\mathbf{v}$ como combinación lineal de los vectores de una base $\mathcal{B}$.
+**Cuándo Usar:** Para expresar un vector $\mathbf{v}$ como [combinación lineal](../../../glossary.md#combinación-lineal) de los vectores de una base $\mathcal{B}$.
 
 **Definición:** Si $\mathcal{B} = \{\mathbf{b}_1, \ldots, \mathbf{b}_n\}$ y $\mathbf{v} = c_1\mathbf{b}_1 + \cdots + c_n\mathbf{b}_n$, entonces:
 $$[\mathbf{v}]_{\mathcal{B}} = \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}$$
@@ -854,7 +854,7 @@ $$\boxed{\text{Teorema verificado: } 2 + 2 = 4}$$
 | Concepto | Fórmula/Relación |
 |----------|------------------|
 | Subespacio | $\mathbf{0} \in W$, cerrado bajo $+$ y $\cdot$ escalar |
-| Independencia Lineal | $c_1v_1 + \cdots + c_nv_n = \mathbf{0} \Rightarrow$ todos $c_i = 0$ |
+| [Independencia Lineal](../../../glossary.md#independencia-lineal) | $c_1v_1 + \cdots + c_nv_n = \mathbf{0} \Rightarrow$ todos $c_i = 0$ |
 | Dimensión | Número de vectores en cualquier base |
 | Rango | $= \dim(\text{Col}(A)) = \dim(\text{Row}(A))$ |
 | Nulidad | $= \dim(\text{Nul}(A)) =$ número de variables libres |

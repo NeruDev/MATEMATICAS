@@ -48,7 +48,7 @@ $$(1 + m^2)x^2 - 10m^2x + (25m^2 - 9) = 0$$
 
 ### Paso 3: Aplicar condición de tangencia
 
-Para que la recta sea tangente, debe tocar la circunferencia en **exactamente un punto**, lo que significa que la ecuación cuadrática tiene **una sola solución**.
+Para que la recta sea [tangente](../../../../glossary.md#tangente), debe tocar la circunferencia en **exactamente un punto**, lo que significa que la ecuación cuadrática tiene **una sola solución**.
 
 **Condición:** Discriminante $= 0$
 
@@ -168,7 +168,7 @@ Sea $T_1 = (x_1, y_1)$ un punto de tangencia.
 1. $T_1$ está en la circunferencia: $x_1^2 + y_1^2 = 9$
 2. $\overrightarrow{OT_1} \perp \overrightarrow{T_1P}$
 
-El vector $\overrightarrow{OT_1} = (x_1, y_1)$
+El [vector](../../../../glossary.md#vector) $\overrightarrow{OT_1} = (x_1, y_1)$
 
 El vector $\overrightarrow{T_1P} = (5 - x_1, -y_1)$
 

@@ -2,7 +2,7 @@
 ---
 type: solution
 problem-id: CD-02-37
-topic: Derivadas
+topic: [Derivadas](../../../../glossary.md#derivadas)
 subtopic: Derivación implícita
 difficulty: avanzado
 tags: [derivada, implícita, folio-descartes, curvas-algebraicas, pendiente]
@@ -14,7 +14,7 @@ created: 2024-12-22
 
 ## Problema
 
-Para la curva $x^3 + y^3 = 6xy$ (Folio de Descartes), encontrar la pendiente de la recta tangente en el punto $(3, 3)$.
+Para la curva $x^3 + y^3 = 6xy$ (Folio de Descartes), encontrar la pendiente de la recta [tangente](../../../../glossary.md#tangente) en el punto $(3, 3)$.
 
 ---
 
@@ -34,11 +34,11 @@ El punto $(3, 3)$ sí pertenece a la curva.
 Partimos de:
 $$x^3 + y^3 = 6xy$$
 
-**Derivada del lado izquierdo:**
+**[Derivada](../../../../glossary.md#derivada) del lado izquierdo:**
 $$\frac{d}{dx}[x^3 + y^3] = \frac{d}{dx}[x^3] + \frac{d}{dx}[y^3]$$
 
 - $\dfrac{d}{dx}[x^3] = 3x^2$
-- $\dfrac{d}{dx}[y^3] = 3y^2 \cdot \dfrac{dy}{dx}$ (regla de la cadena)
+- $\dfrac{d}{dx}[y^3] = 3y^2 \cdot \dfrac{dy}{dx}$ ([regla de la cadena](../../../../glossary.md#regla-de-la-cadena))
 
 $$= 3x^2 + 3y^2 \frac{dy}{dx}$$
 
@@ -133,7 +133,7 @@ $$\frac{dy}{dx} = \frac{3/2}{-3/2} = -1 \checkmark$$
 ```
 
 ### Características del Folio:
-- **Asíntota**: $x + y + 2 = 0$
+- **[Asíntota](../../../../glossary.md#asíntota)**: $x + y + 2 = 0$
 - **Punto doble**: origen $(0, 0)$
 - **Simetría**: respecto a la recta $y = x$
 - **Lazo**: en el primer cuadrante

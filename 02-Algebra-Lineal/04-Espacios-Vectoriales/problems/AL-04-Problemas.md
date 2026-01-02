@@ -9,7 +9,7 @@ audience: student
 
 # Problemas: Espacios Vectoriales
 
-> Colección de problemas graduados por dificultad para espacios vectoriales.
+> Colección de problemas graduados por dificultad para [espacios vectoriales](../../../glossary.md#espacios-vectoriales).
 
 ---
 
@@ -17,7 +17,7 @@ audience: student
 
 ### [Prob-01] Verificación de axiomas en R² ⭐
 
-Verificar los axiomas de espacio vectorial para $\mathbb{R}^2$ con las operaciones usuales.
+Verificar los axiomas de [espacio vectorial](../../../glossary.md#espacio-vectorial) para $\mathbb{R}^2$ con las operaciones usuales.
 
 📁 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -63,7 +63,7 @@ d) $W_4 = \{(x, y, z) : x = 2y\}$
 
 ### [Prob-05] Matrices simétricas como subespacio ⭐
 
-¿Es $W = \{A \in M_{2\times 2} : A^T = A\}$ (matrices simétricas) subespacio de $M_{2\times 2}$?
+¿Es $W = \{A \in M_{2\times 2} : A^T = A\}$ (matrices simétricas) [subespacio](../../../glossary.md#subespacio) de $M_{2\times 2}$?
 
 📁 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
 
@@ -79,7 +79,7 @@ d) $W_4 = \{(x, y, z) : x = 2y\}$
 
 ### [Prob-07] Espacio nulo como subespacio ⭐⭐
 
-Sea $A$ una matriz $m \times n$. Demostrar que $\text{Nul}(A)$ es subespacio de $\mathbb{R}^n$.
+Sea $A$ una [matriz](../../../glossary.md#matriz) $m \times n$. Demostrar que $\text{Nul}(A)$ es subespacio de $\mathbb{R}^n$.
 
 📁 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
 
@@ -97,7 +97,7 @@ Determinar si $W = \{(x, y, z) : x^2 + y^2 + z^2 \leq 1\}$ es subespacio de $\ma
 
 ### [Prob-09] Verificar combinación lineal ⭐
 
-¿Es $v = (1, 2, 3)$ combinación lineal de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
+¿Es $v = (1, 2, 3)$ [combinación lineal](../../../glossary.md#combinación-lineal) de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
 
 📁 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
 
@@ -187,7 +187,7 @@ Demostrar que si $\{v_1, v_2, v_3\}$ es LI, entonces $\{v_1, v_1 + v_2, v_1 + v_
 
 ### [Prob-19] Base y dimensión de subespacios ⭐⭐
 
-Encontrar una base y la dimensión de:
+Encontrar una [base](../../../glossary.md#base) y la [dimensión](../../../glossary.md#dimensión) de:
 
 a) $W = \{(x, y, z) : x - 2y + z = 0\}$
 
@@ -299,7 +299,7 @@ En un circuito eléctrico, las corrientes satisfacen ciertas ecuaciones de Kirch
 
 ### [Prob-31] Ecuaciones diferenciales y espacios solución ⭐⭐⭐
 
-El espacio de soluciones de una ecuación diferencial lineal homogénea de orden $n$ tiene dimensión $n$. Si $y_1 = e^x$ y $y_2 = e^{-x}$ son soluciones de una EDO de orden 2, ¿forman base del espacio solución?
+El espacio de soluciones de una [ecuación diferencial](../../../glossary.md#ecuación-diferencial) lineal homogénea de [orden](../../../glossary.md#orden) $n$ tiene dimensión $n$. Si $y_1 = e^x$ y $y_2 = e^{-x}$ son soluciones de una [EDO](../../../glossary.md#edo) de orden 2, ¿forman base del espacio solución?
 
 📁 **Solución:** [solutions/prob-31/](../solutions/prob-31/)
 
@@ -307,7 +307,7 @@ El espacio de soluciones de una ecuación diferencial lineal homogénea de orden
 
 ### [Prob-32] Compresión de imágenes y subespacios ⭐⭐⭐
 
-En compresión de imágenes, una imagen de $m \times n$ píxeles puede verse como vector en $\mathbb{R}^{mn}$. Si queremos representarla con $k < mn$ coeficientes, ¿qué estructura algebraica usamos?
+En compresión de imágenes, una imagen de $m \times n$ píxeles puede verse como [vector](../../../glossary.md#vector) en $\mathbb{R}^{mn}$. Si queremos representarla con $k < mn$ coeficientes, ¿qué estructura algebraica usamos?
 
 📁 **Solución:** [solutions/prob-32/](../solutions/prob-32/)
 
@@ -320,7 +320,7 @@ En compresión de imágenes, una imagen de $m \times n$ píxeles puede verse com
 | 4.1 Axiomas y Definición | Prob-01 a Prob-03 | ⭐ a ⭐⭐ |
 | 4.2 Subespacios | Prob-04 a Prob-08 | ⭐ a ⭐⭐ |
 | 4.3 Combinaciones Lineales y Span | Prob-09 a Prob-13 | ⭐ a ⭐⭐ |
-| 4.4 Independencia Lineal | Prob-14 a Prob-18 | ⭐ a ⭐⭐⭐ |
+| 4.4 [Independencia Lineal](../../../glossary.md#independencia-lineal) | Prob-14 a Prob-18 | ⭐ a ⭐⭐⭐ |
 | 4.5 Bases y Dimensión | Prob-19 a Prob-24 | ⭐ a ⭐⭐ |
 | 4.6 Coordenadas y Cambio de Base | Prob-25 a Prob-29 | ⭐⭐ a ⭐⭐⭐ |
 | 4.7 Aplicaciones | Prob-30 a Prob-32 | ⭐⭐⭐ |

@@ -24,7 +24,7 @@ $$\frac{1}{3 \times 4} = \frac{1}{12}$$
 $$\frac{1}{4 \times 5} = \frac{1}{20}$$
 
 ### Paso 2: Encontrar denominador común
-$$\text{MCM}(2, 6, 12, 20) = 60$$
+$$\text{[MCM](../../../../glossary.md#mcm)}(2, 6, 12, 20) = 60$$
 
 ### Paso 3: Convertir fracciones
 $$\frac{1}{2} = \frac{30}{60}, \quad \frac{1}{6} = \frac{10}{60}, \quad \frac{1}{12} = \frac{5}{60}, \quad \frac{1}{20} = \frac{3}{60}$$

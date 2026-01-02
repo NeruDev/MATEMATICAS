@@ -169,7 +169,7 @@ $$y - (-1) = \pm\frac{1}{2}(x - 2)$$
 
 $$y + 1 = \pm\frac{1}{2}(x - 2)$$
 
-**Asíntota 1:**
+**[Asíntota](../../../../glossary.md#asíntota) 1:**
 $$y + 1 = \frac{1}{2}(x - 2)$$
 $$y = \frac{1}{2}x - 1 - 1$$
 $$\boxed{y = \frac{1}{2}x - 2}$$

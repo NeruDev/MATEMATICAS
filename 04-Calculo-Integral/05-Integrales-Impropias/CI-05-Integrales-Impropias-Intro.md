@@ -12,7 +12,7 @@ requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
 
 ## Propósito del tema
 
-Extender el concepto de integral definida a casos con límites infinitos o integrandos con discontinuidades, y determinar convergencia o divergencia.
+Extender el concepto de [integral definida](../../glossary.md#integral-definida) a casos con [límites](../../glossary.md#límites) infinitos o integrandos con discontinuidades, y determinar [convergencia](../../glossary.md#convergencia) o [divergencia](../../glossary.md#divergencia).
 
 ## Mapa de recursos
 
@@ -33,15 +33,15 @@ solutions/
 
 1. **Tipo I - Límites infinitos**: $\int_a^\infty f(x)\,dx$, $\int_{-\infty}^b f(x)\,dx$
 2. **Tipo II - Discontinuidades**: integrando discontinuo en el intervalo
-3. **Convergencia y divergencia**: cuándo existe el límite
-4. **Criterio de comparación directa**: comparar con integrales conocidas
+3. **Convergencia y divergencia**: cuándo existe el [límite](../../glossary.md#límite)
+4. **[Criterio de comparación](../../glossary.md#criterio-de-comparación) directa**: comparar con integrales conocidas
 5. **Criterio de comparación por límite**: para funciones que se comportan similarmente
 6. **Integrales p**: $\int_1^\infty \frac{1}{x^p}\,dx$ convergente si $p > 1$
 
 ## Conexiones
 
-- **Prerrequisitos**: Integral definida, Límites, Técnicas de integración
-- **Usos posteriores**: Series, Transformada de Laplace, Probabilidad
+- **Prerrequisitos**: Integral definida, Límites, [Técnicas de integración](../../glossary.md#técnicas-de-integración)
+- **Usos posteriores**: Series, [Transformada de Laplace](../../glossary.md#transformada-de-laplace), Probabilidad
 
 ## Vista previa de conceptos clave
 
@@ -55,7 +55,7 @@ solutions/
 
 ## Idea fundamental
 
-Una integral impropia se evalúa como **límite**:
+Una [integral impropia](../../glossary.md#integral-impropia) se evalúa como **límite**:
 
 $$\int_a^\infty f(x)\,dx = \lim_{t\to\infty} \int_a^t f(x)\,dx$$
 
@@ -65,7 +65,7 @@ Si el límite no existe o es infinito → **diverge**
 ---
 
 <!--
-IA: Punto de entrada para integrales impropias.
+IA: Punto de entrada para [integrales impropias](../../glossary.md#integrales-impropias).
 Enfatizar la diferencia entre convergencia y divergencia.
 file_id: CI-05-Integrales-Impropias-Intro
 -->

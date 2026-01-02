@@ -53,7 +53,7 @@ $$\int \mathbf{r}(t)\, dt = \left\langle \int x(t)\,dt,\; \int y(t)\,dt,\; \int 
 
 ## Marco de Frenet-Serret (TNB)
 
-| Vector | Fórmula |
+| [Vector](../../glossary.md#vector) | Fórmula |
 |--------|---------|
 | **Tangente unitario** | $\mathbf{T} = \frac{\mathbf{r}'}{\lVert \mathbf{r}' \rVert}$ |
 | **Normal principal** | $\mathbf{N} = \frac{\mathbf{T}'}{\lVert \mathbf{T}' \rVert}$ |

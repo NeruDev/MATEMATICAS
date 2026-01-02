@@ -1,6 +1,6 @@
 <!--
 ---
-title: Introducción a Métodos de Raíces de Ecuaciones
+title: Introducción a Métodos de [Raíces de Ecuaciones](../../glossary.md#raíces-de-ecuaciones)
 type: index
 topic: raices-ecuaciones
 tags: [métodos-numéricos, raíces, bisección, newton-raphson, secante, punto-fijo]
@@ -13,7 +13,7 @@ updated: 2025-12-20
 
 ## Descripción General
 
-Los métodos numéricos para encontrar raíces de ecuaciones son algoritmos iterativos que aproximan las soluciones de $f(x) = 0$ cuando no es posible obtener una solución analítica exacta.
+Los [métodos numéricos](../../glossary.md#métodos-numéricos) para encontrar raíces de ecuaciones son algoritmos iterativos que aproximan las soluciones de $f(x) = 0$ cuando no es posible obtener una solución analítica exacta.
 
 ## Contenido del Módulo
 
@@ -31,16 +31,16 @@ Los métodos numéricos para encontrar raíces de ecuaciones son algoritmos iter
 
 ## Objetivos de Aprendizaje
 
-1. Comprender el concepto de convergencia y error en métodos iterativos
-2. Aplicar el método de bisección para encontrar raíces en intervalos acotados
-3. Implementar el método de Newton-Raphson y analizar su convergencia
+1. Comprender el concepto de [convergencia](../../glossary.md#convergencia) y error en métodos iterativos
+2. Aplicar el [método de bisección](../../glossary.md#método-de-bisección) para encontrar raíces en intervalos acotados
+3. Implementar el [método de Newton-Raphson](../../glossary.md#método-de-newton-raphson) y analizar su convergencia
 4. Comparar la eficiencia de diferentes métodos numéricos
 
 ## Prerrequisitos
 
-- Cálculo diferencial (derivadas)
+- [Cálculo diferencial](../../glossary.md#cálculo-diferencial) ([derivadas](../../glossary.md#derivadas))
 - Teorema del valor intermedio
-- Conceptos de límites y continuidad
+- Conceptos de [límites](../../glossary.md#límites) y [continuidad](../../glossary.md#continuidad)
 
 ## Mapa Conceptual
 

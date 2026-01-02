@@ -40,13 +40,13 @@ solved_detailed: 0
 | [Prob-19] | Por TVM: $\dfrac{\tan x - \tan 0}{x - 0} = \sec^2 c$ para $c \in (0, x)$; $\sec^2 c > 1$ | ➖ |
 | [Prob-20] | Aplicar TVM en $[0, 1/2]$ y $[1/2, 1]$; usar que $f(1/2)$ divide el recorrido | ➖ |
 | [Prob-21] | Aplicar TVM en $[b, a]$: $\sec^2 c$ está entre $\sec^2 a$ y $\sec^2 b$ | ➖ |
-| [Prob-22] | Por TVM y convexidad: la secante está por encima de la función en el punto medio | ➖ |
+| [Prob-22] | Por TVM y convexidad: la secante está por encima de la [función](../../../glossary.md#función) en el punto medio | ➖ |
 | **4.3 TVM Generalizado de Cauchy** |||
 | [Prob-23] | $c = \dfrac{3}{2}$ | ➖ |
-| [Prob-24] | $c$ tal que $\dfrac{\cos c}{-\sin c} = \dfrac{\sin(\pi/4) - 0}{\cos(\pi/4) - 1}$ | ➖ |
-| [Prob-25] | La tangente a la curva paramétrica $(t^2, t^3)$ en $t = c$ es paralela a la cuerda | ➖ |
+| [Prob-24] | $c$ [tal que](../../../glossary.md#tal-que) $\dfrac{\cos c}{-\sin c} = \dfrac{\sin(\pi/4) - 0}{\cos(\pi/4) - 1}$ | ➖ |
+| [Prob-25] | La [tangente](../../../glossary.md#tangente) a la curva paramétrica $(t^2, t^3)$ en $t = c$ es paralela a la cuerda | ➖ |
 | [Prob-26] | $\displaystyle\lim_{x \to a} \dfrac{f(x)}{g(x)} = \lim_{x \to a} \dfrac{f(x) - f(a)}{g(x) - g(a)} = \dfrac{f'(c)}{g'(c)} \to \dfrac{f'(a)}{g'(a)}$ | ➖ |
-| [Prob-27] | Sea $h = b - a$; aplicar Cauchy con sustitución $t = a + \theta h$ | ➖ |
+| [Prob-27] | Sea $h = b - a$; aplicar Cauchy con [sustitución](../../../glossary.md#sustitución) $t = a + \theta h$ | ➖ |
 | **4.4 Regla de L'Hôpital (Forma 0/0)** |||
 | [Prob-28] | $1$ | ➖ |
 | [Prob-29] | $1$ | ➖ |

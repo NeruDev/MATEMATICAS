@@ -21,13 +21,13 @@ last_updated: 2024-12-29
 - Método estándar y sistemático
 
 ### Objetivo
-Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **sustitución hacia atrás**.
+Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../../glossary.md#sustitución) hacia atrás**.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir matriz aumentada | $(A \mid b)$ |
+| 1 | Escribir [matriz](../../../glossary.md#matriz) aumentada | $(A \mid b)$ |
 | 2 | Encontrar pivote | Primer elemento no nulo en columna |
 | 3 | Hacer ceros debajo del pivote | $R_i - \frac{a_{i1}}{a_{11}}R_1 \to R_i$ |
 | 4 | Repetir para cada columna | Avanzar a la siguiente columna |
@@ -170,7 +170,7 @@ $$\left(\begin{array}{ccc|c} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 3 \en
 | 3 | Identificar variables libres | Columnas sin pivote |
 | 4 | Asignar parámetros | A cada variable libre |
 | 5 | Despejar variables básicas | En términos de parámetros |
-| 6 | Escribir solución vectorial | Solución particular + combinación de vectores |
+| 6 | Escribir solución vectorial | [Solución particular](../../../glossary.md#solución-particular) + combinación de vectores |
 
 ### Ejemplo Detallado
 
@@ -211,12 +211,12 @@ $$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix
 
 ### Cuándo Usar
 - Sistema con todos los términos independientes iguales a cero
-- Encontrar el núcleo (kernel) de una matriz
+- Encontrar el [núcleo (kernel)](../../../glossary.md#núcleo-kernel) de una matriz
 
 ### Propiedades
-- **Siempre** tiene la solución trivial $x = 0$
+- **Siempre** tiene la solución [trivial](../../../glossary.md#trivial) $x = 0$
 - Si $\text{rango}(A) < n$, tiene infinitas soluciones no triviales
-- El conjunto solución es un **subespacio vectorial**
+- El conjunto solución es un **[subespacio](../../../glossary.md#subespacio) vectorial**
 
 ### Algoritmo de Resolución
 
@@ -224,7 +224,7 @@ $$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix
 |------|--------|---------|
 | 1 | Reducir $A$ a RREF | Sin columna aumentada |
 | 2 | Identificar variables libres | Columnas sin pivote |
-| 3 | Encontrar base del núcleo | Un vector por cada variable libre |
+| 3 | Encontrar [base](../../../glossary.md#base) del núcleo | Un [vector](../../../glossary.md#vector) por cada variable libre |
 
 ### Ejemplo Detallado
 
@@ -246,7 +246,7 @@ $$x_1 = -2t, \quad x_3 = 0$$
 **Resultado:** El espacio solución es:
 $$\boxed{\ker(A) = \text{span}\left\{\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix}\right\}}$$
 
-Dimensión del núcleo: $\dim(\ker A) = 1$ (una variable libre).
+[Dimensión](../../../glossary.md#dimensión) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
 
 ---
 
@@ -296,7 +296,7 @@ $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
 donde $A_i$ tiene la columna $i$ reemplazada por el vector $b$.
 
-*Ver Método 7 de Determinantes para ejemplo detallado.*
+*Ver Método 7 de [Determinantes](../../../glossary.md#determinantes) para ejemplo detallado.*
 
 ---
 
@@ -315,7 +315,7 @@ Descomponer $A = LU$ donde:
 
 | Paso | Acción | Sistema |
 |------|--------|---------|
-| 1 | Factorizar $A = LU$ | Durante eliminación gaussiana |
+| 1 | [Factorizar](../../../glossary.md#factorizar) $A = LU$ | Durante eliminación gaussiana |
 | 2 | Resolver $Ly = b$ | Sustitución hacia adelante |
 | 3 | Resolver $Ux = y$ | Sustitución hacia atrás |
 
@@ -363,7 +363,7 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 
 | Paso | Acción |
 |------|--------|
-| 1 | Calcular $\det(A)$ en función del parámetro |
+| 1 | Calcular $\det(A)$ en [función](../../../glossary.md#función) del parámetro |
 | 2 | Encontrar valores críticos donde $\det = 0$ |
 | 3 | Analizar cada caso por separado |
 
@@ -372,7 +372,7 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 **Problema:** Para qué valores de $k$ el sistema tiene solución única, infinitas o ninguna:
 $$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 1 \\ x + 2y + kz = 1 \end{cases}$$
 
-**Paso 1:** Calculamos el determinante:
+**Paso 1:** Calculamos el [determinante](../../../glossary.md#determinante):
 $$\det(A) = \det\begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & k \end{pmatrix}$$
 
 Expandiendo por la columna 1:

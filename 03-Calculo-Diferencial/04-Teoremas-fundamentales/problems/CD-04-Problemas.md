@@ -14,7 +14,7 @@ total_problems: 80
 
 # Problemas de Teoremas Fundamentales
 
-Colección de problemas sobre los teoremas fundamentales del cálculo diferencial.
+Colección de problemas sobre los teoremas fundamentales del [cálculo diferencial](../../../glossary.md#cálculo-diferencial).
 
 **Niveles de dificultad:**
 - ⭐ Básico
@@ -35,7 +35,7 @@ Verificar que $f(x) = x^2 - 4x + 3$ cumple las hipótesis de Rolle en $[1, 3]$ y
 
 ### [Prob-02] Análisis de valor absoluto en Rolle ⭐
 
-¿La función $f(x) = \lvert x \rvert$ cumple el teorema de Rolle en $[-1, 1]$? Justificar.
+¿La [función](../../../glossary.md#función) $f(x) = \lvert x \rvert$ cumple el teorema de Rolle en $[-1, 1]$? Justificar.
 
 > 📎 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
 
@@ -239,7 +239,7 @@ Usar TVM de Cauchy para probar la regla de L'Hôpital para el caso $\frac{0}{0}$
 
 ### [Prob-27] Forma paramétrica de Cauchy ⭐⭐⭐
 
-Sean $f$ y $g$ diferenciables con $g'(x) \neq 0$. Probar que existe $\theta \in (0, 1)$ tal que:
+Sean $f$ y $g$ diferenciables con $g'(x) \neq 0$. Probar que existe $\theta \in (0, 1)$ [tal que](../../../glossary.md#tal-que):
 $$\frac{f(a+h) - f(a)}{g(a+h) - g(a)} = \frac{f'(a + \theta h)}{g'(a + \theta h)}$$
 
 > 📎 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
@@ -560,7 +560,7 @@ $\displaystyle\lim_{x \to 0^+} (\cot x)^{\sin x}$
 
 ### [Prob-66] Polinomio de Taylor de exponencial ⭐
 
-Encontrar el polinomio de Taylor de grado 3 de $e^x$ alrededor de $x = 0$.
+Encontrar el [polinomio](../../../glossary.md#polinomio) de Taylor de grado 3 de $e^x$ alrededor de $x = 0$.
 
 > 📎 **Solución:** [solutions/prob-66/](../solutions/prob-66/)
 
@@ -624,7 +624,7 @@ Usar $P_2(x)$ de $e^x$ para aproximar $e^{0.1}$ y estimar el error.
 
 ### [Prob-74] Términos necesarios para seno ⭐⭐
 
-¿Cuántos términos de la serie de $\sin x$ se necesitan para aproximar $\sin(0.1)$ con error menor que $10^{-6}$?
+¿Cuántos términos de la serie de $\sin x$ se necesitan para aproximar $\sin(0.1)$ con error [menor](../../../glossary.md#menor) que $10^{-6}$?
 
 > 📎 **Solución:** [solutions/prob-74/](../solutions/prob-74/)
 

@@ -12,15 +12,15 @@ status: active
 
 ### Definición de Ecuación Diferencial
 
-Una **ecuación diferencial** es una ecuación que relaciona una función desconocida con sus derivadas.
+Una **[ecuación diferencial](../../../glossary.md#ecuación-diferencial)** es una ecuación que relaciona una [función](../../../glossary.md#función) desconocida con sus [derivadas](../../../glossary.md#derivadas).
 
-**Ecuación Diferencial Ordinaria (EDO):** Involucra una función de una sola variable independiente.
+**Ecuación Diferencial Ordinaria ([EDO](../../../glossary.md#edo)):** Involucra una función de una sola variable independiente.
 
 $$F\left(x, y, \frac{dy}{dx}, \frac{d^2y}{dx^2}, ..., \frac{d^ny}{dx^n}\right) = 0$$
 
 ### Orden y Grado
 
-- **Orden:** El orden de la derivada más alta que aparece
+- **[Orden](../../../glossary.md#orden):** El orden de la [derivada](../../../glossary.md#derivada) más alta que aparece
 - **Grado:** El exponente de la derivada de mayor orden (cuando es polinomial)
 
 | Ejemplo | Orden | Grado |
@@ -31,11 +31,11 @@ $$F\left(x, y, \frac{dy}{dx}, \frac{d^2y}{dx^2}, ..., \frac{d^ny}{dx^n}\right) =
 
 ### Tipos de Soluciones
 
-**Solución general:** Contiene constantes arbitrarias (una por cada orden).
+**[Solución general](../../../glossary.md#solución-general):** Contiene constantes arbitrarias (una por cada orden).
 
-**Solución particular:** Se obtiene asignando valores a las constantes.
+**[Solución particular](../../../glossary.md#solución-particular):** Se obtiene asignando valores a las constantes.
 
-**Solución singular:** No se obtiene de la general (tangente a la familia de curvas).
+**Solución singular:** No se obtiene de la general ([tangente](../../../glossary.md#tangente) a la familia de curvas).
 
 ### Problema de Valor Inicial (PVI)
 
@@ -83,7 +83,7 @@ $$\frac{dy}{dx} + P(x)y = Q(x)$$
 
 ### Factor Integrante
 
-El **factor integrante** es:
+El **[factor integrante](../../../glossary.md#factor-integrante)** es:
 $$\mu(x) = e^{\int P(x)dx}$$
 
 ### Derivación de la Solución
@@ -121,7 +121,7 @@ $$y = \frac{x^3}{5} + \frac{C}{x^2}$$
 
 ### Definición
 
-La ecuación $M(x,y)dx + N(x,y)dy = 0$ es **exacta** si existe $F(x,y)$ tal que:
+La ecuación $M(x,y)dx + N(x,y)dy = 0$ es **exacta** si existe $F(x,y)$ [tal que](../../../glossary.md#tal-que):
 $$dF = \frac{\partial F}{\partial x}dx + \frac{\partial F}{\partial y}dy = Mdx + Ndy$$
 
 ### Criterio de Exactitud
@@ -181,7 +181,7 @@ $$\frac{dy}{dx} + P(x)y = Q(x)y^n \quad (n \neq 0, 1)$$
 
 ### Método de Solución
 
-**Sustitución:** $v = y^{1-n}$
+**[Sustitución](../../../glossary.md#sustitución):** $v = y^{1-n}$
 
 Entonces: $\frac{dv}{dx} = (1-n)y^{-n}\frac{dy}{dx}$
 

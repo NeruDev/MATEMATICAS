@@ -11,7 +11,7 @@ audience: student
 
 # Solución: Límite seno fundamental
 
-**Método aplicado:** Límite trigonométrico fundamental $\lim_{u \to 0} \frac{\sin u}{u} = 1$
+**Método aplicado:** [Límite](../../../../glossary.md#límite) trigonométrico fundamental $\lim_{u \to 0} \frac{\sin u}{u} = 1$
 
 **Paso 1: Reescribir usando el límite fundamental**
 Hacemos $u = 5x$. Cuando $x \to 0$, también $u \to 0$.

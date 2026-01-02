@@ -11,7 +11,7 @@ audience: student
 
 ## Descripción General
 
-Los **teoremas fundamentales** del cálculo diferencial proporcionan la base teórica rigurosa para todas las aplicaciones de la derivada. Estos resultados conectan conceptos como continuidad, derivabilidad y comportamiento de funciones.
+Los **teoremas fundamentales** del [cálculo diferencial](../../glossary.md#cálculo-diferencial) proporcionan la [base](../../glossary.md#base) teórica rigurosa para todas las aplicaciones de la [derivada](../../glossary.md#derivada). Estos resultados conectan conceptos como [continuidad](../../glossary.md#continuidad), derivabilidad y comportamiento de funciones.
 
 ## Objetivos de Aprendizaje
 
@@ -31,7 +31,7 @@ Al finalizar este tema, serás capaz de:
 |---------|---------------------|
 | Rolle | Existencia de puntos con derivada cero |
 | Valor Medio | Relación entre tasa promedio e instantánea |
-| Cauchy | Generalización del valor medio |
+| Cauchy | [Generalización](../../glossary.md#generalización) del valor medio |
 | Taylor | Aproximación polinómica de funciones |
 
 ### Jerarquía de Teoremas
@@ -61,9 +61,9 @@ La serie de Taylor permite expresar funciones como sumas infinitas de potencias,
 
 ## Prerrequisitos
 
-- Derivadas y sus propiedades
+- [Derivadas](../../glossary.md#derivadas) y sus propiedades
 - Continuidad de funciones
-- Límites
+- [Límites](../../glossary.md#límites)
 
 ## Recursos
 

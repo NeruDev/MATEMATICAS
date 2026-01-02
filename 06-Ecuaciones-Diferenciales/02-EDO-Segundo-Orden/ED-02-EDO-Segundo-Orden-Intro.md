@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-02-edo-segundo-orden
+topic_id: ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden)
 file_id: ED-02-EDO-Segundo-Orden-Intro
 status: stable
 audience: student
@@ -12,7 +12,7 @@ requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
 
 ## Propósito del tema
 
-Resolver ecuaciones diferenciales de segundo orden con coeficientes constantes y variables, esenciales para modelar oscilaciones, vibraciones y circuitos eléctricos.
+Resolver [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) de segundo orden con coeficientes constantes y variables, esenciales para modelar oscilaciones, vibraciones y circuitos eléctricos.
 
 ## Mapa de recursos
 
@@ -40,8 +40,8 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de primer orden, Álgebra lineal (valores propios)
-- **Usos posteriores**: Sistemas de EDO, Transformada de Laplace, Vibraciones
+- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../../glossary.md#álgebra-lineal) (valores propios)
+- **Usos posteriores**: Sistemas de EDO, [Transformada de Laplace](../../glossary.md#transformada-de-laplace), Vibraciones
 
 ## Vista previa de conceptos clave
 
@@ -55,7 +55,7 @@ solutions/
 
 | Método | Cuándo usar |
 |--------|-------------|
-| Coeficientes indeterminados | $g(x)$ es polinomio, exponencial o trigonométrica |
+| Coeficientes indeterminados | $g(x)$ es [polinomio](../../glossary.md#polinomio), exponencial o trigonométrica |
 | Variación de parámetros | Cualquier $g(x)$ continua |
 
 ---

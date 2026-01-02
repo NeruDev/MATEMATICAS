@@ -16,7 +16,7 @@ audience: student
 ## Método 1: Magnitud de un Vector
 
 ### Cuándo Usar
-- Calcular la "longitud" o norma de un vector
+- Calcular la "longitud" o norma de un [vector](../../../glossary.md#vector)
 - Normalizar vectores (crear unitarios)
 
 ### Fórmula

@@ -22,7 +22,7 @@ difficulty_distribution:
 
 ## 3.1 Dominio, Límites y Continuidad
 
-**[Prob-01]** Encuentra el dominio de $\mathbf{r}(t) = \langle \sqrt{t-1}, \ln(4-t), e^t \rangle$.
+**[Prob-01]** Encuentra el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t-1}, \ln(4-t), e^t \rangle$.
 
 **[Prob-02]** Encuentra el dominio de $\mathbf{r}(t) = \langle \frac{1}{t}, \arcsin t, \sqrt{9-t^2} \rangle$.
 
@@ -70,7 +70,7 @@ b) Encuentra $\mathbf{r}''(t)$
 
 ## 3.4 Vectores Tangente y Recta Tangente
 
-**[Prob-18]** Encuentra el vector tangente unitario $\mathbf{T}(t)$ para $\mathbf{r}(t) = \langle t, t^2, t^3 \rangle$ en $t = 1$.
+**[Prob-18]** Encuentra el [vector](../../../glossary.md#vector) [tangente](../../../glossary.md#tangente) unitario $\mathbf{T}(t)$ para $\mathbf{r}(t) = \langle t, t^2, t^3 \rangle$ en $t = 1$.
 
 **[Prob-19]** Para la hélice $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$:
 a) Encuentra $\mathbf{T}(t)$
@@ -90,7 +90,7 @@ b) Evalúa $\mathbf{T}(\pi/4)$
 
 **[Prob-24]** Calcula la longitud de la hélice $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$ para $t \in [0, 2\pi]$.
 
-**[Prob-25]** Encuentra la función longitud de arco $s(t)$ desde $t = 0$ para $\mathbf{r}(t) = \langle t^2, \frac{2\sqrt{2}}{3}t^{3/2}, \frac{t^2}{2} \rangle$.
+**[Prob-25]** Encuentra la [función](../../../glossary.md#función) longitud de arco $s(t)$ desde $t = 0$ para $\mathbf{r}(t) = \langle t^2, \frac{2\sqrt{2}}{3}t^{3/2}, \frac{t^2}{2} \rangle$.
 
 **[Prob-26]** Reparametriza la curva $\mathbf{r}(t) = \langle 3t, 4t, 0 \rangle$ usando la longitud de arco.
 

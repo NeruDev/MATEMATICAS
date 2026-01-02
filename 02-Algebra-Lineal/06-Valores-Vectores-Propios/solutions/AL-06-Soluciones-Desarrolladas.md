@@ -59,7 +59,7 @@ $\lambda = \pm i$
 
 **Solución:**
 
-**Eigenvalores:** (matriz triangular)
+**Eigenvalores:** ([matriz](../../../glossary.md#matriz) triangular)
 $\lambda_1 = 1$, $\lambda_2 = 3$
 
 **Eigenvectores:**
@@ -100,7 +100,7 @@ $v_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 $p(\lambda) = (2-\lambda)^2 = 0$
 $\lambda = 2$ con $m_a(2) = 2$
 
-**b) Multiplicidad geométrica:**
+**b) [Multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica):**
 $A - 2I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$
 $\ker(A - 2I) = \text{span}\{(1, 0)^T\}$
 $m_g(2) = 1$

@@ -49,7 +49,7 @@ solved_detailed: 3
 | [Prob-25] | $\frac{dz}{dt} = 2t^4 + 4t^4 + 2t^4 + 3t^5 = 8t^4 + 3t^5$ | ➖ |
 | [Prob-26] | $\frac{\partial z}{\partial s} = e^{s^2-t^2}(s+t+s-t) = 2se^{s^2-t^2}$, $\frac{\partial z}{\partial t} = 2te^{s^2-t^2}$ | ➖ |
 | [Prob-27] | $\frac{\partial w}{\partial \rho} = 2\rho$ | ➖ |
-| [Prob-28] | Demostrado usando regla de la cadena | ➖ |
+| [Prob-28] | Demostrado usando [regla de la cadena](../../../glossary.md#regla-de-la-cadena) | ➖ |
 | [Prob-29] | $\frac{dT}{dt} = 0$ (la temperatura es constante sobre el círculo) | ➖ |
 | **4.6 Gradiente y Derivada Direccional** |||
 | [Prob-30] | $\nabla f = \langle 2xe^y + \frac{y}{x}, x^2e^y + \ln x \rangle$ | ➖ |
@@ -66,7 +66,7 @@ solved_detailed: 3
 | [Prob-40] | $\approx 0.946$ (exacto: $1.02^2 \cdot 0.97^3 \approx 0.9509$) | ➖ |
 | [Prob-41] | $\Delta V \approx -\frac{500\pi}{3} \approx -523.6$ cm³ | ➖ |
 | **4.8 Extremos Locales** |||
-| [Prob-42] | Punto crítico: $(1, 2)$; mínimo local | ➖ |
+| [Prob-42] | [Punto crítico](../../../glossary.md#punto-crítico): $(1, 2)$; mínimo local | ➖ |
 | [Prob-43] | $(0, 0)$ punto silla; $(1, 1)$ mínimo local | [✅](prob-43/solucion-metodo.md) |
 | [Prob-44] | $(0, 0)$ punto silla (no hay extremos) | ➖ |
 | [Prob-45] | $(0, 0)$ punto silla; $(\frac{1}{3}, \frac{1}{3})$ máximo local | ➖ |

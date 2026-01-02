@@ -17,7 +17,7 @@ $$\mathbf{X}' = \begin{pmatrix} 3 & -2 \\ 1 & 1 \end{pmatrix}\mathbf{X}$$
 ---
 
 ## Problema 2a
-**EDO:** $y'' + 4y' + 3y = 0$
+**[EDO](../../../glossary.md#edo):** $y'' + 4y' + 3y = 0$
 
 **Solución:**
 Sea $x_1 = y$, $x_2 = y'$
@@ -92,7 +92,7 @@ $(\lambda - 2)^2 = 0 \Rightarrow \lambda = 2$ (doble)
 
 Eigenvector: $\begin{pmatrix} 1 & -1 \\ 1 & -1 \end{pmatrix}\mathbf{v} = 0 \Rightarrow \mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 
-Vector generalizado: $\begin{pmatrix} 1 & -1 \\ 1 & -1 \end{pmatrix}\mathbf{w} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
+[Vector](../../../glossary.md#vector) generalizado: $\begin{pmatrix} 1 & -1 \\ 1 & -1 \end{pmatrix}\mathbf{w} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 
 $w_1 - w_2 = 1 \Rightarrow \mathbf{w} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$
 
@@ -101,7 +101,7 @@ $$\mathbf{X} = C_1 e^{2t}\begin{pmatrix} 1 \\ 1 \end{pmatrix} + C_2 e^{2t}\left[
 ---
 
 ## Problema 12a
-**Matriz:** $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$
+**[Matriz](../../../glossary.md#matriz):** $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$
 
 **Solución:**
 $\tau = 5$, $\Delta = 4 - 6 = -2$

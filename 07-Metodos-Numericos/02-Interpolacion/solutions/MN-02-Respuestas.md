@@ -28,7 +28,7 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-05] | $P(x) = -1 + 2x + 0(x)(x-1) + 0 = -1 + 2x$; polinomio lineal | ➖ |
+| [Prob-05] | $P(x) = -1 + 2x + 0(x)(x-1) + 0 = -1 + 2x$; [polinomio](../../../glossary.md#polinomio) lineal | ➖ |
 | [Prob-06] | a) $f[0,1] = 1$; b) $f[0,1,2] = 3$; c) $f[0,1,2,3] = 1$ | ➖ |
 | [Prob-07] | Demostración por inducción sobre definición recursiva | ➖ |
 | [Prob-08] | $f[x_0, \ldots, x_n] = a_n$ (coeficiente líder del polinomio) | ➖ |
@@ -47,7 +47,7 @@ solved_detailed: 0
 |:---|:----------|:--------:|
 | [Prob-12] | $\|E(x)\| \leq \frac{e}{8} \approx 0.3398$ (cota superior) | ➖ |
 | [Prob-13] | a) $P_2(x)$ por Lagrange; b) $\|E(x)\| \leq \frac{1}{6}\left(\frac{\pi}{4}\right)^3 \approx 0.0323$ | ➖ |
-| [Prob-14] | Fenómeno de Runge: oscilaciones cerca de extremos; $\|f^{(n+1)}\| \to \infty$ | ➖ |
+| [Prob-14] | [Fenómeno de Runge](../../../glossary.md#fenómeno-de-runge): oscilaciones cerca de extremos; $\|f^{(n+1)}\| \to \infty$ | ➖ |
 | [Prob-15] | Chebyshev $n=3$: $x_k = \cos\left(\frac{2k+1}{8}\pi\right)$; $x \approx \pm 0.924, \pm 0.383$ | ➖ |
 
 ### Sección 5: Splines Cúbicos
@@ -78,8 +78,8 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-25] | Algoritmo: tabla triangular de diferencias divididas $O(n^2)$ | ➖ |
-| [Prob-26] | Sistema tridiagonal $Ax = b$ para segundas derivadas; $O(n)$ con Thomas | ➖ |
+| [Prob-25] | Algoritmo: tabla triangular de [diferencias divididas](../../../glossary.md#diferencias-divididas) $O(n^2)$ | ➖ |
+| [Prob-26] | Sistema tridiagonal $Ax = b$ para segundas [derivadas](../../../glossary.md#derivadas); $O(n)$ con Thomas | ➖ |
 | [Prob-27] | Mismo resultado; Newton más eficiente para agregar puntos | ➖ |
 
 ### Sección 9: Problemas Teóricos

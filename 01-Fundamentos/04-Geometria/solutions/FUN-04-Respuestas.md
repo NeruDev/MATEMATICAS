@@ -87,7 +87,7 @@ solved_detailed: 5
 | [Prob-68] | Triángulo: $A = 16\sqrt{3} \approx 27.7$ cm²; Cuadrado: $A = 36$ cm². El cuadrado tiene mayor área | ➖ |
 | [Prob-69] | Área sombreada $= 36\pi - 54\sqrt{3} \approx 19.6$ cm² | ➖ |
 | [Prob-70] | Área del camino $= 80 \times 60 - 76 \times 56 = 544$ m² | ➖ |
-| [Prob-71] | Radio de la base del cono $= 3$ cm | ➖ |
+| [Prob-71] | Radio de la [base](../../../glossary.md#base) del cono $= 3$ cm | ➖ |
 | [Prob-72] | Sí, razón $1:2$ (proporcionales) | ➖ |
 | [Prob-73] | $15$ cm | ➖ |
 | [Prob-74] | $BC = 12.5$ cm | ➖ |

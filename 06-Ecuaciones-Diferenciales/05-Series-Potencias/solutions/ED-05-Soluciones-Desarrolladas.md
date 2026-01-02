@@ -17,7 +17,7 @@ status: active
 Usando el criterio del cociente:
 $$\lim_{n\to\infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n\to\infty} \frac{|x|^{n+1}/(n+1)!}{|x|^n/n!} = \lim_{n\to\infty} \frac{|x|}{n+1} = 0$$
 
-Como el límite es $0 < 1$ para todo $x$, el **radio de convergencia es $R = \infty$**.
+Como el [límite](../../../glossary.md#límite) es $0 < 1$ para todo $x$, el **radio de [convergencia](../../../glossary.md#convergencia) es $R = \infty$**.
 
 **b)** $\sum_{n=0}^{\infty} n! x^n$
 
@@ -122,7 +122,7 @@ $$y'' + \frac{1}{2x}y' - \frac{1}{2x}y = 0$$
 
 $$P(x) = \frac{1}{2x}, \quad Q(x) = -\frac{1}{2x}$$
 
-**Paso 2:** Calcular límites:
+**Paso 2:** Calcular [límites](../../../glossary.md#límites):
 $$p_0 = \lim_{x \to 0} xP(x) = \lim_{x \to 0} x \cdot \frac{1}{2x} = \frac{1}{2}$$
 $$q_0 = \lim_{x \to 0} x^2 Q(x) = \lim_{x \to 0} x^2 \cdot \left(-\frac{1}{2x}\right) = 0$$
 
@@ -208,7 +208,7 @@ Como $a_1 = 0$, todos los coeficientes impares son cero.
 - $a_4 = -\frac{a_2}{16} = \frac{1}{64}$
 - $a_6 = -\frac{a_4}{36} = -\frac{1}{2304}$
 
-**Función de Bessel $J_0$:**
+**[Función](../../../glossary.md#función) de Bessel $J_0$:**
 $$\boxed{J_0(x) = 1 - \frac{x^2}{4} + \frac{x^4}{64} - \frac{x^6}{2304} + ... = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{2^{2n}(n!)^2}}$$
 
 ---

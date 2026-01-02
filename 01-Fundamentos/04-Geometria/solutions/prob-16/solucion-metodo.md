@@ -126,7 +126,7 @@ $$\boxed{\alpha + \beta + \gamma = 180°}$$
 | 3 | $\angle DAB = \beta$ | Ángulos alternos internos |
 | 4 | $\angle EAC = \gamma$ | Ángulos alternos internos |
 | 5 | $\angle DAB + \angle BAC + \angle EAC = 180°$ | Ángulo llano |
-| 6 | $\alpha + \beta + \gamma = 180°$ | Sustitución |
+| 6 | $\alpha + \beta + \gamma = 180°$ | [Sustitución](../../../../glossary.md#sustitución) |
 
 ---
 

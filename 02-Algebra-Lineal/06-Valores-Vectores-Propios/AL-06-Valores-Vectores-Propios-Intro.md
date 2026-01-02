@@ -10,7 +10,7 @@ audience: student
 
 ## Propósito
 
-Los valores y vectores propios revelan las direcciones invariantes de una transformación lineal. Este módulo culmina el álgebra lineal proporcionando herramientas para diagonalizar matrices, simplificar cálculos de potencias y resolver sistemas dinámicos, con aplicaciones en física, ingeniería y ciencia de datos.
+Los [valores y vectores propios](../../glossary.md#valores-y-vectores-propios) revelan las direcciones invariantes de una [transformación lineal](../../glossary.md#transformación-lineal). Este módulo culmina el [álgebra lineal](../../glossary.md#álgebra-lineal) proporcionando herramientas para diagonalizar matrices, simplificar cálculos de potencias y resolver sistemas dinámicos, con aplicaciones en física, ingeniería y ciencia de datos.
 
 ## Mapa de recursos
 
@@ -41,16 +41,16 @@ Los valores y vectores propios revelan las direcciones invariantes de una transf
 ### Secuencia recomendada
 
 1. **Conceptos** (1.5h): Definición, ejemplos geométricos y cálculo básico
-2. **Polinomio característico** (1.5h): Ecuación característica y cálculo de eigenvalores
+2. **[Polinomio característico](../../glossary.md#polinomio-característico)** (1.5h): Ecuación característica y cálculo de eigenvalores
 3. **Espacios propios** (2h): Multiplicidades y cálculo de eigenvectores
-4. **Diagonalización** (2h): Criterios y proceso de diagonalización
+4. **[Diagonalización](../../glossary.md#diagonalización)** (2h): Criterios y proceso de diagonalización
 5. **Aplicaciones** (2h): Potencias de matrices, sistemas dinámicos, PCA
 
 ## Prerequisitos
 
-- [02-Determinantes](../02-Determinantes/AL-02-Determinantes-Intro.md): Cálculo de determinantes
+- [02-Determinantes](../02-[Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
 - [05-Transformaciones-Lineales](../05-Transformaciones-Lineales/AL-05-Transformaciones-Lineales-Intro.md): Matrices de transformaciones
 
 ## Conexiones
 
-- **Aplica en**: Ecuaciones diferenciales, cadenas de Markov, análisis de componentes principales, vibraciones mecánicas, Google PageRank
+- **Aplica en**: [Ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales), cadenas de Markov, análisis de componentes principales, vibraciones mecánicas, Google PageRank

@@ -16,7 +16,7 @@ audience: student
 2. $f$ es derivable en $(a, b)$
 3. $f(a) = f(b)$
 
-**Conclusión:** Existe al menos un $c \in (a, b)$ tal que:
+**Conclusión:** Existe al menos un $c \in (a, b)$ [tal que](../../glossary.md#tal-que):
 
 $$f'(c) = 0$$
 
@@ -32,7 +32,7 @@ $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 ### Interpretación Geométrica
 
-La pendiente de la recta tangente en $c$ es igual a la pendiente de la recta secante que une $(a, f(a))$ y $(b, f(b))$.
+La pendiente de la recta [tangente](../../glossary.md#tangente) en $c$ es igual a la pendiente de la recta secante que une $(a, f(a))$ y $(b, f(b))$.
 
 ## Teorema del Valor Medio de Cauchy
 
@@ -124,9 +124,9 @@ donde $M = \max |f^{(n+1)}(t)|$ para $t$ entre $a$ y $x$.
 ## Aplicaciones de Taylor
 
 1. **Aproximación de funciones**: $f(x) \approx P_n(x)$
-2. **Cálculo de límites**: Expandir y simplificar
+2. **Cálculo de [límites](../../glossary.md#límites)**: Expandir y simplificar
 3. **Evaluación de integrales**: Integrar término a término
-4. **Análisis numérico**: Base de muchos algoritmos
+4. **Análisis numérico**: [Base](../../glossary.md#base) de muchos algoritmos
 
 ---
 

@@ -119,7 +119,7 @@ $$P(x) = (x - a_1)(x - a_2)(x - a_3) \cdots (x - a_n)$$
 donde $a_1 < a_2 < a_3 < \cdots < a_n$:
 
 - El signo **alterna** entre intervalos consecutivos
-- A la **derecha** del mayor punto crítico, el signo es $(+)$
+- A la **derecha** del mayor [punto crítico](../../../../glossary.md#punto-crítico), el signo es $(+)$
 
 ### Paso 2: Aplicar al problema
 
@@ -170,7 +170,7 @@ $$x \in (-2, 1) \cup (3, +\infty)$$
         │              1
 ```
 
-El polinomio cruza el eje $x$ en $x = -2, 1, 3$ y es positivo ($y > 0$) en $(-2, 1) \cup (3, +\infty)$.
+El [polinomio](../../../../glossary.md#polinomio) cruza el eje $x$ en $x = -2, 1, 3$ y es positivo ($y > 0$) en $(-2, 1) \cup (3, +\infty)$.
 
 ---
 

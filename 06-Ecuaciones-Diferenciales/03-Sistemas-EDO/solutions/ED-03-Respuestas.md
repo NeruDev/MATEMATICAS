@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-03-sistemas-edo
+topic_id: ed-03-sistemas-[edo](../../../glossary.md#edo)
 file_id: ED-03-Respuestas
 status: stable
 audience: student
@@ -33,11 +33,11 @@ solved_detailed: 0
 | [Prob-14] | a) Silla de montar; b) Espiral estable | ➖ |
 | [Prob-15] | a) $e^{At} = \begin{pmatrix} e^t & 0 \\ 0 & e^{2t} \end{pmatrix}$; b) $e^{At} = \begin{pmatrix} 2e^{2t} - e^t & e^{2t} - e^t \\ 2e^{2t} - 2e^t & 2e^{2t} - e^t \end{pmatrix}$; c) $e^{At} = \frac{1}{4}\begin{pmatrix} e^{3t} + 3e^{-t} & e^{3t} - e^{-t} \\ 2(e^{3t} - e^{-t}) & 3e^{3t} + e^{-t} \end{pmatrix}$ | ➖ |
 | [Prob-16] | $\mathbf{X} = \begin{pmatrix} (1 + t)e^{2t} \\ e^{2t} \end{pmatrix}$ | ➖ |
-| [Prob-17] | $e^{At} = \begin{pmatrix} \cos t & \sin t \\ -\sin t & \cos t \end{pmatrix}$ (matriz de rotación) | ➖ |
+| [Prob-17] | $e^{At} = \begin{pmatrix} \cos t & \sin t \\ -\sin t & \cos t \end{pmatrix}$ ([matriz](../../../glossary.md#matriz) de rotación) | ➖ |
 | [Prob-18] | $\mathbf{X} = \begin{pmatrix} C_1 e^t \\ C_2 e^{2t} \\ C_3 e^{3t} \end{pmatrix}$ | ➖ |
 | [Prob-19] | $\mathbf{X} = C_1\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}e^t + C_2\begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix}e^{2t} + C_3\begin{pmatrix} 1 \\ 3 \\ 9 \end{pmatrix}e^{3t}$ | ➖ |
 | [Prob-20] | a) $\begin{pmatrix} x_1' \\ x_2' \end{pmatrix} = \begin{pmatrix} -0.04 & 0.01 \\ 0.04 & -0.04 \end{pmatrix}\begin{pmatrix} x_1 \\ x_2 \end{pmatrix}$; b) Solución con condiciones iniciales $(10, 10)$ | ➖ |
-| [Prob-21] | a) Sistema de 4 ecuaciones de primer orden; b) Frecuencias: $\omega_1 = \sqrt{k/m}$, $\omega_2 = \sqrt{3k/m}$ | ➖ |
+| [Prob-21] | a) Sistema de 4 ecuaciones de primer [orden](../../../glossary.md#orden); b) Frecuencias: $\omega_1 = \sqrt{k/m}$, $\omega_2 = \sqrt{3k/m}$ | ➖ |
 | [Prob-22] | Jacobiano en $(1,1)$: $J = \begin{pmatrix} -1 & -1 \\ -2 & -1 \end{pmatrix}$, $\lambda = -1 \pm \sqrt{2}$ (silla inestable) | ➖ |
 | [Prob-23] | Sistema matricial con $L_1, L_2, R$ | ➖ |
 

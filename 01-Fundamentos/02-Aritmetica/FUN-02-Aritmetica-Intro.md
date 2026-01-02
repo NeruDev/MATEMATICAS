@@ -33,8 +33,8 @@ solutions/
 
 1. **Sistemas numéricos**: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
 2. **Operaciones fundamentales**: propiedades conmutativa, asociativa, distributiva
-3. **Divisibilidad y primos**: criterios, factorización prima, TFA
-4. **MCD y MCM**: algoritmo de Euclides, método por exponentes
+3. **Divisibilidad y primos**: criterios, [factorización](../../glossary.md#factorización) prima, TFA
+4. **[MCD](../../glossary.md#mcd) y [MCM](../../glossary.md#mcm)**: algoritmo de Euclides, método por exponentes
 5. **Fracciones**: operaciones, simplificación
 6. **Potencias y raíces**: leyes de exponentes, racionalización
 7. **Razones y proporciones**: regla de tres, proporcionalidad
@@ -48,7 +48,7 @@ solutions/
 
 | Concepto | Descripción |
 |----------|-------------|
-| PEMDAS | Orden de operaciones |
+| PEMDAS | [Orden](../../glossary.md#orden) de operaciones |
 | Factorización prima | $n = p_1^{a_1} \cdot p_2^{a_2} \cdots$ |
 | MCD/MCM | Por exponentes mínimos/máximos |
 | Fracciones | $\frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}$ |

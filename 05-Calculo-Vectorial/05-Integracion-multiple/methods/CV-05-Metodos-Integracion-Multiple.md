@@ -25,8 +25,8 @@ $$\iint_R f(x,y)\, dA = \int_a^b \int_c^d f(x,y)\, dy\, dx = \int_c^d \int_a^b f
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar límites | $a \leq x \leq b$, $c \leq y \leq d$ |
-| 2 | Elegir orden de integración | El que simplifique más |
+| 1 | Identificar [límites](../../../glossary.md#límites) | $a \leq x \leq b$, $c \leq y \leq d$ |
+| 2 | Elegir [orden](../../../glossary.md#orden) de integración | El que simplifique más |
 | 3 | Integrar la variable interior | Tratar la otra como constante |
 | 4 | Integrar la variable exterior | Con el resultado del paso 3 |
 
@@ -95,8 +95,8 @@ $$\int_0^1 \frac{x^3 - x^5}{2}\, dx = \frac{1}{2}\left[\frac{x^4}{4} - \frac{x^6
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Graficar la región | Identificar curvas límite |
-| 2 | Expresar como Tipo I | Límites en función de $x$ |
+| 1 | Graficar la región | Identificar curvas [límite](../../../glossary.md#límite) |
+| 2 | Expresar como Tipo I | Límites en [función](../../../glossary.md#función) de $x$ |
 | 3 | Expresar como Tipo II | Límites en función de $y$ |
 | 4 | Elegir el orden más simple | Para el integrando dado |
 
@@ -123,7 +123,7 @@ $$\int_0^y e^{y^2}\, dx = e^{y^2} \cdot y = ye^{y^2}$$
 **Paso 6:** Integramos respecto a $y$:
 $$\int_0^1 ye^{y^2}\, dy$$
 
-Sustitución: $u = y^2$, $du = 2y\, dy$
+[Sustitución](../../../glossary.md#sustitución): $u = y^2$, $du = 2y\, dy$
 $$= \frac{1}{2}\int_0^1 e^u\, du = \frac{1}{2}[e^u]_0^1 = \frac{1}{2}(e - 1)$$
 
 **Resultado:** $\int_0^1 \int_x^1 e^{y^2}\, dy\, dx = \boxed{\frac{e-1}{2}}$
@@ -478,7 +478,7 @@ $$S = \iint_D \sqrt{1 + \left(\frac{\partial z}{\partial x}\right)^2 + \left(\fr
 
 **Problema:** Encontrar el área de la porción del paraboloide $z = x^2 + y^2$ que está debajo del plano $z = 4$
 
-**Paso 1:** Calculamos las derivadas parciales:
+**Paso 1:** Calculamos las [derivadas](../../../glossary.md#derivadas) parciales:
 $$\frac{\partial z}{\partial x} = 2x, \quad \frac{\partial z}{\partial y} = 2y$$
 
 **Paso 2:** Calculamos el integrando:

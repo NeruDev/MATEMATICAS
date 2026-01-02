@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Transformada de Laplace
 
-> **Referencia rápida:** Esta guía presenta 12 métodos sistemáticos para aplicar la Transformada de Laplace en la resolución de ecuaciones diferenciales.
+> **Referencia rápida:** Esta guía presenta 12 métodos sistemáticos para aplicar la [Transformada de Laplace](../../../glossary.md#transformada-de-laplace) en la resolución de [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales).
 
 ---
 
@@ -21,10 +21,10 @@ status: active
 | 5 | [Completar Cuadrado](#método-5-completar-el-cuadrado) | Denominadores cuadráticos | ⭐⭐⭐ |
 | 6 | [Resolver PVI](#método-6-resolver-pvi-con-laplace) | Ecuaciones diferenciales | ⭐⭐⭐ |
 | 7 | [Funciones Escalón](#método-7-manejar-funciones-escalón) | Entradas discontinuas | ⭐⭐⭐ |
-| 8 | [Función Delta](#método-8-función-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
+| 8 | [Función Delta](#método-8-[función](../../../glossary.md#función)-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
 | 9 | [Convolución](#método-9-teorema-de-convolución) | Productos de transformadas | ⭐⭐⭐⭐ |
-| 10 | [Sistemas con Laplace](#método-10-sistemas-de-edo-con-laplace) | Sistemas acoplados | ⭐⭐⭐⭐ |
-| 11 | [Derivada de F(s)](#método-11-derivada-de-la-transformada) | Transformadas con $t^n$ | ⭐⭐ |
+| 10 | [Sistemas con Laplace](#método-10-sistemas-de-[edo](../../../glossary.md#edo)-con-laplace) | Sistemas acoplados | ⭐⭐⭐⭐ |
+| 11 | [Derivada de F(s)](#método-11-[derivada](../../../glossary.md#derivada)-de-la-transformada) | Transformadas con $t^n$ | ⭐⭐ |
 | 12 | [Funciones Periódicas](#método-12-funciones-periódicas) | Entradas repetitivas | ⭐⭐⭐⭐ |
 
 ---
@@ -52,8 +52,8 @@ status: active
 
 ### Cuándo Usar
 
-- La función es combinación lineal de funciones de la tabla
-- Aplicar linealidad: $\mathcal{L}\{af + bg\} = aF + bG$
+- La función es [combinación lineal](../../../glossary.md#combinación-lineal) de funciones de la tabla
+- Aplicar [linealidad](../../../glossary.md#linealidad): $\mathcal{L}\{af + bg\} = aF + bG$
 
 ### Algoritmo de Resolución
 
@@ -74,7 +74,7 @@ status: active
 
 - $3t^2$: potencia
 - $-5e^{-2t}$: exponencial
-- $4\sin 3t$: seno
+- $4\sin 3t$: [seno](../../../glossary.md#seno)
 - $2$: constante
 
 ---
@@ -342,7 +342,7 @@ $$\boxed{f(t) = \frac{10}{9}(e^t - e^{-2t}) - \frac{1}{3}te^{-2t}}$$
 ### Cuándo Usar
 
 - Denominador cuadrático que no factoriza fácilmente
-- Para obtener formas de seno/coseno amortiguado
+- Para obtener formas de seno/[coseno](../../../glossary.md#coseno) amortiguado
 
 ### Fórmula
 
@@ -460,7 +460,7 @@ $$Y(s) = \frac{2s+3}{(s+1)^2(s+3)}$$
 
 ---
 
-**Paso 4: Fracciones parciales**
+**Paso 4: [Fracciones parciales](../../../glossary.md#fracciones-parciales)**
 
 $$\frac{2s+3}{(s+1)^2(s+3)} = \frac{A}{s+1} + \frac{B}{(s+1)^2} + \frac{C}{s+3}$$
 
@@ -642,12 +642,12 @@ $$\boxed{y(t) = -2\sin(t)u(t-\pi) = \begin{cases} 0 & 0 \leq t < \pi \\ -2\sin t
 
 ### Cuándo Usar
 
-- $F(s) = G(s) \cdot H(s)$ y es difícil factorizar
+- $F(s) = G(s) \cdot H(s)$ y es difícil [factorizar](../../../glossary.md#factorizar)
 - Para resolver ecuaciones integro-diferenciales
 
 ### Fórmulas
 
-**Convolución:**
+**[Convolución](../../../glossary.md#convolución):**
 $$(f * g)(t) = \int_0^t f(\tau)g(t-\tau)\,d\tau$$
 
 **Teorema:**
@@ -957,7 +957,7 @@ NO → Tabla      irreducible?         │
 | Error en traslación | Signo incorrecto | $e^{at}$ → $s-a$; retardo → $e^{-as}$ |
 | Fracciones parciales mal | Inversa incorrecta | Verificar expandiendo |
 | No completar cuadrado | Forma no reconocible | Siempre intentar para denominador cuadrático |
-| Convolución con límites | Integral mal planteada | Límites son $0$ a $t$ |
+| Convolución con [límites](../../../glossary.md#límites) | Integral mal planteada | Límites son $0$ a $t$ |
 
 ---
 

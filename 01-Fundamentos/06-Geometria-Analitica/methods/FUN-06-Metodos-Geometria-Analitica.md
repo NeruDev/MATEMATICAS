@@ -123,7 +123,7 @@ $$\boxed{P = \left(\frac{22}{5}, \frac{7}{5}\right) = (4.4, 1.4)}$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar datos | Puntos y/o pendiente |
-| 2 | Calcular pendiente | $m = \frac{y_2 - y_1}{x_2 - x_1}$ si es necesario |
+| 2 | Calcular pendiente | $m = \frac{y_2 - y_1}{x_2 - x_1}$ si es [necesario](../../../glossary.md#necesario) |
 | 3 | Seleccionar forma | Según datos disponibles |
 | 4 | Sustituir valores | En la ecuación elegida |
 | 5 | Simplificar | A la forma deseada |
@@ -473,7 +473,7 @@ $$\boxed{V(2, 2), \quad F(4, 2), \quad \text{Directriz: } x = 0}$$
 | Elemento | Descripción | Fórmula |
 |----------|-------------|---------|
 | Semieje mayor | $a$ | Mayor denominador bajo raíz |
-| Semieje menor | $b$ | Menor denominador bajo raíz |
+| Semieje [menor](../../../glossary.md#menor) | $b$ | Menor denominador bajo raíz |
 | Distancia focal | $c$ | $c^2 = a^2 - b^2$ |
 | Excentricidad | $e$ | $e = \frac{c}{a}$ (siempre $0 < e < 1$) |
 | Vértices | | $(\pm a, 0)$ o $(0, \pm a)$ |
@@ -633,7 +633,7 @@ Es una **hipérbola**.
 Agrupar:
 $$(9x^2 - 36x) + (-16y^2 - 32y) = 124$$
 
-Factorizar:
+[Factorizar](../../../glossary.md#factorizar):
 $$9(x^2 - 4x) - 16(y^2 + 2y) = 124$$
 
 Completar cuadrados:

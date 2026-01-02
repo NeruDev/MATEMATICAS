@@ -21,7 +21,7 @@ solved_detailed: 0
 | [Prob-02] | a) $\sum_{n=0}^{\infty}(-1)^n x^n$; b) $\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{n!}$; c) $\sum_{n=1}^{\infty}\frac{(-1)^{n+1}x^n}{n}$ | ➖ |
 | [Prob-03] | a) Ordinario; b) Singular; c) Ordinario; d) Singular regular | ➖ |
 | [Prob-04] | a) $y = a_0\cos x + a_1\sin x$; b) $y = a_0\cosh x + a_1\sinh x$; c) $y = a_0 e^x$ | ➖ |
-| [Prob-05] | a) Airy: $y = a_0\left(1 + \frac{x^3}{6} + \cdots\right) + a_1\left(x + \frac{x^4}{12} + \cdots\right)$; b) Hermite: $y = a_0(1 - x^2 + \cdots) + a_1(x - \frac{x^3}{3} + \cdots)$; c) Legendre: $y = x$ (polinomio) | ➖ |
+| [Prob-05] | a) Airy: $y = a_0\left(1 + \frac{x^3}{6} + \cdots\right) + a_1\left(x + \frac{x^4}{12} + \cdots\right)$; b) Hermite: $y = a_0(1 - x^2 + \cdots) + a_1(x - \frac{x^3}{3} + \cdots)$; c) Legendre: $y = x$ ([polinomio](../../../glossary.md#polinomio)) | ➖ |
 | [Prob-06] | a) $y = 1 - \frac{x^2}{2} + \frac{x^4}{8} + \cdots$; b) $y = x + \frac{x^5}{20} + \cdots$ | ➖ |
 | [Prob-07] | a) $a_{n+4} = -\frac{a_n}{(n+3)(n+4)}$; b) $a_{n+2} = \frac{2(n-1)a_n - (n-1)na_{n-2}}{(n+1)(n+2)}$ | ➖ |
 | [Prob-08] | a) Singular regular; b) Singular irregular; c) Singular regular; d) Singular regular | ➖ |

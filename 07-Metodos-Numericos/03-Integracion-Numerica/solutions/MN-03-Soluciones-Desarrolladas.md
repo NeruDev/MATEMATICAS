@@ -190,7 +190,7 @@ $n = 6$ (par), $h = 1$ hora
 Fórmula Simpson compuesto:
 $$\text{AUC} = \frac{h}{3}[C_0 + 4(C_1 + C_3 + C_5) + 2(C_2 + C_4) + C_6]$$
 
-**Sustitución:**
+**[Sustitución](../../../glossary.md#sustitución):**
 $$\text{AUC} = \frac{1}{3}[0 + 4(8.5 + 12.1 + 5.0) + 2(15.2 + 8.3) + 2.8]$$
 $$= \frac{1}{3}[0 + 4(25.6) + 2(23.5) + 2.8]$$
 $$= \frac{1}{3}[102.4 + 47.0 + 2.8]$$

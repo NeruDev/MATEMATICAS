@@ -16,7 +16,7 @@ status: active
 
 ### Fórmulas Fundamentales
 
-| Función | Derivada |
+| [Función](../../../glossary.md#función) | [Derivada](../../../glossary.md#derivada) |
 |---------|----------|
 | $c$ (constante) | $0$ |
 | $x^n$ | $nx^{n-1}$ |
@@ -99,9 +99,9 @@ $$\frac{d}{dx}[f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar $f$ y $g$ | Las dos funciones multiplicadas |
-| 2 | Calcular derivadas | $f'(x)$ y $g'(x)$ por separado |
+| 2 | Calcular [derivadas](../../../glossary.md#derivadas) | $f'(x)$ y $g'(x)$ por separado |
 | 3 | Aplicar fórmula | $(f'g + fg')$ |
-| 4 | Simplificar | Factorizar si es posible |
+| 4 | Simplificar | [Factorizar](../../../glossary.md#factorizar) si es posible |
 
 ### Ejemplo Detallado
 
@@ -241,7 +241,7 @@ $$g'(x) = 6x + 2$$
 
 ---
 
-**Paso 3: Aplicar regla de la cadena**
+**Paso 3: Aplicar [regla de la cadena](../../../glossary.md#regla-de-la-cadena)**
 
 $$h'(x) = f'(g(x)) \cdot g'(x)$$
 $$= 5(3x^2 + 2x - 1)^4 \cdot (6x + 2)$$
@@ -436,7 +436,7 @@ $$\boxed{\frac{dy}{dx} = \frac{x^2\sqrt{x+1}}{(2x-3)^4}\left(\frac{2}{x} + \frac
 
 ## Método 7: Derivadas de Funciones Trigonométricas
 
-**Cuándo Usar:** Funciones que involucran seno, coseno, tangente, etc.
+**Cuándo Usar:** Funciones que involucran [seno](../../../glossary.md#seno), [coseno](../../../glossary.md#coseno), [tangente](../../../glossary.md#tangente), etc.
 
 ### Tabla de Derivadas Trigonométricas
 
@@ -490,7 +490,7 @@ $$\boxed{f'(x) = 6\sec^3(2x)\tan(2x)}$$
 
 ### Tabla de Derivadas
 
-| Función | Derivada | Dominio de validez |
+| Función | Derivada | [Dominio](../../../glossary.md#dominio) de validez |
 |---------|----------|-------------------|
 | $\arcsin x$ | $\frac{1}{\sqrt{1-x^2}}$ | $-1 < x < 1$ |
 | $\arccos x$ | $-\frac{1}{\sqrt{1-x^2}}$ | $-1 < x < 1$ |
@@ -626,7 +626,7 @@ $$\boxed{f'(x) = 3x^2 \text{sech}^2(x^3)}$$
 
 ## Método 11: Derivadas de Orden Superior
 
-**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de concavidad, aceleración, etc.
+**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de [concavidad](../../../glossary.md#concavidad), aceleración, etc.
 
 ### Algoritmo de Resolución
 
@@ -671,7 +671,7 @@ $$\boxed{f''(x) = 12x^2 - 18x = 6x(2x - 3)}$$
 
 ---
 
-| Orden | Derivada |
+| [Orden](../../../glossary.md#orden) | Derivada |
 |-------|----------|
 | $f(x)$ | $\sin x$ |
 | $f'(x)$ | $\cos x$ |

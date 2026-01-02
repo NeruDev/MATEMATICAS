@@ -42,7 +42,7 @@ $$n + 1 = 4 + 1 = 5$$
 **Paso 3:** Dividimos por el nuevo exponente:
 $$\frac{x^5}{5}$$
 
-**Paso 4:** Agregamos la constante de integración:
+**Paso 4:** Agregamos la [constante de integración](../../../glossary.md#constante-de-integración):
 $$\int x^4 \, dx = \frac{x^5}{5} + C$$
 
 **Verificación:** Derivamos el resultado: $\frac{d}{dx}\left(\frac{x^5}{5}\right) = \frac{5x^4}{5} = x^4$ ✓
@@ -114,7 +114,7 @@ $$\int \frac{1}{x^4} \, dx = -\frac{1}{3x^3} + C$$
 $$\int \frac{1}{x} \, dx = \ln\lvert x \rvert + C$$
 
 ### ¿Por qué valor absoluto?
-La función $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la antiderivada funcione también para $x < 0$.
+La [función](../../../glossary.md#función) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../../glossary.md#antiderivada) funcione también para $x < 0$.
 
 ### Algoritmo de Resolución
 
@@ -145,7 +145,7 @@ $$\int \frac{3}{x} \, dx = 3\ln\lvert x \rvert + C$$
 ## Método 4: Exponenciales
 
 ### Cuándo Usar
-- Funciones $e^x$ (base natural)
+- Funciones $e^x$ ([base](../../../glossary.md#base) natural)
 - Funciones $a^x$ (base cualquier positivo $a \neq 1$)
 
 ### Fórmulas
@@ -182,7 +182,7 @@ $$\frac{d}{dx}\left(\frac{5^x}{\ln 5}\right) = \frac{5^x \cdot \ln 5}{\ln 5} = 5
 
 ### Tabla de Fórmulas con Verificación
 
-| Integral | Resultado | Verificación (derivada) |
+| Integral | Resultado | Verificación ([derivada](../../../glossary.md#derivada)) |
 |----------|-----------|------------------------|
 | $\int \sin x \, dx$ | $-\cos x + C$ | $(-\cos x)' = \sin x$ ✓ |
 | $\int \cos x \, dx$ | $\sin x + C$ | $(\sin x)' = \cos x$ ✓ |
@@ -369,7 +369,7 @@ $$= \frac{x^4}{4} - 4 \cdot \frac{x^2}{2} + e^x + C = \frac{x^4}{4} - 2x^2 + e^x
 
 | Paso | Acción | Técnicas comunes |
 |------|--------|------------------|
-| 1 | Analizar si se puede simplificar | ¿División? ¿Expansión? ¿Factorización? |
+| 1 | Analizar si se puede simplificar | ¿División? ¿Expansión? ¿[Factorización](../../../glossary.md#factorización)? |
 | 2 | Realizar la simplificación algebraica | Manipulación de fracciones |
 | 3 | Separar en términos integrables | Suma de funciones simples |
 | 4 | Aplicar métodos básicos | Reglas anteriores |

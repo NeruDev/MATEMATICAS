@@ -5,14 +5,14 @@ topic_id: ed-04-transformada-laplace
 file_id: ED-04-Transformada-Laplace-Intro
 status: stable
 audience: student
-requires: [ed-02-edo-segundo-orden, ci-integrales-impropias]
+requires: [ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden), ci-integrales-impropias]
 -->
 
 # Transformada de Laplace
 
 ## Propósito del tema
 
-Dominar la transformada de Laplace como herramienta algebraica para resolver ecuaciones diferenciales con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
+Dominar la [transformada de Laplace](../../glossary.md#transformada-de-laplace) como herramienta algebraica para resolver [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
 
 ## Mapa de recursos
 
@@ -33,14 +33,14 @@ solutions/
 
 1. **Definición**: $\mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)\,dt$
 2. **Transformadas básicas**: tabla de funciones elementales
-3. **Propiedades**: linealidad, traslación, derivadas, integrales
-4. **Transformada inversa**: fracciones parciales
+3. **Propiedades**: [linealidad](../../glossary.md#linealidad), traslación, [derivadas](../../glossary.md#derivadas), integrales
+4. **Transformada inversa**: [fracciones parciales](../../glossary.md#fracciones-parciales)
 5. **Resolución de PVI**: método algebraico
 6. **Funciones especiales**: escalón unitario, delta de Dirac
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo orden, Integrales impropias
+- **Prerequisitos**: EDO de segundo orden, [Integrales impropias](../../glossary.md#integrales-impropias)
 - **Usos posteriores**: Control automático, Señales y sistemas, Ingeniería
 
 ## Vista previa de conceptos clave
@@ -59,7 +59,7 @@ solutions/
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| Derivada | $\mathcal{L}\{f'(t)\} = sF(s) - f(0)$ |
+| [Derivada](../../glossary.md#derivada) | $\mathcal{L}\{f'(t)\} = sF(s) - f(0)$ |
 | Traslación en $s$ | $\mathcal{L}\{e^{at}f(t)\} = F(s-a)$ |
 | Traslación en $t$ | $\mathcal{L}\{u(t-a)f(t-a)\} = e^{-as}F(s)$ |
 

@@ -1,8 +1,8 @@
 <!--
 ---
-title: Resumen de Fórmulas - EDO Numéricas
+title: Resumen de Fórmulas - [EDO Numéricas](../../glossary.md#edo-numéricas)
 type: cheatsheet
-topic: edo-numericas
+topic: [edo](../../glossary.md#edo)-numericas
 tags: [métodos-numéricos, EDO, fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
@@ -32,7 +32,7 @@ $$\tau = \frac{h^2}{2}y''(\xi) = O(h^2)$$
 ### Error Global
 $$E = O(h)$$
 
-**Orden del método:** 1
+**[Orden](../../glossary.md#orden) del método:** 1
 
 ---
 

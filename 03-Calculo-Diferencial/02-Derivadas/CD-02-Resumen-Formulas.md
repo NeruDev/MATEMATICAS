@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: cd-02-derivadas
+topic_id: cd-02-[derivadas](../../glossary.md#derivadas)
 file_id: CD-02-Resumen-Formulas
 status: stable
 audience: student
@@ -15,7 +15,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ## Reglas Básicas de Derivación
 
-| Regla | Función | Derivada |
+| Regla | [Función](../../glossary.md#función) | [Derivada](../../glossary.md#derivada) |
 |-------|---------|----------|
 | Constante | $c$ | $0$ |
 | Potencia | $x^n$ | $nx^{n-1}$ |
@@ -105,4 +105,4 @@ $$f''(x) = \frac{d^2f}{dx^2}, \quad f'''(x) = \frac{d^3f}{dx^3}, \quad f^{(n)}(x
 
 ---
 
-> **Tip**: Memoriza las derivadas básicas y practica la regla de la cadena hasta que sea automática.
+> **Tip**: Memoriza las derivadas básicas y practica la [regla de la cadena](../../glossary.md#regla-de-la-cadena) hasta que sea automática.

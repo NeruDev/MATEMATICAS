@@ -16,8 +16,8 @@ Estudiar curvas en el espacio mediante funciones vectoriales, analizando velocid
 
 ## Ruta de aprendizaje
 
-1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, límites y continuidad.
-2. **Derivada vectorial:** vector tangente, velocidad y aceleración.
+1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, [límites](../../glossary.md#límites) y [continuidad](../../glossary.md#continuidad).
+2. **[Derivada](../../glossary.md#derivada) vectorial:** [vector](../../glossary.md#vector) [tangente](../../glossary.md#tangente), velocidad y aceleración.
 3. **Integral vectorial:** antiderivadas de funciones vectoriales.
 4. **Longitud de arco:** parametrización por longitud de arco.
 5. **Curvatura y torsión:** marcos TNB, radio de curvatura.
@@ -39,14 +39,14 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos:** vectores en el espacio, derivadas, curvas paramétricas.
+- **Prerequisitos:** vectores en el espacio, [derivadas](../../glossary.md#derivadas), curvas paramétricas.
 - **Usos posteriores:** campos vectoriales, integrales de línea, mecánica.
 
 ## Vista previa de conceptos clave
 
 | Concepto | Descripción breve |
 |----------|-------------------|
-| Función vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
+| [Función](../../glossary.md#función) vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
 | Derivada | $\mathbf{r}'(t) = \langle x'(t), y'(t), z'(t) \rangle$ |
 | Vector tangente unitario | $\mathbf{T} = \mathbf{r}'/\lVert\mathbf{r}'\rVert$ |
 | Curvatura | $\kappa = \lVert d\mathbf{T}/ds \rVert$ |

@@ -124,7 +124,7 @@ Las rectas **se intersectan** en el punto $(1, 0, -1)$, por lo que la distancia 
 
 El triple producto escalar $(\overrightarrow{P_1P_2}) \cdot (\mathbf{v_1} \times \mathbf{v_2}) = 0$ indica que:
 
-1. El vector $\overrightarrow{P_1P_2}$ es perpendicular al vector normal común $\mathbf{v_1} \times \mathbf{v_2}$
+1. El [vector](../../../../glossary.md#vector) $\overrightarrow{P_1P_2}$ es perpendicular al vector normal común $\mathbf{v_1} \times \mathbf{v_2}$
 2. Esto significa que $\overrightarrow{P_1P_2}$ está en el plano que contiene a ambos vectores directores
 3. Por lo tanto, las rectas **son coplanares** y, al no ser paralelas, **se intersectan**
 

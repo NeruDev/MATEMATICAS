@@ -115,7 +115,7 @@ $$A = \frac{(B + b) \times h}{2}$$
 
 ---
 
-**Sustitución:**
+**[Sustitución](../../../glossary.md#sustitución):**
 
 $$A = \frac{(12 + 8) \times 5}{2} = \frac{20 \times 5}{2} = \frac{100}{2} = 50$$
 
@@ -215,7 +215,7 @@ Donde $c$ es la hipotenusa (lado opuesto al ángulo recto).
 
 ### Ejemplo Detallado
 
-**Problema:** Una escalera de 13 m se apoya contra una pared. Si la base está a 5 m de la pared, ¿a qué altura llega?
+**Problema:** Una escalera de 13 m se apoya contra una pared. Si la [base](../../../glossary.md#base) está a 5 m de la pared, ¿a qué altura llega?
 
 ---
 
@@ -604,7 +604,7 @@ $$P = 6 + 3\sqrt{5} + 3\sqrt{5} = 6 + 6\sqrt{5} \approx 19.42$$
 
 ---
 
-**Paso 3: Área (fórmula del determinante)**
+**Paso 3: Área (fórmula del [determinante](../../../glossary.md#determinante))**
 
 $$A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$
 
@@ -633,7 +633,7 @@ $$\boxed{P = 6 + 6\sqrt{5} \approx 19.42, \quad A = 18 \text{ unidades}^2}$$
 | Configuración | Fórmula |
 |---------------|---------|
 | Dos cuerdas | $PA \times PB = PC \times PD$ |
-| Secante-Tangente | $PT^2 = PA \times PB$ |
+| Secante-[Tangente](../../../glossary.md#tangente) | $PT^2 = PA \times PB$ |
 | Dos secantes | $PA \times PB = PC \times PD$ |
 
 ### Teoremas de Ángulos
@@ -643,11 +643,11 @@ $$\boxed{P = 6 + 6\sqrt{5} \approx 19.42, \quad A = 18 \text{ unidades}^2}$$
 | Central | Igual al arco |
 | Inscrito | Mitad del arco |
 | Interior (cuerdas) | $\frac{\text{arco}_1 + \text{arco}_2}{2}$ |
-| Exterior (secantes) | $\frac{\text{arco mayor} - \text{arco menor}}{2}$ |
+| Exterior (secantes) | $\frac{\text{arco mayor} - \text{arco [menor](../../../glossary.md#menor)}}{2}$ |
 
 ### Ejemplo Detallado
 
-**Problema:** Desde un punto $P$ exterior a un círculo se traza una tangente $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
+**Problema:** Desde un punto $P$ exterior a un círculo se [traza](../../../glossary.md#traza) una tangente $PT = 12$ cm y una secante $PAB$ donde $PA = 8$ cm. Hallar $AB$.
 
 ---
 

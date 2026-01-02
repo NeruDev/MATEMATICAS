@@ -14,11 +14,11 @@ Módulo dedicado a algoritmos para aproximar soluciones de problemas matemático
 |------|-------------|
 | [01-Raices-Ecuaciones](01-Raices-Ecuaciones/) | Bisección, Newton-Raphson, secante |
 | [02-Interpolacion](02-Interpolacion/) | Lagrange, Newton, splines |
-| [03-Integracion-Numerica](03-Integracion-Numerica/) | Trapecio, Simpson, cuadratura |
-| [04-EDO-Numericas](04-EDO-Numericas/) | Euler, Runge-Kutta |
+| [03-Integracion-Numerica](03-Integracion-Numerica/) | Trapecio, Simpson, [cuadratura](../glossary.md#cuadratura) |
+| [04-[EDO](../glossary.md#edo)-Numericas](04-EDO-Numericas/) | Euler, Runge-Kutta |
 
 ## Prerrequisitos
 
-- Cálculo diferencial e integral
+- [Cálculo diferencial](../glossary.md#cálculo-diferencial) e integral
 - Programación básica (recomendado)
-- Álgebra lineal (para algunos temas)
+- [Álgebra lineal](../glossary.md#álgebra-lineal) (para algunos temas)

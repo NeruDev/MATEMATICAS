@@ -20,7 +20,7 @@ Simplifica: $\frac{\frac{3}{4} - \frac{2}{3}}{\frac{5}{6} + \frac{1}{4}}$
 ### Paso 1: Simplificar el numerador
 $$\frac{3}{4} - \frac{2}{3}$$
 
-**Encontrar MCM(4, 3):**
+**Encontrar [MCM](../../../../glossary.md#mcm)(4, 3):**
 - $4 = 2^2$
 - $3 = 3$
 - $\text{MCM} = 2^2 \times 3 = 12$

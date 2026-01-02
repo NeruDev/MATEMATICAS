@@ -9,14 +9,14 @@ audience: student
 
 # Métodos para Funciones de Varias Variables
 
-> **Objetivo:** Dominar el cálculo diferencial de funciones de varias variables con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.
+> **Objetivo:** Dominar el [cálculo diferencial](../../../glossary.md#cálculo-diferencial) de funciones de varias variables con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.
 
 ---
 
 ## Método 1: Dominio de Funciones de Varias Variables
 
 ### Cuándo Usar
-- Determinar el conjunto de puntos $(x, y)$ o $(x, y, z)$ donde la función está definida
+- Determinar el conjunto de puntos $(x, y)$ o $(x, y, z)$ donde la [función](../../../glossary.md#función) está definida
 
 ### Restricciones Comunes
 
@@ -29,7 +29,7 @@ audience: student
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el dominio de $f(x,y) = \sqrt{9 - x^2 - y^2}$
+**Problema:** Encontrar el [dominio](../../../glossary.md#dominio) de $f(x,y) = \sqrt{9 - x^2 - y^2}$
 
 **Paso 1:** Identificamos la restricción:
 $$9 - x^2 - y^2 \geq 0$$
@@ -96,7 +96,7 @@ $$\text{Dom}(f) = \boxed{\{(x,y) : x^2 + y^2 \leq 9\}}$$
 | 1 | Evaluar por $y = 0$ (eje $x$) |
 | 2 | Evaluar por $x = 0$ (eje $y$) |
 | 3 | Evaluar por $y = mx$ (rectas) |
-| 4 | Evaluar por $y = x^2$ (parábola) si es necesario |
+| 4 | Evaluar por $y = x^2$ (parábola) si es [necesario](../../../glossary.md#necesario) |
 | 5 | Si dos dan diferente → NO existe |
 
 ### Ejemplo Detallado (NO existe)
@@ -112,7 +112,7 @@ $$\lim_{y \to 0} \frac{0 \cdot y}{0 + y^2} = \lim_{y \to 0} \frac{0}{y^2} = 0$$
 **Por la recta $y = x$**:
 $$\lim_{x \to 0} \frac{x \cdot x}{x^2 + x^2} = \lim_{x \to 0} \frac{x^2}{2x^2} = \frac{1}{2}$$
 
-**Resultado:** El límite **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
+**Resultado:** El [límite](../../../glossary.md#límite) **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
 
 ### Ejemplo Detallado (SÍ existe)
 
@@ -150,7 +150,7 @@ $$\frac{\partial f}{\partial y} = \lim_{h \to 0} \frac{f(x, y+h) - f(x, y)}{h}$$
 
 **Problema:** Encontrar $\frac{\partial f}{\partial x}$ y $\frac{\partial f}{\partial y}$ para $f(x,y) = x^3y^2 + 3xy^4 - 2y$
 
-**Derivada parcial respecto a $x$** ($y$ constante):
+**[Derivada](../../../glossary.md#derivada) parcial respecto a $x$** ($y$ constante):
 $$\frac{\partial f}{\partial x} = 3x^2y^2 + 3y^4 + 0 = \boxed{3x^2y^2 + 3y^4}$$
 
 **Derivada parcial respecto a $y$** ($x$ constante):
@@ -161,7 +161,7 @@ $$\frac{\partial f}{\partial y} = 2x^3y + 12xy^3 - 2 = \boxed{2x^3y + 12xy^3 - 2
 ## Método 5: Derivadas Parciales de Orden Superior
 
 ### Cuándo Usar
-- Calcular segundas derivadas, derivadas mixtas
+- Calcular segundas [derivadas](../../../glossary.md#derivadas), derivadas mixtas
 - Análisis de extremos (Hessiano)
 
 ### Notación
@@ -201,7 +201,7 @@ $$f_{yx} = \frac{\partial}{\partial x}(3x^2y^2 - 4y) = \boxed{6xy^2}$$
 ### Cuándo Usar
 - Encontrar la dirección de máximo crecimiento
 - Calcular derivadas direccionales
-- Vector normal a superficies de nivel
+- [Vector](../../../glossary.md#vector) normal a superficies de nivel
 
 ### Fórmulas
 
@@ -296,7 +296,7 @@ $$\nabla F \cdot \langle x-x_0, y-y_0, z-z_0 \rangle = 0$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el plano tangente a $z = x^2 + y^2$ en $(1, 1, 2)$
+**Problema:** Encontrar el plano [tangente](../../../glossary.md#tangente) a $z = x^2 + y^2$ en $(1, 1, 2)$
 
 **Paso 1:** Calculamos las derivadas parciales:
 $$f_x = 2x \implies f_x(1, 1) = 2$$
@@ -454,7 +454,7 @@ $$\frac{\partial z}{\partial y} = x^2 + 2xy$$
 $$\frac{\partial x}{\partial s} = 1$$
 $$\frac{\partial y}{\partial s} = t$$
 
-**Paso 3:** Aplicamos la regla de la cadena:
+**Paso 3:** Aplicamos la [regla de la cadena](../../../glossary.md#regla-de-la-cadena):
 $$\frac{\partial z}{\partial s} = (2xy + y^2)(1) + (x^2 + 2xy)(t)$$
 
 **Paso 4:** Sustituimos $x = s+t$, $y = st$:

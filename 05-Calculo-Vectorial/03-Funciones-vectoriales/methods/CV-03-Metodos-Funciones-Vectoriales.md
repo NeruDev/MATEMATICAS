@@ -27,7 +27,7 @@ $$\text{Dom}(\mathbf{r}) = \text{Dom}(f) \cap \text{Dom}(g) \cap \text{Dom}(h)$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar cada componente | $f(t)$, $g(t)$, $h(t)$ |
-| 2 | Encontrar dominio de cada una | Restricciones individuales |
+| 2 | Encontrar [dominio](../../../glossary.md#dominio) de cada una | Restricciones individuales |
 | 3 | Intersectar los dominios | Valores comunes |
 
 ### Ejemplo Detallado
@@ -58,7 +58,7 @@ $$\lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} f(t), \lim_{t \to a
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular límite de cada componente | Por separado |
+| 1 | Calcular [límite](../../../glossary.md#límite) de cada componente | Por separado |
 | 2 | Si todos existen | El límite vectorial existe |
 | 3 | Si alguno no existe | El límite vectorial no existe |
 
@@ -83,7 +83,7 @@ $$\lim_{t \to 0} \mathbf{r}(t) = \boxed{\left\langle 1, 1, \frac{1}{2} \right\ra
 ## Método 3: Derivada de una Función Vectorial
 
 ### Cuándo Usar
-- Encontrar el vector tangente $\mathbf{r}'(t)$
+- Encontrar el [vector](../../../glossary.md#vector) [tangente](../../../glossary.md#tangente) $\mathbf{r}'(t)$
 - Calcular velocidad en curvas del espacio
 
 ### Fórmula
@@ -95,10 +95,10 @@ $$\mathbf{r}'(t) = \langle f'(t), g'(t), h'(t) \rangle$$
 |-----------|---------|
 | Suma | $(\mathbf{u} + \mathbf{v})' = \mathbf{u}' + \mathbf{v}'$ |
 | Escalar por vector | $(c\mathbf{u})' = c\mathbf{u}'$ si $c$ es constante |
-| Función por vector | $(f \cdot \mathbf{u})' = f'\mathbf{u} + f\mathbf{u}'$ |
+| [Función](../../../glossary.md#función) por vector | $(f \cdot \mathbf{u})' = f'\mathbf{u} + f\mathbf{u}'$ |
 | Producto punto | $(\mathbf{u} \cdot \mathbf{v})' = \mathbf{u}' \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{v}'$ |
 | Producto cruz | $(\mathbf{u} \times \mathbf{v})' = \mathbf{u}' \times \mathbf{v} + \mathbf{u} \times \mathbf{v}'$ |
-| Composición | $[\mathbf{u}(f(t))]' = \mathbf{u}'(f(t)) \cdot f'(t)$ |
+| [Composición](../../../glossary.md#composición) | $[\mathbf{u}(f(t))]' = \mathbf{u}'(f(t)) \cdot f'(t)$ |
 
 ### Ejemplo Detallado
 
@@ -121,10 +121,10 @@ $$\mathbf{r}'(t) = \boxed{\langle 3t^2, -2\sin(2t), -e^{-t} \rangle}$$
 - Calcular integrales definidas de funciones vectoriales
 
 ### Fórmulas
-**Integral indefinida:**
+**[Integral indefinida](../../../glossary.md#integral-indefinida):**
 $$\int \mathbf{r}(t)\, dt = \left\langle \int f(t)\, dt, \int g(t)\, dt, \int h(t)\, dt \right\rangle$$
 
-**Integral definida:**
+**[Integral definida](../../../glossary.md#integral-definida):**
 $$\int_a^b \mathbf{r}(t)\, dt = \left\langle \int_a^b f(t)\, dt, \int_a^b g(t)\, dt, \int_a^b h(t)\, dt \right\rangle$$
 
 ### Ejemplo Detallado
@@ -229,7 +229,7 @@ $$\mathbf{N}(t) = \frac{\mathbf{T}'(t)}{\|\mathbf{T}'(t)\|}$$
 | Paso | Acción | Cálculo |
 |------|--------|---------|
 | 1 | Calcular $\mathbf{T}(t)$ | Método 6 |
-| 2 | Derivar para obtener $\mathbf{T}'(t)$ | Derivada de $\mathbf{T}$ |
+| 2 | Derivar para obtener $\mathbf{T}'(t)$ | [Derivada](../../../glossary.md#derivada) de $\mathbf{T}$ |
 | 3 | Normalizar | $\mathbf{N} = \frac{\mathbf{T}'}{\|\mathbf{T}'\|}$ |
 
 ### Ejemplo Detallado
@@ -304,7 +304,7 @@ $$\kappa = \frac{|y''|}{(1 + (y')^2)^{3/2}}$$
 
 **Problema:** Calcular la curvatura de $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 1$
 
-**Paso 1:** Calculamos las derivadas:
+**Paso 1:** Calculamos las [derivadas](../../../glossary.md#derivadas):
 $$\mathbf{r}'(t) = \langle 1, 2t, 0 \rangle$$
 $$\mathbf{r}''(t) = \langle 0, 2, 0 \rangle$$
 

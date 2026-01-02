@@ -78,9 +78,9 @@ $$L = 2\int_0^{\pi} 2\cos\left(\frac{\theta}{2}\right) \, d\theta = 4\int_0^{\pi
 
 ### Paso 7: Resolver la integral
 
-Usamos la sustitución $u = \frac{\theta}{2}$, entonces $du = \frac{1}{2}d\theta$, es decir, $d\theta = 2\,du$.
+Usamos la [sustitución](../../../../glossary.md#sustitución) $u = \frac{\theta}{2}$, entonces $du = \frac{1}{2}d\theta$, es decir, $d\theta = 2\,du$.
 
-Cambio de límites:
+Cambio de [límites](../../../../glossary.md#límites):
 - Cuando $\theta = 0$: $u = 0$
 - Cuando $\theta = \pi$: $u = \frac{\pi}{2}$
 

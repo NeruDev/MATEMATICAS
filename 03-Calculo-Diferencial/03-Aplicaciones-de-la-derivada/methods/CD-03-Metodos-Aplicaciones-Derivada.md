@@ -6,13 +6,13 @@ status: active
 
 # Métodos de Aplicaciones de la Derivada
 
-> Guía completa de aplicaciones prácticas de la derivada con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
+> Guía completa de aplicaciones prácticas de la [derivada](../../../glossary.md#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
 
 ---
 
 ## Método 1: Recta Tangente y Recta Normal
 
-**Cuándo Usar:** Para encontrar la ecuación de la recta tangente o normal a una curva en un punto dado.
+**Cuándo Usar:** Para encontrar la ecuación de la recta [tangente](../../../glossary.md#tangente) o normal a una curva en un punto dado.
 
 ### Fórmulas
 
@@ -146,7 +146,7 @@ El signo negativo indica que la altura está disminuyendo.
 | 2 | Encontrar puntos críticos | Resolver $f'(x) = 0$ y donde $f'$ no existe |
 | 3 | Evaluar $f$ en críticos | Solo los que están en $[a, b]$ |
 | 4 | Evaluar en extremos | $f(a)$ y $f(b)$ |
-| 5 | Comparar valores | El mayor es máximo, el menor es mínimo |
+| 5 | Comparar valores | El mayor es máximo, el [menor](../../../glossary.md#menor) es mínimo |
 
 ### Ejemplo Detallado
 
@@ -199,7 +199,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 
 ## Método 4: Criterio de la Primera Derivada
 
-**Cuándo Usar:** Para determinar si un punto crítico es máximo local, mínimo local, o ninguno.
+**Cuándo Usar:** Para determinar si un [punto crítico](../../../glossary.md#punto-crítico) es máximo local, mínimo local, o ninguno.
 
 ### Algoritmo de Resolución
 
@@ -216,7 +216,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 |------------------------|------------|
 | $+ \to -$ | Máximo local |
 | $- \to +$ | Mínimo local |
-| $+ \to +$ o $- \to -$ | Punto de inflexión (no extremo) |
+| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../../glossary.md#punto-de-inflexión) (no extremo) |
 
 ### Ejemplo Detallado
 
@@ -270,7 +270,7 @@ $$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos derivadas |
+| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos [derivadas](../../../glossary.md#derivadas) |
 | 2 | Encontrar puntos críticos | Resolver $f'(x) = 0$ |
 | 3 | Evaluar $f''$ en cada crítico | Determinar signo |
 | 4 | Clasificar | Según el criterio |
@@ -321,7 +321,7 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 |------|--------|---------|
 | 1 | Identificar objetivo | ¿Qué maximizar/minimizar? |
 | 2 | Definir variables | Asignar símbolos |
-| 3 | Escribir función objetivo | En términos de las variables |
+| 3 | Escribir [función](../../../glossary.md#función) objetivo | En términos de las variables |
 | 4 | Escribir restricciones | Ecuaciones que limitan las variables |
 | 5 | Reducir a una variable | Usar restricciones para eliminar |
 | 6 | Derivar y resolver | $f'(x) = 0$ |
@@ -385,7 +385,7 @@ $$\boxed{A_{max} = 100 \times 200 = 20,000 \text{ m}^2}$$
 
 ### Ejemplo de Optimización con Costo
 
-**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con base cuadrada que use la mínima cantidad de material.
+**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con [base](../../../glossary.md#base) cuadrada que use la mínima cantidad de material.
 
 ---
 
@@ -548,13 +548,13 @@ $$\boxed{\text{Error relativo} \approx 1.5\%}$$
 
 | Paso | Analizar | Método |
 |------|----------|--------|
-| 1 | Dominio | Restricciones en $x$ |
+| 1 | [Dominio](../../../glossary.md#dominio) | Restricciones en $x$ |
 | 2 | Interceptos | $y$-intercept: $f(0)$; $x$-intercepts: $f(x)=0$ |
 | 3 | Simetría | Par si $f(-x)=f(x)$; impar si $f(-x)=-f(x)$ |
 | 4 | Asíntotas | Verticales, horizontales, oblicuas |
 | 5 | Intervalos de crecimiento | Signo de $f'(x)$ |
 | 6 | Extremos locales | $f'(x) = 0$ y clasificar |
-| 7 | Concavidad | Signo de $f''(x)$ |
+| 7 | [Concavidad](../../../glossary.md#concavidad) | Signo de $f''(x)$ |
 | 8 | Puntos de inflexión | Donde $f''(x)$ cambia de signo |
 
 ### Ejemplo Detallado
@@ -620,7 +620,7 @@ $$\boxed{\text{Ver gráfica con AV: } x = \pm 1, \text{ AH: } y = 1, \text{ Máx
 
 ## Método 10: Método de Newton-Raphson
 
-**Cuándo Usar:** Para encontrar raíces de ecuaciones (soluciones de $f(x) = 0$) numéricamente.
+**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../../glossary.md#raíces-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
 
 ### Fórmula Iterativa
 
@@ -633,7 +633,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 | 1 | Elegir $x_0$ | Estimación inicial cercana a la raíz |
 | 2 | Calcular $f(x_n)$ y $f'(x_n)$ | En el punto actual |
 | 3 | Aplicar fórmula | Obtener $x_{n+1}$ |
-| 4 | Verificar convergencia | Si $\vert x_{n+1} - x_n\vert < \epsilon$ |
+| 4 | Verificar [convergencia](../../../glossary.md#convergencia) | Si $\vert x_{n+1} - x_n\vert < \epsilon$ |
 | 5 | Repetir | Hasta convergencia |
 
 ### Ejemplo Detallado

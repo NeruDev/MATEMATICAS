@@ -25,7 +25,7 @@ $$\arcsin x + \arccos x = \frac{\pi}{2}$$
 
 Presentamos tres enfoques para la demostración:
 1. **Demostración algebraica** usando definiciones de funciones inversas
-2. **Demostración por derivadas** (análisis)
+2. **Demostración por [derivadas](../../../../glossary.md#derivadas)** (análisis)
 3. **Demostración geométrica** usando un triángulo rectángulo
 
 ---
@@ -99,7 +99,7 @@ $$f'(x) = \frac{1}{\sqrt{1-x^2}} + \left(-\frac{1}{\sqrt{1-x^2}}\right) = 0$$
 
 ### Paso 3: Conclusión de la derivada
 
-Como $f'(x) = 0$ para todo $x \in (-1, 1)$, la función $f(x)$ es **constante**.
+Como $f'(x) = 0$ para todo $x \in (-1, 1)$, la [función](../../../../glossary.md#función) $f(x)$ es **constante**.
 
 ### Paso 4: Encontrar el valor de la constante
 
@@ -229,7 +229,7 @@ En ambos casos extremos, la suma sigue siendo $\frac{\pi}{2}$.
 
 ### Otras Identidades de Funciones Inversas
 
-| Identidad | Dominio |
+| Identidad | [Dominio](../../../../glossary.md#dominio) |
 |-----------|---------|
 | $\arcsin x + \arccos x = \frac{\pi}{2}$ | $x \in [-1, 1]$ |
 | $\arctan x + \text{arccot } x = \frac{\pi}{2}$ | $x \in \mathbb{R}$ |
@@ -237,6 +237,6 @@ En ambos casos extremos, la suma sigue siendo $\frac{\pi}{2}$.
 
 ### Relación Geométrica
 
-Esta identidad refleja el hecho de que en un triángulo rectángulo, si un ángulo agudo tiene seno $x$, entonces el otro ángulo agudo (que es el complemento a $90°$) tiene coseno $x$.
+Esta identidad refleja el hecho de que en un triángulo rectángulo, si un ángulo agudo tiene [seno](../../../../glossary.md#seno) $x$, entonces el otro ángulo agudo (que es el complemento a $90°$) tiene [coseno](../../../../glossary.md#coseno) $x$.
 
 > **Nota:** Esta es la razón por la que las funciones seno y coseno se llaman **cofunciones** — cada una es la función del ángulo complementario de la otra.

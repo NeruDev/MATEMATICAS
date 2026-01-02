@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: method
-topic_id: al-02-determinantes
+topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
 file_id: AL-02-Metodos-Determinantes
 status: stable
 audience: student
@@ -45,7 +45,7 @@ $$\det(A) = 5(4) - 3(2) = 20 - 6 = \boxed{14}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir la matriz | Copiar las dos primeras columnas a la derecha |
+| 1 | Escribir la [matriz](../../../glossary.md#matriz) | Copiar las dos primeras columnas a la derecha |
 | 2 | Diagonales descendentes | Sumar productos (→) |
 | 3 | Diagonales ascendentes | Restar productos (←) |
 
@@ -63,7 +63,7 @@ det = (+) - (-)
 
 ### Ejemplo Detallado
 
-**Problema:** Calcular el determinante de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
+**Problema:** Calcular el [determinante](../../../glossary.md#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
 
 **Paso 1:** Copiamos las dos primeras columnas:
 ```
@@ -107,10 +107,10 @@ $$\det(A) = \sum_{j=1}^{n} a_{ij} C_{ij}$$
 **Por columna $j$:**
 $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 
-donde el **cofactor** es:
+donde el **[cofactor](../../../glossary.md#cofactor)** es:
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
 
-y $M_{ij}$ es el **menor** (determinante de la submatriz sin fila $i$ y columna $j$).
+y $M_{ij}$ es el **[menor](../../../glossary.md#menor)** (determinante de la submatriz sin fila $i$ y columna $j$).
 
 ### Patrón de Signos
 $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + & - & \cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{pmatrix}$$
@@ -204,7 +204,7 @@ $$\det(A) = 1 \cdot 1 \cdot (-1) = \boxed{-1}$$
 | Dos filas/columnas proporcionales | $\det = 0$ |
 | Matriz triangular | $\det =$ producto de diagonal |
 | $\det(AB) = \det(A) \cdot \det(B)$ | Producto de determinantes |
-| $\det(A^T) = \det(A)$ | Transpuesta |
+| $\det(A^T) = \det(A)$ | [Transpuesta](../../../glossary.md#transpuesta) |
 | $\det(kA) = k^n \det(A)$ | Para matriz $n \times n$ |
 | $\det(A^{-1}) = \frac{1}{\det(A)}$ | Inversa |
 
@@ -273,7 +273,7 @@ donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por $b$.
 **Problema:** Resolver el sistema usando Cramer:
 $$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 4 \end{cases}$$
 
-**Paso 1:** Matriz de coeficientes y vector de términos independientes:
+**Paso 1:** Matriz de coeficientes y [vector](../../../glossary.md#vector) de términos independientes:
 $$A = \begin{pmatrix} 2 & 1 & -1 \\ 1 & -1 & 2 \\ 3 & 2 & 1 \end{pmatrix}, \quad b = \begin{pmatrix} 3 \\ 1 \\ 4 \end{pmatrix}$$
 
 **Paso 2:** Calculamos $\det(A)$ (por Sarrus):
@@ -369,7 +369,7 @@ $$A = \frac{1}{2}|14| = \boxed{7 \text{ unidades}^2}$$
 
 ### Cuándo Usar
 - Matrices con estructura especial de potencias
-- Interpolación polinomial
+- [Interpolación](../../../glossary.md#interpolación) polinomial
 
 ### Fórmula
 $$\det\begin{pmatrix} 1 & x_1 & x_1^2 \\ 1 & x_2 & x_2^2 \\ 1 & x_3 & x_3^2 \end{pmatrix} = (x_2 - x_1)(x_3 - x_1)(x_3 - x_2)$$

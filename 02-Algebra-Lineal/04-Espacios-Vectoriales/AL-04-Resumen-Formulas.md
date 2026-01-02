@@ -10,12 +10,12 @@ audience: student
 
 ## Axiomas de espacio vectorial
 
-Un conjunto $V$ con operaciones $+$ y $\cdot$ es espacio vectorial si:
+Un conjunto $V$ con operaciones $+$ y $\cdot$ es [espacio vectorial](../../glossary.md#espacio-vectorial) si:
 
 ### Suma
 1. $\vec{u} + \vec{v} = \vec{v} + \vec{u}$ (conmutativa)
 2. $(\vec{u} + \vec{v}) + \vec{w} = \vec{u} + (\vec{v} + \vec{w})$ (asociativa)
-3. Existe $\vec{0}$ tal que $\vec{v} + \vec{0} = \vec{v}$ (neutro)
+3. Existe $\vec{0}$ [tal que](../../glossary.md#tal-que) $\vec{v} + \vec{0} = \vec{v}$ (neutro)
 4. Existe $-\vec{v}$ tal que $\vec{v} + (-\vec{v}) = \vec{0}$ (inverso)
 
 ### Producto por escalar
@@ -26,7 +26,7 @@ Un conjunto $V$ con operaciones $+$ y $\cdot$ es espacio vectorial si:
 
 ## Criterio de subespacio
 
-$W \subseteq V$ es subespacio si:
+$W \subseteq V$ es [subespacio](../../glossary.md#subespacio) si:
 1. $\vec{0} \in W$
 2. $\vec{u}, \vec{v} \in W \Rightarrow \vec{u} + \vec{v} \in W$ (cerrado bajo suma)
 3. $\vec{v} \in W, c \in \mathbb{R} \Rightarrow c\vec{v} \in W$ (cerrado bajo escalar)
@@ -47,12 +47,12 @@ $\{\vec{v}_1, \ldots, \vec{v}_n\}$ es **linealmente independiente** si:
 $$c_1\vec{v}_1 + c_2\vec{v}_2 + \cdots + c_n\vec{v}_n = \vec{0} \Rightarrow c_1 = c_2 = \cdots = c_n = 0$$
 
 ### Criterios prácticos
-- En $\mathbb{R}^n$: formar matriz y verificar $\det \neq 0$ (si es cuadrada)
+- En $\mathbb{R}^n$: formar [matriz](../../glossary.md#matriz) y verificar $\det \neq 0$ (si es cuadrada)
 - Calcular rango de la matriz formada por los vectores
 
 ## Base
 
-$\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es **base** de $V$ si:
+$\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es **[base](../../glossary.md#base)** de $V$ si:
 1. $\mathcal{B}$ es linealmente independiente
 2. $\text{span}(\mathcal{B}) = V$
 

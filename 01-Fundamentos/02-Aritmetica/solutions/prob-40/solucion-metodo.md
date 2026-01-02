@@ -6,7 +6,7 @@ file_id: FUN-02-Prob-40-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-40]"
-methods: ["relación MCD-MCM-producto", "factorización prima", "análisis de divisores"]
+methods: ["relación [MCD](../../../../glossary.md#mcd)-[MCM](../../../../glossary.md#mcm)-producto", "[factorización](../../../../glossary.md#factorización) prima", "análisis de divisores"]
 -->
 
 # Solución [Prob-40]: Encontrar n dado MCD y MCM

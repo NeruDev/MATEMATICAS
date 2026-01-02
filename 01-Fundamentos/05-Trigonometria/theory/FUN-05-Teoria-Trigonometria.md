@@ -34,7 +34,7 @@ Un **ángulo** es la rotación de un rayo desde una posición inicial hasta una 
 
 **Radianes:**
 - Una vuelta completa = $2\pi$ rad
-- Un radián = ángulo central que subtiende un arco igual al radio
+- Un [radián](../../../glossary.md#radián) = ángulo central que subtiende un arco igual al radio
 
 **Conversión:**
 $$\boxed{180° = \pi \text{ rad}}$$
@@ -116,9 +116,9 @@ $$\sin\theta = y \qquad \cos\theta = x \qquad \tan\theta = \frac{y}{x}$$
 
 **Regla mnemotécnica "ASTC"** (All Students Take Calculus):
 - **A**ll (I): todas positivas
-- **S**in (II): solo seno positivo
-- **T**an (III): solo tangente positiva
-- **C**os (IV): solo coseno positivo
+- **S**in (II): solo [seno](../../../glossary.md#seno) positivo
+- **T**an (III): solo [tangente](../../../glossary.md#tangente) positiva
+- **C**os (IV): solo [coseno](../../../glossary.md#coseno) positivo
 
 ### Ángulos de referencia
 
@@ -157,7 +157,7 @@ $$\tan\theta \cdot \cot\theta = 1$$
 
 ### Identidades de paridad
 
-| Función par | Función impar |
+| [Función](../../../glossary.md#función) par | Función impar |
 |:-----------:|:-------------:|
 | $\cos(-\theta) = \cos\theta$ | $\sin(-\theta) = -\sin\theta$ |
 | $\sec(-\theta) = \sec\theta$ | $\tan(-\theta) = -\tan\theta$ |
@@ -280,7 +280,7 @@ $$\frac{a - b}{a + b} = \frac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$$
 
 ### Fórmulas de área
 
-**Con base y altura:**
+**Con [base](../../../glossary.md#base) y altura:**
 $$A = \frac{1}{2}bh$$
 
 **Con dos lados y ángulo comprendido:**
@@ -297,7 +297,7 @@ donde $s = \frac{a + b + c}{2}$ es el semiperímetro.
 
 ### Definiciones y dominios
 
-| Función | Notación | Dominio | Rango |
+| Función | Notación | [Dominio](../../../glossary.md#dominio) | Rango |
 |---------|:--------:|:-------:|:-----:|
 | Arcoseno | $\arcsin x$ o $\sin^{-1}x$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | Arcocoseno | $\arccos x$ o $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
@@ -346,7 +346,7 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 
 1. Aislar la función trigonométrica
 2. Encontrar soluciones en el intervalo fundamental
-3. Escribir la solución general usando periodicidad
+3. Escribir la [solución general](../../../glossary.md#solución-general) usando periodicidad
 
 ### Soluciones generales
 
@@ -371,6 +371,6 @@ donde $n \in \mathbb{Z}$.
 ---
 
 <!--
-IA: Teoría completa de trigonometría para nivel fundamentos.
+IA: Teoría completa de [trigonometría](../../../glossary.md#trigonometría) para nivel [fundamentos](../../../glossary.md#fundamentos).
 file_id: FUN-05-Teoria-Trigonometria
 -->

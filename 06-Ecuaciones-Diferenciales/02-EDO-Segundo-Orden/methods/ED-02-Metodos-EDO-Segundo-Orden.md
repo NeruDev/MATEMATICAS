@@ -6,7 +6,7 @@ status: active
 
 # Métodos: EDO de Segundo Orden
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver ecuaciones diferenciales ordinarias lineales de segundo orden.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias lineales de segundo [orden](../../../glossary.md#orden).
 
 ---
 
@@ -19,7 +19,7 @@ status: active
 | 3 | [Variación de Parámetros](#método-3-variación-de-parámetros) | $y'' + Py' + Qy = f(x)$ general | ⭐⭐⭐ |
 | 4 | [Cauchy-Euler](#método-4-ecuación-de-cauchy-euler) | $ax^2y'' + bxy' + cy = 0$ | ⭐⭐⭐ |
 | 5 | [Reducción de Orden](#método-5-reducción-de-orden) | Conocida una solución $y_1$ | ⭐⭐⭐ |
-| 6 | [Operador Anulador](#método-6-método-del-operador-anulador) | $f(x)$ polinomio, exp, trig | ⭐⭐⭐⭐ |
+| 6 | [Operador Anulador](#método-6-método-del-operador-anulador) | $f(x)$ [polinomio](../../../glossary.md#polinomio), exp, trig | ⭐⭐⭐⭐ |
 | 7 | [Superposición](#método-7-principio-de-superposición) | Múltiples términos en $f(x)$ | ⭐⭐ |
 | 8 | [PVI Segundo Orden](#método-8-resolver-pvi-de-segundo-orden) | Con condiciones iniciales | ⭐⭐ |
 | 9 | [Identificar Tipo](#método-9-identificar-tipo-de-ecuación) | Diagnóstico | ⭐ |
@@ -40,7 +40,7 @@ status: active
 
 **Solución según discriminante** $\Delta = b^2 - 4ac$:
 
-| Caso | Raíces | Solución General |
+| Caso | Raíces | [Solución General](../../../glossary.md#solución-general) |
 |------|--------|------------------|
 | $\Delta > 0$ | $r_1, r_2$ reales distintas | $y = C_1 e^{r_1 x} + C_2 e^{r_2 x}$ |
 | $\Delta = 0$ | $r$ real doble | $y = (C_1 + C_2 x)e^{rx}$ |
@@ -111,7 +111,7 @@ $y'' + 6y' + 25y = e^{-3x}[(-7 - 18 + 25)\cos 4x + (24 - 24)\sin 4x] = 0$ ✓
 - Ecuación $ay'' + by' + cy = f(x)$ donde $f(x)$ es:
   - Polinomio
   - Exponencial $e^{ax}$
-  - Seno/coseno $\sin bx$, $\cos bx$
+  - [Seno](../../../glossary.md#seno)/[coseno](../../../glossary.md#coseno) $\sin bx$, $\cos bx$
   - Productos de los anteriores
 
 ### Tabla de Propuestas para $y_p$
@@ -149,7 +149,7 @@ Si la propuesta $y_p$ contiene términos de $y_h$:
 
 ---
 
-**Paso 1: Resolver ecuación homogénea**
+**Paso 1: Resolver [ecuación homogénea](../../../glossary.md#ecuación-homogénea)**
 
 $r^2 - 4 = 0 \implies r = \pm 2$
 
@@ -175,7 +175,7 @@ $$y_p = Axe^{2x} + Bx + D$$
 
 ---
 
-**Paso 4: Calcular derivadas**
+**Paso 4: Calcular [derivadas](../../../glossary.md#derivadas)**
 
 $y_p' = Ae^{2x} + 2Axe^{2x} + B = Ae^{2x}(1 + 2x) + B$
 
@@ -221,13 +221,13 @@ $$\boxed{y = C_1 e^{2x} + C_2 e^{-2x} + 2xe^{2x} - \frac{3x}{4}}$$
 
 ### Fórmulas
 
-**Wronskiano:**
+**[Wronskiano](../../../glossary.md#wronskiano):**
 $$W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} = y_1 y_2' - y_2 y_1'$$
 
 **Funciones auxiliares:**
 $$u_1' = -\frac{y_2 f(x)}{W}, \quad u_2' = \frac{y_1 f(x)}{W}$$
 
-**Solución particular:**
+**[Solución particular](../../../glossary.md#solución-particular):**
 $$y_p = u_1 y_1 + u_2 y_2$$
 
 ### Algoritmo de Resolución
@@ -323,7 +323,7 @@ $= \frac{\sin^2 x}{\cos x} + \cos x = \frac{\sin^2 x + \cos^2 x}{\cos x} = \sec 
 
 ### Fórmula
 
-**Sustitución:** $y = x^m$ transforma en ecuación auxiliar:
+**[Sustitución](../../../glossary.md#sustitución):** $y = x^m$ transforma en ecuación auxiliar:
 
 $$am(m-1) + bm + c = 0 \implies am^2 + (b-a)m + c = 0$$
 
@@ -802,7 +802,7 @@ $y'(0) = 0 + 4 = 4$ ✓
 | $a, b, c$ constantes, $f(x) = 0$ | Ecuación característica |
 | $ax^2, bx, c$ coeficientes, $f(x) = 0$ | Cauchy-Euler |
 | $f(x)$ = polinomio, exp, sin/cos | Coeficientes indeterminados |
-| $f(x)$ cualquier función | Variación de parámetros |
+| $f(x)$ cualquier [función](../../../glossary.md#función) | Variación de parámetros |
 | Conocida una solución $y_1$ | Reducción de orden |
 
 ---
@@ -926,7 +926,7 @@ $$x(t) = 0.0268 e^{-2t}\cos(\sqrt{5}t - 0.73) \text{ m}$$
 | Olvidar modificar $y_p$ por duplicación | Coeficientes indeterminables | Siempre comparar $y_p$ con $y_h$ |
 | Error de signo en ecuación característica | Raíces incorrectas | Verificar signos cuidadosamente |
 | Wronskiano calculado mal | Integrales incorrectas | $W = y_1y_2' - y_2y_1'$ |
-| No pasar a forma estándar | Factor integrante erróneo | Dividir por coef. de $y''$ |
+| No pasar a forma estándar | [Factor integrante](../../../glossary.md#factor-integrante) erróneo | Dividir por coef. de $y''$ |
 | Confundir $\alpha$ y $\beta$ en raíces complejas | Solución mal formada | $r = \alpha \pm \beta i$, $\alpha$ = parte real |
 
 ---

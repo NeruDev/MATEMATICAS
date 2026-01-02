@@ -11,7 +11,7 @@ audience: student
 # Solución: MCD por algoritmo de Euclides
 
 ## Problema
-Calcula $\text{MCD}(252, 198)$ usando el algoritmo de Euclides.
+Calcula $\text{[MCD](../../../../glossary.md#mcd)}(252, 198)$ usando el algoritmo de Euclides.
 
 ---
 

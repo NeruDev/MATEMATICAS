@@ -27,7 +27,7 @@ d) Una semirrecta tiene dos puntos extremos.
 ---
 
 ### [Prob-02] Puntos Colineales y Distancias ⭐
-En una recta se marcan los puntos $A$, $B$, $C$ y $D$ en ese orden. Si $AB = 3$ cm, $BC = 5$ cm y $AD = 12$ cm, encuentra $CD$.
+En una recta se marcan los puntos $A$, $B$, $C$ y $D$ en ese [orden](../../../glossary.md#orden). Si $AB = 3$ cm, $BC = 5$ cm y $AD = 12$ cm, encuentra $CD$.
 
 📎 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
 
@@ -200,7 +200,7 @@ En un triángulo equilátero de lado 6 cm, encuentra la altura, el área y el ra
 ---
 
 ### [Prob-25] Altura de Triángulo Isósceles ⭐⭐
-La base de un triángulo isósceles mide 10 cm y los lados iguales miden 13 cm cada uno. Calcula la altura correspondiente a la base.
+La [base](../../../glossary.md#base) de un triángulo isósceles mide 10 cm y los lados iguales miden 13 cm cada uno. Calcula la altura correspondiente a la base.
 
 📎 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
 
@@ -286,7 +286,7 @@ Las diagonales de un cuadrado miden $6\sqrt{2}$ cm. Calcula el lado, el perímet
 ---
 
 ### [Prob-37] Trapecio Rectángulo ⭐⭐⭐
-En un trapecio rectángulo, la base mayor mide 12 cm, la base menor mide 8 cm, y el lado perpendicular a las bases mide 5 cm. Encuentra el área y el lado oblicuo.
+En un trapecio rectángulo, la base mayor mide 12 cm, la base [menor](../../../glossary.md#menor) mide 8 cm, y el lado perpendicular a las bases mide 5 cm. Encuentra el área y el lado oblicuo.
 
 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 
@@ -430,7 +430,7 @@ Dos circunferencias tienen radios 5 cm y 12 cm, y la distancia entre sus centros
 ---
 
 ### [Prob-57] Longitud de Tangente ⭐⭐⭐
-Una tangente a un círculo de radio 5 cm se traza desde un punto exterior a 13 cm del centro. Calcula la longitud de la tangente.
+Una [tangente](../../../glossary.md#tangente) a un círculo de radio 5 cm se [traza](../../../glossary.md#traza) desde un punto exterior a 13 cm del centro. Calcula la longitud de la tangente.
 
 📎 **Solución:** [solutions/prob-57/](../solutions/prob-57/)
 

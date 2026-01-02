@@ -82,13 +82,13 @@ donde $f(x) \neq 0$ es el **término forzante**.
 
 ### Teorema de la Solución General
 
-La solución general de la ecuación no homogénea es:
+La [solución general](../../../glossary.md#solución-general) de la ecuación no homogénea es:
 
 $$\boxed{y = y_h + y_p}$$
 
 donde:
-- $y_h$ = solución general de la ecuación homogénea asociada
-- $y_p$ = una solución particular de la ecuación no homogénea
+- $y_h$ = solución general de la [ecuación homogénea](../../../glossary.md#ecuación-homogénea) asociada
+- $y_p$ = una [solución particular](../../../glossary.md#solución-particular) de la ecuación no homogénea
 
 ### Principio de Superposición
 
@@ -217,7 +217,7 @@ $$\boxed{y_p = -y_1 \int \frac{y_2 f}{W}\,dx + y_2 \int \frac{y_1 f}{W}\,dx}$$
 
 $$ax^2y'' + bxy' + cy = 0$$
 
-Los coeficientes son **potencias de $x$** que coinciden con el orden de la derivada.
+Los coeficientes son **potencias de $x$** que coinciden con el [orden](../../../glossary.md#orden) de la [derivada](../../../glossary.md#derivada).
 
 ### Método de Solución
 
@@ -263,7 +263,7 @@ $$y = x^\alpha[C_1 \cos(\beta \ln x) + C_2 \sin(\beta \ln x)]$$
 
 ### Método Alternativo: Cambio de Variable
 
-La sustitución $x = e^t$ (o $t = \ln x$) transforma la ecuación de Cauchy-Euler en una ecuación con coeficientes constantes.
+La [sustitución](../../../glossary.md#sustitución) $x = e^t$ (o $t = \ln x$) transforma la ecuación de Cauchy-Euler en una ecuación con coeficientes constantes.
 
 ---
 
@@ -330,7 +330,7 @@ donde:
 
 Cuando la frecuencia de la fuerza externa $\omega$ iguala la frecuencia natural $\omega_0$:
 
-**Sin amortiguamiento:** La amplitud crece sin límite (resonancia pura)
+**Sin amortiguamiento:** La amplitud crece sin [límite](../../../glossary.md#límite) ([resonancia](../../../glossary.md#resonancia) pura)
 
 **Con amortiguamiento:** La amplitud alcanza un máximo finito en:
 

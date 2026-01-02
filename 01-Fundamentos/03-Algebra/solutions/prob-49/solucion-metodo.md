@@ -6,7 +6,7 @@ file_id: FUN-03-Prob-49-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-49]"
-methods: ["fracciones-complejas", "mcm", "simplificacion-algebraica"]
+methods: ["fracciones-complejas", "[mcm](../../../../glossary.md#mcm)", "simplificacion-algebraica"]
 -->
 
 # Solución [Prob-49]: Fracción compleja - simplificación
@@ -172,7 +172,7 @@ La expresión está definida cuando:
 2. $y \neq 0$ (para que exista $\frac{1}{y}$)
 3. $\frac{1}{x} + \frac{1}{y} \neq 0$, es decir, $x + y \neq 0$ o $y \neq -x$
 
-**Dominio:** $\{(x, y) \in \mathbb{R}^2 : x \neq 0, y \neq 0, x \neq -y\}$
+**[Dominio](../../../../glossary.md#dominio):** $\{(x, y) \in \mathbb{R}^2 : x \neq 0, y \neq 0, x \neq -y\}$
 
 ---
 

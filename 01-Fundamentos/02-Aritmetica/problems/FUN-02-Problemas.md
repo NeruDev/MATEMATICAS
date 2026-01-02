@@ -42,7 +42,7 @@ Si $a$ es racional y $b$ es irracional, ¿qué tipo de número es $a + b$? Justi
 > 📁 Solución: `solutions/prob-04/`
 
 ### [Prob-05] Ordenar racionales ⭐
-Ordena de menor a mayor: $\frac{3}{4}$, $0.7$, $\frac{5}{7}$, $0.\overline{72}$.
+Ordena de [menor](../../../glossary.md#menor) a mayor: $\frac{3}{4}$, $0.7$, $\frac{5}{7}$, $0.\overline{72}$.
 
 > 📁 Solución: `solutions/prob-05/`
 
@@ -145,7 +145,7 @@ Descompón en factores primos: 504.
 > 📁 Solución: `solutions/prob-23/`
 
 ### [Prob-24] Verificar si es primo ⭐⭐
-¿Es 127 un número primo? Justifica tu respuesta.
+¿Es 127 un [número primo](../../../glossary.md#número-primo)? Justifica tu respuesta.
 
 > 📁 Solución: `solutions/prob-24/`
 
@@ -184,7 +184,7 @@ El producto de tres primos consecutivos es 2431. ¿Cuáles son?
 ## Sección 2.4 MCD y MCM
 
 ### [Prob-31] MCD por factorización ⭐
-Calcula $\text{MCD}(84, 126)$ por factorización.
+Calcula $\text{[MCD](../../../glossary.md#mcd)}(84, 126)$ por [factorización](../../../glossary.md#factorización).
 
 > 📁 Solución: `solutions/prob-31/`
 
@@ -194,7 +194,7 @@ Calcula $\text{MCD}(252, 198)$ usando el algoritmo de Euclides.
 > 📁 Solución: `solutions/prob-32/`
 
 ### [Prob-33] MCM de tres números ⭐
-Encuentra $\text{MCM}(18, 24, 30)$.
+Encuentra $\text{[MCM](../../../glossary.md#mcm)}(18, 24, 30)$.
 
 > 📁 Solución: `solutions/prob-33/`
 
@@ -415,7 +415,7 @@ Dos números están en razón 4:7. Si su suma es 132, encuentra los números.
 > 📁 Solución: `solutions/prob-73/`
 
 ### [Prob-74] Proporcionalidad directa ⭐
-Una máquina produce 450 piezas en 6 horas. ¿Cuántas piezas produce en 10 horas?
+Una [máquina](../../../glossary.md#máquina) produce 450 piezas en 6 horas. ¿Cuántas piezas produce en 10 horas?
 
 > 📁 Solución: `solutions/prob-74/`
 

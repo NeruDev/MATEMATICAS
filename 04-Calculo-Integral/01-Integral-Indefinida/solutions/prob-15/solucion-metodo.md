@@ -21,7 +21,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la integral indefinida:
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int\frac{x^4 - 1}{x^2 + 1} \, dx$$
 
 ---
@@ -35,7 +35,7 @@ $$x^4 - 1 = (x^2)^2 - 1^2 = (x^2 + 1)(x^2 - 1)$$
 
 ### Paso 2: Simplificar la fracción
 
-Sustituimos la factorización:
+Sustituimos la [factorización](../../../../glossary.md#factorización):
 $$\frac{x^4 - 1}{x^2 + 1} = \frac{(x^2 + 1)(x^2 - 1)}{x^2 + 1}$$
 
 Cancelamos el factor común $(x^2 + 1)$:

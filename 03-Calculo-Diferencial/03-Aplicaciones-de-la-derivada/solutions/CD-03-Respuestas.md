@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: cd-03-aplicaciones-derivada
+topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
 file_id: CD-03-Respuestas
 status: stable
 audience: student
@@ -33,7 +33,7 @@ solved_detailed: 0
 | [Prob-11] | Mín. abs: $f(2) = -1$; Máx. abs: $f(0) = f(4) = 3$ | ➖ |
 | [Prob-12] | Mín. abs: $f(-2) = -1$; Máx. abs: $f(-1) = f(2) = 3$ | ➖ |
 | [Prob-13] | Mín. abs: $f(-1) = -\dfrac{1}{2}$; Máx. abs: $f(1) = \dfrac{1}{2}$ | ➖ |
-| [Prob-14] | $x = 0$ (no diferenciable) y $x = 2$ (punto crítico) | ➖ |
+| [Prob-14] | $x = 0$ (no diferenciable) y $x = 2$ ([punto crítico](../../../glossary.md#punto-crítico)) | ➖ |
 | [Prob-15] | Máx: $f\left(\dfrac{\pi}{4}\right) = \sqrt{2}$; Mín: $f\left(\dfrac{5\pi}{4}\right) = -\sqrt{2}$ | ➖ |
 | **3.4 Criterio de la Primera Derivada** |||
 | [Prob-16] | Crece: $(-\infty, 1) \cup (3, \infty)$; Decrece: $(1, 3)$ | ➖ |
@@ -47,7 +47,7 @@ solved_detailed: 0
 | [Prob-23] | Inflexiones en $x = 0, \pm\sqrt{3}$ | ➖ |
 | **3.6 Optimización** |||
 | [Prob-24] | $25$ m $\times$ $50$ m; Área máxima: $1250$ m² | ➖ |
-| [Prob-25] | Base: $10\sqrt{2}$; Altura: $5\sqrt{2}$; Área: $100$ | ➖ |
+| [Prob-25] | [Base](../../../glossary.md#base): $10\sqrt{2}$; Altura: $5\sqrt{2}$; Área: $100$ | ➖ |
 | [Prob-26] | Corte: $2$ cm; Volumen máximo: $128$ cm³ | ➖ |
 | [Prob-27] | $h = \dfrac{4R}{3}$; $r = \dfrac{R\sqrt{2}}{\sqrt{3}}$; $V_{max} = \dfrac{32\pi R^3}{81}$ | ➖ |
 | [Prob-28] | $\left(\dfrac{5}{2}, \dfrac{25}{4}\right)$ | ➖ |

@@ -2,8 +2,8 @@
 ---
 type: solution
 problem-id: CD-02-29
-topic: Derivadas
-subtopic: Regla de la cadena
+topic: [Derivadas](../../../../glossary.md#derivadas)
+subtopic: [Regla de la cadena](../../../../glossary.md#regla-de-la-cadena)
 difficulty: avanzado
 tags: [derivada, cadena-triple, funciones-compuestas, trigonométricas]
 created: 2024-12-22
@@ -22,17 +22,17 @@ Derivar $g(x) = \sin(\cos(\tan x))$ aplicando la regla de la cadena tres veces.
 
 ### Paso 1: Identificar la estructura de composición
 
-La función es una composición de tres funciones:
+La [función](../../../../glossary.md#función) es una [composición](../../../../glossary.md#composición) de tres funciones:
 
 $$g(x) = (f \circ h \circ k)(x) = f(h(k(x)))$$
 
 Donde:
 
-| Nivel | Función | Nombre | Derivada |
+| Nivel | Función | Nombre | [Derivada](../../../../glossary.md#derivada) |
 |-------|---------|--------|----------|
-| Externa | $f(u) = \sin u$ | seno | $f'(u) = \cos u$ |
-| Media | $h(v) = \cos v$ | coseno | $h'(v) = -\sin v$ |
-| Interna | $k(x) = \tan x$ | tangente | $k'(x) = \sec^2 x$ |
+| Externa | $f(u) = \sin u$ | [seno](../../../../glossary.md#seno) | $f'(u) = \cos u$ |
+| Media | $h(v) = \cos v$ | [coseno](../../../../glossary.md#coseno) | $h'(v) = -\sin v$ |
+| Interna | $k(x) = \tan x$ | [tangente](../../../../glossary.md#tangente) | $k'(x) = \sec^2 x$ |
 
 ### Paso 2: Establecer la regla de la cadena generalizada
 
@@ -126,7 +126,7 @@ $$g'(x) = \sec^2 x \times (-\sin(\tan x)) \times \cos(\cos(\tan x))$$
 
 ## Notas adicionales
 
-> **Generalización**: Para $n$ funciones compuestas $f_1(f_2(\cdots f_n(x)))$:
+> **[Generalización](../../../../glossary.md#generalización)**: Para $n$ funciones compuestas $f_1(f_2(\cdots f_n(x)))$:
 > $$\frac{d}{dx} = f_1'(f_2(\cdots)) \cdot f_2'(f_3(\cdots)) \cdots f_n'(x)$$
 
-> **Dominio**: La derivada existe donde $\cos x \neq 0$, es decir, $x \neq \dfrac{\pi}{2} + k\pi$ para $k \in \mathbb{Z}$.
+> **[Dominio](../../../../glossary.md#dominio)**: La derivada existe donde $\cos x \neq 0$, es decir, $x \neq \dfrac{\pi}{2} + k\pi$ para $k \in \mathbb{Z}$.

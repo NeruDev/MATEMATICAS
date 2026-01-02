@@ -73,7 +73,7 @@ $\nabla f = \mathbf{0}$ o $\nabla f$ no existe
 
 ### Criterio de la segunda derivada ($z = f(x,y)$)
 
-Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el punto crítico:
+Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el [punto crítico](../../glossary.md#punto-crítico):
 
 | Condición | Conclusión |
 |-----------|------------|

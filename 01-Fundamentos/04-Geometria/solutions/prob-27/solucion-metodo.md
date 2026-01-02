@@ -203,7 +203,7 @@ con razón de semejanza $1:2$.
 En el triángulo $\triangle ABM_a$, la recta $\overline{M_bM_c}$ corta:
 - $\overline{AB}$ en $M_c$ (punto medio)
 - $\overline{AM_a}$ en $G$
-- $\overline{BM_a}$ (extendida si es necesario)
+- $\overline{BM_a}$ (extendida si es [necesario](../../../../glossary.md#necesario))
 
 Por el **Teorema de Menelao:**
 

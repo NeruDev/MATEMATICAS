@@ -1,9 +1,9 @@
 <!--
 HUMANO:
-Métodos para integrales impropias.
+Métodos para [integrales impropias](../../../glossary.md#integrales-impropias).
 
 IA:
-Procedimientos para evaluar y determinar convergencia con explicaciones detalladas.
+Procedimientos para evaluar y determinar [convergencia](../../../glossary.md#convergencia) con explicaciones detalladas.
 
 ---
 content_type: methods
@@ -29,9 +29,9 @@ $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
 | Paso | Acción | Verificación |
 |------|--------|--------------|
-| 1 | Reemplazar $\infty$ por $t$ | Convertir en integral definida |
+| 1 | Reemplazar $\infty$ por $t$ | Convertir en [integral definida](../../../glossary.md#integral-definida) |
 | 2 | Calcular la integral en términos de $t$ | Aplicar técnicas usuales |
-| 3 | Tomar el límite cuando $t \to \infty$ | Evaluar convergencia |
+| 3 | Tomar el [límite](../../../glossary.md#límite) cuando $t \to \infty$ | Evaluar convergencia |
 | 4 | Si el límite existe y es finito | La integral **converge** |
 | 5 | Si el límite es $\pm\infty$ o no existe | La integral **diverge** |
 
@@ -59,7 +59,7 @@ $$= 0 + e^{-1} = \frac{1}{e}$$
 ## Método 2: Evaluación Directa (Tipo II - Discontinuidad)
 
 ### Cuándo Usar
-Integrales donde el integrando tiene una discontinuidad (asíntota vertical) en uno de los límites o dentro del intervalo.
+Integrales donde el integrando tiene una discontinuidad ([asíntota](../../../glossary.md#asíntota) vertical) en uno de los [límites](../../../glossary.md#límites) o dentro del intervalo.
 
 ### Definición
 Si $f$ tiene discontinuidad en $x = a$:
@@ -164,14 +164,14 @@ Cuando no se puede calcular la integral explícitamente pero se puede comparar c
 
 **Para convergencia:** Si $0 \leq f(x) \leq g(x)$ y $\int g(x)\,dx$ converge, entonces $\int f(x)\,dx$ converge.
 
-**Para divergencia:** Si $f(x) \geq g(x) \geq 0$ y $\int g(x)\,dx$ diverge, entonces $\int f(x)\,dx$ diverge.
+**Para [divergencia](../../../glossary.md#divergencia):** Si $f(x) \geq g(x) \geq 0$ y $\int g(x)\,dx$ diverge, entonces $\int f(x)\,dx$ diverge.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Propósito |
 |------|--------|-----------|
 | 1 | Identificar el comportamiento dominante | Para $x$ grande o cerca de discontinuidad |
-| 2 | Encontrar función de comparación $g(x)$ | Más simple, convergencia conocida |
+| 2 | Encontrar [función](../../../glossary.md#función) de comparación $g(x)$ | Más simple, convergencia conocida |
 | 3 | Verificar la desigualdad | $f \leq g$ o $f \geq g$ |
 | 4 | Aplicar el teorema apropiado | Concluir convergencia/divergencia |
 
@@ -213,7 +213,7 @@ $$L = \lim_{x \to \infty} \frac{f(x)}{g(x)}$$
 |------|--------|---------|
 | 1 | Identificar término dominante de $f(x)$ | Para $x \to \infty$ |
 | 2 | Elegir $g(x)$ con ese comportamiento | Función simple |
-| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es necesario |
+| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es [necesario](../../../glossary.md#necesario) |
 | 4 | Determinar convergencia de $\int g$ | Test p u otro método |
 | 5 | Concluir sobre $\int f$ | Mismo comportamiento |
 
@@ -290,7 +290,7 @@ $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx = \frac{\pi}{2} + \frac{\pi}{2} = 
 Para simplificar la integral antes de evaluar, especialmente con sustituciones trigonométricas.
 
 ### Punto Clave
-Al hacer sustitución, los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
+Al hacer [sustitución](../../../glossary.md#sustitución), los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
 
 ### Algoritmo de Resolución
 
@@ -305,7 +305,7 @@ Al hacer sustitución, los límites de integración **también cambian**. Un lí
 
 **Problema:** Evaluar $\int_1^{\infty} \frac{1}{x\sqrt{x^2-1}}\,dx$
 
-**Paso 1:** Hacemos la sustitución trigonométrica $x = \sec\theta$:
+**Paso 1:** Hacemos la [sustitución trigonométrica](../../../glossary.md#sustitución-trigonométrica) $x = \sec\theta$:
 - $dx = \sec\theta\tan\theta\,d\theta$
 - $\sqrt{x^2-1} = \sqrt{\sec^2\theta - 1} = \tan\theta$
 
@@ -347,7 +347,7 @@ Para reconocer integrales clásicas cuyo valor es conocido.
 $$\int_0^{\infty} x^3 e^{-x}\,dx = 3! = 6$$
 
 **Verificación por partes (opcional):**
-Usando integración por partes repetida o la fórmula de reducción, se confirma que el resultado es $6$.
+Usando [integración por partes](../../../glossary.md#integración-por-partes) repetida o la fórmula de reducción, se confirma que el resultado es $6$.
 
 **Resultado:** $\boxed{6}$
 

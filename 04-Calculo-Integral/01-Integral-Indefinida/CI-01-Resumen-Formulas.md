@@ -19,14 +19,14 @@ $$\int f(x)\,dx = F(x) + C \quad \text{donde} \quad F'(x) = f(x)$$
 | Propiedad | Fórmula |
 |-----------|---------|
 | Constante | $\int k\,dx = kx + C$ |
-| Linealidad | $\int kf(x)\,dx = k\int f(x)\,dx$ |
+| [Linealidad](../../glossary.md#linealidad) | $\int kf(x)\,dx = k\int f(x)\,dx$ |
 | Suma | $\int [f(x) \pm g(x)]\,dx = \int f(x)\,dx \pm \int g(x)\,dx$ |
 
 ## Tabla de integrales básicas
 
 ### Funciones algebraicas
 
-| Función | Integral |
+| [Función](../../glossary.md#función) | Integral |
 |---------|----------|
 | $x^n$ $(n \neq -1)$ | $\dfrac{x^{n+1}}{n+1} + C$ |
 | $\dfrac{1}{x}$ | $\ln\|x\| + C$ |
@@ -90,7 +90,7 @@ $$\frac{d}{dx}\left[\int f(x)\,dx\right] = f(x)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para integral indefinida.
+IA: Hoja de referencia rápida para [integral indefinida](../../glossary.md#integral-indefinida).
 Para desarrollo completo: theory/CI-01-Teoria-Integral-Indefinida.md
 file_id: CI-01-Resumen-Formulas
 -->

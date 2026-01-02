@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Solución - Integración por Partes Iteradas"
+title: "Solución - [Integración por Partes](../../../../glossary.md#integración-por-partes) Iteradas"
 type: solution
 topic: tecnicas-integracion
 problem_id: CI-02-018
@@ -21,7 +21,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la integral indefinida:
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int x^2 e^x \, dx$$
 
 ---
@@ -96,7 +96,7 @@ El método tabular organiza las partes iteradas de forma sistemática.
 
 ### Construcción de la tabla
 
-| Signo | Derivadas de $x^2$ | Integrales de $e^x$ |
+| Signo | [Derivadas](../../../../glossary.md#derivadas) de $x^2$ | Integrales de $e^x$ |
 |:-----:|:------------------:|:-------------------:|
 | $+$ | $x^2$ | $e^x$ |
 | $-$ | $2x$ | $e^x$ |

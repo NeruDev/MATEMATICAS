@@ -18,7 +18,7 @@ En un triángulo equilátero de lado 6 cm, encuentra la altura, el área y el ra
 ## Método: Fórmulas del triángulo equilátero
 
 ### Paso 1: Calcular la altura
-En un triángulo equilátero, la altura divide la base en dos partes iguales, formando dos triángulos rectángulos.
+En un triángulo equilátero, la altura divide la [base](../../../../glossary.md#base) en dos partes iguales, formando dos triángulos rectángulos.
 
 Usando el teorema de Pitágoras:
 $$h^2 + \left(\frac{a}{2}\right)^2 = a^2$$

@@ -21,13 +21,13 @@ Si $f$ satisface:
 2. $f$ es derivable en $(a, b)$
 3. $f(a) = f(b)$
 
-Entonces existe al menos un $c \in (a, b)$ tal que $f'(c) = 0$.
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que) $f'(c) = 0$.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Verificar continuidad | $f$ continua en $[a, b]$ |
+| 1 | Verificar [continuidad](../../../glossary.md#continuidad) | $f$ continua en $[a, b]$ |
 | 2 | Verificar derivabilidad | $f$ derivable en $(a, b)$ |
 | 3 | Verificar $f(a) = f(b)$ | Calcular ambos valores |
 | 4 | Resolver $f'(x) = 0$ | Encontrar los valores de $c$ |
@@ -41,7 +41,7 @@ Entonces existe al menos un $c \in (a, b)$ tal que $f'(c) = 0$.
 
 **Paso 1: Verificar continuidad**
 
-$f(x) = x^3 - 3x$ es un polinomio, continuo en todo $\mathbb{R}$ ✓
+$f(x) = x^3 - 3x$ es un [polinomio](../../../glossary.md#polinomio), continuo en todo $\mathbb{R}$ ✓
 
 ---
 
@@ -78,7 +78,7 @@ $$\boxed{c_1 = -1, \quad c_2 = 1}$$
 
 ## Método 2: Teorema del Valor Medio (TVM)
 
-**Cuándo Usar:** Para relacionar el cambio promedio de una función con su derivada instantánea.
+**Cuándo Usar:** Para relacionar el cambio promedio de una [función](../../../glossary.md#función) con su [derivada](../../../glossary.md#derivada) instantánea.
 
 ### Enunciado del Teorema
 
@@ -91,7 +91,7 @@ $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 ### Interpretación Geométrica
 
-> La pendiente de la recta secante entre $(a, f(a))$ y $(b, f(b))$ es igual a la pendiente de la recta tangente en algún punto $c$ intermedio.
+> La pendiente de la recta secante entre $(a, f(a))$ y $(b, f(b))$ es igual a la pendiente de la recta [tangente](../../../glossary.md#tangente) en algún punto $c$ intermedio.
 
 ### Algoritmo de Resolución
 
@@ -149,11 +149,11 @@ $$\boxed{c = 1}$$
 
 ## Método 3: Regla de L'Hôpital (Forma $\frac{0}{0}$)
 
-**Cuándo Usar:** Límites de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
+**Cuándo Usar:** [Límites](../../../glossary.md#límites) de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
 
 ### Enunciado
 
-Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el límite $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
+Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el [límite](../../../glossary.md#límite) $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
@@ -164,7 +164,7 @@ $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 | 1 | Verificar forma $\frac{0}{0}$ | Sustituir directamente |
 | 2 | Derivar numerador y denominador | Por separado |
 | 3 | Evaluar nuevo límite | Sustituir o repetir L'Hôpital |
-| 4 | Repetir si necesario | Si sigue siendo indeterminado |
+| 4 | Repetir si [necesario](../../../glossary.md#necesario) | Si sigue siendo indeterminado |
 
 ### Ejemplo Detallado
 
@@ -349,7 +349,7 @@ $$\boxed{\lim_{x \to 0^+} \left(\frac{1}{x} - \frac{1}{\sin x}\right) = 0}$$
 
 ## Método 7: L'Hôpital para Formas Exponenciales ($0^0$, $1^\infty$, $\infty^0$)
 
-**Cuándo Usar:** Límites de la forma $[f(x)]^{g(x)}$ donde la base y/o exponente producen indeterminación.
+**Cuándo Usar:** Límites de la forma $[f(x)]^{g(x)}$ donde la [base](../../../glossary.md#base) y/o exponente producen indeterminación.
 
 ### Algoritmo de Resolución
 
@@ -444,7 +444,7 @@ $$= f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar centro $a$ | Usualmente $a = 0$ (Maclaurin) |
-| 2 | Calcular derivadas | $f(a), f'(a), f''(a), \ldots$ |
+| 2 | Calcular [derivadas](../../../glossary.md#derivadas) | $f(a), f'(a), f''(a), \ldots$ |
 | 3 | Escribir términos | $\frac{f^{(n)}(a)}{n!}(x-a)^n$ |
 | 4 | Identificar patrón | Si existe |
 
