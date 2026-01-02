@@ -115,7 +115,7 @@ $$\boxed{P(x) = \frac{3x^4 - 10x^3 + 15x^2 - 8x + 8}{8}}$$
 
 ## Solución Problema 12 (Error de Interpolación)
 
-**Acotar [error de interpolación](../../../glossary.md)#error-de-[interpolacion](../../../glossary.md#interpolacion)) lineal de $e^x$ en $[0, 1]$**
+**Acotar error de [interpolación](../../../glossary.md#interpolacion) lineal de $e^x$ en $[0, 1]$**
 
 Fórmula del error:
 $$|f(x) - P_1(x)| \leq \frac{M_2}{2!}|(x - x_0)(x - x_1)|$$

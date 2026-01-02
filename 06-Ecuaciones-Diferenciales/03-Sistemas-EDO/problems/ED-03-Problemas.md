@@ -267,7 +267,7 @@ $\mathbf{X}' = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ -6 & 11 & -6 \end{pmatr
 
 Dos tanques de 100 L cada uno están conectados. El tanque 1 recibe agua pura a 3 L/min. La mezcla fluye del tanque 1 al 2 a 4 L/min, del tanque 2 al 1 a 1 L/min, y sale del tanque 2 a 3 L/min. Sea $x_1(t)$ y $x_2(t)$ las cantidades de sal.
 
-a) Escribir el [sistema de EDO](../../../glossary.md)#sistema-de-[edo](../../../glossary.md#edo))
+a) Escribir el sistema de [EDO](../../../glossary.md#edo)
 
 b) Si inicialmente hay 10 kg de sal en cada tanque, encontrar $x_1(t)$ y $x_2(t)$
 

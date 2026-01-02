@@ -39,5 +39,6 @@ Este módulo introduce el concepto fundamental de matrices: arreglos rectangular
 1. **Fase conceptual** (1h): Estudiar definiciones y notación básica
 2. **Clasificación** (1h): Identificar tipos especiales de matrices
 3. **Operaciones** (1.5h): Dominar suma, resta, producto escalar y multiplicación
-4. **Propiedades avanzadas** (1.5h): [Transpuesta](../02-[Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md)
+4. **Propiedades avanzadas** (1.5h): Transpuesta, inversa
+- **Prerrequisito para**: [Determinantes](../02-Determinantes/AL-02-Determinantes-Intro.md)
 - **Aplica en**: Sistemas lineales, [transformaciones lineales](../../glossary.md#transformaciones-lineales), valores propios
