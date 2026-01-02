@@ -77,7 +77,7 @@ $$m = \pm\frac{3}{4}$$
 
 ### Paso 5: Escribir las ecuaciones de las tangentes
 
-**Tangente 1:** Con $m = \frac{3}{4}$:
+**[Tangente](../../../../glossary.md#tangente) 1:** Con $m = \frac{3}{4}$:
 $$y = \frac{3}{4}(x - 5)$$
 $$y = \frac{3}{4}x - \frac{15}{4}$$
 $$4y = 3x - 15$$
@@ -170,7 +170,7 @@ Sea $T_1 = (x_1, y_1)$ un punto de tangencia.
 
 El [vector](../../../../glossary.md#vector) $\overrightarrow{OT_1} = (x_1, y_1)$
 
-El vector $\overrightarrow{T_1P} = (5 - x_1, -y_1)$
+El [vector](../../../../glossary.md#vector) $\overrightarrow{T_1P} = (5 - x_1, -y_1)$
 
 Para perpendicularidad:
 $$\overrightarrow{OT_1} \cdot \overrightarrow{T_1P} = 0$$

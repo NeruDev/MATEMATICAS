@@ -1,6 +1,6 @@
 <!--
 ---
-title: Introducción a [Integración Numérica](../../glossary.md#integración-numérica)
+title: Introducción a [Integración Numérica](../../glossary.md#integracion-numerica)
 type: index
 topic: integracion-numerica
 tags: [métodos-numéricos, integración, trapecios, simpson, cuadratura]
@@ -13,7 +13,7 @@ updated: 2025-12-20
 
 ## Descripción General
 
-La integración numérica consiste en aproximar el valor de integrales definidas $\int_a^b f(x)\,dx$ cuando no es posible obtener una [antiderivada](../../glossary.md#antiderivada) en forma cerrada o cuando solo se dispone de valores tabulados de la [función](../../glossary.md#función).
+La [integración numérica](../../glossary.md#integracion-numerica) consiste en aproximar el valor de integrales definidas $\int_a^b f(x)\,dx$ cuando no es posible obtener una [antiderivada](../../glossary.md#antiderivada) en forma cerrada o cuando solo se dispone de valores tabulados de la [función](../../glossary.md#funcion).
 
 ## Contenido del Módulo
 
@@ -41,8 +41,8 @@ La integración numérica consiste en aproximar el valor de integrales definidas
 
 ## Prerrequisitos
 
-- [Cálculo integral](../../glossary.md#cálculo-integral) ([integral definida](../../glossary.md#integral-definida))
-- [Interpolación](../../glossary.md#interpolación) polinomial
+- [Cálculo integral](../../glossary.md#calculo-integral) ([integral definida](../../glossary.md#integral-definida))
+- [Interpolación](../../glossary.md#interpolacion) polinomial
 - Serie de Taylor
 
 ## Mapa Conceptual

@@ -75,7 +75,7 @@ $$\int_0^{2\pi} \frac{3}{2} \, d\theta = \frac{3}{2}[\theta]_0^{2\pi} = \frac{3}
 **Integral 2:** [Coseno](../../../../glossary.md#coseno) sobre período completo
 $$\int_0^{2\pi} 2\cos\theta \, d\theta = 2[\sin\theta]_0^{2\pi} = 2(\sin 2\pi - \sin 0) = 2(0 - 0) = 0$$
 
-**Integral 3:** Coseno de ángulo doble sobre período completo
+**Integral 3:** [Coseno](../../../../glossary.md#coseno) de ángulo doble sobre período completo
 $$\int_0^{2\pi} \frac{\cos(2\theta)}{2} \, d\theta = \frac{1}{2} \cdot \frac{1}{2}[\sin(2\theta)]_0^{2\pi}$$
 
 $$= \frac{1}{4}[\sin(4\pi) - \sin(0)] = \frac{1}{4}(0 - 0) = 0$$

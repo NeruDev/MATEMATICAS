@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Integración Numérica](../../glossary.md#integración-numérica)
+title: Resumen de Fórmulas - [Integración Numérica](../../glossary.md#integracion-numerica)
 type: cheatsheet
 topic: integracion-numerica
 tags: [métodos-numéricos, integración, fórmulas, cheatsheet]
@@ -54,7 +54,7 @@ $$E_S = -\frac{h^5}{90}f^{(4)}(\xi) = -\frac{(b-a)^5}{2880}f^{(4)}(\xi)$$
 ### Error de Simpson Compuesto
 $$E_S = -\frac{(b-a)h^4}{180}f^{(4)}(\xi)$$
 
-**Orden de precisión:** $O(h^4)$
+**[Orden](../../glossary.md#orden) de precisión:** $O(h^4)$
 
 ---
 

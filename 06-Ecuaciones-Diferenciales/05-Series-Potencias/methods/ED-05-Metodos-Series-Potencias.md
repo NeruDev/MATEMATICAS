@@ -52,7 +52,7 @@ $$y = (x-x_0)^r \sum_{n=0}^{\infty} c_n (x-x_0)^n = \sum_{n=0}^{\infty} c_n (x-x
 
 ### Cuándo Usar
 
-- La EDO es $y'' + P(x)y' + Q(x)y = 0$
+- La [EDO](../../../glossary.md#edo) es $y'' + P(x)y' + Q(x)y = 0$
 - El punto $x_0$ es ordinario (P y Q analíticas en $x_0$)
 - Para mayor simplicidad, usualmente $x_0 = 0$
 
@@ -667,7 +667,7 @@ $$y_2 = c_1\left(x - \frac{x^2}{2} + \frac{x^3}{12} - \cdots\right)$$
 
 ---
 
-**Paso 4: Usar reducción de orden**
+**Paso 4: Usar reducción de [orden](../../../glossary.md#orden)**
 
 $P(x) = 0$ en $y'' + 0 \cdot y' + \frac{1}{x}y = 0$
 
@@ -692,7 +692,7 @@ $$\boxed{y = C_1 y_1(x) + C_2 y_2(x) \text{ (donde } y_2 \text{ contiene } \ln x
 
 ### Teorema Principal
 
-El radio de convergencia de la serie de potencias centrada en $x_0$ es **al menos** igual a la distancia de $x_0$ al punto singular más cercano.
+El radio de [convergencia](../../../glossary.md#convergencia) de la serie de potencias centrada en $x_0$ es **al menos** igual a la distancia de $x_0$ al punto singular más cercano.
 
 ### Algoritmo de Resolución
 
@@ -780,7 +780,7 @@ $\nu^2 = 9 \Rightarrow \nu = 3$
 
 $$\boxed{\text{Ecuación de Bessel con } \nu = 3}$$
 
-**[Solución general](../../../glossary.md#solución-general):** $y = C_1 J_3(x) + C_2 Y_3(x)$
+**[Solución general](../../../glossary.md#solucion-general):** $y = C_1 J_3(x) + C_2 Y_3(x)$
 
 ---
 
@@ -798,7 +798,7 @@ $$x^2y'' + xy' + (x^2 - \nu^2)y = 0$$
 
 ### Soluciones
 
-**[Función](../../../glossary.md#función) de Bessel de primera clase:**
+**[Función](../../../glossary.md#funcion) de Bessel de primera clase:**
 
 $$J_\nu(x) = \sum_{m=0}^{\infty} \frac{(-1)^m}{m!\,\Gamma(m+\nu+1)}\left(\frac{x}{2}\right)^{2m+\nu}$$
 
@@ -831,7 +831,7 @@ $\nu^2 = 4 \Rightarrow \nu = 2$ (entero)
 
 ---
 
-**Paso 2: Solución general**
+**Paso 2: [Solución general](../../../glossary.md#solucion-general)**
 
 $$\boxed{y = C_1 J_2(x) + C_2 Y_2(x)}$$
 
@@ -987,7 +987,7 @@ Para problemas físicos en $[-1, 1]$, usualmente $C_2 = 0$.
 |-------|--------------|------------|
 | Usar serie en punto singular | Serie no converge | Clasificar punto primero |
 | Olvidar reindexar | Sumas incompatibles | Unificar potencias |
-| Error en recurrencia | Coeficientes incorrectos | Verificar con [sustitución](../../../glossary.md#sustitución) |
+| Error en recurrencia | Coeficientes incorrectos | Verificar con [sustitución](../../../glossary.md#sustitucion) |
 | Confundir $p_0$ con $P(0)$ | Ecuación indicial mal | $xP(x)$ evaluado en 0 |
 | No considerar todos los casos | Segunda solución faltante | Analizar $r_1 - r_2$ |
 

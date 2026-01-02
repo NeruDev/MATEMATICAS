@@ -16,13 +16,13 @@ requires: [CD-01-Teoria-Limites, CD-02-Teoria-[Derivadas](../../../glossary.md#d
 
 ### Definición
 
-Una **[función](../../../glossary.md#función) de dos variables** es una regla $f: D \subseteq \mathbb{R}^2 \to \mathbb{R}$ que asigna a cada par ordenado $(x, y)$ en el [dominio](../../../glossary.md#dominio) $D$ un único número real $z = f(x, y)$.
+Una **[función](../../../glossary.md#funcion) de dos variables** es una regla $f: D \subseteq \mathbb{R}^2 \to \mathbb{R}$ que asigna a cada par ordenado $(x, y)$ en el [dominio](../../../glossary.md#dominio) $D$ un único número real $z = f(x, y)$.
 
-Análogamente, una **función de tres variables** $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ asigna $w = f(x, y, z)$.
+Análogamente, una **[función](../../../glossary.md#funcion) de tres variables** $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ asigna $w = f(x, y, z)$.
 
 ### Dominio y rango
 
-- **Dominio**: conjunto de puntos $(x, y)$ donde $f$ está definida
+- **[Dominio](../../../glossary.md#dominio)**: conjunto de puntos $(x, y)$ donde $f$ está definida
 - **Rango**: conjunto de valores $z$ que toma $f$
 
 ### Gráfica
@@ -59,13 +59,13 @@ $$0 < \sqrt{(x-a)^2 + (y-b)^2} < \delta \implies |f(x,y) - L| < \varepsilon$$
 
 ### Técnicas para evaluar límites
 
-1. **[Sustitución](../../../glossary.md#sustitución) directa** (si $f$ es continua)
+1. **[Sustitución](../../../glossary.md#sustitucion) directa** (si $f$ es continua)
 2. **Coordenadas polares**: $x = a + r\cos\theta$, $y = b + r\sin\theta$, luego $r \to 0$
 3. **Acotamiento** (teorema del sándwich)
 
 ### Demostración de no existencia
 
-Si diferentes trayectorias dan diferentes [límites](../../../glossary.md#límites), el [límite](../../../glossary.md#límite) **no existe**.
+Si diferentes trayectorias dan diferentes [límites](../../../glossary.md#limites), el [límite](../../../glossary.md#limite) **no existe**.
 
 **Trayectorias comunes**:
 - $y = mx$ (rectas por el origen)
@@ -221,10 +221,10 @@ donde $\theta$ es el ángulo entre $\nabla f$ y $\mathbf{u}$.
 
 ### Superficie como gráfica: $z = f(x, y)$
 
-**Plano tangente** en $(a, b, f(a,b))$:
+**Plano [tangente](../../../glossary.md#tangente)** en $(a, b, f(a,b))$:
 $$z - f(a,b) = f_x(a,b)(x-a) + f_y(a,b)(y-b)$$
 
-**Vector normal**:
+**[Vector](../../../glossary.md#vector) normal**:
 $$\mathbf{n} = \langle f_x(a,b), f_y(a,b), -1 \rangle$$
 
 ### Superficie como nivel: $F(x, y, z) = k$
@@ -249,13 +249,13 @@ $$\frac{x - x_0}{F_x} = \frac{y - y_0}{F_y} = \frac{z - z_0}{F_z}$$
 
 ### Puntos críticos
 
-$(a, b)$ es **[punto crítico](../../../glossary.md#punto-crítico)** si:
+$(a, b)$ es **[punto crítico](../../../glossary.md#punto-critico)** si:
 - $\nabla f(a,b) = \mathbf{0}$, es decir, $f_x(a,b) = 0$ y $f_y(a,b) = 0$
 - O alguna [derivada](../../../glossary.md#derivada) parcial no existe
 
 ### Teorema de Fermat (generalizado)
 
-Si $f$ tiene un extremo local en $(a, b)$ y las derivadas parciales existen, entonces:
+Si $f$ tiene un extremo local en $(a, b)$ y las [derivadas](../../../glossary.md#derivadas) parciales existen, entonces:
 $$f_x(a, b) = 0 \quad \text{y} \quad f_y(a, b) = 0$$
 
 ### Criterio de la segunda derivada (Test de la Hessiana)
@@ -272,7 +272,7 @@ $$D = D(a,b) = f_{xx}(a,b)f_{yy}(a,b) - [f_{xy}(a,b)]^2$$
 
 ### Punto silla
 
-Un punto crítico donde $f$ no tiene extremo local. La superficie tiene forma de "silla de montar".
+Un [punto crítico](../../../glossary.md#punto-critico) donde $f$ no tiene extremo local. La superficie tiene forma de "silla de montar".
 
 ### Matriz Hessiana
 

@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones de [técnicas de integración](../../../glossary.md#técnicas-de-integración).
+Soluciones de [técnicas de integración](../../../glossary.md#tecnicas-de-integracion).
 
 IA:
 Soluciones representativas con desarrollo completo.

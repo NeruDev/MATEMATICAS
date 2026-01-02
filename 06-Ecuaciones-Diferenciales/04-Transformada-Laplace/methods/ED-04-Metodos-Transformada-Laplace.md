@@ -19,9 +19,9 @@ status: active
 | 3 | [Segunda Traslación](#método-3-segunda-traslación-en-t) | Funciones escalón | ⭐⭐⭐ |
 | 4 | [Fracciones Parciales](#método-4-inversa-por-fracciones-parciales) | Inversas racionales | ⭐⭐⭐ |
 | 5 | [Completar Cuadrado](#método-5-completar-el-cuadrado) | Denominadores cuadráticos | ⭐⭐⭐ |
-| 6 | [Resolver PVI](#método-6-resolver-pvi-con-laplace) | Ecuaciones diferenciales | ⭐⭐⭐ |
+| 6 | [Resolver PVI](#método-6-resolver-pvi-con-laplace) | [Ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) | ⭐⭐⭐ |
 | 7 | [Funciones Escalón](#método-7-manejar-funciones-escalón) | Entradas discontinuas | ⭐⭐⭐ |
-| 8 | [Función Delta](#método-8-[función](../../../glossary.md#función)-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
+| 8 | [Función Delta](#método-8-[función](../../../glossary.md#funcion)-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
 | 9 | [Convolución](#método-9-teorema-de-convolución) | Productos de transformadas | ⭐⭐⭐⭐ |
 | 10 | [Sistemas con Laplace](#método-10-sistemas-de-[edo](../../../glossary.md#edo)-con-laplace) | Sistemas acoplados | ⭐⭐⭐⭐ |
 | 11 | [Derivada de F(s)](#método-11-[derivada](../../../glossary.md#derivada)-de-la-transformada) | Transformadas con $t^n$ | ⭐⭐ |
@@ -52,7 +52,7 @@ status: active
 
 ### Cuándo Usar
 
-- La función es [combinación lineal](../../../glossary.md#combinación-lineal) de funciones de la tabla
+- La [función](../../../glossary.md#funcion) es [combinación lineal](../../../glossary.md#combinacion-lineal) de funciones de la tabla
 - Aplicar [linealidad](../../../glossary.md#linealidad): $\mathcal{L}\{af + bg\} = aF + bG$
 
 ### Algoritmo de Resolución
@@ -91,7 +91,7 @@ $$\mathcal{L}\{1\} = \frac{1}{s}$$
 
 ---
 
-**Paso 3: Aplicar linealidad**
+**Paso 3: Aplicar [linealidad](../../../glossary.md#linealidad)**
 
 $$\mathcal{L}\{f(t)\} = 3 \cdot \frac{2}{s^3} - 5 \cdot \frac{1}{s+2} + 4 \cdot \frac{3}{s^2+9} + 2 \cdot \frac{1}{s}$$
 
@@ -342,7 +342,7 @@ $$\boxed{f(t) = \frac{10}{9}(e^t - e^{-2t}) - \frac{1}{3}te^{-2t}}$$
 ### Cuándo Usar
 
 - Denominador cuadrático que no factoriza fácilmente
-- Para obtener formas de seno/[coseno](../../../glossary.md#coseno) amortiguado
+- Para obtener formas de [seno](../../../glossary.md#seno)/[coseno](../../../glossary.md#coseno) amortiguado
 
 ### Fórmula
 
@@ -410,7 +410,7 @@ $$\boxed{f(t) = 2e^{-2t}\cos 3t + \frac{1}{3}e^{-2t}\sin 3t = e^{-2t}\left(2\cos
 
 ### Cuándo Usar
 
-- EDO lineal con coeficientes constantes
+- [EDO](../../../glossary.md#edo) lineal con coeficientes constantes
 - Condiciones iniciales dadas
 - Especialmente útil para entradas discontinuas
 
@@ -550,7 +550,7 @@ $$Y(s) = \frac{1 - e^{-2s}}{s(s+1)}$$
 
 ---
 
-**Paso 4: Fracciones parciales**
+**Paso 4: [Fracciones parciales](../../../glossary.md#fracciones-parciales)**
 
 $$\frac{1}{s(s+1)} = \frac{1}{s} - \frac{1}{s+1}$$
 
@@ -647,7 +647,7 @@ $$\boxed{y(t) = -2\sin(t)u(t-\pi) = \begin{cases} 0 & 0 \leq t < \pi \\ -2\sin t
 
 ### Fórmulas
 
-**[Convolución](../../../glossary.md#convolución):**
+**[Convolución](../../../glossary.md#convolucion):**
 $$(f * g)(t) = \int_0^t f(\tau)g(t-\tau)\,d\tau$$
 
 **Teorema:**
@@ -669,7 +669,7 @@ $$\mathcal{L}^{-1}\{F(s)G(s)\} = f * g$$
 
 ---
 
-**Paso 1: Factorizar**
+**Paso 1: [Factorizar](../../../glossary.md#factorizar)**
 
 $$\frac{1}{(s^2+1)^2} = \frac{1}{s^2+1} \cdot \frac{1}{s^2+1}$$
 
@@ -683,7 +683,7 @@ $g(t) = h(t) = \sin t$
 
 ---
 
-**Paso 3: Calcular convolución**
+**Paso 3: Calcular [convolución](../../../glossary.md#convolucion)**
 
 $$f(t) = \int_0^t \sin\tau \sin(t-\tau)\,d\tau$$
 
@@ -822,7 +822,7 @@ $$\mathcal{L}\{tf(t)\} = -\frac{dF(s)}{ds}$$
 
 ---
 
-**Método 1: Usando derivada**
+**Método 1: Usando [derivada](../../../glossary.md#derivada)**
 
 **Paso 1:** $f(t) = e^{3t}$, $n = 2$
 
@@ -957,7 +957,7 @@ NO → Tabla      irreducible?         │
 | Error en traslación | Signo incorrecto | $e^{at}$ → $s-a$; retardo → $e^{-as}$ |
 | Fracciones parciales mal | Inversa incorrecta | Verificar expandiendo |
 | No completar cuadrado | Forma no reconocible | Siempre intentar para denominador cuadrático |
-| Convolución con [límites](../../../glossary.md#límites) | Integral mal planteada | Límites son $0$ a $t$ |
+| Convolución con [límites](../../../glossary.md#limites) | Integral mal planteada | Límites son $0$ a $t$ |
 
 ---
 

@@ -42,7 +42,7 @@ solved_detailed: 0
 | Prob-20 | $A^n = \begin{pmatrix}2^{n-1}&2^{n-1}\\2^{n-1}&2^{n-1}\end{pmatrix}$ para $n \geq 1$ | ➖ |
 | Prob-21 | $p(\lambda) = \lambda^2 - 5\lambda + 6$; $A^{-1} = \frac{1}{6}(5I - A) = \begin{pmatrix}0&1/3\\-1/2&5/6\end{pmatrix}$ | ➖ |
 | Prob-22 | a) $\lambda = 0.7, 1.0$; b) Población se estabiliza ($\lvert \lambda \rvert \leq 1$) | ➖ |
-| Prob-23 | Distribución [límite](../../../glossary.md#límite): $(2/3, 1/3)^T$ | ➖ |
+| Prob-23 | Distribución [límite](../../../glossary.md#limite): $(2/3, 1/3)^T$ | ➖ |
 | Prob-24 | $F_n = \frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n - \left(\frac{1-\sqrt{5}}{2}\right)^n\right]$ | ➖ |
 | Prob-25 | Elipse (eigenvalores $\lambda_1 = 6, \lambda_2 = 1 > 0$) | ➖ |
 | Prob-26 | Ranking: página 1 > página 2 ≈ página 3 | ➖ |

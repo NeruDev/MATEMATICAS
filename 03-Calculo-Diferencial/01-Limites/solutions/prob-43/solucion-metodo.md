@@ -16,7 +16,7 @@ Evalúa $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$
 ---
 
 ## Resultado fundamental
-Este [límite](../../../../glossary.md#límite) define el **número de Euler** $e$:
+Este [límite](../../../../glossary.md#limite) define el **número de Euler** $e$:
 $$e = \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$$
 
 ---
@@ -86,6 +86,6 @@ $$e = \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = \lim_{x \to 0} (1 + x
 
 ## Aplicaciones
 - [Base](../../../../glossary.md#base) del logaritmo natural: $\ln x = \log_e x$
-- [Función](../../../../glossary.md#función) exponencial: $e^x$
+- [Función](../../../../glossary.md#funcion) exponencial: $e^x$
 - Crecimiento/decrecimiento continuo
 - Fórmula de Euler: $e^{i\pi} + 1 = 0$

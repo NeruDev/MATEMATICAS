@@ -41,7 +41,7 @@ solved_detailed: 0
 | Prob-19 | a) Demostración usando suma de ángulos; b) $R_\theta^{-1} = R_{-\theta}$ | ➖ |
 | Prob-20 | No, por teorema de rango-nulidad (dimensiones incompatibles) | ➖ |
 | Prob-21 | $[T]_\mathcal{B} = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}$ | ➖ |
-| Prob-22 | No similares: $A \neq I$ pero mismo [polinomio característico](../../../glossary.md#polinomio-característico) | ➖ |
+| Prob-22 | No similares: $A \neq I$ pero mismo [polinomio característico](../../../glossary.md#polinomio-caracteristico) | ➖ |
 | Prob-23 | Sí, mismos eigenvalores: $\lambda = 2, 3$ | ➖ |
 | Prob-24 | $\mathcal{B} = \{(1,2), (1,1)\}$; $D = \begin{pmatrix} 2 & 0 \\ 0 & -1 \end{pmatrix}$ | ➖ |
 | Prob-25 | $M = R_{30°} \cdot \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \cdot \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$ | ➖ |

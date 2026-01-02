@@ -34,7 +34,7 @@ Un **ángulo** es la rotación de un rayo desde una posición inicial hasta una 
 
 **Radianes:**
 - Una vuelta completa = $2\pi$ rad
-- Un [radián](../../../glossary.md#radián) = ángulo central que subtiende un arco igual al radio
+- Un [radián](../../../glossary.md#radian) = ángulo central que subtiende un arco igual al radio
 
 **Conversión:**
 $$\boxed{180° = \pi \text{ rad}}$$
@@ -157,7 +157,7 @@ $$\tan\theta \cdot \cot\theta = 1$$
 
 ### Identidades de paridad
 
-| [Función](../../../glossary.md#función) par | Función impar |
+| [Función](../../../glossary.md#funcion) par | Función impar |
 |:-----------:|:-------------:|
 | $\cos(-\theta) = \cos\theta$ | $\sin(-\theta) = -\sin\theta$ |
 | $\sec(-\theta) = \sec\theta$ | $\tan(-\theta) = -\tan\theta$ |
@@ -297,7 +297,7 @@ donde $s = \frac{a + b + c}{2}$ es el semiperímetro.
 
 ### Definiciones y dominios
 
-| Función | Notación | [Dominio](../../../glossary.md#dominio) | Rango |
+| [Función](../../../glossary.md#funcion) | Notación | [Dominio](../../../glossary.md#dominio) | Rango |
 |---------|:--------:|:-------:|:-----:|
 | Arcoseno | $\arcsin x$ o $\sin^{-1}x$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | Arcocoseno | $\arccos x$ o $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
@@ -329,7 +329,7 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 
 ### Características de las funciones básicas
 
-| Función | Periodo | Amplitud | Dominio | Rango |
+| Función | Periodo | Amplitud | [Dominio](../../../glossary.md#dominio) | Rango |
 |---------|:-------:|:--------:|---------|-------|
 | $\sin x$ | $2\pi$ | $1$ | $\mathbb{R}$ | $[-1, 1]$ |
 | $\cos x$ | $2\pi$ | $1$ | $\mathbb{R}$ | $[-1, 1]$ |
@@ -346,11 +346,11 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 
 1. Aislar la función trigonométrica
 2. Encontrar soluciones en el intervalo fundamental
-3. Escribir la [solución general](../../../glossary.md#solución-general) usando periodicidad
+3. Escribir la [solución general](../../../glossary.md#solucion-general) usando periodicidad
 
 ### Soluciones generales
 
-| Ecuación | Solución general |
+| Ecuación | [Solución general](../../../glossary.md#solucion-general) |
 |----------|------------------|
 | $\sin\theta = k$ | $\theta = \arcsin k + 2n\pi$ o $\theta = \pi - \arcsin k + 2n\pi$ |
 | $\cos\theta = k$ | $\theta = \pm\arccos k + 2n\pi$ |
@@ -371,6 +371,6 @@ donde $n \in \mathbb{Z}$.
 ---
 
 <!--
-IA: Teoría completa de [trigonometría](../../../glossary.md#trigonometría) para nivel [fundamentos](../../../glossary.md#fundamentos).
+IA: Teoría completa de [trigonometría](../../../glossary.md#trigonometria) para nivel [fundamentos](../../../glossary.md#fundamentos).
 file_id: FUN-05-Teoria-Trigonometria
 -->

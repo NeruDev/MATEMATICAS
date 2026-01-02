@@ -16,7 +16,7 @@ $$Ax = b$$
 donde:
 - $A$: [matriz](../../glossary.md#matriz) de coeficientes ($m \times n$)
 - $x$: [vector](../../glossary.md#vector) de incógnitas ($n \times 1$)
-- $b$: vector de términos independientes ($m \times 1$)
+- $b$: [vector](../../glossary.md#vector) de términos independientes ($m \times 1$)
 
 **Matriz aumentada**: $[A | b]$
 
@@ -26,7 +26,7 @@ donde:
 |-----------|----------|--------|
 | Intercambiar filas | $F_i \leftrightarrow F_j$ | Cambia [orden](../../glossary.md#orden) |
 | Multiplicar por escalar | $kF_i \to F_i$ | $k \neq 0$ |
-| Sumar múltiplo | $F_i + kF_j \to F_i$ | [Combinación lineal](../../glossary.md#combinación-lineal) |
+| Sumar múltiplo | $F_i + kF_j \to F_i$ | [Combinación lineal](../../glossary.md#combinacion-lineal) |
 
 ## Formas escalonadas
 
@@ -42,7 +42,7 @@ donde:
 
 ## Algoritmo de Gauss-Jordan
 
-1. Formar matriz aumentada $[A|b]$
+1. Formar [matriz](../../glossary.md#matriz) aumentada $[A|b]$
 2. Reducir a RREF usando operaciones elementales
 3. Leer solución del sistema reducido
 
@@ -80,8 +80,8 @@ $$\dim(\text{Nul}(A)) = n - \text{rang}(A)$$
 $$x = x_p + x_h$$
 
 donde:
-- $x_p$: [solución particular](../../glossary.md#solución-particular) de $Ax = b$
-- $x_h$: [solución general](../../glossary.md#solución-general) de $Ax = 0$
+- $x_p$: [solución particular](../../glossary.md#solucion-particular) de $Ax = b$
+- $x_h$: [solución general](../../glossary.md#solucion-general) de $Ax = 0$
 
 ## Métodos de solución directa
 

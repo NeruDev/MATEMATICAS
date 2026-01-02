@@ -6,7 +6,7 @@ status: active
 
 # Métodos: Integración Numérica
 
-> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integración-numérica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integracion-numerica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
@@ -20,7 +20,7 @@ status: active
 | 4 | [Simpson Compuesto](#método-4-simpson-compuesto) | $O(h^4)$ | ⭐⭐ |
 | 5 | [Simpson 3/8](#método-5-simpson-38) | $O(h^5)$ | ⭐⭐ |
 | 6 | [Romberg](#método-6-integración-de-romberg) | $O(h^{2k})$ | ⭐⭐⭐ |
-| 7 | [Gauss-Legendre](#método-7-cuadratura-de-gauss-legendre) | Exacto grado $2n-1$ | ⭐⭐⭐ |
+| 7 | [Gauss-Legendre](#método-7-[cuadratura](../../../glossary.md#cuadratura)-de-gauss-legendre) | Exacto grado $2n-1$ | ⭐⭐⭐ |
 | 8 | [Gauss-Laguerre](#método-8-gauss-laguerre) | [Integrales impropias](../../../glossary.md#integrales-impropias) | ⭐⭐⭐ |
 | 9 | [Gauss-Hermite](#método-9-gauss-hermite) | Integrales $(-\infty, \infty)$ | ⭐⭐⭐ |
 | 10 | [Cuadratura Adaptativa](#método-10-cuadratura-adaptativa) | Variable | ⭐⭐⭐⭐ |
@@ -39,7 +39,7 @@ $$\int_a^b f(x)\,dx \approx \sum_{i=0}^{n} w_i f(x_i)$$
 
 ### Fórmulas de Newton-Cotes
 
-Basadas en [interpolación](../../../glossary.md#interpolación) polinomial con **nodos equiespaciados**.
+Basadas en [interpolación](../../../glossary.md#interpolacion) polinomial con **nodos equiespaciados**.
 
 ### Cuadratura de Gauss
 
@@ -355,7 +355,7 @@ Valor exacto: $e^3 - 1 = 19.086$
 ### Cuándo Usar
 
 - Alta precisión requerida
-- [Función](../../../glossary.md#función) suave
+- [Función](../../../glossary.md#funcion) suave
 - Costo computacional aceptable
 
 ### Idea
@@ -446,7 +446,7 @@ $$\boxed{I \approx 1.7182818 \text{ (Romberg con } k=3 \text{)}}$$
 
 ### Cuándo Usar
 
-- Función conocida analíticamente
+- [Función](../../../glossary.md#funcion) conocida analíticamente
 - Alta precisión con pocas evaluaciones
 - Nodos no necesitan ser equiespaciados
 
@@ -565,7 +565,7 @@ $$\boxed{I \approx 1.7181 \text{ (solo 2 evaluaciones)}}$$
 ### Cuándo Usar
 
 - Integrales de la forma $\int_0^\infty e^{-x} g(x)\,dx$
-- Integrales impropias $[0, \infty)$
+- [Integrales impropias](../../../glossary.md#integrales-impropias) $[0, \infty)$
 
 ### Fórmula
 

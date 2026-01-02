@@ -11,7 +11,7 @@ audience: student
 
 # Solución: Matriz singular
 
-**Método aplicado:** Criterio del determinante
+**Método aplicado:** Criterio del [determinante](../../../../glossary.md#determinante)
 
 **Paso 1: Calcular el determinante**
 $$\det(A) = 1(4) - 2(2) = 4 - 4 = 0$$
@@ -24,4 +24,4 @@ La segunda fila $(2, 4)$ es el doble de la primera $(1, 2)$, lo que significa qu
 
 **Respuesta:**
 
-La matriz $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ **no tiene inversa**.
+La [matriz](../../../../glossary.md#matriz) $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ **no tiene inversa**.

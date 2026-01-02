@@ -2,7 +2,7 @@
 ::METADATA::
 type: index
 topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)
-file_id: ED-03-Sistemas-EDO-Intro
+file_id: ED-03-Sistemas-[EDO](../../glossary.md#edo)-Intro
 status: stable
 audience: student
 requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vectores-propios]
@@ -41,7 +41,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo orden, [Álgebra lineal](../../glossary.md#álgebra-lineal) (eigenvalores)
+- **Prerequisitos**: EDO de segundo [orden](../../glossary.md#orden), [Álgebra lineal](../../glossary.md#algebra-lineal) (eigenvalores)
 - **Usos posteriores**: Estabilidad, Control, Modelado de sistemas
 
 ## Vista previa de conceptos clave

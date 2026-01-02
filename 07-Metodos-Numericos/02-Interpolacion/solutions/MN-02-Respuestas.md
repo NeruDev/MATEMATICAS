@@ -31,7 +31,7 @@ solved_detailed: 0
 | [Prob-05] | $P(x) = -1 + 2x + 0(x)(x-1) + 0 = -1 + 2x$; [polinomio](../../../glossary.md#polinomio) lineal | ➖ |
 | [Prob-06] | a) $f[0,1] = 1$; b) $f[0,1,2] = 3$; c) $f[0,1,2,3] = 1$ | ➖ |
 | [Prob-07] | Demostración por inducción sobre definición recursiva | ➖ |
-| [Prob-08] | $f[x_0, \ldots, x_n] = a_n$ (coeficiente líder del polinomio) | ➖ |
+| [Prob-08] | $f[x_0, \ldots, x_n] = a_n$ (coeficiente líder del [polinomio](../../../glossary.md#polinomio)) | ➖ |
 
 ### Sección 3: Datos Equiespaciados
 
@@ -47,7 +47,7 @@ solved_detailed: 0
 |:---|:----------|:--------:|
 | [Prob-12] | $\|E(x)\| \leq \frac{e}{8} \approx 0.3398$ (cota superior) | ➖ |
 | [Prob-13] | a) $P_2(x)$ por Lagrange; b) $\|E(x)\| \leq \frac{1}{6}\left(\frac{\pi}{4}\right)^3 \approx 0.0323$ | ➖ |
-| [Prob-14] | [Fenómeno de Runge](../../../glossary.md#fenómeno-de-runge): oscilaciones cerca de extremos; $\|f^{(n+1)}\| \to \infty$ | ➖ |
+| [Prob-14] | [Fenómeno de Runge](../../../glossary.md#fenomeno-de-runge): oscilaciones cerca de extremos; $\|f^{(n+1)}\| \to \infty$ | ➖ |
 | [Prob-15] | Chebyshev $n=3$: $x_k = \cos\left(\frac{2k+1}{8}\pi\right)$; $x \approx \pm 0.924, \pm 0.383$ | ➖ |
 
 ### Sección 5: Splines Cúbicos

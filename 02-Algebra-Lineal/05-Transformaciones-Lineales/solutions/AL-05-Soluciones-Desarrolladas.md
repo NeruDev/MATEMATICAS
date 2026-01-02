@@ -63,7 +63,7 @@ $$\ker(T) = \{(t, t, t) : t \in \mathbb{R}\} = \text{span}\{(1, 1, 1)\}$$
 
 [Matriz](../../../glossary.md#matriz): $\begin{pmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \end{pmatrix}$ ya está en forma escalonada.
 
-**Base de $\text{Im}(T)$:** $\{(1, 0), (-1, 1)\}$ o equivalente $\{(1, 0), (0, 1)\}$
+**[Base](../../../glossary.md#base) de $\text{Im}(T)$:** $\{(1, 0), (-1, 1)\}$ o equivalente $\{(1, 0), (0, 1)\}$
 
 **$\text{Im}(T) = \mathbb{R}^2$**, **rango = 2**
 
@@ -72,7 +72,7 @@ $$\ker(T) = \{(t, t, t) : t \in \mathbb{R}\} = \text{span}\{(1, 1, 1)\}$$
 ---
 
 ## Problema 11a
-**Enunciado:** Matriz de $T(x, y) = (3x - y, 2x + 4y)$
+**Enunciado:** [Matriz](../../../glossary.md#matriz) de $T(x, y) = (3x - y, 2x + 4y)$
 
 **Solución:**
 

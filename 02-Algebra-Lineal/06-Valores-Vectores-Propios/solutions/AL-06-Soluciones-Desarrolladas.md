@@ -100,7 +100,7 @@ $v_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 $p(\lambda) = (2-\lambda)^2 = 0$
 $\lambda = 2$ con $m_a(2) = 2$
 
-**b) [Multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica):**
+**b) [Multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica):**
 $A - 2I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$
 $\ker(A - 2I) = \text{span}\{(1, 0)^T\}$
 $m_g(2) = 1$
@@ -114,7 +114,7 @@ $m_g(2) = 1$
 
 **Solución:**
 
-**Eigenvalores:** $\lambda_1 = 3$, $\lambda_2 = 2$ (diagonal de matriz triangular)
+**Eigenvalores:** $\lambda_1 = 3$, $\lambda_2 = 2$ (diagonal de [matriz](../../../glossary.md#matriz) triangular)
 
 **Eigenvectores:**
 

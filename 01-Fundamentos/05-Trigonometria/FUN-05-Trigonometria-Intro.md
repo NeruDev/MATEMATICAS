@@ -44,7 +44,7 @@ problems/
 
 ## Funciones fundamentales
 
-| [Función](../../glossary.md#función) | Definición | Recíproca |
+| [Función](../../glossary.md#funcion) | Definición | Recíproca |
 |---------|------------|-----------|
 | $\sin\theta$ | $\frac{\text{opuesto}}{\text{hipotenusa}}$ | $\csc\theta$ |
 | $\cos\theta$ | $\frac{\text{adyacente}}{\text{hipotenusa}}$ | $\sec\theta$ |
@@ -53,6 +53,6 @@ problems/
 ---
 
 <!--
-IA: Punto de entrada para [trigonometría](../../glossary.md#trigonometría).
+IA: Punto de entrada para [trigonometría](../../glossary.md#trigonometria).
 file_id: FUN-05-Trigonometria-Intro
 -->

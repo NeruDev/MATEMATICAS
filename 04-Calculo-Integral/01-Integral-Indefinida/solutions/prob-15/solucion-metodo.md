@@ -35,7 +35,7 @@ $$x^4 - 1 = (x^2)^2 - 1^2 = (x^2 + 1)(x^2 - 1)$$
 
 ### Paso 2: Simplificar la fracción
 
-Sustituimos la [factorización](../../../../glossary.md#factorización):
+Sustituimos la [factorización](../../../../glossary.md#factorizacion):
 $$\frac{x^4 - 1}{x^2 + 1} = \frac{(x^2 + 1)(x^2 - 1)}{x^2 + 1}$$
 
 Cancelamos el factor común $(x^2 + 1)$:
@@ -56,7 +56,7 @@ $$= \frac{x^3}{3} - x + C$$
 
 ## Método Alternativo: División de Polinomios
 
-Si no reconocemos la factorización, podemos realizar la división directamente.
+Si no reconocemos la [factorización](../../../../glossary.md#factorizacion), podemos realizar la división directamente.
 
 ### División larga de $x^4 - 1$ entre $x^2 + 1$:
 

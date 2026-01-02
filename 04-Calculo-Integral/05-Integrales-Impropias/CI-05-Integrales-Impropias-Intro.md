@@ -12,7 +12,7 @@ requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
 
 ## Propósito del tema
 
-Extender el concepto de [integral definida](../../glossary.md#integral-definida) a casos con [límites](../../glossary.md#límites) infinitos o integrandos con discontinuidades, y determinar [convergencia](../../glossary.md#convergencia) o [divergencia](../../glossary.md#divergencia).
+Extender el concepto de [integral definida](../../glossary.md#integral-definida) a casos con [límites](../../glossary.md#limites) infinitos o integrandos con discontinuidades, y determinar [convergencia](../../glossary.md#convergencia) o [divergencia](../../glossary.md#divergencia).
 
 ## Mapa de recursos
 
@@ -31,16 +31,16 @@ solutions/
 
 ## Ruta de aprendizaje
 
-1. **Tipo I - Límites infinitos**: $\int_a^\infty f(x)\,dx$, $\int_{-\infty}^b f(x)\,dx$
+1. **Tipo I - [Límites](../../glossary.md#limites) infinitos**: $\int_a^\infty f(x)\,dx$, $\int_{-\infty}^b f(x)\,dx$
 2. **Tipo II - Discontinuidades**: integrando discontinuo en el intervalo
-3. **Convergencia y divergencia**: cuándo existe el [límite](../../glossary.md#límite)
-4. **[Criterio de comparación](../../glossary.md#criterio-de-comparación) directa**: comparar con integrales conocidas
-5. **Criterio de comparación por límite**: para funciones que se comportan similarmente
+3. **[Convergencia](../../glossary.md#convergencia) y [divergencia](../../glossary.md#divergencia)**: cuándo existe el [límite](../../glossary.md#limite)
+4. **[Criterio de comparación](../../glossary.md#criterio-de-comparacion) directa**: comparar con integrales conocidas
+5. **[Criterio de comparación](../../glossary.md#criterio-de-comparacion) por [límite](../../glossary.md#limite)**: para funciones que se comportan similarmente
 6. **Integrales p**: $\int_1^\infty \frac{1}{x^p}\,dx$ convergente si $p > 1$
 
 ## Conexiones
 
-- **Prerrequisitos**: Integral definida, Límites, [Técnicas de integración](../../glossary.md#técnicas-de-integración)
+- **Prerrequisitos**: [Integral definida](../../glossary.md#integral-definida), Límites, [Técnicas de integración](../../glossary.md#tecnicas-de-integracion)
 - **Usos posteriores**: Series, [Transformada de Laplace](../../glossary.md#transformada-de-laplace), Probabilidad
 
 ## Vista previa de conceptos clave

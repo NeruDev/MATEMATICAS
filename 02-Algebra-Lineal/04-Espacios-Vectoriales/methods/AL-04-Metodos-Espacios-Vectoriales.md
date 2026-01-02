@@ -23,7 +23,7 @@ status: active
 | 1 | Verificar no vacío | Comprobar que $\mathbf{0} \in W$ |
 | 2 | Cerradura bajo suma | Si $u, v \in W$, verificar $u + v \in W$ |
 | 3 | Cerradura escalar | Si $v \in W$, $c \in \mathbb{F}$, verificar $cv \in W$ |
-| 4 | Concluir | Si pasa los 3 → subespacio; si falla alguno → no es |
+| 4 | Concluir | Si pasa los 3 → [subespacio](../../../glossary.md#subespacio); si falla alguno → no es |
 
 ### Ejemplo Detallado
 
@@ -36,7 +36,7 @@ status: active
 Sustituir $(0, 0, 0)$ en la ecuación:
 $$2(0) - (0) + 3(0) = 0 - 0 + 0 = 0 \checkmark$$
 
-El vector cero **sí pertenece** a $W$.
+El [vector](../../../glossary.md#vector) cero **sí pertenece** a $W$.
 
 ---
 
@@ -107,7 +107,7 @@ $$\boxed{W \text{ NO es subespacio}}$$
 
 **Definición:** 
 - **LI:** $c_1v_1 + c_2v_2 + \cdots + c_kv_k = \mathbf{0}$ solo tiene la solución [trivial](../../../glossary.md#trivial) ($c_i = 0$ para todo $i$).
-- **LD:** Existe al menos una combinación no trivial que da el vector cero.
+- **LD:** Existe al menos una combinación no [trivial](../../../glossary.md#trivial) que da el vector cero.
 
 ### Algoritmo de Resolución
 
@@ -131,7 +131,7 @@ $$c_1(1, 2, 1) + c_2(2, 3, 0) + c_3(0, 1, 2) = (0, 0, 0)$$
 
 ---
 
-**Paso 2: Formar la matriz aumentada**
+**Paso 2: Formar la [matriz](../../../glossary.md#matriz) aumentada**
 
 $$\left(\begin{array}{ccc|c}
 1 & 2 & 0 & 0 \\
@@ -197,7 +197,7 @@ $$\boxed{\text{Los vectores son LD con relación: } v_3 = 2v_1 - v_2}$$
 |------|--------|---------|
 | 1 | Formar matriz | Vectores como **filas** |
 | 2 | Reducir a REF | Operaciones elementales de fila |
-| 3 | Identificar pivotes | Filas con pivotes corresponden a vectores base |
+| 3 | Identificar pivotes | Filas con pivotes corresponden a vectores [base](../../../glossary.md#base) |
 | 4 | Seleccionar | Los vectores originales en posiciones de pivote forman la base |
 
 ### Ejemplo Detallado
@@ -266,7 +266,7 @@ $$\begin{pmatrix}
 
 $$\boxed{\text{Base de span} = \{v_1, v_3\} = \{(1, 2, 3), (1, 0, 1)\}}$$
 
-**[Dimensión](../../../glossary.md#dimensión):** $\dim(\text{span}) = 2$
+**[Dimensión](../../../glossary.md#dimension):** $\dim(\text{span}) = 2$
 
 ---
 
@@ -282,7 +282,7 @@ $$\boxed{\text{Base de span} = \{v_1, v_3\} = \{(1, 2, 3), (1, 0, 1)\}}$$
 |------|--------|---------|
 | 1 | Reducir a RREF | Llevar $A$ a forma escalonada reducida |
 | 2 | Identificar variables | Libres (sin pivote) y ligadas (con pivote) |
-| 3 | Parametrizar | Expresar ligadas en [función](../../../glossary.md#función) de libres |
+| 3 | Parametrizar | Expresar ligadas en [función](../../../glossary.md#funcion) de libres |
 | 4 | Escribir solución | Forma vectorial con parámetros |
 | 5 | Extraer base | Vectores que multiplican a cada parámetro |
 
@@ -332,7 +332,7 @@ De fila 1: $x_1 + 2x_2 + x_4 = 0 \Rightarrow x_1 = -2s - t$
 
 ---
 
-**Paso 4: Escribir [solución general](../../../glossary.md#solución-general)**
+**Paso 4: Escribir [solución general](../../../glossary.md#solucion-general)**
 
 $$\mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} -2s - t \\ s \\ -t \\ t \end{pmatrix}$$
 
@@ -426,7 +426,7 @@ $$\boxed{\text{Base de Col}(A) = \left\{ \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatri
 
 ## Método 6: Calcular Coordenadas en una Base
 
-**Cuándo Usar:** Para expresar un vector $\mathbf{v}$ como [combinación lineal](../../../glossary.md#combinación-lineal) de los vectores de una base $\mathcal{B}$.
+**Cuándo Usar:** Para expresar un vector $\mathbf{v}$ como [combinación lineal](../../../glossary.md#combinacion-lineal) de los vectores de una base $\mathcal{B}$.
 
 **Definición:** Si $\mathcal{B} = \{\mathbf{b}_1, \ldots, \mathbf{b}_n\}$ y $\mathbf{v} = c_1\mathbf{b}_1 + \cdots + c_n\mathbf{b}_n$, entonces:
 $$[\mathbf{v}]_{\mathcal{B}} = \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}$$
@@ -601,7 +601,7 @@ Comprobación: $1 \cdot (2,1) + 1 \cdot (1,1) = (2+1, 1+1) = (3, 2)$ ✓
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Verificar LI | Confirmar que el conjunto dado es LI |
-| 2 | Calcular dimensión | Determinar cuántos vectores faltan |
+| 2 | Calcular [dimensión](../../../glossary.md#dimension) | Determinar cuántos vectores faltan |
 | 3 | Añadir candidatos | Probar con vectores de la base estándar |
 | 4 | Verificar LI | Cada vector añadido debe mantener independencia |
 | 5 | Repetir | Hasta completar la dimensión del espacio |

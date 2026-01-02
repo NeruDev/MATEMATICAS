@@ -22,7 +22,7 @@ Este módulo cubre los conceptos fundamentales necesarios para el estudio del c�
 
 ## Temas del módulo
 
-1. [01-Funciones](./01-Funciones/README.md) - Concepto de [función](../glossary.md#función), [dominio](../glossary.md#dominio), rango y tipos
+1. [01-Funciones](./01-Funciones/README.md) - Concepto de [función](../glossary.md#funcion), [dominio](../glossary.md#dominio), rango y tipos
 2. [02-Aritmetica](./02-Aritmetica/README.md) - Operaciones básicas, fracciones, porcentajes y potencias
 3. [03-Algebra](./03-Algebra/README.md) - Expresiones, polinomios y ecuaciones elementales
 4. [04-Geometria](./04-Geometria/README.md) - Figuras planas, perímetros, áreas y volúmenes básicos
@@ -33,11 +33,11 @@ Este módulo cubre los conceptos fundamentales necesarios para el estudio del c�
 
 - Álgebra elemental
 - Geometría analítica básica
-- [Trigonometría](../glossary.md#trigonometría)
+- [Trigonometría](../glossary.md#trigonometria)
 
 ## Conexión con otros módulos
 
-- **Siguiente:** 02-Calculo-Diferencial (requiere dominio de funciones)
+- **Siguiente:** 02-Calculo-Diferencial (requiere [dominio](../glossary.md#dominio) de funciones)
 
 ---
 

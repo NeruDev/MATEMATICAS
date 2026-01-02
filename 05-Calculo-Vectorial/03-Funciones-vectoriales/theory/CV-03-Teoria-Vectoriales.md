@@ -15,10 +15,10 @@ requires: [CV-01-Teoria-Vectores, CV-02-Teoria-Curvas]
 ## 3.1 Definición y representación
 
 ### Concepto intuitivo
-Una **[función](../../../glossary.md#función) vectorial** asigna a cada valor de un parámetro real $t$ un [vector](../../../glossary.md#vector) en el espacio. Describe la trayectoria de una partícula: dado el tiempo, devuelve la posición.
+Una **[función](../../../glossary.md#funcion) vectorial** asigna a cada valor de un parámetro real $t$ un [vector](../../../glossary.md#vector) en el espacio. Describe la trayectoria de una partícula: dado el tiempo, devuelve la posición.
 
 ### Definición formal
-Una **función vectorial** $\mathbf{r}: I \subseteq \mathbb{R} \to \mathbb{R}^n$ es:
+Una **[función](../../../glossary.md#funcion) vectorial** $\mathbf{r}: I \subseteq \mathbb{R} \to \mathbb{R}^n$ es:
 $$\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle = x(t)\mathbf{i} + y(t)\mathbf{j} + z(t)\mathbf{k}$$
 
 donde $x(t)$, $y(t)$, $z(t)$ son las **funciones componentes** (escalares).
@@ -47,7 +47,7 @@ La imagen de $\mathbf{r}(t)$ es una **curva en el espacio** (o curva espacial). 
 
 $$\lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} x(t), \lim_{t \to a} y(t), \lim_{t \to a} z(t) \right\rangle$$
 
-El [límite](../../../glossary.md#límite) existe si y solo si existen los [límites](../../../glossary.md#límites) de cada componente.
+El [límite](../../../glossary.md#limite) existe si y solo si existen los [límites](../../../glossary.md#limites) de cada componente.
 
 ### Continuidad
 
@@ -78,9 +78,9 @@ La [derivada](../../../glossary.md#derivada) existe si y solo si existen las [de
 
 ### Interpretación geométrica
 
-- $\mathbf{r}'(t)$ es el **vector [tangente](../../../glossary.md#tangente)** a la curva en el punto $\mathbf{r}(t)$
+- $\mathbf{r}'(t)$ es el **[vector](../../../glossary.md#vector) [tangente](../../../glossary.md#tangente)** a la curva en el punto $\mathbf{r}(t)$
 - Apunta en la dirección del movimiento (según la orientación)
-- $\mathbf{r}'(t) \neq \mathbf{0}$ garantiza que la tangente está bien definida
+- $\mathbf{r}'(t) \neq \mathbf{0}$ garantiza que la [tangente](../../../glossary.md#tangente) está bien definida
 
 ### Interpretación física (cinemática)
 
@@ -109,7 +109,7 @@ La [derivada](../../../glossary.md#derivada) existe si y solo si existen las [de
 Si $\lVert \mathbf{r}(t) \rVert = c$ (constante), entonces:
 $$\mathbf{r}(t) \cdot \mathbf{r}'(t) = 0$$
 
-**Interpretación**: Si un vector tiene magnitud constante, su derivada es perpendicular a él.
+**Interpretación**: Si un vector tiene magnitud constante, su [derivada](../../../glossary.md#derivada) es perpendicular a él.
 
 ---
 

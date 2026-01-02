@@ -42,7 +42,7 @@ $$\frac{d}{dx}[x^3 + y^3] = \frac{d}{dx}[x^3] + \frac{d}{dx}[y^3]$$
 
 $$= 3x^2 + 3y^2 \frac{dy}{dx}$$
 
-**Derivada del lado derecho (regla del producto):**
+**[Derivada](../../../../glossary.md#derivada) del lado derecho (regla del producto):**
 $$\frac{d}{dx}[6xy] = 6\frac{d}{dx}[xy] = 6\left[ x\frac{dy}{dx} + y \cdot 1 \right] = 6x\frac{dy}{dx} + 6y$$
 
 ### Paso 3: Igualar las derivadas
@@ -91,7 +91,7 @@ El Folio de Descartes $x^3 + y^3 = 6xy$ es simétrico respecto a la recta $y = x
 
 El punto $(3, 3)$ está **sobre** la línea de simetría $y = x$.
 
-Por simetría, la tangente en un punto sobre $y = x$ debe ser perpendicular a esta línea, lo que significa que tiene pendiente $m = -1$. ✓
+Por simetría, la [tangente](../../../../glossary.md#tangente) en un punto sobre $y = x$ debe ser perpendicular a esta línea, lo que significa que tiene pendiente $m = -1$. ✓
 
 ### Método 2: Verificación paramétrica
 
@@ -133,7 +133,7 @@ $$\frac{dy}{dx} = \frac{3/2}{-3/2} = -1 \checkmark$$
 ```
 
 ### Características del Folio:
-- **[Asíntota](../../../../glossary.md#asíntota)**: $x + y + 2 = 0$
+- **[Asíntota](../../../../glossary.md#asintota)**: $x + y + 2 = 0$
 - **Punto doble**: origen $(0, 0)$
 - **Simetría**: respecto a la recta $y = x$
 - **Lazo**: en el primer cuadrante

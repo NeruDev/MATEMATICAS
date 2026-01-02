@@ -11,7 +11,7 @@ audience: student
 
 ## Descripción General
 
-Los **teoremas fundamentales** del [cálculo diferencial](../../glossary.md#cálculo-diferencial) proporcionan la [base](../../glossary.md#base) teórica rigurosa para todas las aplicaciones de la [derivada](../../glossary.md#derivada). Estos resultados conectan conceptos como [continuidad](../../glossary.md#continuidad), derivabilidad y comportamiento de funciones.
+Los **teoremas fundamentales** del [cálculo diferencial](../../glossary.md#calculo-diferencial) proporcionan la [base](../../glossary.md#base) teórica rigurosa para todas las aplicaciones de la [derivada](../../glossary.md#derivada). Estos resultados conectan conceptos como [continuidad](../../glossary.md#continuidad), derivabilidad y comportamiento de funciones.
 
 ## Objetivos de Aprendizaje
 
@@ -29,9 +29,9 @@ Al finalizar este tema, serás capaz de:
 
 | Teorema | Aplicación Principal |
 |---------|---------------------|
-| Rolle | Existencia de puntos con derivada cero |
+| Rolle | Existencia de puntos con [derivada](../../glossary.md#derivada) cero |
 | Valor Medio | Relación entre tasa promedio e instantánea |
-| Cauchy | [Generalización](../../glossary.md#generalización) del valor medio |
+| Cauchy | [Generalización](../../glossary.md#generalizacion) del valor medio |
 | Taylor | Aproximación polinómica de funciones |
 
 ### Jerarquía de Teoremas
@@ -62,8 +62,8 @@ La serie de Taylor permite expresar funciones como sumas infinitas de potencias,
 ## Prerrequisitos
 
 - [Derivadas](../../glossary.md#derivadas) y sus propiedades
-- Continuidad de funciones
-- [Límites](../../glossary.md#límites)
+- [Continuidad](../../glossary.md#continuidad) de funciones
+- [Límites](../../glossary.md#limites)
 
 ## Recursos
 
@@ -71,4 +71,4 @@ La serie de Taylor permite expresar funciones como sumas infinitas de potencias,
 
 ---
 
-> **Nota**: Aunque estos teoremas pueden parecer abstractos, son la base de muchas técnicas numéricas y computacionales usadas en ciencia e ingeniería.
+> **Nota**: Aunque estos teoremas pueden parecer abstractos, son la [base](../../glossary.md#base) de muchas técnicas numéricas y computacionales usadas en ciencia e ingeniería.

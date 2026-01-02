@@ -54,7 +54,7 @@ $$\lVert\mathbf{v}\rVert = \sqrt{169} = 13$$
 ## Método 2: Vector Unitario
 
 ### Cuándo Usar
-- Obtener un vector de magnitud 1 en la misma dirección
+- Obtener un [vector](../../../glossary.md#vector) de magnitud 1 en la misma dirección
 - Normalizar para cálculos de proyección
 
 ### Fórmula

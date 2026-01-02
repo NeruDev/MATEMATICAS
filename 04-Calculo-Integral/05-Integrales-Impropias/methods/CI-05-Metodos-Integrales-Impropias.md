@@ -13,7 +13,7 @@ format: step_by_step
 
 # Métodos para Integrales Impropias
 
-> **Objetivo:** Dominar la evaluación y análisis de convergencia de integrales impropias con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.
+> **Objetivo:** Dominar la evaluación y análisis de [convergencia](../../../glossary.md#convergencia) de [integrales impropias](../../../glossary.md#integrales-impropias) con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.
 
 ---
 
@@ -31,7 +31,7 @@ $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 |------|--------|--------------|
 | 1 | Reemplazar $\infty$ por $t$ | Convertir en [integral definida](../../../glossary.md#integral-definida) |
 | 2 | Calcular la integral en términos de $t$ | Aplicar técnicas usuales |
-| 3 | Tomar el [límite](../../../glossary.md#límite) cuando $t \to \infty$ | Evaluar convergencia |
+| 3 | Tomar el [límite](../../../glossary.md#limite) cuando $t \to \infty$ | Evaluar convergencia |
 | 4 | Si el límite existe y es finito | La integral **converge** |
 | 5 | Si el límite es $\pm\infty$ o no existe | La integral **diverge** |
 
@@ -39,10 +39,10 @@ $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
 **Problema:** Evaluar $\int_1^{\infty} e^{-x}\,dx$
 
-**Paso 1:** Reemplazamos el límite infinito por $t$:
+**Paso 1:** Reemplazamos el [límite](../../../glossary.md#limite) infinito por $t$:
 $$\int_1^{\infty} e^{-x}\,dx = \lim_{t \to \infty} \int_1^t e^{-x}\,dx$$
 
-**Paso 2:** Calculamos la integral definida:
+**Paso 2:** Calculamos la [integral definida](../../../glossary.md#integral-definida):
 $$\int_1^t e^{-x}\,dx = \left[-e^{-x}\right]_1^t = -e^{-t} - (-e^{-1}) = -e^{-t} + e^{-1}$$
 
 **Paso 3:** Tomamos el límite:
@@ -59,7 +59,7 @@ $$= 0 + e^{-1} = \frac{1}{e}$$
 ## Método 2: Evaluación Directa (Tipo II - Discontinuidad)
 
 ### Cuándo Usar
-Integrales donde el integrando tiene una discontinuidad ([asíntota](../../../glossary.md#asíntota) vertical) en uno de los [límites](../../../glossary.md#límites) o dentro del intervalo.
+Integrales donde el integrando tiene una discontinuidad ([asíntota](../../../glossary.md#asintota) vertical) en uno de los [límites](../../../glossary.md#limites) o dentro del intervalo.
 
 ### Definición
 Si $f$ tiene discontinuidad en $x = a$:
@@ -171,9 +171,9 @@ Cuando no se puede calcular la integral explícitamente pero se puede comparar c
 | Paso | Acción | Propósito |
 |------|--------|-----------|
 | 1 | Identificar el comportamiento dominante | Para $x$ grande o cerca de discontinuidad |
-| 2 | Encontrar [función](../../../glossary.md#función) de comparación $g(x)$ | Más simple, convergencia conocida |
+| 2 | Encontrar [función](../../../glossary.md#funcion) de comparación $g(x)$ | Más simple, convergencia conocida |
 | 3 | Verificar la desigualdad | $f \leq g$ o $f \geq g$ |
-| 4 | Aplicar el teorema apropiado | Concluir convergencia/divergencia |
+| 4 | Aplicar el teorema apropiado | Concluir convergencia/[divergencia](../../../glossary.md#divergencia) |
 
 ### Ejemplo Detallado
 
@@ -190,7 +190,7 @@ $$\frac{1}{x^2 + 1} < \frac{1}{x^2}$$
 **Paso 4:** Por el teorema de comparación:
 $$0 < \frac{1}{x^2+1} < \frac{1}{x^2}$$
 
-Como la función mayor converge, la integral $\int_1^{\infty} \frac{1}{x^2 + 1}\,dx$ **converge**.
+Como la [función](../../../glossary.md#funcion) mayor converge, la integral $\int_1^{\infty} \frac{1}{x^2 + 1}\,dx$ **converge**.
 
 ---
 
@@ -245,7 +245,7 @@ $$= \lim_{x \to \infty} \frac{1 + 3/x^2}{1 - 1/x^3 + 2/x^4} = \frac{1 + 0}{1 - 0
 
 ### Cuándo Usar
 - Discontinuidad en el **interior** del intervalo
-- **Ambos** límites son infinitos
+- **Ambos** [límites](../../../glossary.md#limites) son infinitos
 
 ### Principio
 La integral total converge si y solo si **todas** las partes convergen.
@@ -290,13 +290,13 @@ $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx = \frac{\pi}{2} + \frac{\pi}{2} = 
 Para simplificar la integral antes de evaluar, especialmente con sustituciones trigonométricas.
 
 ### Punto Clave
-Al hacer [sustitución](../../../glossary.md#sustitución), los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
+Al hacer [sustitución](../../../glossary.md#sustitucion), los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Cuidado |
 |------|--------|---------|
-| 1 | Aplicar sustitución usual | $u = g(x)$, $du = g'(x)dx$ |
+| 1 | Aplicar [sustitución](../../../glossary.md#sustitucion) usual | $u = g(x)$, $du = g'(x)dx$ |
 | 2 | Cambiar límites de integración | Evaluar $g(a)$ y $g(b)$ |
 | 3 | Si $x \to \infty$, determinar $u \to ?$ | Puede ser finito |
 | 4 | Evaluar la nueva integral | Puede ser propia o impropia |
@@ -305,7 +305,7 @@ Al hacer [sustitución](../../../glossary.md#sustitución), los límites de inte
 
 **Problema:** Evaluar $\int_1^{\infty} \frac{1}{x\sqrt{x^2-1}}\,dx$
 
-**Paso 1:** Hacemos la [sustitución trigonométrica](../../../glossary.md#sustitución-trigonométrica) $x = \sec\theta$:
+**Paso 1:** Hacemos la [sustitución trigonométrica](../../../glossary.md#sustitucion-trigonometrica) $x = \sec\theta$:
 - $dx = \sec\theta\tan\theta\,d\theta$
 - $\sqrt{x^2-1} = \sqrt{\sec^2\theta - 1} = \tan\theta$
 
@@ -347,7 +347,7 @@ Para reconocer integrales clásicas cuyo valor es conocido.
 $$\int_0^{\infty} x^3 e^{-x}\,dx = 3! = 6$$
 
 **Verificación por partes (opcional):**
-Usando [integración por partes](../../../glossary.md#integración-por-partes) repetida o la fórmula de reducción, se confirma que el resultado es $6$.
+Usando [integración por partes](../../../glossary.md#integracion-por-partes) repetida o la fórmula de reducción, se confirma que el resultado es $6$.
 
 **Resultado:** $\boxed{6}$
 

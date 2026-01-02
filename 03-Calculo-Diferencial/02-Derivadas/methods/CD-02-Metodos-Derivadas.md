@@ -16,7 +16,7 @@ status: active
 
 ### Fórmulas Fundamentales
 
-| [Función](../../../glossary.md#función) | [Derivada](../../../glossary.md#derivada) |
+| [Función](../../../glossary.md#funcion) | [Derivada](../../../glossary.md#derivada) |
 |---------|----------|
 | $c$ (constante) | $0$ |
 | $x^n$ | $nx^{n-1}$ |
@@ -115,7 +115,7 @@ $$f(x) = x^2 + 3x, \quad g(x) = 2x^3 - x$$
 
 ---
 
-**Paso 2: Calcular derivadas**
+**Paso 2: Calcular [derivadas](../../../glossary.md#derivadas)**
 
 $$f'(x) = 2x + 3$$
 $$g'(x) = 6x^2 - 1$$
@@ -155,7 +155,7 @@ $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cd
 
 ### Nemotecnia
 
-> "Lo de abajo por la derivada de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
+> "Lo de abajo por la [derivada](../../../glossary.md#derivada) de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
 
 ### Algoritmo de Resolución
 
@@ -164,7 +164,7 @@ $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cd
 | 1 | Identificar $f$ y $g$ | Numerador y denominador |
 | 2 | Calcular derivadas | $f'(x)$ y $g'(x)$ |
 | 3 | Aplicar fórmula | $\frac{f'g - fg'}{g^2}$ |
-| 4 | Simplificar | Factorizar numerador si es posible |
+| 4 | Simplificar | [Factorizar](../../../glossary.md#factorizar) numerador si es posible |
 
 ### Ejemplo Detallado
 
@@ -216,7 +216,7 @@ $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar función externa | $f$ (la "de afuera") |
+| 1 | Identificar [función](../../../glossary.md#funcion) externa | $f$ (la "de afuera") |
 | 2 | Identificar función interna | $g$ (la "de adentro") |
 | 3 | Derivar externa | Mantener interna intacta |
 | 4 | Multiplicar por derivada interna | Por $g'(x)$ |

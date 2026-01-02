@@ -68,7 +68,7 @@ $$2u^2 - 3u + 1 = 0$$
 
 ### Paso 5: Resolver la ecuación cuadrática
 
-**Método: [Factorización](../../../../glossary.md#factorización)**
+**Método: [Factorización](../../../../glossary.md#factorizacion)**
 
 Buscamos dos números que multiplicados den $2 \times 1 = 2$ y sumados den $-3$.
 
@@ -100,7 +100,7 @@ Ahora tenemos:
 
 **Para $\cos\theta = \dfrac{1}{2}$:**
 
-El coseno es positivo en el primer y cuarto cuadrante.
+El [coseno](../../../../glossary.md#coseno) es positivo en el primer y cuarto cuadrante.
 
 El ángulo de referencia es $\theta_{ref} = \dfrac{\pi}{3}$ (ya que $\cos\dfrac{\pi}{3} = \dfrac{1}{2}$)
 
@@ -178,7 +178,7 @@ Círculo Unitario - Ubicación de Soluciones
 
 ## 📚 Notas del Método
 
-> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola [función](../../../../glossary.md#función) trigonométrica.
+> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola [función](../../../../glossary.md#funcion) trigonométrica.
 
 ### Resumen del Proceso
 
@@ -186,7 +186,7 @@ Círculo Unitario - Ubicación de Soluciones
 |------|-----------|
 | 1 | Sustituir $\sin^2\theta = 1 - \cos^2\theta$ |
 | 2 | Obtener ecuación cuadrática en $\cos\theta$ |
-| 3 | Resolver usando factorización o fórmula general |
+| 3 | Resolver usando [factorización](../../../../glossary.md#factorizacion) o fórmula general |
 | 4 | Verificar que $\|\cos\theta\| \leq 1$ |
 | 5 | Encontrar ángulos en el intervalo dado |
 | 6 | Verificar cada solución |

@@ -26,7 +26,7 @@ $$\int f(x)\,dx = F(x) + C \quad \text{donde} \quad F'(x) = f(x)$$
 
 ### Funciones algebraicas
 
-| [Función](../../glossary.md#función) | Integral |
+| [Función](../../glossary.md#funcion) | Integral |
 |---------|----------|
 | $x^n$ $(n \neq -1)$ | $\dfrac{x^{n+1}}{n+1} + C$ |
 | $\dfrac{1}{x}$ | $\ln\|x\| + C$ |
@@ -34,7 +34,7 @@ $$\int f(x)\,dx = F(x) + C \quad \text{donde} \quad F'(x) = f(x)$$
 
 ### Funciones exponenciales y logarítmicas
 
-| Función | Integral |
+| [Función](../../glossary.md#funcion) | Integral |
 |---------|----------|
 | $e^x$ | $e^x + C$ |
 | $a^x$ | $\dfrac{a^x}{\ln a} + C$ |

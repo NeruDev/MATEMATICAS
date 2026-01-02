@@ -4,7 +4,7 @@ content_type: problem_set
 topic_id: al-05-transformaciones-lineales
 file_id: AL-05-Problemas
 title: Problemas de [Transformaciones Lineales](../../../glossary.md#transformaciones-lineales)
-description: Conjunto de problemas sobre transformaciones lineales, núcleo, imagen, matrices asociadas, [composición](../../../glossary.md#composición) e inversa, y cambio de [base](../../../glossary.md#base)
+description: Conjunto de problemas sobre [transformaciones lineales](../../../glossary.md#transformaciones-lineales), núcleo, imagen, matrices asociadas, [composición](../../../glossary.md#composicion) e inversa, y cambio de [base](../../../glossary.md#base)
 author: Repositorio Matemáticas
 date_created: 2025-12-20
 date_modified: 2025-12-20
@@ -78,7 +78,7 @@ Sea $T: \mathbb{R}^3 \to \mathbb{R}^3$ definida por $T(x, y, z) = (|x|, y, z)$. 
 
 Para $T: \mathbb{R}^3 \to \mathbb{R}^2$, $T(x, y, z) = (x - y, y - z)$:
 
-a) Encontrar $\ker(T)$ y su base
+a) Encontrar $\ker(T)$ y su [base](../../../glossary.md#base)
 
 b) Encontrar $\text{Im}(T)$ y su base
 
@@ -130,7 +130,7 @@ b) $\text{Col}(A)$
 
 ### [Prob-10] Dimensiones mediante teorema rango-nulidad ⭐⭐
 
-Sea $T: \mathbb{R}^4 \to \mathbb{R}^3$ con matriz $[T] = \begin{pmatrix} 1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 3 & 1 \end{pmatrix}$.
+Sea $T: \mathbb{R}^4 \to \mathbb{R}^3$ con [matriz](../../../glossary.md#matriz) $[T] = \begin{pmatrix} 1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 3 & 1 \end{pmatrix}$.
 
 Determinar $\dim(\ker(T))$ y $\dim(\text{Im}(T))$.
 
@@ -318,7 +318,7 @@ La población de dos ciudades $A$ y $B$ evoluciona según:
 - Cada año, 10% de $A$ migra a $B$
 - Cada año, 5% de $B$ migra a $A$
 
-Modelar como [transformación lineal](../../../glossary.md#transformación-lineal) y encontrar su matriz.
+Modelar como [transformación lineal](../../../glossary.md#transformacion-lineal) y encontrar su matriz.
 
 > **Solución:** Ver [solutions/prob-27/](../solutions/prob-27/)
 

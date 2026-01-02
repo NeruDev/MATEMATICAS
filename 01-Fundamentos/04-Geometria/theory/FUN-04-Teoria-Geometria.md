@@ -392,4 +392,4 @@ $$a \cdot b = c \cdot h$$
 
 ### Principio de Cavalieri
 
-Dos sólidos con igual altura tienen igual volumen si todas las secciones paralelas a la base tienen igual área.
+Dos sólidos con igual altura tienen igual volumen si todas las secciones paralelas a la [base](../../../glossary.md#base) tienen igual área.

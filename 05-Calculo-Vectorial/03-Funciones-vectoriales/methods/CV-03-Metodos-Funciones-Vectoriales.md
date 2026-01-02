@@ -32,7 +32,7 @@ $$\text{Dom}(\mathbf{r}) = \text{Dom}(f) \cap \text{Dom}(g) \cap \text{Dom}(h)$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar el dominio de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
+**Problema:** Encontrar el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
 
 **Paso 1:** Identificamos restricciones:
 - $\sqrt{t}$ requiere $t \geq 0$
@@ -58,8 +58,8 @@ $$\lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} f(t), \lim_{t \to a
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular [límite](../../../glossary.md#límite) de cada componente | Por separado |
-| 2 | Si todos existen | El límite vectorial existe |
+| 1 | Calcular [límite](../../../glossary.md#limite) de cada componente | Por separado |
+| 2 | Si todos existen | El [límite](../../../glossary.md#limite) vectorial existe |
 | 3 | Si alguno no existe | El límite vectorial no existe |
 
 ### Ejemplo Detallado
@@ -94,11 +94,11 @@ $$\mathbf{r}'(t) = \langle f'(t), g'(t), h'(t) \rangle$$
 | Operación | Fórmula |
 |-----------|---------|
 | Suma | $(\mathbf{u} + \mathbf{v})' = \mathbf{u}' + \mathbf{v}'$ |
-| Escalar por vector | $(c\mathbf{u})' = c\mathbf{u}'$ si $c$ es constante |
-| [Función](../../../glossary.md#función) por vector | $(f \cdot \mathbf{u})' = f'\mathbf{u} + f\mathbf{u}'$ |
+| Escalar por [vector](../../../glossary.md#vector) | $(c\mathbf{u})' = c\mathbf{u}'$ si $c$ es constante |
+| [Función](../../../glossary.md#funcion) por vector | $(f \cdot \mathbf{u})' = f'\mathbf{u} + f\mathbf{u}'$ |
 | Producto punto | $(\mathbf{u} \cdot \mathbf{v})' = \mathbf{u}' \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{v}'$ |
 | Producto cruz | $(\mathbf{u} \times \mathbf{v})' = \mathbf{u}' \times \mathbf{v} + \mathbf{u} \times \mathbf{v}'$ |
-| [Composición](../../../glossary.md#composición) | $[\mathbf{u}(f(t))]' = \mathbf{u}'(f(t)) \cdot f'(t)$ |
+| [Composición](../../../glossary.md#composicion) | $[\mathbf{u}(f(t))]' = \mathbf{u}'(f(t)) \cdot f'(t)$ |
 
 ### Ejemplo Detallado
 
@@ -339,7 +339,7 @@ $$\tau = \frac{(\mathbf{r}' \times \mathbf{r}'') \cdot \mathbf{r}'''}{\|\mathbf{
 
 | Paso | Acción | Cálculo |
 |------|--------|---------|
-| 1 | Calcular $\mathbf{r}'$, $\mathbf{r}''$, $\mathbf{r}'''$ | Tres derivadas |
+| 1 | Calcular $\mathbf{r}'$, $\mathbf{r}''$, $\mathbf{r}'''$ | Tres [derivadas](../../../glossary.md#derivadas) |
 | 2 | Calcular $\mathbf{r}' \times \mathbf{r}''$ | Producto cruz |
 | 3 | Calcular triple producto | $(\mathbf{r}' \times \mathbf{r}'') \cdot \mathbf{r}'''$ |
 | 4 | Dividir por $\|\mathbf{r}' \times \mathbf{r}''\|^2$ | Aplicar fórmula |

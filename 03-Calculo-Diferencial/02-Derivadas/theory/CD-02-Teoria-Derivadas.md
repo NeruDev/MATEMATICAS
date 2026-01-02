@@ -30,7 +30,7 @@ $$f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$
 | Notación | Se lee |
 |----------|--------|
 | $f'(x)$ | "f prima de x" |
-| $\frac{df}{dx}$ | "derivada de f respecto a x" |
+| $\frac{df}{dx}$ | "[derivada](../../../glossary.md#derivada) de f respecto a x" |
 | $\frac{dy}{dx}$ | "derivada de y respecto a x" |
 | $Df(x)$ | "D de f de x" |
 | $\dot{y}$ | "y punto" (física) |
@@ -48,7 +48,7 @@ Si $v(t)$ es velocidad, entonces $v'(t) = s''(t)$ es **aceleración**.
 
 ### Funciones Algebraicas
 
-| [Función](../../../glossary.md#función) | Derivada |
+| [Función](../../../glossary.md#funcion) | Derivada |
 |---------|----------|
 | $c$ (constante) | $0$ |
 | $x$ | $1$ |
@@ -58,7 +58,7 @@ Si $v(t)$ es velocidad, entonces $v'(t) = s''(t)$ es **aceleración**.
 
 ### Funciones Exponenciales y Logarítmicas
 
-| Función | Derivada |
+| [Función](../../../glossary.md#funcion) | Derivada |
 |---------|----------|
 | $e^x$ | $e^x$ |
 | $a^x$ | $a^x \ln a$ |
@@ -157,7 +157,7 @@ $$f^{(n)}(x) = \frac{d^nf}{dx^n}$$
 - $f'(x)$: velocidad (tasa de cambio)
 - $f''(x)$: aceleración (tasa de cambio de la tasa de cambio)
 - $f''(x) > 0$: [concavidad](../../../glossary.md#concavidad) hacia arriba
-- $f''(x) < 0$: concavidad hacia abajo
+- $f''(x) < 0$: [concavidad](../../../glossary.md#concavidad) hacia abajo
 
 ---
 

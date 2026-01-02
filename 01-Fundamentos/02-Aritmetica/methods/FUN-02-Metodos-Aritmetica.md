@@ -105,7 +105,7 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 | 2 | Continuar dividiendo | Usar el mismo primo mientras sea posible |
 | 3 | Cambiar de primo | Cuando no divida, probar el siguiente primo |
 | 4 | Terminar | Cuando el cociente sea 1 |
-| 5 | Escribir [factorización](../../../glossary.md#factorización) | Producto de primos con exponentes |
+| 5 | Escribir [factorización](../../../glossary.md#factorizacion) | Producto de primos con exponentes |
 
 ### Ejemplo Detallado
 
@@ -143,15 +143,15 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Cuándo Usar:** Para simplificar fracciones al máximo o encontrar el mayor divisor común de varios números.
 
-**Definición:** El MCD es el mayor número que divide exactamente a todos los números dados.
+**Definición:** El [MCD](../../../glossary.md#mcd) es el mayor número que divide exactamente a todos los números dados.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Factorizar | Descomponer cada número en primos |
+| 1 | [Factorizar](../../../glossary.md#factorizar) | Descomponer cada número en primos |
 | 2 | Identificar comunes | Listar factores que aparecen en TODOS |
-| 3 | Tomar menor exponente | Para cada factor común |
+| 3 | Tomar [menor](../../../glossary.md#menor) exponente | Para cada factor común |
 | 4 | Multiplicar | Producto de factores seleccionados |
 
 ### Ejemplo Detallado
@@ -162,7 +162,7 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Paso 1: Factorizar cada número**
 
-| Número | Factorización |
+| Número | [Factorización](../../../glossary.md#factorizacion) |
 |--------|---------------|
 | 168 | $2^3 \times 3 \times 7$ |
 | 252 | $2^2 \times 3^2 \times 7$ |
@@ -246,9 +246,9 @@ $$\boxed{\text{MCD}(1071, 462) = 21}$$
 
 **Objetivo:** Encontrar $x, y$ tales que $ax + by = \text{MCD}(a, b)$
 
-**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../../glossary.md#combinación-lineal).
+**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../../glossary.md#combinacion-lineal).
 
-**Método de [sustitución](../../../glossary.md#sustitución) hacia atrás:**
+**Método de [sustitución](../../../glossary.md#sustitucion) hacia atrás:**
 
 De la tabla:
 - $21 = 462 - 147 \times 3$
@@ -267,7 +267,7 @@ $$\boxed{21 = 462(7) + 1071(-3)}$$
 
 **Cuándo Usar:** Para encontrar denominadores comunes en sumas de fracciones, problemas de ciclos.
 
-**Definición:** El MCM es el menor número que es múltiplo de todos los números dados.
+**Definición:** El [MCM](../../../glossary.md#mcm) es el menor número que es múltiplo de todos los números dados.
 
 ### Algoritmo de Resolución
 

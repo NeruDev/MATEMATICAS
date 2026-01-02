@@ -89,7 +89,7 @@ $$\frac{dy}{dx} = \frac{6(3) - 3(9)}{3(9) - 6(3)} = \frac{18 - 27}{27 - 18} = \f
 ## 2.6 Derivadas de Orden Superior
 
 ### Solución 2.6.5
-**Contexto:** Buscar patrón en derivadas sucesivas.
+**Contexto:** Buscar patrón en [derivadas](../../../glossary.md#derivadas) sucesivas.
 
 **Desarrollo:**
 $f(x) = e^{ax}$
@@ -103,7 +103,7 @@ $f'''(x) = a^3 e^{ax}$
 **Contexto:** Derivar implícitamente dos veces.
 
 **Desarrollo:**
-Primera derivada: $2x + 2y\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{x}{y}$
+Primera [derivada](../../../glossary.md#derivada): $2x + 2y\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{x}{y}$
 
 Segunda derivada:
 $$\frac{d^2y}{dx^2} = -\frac{y - x\frac{dy}{dx}}{y^2} = -\frac{y - x(-\frac{x}{y})}{y^2} = -\frac{y + \frac{x^2}{y}}{y^2}$$

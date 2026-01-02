@@ -2,7 +2,7 @@
 ::METADATA::
 type: method
 topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
-file_id: AL-02-Metodos-Determinantes
+file_id: AL-02-Metodos-[Determinantes](../../../glossary.md#determinantes)
 status: stable
 audience: student
 last_updated: 2024-12-29
@@ -110,7 +110,7 @@ $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 donde el **[cofactor](../../../glossary.md#cofactor)** es:
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
 
-y $M_{ij}$ es el **[menor](../../../glossary.md#menor)** (determinante de la submatriz sin fila $i$ y columna $j$).
+y $M_{ij}$ es el **[menor](../../../glossary.md#menor)** ([determinante](../../../glossary.md#determinante) de la submatriz sin fila $i$ y columna $j$).
 
 ### Patrón de Signos
 $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + & - & \cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{pmatrix}$$
@@ -120,7 +120,7 @@ $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + 
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Elegir fila o columna | Preferir la que tenga más ceros |
-| 2 | Para cada elemento $a_{ij}$ | Calcular su cofactor $C_{ij}$ |
+| 2 | Para cada elemento $a_{ij}$ | Calcular su [cofactor](../../../glossary.md#cofactor) $C_{ij}$ |
 | 3 | Multiplicar y sumar | $\det = \sum a_{ij} C_{ij}$ |
 
 ### Ejemplo Detallado
@@ -150,7 +150,7 @@ $$\det(A) = 3 \cdot (-7) = \boxed{-21}$$
 - Método más eficiente computacionalmente
 
 ### Propiedad Clave
-Para una matriz triangular (superior o inferior):
+Para una [matriz](../../../glossary.md#matriz) triangular (superior o inferior):
 $$\det(A) = \prod_{i=1}^{n} a_{ii} = a_{11} \cdot a_{22} \cdot \ldots \cdot a_{nn}$$
 
 ### Efecto de las Operaciones de Fila
@@ -369,7 +369,7 @@ $$A = \frac{1}{2}|14| = \boxed{7 \text{ unidades}^2}$$
 
 ### Cuándo Usar
 - Matrices con estructura especial de potencias
-- [Interpolación](../../../glossary.md#interpolación) polinomial
+- [Interpolación](../../../glossary.md#interpolacion) polinomial
 
 ### Fórmula
 $$\det\begin{pmatrix} 1 & x_1 & x_1^2 \\ 1 & x_2 & x_2^2 \\ 1 & x_3 & x_3^2 \end{pmatrix} = (x_2 - x_1)(x_3 - x_1)(x_3 - x_2)$$

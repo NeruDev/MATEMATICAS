@@ -12,7 +12,7 @@ status: active
 
 ## Método 1: Sustitución Directa
 
-**Cuándo Usar:** Cuando la [función](../../../glossary.md#función) es continua en el punto de evaluación y no produce formas indeterminadas.
+**Cuándo Usar:** Cuando la [función](../../../glossary.md#funcion) es continua en el punto de evaluación y no produce formas indeterminadas.
 
 ### Algoritmo de Resolución
 
@@ -24,7 +24,7 @@ status: active
 
 ### Funciones donde aplica directamente
 
-| Tipo de Función | Condición |
+| Tipo de [Función](../../../glossary.md#funcion) | Condición |
 |-----------------|-----------|
 | Polinomios | Siempre continuas |
 | Racionales | Si $x = a$ no anula el denominador |
@@ -69,7 +69,7 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ### Técnicas de Factorización Útiles
 
-| Expresión | [Factorización](../../../glossary.md#factorización) |
+| Expresión | [Factorización](../../../glossary.md#factorizacion) |
 |-----------|---------------|
 | $x^2 - a^2$ | $(x-a)(x+a)$ |
 | $x^3 - a^3$ | $(x-a)(x^2 + ax + a^2)$ |
@@ -82,13 +82,13 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ---
 
-**Paso 1: Verificar forma indeterminada**
+**Paso 1: Verificar [forma indeterminada](../../../glossary.md#forma-indeterminada)**
 
 $$\frac{(3)^3 - 27}{(3)^2 - 9} = \frac{27 - 27}{9 - 9} = \frac{0}{0}$$
 
 ---
 
-**Paso 2: Factorizar numerador (diferencia de cubos)**
+**Paso 2: [Factorizar](../../../glossary.md#factorizar) numerador (diferencia de cubos)**
 
 $$x^3 - 27 = x^3 - 3^3 = (x - 3)(x^2 + 3x + 9)$$
 
@@ -157,7 +157,7 @@ $$= \frac{x}{x(\sqrt{1+x} + 1)} = \frac{1}{\sqrt{1+x} + 1}$$
 
 ---
 
-**Paso 4: Evaluar el [límite](../../../glossary.md#límite)**
+**Paso 4: Evaluar el [límite](../../../glossary.md#limite)**
 
 $$\lim_{x \to 0} \frac{1}{\sqrt{1+x} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}{2}$$
 
@@ -199,7 +199,7 @@ $$\boxed{\lim_{x \to 4} \frac{x - 4}{\sqrt{x} - 2} = 4}$$
 
 ## Método 4: División entre Mayor Potencia (Límites al Infinito)
 
-**Cuándo Usar:** [Límites](../../../glossary.md#límites) cuando $x \to \pm\infty$ en funciones racionales.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) cuando $x \to \pm\infty$ en funciones racionales.
 
 ### Algoritmo de Resolución
 
@@ -207,7 +207,7 @@ $$\boxed{\lim_{x \to 4} \frac{x - 4}{\sqrt{x} - 2} = 4}$$
 |------|--------|---------|
 | 1 | Identificar grados | $n$ = grado numerador, $m$ = grado denominador |
 | 2 | Dividir todo | Por $x^m$ (mayor potencia del denominador) |
-| 3 | Aplicar límites | $\lim_{x \to \infty} \frac{1}{x^k} = 0$ para $k > 0$ |
+| 3 | Aplicar [límites](../../../glossary.md#limites) | $\lim_{x \to \infty} \frac{1}{x^k} = 0$ para $k > 0$ |
 | 4 | Evaluar | Los términos restantes |
 
 ### Regla Rápida
@@ -268,7 +268,7 @@ $$\boxed{\lim_{x \to \infty} \frac{2x^4 - x}{x^2 + 3} = +\infty}$$
 
 ### Límites Fundamentales
 
-| Límite | Valor |
+| [Límite](../../../glossary.md#limite) | Valor |
 |--------|-------|
 | $\displaystyle\lim_{u \to 0} \frac{\sin u}{u}$ | $1$ |
 | $\displaystyle\lim_{u \to 0} \frac{u}{\sin u}$ | $1$ |
@@ -405,13 +405,13 @@ $$\boxed{\lim_{x \to 0} x^2 \cos\left(\frac{1}{x}\right) = 0}$$
 
 ## Método 7: Cambio de Variable (Sustitución)
 
-**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../../glossary.md#sustitución) apropiada.
+**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../../glossary.md#sustitucion) apropiada.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar sustitución | $u = g(x)$ para simplificar |
+| 1 | Identificar [sustitución](../../../glossary.md#sustitucion) | $u = g(x)$ para simplificar |
 | 2 | Determinar nuevo límite | Si $x \to a$, entonces $u \to g(a)$ |
 | 3 | Reescribir | El límite en términos de $u$ |
 | 4 | Evaluar | El nuevo límite más simple |
@@ -645,11 +645,11 @@ Asíntotas verticales: $x = 2$ y $x = -2$
 
 ---
 
-**[Asíntota](../../../glossary.md#asíntota) Horizontal:**
+**[Asíntota](../../../glossary.md#asintota) Horizontal:**
 
 $$\lim_{x \to \infty} \frac{2x^2 - 1}{x^2 - 4} = \lim_{x \to \infty} \frac{2 - \frac{1}{x^2}}{1 - \frac{4}{x^2}} = \frac{2}{1} = 2$$
 
-Asíntota horizontal: $y = 2$
+[Asíntota](../../../glossary.md#asintota) horizontal: $y = 2$
 
 $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
@@ -665,7 +665,7 @@ $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
 ---
 
-**Paso 1: Multiplicar por [identidad trigonométrica](../../../glossary.md#identidad-trigonométrica)**
+**Paso 1: Multiplicar por [identidad trigonométrica](../../../glossary.md#identidad-trigonometrica)**
 
 Usamos: $1 - \cos x = 2\sin^2\left(\frac{x}{2}\right)$
 
@@ -742,7 +742,7 @@ $$\boxed{\lim_{h \to 0} \frac{\frac{1}{(x+h)^2} - \frac{1}{x^2}}{h} = -\frac{2}{
 
 | Forma | Métodos Recomendados |
 |-------|---------------------|
-| $\frac{0}{0}$ | Factorización, Racionalización, L'Hôpital |
+| $\frac{0}{0}$ | [Factorización](../../../glossary.md#factorizacion), Racionalización, L'Hôpital |
 | $\frac{\infty}{\infty}$ | División por mayor potencia, L'Hôpital |
 | $0 \cdot \infty$ | Reescribir como $\frac{0}{0}$ o $\frac{\infty}{\infty}$ |
 | $\infty - \infty$ | Racionalizar, factor común |

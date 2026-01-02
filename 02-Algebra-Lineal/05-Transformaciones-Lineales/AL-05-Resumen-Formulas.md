@@ -10,7 +10,7 @@ audience: student
 
 ## Definición
 
-$T: V \to W$ es **[transformación lineal](../../glossary.md#transformación-lineal)** si:
+$T: V \to W$ es **[transformación lineal](../../glossary.md#transformacion-lineal)** si:
 1. $T(\vec{u} + \vec{v}) = T(\vec{u}) + T(\vec{v})$ (aditividad)
 2. $T(c\vec{v}) = cT(\vec{v})$ (homogeneidad)
 
@@ -32,7 +32,7 @@ $$\ker(T) = \{\vec{v} \in V : T(\vec{v}) = \vec{0}\}$$
 
 $$\text{Im}(T) = \{T(\vec{v}) : \vec{v} \in V\} = \{w \in W : \exists \vec{v} \in V, T(\vec{v}) = w\}$$
 
-- $\text{Im}(T)$ es subespacio de $W$
+- $\text{Im}(T)$ es [subespacio](../../glossary.md#subespacio) de $W$
 - **Rango**: $\text{rang}(T) = \dim(\text{Im}(T))$
 
 ## Teorema del rango-nulidad
@@ -77,7 +77,7 @@ $$[T^{-1}] = [T]^{-1}$$
 
 ## Cambio de base
 
-Si $T: V \to V$ y cambiamos de base $\mathcal{B}$ a $\mathcal{B}'$:
+Si $T: V \to V$ y cambiamos de [base](../../glossary.md#base) $\mathcal{B}$ a $\mathcal{B}'$:
 
 $$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}}P$$
 
@@ -89,7 +89,7 @@ $$B = P^{-1}AP$$
 
 ## Transformaciones importantes en $\mathbb{R}^2$
 
-| Transformación | Matriz |
+| Transformación | [Matriz](../../glossary.md#matriz) |
 |----------------|--------|
 | Rotación ángulo $\theta$ | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Reflexión eje $x$ | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ |

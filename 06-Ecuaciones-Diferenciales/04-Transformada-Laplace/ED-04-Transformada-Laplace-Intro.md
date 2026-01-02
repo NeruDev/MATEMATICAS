@@ -40,7 +40,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo orden, [Integrales impropias](../../glossary.md#integrales-impropias)
+- **Prerequisitos**: [EDO](../../glossary.md#edo) de segundo [orden](../../glossary.md#orden), [Integrales impropias](../../glossary.md#integrales-impropias)
 - **Usos posteriores**: Control automático, Señales y sistemas, Ingeniería
 
 ## Vista previa de conceptos clave
@@ -66,7 +66,7 @@ solutions/
 ---
 
 <!--
-IA: Punto de entrada para Transformada de Laplace.
+IA: Punto de entrada para [Transformada de Laplace](../../glossary.md#transformada-de-laplace).
 Para fórmulas rápidas: ED-04-Resumen-Formulas.md
 file_id: ED-04-Transformada-Laplace-Intro
 -->

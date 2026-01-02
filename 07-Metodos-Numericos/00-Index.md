@@ -19,6 +19,6 @@ Módulo dedicado a algoritmos para aproximar soluciones de problemas matemático
 
 ## Prerrequisitos
 
-- [Cálculo diferencial](../glossary.md#cálculo-diferencial) e integral
+- [Cálculo diferencial](../glossary.md#calculo-diferencial) e integral
 - Programación básica (recomendado)
-- [Álgebra lineal](../glossary.md#álgebra-lineal) (para algunos temas)
+- [Álgebra lineal](../glossary.md#algebra-lineal) (para algunos temas)

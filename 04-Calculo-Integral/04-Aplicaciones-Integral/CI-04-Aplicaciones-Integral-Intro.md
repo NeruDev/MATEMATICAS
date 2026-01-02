@@ -41,7 +41,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerrequisitos**: Integral definida, [Técnicas de integración](../../glossary.md#técnicas-de-integración), Geometría analítica
+- **Prerrequisitos**: [Integral definida](../../glossary.md#integral-definida), [Técnicas de integración](../../glossary.md#tecnicas-de-integracion), Geometría analítica
 - **Usos posteriores**: Cálculo vectorial, Física, Ingeniería
 
 ## Vista previa de conceptos clave

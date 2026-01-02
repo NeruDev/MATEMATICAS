@@ -22,7 +22,7 @@ La recta [tangente](../../../glossary.md#tangente) a $y = f(x)$ en $(a, f(a))$:
 $$y - f(a) = f'(a)(x - a)$$
 
 ### Recta Normal
-La recta normal es perpendicular a la tangente:
+La recta normal es perpendicular a la [tangente](../../../glossary.md#tangente):
 $$y - f(a) = -\frac{1}{f'(a)}(x - a) \quad (f'(a) \neq 0)$$
 
 ---
@@ -44,7 +44,7 @@ Cuando varias cantidades varían con el tiempo y están relacionadas por una ecu
 
 ### Definiciones
 - **Máximo absoluto:** $f(c) \geq f(x)$ para todo $x$ en el [dominio](../../../glossary.md#dominio)
-- **Mínimo absoluto:** $f(c) \leq f(x)$ para todo $x$ en el dominio
+- **Mínimo absoluto:** $f(c) \leq f(x)$ para todo $x$ en el [dominio](../../../glossary.md#dominio)
 - **Máximo relativo:** $f(c) \geq f(x)$ para $x$ cerca de $c$
 - **Mínimo relativo:** $f(c) \leq f(x)$ para $x$ cerca de $c$
 
@@ -52,7 +52,7 @@ Cuando varias cantidades varían con el tiempo y están relacionadas por una ecu
 Si $f$ es continua en $[a, b]$, entonces $f$ alcanza un máximo y un mínimo absolutos en $[a, b]$.
 
 ### Puntos Críticos
-$c$ es [punto crítico](../../../glossary.md#punto-crítico) si $f'(c) = 0$ o $f'(c)$ no existe.
+$c$ es [punto crítico](../../../glossary.md#punto-critico) si $f'(c) = 0$ o $f'(c)$ no existe.
 
 ### Método del Intervalo Cerrado
 Para encontrar extremos absolutos de $f$ continua en $[a, b]$:
@@ -69,7 +69,7 @@ Para encontrar extremos absolutos de $f$ continua en $[a, b]$:
 - $f'(x) < 0$ en $(a, b)$ → $f$ es **decreciente** en $(a, b)$
 
 ### Prueba de Extremos
-Si $c$ es punto crítico:
+Si $c$ es [punto crítico](../../../glossary.md#punto-critico):
 - Si $f'$ cambia de $+$ a $-$ en $c$ → **máximo relativo**
 - Si $f'$ cambia de $-$ a $+$ en $c$ → **mínimo relativo**
 - Si $f'$ no cambia de signo → **no es extremo**
@@ -99,7 +99,7 @@ Si $f'(c) = 0$:
 ### Procedimiento
 1. **Entender:** Leer el problema, identificar qué maximizar/minimizar
 2. **Diagrama:** Dibujar y etiquetar variables
-3. **Objetivo:** Escribir la [función](../../../glossary.md#función) a optimizar
+3. **Objetivo:** Escribir la [función](../../../glossary.md#funcion) a optimizar
 4. **Restricción:** Usar la restricción para eliminar variables
 5. **Derivar:** Encontrar puntos críticos
 6. **Verificar:** Confirmar que es máximo o mínimo
@@ -134,11 +134,11 @@ Error relativo: $\frac{\Delta y}{y} \approx \frac{f'(x)}{f(x)} \Delta x$
 4. **Asíntotas:** verticales, horizontales, oblicuas
 5. **Intervalos de crecimiento/decrecimiento**
 6. **Máximos y mínimos relativos**
-7. **Concavidad y puntos de inflexión**
+7. **[Concavidad](../../../glossary.md#concavidad) y puntos de inflexión**
 8. **Graficar**
 
 ### Asíntota Oblicua
-Si $\lim_{x \to \pm\infty} [f(x) - (mx + b)] = 0$, entonces $y = mx + b$ es [asíntota](../../../glossary.md#asíntota) oblicua.
+Si $\lim_{x \to \pm\infty} [f(x) - (mx + b)] = 0$, entonces $y = mx + b$ es [asíntota](../../../glossary.md#asintota) oblicua.
 
 ---
 
@@ -150,7 +150,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 ### Procedimiento
 1. Elegir $x_0$ (aproximación inicial)
 2. Iterar hasta [convergencia](../../../glossary.md#convergencia)
-3. El [límite](../../../glossary.md#límite) es una raíz de $f$
+3. El [límite](../../../glossary.md#limite) es una raíz de $f$
 
 ### Convergencia
 - Funciona bien si $x_0$ está cerca de la raíz

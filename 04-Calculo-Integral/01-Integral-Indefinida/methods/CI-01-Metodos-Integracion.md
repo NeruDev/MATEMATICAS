@@ -42,7 +42,7 @@ $$n + 1 = 4 + 1 = 5$$
 **Paso 3:** Dividimos por el nuevo exponente:
 $$\frac{x^5}{5}$$
 
-**Paso 4:** Agregamos la [constante de integración](../../../glossary.md#constante-de-integración):
+**Paso 4:** Agregamos la [constante de integración](../../../glossary.md#constante-de-integracion):
 $$\int x^4 \, dx = \frac{x^5}{5} + C$$
 
 **Verificación:** Derivamos el resultado: $\frac{d}{dx}\left(\frac{x^5}{5}\right) = \frac{5x^4}{5} = x^4$ ✓
@@ -114,7 +114,7 @@ $$\int \frac{1}{x^4} \, dx = -\frac{1}{3x^3} + C$$
 $$\int \frac{1}{x} \, dx = \ln\lvert x \rvert + C$$
 
 ### ¿Por qué valor absoluto?
-La [función](../../../glossary.md#función) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../../glossary.md#antiderivada) funcione también para $x < 0$.
+La [función](../../../glossary.md#funcion) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../../glossary.md#antiderivada) funcione también para $x < 0$.
 
 ### Algoritmo de Resolución
 
@@ -123,7 +123,7 @@ La [función](../../../glossary.md#función) $\ln x$ solo está definida para $x
 | 1 | Verificar la forma $\frac{k}{x}$ | Extraer constante $k$ |
 | 2 | Aplicar $\int \frac{1}{x}dx = \ln\lvert x\rvert$ | Usar valor absoluto |
 | 3 | Multiplicar por la constante | $k \cdot \ln\lvert x\rvert$ |
-| 4 | Agregar $+ C$ | Constante de integración |
+| 4 | Agregar $+ C$ | [Constante de integración](../../../glossary.md#constante-de-integracion) |
 
 ### Ejemplo Detallado
 
@@ -146,7 +146,7 @@ $$\int \frac{3}{x} \, dx = 3\ln\lvert x \rvert + C$$
 
 ### Cuándo Usar
 - Funciones $e^x$ ([base](../../../glossary.md#base) natural)
-- Funciones $a^x$ (base cualquier positivo $a \neq 1$)
+- Funciones $a^x$ ([base](../../../glossary.md#base) cualquier positivo $a \neq 1$)
 
 ### Fórmulas
 $$\int e^x \, dx = e^x + C$$
@@ -193,7 +193,7 @@ $$\frac{d}{dx}\left(\frac{5^x}{\ln 5}\right) = \frac{5^x \cdot \ln 5}{\ln 5} = 5
 
 | Paso | Acción |
 |------|--------|
-| 1 | Identificar la función trigonométrica |
+| 1 | Identificar la [función](../../../glossary.md#funcion) trigonométrica |
 | 2 | Extraer constantes multiplicativas |
 | 3 | Consultar la tabla de antiderivadas |
 | 4 | Multiplicar por las constantes y agregar $C$ |
@@ -219,7 +219,7 @@ $$\int (3\sin x + 2\cos x) \, dx = -3\cos x + 2\sin x + C$$
 ## Método 6: Productos Trigonométricos Especiales
 
 ### Cuándo Usar
-- Producto $\sec x \tan x$ (derivada de secante)
+- Producto $\sec x \tan x$ ([derivada](../../../glossary.md#derivada) de secante)
 - Producto $\csc x \cot x$ (derivada de cosecante con signo)
 
 ### Fórmulas
@@ -228,7 +228,7 @@ $$\int \csc x \cot x \, dx = -\csc x + C$$
 
 ### Memoria Visual
 
-| Producto | Antiderivada | Regla mnemotécnica |
+| Producto | [Antiderivada](../../../glossary.md#antiderivada) | Regla mnemotécnica |
 |----------|--------------|-------------------|
 | $\sec x \tan x$ | $\sec x$ | "sec con tan da sec" |
 | $\csc x \cot x$ | $-\csc x$ | "csc con cot da -csc" |
@@ -369,7 +369,7 @@ $$= \frac{x^4}{4} - 4 \cdot \frac{x^2}{2} + e^x + C = \frac{x^4}{4} - 2x^2 + e^x
 
 | Paso | Acción | Técnicas comunes |
 |------|--------|------------------|
-| 1 | Analizar si se puede simplificar | ¿División? ¿Expansión? ¿[Factorización](../../../glossary.md#factorización)? |
+| 1 | Analizar si se puede simplificar | ¿División? ¿Expansión? ¿[Factorización](../../../glossary.md#factorizacion)? |
 | 2 | Realizar la simplificación algebraica | Manipulación de fracciones |
 | 3 | Separar en términos integrables | Suma de funciones simples |
 | 4 | Aplicar métodos básicos | Reglas anteriores |

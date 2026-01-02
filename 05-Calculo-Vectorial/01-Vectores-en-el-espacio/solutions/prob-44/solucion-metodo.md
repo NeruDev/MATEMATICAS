@@ -142,4 +142,4 @@ Ambas rectas pasan por el punto $(1, 0, -1)$. $\checkmark$
 
 ### Nota metodológica
 
-Para rectas que verdaderamente se cruzan (no coplanares), el triple producto escalar sería distinto de cero y la fórmula daría la distancia mínima entre ellas. El vector $\mathbf{v_1} \times \mathbf{v_2}$ representa la dirección perpendicular a ambas rectas, que es la dirección del segmento más corto que las conecta.
+Para rectas que verdaderamente se cruzan (no coplanares), el triple producto escalar sería distinto de cero y la fórmula daría la distancia mínima entre ellas. El [vector](../../../../glossary.md#vector) $\mathbf{v_1} \times \mathbf{v_2}$ representa la dirección perpendicular a ambas rectas, que es la dirección del segmento más corto que las conecta.

@@ -37,7 +37,7 @@ donde $\text{tr}(A) = a + d$ y $\det(A) = ad - bc$
 
 **Eigenvectores:** $\mathbf{v}_1, \mathbf{v}_2$
 
-**[Solución general](../../glossary.md#solución-general):**
+**[Solución general](../../glossary.md#solucion-general):**
 $$\mathbf{X}(t) = C_1 e^{\lambda_1 t}\mathbf{v}_1 + C_2 e^{\lambda_2 t}\mathbf{v}_2$$
 
 ---
@@ -68,7 +68,7 @@ $$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + 
 
 $$\Phi(t) = \begin{pmatrix} \mathbf{X}_1(t) & \mathbf{X}_2(t) \end{pmatrix}$$
 
-**Solución general:** $\mathbf{X}(t) = \Phi(t)\mathbf{C}$
+**[Solución general](../../glossary.md#solucion-general):** $\mathbf{X}(t) = \Phi(t)\mathbf{C}$
 
 **Con condición inicial:** $\mathbf{X}(t) = \Phi(t)\Phi^{-1}(t_0)\mathbf{X}_0$
 
@@ -129,7 +129,7 @@ Sea $\tau = \text{tr}(A)$, $\Delta = \det(A)$
 ---
 
 <!--
-IA: Hoja de referencia rápida para Sistemas de EDO.
+IA: Hoja de referencia rápida para Sistemas de [EDO](../../glossary.md#edo).
 Para desarrollo completo: theory/ED-03-Teoria-Sistemas-EDO.md
 file_id: ED-03-Resumen-Formulas
 -->

@@ -12,7 +12,7 @@ status: active
 
 ### Definición
 
-La **[transformada de Laplace](../../../glossary.md#transformada-de-laplace)** de una [función](../../../glossary.md#función) $f(t)$ definida para $t \geq 0$ es:
+La **[transformada de Laplace](../../../glossary.md#transformada-de-laplace)** de una [función](../../../glossary.md#funcion) $f(t)$ definida para $t \geq 0$ es:
 
 $$\boxed{\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st}f(t)\,dt}$$
 
@@ -20,7 +20,7 @@ siempre que la [integral impropia](../../../glossary.md#integral-impropia) conve
 
 ### Notación
 
-- $\mathcal{L}\{f(t)\} = F(s)$ (función transformada)
+- $\mathcal{L}\{f(t)\} = F(s)$ ([función](../../../glossary.md#funcion) transformada)
 - $\mathcal{L}^{-1}\{F(s)\} = f(t)$ (transformada inversa)
 - Minúscula para [dominio](../../../glossary.md#dominio) del tiempo, mayúscula para dominio de $s$
 
@@ -47,10 +47,10 @@ $$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$$
 **5. [Coseno](../../../glossary.md#coseno):**
 $$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$$
 
-**6. Seno hiperbólico:**
+**6. [Seno](../../../glossary.md#seno) hiperbólico:**
 $$\mathcal{L}\{\sinh bt\} = \frac{b}{s^2 - b^2}$$
 
-**7. Coseno hiperbólico:**
+**7. [Coseno](../../../glossary.md#coseno) hiperbólico:**
 $$\mathcal{L}\{\cosh bt\} = \frac{s}{s^2 - b^2}$$
 
 ---
@@ -105,11 +105,11 @@ $$\mathcal{L}\{t^n f(t)\} = (-1)^n \frac{d^n F}{ds^n}$$
 
 $$\boxed{\mathcal{L}\left\{\frac{f(t)}{t}\right\} = \int_s^{\infty} F(u)\,du}$$
 
-(si el [límite](../../../glossary.md#límite) $\lim_{t\to 0^+} \frac{f(t)}{t}$ existe)
+(si el [límite](../../../glossary.md#limite) $\lim_{t\to 0^+} \frac{f(t)}{t}$ existe)
 
 ### Convolución
 
-La **[convolución](../../../glossary.md#convolución)** de $f$ y $g$ es:
+La **[convolución](../../../glossary.md#convolucion)** de $f$ y $g$ es:
 
 $$(f * g)(t) = \int_0^t f(\tau)g(t-\tau)\,d\tau$$
 
@@ -200,7 +200,7 @@ Para un sistema lineal con entrada $f(t)$ y salida $y(t)$:
 
 $$H(s) = \frac{Y(s)}{F(s)}$$
 
-es la **[función de transferencia](../../../glossary.md#función-de-transferencia)** (suponiendo condiciones iniciales nulas).
+es la **[función de transferencia](../../../glossary.md#funcion-de-transferencia)** (suponiendo condiciones iniciales nulas).
 
 ---
 

@@ -30,12 +30,12 @@ Este teorema fundamenta los **métodos cerrados**.
 ### 2.2 Teorema del Punto Fijo
 
 > Sea $g: [a, b] \to [a, b]$ continua. Si $|g'(x)| \leq L < 1$ para todo $x \in (a, b)$, entonces:
-> 1. Existe un único punto fijo $p$ tal que $g(p) = p$
+> 1. Existe un único punto fijo $p$ [tal que](../../../glossary.md#tal-que) $g(p) = p$
 > 2. La sucesión $x_{n+1} = g(x_n)$ converge a $p$ para cualquier $x_0 \in [a, b]$
 
 ### 2.3 Series de Taylor
 
-[Base](../../../glossary.md#base) teórica del [método de Newton-Raphson](../../../glossary.md#método-de-newton-raphson):
+[Base](../../../glossary.md#base) teórica del [método de Newton-Raphson](../../../glossary.md#metodo-de-newton-raphson):
 
 $$f(x) = f(x_n) + f'(x_n)(x - x_n) + \frac{f''(\xi)}{2}(x - x_n)^2$$
 
@@ -73,7 +73,7 @@ $$n \geq \frac{\ln(b - a) - \ln(\varepsilon)}{\ln(2)}$$
 $$c = b - f(b)\frac{b - a}{f(b) - f(a)}$$
 
 **Ventaja:** Generalmente más rápido que bisección.
-**Desventaja:** Puede tener convergencia lenta si un extremo queda fijo.
+**Desventaja:** Puede tener [convergencia](../../../glossary.md#convergencia) lenta si un extremo queda fijo.
 
 ---
 
@@ -134,7 +134,7 @@ $$\lim_{n \to \infty} \frac{|e_{n+1}|}{|e_n|^p} = C \neq 0$$
 
 donde $e_n = x_n - x^*$.
 
-| Método | Orden $p$ | Eficiencia |
+| Método | [Orden](../../../glossary.md#orden) $p$ | Eficiencia |
 |--------|-----------|------------|
 | Bisección | 1 | Baja |
 | Falsa posición | 1 | Media |
@@ -146,7 +146,7 @@ donde $e_n = x_n - x^*$.
 
 $$EI = p^{1/k}$$
 
-donde $k$ = número de evaluaciones de [función](../../../glossary.md#función) por iteración.
+donde $k$ = número de evaluaciones de [función](../../../glossary.md#funcion) por iteración.
 
 | Método | $k$ | $EI$ |
 |--------|-----|------|

@@ -105,7 +105,7 @@ Usa integración de Romberg para calcular $\int_0^{\pi/2} \cos x\,dx$ con tolera
 > 📁 Solución: `solutions/prob-13/`
 
 ### [Prob-14] Romberg para logaritmo natural ⭐⭐
-Calcula $\int_1^2 \frac{1}{x}\,dx$ usando Romberg. Llena la tabla hasta convergencia ($\varepsilon < 10^{-5}$).
+Calcula $\int_1^2 \frac{1}{x}\,dx$ usando Romberg. Llena la tabla hasta [convergencia](../../../glossary.md#convergencia) ($\varepsilon < 10^{-5}$).
 
 > 📁 Solución: `solutions/prob-14/`
 
@@ -166,7 +166,7 @@ b) Compara con el error real
 > 📁 Solución: `solutions/prob-23/`
 
 ### [Prob-24] Subintervalos mínimos para Simpson ⭐⭐
-Determina el número mínimo de subintervalos para Simpson compuesto que garantiza error menor a $10^{-6}$ en $\int_0^1 \frac{1}{1+x}\,dx$.
+Determina el número mínimo de subintervalos para Simpson compuesto que garantiza error [menor](../../../glossary.md#menor) a $10^{-6}$ en $\int_0^1 \frac{1}{1+x}\,dx$.
 
 > 📁 Solución: `solutions/prob-24/`
 
@@ -240,7 +240,7 @@ con Simpson compuesto ($n = 4$).
 > 📁 Solución: `solutions/prob-33/`
 
 ### [Prob-34] Cálculo de la función error ⭐⭐
-Calcula la [función](../../../glossary.md#función) error $\text{erf}(1) = \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2}\,dt$ con precisión de 4 decimales.
+Calcula la [función](../../../glossary.md#funcion) error $\text{erf}(1) = \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2}\,dt$ con precisión de 4 decimales.
 
 > 📁 Solución: `solutions/prob-34/`
 
@@ -259,7 +259,7 @@ Implementa integración adaptativa que subdivida el intervalo solo donde el erro
 > 📁 Solución: `solutions/prob-36/`
 
 ### [Prob-37] Integración con puntos no equiespaciados ⭐⭐⭐
-Dada una función tabulada en puntos NO equiespaciados:
+Dada una [función](../../../glossary.md#funcion) tabulada en puntos NO equiespaciados:
 
 | $x$ | 0 | 0.2 | 0.5 | 0.8 | 1.0 |
 |-----|---|-----|-----|-----|-----|

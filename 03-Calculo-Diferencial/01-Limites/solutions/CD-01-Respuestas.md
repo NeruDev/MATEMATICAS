@@ -21,7 +21,7 @@ solved_detailed: 11
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-01] | No existe ([límites](../../../glossary.md#límites) laterales diferentes) | ➖ |
+| [Prob-01] | No existe ([límites](../../../glossary.md#limites) laterales diferentes) | ➖ |
 | [Prob-02] | $11$ | ➖ |
 | [Prob-03] | Demostración $\varepsilon$-$\delta$ completada | ➖ |
 | [Prob-04] | Demostración formal completada | [✅](./prob-04/solucion-metodo.md) |
@@ -88,9 +88,9 @@ Las siguientes tienen desarrollo paso a paso completo:
 | Tema | Problemas con solución |
 |:-----|:-----------------------|
 | Demostración ε-δ | [Prob-04](./prob-04/) |
-| Límites laterales | [Prob-05](./prob-05/) |
+| [Límites](../../../glossary.md#limites) laterales | [Prob-05](./prob-05/) |
 | Teorema del emparedado | [Prob-13](./prob-13/) |
-| [Factorización](../../../glossary.md#factorización) | [Prob-14](./prob-14/) |
+| [Factorización](../../../glossary.md#factorizacion) | [Prob-14](./prob-14/) |
 | Racionalización | [Prob-18](./prob-18/), [Prob-21](./prob-21/) |
 | Límites trigonométricos | [Prob-24](./prob-24/), [Prob-30](./prob-30/) |
 | Límites al infinito | [Prob-34](./prob-34/), [Prob-40](./prob-40/) |

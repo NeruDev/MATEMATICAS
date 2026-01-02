@@ -39,7 +39,7 @@ Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-qu
 
 ---
 
-**Paso 1: Verificar continuidad**
+**Paso 1: Verificar [continuidad](../../../glossary.md#continuidad)**
 
 $f(x) = x^3 - 3x$ es un [polinomio](../../../glossary.md#polinomio), continuo en todo $\mathbb{R}$ ✓
 
@@ -78,7 +78,7 @@ $$\boxed{c_1 = -1, \quad c_2 = 1}$$
 
 ## Método 2: Teorema del Valor Medio (TVM)
 
-**Cuándo Usar:** Para relacionar el cambio promedio de una [función](../../../glossary.md#función) con su [derivada](../../../glossary.md#derivada) instantánea.
+**Cuándo Usar:** Para relacionar el cambio promedio de una [función](../../../glossary.md#funcion) con su [derivada](../../../glossary.md#derivada) instantánea.
 
 ### Enunciado del Teorema
 
@@ -86,7 +86,7 @@ Si $f$ satisface:
 1. $f$ es continua en $[a, b]$
 2. $f$ es derivable en $(a, b)$
 
-Entonces existe al menos un $c \in (a, b)$ tal que:
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que):
 $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 ### Interpretación Geométrica
@@ -111,7 +111,7 @@ $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 **Paso 1: Verificar hipótesis**
 
-$f(x)$ es polinomio: continua y derivable en todo $\mathbb{R}$ ✓
+$f(x)$ es [polinomio](../../../glossary.md#polinomio): continua y derivable en todo $\mathbb{R}$ ✓
 
 ---
 
@@ -149,11 +149,11 @@ $$\boxed{c = 1}$$
 
 ## Método 3: Regla de L'Hôpital (Forma $\frac{0}{0}$)
 
-**Cuándo Usar:** [Límites](../../../glossary.md#límites) de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
 
 ### Enunciado
 
-Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el [límite](../../../glossary.md#límite) $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
+Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el [límite](../../../glossary.md#limite) $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
@@ -163,7 +163,7 @@ $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 |------|--------|---------|
 | 1 | Verificar forma $\frac{0}{0}$ | Sustituir directamente |
 | 2 | Derivar numerador y denominador | Por separado |
-| 3 | Evaluar nuevo límite | Sustituir o repetir L'Hôpital |
+| 3 | Evaluar nuevo [límite](../../../glossary.md#limite) | Sustituir o repetir L'Hôpital |
 | 4 | Repetir si [necesario](../../../glossary.md#necesario) | Si sigue siendo indeterminado |
 
 ### Ejemplo Detallado
@@ -203,7 +203,7 @@ $$\boxed{\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \frac{1}{2}}$$
 
 ## Método 4: Regla de L'Hôpital (Forma $\frac{\infty}{\infty}$)
 
-**Cuándo Usar:** Límites donde tanto numerador como denominador tienden a infinito.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) donde tanto numerador como denominador tienden a infinito.
 
 ### Ejemplo Detallado
 
@@ -303,7 +303,7 @@ $$\boxed{\lim_{x \to 0^+} x \ln x = 0}$$
 | 1 | Identificar forma $\infty - \infty$ | Verificar límites |
 | 2 | Combinar en fracción común | O racionalizar |
 | 3 | Simplificar | Obtener $\frac{0}{0}$ o $\frac{\infty}{\infty}$ |
-| 4 | Aplicar L'Hôpital | Si es necesario |
+| 4 | Aplicar L'Hôpital | Si es [necesario](../../../glossary.md#necesario) |
 
 ### Ejemplo Detallado
 
@@ -431,7 +431,7 @@ $$= f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \
 
 ### Series de Maclaurin Importantes (Taylor en $a = 0$)
 
-| Función | Serie de Maclaurin |
+| [Función](../../../glossary.md#funcion) | Serie de Maclaurin |
 |---------|-------------------|
 | $e^x$ | $\sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$ |
 | $\sin x$ | $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots$ |
@@ -454,7 +454,7 @@ $$= f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \
 
 ---
 
-**Paso 1: Calcular derivadas y evaluarlas en $a = 0$**
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas) y evaluarlas en $a = 0$**
 
 | $n$ | $f^{(n)}(x)$ | $f^{(n)}(0)$ |
 |-----|-------------|-------------|
@@ -547,7 +547,7 @@ $$\boxed{|Error| < 0.0000125}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar serie base | $e^u$, $\sin u$, etc. |
+| 1 | Identificar serie [base](../../../glossary.md#base) | $e^u$, $\sin u$, etc. |
 | 2 | Sustituir | $u$ por la expresión compuesta |
 | 3 | Expandir | Los términos resultantes |
 

@@ -6,7 +6,7 @@ file_id: FUN-02-Prob-50-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-50]"
-methods: ["[sustitución](../../../../glossary.md#sustitución)", "ecuación cuadrática", "análisis algebraico"]
+methods: ["[sustitución](../../../../glossary.md#sustitucion)", "ecuación cuadrática", "análisis algebraico"]
 -->
 
 # Solución [Prob-50]: Ecuación suma de recíprocos

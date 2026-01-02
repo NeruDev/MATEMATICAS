@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Raíces de Ecuaciones](../../glossary.md#raíces-de-ecuaciones)
+title: Resumen de Fórmulas - [Raíces de Ecuaciones](../../glossary.md#raices-de-ecuaciones)
 type: cheatsheet
 topic: raices-ecuaciones
 tags: [métodos-numéricos, raíces, fórmulas, cheatsheet]
@@ -41,7 +41,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 - $x_0$ suficientemente cercano a la raíz
 
 ### Orden de Convergencia
-**Convergencia cuadrática** ([orden](../../glossary.md#orden) 2):
+**[Convergencia](../../glossary.md#convergencia) cuadrática** ([orden](../../glossary.md#orden) 2):
 $$|e_{n+1}| \approx C|e_n|^2$$
 
 ### Error Aproximado

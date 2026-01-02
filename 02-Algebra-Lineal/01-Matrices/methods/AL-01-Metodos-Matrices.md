@@ -58,7 +58,7 @@ $$3A = 3 \begin{pmatrix} 1 & -2 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 3(1) & 
 ## Método 3: Multiplicación de Matrices (Fila × Columna)
 
 ### Cuándo Usar
-- [Composición](../../../glossary.md#composición) de [transformaciones lineales](../../../glossary.md#transformaciones-lineales)
+- [Composición](../../../glossary.md#composicion) de [transformaciones lineales](../../../glossary.md#transformaciones-lineales)
 - Sistemas de ecuaciones
 - Cambios de [base](../../../glossary.md#base)
 
@@ -149,7 +149,7 @@ $$A^{-1} = \frac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \quad
 | 2 | Verificar invertibilidad | Si $\det = 0$, no existe inversa |
 | 3 | Intercambiar diagonal principal | $a \leftrightarrow d$ |
 | 4 | Cambiar signo diagonal secundaria | $b \to -b$, $c \to -c$ |
-| 5 | Dividir entre determinante | Multiplicar por $\frac{1}{\det(A)}$ |
+| 5 | Dividir entre [determinante](../../../glossary.md#determinante) | Multiplicar por $\frac{1}{\det(A)}$ |
 
 ### Ejemplo Detallado
 
@@ -160,7 +160,7 @@ $$\det(A) = 4(1) - 3(2) = 4 - 6 = -2$$
 
 **Paso 2:** Como $\det(A) = -2 \neq 0$, la inversa existe.
 
-**Paso 3-4:** Formamos la matriz adjunta:
+**Paso 3-4:** Formamos la [matriz](../../../glossary.md#matriz) adjunta:
 $$\text{adj}(A) = \begin{pmatrix} 1 & -3 \\ -2 & 4 \end{pmatrix}$$
 
 **Paso 5:** Dividimos entre el determinante:
@@ -236,7 +236,7 @@ $$A^{-1} = \boxed{\begin{pmatrix} 7 & -2 \\ -3 & 1 \end{pmatrix}}$$
 ## Método 7: Rango de una Matriz
 
 ### Cuándo Usar
-- Determinar la [dimensión](../../../glossary.md#dimensión) del espacio columna
+- Determinar la [dimensión](../../../glossary.md#dimension) del espacio columna
 - Verificar [independencia lineal](../../../glossary.md#independencia-lineal)
 - Analizar sistemas de ecuaciones
 

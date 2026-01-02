@@ -28,14 +28,14 @@ theory/
 |---------|-------------|
 | Aritmética y Álgebra | Operaciones básicas, relaciones de [orden](../../glossary.md#orden) |
 | Lógica y Conjuntos | Cuantificadores, operaciones con conjuntos |
-| [Cálculo Diferencial](../../glossary.md#cálculo-diferencial) | [Límites](../../glossary.md#límites), [derivadas](../../glossary.md#derivadas), series |
-| [Cálculo Integral](../../glossary.md#cálculo-integral) | Integrales, notación de integración |
-| Cálculo Vectorial | Nabla, derivadas parciales, integrales múltiples |
-| [Álgebra Lineal](../../glossary.md#álgebra-lineal) | Matrices, vectores, eigenvalores |
-| [Trigonometría](../../glossary.md#trigonometría) | Funciones circulares, hiperbólicas, geometría |
+| [Cálculo Diferencial](../../glossary.md#calculo-diferencial) | [Límites](../../glossary.md#limites), [derivadas](../../glossary.md#derivadas), series |
+| [Cálculo Integral](../../glossary.md#calculo-integral) | Integrales, notación de integración |
+| Cálculo Vectorial | Nabla, [derivadas](../../glossary.md#derivadas) parciales, integrales múltiples |
+| [Álgebra Lineal](../../glossary.md#algebra-lineal) | Matrices, vectores, eigenvalores |
+| [Trigonometría](../../glossary.md#trigonometria) | Funciones circulares, hiperbólicas, geometría |
 | Números Complejos | Notación, operaciones |
 | [Ecuaciones Diferenciales](../../glossary.md#ecuaciones-diferenciales) | Notación de [EDO](../../glossary.md#edo), transformadas |
-| [Métodos Numéricos](../../glossary.md#métodos-numéricos) | Error, iteración |
+| [Métodos Numéricos](../../glossary.md#metodos-numericos) | Error, iteración |
 | Estadística | Probabilidad, distribuciones |
 
 ## Cómo usar esta referencia

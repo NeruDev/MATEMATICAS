@@ -31,7 +31,7 @@ c) $2\mathbf{u} - 3\mathbf{v}$
 
 **[Prob-03]** Encuentra el [vector](../../../glossary.md#vector) unitario en la dirección de $\mathbf{w} = \langle 4, -4, 2 \rangle$.
 
-**[Prob-04]** Si $\mathbf{a} = \langle 1, 2, -1 \rangle$ y $\mathbf{b} = \langle 3, -1, 2 \rangle$, encuentra un vector de magnitud 5 en la dirección de $\mathbf{a} + \mathbf{b}$.
+**[Prob-04]** Si $\mathbf{a} = \langle 1, 2, -1 \rangle$ y $\mathbf{b} = \langle 3, -1, 2 \rangle$, encuentra un [vector](../../../glossary.md#vector) de magnitud 5 en la dirección de $\mathbf{a} + \mathbf{b}$.
 
 **[Prob-05]** Encuentra los valores de $c$ tales que $\lVert \langle c, 2, 1 \rangle \rVert = 3$.
 

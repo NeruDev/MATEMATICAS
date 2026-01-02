@@ -17,7 +17,7 @@ solved_detailed: 0
 
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
-| [Prob-01] | a) Orden 1, grado 1; b) Orden 2, grado 2; c) Orden 3, grado 1 | ➖ |
+| [Prob-01] | a) [Orden](../../../glossary.md#orden) 1, grado 1; b) Orden 2, grado 2; c) Orden 3, grado 1 | ➖ |
 | [Prob-02] | Verificación: $y' + y = -Ce^{-x} + 1 + Ce^{-x} + x - 1 = x$ ✓ | ➖ |
 | [Prob-03] | Verificación: $y' = \frac{1}{(x+C)^2} = y^2$ ✓ | ➖ |
 | [Prob-04] | a) $y^2 = \frac{2x^3}{3} + C$; b) $y = Ce^{-\cos x}$; c) $\arctan y + \arctan x = C$ | ➖ |

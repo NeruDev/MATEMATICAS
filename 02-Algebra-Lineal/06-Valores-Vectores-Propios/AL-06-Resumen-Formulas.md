@@ -59,7 +59,7 @@ $$1 \leq m_g(\lambda) \leq m_a(\lambda)$$
 ## Diagonalización
 
 ### Matriz diagonalizable
-$A$ es **diagonalizable** si existe $P$ invertible tal que:
+$A$ es **diagonalizable** si existe $P$ invertible [tal que](../../glossary.md#tal-que):
 $$A = PDP^{-1}$$
 
 donde $D$ es diagonal.
@@ -79,7 +79,7 @@ $A$ ($n \times n$) es diagonalizable si y solo si:
 
 ### Casos garantizados
 - $n$ valores propios distintos $\Rightarrow$ diagonalizable
-- [Matriz simétrica](../../glossary.md#matriz-simétrica) real $\Rightarrow$ diagonalizable (con valores propios reales)
+- [Matriz simétrica](../../glossary.md#matriz-simetrica) real $\Rightarrow$ diagonalizable (con valores propios reales)
 
 ## Potencias de matrices
 
@@ -103,14 +103,14 @@ $$D^k = \begin{pmatrix} \lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots
 ## Matrices similares
 
 Si $B = P^{-1}AP$:
-- Mismo [polinomio característico](../../glossary.md#polinomio-característico)
+- Mismo [polinomio característico](../../glossary.md#polinomio-caracteristico)
 - Mismos valores propios
-- Misma traza y determinante
+- Misma [traza](../../glossary.md#traza) y [determinante](../../glossary.md#determinante)
 - Si $\vec{v}$ es eigenvector de $A$, entonces $P^{-1}\vec{v}$ es eigenvector de $B$
 
 ## Teorema de Cayley-Hamilton
 
-Toda matriz satisface su propia ecuación característica:
+Toda [matriz](../../glossary.md#matriz) satisface su propia ecuación característica:
 $$p(A) = 0$$
 
 Si $p(\lambda) = \lambda^2 - 5\lambda + 6$, entonces $A^2 - 5A + 6I = O$.

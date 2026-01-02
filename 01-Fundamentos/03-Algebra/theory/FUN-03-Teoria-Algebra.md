@@ -52,7 +52,7 @@ $$2(-2)^2 - 3(-2) + 1 = 2(4) + 6 + 1 = 8 + 6 + 1 = 15$$
 - Grado de $5x^3y^2$: $3 + 2 = 5$
 - Grado de $-2x^2y$: $2 + 1 = 3$
 - Grado de $7x$: $1$
-- **Grado del polinomio: 5**
+- **Grado del [polinomio](../../../glossary.md#polinomio): 5**
 
 ---
 
@@ -262,7 +262,7 @@ Una ecuación lineal tiene la forma $ax + b = 0$ con $a \neq 0$.
 
 **Ejemplo:** $\frac{2x + 1}{3} - \frac{x - 2}{4} = 2$
 
-Multiplicamos por MCM(3, 4) = 12:
+Multiplicamos por [MCM](../../../glossary.md#mcm)(3, 4) = 12:
 $$4(2x + 1) - 3(x - 2) = 24$$
 $$8x + 4 - 3x + 6 = 24$$
 $$5x + 10 = 24$$
@@ -412,7 +412,7 @@ $$x < 12$$
 
 **Método:**
 1. Llevar a la forma $ax^2 + bx + c \lessgtr 0$
-2. Factorizar y encontrar raíces
+2. [Factorizar](../../../glossary.md#factorizar) y encontrar raíces
 3. Usar tabla de signos o gráfica
 
 **Ejemplo:** $x^2 - x - 6 > 0$

@@ -48,7 +48,7 @@ $$(a^{-1})^3 \cdot (b^2)^3 = a^{(-1) \cdot 3} \cdot b^{2 \cdot 3} = a^{-3} \cdot
 Ahora multiplicamos los resultados:
 $$(a^{-4} \cdot b^{6}) \times (a^{-3} \cdot b^{6})$$
 
-Agrupamos las potencias con la misma base:
+Agrupamos las potencias con la misma [base](../../../../glossary.md#base):
 $$= a^{-4} \cdot a^{-3} \cdot b^{6} \cdot b^{6}$$
 
 ### Paso 5: Aplicar producto de potencias con la misma base

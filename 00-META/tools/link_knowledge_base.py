@@ -17,6 +17,7 @@ Python: 3.8+
 
 import re
 import os
+import unicodedata
 from pathlib import Path
 from typing import Dict, List, Tuple, Set, Optional
 from dataclasses import dataclass
@@ -194,8 +195,11 @@ class KnowledgeBaseLinker:
         """Crea un ancla estilo GitHub a partir de texto."""
         # Convertir a minúsculas
         anchor = text.lower()
-        # Remover caracteres especiales excepto espacios y guiones
-        anchor = re.sub(r'[^\w\s-]', '', anchor, flags=re.UNICODE)
+        # Normalizar caracteres Unicode (remover acentos)
+        anchor = unicodedata.normalize('NFD', anchor)
+        anchor = ''.join(c for c in anchor if unicodedata.category(c) != 'Mn')
+        # Remover caracteres especiales excepto espacios, guiones y alfanuméricos
+        anchor = re.sub(r'[^\w\s-]', '', anchor, flags=re.ASCII)
         # Reemplazar espacios por guiones
         anchor = re.sub(r'\s+', '-', anchor)
         # Remover guiones múltiples

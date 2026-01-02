@@ -137,7 +137,7 @@ Primos a probar: 2, 3, 5, 7, 11
 **127 es primo** ✓
 
 **25)** *Contexto: Buscamos $\text{[MCM](../../../glossary.md#mcm)}(4,6,9) + 1$*
-$$\text{MCM}(4,6,9) = \text{MCM}(2^2, 2 \times 3, 3^2) = 2^2 \times 3^2 = 36$$
+$$\text{[MCM](../../../glossary.md#mcm)}(4,6,9) = \text{MCM}(2^2, 2 \times 3, 3^2) = 2^2 \times 3^2 = 36$$
 $$\boxed{36 + 1 = 37}$$
 
 **26)** *Contexto: Listamos primos en el rango.*
@@ -183,7 +183,7 @@ $$198 = 54 \times 3 + 36$$
 $$54 = 36 \times 1 + 18$$
 $$36 = 18 \times 2 + 0$$
 
-$\text{MCD}(252, 198) = \boxed{18}$
+$\text{[MCD](../../../glossary.md#mcd)}(252, 198) = \boxed{18}$
 
 **33)** *Contexto: $18 = 2 \times 3^2$, $24 = 2^3 \times 3$, $30 = 2 \times 3 \times 5$*
 
@@ -249,7 +249,7 @@ $$\frac{2}{3} \times \frac{9}{14} \div \frac{3}{7} = \frac{2}{3} \times \frac{9}
 - $\frac{7}{12} = \frac{14}{24}$
 - $\frac{2}{3} = \frac{16}{24}$
 
-**Orden:** $\frac{7}{12} < \frac{5}{8} < \frac{2}{3}$
+**[Orden](../../../glossary.md#orden):** $\frac{7}{12} < \frac{5}{8} < \frac{2}{3}$
 
 **44)** *Contexto: Simplificamos $\frac{36}{48}$.*
 $$\frac{36}{48} = \frac{36 \div 12}{48 \div 12} = \frac{3}{4}$$
@@ -307,7 +307,7 @@ $$x = \frac{84}{0.35} = \boxed{240}$$
 
 **56)** *Contexto: Calculamos el efecto combinado.*
 $$P_{\text{final}} = P \times 1.20 \times 0.80 = P \times 0.96$$
-El precio final es **menor** (4% menos que el original)
+El precio final es **[menor](../../../glossary.md#menor)** (4% menos que el original)
 
 **57)** *Contexto: Convertimos todo a decimales.*
 - $0.45 = 0.45$
@@ -336,7 +336,7 @@ $$2^3 \times 2^5 \div 2^4 = 2^{3+5-4} = 2^4 = \boxed{16}$$
 **62)** *Contexto: Exponente negativo invierte la [base](../../../glossary.md#base).*
 $$\left(\frac{3}{4}\right)^{-2} = \left(\frac{4}{3}\right)^2 = \boxed{\frac{16}{9}}$$
 
-**63)** *Contexto: Expresamos en base prima.*
+**63)** *Contexto: Expresamos en [base](../../../glossary.md#base) prima.*
 $$\frac{6^5 \times 9^2}{2^4 \times 27} = \frac{(2 \times 3)^5 \times (3^2)^2}{2^4 \times 3^3} = \frac{2^5 \times 3^5 \times 3^4}{2^4 \times 3^3} = 2^1 \times 3^6 = 2 \times 729 = \boxed{1458}$$
 
 **64)** *Contexto: Evaluamos cada radical.*

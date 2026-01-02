@@ -119,7 +119,7 @@ $$P(x) = (x - a_1)(x - a_2)(x - a_3) \cdots (x - a_n)$$
 donde $a_1 < a_2 < a_3 < \cdots < a_n$:
 
 - El signo **alterna** entre intervalos consecutivos
-- A la **derecha** del mayor [punto crítico](../../../../glossary.md#punto-crítico), el signo es $(+)$
+- A la **derecha** del mayor [punto crítico](../../../../glossary.md#punto-critico), el signo es $(+)$
 
 ### Paso 2: Aplicar al problema
 

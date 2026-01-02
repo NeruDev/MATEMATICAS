@@ -16,7 +16,7 @@ Evalúa $\displaystyle\lim_{x \to 0} \frac{\sqrt{1+x} - \sqrt{1-x}}{x}$
 ---
 
 ## Análisis inicial
-[Sustitución](../../../../glossary.md#sustitución) directa: $\frac{\sqrt{1} - \sqrt{1}}{0} = \frac{0}{0}$ → [Forma indeterminada](../../../../glossary.md#forma-indeterminada)
+[Sustitución](../../../../glossary.md#sustitucion) directa: $\frac{\sqrt{1} - \sqrt{1}}{0} = \frac{0}{0}$ → [Forma indeterminada](../../../../glossary.md#forma-indeterminada)
 
 ---
 
@@ -65,7 +65,7 @@ Los valores se aproximan a 1 desde ambos lados. ✓
 ---
 
 ## Interpretación geométrica
-Este [límite](../../../../glossary.md#límite) representa la [derivada](../../../../glossary.md#derivada) de $f(x) = \sqrt{1+x} - \sqrt{1-x}$ evaluada en $x = 0$:
+Este [límite](../../../../glossary.md#limite) representa la [derivada](../../../../glossary.md#derivada) de $f(x) = \sqrt{1+x} - \sqrt{1-x}$ evaluada en $x = 0$:
 
 $$f'(0) = \lim_{x \to 0} \frac{f(x) - f(0)}{x - 0} = \lim_{x \to 0} \frac{\sqrt{1+x} - \sqrt{1-x}}{x} = 1$$
 

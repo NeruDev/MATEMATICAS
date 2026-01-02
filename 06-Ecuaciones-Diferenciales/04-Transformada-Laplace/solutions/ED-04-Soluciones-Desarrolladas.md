@@ -158,7 +158,7 @@ $Y(s^2-3s+2) = \frac{1}{s-1}$
 
 $Y = \frac{1}{(s-1)(s-1)(s-2)} = \frac{1}{(s-1)^2(s-2)}$
 
-Fracciones parciales:
+[Fracciones parciales](../../../glossary.md#fracciones-parciales):
 $\frac{A}{s-1} + \frac{B}{(s-1)^2} + \frac{C}{s-2}$
 
 $A = 1$, $B = -1$, $C = -1$

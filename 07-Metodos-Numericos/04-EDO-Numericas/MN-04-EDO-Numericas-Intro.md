@@ -1,9 +1,9 @@
 <!--
 ---
-title: Introducción a [EDO Numéricas](../../glossary.md#edo-numéricas)
+title: Introducción a [EDO Numéricas](../../glossary.md#edo-numericas)
 type: index
 topic: [edo](../../glossary.md#edo)-numericas
-tags: [métodos-numéricos, EDO, euler, runge-kutta, sistemas]
+tags: [métodos-numéricos, [EDO](../../glossary.md#edo), euler, runge-kutta, sistemas]
 created: 2025-12-20
 updated: 2025-12-20
 ---
@@ -13,13 +13,13 @@ updated: 2025-12-20
 
 ## Descripción General
 
-Los [métodos numéricos](../../glossary.md#métodos-numéricos) para [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) ordinarias (EDO) permiten aproximar soluciones de problemas de valor inicial cuando no es posible encontrar una solución analítica. Estos métodos son fundamentales en simulación y modelado.
+Los [métodos numéricos](../../glossary.md#metodos-numericos) para [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) ordinarias (EDO) permiten aproximar soluciones de problemas de valor inicial cuando no es posible encontrar una solución analítica. Estos métodos son fundamentales en simulación y modelado.
 
 ## Contenido del Módulo
 
 ### Métodos de Un Paso
 - [[MN-04-T01-Euler|Método de Euler]]
-- [[MN-04-T02-Euler-Mejorado|[Método de Euler](../../glossary.md#método-de-euler) Mejorado (Heun)]]
+- [[MN-04-T02-Euler-Mejorado|[Método de Euler](../../glossary.md#metodo-de-euler) Mejorado (Heun)]]
 - [[MN-04-T03-Runge-Kutta|Métodos de Runge-Kutta]]
 
 ### Métodos de Paso Múltiple
@@ -35,14 +35,14 @@ Los [métodos numéricos](../../glossary.md#métodos-numéricos) para [ecuacione
 
 ## Objetivos de Aprendizaje
 
-1. Implementar el método de Euler para problemas de valor inicial
+1. Implementar el [método de Euler](../../glossary.md#metodo-de-euler) para problemas de valor inicial
 2. Aplicar métodos de Runge-Kutta de diferentes órdenes
 3. Resolver sistemas de EDO numéricamente
 4. Analizar estabilidad y [convergencia](../../glossary.md#convergencia) de los métodos
 
 ## Prerrequisitos
 
-- Ecuaciones diferenciales ordinarias
+- [Ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) ordinarias
 - Serie de Taylor
 - Sistemas de ecuaciones
 

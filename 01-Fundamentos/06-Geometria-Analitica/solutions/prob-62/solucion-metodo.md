@@ -169,14 +169,14 @@ $$y - (-1) = \pm\frac{1}{2}(x - 2)$$
 
 $$y + 1 = \pm\frac{1}{2}(x - 2)$$
 
-**[Asíntota](../../../../glossary.md#asíntota) 1:**
+**[Asíntota](../../../../glossary.md#asintota) 1:**
 $$y + 1 = \frac{1}{2}(x - 2)$$
 $$y = \frac{1}{2}x - 1 - 1$$
 $$\boxed{y = \frac{1}{2}x - 2}$$
 
 En forma general: $x - 2y - 4 = 0$
 
-**Asíntota 2:**
+**[Asíntota](../../../../glossary.md#asintota) 2:**
 $$y + 1 = -\frac{1}{2}(x - 2)$$
 $$y = -\frac{1}{2}x + 1 - 1$$
 $$\boxed{y = -\frac{1}{2}x}$$

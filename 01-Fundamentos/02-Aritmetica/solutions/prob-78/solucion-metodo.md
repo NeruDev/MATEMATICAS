@@ -6,7 +6,7 @@ file_id: FUN-02-Prob-78-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-78]"
-methods: ["sistema de ecuaciones", "[sustitución](../../../../glossary.md#sustitución)", "razones equivalentes"]
+methods: ["sistema de ecuaciones", "[sustitución](../../../../glossary.md#sustitucion)", "razones equivalentes"]
 -->
 
 # Solución [Prob-78]: Problema de edades con razones

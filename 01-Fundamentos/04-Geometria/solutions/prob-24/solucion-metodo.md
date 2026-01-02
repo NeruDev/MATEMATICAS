@@ -30,7 +30,7 @@ $$h^2 = 27$$
 $$h = \sqrt{27} = \sqrt{9 \times 3} = 3\sqrt{3} \text{ cm}$$
 
 ### Paso 2: Calcular el área
-$$A = \frac{1}{2} \times \text{base} \times \text{altura}$$
+$$A = \frac{1}{2} \times \text{[base](../../../../glossary.md#base)} \times \text{altura}$$
 $$A = \frac{1}{2} \times 6 \times 3\sqrt{3}$$
 $$A = 9\sqrt{3} \text{ cm}^2$$
 

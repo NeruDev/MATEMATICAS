@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Solución - [Integración por Partes](../../../../glossary.md#integración-por-partes) Iteradas"
+title: "Solución - [Integración por Partes](../../../../glossary.md#integracion-por-partes) Iteradas"
 type: solution
 topic: tecnicas-integracion
 problem_id: CI-02-018
@@ -168,7 +168,7 @@ $$\int x^n e^{ax} \, dx = e^{ax}\sum_{k=0}^{n} (-1)^k \frac{n!}{(n-k)!} \frac{x^
 
 ## Notas Adicionales
 
-> **Regla LIATE:** Para elegir $u$ en integración por partes, priorizar:
+> **Regla LIATE:** Para elegir $u$ en [integración por partes](../../../../glossary.md#integracion-por-partes), priorizar:
 > - **L**ogarítmicas
 > - **I**nversas trigonométricas
 > - **A**lgebraicas (polinomios)

@@ -33,7 +33,7 @@ solved_detailed: 0
 | [Prob-11] | Mín. abs: $f(2) = -1$; Máx. abs: $f(0) = f(4) = 3$ | ➖ |
 | [Prob-12] | Mín. abs: $f(-2) = -1$; Máx. abs: $f(-1) = f(2) = 3$ | ➖ |
 | [Prob-13] | Mín. abs: $f(-1) = -\dfrac{1}{2}$; Máx. abs: $f(1) = \dfrac{1}{2}$ | ➖ |
-| [Prob-14] | $x = 0$ (no diferenciable) y $x = 2$ ([punto crítico](../../../glossary.md#punto-crítico)) | ➖ |
+| [Prob-14] | $x = 0$ (no diferenciable) y $x = 2$ ([punto crítico](../../../glossary.md#punto-critico)) | ➖ |
 | [Prob-15] | Máx: $f\left(\dfrac{\pi}{4}\right) = \sqrt{2}$; Mín: $f\left(\dfrac{5\pi}{4}\right) = -\sqrt{2}$ | ➖ |
 | **3.4 Criterio de la Primera Derivada** |||
 | [Prob-16] | Crece: $(-\infty, 1) \cup (3, \infty)$; Decrece: $(1, 3)$ | ➖ |

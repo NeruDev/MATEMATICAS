@@ -3,7 +3,7 @@
 content_type: problem_set
 topic_id: mn-02-interpolacion
 file_id: MN-02-Problemas
-title: "Problemas: [Interpolación](../../../glossary.md#interpolación)"
+title: "Problemas: [Interpolación](../../../glossary.md#interpolacion)"
 ---
 -->
 
@@ -32,7 +32,7 @@ b) Evaluar $P(0.5)$
 ### [Prob-03] Interpolación de función logarítmica ⭐⭐
 > **Solución:** [solutions/prob-03/](../solutions/prob-03/)
 
-Construir el polinomio de interpolación de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
+Construir el [polinomio](../../../glossary.md#polinomio) de [interpolación](../../../glossary.md#interpolacion) de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
 
 ---
 
@@ -122,7 +122,7 @@ Usar Newton progresivo para estimar $\sin(0.15)$.
 ### [Prob-12] Error de interpolación lineal ⭐⭐
 > **Solución:** [solutions/prob-12/](../solutions/prob-12/)
 
-Acotar el [error de interpolación](../../../glossary.md#error-de-interpolación) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
+Acotar el [error de interpolación](../../../glossary.md#error-de-interpolacion) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
 
 ---
 
@@ -138,7 +138,7 @@ b) Acotar el error en $[0, \pi/2]$
 ### [Prob-14] Fenómeno de Runge ⭐⭐⭐
 > **Solución:** [solutions/prob-14/](../solutions/prob-14/)
 
-Explicar el [fenómeno de Runge](../../../glossary.md#fenómeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
+Explicar el [fenómeno de Runge](../../../glossary.md#fenomeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
 
 ---
 
@@ -154,7 +154,7 @@ Calcular los nodos de Chebyshev para $n = 3$ en $[-1, 1]$ y compararlos con nodo
 ### [Prob-16] Spline cúbico natural básico ⭐⭐
 > **Solución:** [solutions/prob-16/](../solutions/prob-16/)
 
-Encontrar el [spline cúbico](../../../glossary.md#spline-cúbico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
+Encontrar el [spline cúbico](../../../glossary.md#spline-cubico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
@@ -162,7 +162,7 @@ Encontrar el [spline cúbico](../../../glossary.md#spline-cúbico) natural para 
 > **Solución:** [solutions/prob-17/](../solutions/prob-17/)
 
 Para los datos $(0, 1)$, $(1, 2)$, $(2, 3)$, $(3, 0)$:
-a) Construir el spline cúbico natural
+a) Construir el [spline cúbico](../../../glossary.md#spline-cubico) natural
 b) Evaluar $S(1.5)$
 
 ---
@@ -181,7 +181,7 @@ Comparar la interpolación polinómica de grado 4 vs spline cúbico para:
 ### [Prob-19] Splines y fenómeno de Runge ⭐⭐⭐
 > **Solución:** [solutions/prob-19/](../solutions/prob-19/)
 
-¿Por qué los splines cúbicos evitan el fenómeno de Runge?
+¿Por qué los splines cúbicos evitan el [fenómeno de Runge](../../../glossary.md#fenomeno-de-runge)?
 
 ---
 
@@ -248,8 +248,8 @@ Una curva de carretera debe pasar por los puntos $(0, 0)$, $(100, 10)$, $(200, 0
 > **Solución:** [solutions/prob-25/](../solutions/prob-25/)
 
 Implementar en Python/MATLAB:
-a) [Función](../../../glossary.md#función) para calcular diferencias divididas
-b) Función para evaluar el polinomio de Newton
+a) [Función](../../../glossary.md#funcion) para calcular [diferencias divididas](../../../glossary.md#diferencias-divididas)
+b) [Función](../../../glossary.md#funcion) para evaluar el polinomio de Newton
 
 ---
 
@@ -275,7 +275,7 @@ Comparar numéricamente Lagrange vs Newton para $n = 10, 20, 50$ puntos aleatori
 ### [Prob-28] Equivalencia Lagrange-Newton ⭐⭐⭐
 > **Solución:** [solutions/prob-28/](../solutions/prob-28/)
 
-Demostrar que el polinomio de Lagrange y el de Newton son idénticos.
+Demostrar que el [polinomio de Lagrange](../../../glossary.md#polinomio-de-lagrange) y el de Newton son idénticos.
 
 ---
 

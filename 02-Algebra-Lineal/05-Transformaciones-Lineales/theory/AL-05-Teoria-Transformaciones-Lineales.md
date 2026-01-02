@@ -12,7 +12,7 @@ status: active
 
 ### Definición Formal
 
-Sean $V$ y $W$ [espacios vectoriales](../../../glossary.md#espacios-vectoriales) sobre el mismo campo $\mathbb{F}$. Una [función](../../../glossary.md#función) $T: V \to W$ es una **[transformación lineal](../../../glossary.md#transformación-lineal)** si satisface:
+Sean $V$ y $W$ [espacios vectoriales](../../../glossary.md#espacios-vectoriales) sobre el mismo campo $\mathbb{F}$. Una [función](../../../glossary.md#funcion) $T: V \to W$ es una **[transformación lineal](../../../glossary.md#transformacion-lineal)** si satisface:
 
 1. **Aditividad:** $T(u + v) = T(u) + T(v)$ para todo $u, v \in V$
 2. **Homogeneidad:** $T(cv) = cT(v)$ para todo $c \in \mathbb{F}$, $v \in V$
@@ -38,7 +38,7 @@ $$I: V \to V, \quad I(v) = v$$
 
 **3. Multiplicación por [matriz](../../../glossary.md#matriz)**
 $$T: \mathbb{R}^n \to \mathbb{R}^m, \quad T(x) = Ax$$
-donde $A$ es matriz $m \times n$.
+donde $A$ es [matriz](../../../glossary.md#matriz) $m \times n$.
 
 **4. Derivación**
 $$D: P_n \to P_{n-1}, \quad D(p(x)) = p'(x)$$
@@ -60,9 +60,9 @@ Para verificar que $T$ es lineal:
 
 ### Determinación por una Base
 
-> **Teorema Fundamental:** Una transformación lineal $T: V \to W$ queda completamente determinada por sus valores en una [base](../../../glossary.md#base) de $V$.
+> **Teorema Fundamental:** Una [transformación lineal](../../../glossary.md#transformacion-lineal) $T: V \to W$ queda completamente determinada por sus valores en una [base](../../../glossary.md#base) de $V$.
 
-Si $\mathcal{B} = \{v_1, ..., v_n\}$ es base de $V$ y conocemos $T(v_1), ..., T(v_n)$, entonces para cualquier $v = c_1v_1 + ... + c_nv_n$:
+Si $\mathcal{B} = \{v_1, ..., v_n\}$ es [base](../../../glossary.md#base) de $V$ y conocemos $T(v_1), ..., T(v_n)$, entonces para cualquier $v = c_1v_1 + ... + c_nv_n$:
 $$T(v) = c_1T(v_1) + ... + c_nT(v_n)$$
 
 ---
@@ -88,7 +88,7 @@ $$\ker(T) = \{v \in V : T(v) = \mathbf{0}_W\}$$
 La **imagen** de $T: V \to W$ es:
 $$\text{Im}(T) = \{T(v) : v \in V\} = \{w \in W : \exists v \in V, T(v) = w\}$$
 
-> **Teorema:** $\text{Im}(T)$ es subespacio de $W$.
+> **Teorema:** $\text{Im}(T)$ es [subespacio](../../../glossary.md#subespacio) de $W$.
 
 Si $\{v_1, ..., v_n\}$ es base de $V$:
 $$\text{Im}(T) = \text{span}\{T(v_1), ..., T(v_n)\}$$
@@ -97,7 +97,7 @@ $$\text{Im}(T) = \text{span}\{T(v_1), ..., T(v_n)\}$$
 
 ### Teorema del Rango-Nulidad
 
-> **Teorema:** Si $T: V \to W$ es lineal y $V$ tiene [dimensión](../../../glossary.md#dimensión) finita:
+> **Teorema:** Si $T: V \to W$ es lineal y $V$ tiene [dimensión](../../../glossary.md#dimension) finita:
 > $$\dim(V) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
 > Es decir: $n = \text{nul}(T) + \text{rango}(T)$
 
@@ -130,7 +130,7 @@ Es decir, la columna $j$ es el [vector](../../../glossary.md#vector) de coordena
 
 $$[T(v)]_{\mathcal{C}} = [T]_{\mathcal{B}}^{\mathcal{C}} \cdot [v]_{\mathcal{B}}$$
 
-Esto permite calcular la imagen de cualquier vector usando multiplicación matricial.
+Esto permite calcular la imagen de cualquier [vector](../../../glossary.md#vector) usando multiplicación matricial.
 
 ### Caso de Bases Estándar
 
@@ -165,11 +165,11 @@ Si $T: U \to V$ y $S: V \to W$ son lineales, entonces $S \circ T: U \to W$ es li
 
 $$[S \circ T]_{\mathcal{B}}^{\mathcal{D}} = [S]_{\mathcal{C}}^{\mathcal{D}} \cdot [T]_{\mathcal{B}}^{\mathcal{C}}$$
 
-**Nota:** El [orden](../../../glossary.md#orden) de multiplicación es inverso al de [composición](../../../glossary.md#composición).
+**Nota:** El [orden](../../../glossary.md#orden) de multiplicación es inverso al de [composición](../../../glossary.md#composicion).
 
 ### Transformación Inversa
 
-Si $T: V \to W$ es biyectiva, existe $T^{-1}: W \to V$ tal que:
+Si $T: V \to W$ es biyectiva, existe $T^{-1}: W \to V$ [tal que](../../../glossary.md#tal-que):
 - $T^{-1} \circ T = I_V$
 - $T \circ T^{-1} = I_W$
 
@@ -181,16 +181,16 @@ $$[T^{-1}]_{\mathcal{C}}^{\mathcal{B}} = \left([T]_{\mathcal{B}}^{\mathcal{C}}\r
 
 Una transformación lineal biyectiva se llama **[isomorfismo](../../../glossary.md#isomorfismo)**.
 
-Si existe un isomorfismo $T: V \to W$, decimos que $V$ y $W$ son **isomorfos**: $V \cong W$.
+Si existe un [isomorfismo](../../../glossary.md#isomorfismo) $T: V \to W$, decimos que $V$ y $W$ son **isomorfos**: $V \cong W$.
 
-> **Teorema:** Dos espacios vectoriales de dimensión finita son isomorfos si y solo si tienen la misma dimensión.
+> **Teorema:** Dos [espacios vectoriales](../../../glossary.md#espacios-vectoriales) de [dimensión](../../../glossary.md#dimension) finita son isomorfos si y solo si tienen la misma dimensión.
 > $$V \cong W \Leftrightarrow \dim(V) = \dim(W)$$
 
 ### Automorfismos
 
 Un isomorfismo de $V$ en sí mismo se llama **automorfismo**.
 
-El conjunto de automorfismos de $V$ forma un grupo bajo composición: $\text{GL}(V)$.
+El conjunto de automorfismos de $V$ forma un grupo bajo [composición](../../../glossary.md#composicion): $\text{GL}(V)$.
 
 ---
 
@@ -218,11 +218,11 @@ Las siguientes propiedades son iguales para matrices similares:
 - [Traza](../../../glossary.md#traza): $\text{tr}(A) = \text{tr}(B)$
 - Rango: $\text{rango}(A) = \text{rango}(B)$
 - Valores propios
-- [Polinomio característico](../../../glossary.md#polinomio-característico)
+- [Polinomio característico](../../../glossary.md#polinomio-caracteristico)
 
 ### Diagonalización (Adelanto)
 
-Encontrar una base $\mathcal{B}'$ tal que $[T]_{\mathcal{B}'}$ sea diagonal es el problema de **[diagonalización](../../../glossary.md#diagonalización)**, que se estudia con [valores y vectores propios](../../../glossary.md#valores-y-vectores-propios).
+Encontrar una base $\mathcal{B}'$ tal que $[T]_{\mathcal{B}'}$ sea diagonal es el problema de **[diagonalización](../../../glossary.md#diagonalizacion)**, que se estudia con [valores y vectores propios](../../../glossary.md#valores-y-vectores-propios).
 
 ### Diagrama Conmutativo
 

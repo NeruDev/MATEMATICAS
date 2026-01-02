@@ -68,7 +68,7 @@ Esta integral doble se extiende sobre el primer cuadrante del plano $xy$.
 
 ### Paso 3: Cambiar a coordenadas polares
 
-**[Sustitución](../../../../glossary.md#sustitución):**
+**[Sustitución](../../../../glossary.md#sustitucion):**
 - $x^2 + y^2 = r^2$
 - $dx \, dy = r \, dr \, d\theta$
 
@@ -98,11 +98,11 @@ $$\int_0^{\pi/2} d\theta = \left[ \theta \right]_0^{\pi/2} = \frac{\pi}{2} - 0 =
 
 ### Paso 6: Evaluar la integral radial
 
-Para $\int_0^{\infty} r \, e^{-r^2} \, dr$, usamos sustitución:
+Para $\int_0^{\infty} r \, e^{-r^2} \, dr$, usamos [sustitución](../../../../glossary.md#sustitucion):
 
 Sea $u = r^2$, entonces $du = 2r \, dr$, por lo tanto $r \, dr = \frac{1}{2} du$
 
-**Cambio de [límites](../../../../glossary.md#límites):**
+**Cambio de [límites](../../../../glossary.md#limites):**
 - Cuando $r = 0$: $u = 0$
 - Cuando $r \to \infty$: $u \to \infty$
 
@@ -151,11 +151,11 @@ $$\boxed{\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}}$$
 El valor numérico es:
 $$\frac{\sqrt{\pi}}{2} \approx \frac{1.7724...}{2} \approx 0.8862...$$
 
-Esto coincide con tablas de la [función](../../../../glossary.md#función) error y valores computados numéricamente.
+Esto coincide con tablas de la [función](../../../../glossary.md#funcion) error y valores computados numéricamente.
 
 ---
 
-**Relación con la función error:**
+**Relación con la [función](../../../../glossary.md#funcion) error:**
 
 La función error se define como:
 $$\text{erf}(x) = \frac{2}{\sqrt{\pi}} \int_0^x e^{-t^2} \, dt$$
@@ -165,7 +165,7 @@ $$\text{erf}(\infty) = \frac{2}{\sqrt{\pi}} \cdot \frac{\sqrt{\pi}}{2} = 1 \quad
 
 ---
 
-**[Generalización](../../../../glossary.md#generalización) (Integral Gaussiana general):**
+**[Generalización](../../../../glossary.md#generalizacion) (Integral Gaussiana general):**
 
 Para $a > 0$:
 $$\int_0^{\infty} e^{-ax^2} \, dx = \frac{1}{2}\sqrt{\frac{\pi}{a}}$$

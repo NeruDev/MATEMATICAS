@@ -21,7 +21,7 @@ last_updated: 2024-12-29
 - Método estándar y sistemático
 
 ### Objetivo
-Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../../glossary.md#sustitución) hacia atrás**.
+Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../../glossary.md#sustitucion) hacia atrás**.
 
 ### Algoritmo de Resolución
 
@@ -31,14 +31,14 @@ Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[
 | 2 | Encontrar pivote | Primer elemento no nulo en columna |
 | 3 | Hacer ceros debajo del pivote | $R_i - \frac{a_{i1}}{a_{11}}R_1 \to R_i$ |
 | 4 | Repetir para cada columna | Avanzar a la siguiente columna |
-| 5 | Sustitución hacia atrás | Resolver desde la última ecuación |
+| 5 | [Sustitución](../../../glossary.md#sustitucion) hacia atrás | Resolver desde la última ecuación |
 
 ### Ejemplo Detallado
 
 **Problema:** Resolver el sistema:
 $$\begin{cases} x + 2y + z = 9 \\ 2x + 5y + 3z = 22 \\ 3x + 6y + 4z = 28 \end{cases}$$
 
-**Paso 1:** Escribimos la matriz aumentada:
+**Paso 1:** Escribimos la [matriz](../../../glossary.md#matriz) aumentada:
 $$\left(\begin{array}{ccc|c} 1 & 2 & 1 & 9 \\ 2 & 5 & 3 & 22 \\ 3 & 6 & 4 & 28 \end{array}\right)$$
 
 **Paso 2:** Hacemos ceros en la columna 1 debajo del pivote:
@@ -170,7 +170,7 @@ $$\left(\begin{array}{ccc|c} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 3 \en
 | 3 | Identificar variables libres | Columnas sin pivote |
 | 4 | Asignar parámetros | A cada variable libre |
 | 5 | Despejar variables básicas | En términos de parámetros |
-| 6 | Escribir solución vectorial | [Solución particular](../../../glossary.md#solución-particular) + combinación de vectores |
+| 6 | Escribir solución vectorial | [Solución particular](../../../glossary.md#solucion-particular) + combinación de vectores |
 
 ### Ejemplo Detallado
 
@@ -211,7 +211,7 @@ $$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix
 
 ### Cuándo Usar
 - Sistema con todos los términos independientes iguales a cero
-- Encontrar el [núcleo (kernel)](../../../glossary.md#núcleo-kernel) de una matriz
+- Encontrar el [núcleo (kernel)](../../../glossary.md#nucleo-kernel) de una matriz
 
 ### Propiedades
 - **Siempre** tiene la solución [trivial](../../../glossary.md#trivial) $x = 0$
@@ -246,7 +246,7 @@ $$x_1 = -2t, \quad x_3 = 0$$
 **Resultado:** El espacio solución es:
 $$\boxed{\ker(A) = \text{span}\left\{\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix}\right\}}$$
 
-[Dimensión](../../../glossary.md#dimensión) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
+[Dimensión](../../../glossary.md#dimension) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
 
 ---
 
@@ -294,7 +294,7 @@ $$\boxed{x = 1, \quad y = 3}$$
 ### Fórmula
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
-donde $A_i$ tiene la columna $i$ reemplazada por el vector $b$.
+donde $A_i$ tiene la columna $i$ reemplazada por el [vector](../../../glossary.md#vector) $b$.
 
 *Ver Método 7 de [Determinantes](../../../glossary.md#determinantes) para ejemplo detallado.*
 
@@ -321,7 +321,7 @@ Descomponer $A = LU$ donde:
 
 ### Ejemplo Detallado
 
-**Problema:** Factorizar y resolver:
+**Problema:** [Factorizar](../../../glossary.md#factorizar) y resolver:
 $$\begin{cases} 2x + y + z = 1 \\ 4x + 3y + 3z = 1 \\ 8x + 7y + 9z = 5 \end{cases}$$
 
 **Paso 1:** Eliminación guardando multiplicadores:
@@ -363,7 +363,7 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 
 | Paso | Acción |
 |------|--------|
-| 1 | Calcular $\det(A)$ en [función](../../../glossary.md#función) del parámetro |
+| 1 | Calcular $\det(A)$ en [función](../../../glossary.md#funcion) del parámetro |
 | 2 | Encontrar valores críticos donde $\det = 0$ |
 | 3 | Analizar cada caso por separado |
 

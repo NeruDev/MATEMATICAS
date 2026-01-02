@@ -2,7 +2,7 @@
 ::METADATA::
 type: index
 topic_id: al-02-[determinantes](../../glossary.md#determinantes)
-file_id: AL-02-Determinantes-Intro
+file_id: AL-02-[Determinantes](../../glossary.md#determinantes)-Intro
 status: stable
 audience: student
 -->

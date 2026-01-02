@@ -41,15 +41,15 @@ Las [transformaciones lineales](../../glossary.md#transformaciones-lineales) son
 ### Secuencia recomendada
 
 1. **Definición** (1.5h): Propiedades de [linealidad](../../glossary.md#linealidad) y verificación
-2. **Núcleo e imagen** (2h): Cálculo y teorema de la [dimensión](../../glossary.md#dimensión)
+2. **Núcleo e imagen** (2h): Cálculo y teorema de la [dimensión](../../glossary.md#dimension)
 3. **Representación matricial** (2h): Construir matrices asociadas
-4. **Operaciones** (1.5h): [Composición](../../glossary.md#composición), inversa e isomorfismos
+4. **Operaciones** (1.5h): [Composición](../../glossary.md#composicion), inversa e isomorfismos
 5. **Cambio de [base](../../glossary.md#base)** (1.5h): Matrices similares y diagramas conmutativos
 
 ## Prerequisitos
 
 - [01-Matrices](../01-Matrices/AL-01-Matrices-Intro.md): Operaciones matriciales
-- [04-Espacios-Vectoriales](../04-Espacios-Vectoriales/AL-04-Espacios-Vectoriales-Intro.md): Bases y dimensión
+- [04-Espacios-Vectoriales](../04-Espacios-Vectoriales/AL-04-Espacios-Vectoriales-Intro.md): Bases y [dimensión](../../glossary.md#dimension)
 
 ## Conexiones
 

@@ -34,7 +34,7 @@ $$2y\frac{dy}{dx} = -2x$$
 
 $$\frac{dy}{dx} = -\frac{x}{y}$$
 
-> **Primera derivada:** $\boxed{y' = -\dfrac{x}{y}}$ (válida para $y \neq 0$)
+> **Primera [derivada](../../../../glossary.md#derivada):** $\boxed{y' = -\dfrac{x}{y}}$ (válida para $y \neq 0$)
 
 ---
 
@@ -149,7 +149,7 @@ $$\kappa = \frac{\left|\frac{-1}{y^3}\right|}{\left(1 + \frac{x^2}{y^2}\right)^{
 
 ## Notas adicionales
 
-> **[Dominio](../../../../glossary.md#dominio):** Las derivadas están definidas para $y \neq 0$, es decir, en todos los puntos del círculo excepto $(\pm 1, 0)$.
+> **[Dominio](../../../../glossary.md#dominio):** Las [derivadas](../../../../glossary.md#derivadas) están definidas para $y \neq 0$, es decir, en todos los puntos del círculo excepto $(\pm 1, 0)$.
 
 > **Signo de y'':** 
 > - Si $y > 0$ (semicírculo superior): $y'' < 0$ → cóncava hacia abajo

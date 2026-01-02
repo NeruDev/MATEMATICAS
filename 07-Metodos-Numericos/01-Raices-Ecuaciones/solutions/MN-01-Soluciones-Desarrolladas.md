@@ -137,7 +137,7 @@ $$\boxed{g_2(x) = (x+1)^{1/3} \text{ converge}}$$
 
 ## Solución Problema 17 (Newton para $x^2 - a$)
 
-**Demostrar la fórmula y verificar convergencia cuadrática**
+**Demostrar la fórmula y verificar [convergencia](../../../glossary.md#convergencia) cuadrática**
 
 $f(x) = x^2 - a$, $f'(x) = 2x$
 
@@ -214,7 +214,7 @@ Para $x_n$ cerca de $x^*$: $f'(x_n) \approx f'(x^*)$
 
 $$e_{n+1} \approx e_n - e_n - \frac{f''(\xi_n)}{2f'(x^*)}e_n^2 = -\frac{f''(\xi_n)}{2f'(x^*)}e_n^2$$
 
-Tomando [límite](../../../glossary.md#límite):
+Tomando [límite](../../../glossary.md#limite):
 $$\boxed{\lim_{n\to\infty}\frac{|e_{n+1}|}{|e_n|^2} = \frac{|f''(x^*)|}{2|f'(x^*)|}}$$
 
 Esto confirma **[orden de convergencia](../../../glossary.md#orden-de-convergencia) $p = 2$** (cuadrática).

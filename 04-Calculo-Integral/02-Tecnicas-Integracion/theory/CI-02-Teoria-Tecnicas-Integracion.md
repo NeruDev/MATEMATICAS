@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría de [técnicas de integración](../../../glossary.md#técnicas-de-integración).
+Teoría de [técnicas de integración](../../../glossary.md#tecnicas-de-integracion).
 
 IA:
 Desarrolla cada técnica con ejemplos.
@@ -20,7 +20,7 @@ audience: self-study
 ## 2.1 Sustitución (Cambio de Variable)
 
 ### Teorema Fundamental
-Si $u = g(x)$ es una [función](../../../glossary.md#función) diferenciable y $f$ es continua en el rango de $g$, entonces:
+Si $u = g(x)$ es una [función](../../../glossary.md#funcion) diferenciable y $f$ es continua en el rango de $g$, entonces:
 
 $$\boxed{\int f(g(x)) \cdot g'(x) \, dx = \int f(u) \, du}$$
 
@@ -108,7 +108,7 @@ $$\int \sec x \, dx = \ln\lvert\sec x + \tan x\rvert + C$$
 
 ### Tabla de Sustituciones
 
-| Expresión | [Sustitución](../../../glossary.md#sustitución) | Diferencial | Identidad |
+| Expresión | [Sustitución](../../../glossary.md#sustitucion) | Diferencial | Identidad |
 |-----------|-------------|-------------|-----------|
 | $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ | $dx = a\cos\theta \, d\theta$ | $a^2 - a^2\sin^2\theta = a^2\cos^2\theta$ |
 | $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ | $dx = a\sec^2\theta \, d\theta$ | $a^2 + a^2\tan^2\theta = a^2\sec^2\theta$ |
@@ -198,13 +198,13 @@ $$= 2(u - \ln\lvert u+1\rvert) + C = 2\sqrt{x} - 2\ln(\sqrt{x}+1) + C$$
 
 1. **¿Es integral básica?** → Usar tabla de fórmulas
 
-2. **¿Hay [composición](../../../glossary.md#composición) de funciones?** → Intentar sustitución
+2. **¿Hay [composición](../../../glossary.md#composicion) de funciones?** → Intentar [sustitución](../../../glossary.md#sustitucion)
 
 3. **¿Es producto de funciones diferentes?** → Intentar partes
 
 4. **¿Hay funciones trigonométricas?**
    - Potencias → Identidades trigonométricas
-   - $\sqrt{a^2 \pm x^2}$ → [Sustitución trigonométrica](../../../glossary.md#sustitución-trigonométrica)
+   - $\sqrt{a^2 \pm x^2}$ → [Sustitución trigonométrica](../../../glossary.md#sustitucion-trigonometrica)
 
 5. **¿Es fracción racional?** → [Fracciones parciales](../../../glossary.md#fracciones-parciales)
 

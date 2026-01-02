@@ -41,7 +41,7 @@ $x = t^2 - 1$, $y = t^3 - t$
 
 **[Prob-07]** Para la curva $x = t - \sin t$, $y = 1 - \cos t$ (cicloide):
 a) Encuentra $\frac{dy}{dx}$
-b) Halla los puntos donde la tangente es horizontal
+b) Halla los puntos donde la [tangente](../../../glossary.md#tangente) es horizontal
 
 **[Prob-08]** Encuentra la ecuación de la recta tangente a $x = \cos^3 t$, $y = \sin^3 t$ en $t = \frac{\pi}{4}$.
 

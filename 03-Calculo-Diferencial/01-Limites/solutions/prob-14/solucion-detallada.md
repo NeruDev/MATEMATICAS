@@ -22,15 +22,15 @@ $$\lim_{x \to 5} \frac{x^2 - 25}{x - 5}$$
 
 **Paso 1: Verificar si hay [forma indeterminada](../../../../glossary.md#forma-indeterminada)**
 
-Intentamos [sustitución](../../../../glossary.md#sustitución) directa:
+Intentamos [sustitución](../../../../glossary.md#sustitucion) directa:
 $$f(5) = \frac{5^2 - 25}{5 - 5} = \frac{25 - 25}{0} = \frac{0}{0}$$
 
-Obtenemos la forma indeterminada $\frac{0}{0}$, lo que nos indica que:
-- El [límite](../../../../glossary.md#límite) **podría** existir (no está determinado aún)
+Obtenemos la [forma indeterminada](../../../../glossary.md#forma-indeterminada) $\frac{0}{0}$, lo que nos indica que:
+- El [límite](../../../../glossary.md#limite) **podría** existir (no está determinado aún)
 - Necesitamos técnicas algebraicas para resolverlo
 - Hay un factor común que se anula en ambos
 
-**Paso 2: [Factorización](../../../../glossary.md#factorización) del numerador**
+**Paso 2: [Factorización](../../../../glossary.md#factorizacion) del numerador**
 
 El numerador $x^2 - 25$ es una diferencia de cuadrados:
 $$x^2 - 25 = x^2 - 5^2 = (x - 5)(x + 5)$$
@@ -40,7 +40,7 @@ $$x^2 - 25 = x^2 - 5^2 = (x - 5)(x + 5)$$
 Sustituimos y simplificamos:
 $$\frac{x^2 - 25}{x - 5} = \frac{(x-5)(x+5)}{x-5}$$
 
-Como estamos evaluando el límite cuando $x \to 5$ (no en $x = 5$), tenemos $x \neq 5$, lo que nos permite cancelar:
+Como estamos evaluando el [límite](../../../../glossary.md#limite) cuando $x \to 5$ (no en $x = 5$), tenemos $x \neq 5$, lo que nos permite cancelar:
 $$= x + 5 \quad \text{para } x \neq 5$$
 
 **Paso 4: Evaluación del límite**
@@ -65,7 +65,7 @@ Los valores se aproximan a 10 desde ambos lados. ✓
 
 ### Método gráfico
 
-La [función](../../../../glossary.md#función) $f(x) = \frac{x^2-25}{x-5}$ tiene:
+La [función](../../../../glossary.md#funcion) $f(x) = \frac{x^2-25}{x-5}$ tiene:
 - Un "hueco" en $x = 5$ ([discontinuidad removible](../../../../glossary.md#discontinuidad-removible))
 - La gráfica es la recta $y = x + 5$ con un hueco en $(5, 10)$
 
@@ -73,7 +73,7 @@ La [función](../../../../glossary.md#función) $f(x) = \frac{x^2-25}{x-5}$ tien
 
 | Método | Resultado | Precisión |
 |--------|-----------|-----------|
-| Factorización | 10 | Exacto |
+| [Factorización](../../../../glossary.md#factorizacion) | 10 | Exacto |
 | Numérico | ≈ 10 | Aproximado |
 | Gráfico | 10 | Visual |
 

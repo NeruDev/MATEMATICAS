@@ -18,11 +18,11 @@ status: active
 | 2 | [Eigenvalores Complejos](#método-2-eigenvalores-complejos) | Sistemas oscilatorios | ⭐⭐⭐ |
 | 3 | [Eigenvalor Repetido](#método-3-eigenvalor-repetido) | Deficiencia algebraica | ⭐⭐⭐ |
 | 4 | [Sistema No Homogéneo](#método-4-sistema-no-homogéneo) | $\mathbf{X}' = A\mathbf{X} + \mathbf{F}(t)$ | ⭐⭐⭐ |
-| 5 | [Matriz Exponencial](#método-5-[matriz](../../../glossary.md#matriz)-exponencial) | [Solución general](../../../glossary.md#solución-general) elegante | ⭐⭐⭐⭐ |
-| 6 | [Desacoplamiento](#método-6-desacoplamiento-por-[diagonalización](../../../glossary.md#diagonalización)) | Sistemas diagonalizables | ⭐⭐⭐ |
+| 5 | [Matriz Exponencial](#método-5-[matriz](../../../glossary.md#matriz)-exponencial) | [Solución general](../../../glossary.md#solucion-general) elegante | ⭐⭐⭐⭐ |
+| 6 | [Desacoplamiento](#método-6-desacoplamiento-por-[diagonalización](../../../glossary.md#diagonalizacion)) | Sistemas diagonalizables | ⭐⭐⭐ |
 | 7 | [Clasificar Retrato de Fase](#método-7-clasificar-retrato-de-fase) | Análisis cualitativo | ⭐⭐ |
 | 8 | [PVI de Sistema](#método-8-resolver-pvi-de-sistema) | Con condiciones iniciales | ⭐⭐ |
-| 9 | [Sistemas $3\times 3$](#método-9-sistemas-3times-3) | Mayor [dimensión](../../../glossary.md#dimensión) | ⭐⭐⭐⭐ |
+| 9 | [Sistemas $3\times 3$](#método-9-sistemas-3times-3) | Mayor [dimensión](../../../glossary.md#dimension) | ⭐⭐⭐⭐ |
 | 10 | [Conversión [EDO](../../../glossary.md#edo)-Sistema](#método-10-conversión-edo-a-sistema) | EDO de [orden](../../../glossary.md#orden) superior | ⭐⭐ |
 
 ---
@@ -32,11 +32,11 @@ status: active
 ### Cuándo Usar
 
 - Sistema $\mathbf{X}' = A\mathbf{X}$ donde $A$ es $n \times n$
-- La matriz tiene $n$ eigenvalores reales distintos
+- La [matriz](../../../glossary.md#matriz) tiene $n$ eigenvalores reales distintos
 
 ### Fórmula
 
-**Solución general:**
+**[Solución general](../../../glossary.md#solucion-general):**
 $$\mathbf{X}(t) = C_1 e^{\lambda_1 t}\mathbf{v}_1 + C_2 e^{\lambda_2 t}\mathbf{v}_2 + \cdots + C_n e^{\lambda_n t}\mathbf{v}_n$$
 
 ### Algoritmo de Resolución
@@ -203,8 +203,8 @@ $$y(t) = C_1\cos 2t + C_2\sin 2t$$
 ### Cuándo Usar
 
 - Eigenvalor $\lambda$ con [multiplicidad algebraica](../../../glossary.md#multiplicidad-algebraica) $> 1$
-- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geométrica) = algebraica: caso simple
-- Si multiplicidad geométrica < algebraica: se necesitan vectores generalizados
+- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) = algebraica: caso simple
+- Si [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) < algebraica: se necesitan vectores generalizados
 
 ### Caso A: Dos Eigenvectores Independientes
 
@@ -261,9 +261,9 @@ $$\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
 
 **Paso 3: Verificar**
 
-Solo un eigenvector independiente (espacio propio de dimensión 1).
+Solo un eigenvector independiente (espacio propio de [dimensión](../../../glossary.md#dimension) 1).
 
-Se necesita vector generalizado.
+Se necesita [vector](../../../glossary.md#vector) generalizado.
 
 ---
 
@@ -312,7 +312,7 @@ $A\mathbf{X}_2 = \begin{pmatrix} 3 & 1 \\ -1 & 5 \end{pmatrix}e^{4t}\begin{pmatr
 
 ### Fórmula (Variación de Parámetros)
 
-**[Solución particular](../../../glossary.md#solución-particular):**
+**[Solución particular](../../../glossary.md#solucion-particular):**
 $$\mathbf{X}_p = \Phi(t)\int \Phi^{-1}(t)\mathbf{F}(t)\,dt$$
 
 donde $\Phi(t)$ es la **matriz fundamental** (columnas son soluciones independientes).
@@ -592,7 +592,7 @@ $$\boxed{\begin{cases} x = c_1 e^t + c_2 e^{3t} \\ y = -c_1 e^t + c_2 e^{3t} \en
 
 ---
 
-**Paso 1: Calcular traza y determinante**
+**Paso 1: Calcular [traza](../../../glossary.md#traza) y [determinante](../../../glossary.md#determinante)**
 
 $\tau = 1 + (-3) = -2$
 
@@ -687,7 +687,7 @@ $C_1 = 2 - \frac{5}{2} = -\frac{1}{2}$
 
 ---
 
-**Paso 5: Solución particular**
+**Paso 5: [Solución particular](../../../glossary.md#solucion-particular)**
 
 $$\boxed{\mathbf{X}(t) = -\frac{1}{2}e^{-t}\begin{pmatrix} 1 \\ -2 \end{pmatrix} + \frac{5}{2}e^{3t}\begin{pmatrix} 1 \\ 2 \end{pmatrix}}$$
 
@@ -766,14 +766,14 @@ $$\boxed{\mathbf{X}(t) = C_1 e^t\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix} + C_2 
 
 ### Cuándo Usar
 
-- Convertir una EDO de orden $n$ a sistema de primer orden
+- Convertir una [EDO](../../../glossary.md#edo) de [orden](../../../glossary.md#orden) $n$ a sistema de primer orden
 - Útil para aplicar métodos de sistemas
 
 ### Fórmula
 
 Para $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1y' + a_0y = f(t)$
 
-**[Sustitución](../../../glossary.md#sustitución):**
+**[Sustitución](../../../glossary.md#sustitucion):**
 $$x_1 = y, \quad x_2 = y', \quad \ldots, \quad x_n = y^{(n-1)}$$
 
 ### Algoritmo de Resolución

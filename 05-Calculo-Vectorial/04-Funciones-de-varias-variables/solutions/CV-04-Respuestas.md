@@ -66,7 +66,7 @@ solved_detailed: 3
 | [Prob-40] | $\approx 0.946$ (exacto: $1.02^2 \cdot 0.97^3 \approx 0.9509$) | ➖ |
 | [Prob-41] | $\Delta V \approx -\frac{500\pi}{3} \approx -523.6$ cm³ | ➖ |
 | **4.8 Extremos Locales** |||
-| [Prob-42] | [Punto crítico](../../../glossary.md#punto-crítico): $(1, 2)$; mínimo local | ➖ |
+| [Prob-42] | [Punto crítico](../../../glossary.md#punto-critico): $(1, 2)$; mínimo local | ➖ |
 | [Prob-43] | $(0, 0)$ punto silla; $(1, 1)$ mínimo local | [✅](prob-43/solucion-metodo.md) |
 | [Prob-44] | $(0, 0)$ punto silla (no hay extremos) | ➖ |
 | [Prob-45] | $(0, 0)$ punto silla; $(\frac{1}{3}, \frac{1}{3})$ máximo local | ➖ |

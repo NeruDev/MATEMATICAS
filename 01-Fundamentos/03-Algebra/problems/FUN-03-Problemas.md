@@ -4,7 +4,7 @@ type: problem_set
 topic_id: fun-03-algebra
 file_id: FUN-03-Problemas
 title: Problemas de Álgebra
-description: Colección de problemas de [álgebra fundamental](../../../glossary.md#álgebra-fundamental)
+description: Colección de problemas de [álgebra fundamental](../../../glossary.md#algebra-fundamental)
 total_problems: 108
 difficulty_distribution:
   basico: 40
@@ -149,7 +149,7 @@ Si $P(x) = x^3 - 6x^2 + 11x - 6$ y $P(1) = 0$, factoriza $P(x)$ completamente.
 ---
 
 ### [Prob-19] Construcción de polinomios ⭐⭐⭐
-Encuentra un polinomio de grado 3 con raíces $1, 2, 3$ y coeficiente principal 2.
+Encuentra un [polinomio](../../../glossary.md#polinomio) de grado 3 con raíces $1, 2, 3$ y coeficiente principal 2.
 
 > 📁 Solución: solutions/prob-19/
 
@@ -467,14 +467,14 @@ La edad de Ana es el doble de la de Juan. Hace 5 años, Ana tenía el triple de 
 ## 3.7 Ecuaciones Cuadráticas
 
 ### [Prob-63] Factorización directa ⭐
-Resuelve por [factorización](../../../glossary.md#factorización): $x^2 - 5x + 6 = 0$.
+Resuelve por [factorización](../../../glossary.md#factorizacion): $x^2 - 5x + 6 = 0$.
 
 > 📁 Solución: solutions/prob-63/
 
 ---
 
 ### [Prob-64] Factorización con coeficiente principal ⭐⭐
-Resuelve por factorización: $2x^2 + x - 6 = 0$.
+Resuelve por [factorización](../../../glossary.md#factorizacion): $2x^2 + x - 6 = 0$.
 
 > 📁 Solución: solutions/prob-64/
 
@@ -539,7 +539,7 @@ Resuelve: $x^4 - 5x^2 + 4 = 0$.
 ## 3.8 Sistemas de Ecuaciones
 
 ### [Prob-73] Método de sustitución ⭐
-Resuelve por [sustitución](../../../glossary.md#sustitución):
+Resuelve por [sustitución](../../../glossary.md#sustitucion):
 $$\begin{cases} x + y = 10 \\ 2x - y = 5 \end{cases}$$
 
 > 📁 Solución: solutions/prob-73/

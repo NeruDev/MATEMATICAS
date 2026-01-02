@@ -3,7 +3,7 @@
 content_type: problem_set
 topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
 file_id: CD-03-Problemas
-title: Problemas de Aplicaciones de la Derivada
+title: Problemas de Aplicaciones de la [Derivada](../../../glossary.md#derivada)
 description: Colección de problemas sobre rectas tangentes, razones relacionadas, extremos, optimización, aproximaciones y análisis de funciones
 audience: self-study
 difficulty_levels: [básico, intermedio, avanzado]
@@ -32,7 +32,7 @@ Encuentra la ecuación de la recta normal a $y = \sqrt{x}$ en $x = 4$.
 ---
 
 ### [Prob-03] Tangentes horizontales ⭐⭐
-Encuentra los puntos de $y = x^3 - 3x + 1$ donde la tangente es horizontal.
+Encuentra los puntos de $y = x^3 - 3x + 1$ donde la [tangente](../../../glossary.md#tangente) es horizontal.
 
 📁 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
 
@@ -69,7 +69,7 @@ Una escalera de 5 m está apoyada contra una pared. Si la [base](../../../glossa
 ---
 
 ### [Prob-08] Cono de arena ⭐⭐
-Un cono de arena tiene altura igual al radio de la base. Si la arena cae a razón de 2 m³/min, ¿qué tan rápido aumenta la altura cuando $h = 4$ m?
+Un cono de arena tiene altura igual al radio de la [base](../../../glossary.md#base). Si la arena cae a razón de 2 m³/min, ¿qué tan rápido aumenta la altura cuando $h = 4$ m?
 
 📁 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
 

@@ -14,7 +14,7 @@ total_problems: 80
 
 # Problemas de Teoremas Fundamentales
 
-Colección de problemas sobre los teoremas fundamentales del [cálculo diferencial](../../../glossary.md#cálculo-diferencial).
+Colección de problemas sobre los teoremas fundamentales del [cálculo diferencial](../../../glossary.md#calculo-diferencial).
 
 **Niveles de dificultad:**
 - ⭐ Básico
@@ -35,7 +35,7 @@ Verificar que $f(x) = x^2 - 4x + 3$ cumple las hipótesis de Rolle en $[1, 3]$ y
 
 ### [Prob-02] Análisis de valor absoluto en Rolle ⭐
 
-¿La [función](../../../glossary.md#función) $f(x) = \lvert x \rvert$ cumple el teorema de Rolle en $[-1, 1]$? Justificar.
+¿La [función](../../../glossary.md#funcion) $f(x) = \lvert x \rvert$ cumple el teorema de Rolle en $[-1, 1]$? Justificar.
 
 > 📎 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
 

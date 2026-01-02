@@ -58,7 +58,7 @@ $$x^2 + y^2 = \cos^2 t + \sin^2 t = 1$$
 
 ### Cuándo Usar
 - Encontrar la pendiente de la recta [tangente](../../../glossary.md#tangente) en un punto
-- Analizar puntos donde la tangente es horizontal o vertical
+- Analizar puntos donde la [tangente](../../../glossary.md#tangente) es horizontal o vertical
 
 ### Fórmula
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{y'(t)}{x'(t)}$$
@@ -156,7 +156,7 @@ $$L = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2
 | 2 | Calcular $\frac{dy}{dt}$ | Derivar $y(t)$ |
 | 3 | Elevar al cuadrado y sumar | $\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2$ |
 | 4 | Sacar raíz cuadrada | $\sqrt{\text{suma}}$ |
-| 5 | Integrar de $a$ a $b$ | [Límites](../../../glossary.md#límites) del parámetro |
+| 5 | Integrar de $a$ a $b$ | [Límites](../../../glossary.md#limites) del parámetro |
 
 ### Ejemplo Detallado
 
@@ -266,7 +266,7 @@ $$A = \frac{1}{2}\int_\alpha^\beta [r(\theta)]^2\, d\theta$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Graficar la curva | Identificar la región |
-| 2 | Determinar límites $\alpha$ y $\beta$ | Ángulos que delimitan |
+| 2 | Determinar [límites](../../../glossary.md#limites) $\alpha$ y $\beta$ | Ángulos que delimitan |
 | 3 | Elevar $r$ al cuadrado | $[r(\theta)]^2$ |
 | 4 | Integrar con factor $\frac{1}{2}$ | Aplicar la fórmula |
 

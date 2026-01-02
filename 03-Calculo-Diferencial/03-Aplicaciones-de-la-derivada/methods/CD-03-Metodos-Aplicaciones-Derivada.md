@@ -18,7 +18,7 @@ status: active
 
 | Tipo | Ecuación |
 |------|----------|
-| Recta Tangente | $y - y_0 = f'(x_0)(x - x_0)$ |
+| Recta [Tangente](../../../glossary.md#tangente) | $y - y_0 = f'(x_0)(x - x_0)$ |
 | Recta Normal | $y - y_0 = -\frac{1}{f'(x_0)}(x - x_0)$ |
 
 ### Algoritmo de Resolución
@@ -26,7 +26,7 @@ status: active
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Calcular $y_0$ | $y_0 = f(x_0)$ |
-| 2 | Calcular la derivada | $f'(x)$ |
+| 2 | Calcular la [derivada](../../../glossary.md#derivada) | $f'(x)$ |
 | 3 | Evaluar la pendiente | $m = f'(x_0)$ |
 | 4 | Escribir la ecuación | Usar punto-pendiente |
 
@@ -199,7 +199,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 
 ## Método 4: Criterio de la Primera Derivada
 
-**Cuándo Usar:** Para determinar si un [punto crítico](../../../glossary.md#punto-crítico) es máximo local, mínimo local, o ninguno.
+**Cuándo Usar:** Para determinar si un [punto crítico](../../../glossary.md#punto-critico) es máximo local, mínimo local, o ninguno.
 
 ### Algoritmo de Resolución
 
@@ -216,7 +216,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 |------------------------|------------|
 | $+ \to -$ | Máximo local |
 | $- \to +$ | Mínimo local |
-| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../../glossary.md#punto-de-inflexión) (no extremo) |
+| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../../glossary.md#punto-de-inflexion) (no extremo) |
 
 ### Ejemplo Detallado
 
@@ -244,7 +244,7 @@ $$4x^2(x - 3) = 0 \Rightarrow x = 0, \quad x = 3$$
 **Paso 3: Clasificar**
 
 - En $x = 0$: No hay cambio de signo ($- \to -$)
-  - **No es extremo** (punto de inflexión horizontal)
+  - **No es extremo** ([punto de inflexión](../../../glossary.md#punto-de-inflexion) horizontal)
   
 - En $x = 3$: Cambio $- \to +$
   - **Mínimo local** en $x = 3$
@@ -281,7 +281,7 @@ $$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
 
 ---
 
-**Paso 1: Calcular derivadas**
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas)**
 
 $$f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$$
 $$f''(x) = 6x - 12$$
@@ -321,7 +321,7 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 |------|--------|---------|
 | 1 | Identificar objetivo | ¿Qué maximizar/minimizar? |
 | 2 | Definir variables | Asignar símbolos |
-| 3 | Escribir [función](../../../glossary.md#función) objetivo | En términos de las variables |
+| 3 | Escribir [función](../../../glossary.md#funcion) objetivo | En términos de las variables |
 | 4 | Escribir restricciones | Ecuaciones que limitan las variables |
 | 5 | Reducir a una variable | Usar restricciones para eliminar |
 | 6 | Derivar y resolver | $f'(x) = 0$ |
@@ -340,7 +340,7 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 
 ---
 
-**Paso 3: Función objetivo (área)**
+**Paso 3: [Función](../../../glossary.md#funcion) objetivo (área)**
 
 $$A = xy$$
 
@@ -389,7 +389,7 @@ $$\boxed{A_{max} = 100 \times 200 = 20,000 \text{ m}^2}$$
 
 ---
 
-**Variables:** Base $x \times x$, altura $h$
+**Variables:** [Base](../../../glossary.md#base) $x \times x$, altura $h$
 
 **Objetivo:** Minimizar superficie $S = x^2 + 4xh$
 
@@ -563,7 +563,7 @@ $$\boxed{\text{Error relativo} \approx 1.5\%}$$
 
 ---
 
-**1. Dominio:**
+**1. [Dominio](../../../glossary.md#dominio):**
 $$x^2 - 1 \neq 0 \Rightarrow x \neq \pm 1$$
 $$D = (-\infty, -1) \cup (-1, 1) \cup (1, \infty)$$
 
@@ -603,7 +603,7 @@ $f'(x) = 0 \Rightarrow x = 0$
 
 ---
 
-**7-8. Segunda derivada y concavidad:**
+**7-8. Segunda derivada y [concavidad](../../../glossary.md#concavidad):**
 $$f''(x) = \frac{2(3x^2 + 1)}{(x^2-1)^3}$$
 
 | Intervalo | Signo $f''$ | Concavidad |
@@ -620,7 +620,7 @@ $$\boxed{\text{Ver gráfica con AV: } x = \pm 1, \text{ AH: } y = 1, \text{ Máx
 
 ## Método 10: Método de Newton-Raphson
 
-**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../../glossary.md#raíces-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
+**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
 
 ### Fórmula Iterativa
 
@@ -634,7 +634,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 | 2 | Calcular $f(x_n)$ y $f'(x_n)$ | En el punto actual |
 | 3 | Aplicar fórmula | Obtener $x_{n+1}$ |
 | 4 | Verificar [convergencia](../../../glossary.md#convergencia) | Si $\vert x_{n+1} - x_n\vert < \epsilon$ |
-| 5 | Repetir | Hasta convergencia |
+| 5 | Repetir | Hasta [convergencia](../../../glossary.md#convergencia) |
 
 ### Ejemplo Detallado
 

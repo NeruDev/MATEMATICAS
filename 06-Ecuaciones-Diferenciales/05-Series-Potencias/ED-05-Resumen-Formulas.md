@@ -161,7 +161,7 @@ $$\left(\sum a_n x^n\right)\left(\sum b_n x^n\right) = \sum_{n=0}^{\infty}\left(
 ---
 
 <!--
-IA: Hoja de referencia rápida para Series de Potencias en EDO.
+IA: Hoja de referencia rápida para Series de Potencias en [EDO](../../glossary.md#edo).
 Para desarrollo completo: theory/ED-05-Teoria-Series-EDO.md
 file_id: ED-05-Resumen-Formulas
 -->

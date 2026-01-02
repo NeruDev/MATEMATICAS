@@ -171,7 +171,7 @@ c) $F(s) = \frac{2s-3}{s^2-6s+13}$
 
 ### [Prob-11] PVI de primer orden ⭐⭐
 
-Resolver usando transformada de Laplace:
+Resolver usando [transformada de Laplace](../../../glossary.md#transformada-de-laplace):
 
 a) $y' + 2y = 0$, $y(0) = 3$
 
@@ -227,7 +227,7 @@ b) $y''' - y' = 0$, $y(0) = 0$, $y'(0) = 1$, $y''(0) = 0$
 
 ### [Prob-15] Expresión con función escalón ⭐⭐
 
-Escribir usando la [función](../../../glossary.md#función) escalón unitario:
+Escribir usando la [función](../../../glossary.md#funcion) escalón unitario:
 
 a) $f(t) = \begin{cases} 0, & t < 3 \\ 2, & t \geq 3 \end{cases}$
 
@@ -289,7 +289,7 @@ c) $y'' + 2y' + y = \delta(t)$, $y(0) = 0$, $y'(0) = 0$
 
 ### [Prob-19] Transformada inversa por convolución ⭐⭐⭐
 
-Calcular usando [convolución](../../../glossary.md#convolución):
+Calcular usando [convolución](../../../glossary.md#convolucion):
 
 a) $\mathcal{L}^{-1}\left\{\frac{1}{s^2(s-1)}\right\}$
 
@@ -301,7 +301,7 @@ b) $\mathcal{L}^{-1}\left\{\frac{1}{(s-1)(s-2)}\right\}$
 
 ### [Prob-20] Teorema de convolución ⭐⭐⭐
 
-Usar el teorema de convolución para resolver:
+Usar el teorema de [convolución](../../../glossary.md#convolucion) para resolver:
 
 $y'' + y = f(t)$, $y(0) = 0$, $y'(0) = 0$
 

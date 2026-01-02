@@ -44,7 +44,7 @@ Como $p$ es par, sus divisores incluyen:
 
 ### Paso 4: Encontrar la contradicción
 
-Por definición, un [número primo](../../../../glossary.md#número-primo) tiene **exactamente dos divisores**: 1 y él mismo.
+Por definición, un [número primo](../../../../glossary.md#numero-primo) tiene **exactamente dos divisores**: 1 y él mismo.
 
 Si $p > 2$ y $p$ es par, entonces:
 - $1$ divide a $p$

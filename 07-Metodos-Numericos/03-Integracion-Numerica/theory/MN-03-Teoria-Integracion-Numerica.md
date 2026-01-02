@@ -13,7 +13,7 @@ status: active
 ### 1.1 Motivación
 
 Muchas integrales no tienen [antiderivada](../../../glossary.md#antiderivada) elemental:
-- $\int e^{-x^2} dx$ ([función](../../../glossary.md#función) de error)
+- $\int e^{-x^2} dx$ ([función](../../../glossary.md#funcion) de error)
 - $\int \frac{\sin(x)}{x} dx$ ([seno](../../../glossary.md#seno) integral)
 - $\int \sqrt{1 + \cos^2(x)} dx$ (longitud de elipse)
 
@@ -39,7 +39,7 @@ $$\int_a^b f(x)\,dx \approx \int_a^b P_n(x)\,dx$$
 
 ### 2.2 Regla del Trapecio (n = 1)
 
-[Interpolación](../../../glossary.md#interpolación) lineal entre $(a, f(a))$ y $(b, f(b))$:
+[Interpolación](../../../glossary.md#interpolacion) lineal entre $(a, f(a))$ y $(b, f(b))$:
 
 $$\int_a^b f(x)\,dx \approx \frac{h}{2}[f(a) + f(b)]$$
 
@@ -50,7 +50,7 @@ $$E = -\frac{h^3}{12}f''(\xi), \quad \xi \in (a, b)$$
 
 ### 2.3 Regla de Simpson 1/3 (n = 2)
 
-Interpolación cuadrática por 3 puntos: $a$, $\frac{a+b}{2}$, $b$
+[Interpolación](../../../glossary.md#interpolacion) cuadrática por 3 puntos: $a$, $\frac{a+b}{2}$, $b$
 
 $$\int_a^b f(x)\,dx \approx \frac{h}{3}[f(a) + 4f(\frac{a+b}{2}) + f(b)]$$
 
@@ -147,7 +147,7 @@ Para $\int_{-1}^{1} f(x)\,dx$:
 
 $$\int_{-1}^{1} f(x)\,dx \approx \sum_{i=1}^{n} w_i f(x_i)$$
 
-Los nodos $x_i$ son las raíces del polinomio de Legendre $P_n(x)$.
+Los nodos $x_i$ son las raíces del [polinomio](../../../glossary.md#polinomio) de Legendre $P_n(x)$.
 
 **Tabla de nodos y pesos:**
 
@@ -173,7 +173,7 @@ $$E = \frac{2^{2n+1}(n!)^4}{(2n+1)[(2n)!]^3}f^{(2n)}(\xi)$$
 
 ### 6.1 Comparación de Órdenes
 
-| Método | Orden local | Orden global |
+| Método | [Orden](../../../glossary.md#orden) local | Orden global |
 |--------|-------------|--------------|
 | Trapecio | $O(h^3)$ | $O(h^2)$ |
 | Simpson | $O(h^5)$ | $O(h^4)$ |

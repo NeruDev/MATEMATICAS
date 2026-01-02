@@ -51,7 +51,7 @@ $$\frac{d}{dx}\int_0^{x^2} \cos t \, dt = \cos(x^2) \cdot \frac{d}{dx}(x^2) = \c
 **Enunciado:** Hallar $\displaystyle\frac{d}{dx}\int_{\sqrt{x}}^{x} t^3 \, dt$
 
 **Solución:**
-Aplicamos la fórmula para ambos [límites](../../../glossary.md#límites) variables:
+Aplicamos la fórmula para ambos [límites](../../../glossary.md#limites) variables:
 $$\frac{d}{dx}\int_{h(x)}^{g(x)} f(t)\,dt = f(g(x))g'(x) - f(h(x))h'(x)$$
 
 Con $f(t) = t^3$, $g(x) = x$, $h(x) = \sqrt{x}$:
@@ -68,7 +68,7 @@ $$= x^3 - x^{3/2} \cdot \frac{1}{2}x^{-1/2} = x^3 - \frac{x}{2}$$
 **Solución:**
 Sea $u = x^2 + 9 \Rightarrow du = 2x\,dx \Rightarrow x\,dx = \frac{1}{2}du$
 
-**Cambio de límites:**
+**Cambio de [límites](../../../glossary.md#limites):**
 - $x = 0 \Rightarrow u = 9$
 - $x = 4 \Rightarrow u = 25$
 

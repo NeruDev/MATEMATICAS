@@ -52,7 +52,7 @@ $$x^2 + 4x - 12 = 0$$
 
 ### Paso 8: Resolver la ecuación cuadrática
 
-**Método: [Factorización](../../../../glossary.md#factorización)**
+**Método: [Factorización](../../../../glossary.md#factorizacion)**
 
 Buscamos dos números que:
 - Multipliquen a $-12$
