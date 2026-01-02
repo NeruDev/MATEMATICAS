@@ -9,6 +9,11 @@ problem_ref: "[Prob-69]"
 methods: ["leyes de exponentes", "simplificación algebraica"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-69]: Exponentes algebraicos
 
 > **Problema:** Simplifica: $(a^2 b^{-3})^{-2} \times (a^{-1} b^2)^3$

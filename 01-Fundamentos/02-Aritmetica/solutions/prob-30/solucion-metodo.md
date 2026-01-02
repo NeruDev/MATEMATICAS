@@ -9,6 +9,11 @@ problem_ref: "[Prob-30]"
 methods: ["estimación por raíz cúbica", "[factorización](../../../../glossary.md#factorizacion) directa", "búsqueda sistemática"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-30]: Producto de primos consecutivos
 
 > **Problema:** El producto de tres primos consecutivos es 2431. ¿Cuáles son?

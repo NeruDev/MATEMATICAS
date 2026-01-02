@@ -6,6 +6,11 @@ file_id: AL-05-Transformaciones-Lineales-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Transformaciones Lineales
 
 ## Propósito

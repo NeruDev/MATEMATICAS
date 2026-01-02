@@ -6,6 +6,11 @@ file_id: AL-06-Valores-Vectores-Propios-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Valores y Vectores Propios
 
 ## Propósito

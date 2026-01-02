@@ -13,6 +13,11 @@ audience: self-study
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Simbología Matemática
 
 Guía de referencia rápida para todos los símbolos matemáticos utilizados en este repositorio.

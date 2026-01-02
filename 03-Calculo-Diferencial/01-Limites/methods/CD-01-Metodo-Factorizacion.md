@@ -9,6 +9,11 @@ last_updated: 2024-12-23
 method_scope: canonical
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Método: Evaluación de Límites por Factorización
 
 ## Cuándo usar este método

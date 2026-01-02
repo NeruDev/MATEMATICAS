@@ -9,6 +9,11 @@ problem_ref: "[Prob-62]"
 methods: ["completar-cuadrado", "identificacion-elementos-hiperbola", "asintotas"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-62]: Hipérbola - Conversión a forma estándar
 
 > **Problema:** Convierte a forma estándar: $4y^2 - x^2 + 8y + 4x + 4 = 0$

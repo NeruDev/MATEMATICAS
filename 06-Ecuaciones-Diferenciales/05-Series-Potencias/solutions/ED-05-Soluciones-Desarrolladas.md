@@ -4,6 +4,11 @@ type: solution
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Soluciones: Series de Potencias para EDO
 
 *Soluciones seleccionadas que ilustran los métodos principales.*

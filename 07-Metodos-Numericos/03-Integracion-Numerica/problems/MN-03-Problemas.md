@@ -12,6 +12,11 @@ difficulty_distribution:
   avanzado: 7
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Integración Numérica
 
 ---

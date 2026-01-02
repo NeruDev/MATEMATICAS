@@ -8,6 +8,11 @@ audience: exam_review
 requires: []
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Resumen rápido — Técnicas de Integración
 
 ## 1. Sustitución (Cambio de variable)

@@ -11,6 +11,11 @@ created: 2025-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Demostración: arcsin x + arccos x = π/2
 
 ## 📋 Enunciado del Problema

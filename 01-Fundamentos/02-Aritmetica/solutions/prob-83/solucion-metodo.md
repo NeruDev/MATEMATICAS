@@ -9,6 +9,11 @@ problem_ref: "[Prob-83]"
 methods: ["fórmula de tiempo-velocidad-distancia", "análisis porcentual", "comparación de tiempos"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-83]: Tiempo de viaje con cambio de velocidad
 
 > **Problema:** Un tren recorre 240 km a 80 km/h. Si aumenta su velocidad en 25%, ¿cuánto tiempo ahorra?

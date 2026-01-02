@@ -8,6 +8,11 @@ audience: student
 requires: [CD-02-[Derivadas](../../../glossary.md#derivadas), FUN-05-Trigonometria]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría — Curvas planas, ecuaciones paramétricas y coordenadas polares
 
 ---

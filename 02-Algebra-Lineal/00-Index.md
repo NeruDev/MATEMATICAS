@@ -8,6 +8,11 @@ audience: student
 last_updated: 2024-12-23
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+
+---
+
 # 02 - Álgebra Lineal
 
 ## Descripción del módulo

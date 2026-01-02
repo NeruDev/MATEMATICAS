@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Funciones de Varias Variables
 
 > **Objetivo:** Dominar el [cálculo diferencial](../../../glossary.md#calculo-diferencial) de funciones de varias variables con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.

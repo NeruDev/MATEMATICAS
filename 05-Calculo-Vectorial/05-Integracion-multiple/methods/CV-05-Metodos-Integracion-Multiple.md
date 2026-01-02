@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Integración Múltiple
 
 > **Objetivo:** Dominar las integrales dobles y triples con algoritmos detallados, cambios de coordenadas y ejemplos clásicos paso a paso.

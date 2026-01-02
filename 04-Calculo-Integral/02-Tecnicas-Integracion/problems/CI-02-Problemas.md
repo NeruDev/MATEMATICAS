@@ -13,6 +13,11 @@ total_problems: 70
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Técnicas de Integración
 
 Colección de problemas organizados por técnica de integración con dificultad progresiva.

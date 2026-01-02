@@ -13,6 +13,11 @@ total_problems: 55
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Derivadas
 
 > **Instrucciones:** Calcula la [derivada](../../../glossary.md#derivada). Simplifica cuando sea posible.

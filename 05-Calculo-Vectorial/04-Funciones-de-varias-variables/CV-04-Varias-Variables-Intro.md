@@ -8,6 +8,11 @@ audience: student
 requires: [CD-01-Limites, CD-02-[Derivadas](../../glossary.md#derivadas), CV-01-Vectores]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Funciones de varias variables
 
 ## Propósito del tema

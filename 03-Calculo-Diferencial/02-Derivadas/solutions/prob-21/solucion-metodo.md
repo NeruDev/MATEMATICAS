@@ -10,6 +10,11 @@ created: 2024-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Derivada de g(x) = x² eˣ sin x (Producto Triple)
 
 ## Problema

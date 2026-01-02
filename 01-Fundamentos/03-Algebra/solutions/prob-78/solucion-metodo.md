@@ -9,6 +9,11 @@ problem_ref: "[Prob-78]"
 methods: ["eliminacion-gaussiana", "sustitucion-hacia-atras", "sistemas-3x3"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-78]: Sistema de ecuaciones 3×3
 
 > **Problema:** Resuelve el sistema 3×3:

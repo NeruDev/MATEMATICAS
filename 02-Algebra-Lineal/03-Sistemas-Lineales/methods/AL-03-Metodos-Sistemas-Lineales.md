@@ -8,6 +8,11 @@ audience: student
 last_updated: 2024-12-29
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Sistemas de Ecuaciones Lineales
 
 > **Objetivo:** Dominar la resolución de sistemas de ecuaciones lineales con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.

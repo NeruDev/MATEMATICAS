@@ -9,6 +9,11 @@ problem_ref: "[Prob-09]"
 methods: ["demostración directa", "definición de racionales"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-09]: Demostración suma de racionales es racional
 
 > **Problema:** Demuestra que la suma de dos números racionales es racional.

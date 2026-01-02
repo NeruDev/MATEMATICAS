@@ -11,6 +11,11 @@ format: step_by_step
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Aplicaciones de la Integral
 
 > **Objetivo:** Dominar las aplicaciones geométricas y físicas de la integral con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.

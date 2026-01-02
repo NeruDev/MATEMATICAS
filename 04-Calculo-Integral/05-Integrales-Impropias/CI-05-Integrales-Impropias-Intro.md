@@ -8,6 +8,11 @@ audience: student
 requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Integrales Impropias
 
 ## Propósito del tema

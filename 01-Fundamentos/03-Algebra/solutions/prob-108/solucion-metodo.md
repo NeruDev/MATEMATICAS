@@ -9,6 +9,11 @@ problem_ref: "[Prob-108]"
 methods: ["ecuacion-racional", "trabajo-conjunto", "tasas-de-trabajo"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-108]: Problema de grifos (trabajo conjunto)
 
 > **Problema:** Dos grifos llenan un tanque. El primero tarda $x$ horas y el segundo $x + 2$ horas. Juntos tardan 2.4 horas. ¿Cuánto tarda cada uno por separado?

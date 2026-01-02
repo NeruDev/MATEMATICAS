@@ -9,6 +9,11 @@ estimated_time: 8
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Aritmética?
 
 1) Calcula $48 - 17 + 6$ sin calculadora.

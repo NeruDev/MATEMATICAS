@@ -9,6 +9,11 @@ problem_ref: "[Prob-29]"
 methods: ["demostración por contradicción", "demostración directa"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-29]: Demostración primos impares
 
 > **Problema:** Demuestra que si $p$ es primo y $p > 2$, entonces $p$ es impar.

@@ -9,6 +9,11 @@ updated: 2025-12-20
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Resumen de Fórmulas: Raíces de Ecuaciones
 
 ## 1. Método de Bisección

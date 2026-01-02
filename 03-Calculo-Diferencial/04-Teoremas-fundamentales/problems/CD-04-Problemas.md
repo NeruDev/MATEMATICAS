@@ -12,6 +12,11 @@ total_problems: 80
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Teoremas Fundamentales
 
 Colección de problemas sobre los teoremas fundamentales del [cálculo diferencial](../../../glossary.md#calculo-diferencial).

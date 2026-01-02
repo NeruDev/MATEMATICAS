@@ -9,6 +9,11 @@ problem_ref: "[Prob-107]"
 methods: ["ecuacion-cuadratica", "formula-general", "factorizacion", "analisis-fisico"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-107]: Movimiento de proyectil (ecuación cuadrática)
 
 > **Problema:** La altura de un proyectil está dada por $h(t) = -5t^2 + 30t + 10$. ¿Cuándo alcanza 55 metros?

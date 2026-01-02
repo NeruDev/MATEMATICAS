@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos de Geometría Analítica
 
 > Guía completa de métodos de geometría analítica con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

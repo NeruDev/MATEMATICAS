@@ -15,6 +15,11 @@ solution_format: context + development + verification
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Soluciones de Geometría
 
 > **Formato de cada solución:** Contexto teórico → Desarrollo paso a paso → Verificación

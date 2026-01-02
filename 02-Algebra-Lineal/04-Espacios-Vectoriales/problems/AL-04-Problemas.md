@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Espacios Vectoriales
 
 > Colección de problemas graduados por dificultad para [espacios vectoriales](../../../glossary.md#espacios-vectoriales).

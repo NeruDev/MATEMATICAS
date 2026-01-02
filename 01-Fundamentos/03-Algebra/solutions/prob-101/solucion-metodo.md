@@ -9,6 +9,11 @@ problem_ref: "[Prob-101]"
 methods: ["aislamiento-radical", "doble-elevacion", "sustitucion"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-101]: Ecuación radical (II) - Dos radicales
 
 > **Problema:** Resuelve: $\sqrt{x + 5} + \sqrt{x} = 5$

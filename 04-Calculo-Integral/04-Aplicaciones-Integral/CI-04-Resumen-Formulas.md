@@ -8,6 +8,11 @@ audience: exam_review
 requires: []
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Resumen rápido — Aplicaciones de la Integral
 
 ## 1. Área entre curvas

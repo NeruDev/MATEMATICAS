@@ -9,6 +9,11 @@ problem_ref: "[Prob-16]"
 methods: ["demostracion-geometrica", "paralelas-transversal", "angulos-alternos"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-16]: Suma de ángulos interiores de un triángulo
 
 > **Problema:** Demuestra que la suma de los ángulos interiores de un triángulo es 180° usando el teorema de las paralelas cortadas por una transversal.

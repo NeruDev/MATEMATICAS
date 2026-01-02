@@ -9,6 +9,11 @@ total_problems: 30
 solved_detailed: 0
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Interpolación
 
 > **Leyenda:** ✅ Solución desarrollada | ➖ Solo respuesta

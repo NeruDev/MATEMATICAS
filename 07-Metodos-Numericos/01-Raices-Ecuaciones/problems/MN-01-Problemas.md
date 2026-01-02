@@ -8,6 +8,11 @@ description: Colección de problemas sobre [métodos numéricos](../../../glossa
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Raíces de Ecuaciones
 
 ---

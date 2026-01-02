@@ -9,6 +9,11 @@ problem_ref: "[Prob-70]"
 methods: ["ecuación de punto fijo", "ecuación cuadrática", "análisis de [convergencia](../../../../glossary.md#convergencia)"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-70]: Radical anidado infinito
 
 > **Problema:** Calcula: $\sqrt{12 + \sqrt{12 + \sqrt{12 + ...}}}$ (valor exacto).

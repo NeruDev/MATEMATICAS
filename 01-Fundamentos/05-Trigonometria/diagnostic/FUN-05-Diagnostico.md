@@ -9,6 +9,11 @@ estimated_time: 8
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Trigonometría?
 
 1) Convierte $60^\circ$ a radianes.

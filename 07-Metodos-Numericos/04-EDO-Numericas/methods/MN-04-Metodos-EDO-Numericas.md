@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Solución Numérica de EDO
 
 > **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../../glossary.md#metodos-numericos) para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.

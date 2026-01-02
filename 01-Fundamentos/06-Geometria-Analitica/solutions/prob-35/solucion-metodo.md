@@ -9,6 +9,11 @@ problem_ref: "[Prob-35]"
 methods: ["condicion-tangencia", "distancia-igual-radio", "analisis-geometrico"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-35]: Rectas tangentes a una circunferencia desde un punto externo
 
 > **Problema:** Encuentra las ecuaciones de las rectas tangentes a la circunferencia $x^2 + y^2 = 9$ desde el punto externo $P(5, 0)$.

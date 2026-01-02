@@ -6,6 +6,11 @@ file_id: AL-04-Espacios-Vectoriales-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Espacios Vectoriales
 
 ## Propósito

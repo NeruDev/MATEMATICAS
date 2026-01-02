@@ -9,6 +9,11 @@ total_problems: 60
 solved_detailed: 3
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Integral Indefinida
 
 > **Leyenda:** ✅ Solución desarrollada | ➖ Solo respuesta

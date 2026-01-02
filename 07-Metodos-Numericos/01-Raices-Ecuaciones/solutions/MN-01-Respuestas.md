@@ -9,6 +9,11 @@ total_problems: 32
 solved_detailed: 0
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Raíces de Ecuaciones
 
 > **Leyenda:** ✅ Solución desarrollada | ➖ Solo respuesta

@@ -9,6 +9,11 @@ problem_ref: "[Prob-78]"
 methods: ["sistema de ecuaciones", "[sustitución](../../../../glossary.md#sustitucion)", "razones equivalentes"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-78]: Problema de edades con razones
 
 > **Problema:** La edad de Ana y Beto están en razón 3:5. En 10 años estarán en razón 5:7. ¿Cuántos años tiene cada uno?

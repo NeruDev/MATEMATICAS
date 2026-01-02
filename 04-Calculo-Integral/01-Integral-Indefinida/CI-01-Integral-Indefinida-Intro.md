@@ -8,6 +8,11 @@ audience: student
 requires: [03-calculo-diferencial]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Integral Indefinida
 
 ## Propósito del tema

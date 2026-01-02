@@ -8,6 +8,11 @@ audience: student
 requires: [CI-03-Integral-Definida, CV-04-Varias-Variables]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Integración múltiple
 
 ## Propósito del tema

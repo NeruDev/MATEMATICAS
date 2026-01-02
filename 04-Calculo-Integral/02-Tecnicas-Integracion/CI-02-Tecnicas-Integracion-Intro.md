@@ -8,6 +8,11 @@ audience: student
 requires: [ci-01-integral-indefinida]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Técnicas de Integración
 
 ## Propósito del tema

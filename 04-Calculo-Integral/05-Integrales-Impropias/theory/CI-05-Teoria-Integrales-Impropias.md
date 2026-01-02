@@ -11,6 +11,11 @@ format: formal_exposition
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Integrales Impropias
 
 ---

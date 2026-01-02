@@ -5,6 +5,11 @@ expected_output: markdown
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # GeoGebra — Aritmética
 
 | Recurso | Enlace | Descripción |

@@ -9,6 +9,11 @@ total_problems: 28
 difficulty_distribution: {basic: 10, intermediate: 12, advanced: 6}
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: EDO de Primer Orden
 
 ---

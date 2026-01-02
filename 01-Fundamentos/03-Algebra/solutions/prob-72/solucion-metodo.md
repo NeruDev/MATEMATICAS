@@ -9,6 +9,11 @@ problem_ref: "[Prob-72]"
 methods: ["sustitucion-cuadratica", "ecuacion-bicuadratica", "factorizacion"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-72]: Ecuación bicuadrática
 
 > **Problema:** Resuelve: $x^4 - 5x^2 + 4 = 0$

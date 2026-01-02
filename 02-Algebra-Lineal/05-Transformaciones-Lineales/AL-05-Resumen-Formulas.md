@@ -6,6 +6,11 @@ file_id: AL-05-Resumen-Formulas
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Resumen de Fórmulas: Transformaciones Lineales
 
 ## Definición

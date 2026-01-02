@@ -9,6 +9,11 @@ problem_ref: "[Prob-77]"
 methods: ["relaciones-metricas", "media-geometrica", "triangulo-rectangulo", "teorema-altura"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-77]: Relaciones métricas en el triángulo rectángulo
 
 > **Problema:** En el triángulo rectángulo ABC (recto en C), la altura CH a la hipotenusa divide a esta en AH = 4 cm y HB = 9 cm. Calcula CH, AC y BC.

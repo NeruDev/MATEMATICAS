@@ -6,6 +6,11 @@ file_id: CI-04-Problemas
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Aplicaciones de la Integral
 
 ---

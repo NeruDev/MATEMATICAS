@@ -10,6 +10,11 @@ expected_output:
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Enlaces a GeoGebra - Límites
 
 ## Recursos interactivos

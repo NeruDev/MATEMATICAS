@@ -9,6 +9,11 @@ estimated_time: 8
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Geometría?
 
 1) ¿Cuánto mide la suma de los ángulos interiores de un triángulo?

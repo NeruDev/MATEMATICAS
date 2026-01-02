@@ -6,6 +6,11 @@ file_id: AL-02-[Determinantes](../../glossary.md#determinantes)-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Determinantes
 
 ## Propósito

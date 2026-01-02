@@ -8,6 +8,11 @@ audience: student
 requires: [fun-03-algebra-intro]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Álgebra — Resumen de Fórmulas
 
 ## Productos Notables

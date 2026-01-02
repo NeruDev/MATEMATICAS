@@ -17,6 +17,11 @@ created: 2025-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: $\int e^x \sin x \, dx$
 
 ## Problema

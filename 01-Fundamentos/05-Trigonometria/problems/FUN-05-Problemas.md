@@ -11,6 +11,11 @@ version: 1.0
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Trigonometría
 
 > **Instrucciones:** A menos que se indique lo contrario, da respuestas exactas. Para ángulos, trabaja en el intervalo $[0, 2\pi)$ o $[0°, 360°)$.

@@ -7,6 +7,11 @@ description: Problemas de Series de Potencias para [EDO](../../../glossary.md#ed
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Series de Potencias para EDO
 
 ---

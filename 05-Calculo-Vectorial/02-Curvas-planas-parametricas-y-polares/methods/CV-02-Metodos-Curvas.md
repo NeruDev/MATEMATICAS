@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Curvas Paramétricas y Coordenadas Polares
 
 > **Objetivo:** Dominar el análisis de curvas paramétricas y polares con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.

@@ -8,6 +8,11 @@ audience: student
 requires: [fun-03-algebra, fun-04-geometria]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Geometría Analítica
 
 ## Propósito del tema

@@ -9,6 +9,11 @@ estimated_time: 10
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Límites?
 
 1) Evalúa la [función](../../../glossary.md#funcion) $f(x) = x^2 + 1$ en $x = 3$.
