@@ -17,7 +17,7 @@ last_updated: 2024-12-23
 
 ## Descripción del módulo
 
-Este módulo cubre los [fundamentos](../glossary.md#fundamentos) del [álgebra lineal](../glossary.md#algebra-lineal): matrices, [determinantes](../glossary.md#determinantes), sistemas de ecuaciones, [espacios vectoriales](../glossary.md#espacios-vectoriales), [transformaciones lineales](../glossary.md#transformaciones-lineales) y valores/vectores propios. Es esencial para aplicaciones en física, ingeniería, ciencias de datos y machine learning.
+Este módulo cubre los [fundamentos](..](../glossary.md)#fundamentos) del [álgebra lineal](..](../glossary.md)#algebra-lineal): matrices, [determinantes](..](../glossary.md)#determinantes), sistemas de ecuaciones, [espacios vectoriales](..](../glossary.md)#espacios-vectoriales), [transformaciones lineales](..](../glossary.md)#transformaciones-lineales) y valores/vectores propios. Es esencial para aplicaciones en física, ingeniería, ciencias de datos y machine learning.
 
 ## Temas del módulo
 
@@ -32,7 +32,7 @@ Este módulo cubre los [fundamentos](../glossary.md#fundamentos) del [álgebra l
 
 ## Prerequisitos
 
-- **01-[Fundamentos](../glossary.md#fundamentos)** completo (especialmente Álgebra básica)
+- **01-[Fundamentos](..](../glossary.md)#fundamentos)** completo (especialmente Álgebra básica)
 - Familiaridad con ecuaciones lineales y sistemas 2×2
 
 ## Conexión con otros módulos

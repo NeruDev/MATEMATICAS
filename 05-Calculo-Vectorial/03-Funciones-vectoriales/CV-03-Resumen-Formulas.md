@@ -93,6 +93,6 @@ $$\rho = \frac{1}{\kappa}$$
 
 <!--
 IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta theory/CV-03-Teoria-Vectoriales.md
+Para desarrollo completo, consulta [theory/CV-03-Teoria-Vectoriales.md](theory/CV-03-Teoria-Vectoriales.md)
 file_id: CV-03-Resumen-Formulas
 -->

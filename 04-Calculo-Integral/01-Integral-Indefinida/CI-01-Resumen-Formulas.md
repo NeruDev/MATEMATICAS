@@ -95,7 +95,7 @@ $$\frac{d}{dx}\left[\int f(x)\,dx\right] = f(x)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [integral indefinida](../../glossary.md#integral-indefinida).
-Para desarrollo completo: theory/CI-01-Teoria-Integral-Indefinida.md
+IA: Hoja de referencia rápida para [integral indefinida](../..](../../glossary.md)#integral-indefinida).
+Para desarrollo completo: [theory/CI-01-Teoria-Integral-Indefinida.md](theory/CI-01-Teoria-Integral-Indefinida.md)
 file_id: CI-01-Resumen-Formulas
 -->

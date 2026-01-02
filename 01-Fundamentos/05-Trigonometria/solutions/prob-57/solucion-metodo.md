@@ -2,7 +2,7 @@
 ---
 type: solution
 problem_id: FUN-05-PROB-57
-title: "Demostración de la identidad del [coseno](../../../../glossary.md#coseno) del ángulo triple"
+title: "Demostración de la identidad del [coseno](../../../..](../../../../glossary.md)#coseno) del ángulo triple"
 topic: trigonometria
 subtopic: identidades-trigonometricas
 difficulty: intermedio
@@ -20,7 +20,7 @@ created: 2025-12-22
 
 ## 📋 Enunciado del Problema
 
-**Demuestra la siguiente [identidad trigonométrica](../../../../glossary.md#identidad-trigonometrica):**
+**Demuestra la siguiente [identidad trigonométrica](../../../..](../../../../glossary.md)#identidad-trigonometrica):**
 
 $$\cos(3\theta) = 4\cos^3\theta - 3\cos\theta$$
 
@@ -151,5 +151,5 @@ $$= 4 \cdot \frac{3\sqrt{3}}{8} - \frac{3\sqrt{3}}{2} = \frac{3\sqrt{3}}{2} - \f
 
 ### Identidades Relacionadas
 
-- **[Seno](../../../../glossary.md#seno) del ángulo triple:** $\sin(3\theta) = 3\sin\theta - 4\sin^3\theta$
-- **[Tangente](../../../../glossary.md#tangente) del ángulo triple:** $\tan(3\theta) = \dfrac{3\tan\theta - \tan^3\theta}{1 - 3\tan^2\theta}$
+- **[Seno](../../../..](../../../../glossary.md)#seno) del ángulo triple:** $\sin(3\theta) = 3\sin\theta - 4\sin^3\theta$
+- **[Tangente](../../../..](../../../../glossary.md)#tangente) del ángulo triple:** $\tan(3\theta) = \dfrac{3\tan\theta - \tan^3\theta}{1 - 3\tan^2\theta}$

@@ -54,7 +54,7 @@ $$\frac{1}{x} + \frac{1}{x+2} = \frac{5}{12}$$
 
 ### Paso 4: Encontrar el MCM y eliminar denominadores
 
-[MCM](../../../../glossary.md#mcm) de $x$, $(x+2)$ y $12$ es $12x(x+2)$.
+[MCM](../../../..](../../../../glossary.md)#mcm) de $x$, $(x+2)$ y $12$ es $12x(x+2)$.
 
 Multiplicamos toda la ecuación por $12x(x+2)$:
 
@@ -155,7 +155,7 @@ $$x = 4 \text{ (descartando el negativo)}$$
 
 ### Partiendo de $5x^2 - 14x - 24 = 0$
 
-Buscamos [factorizar](../../../../glossary.md#factorizar) $5x^2 - 14x - 24$.
+Buscamos [factorizar](../../../..](../../../../glossary.md)#factorizar) $5x^2 - 14x - 24$.
 
 **Producto:** $a \cdot c = 5 \cdot (-24) = -120$
 

@@ -21,7 +21,7 @@ difficulty_distribution:
 
 > **Instrucciones:** Resuelve cada problema mostrando el procedimiento completo.
 >
-> **Respuestas:** Consulta [`solutions/CV-01-Respuestas.md`](../solutions/CV-01-Respuestas.md)
+> **Respuestas:** Consulta [solutions/CV-01-Respuestas.md](../solutions/CV-01-Respuestas.md)
 
 ---
 
@@ -34,9 +34,9 @@ c) $2\mathbf{u} - 3\mathbf{v}$
 
 **[Prob-02]** Calcula la magnitud de $\mathbf{v} = \langle 2, -3, 6 \rangle$.
 
-**[Prob-03]** Encuentra el [vector](../../../glossary.md#vector) unitario en la dirección de $\mathbf{w} = \langle 4, -4, 2 \rangle$.
+**[Prob-03]** Encuentra el [vector](../../..](../../../glossary.md)#vector) unitario en la dirección de $\mathbf{w} = \langle 4, -4, 2 \rangle$.
 
-**[Prob-04]** Si $\mathbf{a} = \langle 1, 2, -1 \rangle$ y $\mathbf{b} = \langle 3, -1, 2 \rangle$, encuentra un [vector](../../../glossary.md#vector) de magnitud 5 en la dirección de $\mathbf{a} + \mathbf{b}$.
+**[Prob-04]** Si $\mathbf{a} = \langle 1, 2, -1 \rangle$ y $\mathbf{b} = \langle 3, -1, 2 \rangle$, encuentra un [vector](../../..](../../../glossary.md)#vector) de magnitud 5 en la dirección de $\mathbf{a} + \mathbf{b}$.
 
 **[Prob-05]** Encuentra los valores de $c$ tales que $\lVert \langle c, 2, 1 \rangle \rVert = 3$.
 
@@ -170,6 +170,6 @@ $$L_2: x = 2 + s,\ y = 1 + s,\ z = s$$
 
 ---
 
-> 📚 **Respuestas:** [`solutions/CV-01-Respuestas.md`](../solutions/CV-01-Respuestas.md)
+> 📚 **Respuestas:** [solutions/CV-01-Respuestas.md](../solutions/CV-01-Respuestas.md)
 > 📖 **Teoría:** [`theory/`](../theory/)
-> 📋 **Fórmulas:** [`CV-01-Resumen-Formulas.md`](../CV-01-Resumen-Formulas.md)
+> 📋 **Fórmulas:** [CV-01-Resumen-Formulas.md](../CV-01-Resumen-Formulas.md)

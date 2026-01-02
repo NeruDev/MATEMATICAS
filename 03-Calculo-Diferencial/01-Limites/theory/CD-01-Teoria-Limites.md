@@ -18,7 +18,7 @@ audience: student
 
 ### Definición Intuitiva
 
-El **[límite](../../../glossary.md#limite)** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
+El **[límite](../../..](../../../glossary.md)#limite)** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
 
 $$\lim_{x \to a} f(x) = L$$
 
@@ -28,7 +28,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 $$\lim_{x \to a} f(x) = L$$
 
-si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ [tal que](../../../glossary.md#tal-que):
+si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ [tal que](../../..](../../../glossary.md)#tal-que):
 
 $$0 < \lvert x - a \rvert < \delta \Rightarrow \lvert f(x) - L \rvert < \varepsilon$$
 
@@ -54,7 +54,7 @@ $x$ se aproxima a $a$ desde valores **menores** que $a$.
 ### Teorema de Existencia
 $$\lim_{x \to a} f(x) = L \quad \Leftrightarrow \quad \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
 
-El [límite](../../../glossary.md#limite) existe si y solo si ambos [límites](../../../glossary.md#limites) laterales existen y son iguales.
+El [límite](../../..](../../../glossary.md)#limite) existe si y solo si ambos [límites](../../..](../../../glossary.md)#limites) laterales existen y son iguales.
 
 ---
 
@@ -94,13 +94,13 @@ $$\lim_{x \to a} f(x) = f(a)$$
 Funciona para: polinomios, racionales (cuando el denominador ≠ 0), exponenciales, logarítmicas, trigonométricas.
 
 ### Formas Indeterminadas
-Cuando la [sustitución](../../../glossary.md#sustitucion) directa produce:
+Cuando la [sustitución](../../..](../../../glossary.md)#sustitucion) directa produce:
 - $\frac{0}{0}$ - Requiere técnica algebraica
 - $\frac{\infty}{\infty}$ - Requiere simplificación o L'Hôpital
 - $0 \cdot \infty$, $\infty - \infty$, $0^0$, $1^\infty$, $\infty^0$ - Requieren manipulación
 
 ### Factorización
-Para $\frac{0}{0}$, [factorizar](../../../glossary.md#factorizar) y cancelar:
+Para $\frac{0}{0}$, [factorizar](../../..](../../../glossary.md)#factorizar) y cancelar:
 
 $$\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(x+2)}{x-2} = \lim_{x \to 2} (x+2) = 4$$
 
@@ -165,7 +165,7 @@ Para $\lim_{x \to \infty} \frac{P(x)}{Q(x)}$ donde $P$ tiene grado $n$ y $Q$ tie
 **Técnica:** Dividir numerador y denominador entre la mayor potencia de $x$ en el denominador.
 
 ### Asíntotas Horizontales
-Si $\lim_{x \to \infty} f(x) = L$ o $\lim_{x \to -\infty} f(x) = L$, entonces $y = L$ es una **[asíntota](../../../glossary.md#asintota) horizontal**.
+Si $\lim_{x \to \infty} f(x) = L$ o $\lim_{x \to -\infty} f(x) = L$, entonces $y = L$ es una **[asíntota](../../..](../../../glossary.md)#asintota) horizontal**.
 
 ---
 
@@ -181,7 +181,7 @@ $$\lim_{x \to a} f(x) = -\infty$$
 significa que $f(x)$ decrece sin límite cuando $x$ se aproxima a $a$.
 
 ### Asíntotas Verticales
-Si $\lim_{x \to a^+} f(x) = \pm\infty$ o $\lim_{x \to a^-} f(x) = \pm\infty$, entonces $x = a$ es una **[asíntota](../../../glossary.md#asintota) vertical**.
+Si $\lim_{x \to a^+} f(x) = \pm\infty$ o $\lim_{x \to a^-} f(x) = \pm\infty$, entonces $x = a$ es una **[asíntota](../../..](../../../glossary.md)#asintota) vertical**.
 
 ### Reglas de Operación con Infinitos
 
@@ -200,7 +200,7 @@ Si $\lim_{x \to a^+} f(x) = \pm\infty$ o $\lim_{x \to a^-} f(x) = \pm\infty$, en
 ## 1.8 Continuidad
 
 ### Definición
-Una [función](../../../glossary.md#funcion) $f$ es **continua en $a$** si:
+Una [función](../../..](../../../glossary.md)#funcion) $f$ es **continua en $a$** si:
 1. $f(a)$ está definida
 2. $\lim_{x \to a} f(x)$ existe
 3. $\lim_{x \to a} f(x) = f(a)$
@@ -218,20 +218,20 @@ Una [función](../../../glossary.md#funcion) $f$ es **continua en $a$** si:
 
 1. **Suma, resta, producto de funciones continuas son continuas**
 2. **Cociente de continuas es continuo donde el denominador ≠ 0**
-3. **[Composición](../../../glossary.md#composicion) de funciones continuas es continua**
+3. **[Composición](../../..](../../../glossary.md)#composicion) de funciones continuas es continua**
 
 ### Funciones Continuas en Todo su Dominio
 - Polinomios
 - Funciones racionales (donde denominador ≠ 0)
-- $e^x$, $\ln x$ (en su [dominio](../../../glossary.md#dominio))
-- Funciones trigonométricas (en su [dominio](../../../glossary.md#dominio))
+- $e^x$, $\ln x$ (en su [dominio](../../..](../../../glossary.md)#dominio))
+- Funciones trigonométricas (en su [dominio](../../..](../../../glossary.md)#dominio))
 
 ---
 
 ## 1.9 Teorema del Valor Intermedio
 
 ### Enunciado
-Si $f$ es continua en $[a, b]$ y $k$ es cualquier valor entre $f(a)$ y $f(b)$, entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que) $f(c) = k$.
+Si $f$ es continua en $[a, b]$ y $k$ es cualquier valor entre $f(a)$ y $f(b)$, entonces existe al menos un $c \in (a, b)$ [tal que](../../..](../../../glossary.md)#tal-que) $f(c) = k$.
 
 ### Corolario (Existencia de Raíces)
 Si $f$ es continua en $[a, b]$ y $f(a)$ y $f(b)$ tienen signos opuestos, entonces existe al menos un $c \in (a, b)$ tal que $f(c) = 0$.

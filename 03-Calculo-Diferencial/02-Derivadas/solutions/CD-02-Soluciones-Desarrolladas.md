@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones de [derivadas](../../../glossary.md#derivadas) con contexto y desarrollo.
+Soluciones de [derivadas](../../..](../../../glossary.md)#derivadas) con contexto y desarrollo.
 
 IA:
 Cada solución incluye: contexto → desarrollo → verificación.
@@ -56,13 +56,13 @@ $$= \frac{2x^3 - 2x - 2x^3 - 2x}{(x^2-1)^2} = \frac{-4x}{(x^2-1)^2}$$
 $$f'(x) = \frac{1}{2}(x^2+1)^{-1/2} \cdot 2x = \frac{x}{\sqrt{x^2+1}}$$
 
 ### Solución 2.4.10
-**Contexto:** Esta es la [derivada](../../../glossary.md#derivada) de $\ln(\sec x + \tan x)$.
+**Contexto:** Esta es la [derivada](../../..](../../../glossary.md)#derivada) de $\ln(\sec x + \tan x)$.
 
 **Desarrollo:**
 $$f'(x) = \frac{1}{\sec x + \tan x} \cdot (\sec x \tan x + \sec^2 x)$$
 $$= \frac{\sec x(\tan x + \sec x)}{\sec x + \tan x} = \sec x$$
 
-**Verificación:** Esta es la [antiderivada](../../../glossary.md#antiderivada) clásica de $\sec x$.
+**Verificación:** Esta es la [antiderivada](../../..](../../../glossary.md)#antiderivada) clásica de $\sec x$.
 
 ---
 
@@ -94,7 +94,7 @@ $$\frac{dy}{dx} = \frac{6(3) - 3(9)}{3(9) - 6(3)} = \frac{18 - 27}{27 - 18} = \f
 ## 2.6 Derivadas de Orden Superior
 
 ### Solución 2.6.5
-**Contexto:** Buscar patrón en [derivadas](../../../glossary.md#derivadas) sucesivas.
+**Contexto:** Buscar patrón en [derivadas](../../..](../../../glossary.md)#derivadas) sucesivas.
 
 **Desarrollo:**
 $f(x) = e^{ax}$
@@ -108,7 +108,7 @@ $f'''(x) = a^3 e^{ax}$
 **Contexto:** Derivar implícitamente dos veces.
 
 **Desarrollo:**
-Primera [derivada](../../../glossary.md#derivada): $2x + 2y\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{x}{y}$
+Primera [derivada](../../..](../../../glossary.md)#derivada): $2x + 2y\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{x}{y}$
 
 Segunda derivada:
 $$\frac{d^2y}{dx^2} = -\frac{y - x\frac{dy}{dx}}{y^2} = -\frac{y - x(-\frac{x}{y})}{y^2} = -\frac{y + \frac{x^2}{y}}{y^2}$$
@@ -133,7 +133,7 @@ $$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
 ## Problemas de Síntesis
 
 ### Solución 2.S.1
-**Contexto:** [Tangente](../../../glossary.md#tangente) horizontal significa $f'(x) = 0$.
+**Contexto:** [Tangente](../../..](../../../glossary.md)#tangente) horizontal significa $f'(x) = 0$.
 
 **Desarrollo:**
 $f'(x) = 3x^2 - 3 = 0$

@@ -36,7 +36,7 @@ Si $f$ es continua en $[a, b]$, entonces $f$ alcanza un máximo y un mínimo abs
 
 ## Criterio de la Segunda Derivada
 
-Sea $c$ [tal que](../../glossary.md#tal-que) $f'(c) = 0$:
+Sea $c$ [tal que](../..](../../glossary.md)#tal-que) $f'(c) = 0$:
 
 | Valor de $f''(c)$ | Conclusión |
 |-------------------|------------|
@@ -51,7 +51,7 @@ Sea $c$ [tal que](../../glossary.md#tal-que) $f'(c) = 0$:
 | $f''(x) > 0$ | Cóncava hacia arriba (convexa) ∪ |
 | $f''(x) < 0$ | Cóncava hacia abajo ∩ |
 
-**[Punto de inflexión](../../glossary.md#punto-de-inflexion)**: Donde $f''(x) = 0$ o no existe, Y hay cambio de [concavidad](../../glossary.md#concavidad).
+**[Punto de inflexión](../..](../../glossary.md)#punto-de-inflexion)**: Donde $f''(x) = 0$ o no existe, Y hay cambio de [concavidad](../..](../../glossary.md)#concavidad).
 
 ## Razón de Cambio
 
@@ -97,7 +97,7 @@ Si $s(t)$ es la posición:
 ## Optimización: Proceso Sistemático
 
 1. **Identificar** la cantidad a optimizar
-2. **Escribir** la [función](../../glossary.md#funcion) objetivo
+2. **Escribir** la [función](../..](../../glossary.md)#funcion) objetivo
 3. **Establecer** restricciones
 4. **Expresar** en una variable
 5. **Derivar** e igualar a cero
@@ -119,7 +119,7 @@ Si $s(t)$ es la posición:
 
 Para graficar $f(x)$, analizar:
 
-1. **[Dominio](../../glossary.md#dominio)** y [continuidad](../../glossary.md#continuidad)
+1. **[Dominio](../..](../../glossary.md)#dominio)** y [continuidad](../..](../../glossary.md)#continuidad)
 2. **Simetrías** (par, impar, periódica)
 3. **Intersecciones** con ejes
 4. **Asíntotas** (verticales, horizontales, oblicuas)

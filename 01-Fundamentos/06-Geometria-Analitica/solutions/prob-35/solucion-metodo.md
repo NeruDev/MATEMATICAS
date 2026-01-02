@@ -53,7 +53,7 @@ $$(1 + m^2)x^2 - 10m^2x + (25m^2 - 9) = 0$$
 
 ### Paso 3: Aplicar condición de tangencia
 
-Para que la recta sea [tangente](../../../../glossary.md#tangente), debe tocar la circunferencia en **exactamente un punto**, lo que significa que la ecuación cuadrática tiene **una sola solución**.
+Para que la recta sea [tangente](../../../..](../../../../glossary.md)#tangente), debe tocar la circunferencia en **exactamente un punto**, lo que significa que la ecuación cuadrática tiene **una sola solución**.
 
 **Condición:** Discriminante $= 0$
 
@@ -82,7 +82,7 @@ $$m = \pm\frac{3}{4}$$
 
 ### Paso 5: Escribir las ecuaciones de las tangentes
 
-**[Tangente](../../../../glossary.md#tangente) 1:** Con $m = \frac{3}{4}$:
+**[Tangente](../../../..](../../../../glossary.md)#tangente) 1:** Con $m = \frac{3}{4}$:
 $$y = \frac{3}{4}(x - 5)$$
 $$y = \frac{3}{4}x - \frac{15}{4}$$
 $$4y = 3x - 15$$
@@ -173,9 +173,9 @@ Sea $T_1 = (x_1, y_1)$ un punto de tangencia.
 1. $T_1$ está en la circunferencia: $x_1^2 + y_1^2 = 9$
 2. $\overrightarrow{OT_1} \perp \overrightarrow{T_1P}$
 
-El [vector](../../../../glossary.md#vector) $\overrightarrow{OT_1} = (x_1, y_1)$
+El [vector](../../../..](../../../../glossary.md)#vector) $\overrightarrow{OT_1} = (x_1, y_1)$
 
-El [vector](../../../../glossary.md#vector) $\overrightarrow{T_1P} = (5 - x_1, -y_1)$
+El [vector](../../../..](../../../../glossary.md)#vector) $\overrightarrow{T_1P} = (5 - x_1, -y_1)$
 
 Para perpendicularidad:
 $$\overrightarrow{OT_1} \cdot \overrightarrow{T_1P} = 0$$

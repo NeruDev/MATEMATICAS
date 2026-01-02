@@ -28,7 +28,7 @@ Para dividir entre $(x - c)$, necesitamos $c$.
 $(x + 1) = (x - (-1))$, por lo tanto $c = -1$.
 
 ### Paso 2: Escribir los coeficientes
-Del [polinomio](../../../../glossary.md#polinomio) $2x^4 - 3x^3 + 0x^2 + x - 5$:
+Del [polinomio](../../../..](../../../../glossary.md)#polinomio) $2x^4 - 3x^3 + 0x^2 + x - 5$:
 
 **¡Importante!** El término $x^2$ falta, así que usamos coeficiente $0$.
 

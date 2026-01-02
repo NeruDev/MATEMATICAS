@@ -57,10 +57,10 @@ $$C_{13} = (+1) \begin{vmatrix} 2 & -1 \\ 3 & 1 \end{vmatrix}$$
 
 ### Paso 3: Calcular cada menor 2×2
 
-**[Menor](../../../../glossary.md#menor) $M_{11}$:**
+**[Menor](../../../..](../../../../glossary.md)#menor) $M_{11}$:**
 $$\begin{vmatrix} -1 & 1 \\ 1 & -2 \end{vmatrix} = (-1)(-2) - (1)(1) = 2 - 1 = 1$$
 
-**[Menor](../../../../glossary.md#menor) $M_{12}$:**
+**[Menor](../../../..](../../../../glossary.md)#menor) $M_{12}$:**
 $$\begin{vmatrix} 2 & 1 \\ 3 & -2 \end{vmatrix} = (2)(-2) - (1)(3) = -4 - 3 = -7$$
 
 **Menor $M_{13}$:**

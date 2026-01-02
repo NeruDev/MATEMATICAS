@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Integración Numérica
 
-> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integracion-numerica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../..](../../../glossary.md)#integracion-numerica) ([cuadratura](../../..](../../../glossary.md)#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
@@ -44,7 +44,7 @@ $$\int_a^b f(x)\,dx \approx \sum_{i=0}^{n} w_i f(x_i)$$
 
 ### Fórmulas de Newton-Cotes
 
-Basadas en [interpolación](../../../glossary.md#interpolacion) polinomial con **nodos equiespaciados**.
+Basadas en [interpolación](../../..](../../../glossary.md)#interpolacion) polinomial con **nodos equiespaciados**.
 
 ### Cuadratura de Gauss
 
@@ -122,7 +122,7 @@ $$\boxed{I \approx 1.8591}$$
 
 - Mejor precisión que trapecio simple
 - Datos tabulados equiespaciados
-- [Base](../../../glossary.md#base) para Romberg
+- [Base](../../..](../../../glossary.md)#base) para Romberg
 
 ### Fórmula
 
@@ -360,7 +360,7 @@ Valor exacto: $e^3 - 1 = 19.086$
 ### Cuándo Usar
 
 - Alta precisión requerida
-- [Función](../../../glossary.md#funcion) suave
+- [Función](../../..](../../../glossary.md)#funcion) suave
 - Costo computacional aceptable
 
 ### Idea
@@ -451,7 +451,7 @@ $$\boxed{I \approx 1.7182818 \text{ (Romberg con } k=3 \text{)}}$$
 
 ### Cuándo Usar
 
-- [Función](../../../glossary.md#funcion) conocida analíticamente
+- [Función](../../..](../../../glossary.md)#funcion) conocida analíticamente
 - Alta precisión con pocas evaluaciones
 - Nodos no necesitan ser equiespaciados
 
@@ -570,7 +570,7 @@ $$\boxed{I \approx 1.7181 \text{ (solo 2 evaluaciones)}}$$
 ### Cuándo Usar
 
 - Integrales de la forma $\int_0^\infty e^{-x} g(x)\,dx$
-- [Integrales impropias](../../../glossary.md#integrales-impropias) $[0, \infty)$
+- [Integrales impropias](../../..](../../../glossary.md)#integrales-impropias) $[0, \infty)$
 
 ### Fórmula
 
@@ -634,7 +634,7 @@ $$\int_{-\infty}^{\infty} e^{-x^2} g(x)\,dx \approx \sum_{i=1}^{n} w_i g(x_i)$$
 1. Aplicar regla a todo $[a, b]$
 2. Dividir y aplicar a cada mitad
 3. Si diferencia > tolerancia, subdividir más
-4. Recursivamente hasta [convergencia](../../../glossary.md#convergencia)
+4. Recursivamente hasta [convergencia](../../..](../../../glossary.md)#convergencia)
 
 ### Pseudocódigo
 
@@ -663,7 +663,7 @@ Concentra el esfuerzo donde la función es más difícil de integrar.
 
 - Dimensiones altas (integrales múltiples)
 - Dominios irregulares
-- Estimación probabilística [suficiente](../../../glossary.md#suficiente)
+- Estimación probabilística [suficiente](../../..](../../../glossary.md)#suficiente)
 
 ### Fórmula Básica
 

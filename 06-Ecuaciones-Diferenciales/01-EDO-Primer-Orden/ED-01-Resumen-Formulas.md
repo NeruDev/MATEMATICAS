@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: ed-01-[edo](../../glossary.md#edo)-primer-[orden](../../glossary.md#orden)
+topic_id: ed-01-[edo](../..](../../glossary.md)#edo)-primer-[orden](../..](../../glossary.md)#orden)
 file_id: ED-01-Resumen-Formulas
 status: stable
 audience: exam_review
@@ -34,10 +34,10 @@ $$\int \frac{dy}{g(y)} = \int f(x)\,dx + C$$
 
 **Forma estándar:** $\frac{dy}{dx} + P(x)y = Q(x)$
 
-**[Factor integrante](../../glossary.md#factor-integrante):**
+**[Factor integrante](../..](../../glossary.md)#factor-integrante):**
 $$\mu(x) = e^{\int P(x)\,dx}$$
 
-**[Solución general](../../glossary.md#solucion-general):**
+**[Solución general](../..](../../glossary.md)#solucion-general):**
 $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
 
 ---
@@ -49,7 +49,7 @@ $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
 **Condición de exactitud:**
 $$\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$$
 
-**Solución:** Encontrar $F(x,y)$ [tal que](../../glossary.md#tal-que):
+**Solución:** Encontrar $F(x,y)$ [tal que](../..](../../glossary.md)#tal-que):
 $$\frac{\partial F}{\partial x} = M, \quad \frac{\partial F}{\partial y} = N$$
 
 Entonces $F(x,y) = C$ es la solución.
@@ -71,9 +71,9 @@ Si no es exacta, buscar $\mu$:
 
 **Forma:** $\frac{dy}{dx} + P(x)y = Q(x)y^n$, donde $n \neq 0, 1$
 
-**[Sustitución](../../glossary.md#sustitucion):** $v = y^{1-n}$
+**[Sustitución](../..](../../glossary.md)#sustitucion):** $v = y^{1-n}$
 
-**[EDO](../../glossary.md#edo) lineal resultante:**
+**[EDO](../..](../../glossary.md)#edo) lineal resultante:**
 $$\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$$
 
 ---
@@ -82,7 +82,7 @@ $$\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$$
 
 **Forma:** $\frac{dy}{dx} = f\left(\frac{y}{x}\right)$
 
-**[Sustitución](../../glossary.md#sustitucion):** $y = vx \Rightarrow \frac{dy}{dx} = v + x\frac{dv}{dx}$
+**[Sustitución](../..](../../glossary.md)#sustitucion):** $y = vx \Rightarrow \frac{dy}{dx} = v + x\frac{dv}{dx}$
 
 **EDO separable resultante:**
 $$x\frac{dv}{dx} = f(v) - v$$
@@ -124,7 +124,7 @@ $$\frac{du}{dx} = a + bf(u)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para EDO de Primer [Orden](../../glossary.md#orden).
-Para desarrollo completo: theory/ED-01-Teoria-EDO-Primer-Orden.md
+IA: Hoja de referencia rápida para EDO de Primer [Orden](../..](../../glossary.md)#orden).
+Para desarrollo completo: [theory/ED-01-Teoria-EDO-Primer-Orden.md](theory/ED-01-Teoria-EDO-Primer-Orden.md)
 file_id: ED-01-Resumen-Formulas
 -->

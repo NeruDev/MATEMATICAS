@@ -56,4 +56,4 @@ solved_detailed: 0
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/AL-05-Problemas.md`](../problems/AL-05-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/AL-05-Problemas.md](../problems/AL-05-Problemas.md)

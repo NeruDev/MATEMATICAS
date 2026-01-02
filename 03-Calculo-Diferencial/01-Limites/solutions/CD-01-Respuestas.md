@@ -103,4 +103,4 @@ Las siguientes tienen desarrollo paso a paso completo:
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/CD-01-Problemas.md`](../problems/CD-01-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CD-01-Problemas.md](../problems/CD-01-Problemas.md)

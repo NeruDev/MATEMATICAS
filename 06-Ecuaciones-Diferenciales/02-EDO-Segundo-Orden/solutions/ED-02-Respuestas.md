@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-02-[edo](../../../glossary.md#edo)-segundo-[orden](../../../glossary.md#orden)
+topic_id: ed-02-[edo](../../..](../../../glossary.md)#edo)-segundo-[orden](../../..](../../../glossary.md)#orden)
 file_id: ED-02-Respuestas
 status: stable
 audience: student
@@ -77,4 +77,4 @@ $$y_p = -y_1\int\frac{y_2 g(x)}{W}\,dx + y_2\int\frac{y_1 g(x)}{W}\,dx$$
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/ED-02-Problemas.md`](../problems/ED-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/ED-02-Problemas.md](../problems/ED-02-Problemas.md)

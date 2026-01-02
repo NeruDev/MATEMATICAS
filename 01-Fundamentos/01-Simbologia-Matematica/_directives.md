@@ -21,7 +21,7 @@ audience: ai_context
 
 - **Audiencia:** Estudiante de matemáticas (todos los niveles)
 - **Formato de salida:** Markdown con LaTeX
-- **Notación:** Seguir `00-META/notation-cheatsheet.md`
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
 - **Tareas permitidas:** explain_concept, convert_format
 
 ## Contenido del Tema

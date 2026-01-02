@@ -78,4 +78,4 @@ $$J_0(x) = 1 - \frac{x^2}{4} + \frac{x^4}{64} - \cdots, \quad J_1(x) = \frac{x}{
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/ED-05-Problemas.md`](../problems/ED-05-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/ED-05-Problemas.md](../problems/ED-05-Problemas.md)

@@ -83,4 +83,4 @@ solved_detailed: 3
 | [Prob-59] | $\dfrac{x^3}{3} + x + \ln\lvert x\rvert + 2\sin x + C$ | ➖ |
 | [Prob-60] | $\ln\lvert x\rvert + \arctan x + \arcsin x + C$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CI-01-Problemas.md`](../problems/CI-01-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CI-01-Problemas.md](../problems/CI-01-Problemas.md)

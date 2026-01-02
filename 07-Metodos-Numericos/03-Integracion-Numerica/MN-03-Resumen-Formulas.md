@@ -1,6 +1,6 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Integración Numérica](../../glossary.md#integracion-numerica)
+title: Resumen de Fórmulas - [Integración Numérica](../..](../../glossary.md)#integracion-numerica)
 type: cheatsheet
 topic: integracion-numerica
 tags: [métodos-numéricos, integración, fórmulas, cheatsheet]
@@ -34,7 +34,7 @@ $$E_T = -\frac{h^3}{12}f''(\xi), \quad \xi \in [a,b]$$
 ### Error del Trapecio Compuesto
 $$E_T = -\frac{(b-a)h^2}{12}f''(\xi) = -\frac{(b-a)^3}{12n^2}f''(\xi)$$
 
-**[Orden](../../glossary.md#orden) de precisión:** $O(h^2)$
+**[Orden](../..](../../glossary.md)#orden) de precisión:** $O(h^2)$
 
 ---
 
@@ -59,7 +59,7 @@ $$E_S = -\frac{h^5}{90}f^{(4)}(\xi) = -\frac{(b-a)^5}{2880}f^{(4)}(\xi)$$
 ### Error de Simpson Compuesto
 $$E_S = -\frac{(b-a)h^4}{180}f^{(4)}(\xi)$$
 
-**[Orden](../../glossary.md#orden) de precisión:** $O(h^4)$
+**[Orden](../..](../../glossary.md)#orden) de precisión:** $O(h^4)$
 
 ---
 

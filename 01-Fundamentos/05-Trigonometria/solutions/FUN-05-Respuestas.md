@@ -128,4 +128,4 @@ solved_detailed: 6
 | [Prob-104] | Demostración por inducción o usando identidades producto | ➖ |
 | [Prob-105] | $= 0$ para todo $n \geq 1$ | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/FUN-05-Problemas.md`](../problems/FUN-05-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/FUN-05-Problemas.md](../problems/FUN-05-Problemas.md)

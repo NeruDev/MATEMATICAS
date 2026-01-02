@@ -2,7 +2,7 @@
 ---
 type: solution
 problem-id: CD-02-21
-topic: [Derivadas](../../../../glossary.md#derivadas)
+topic: [Derivadas](../../../..](../../../../glossary.md)#derivadas)
 subtopic: Regla del producto
 difficulty: intermedio
 tags: [derivada, producto-triple, exponencial, trigonométrica]
@@ -41,7 +41,7 @@ Para el producto de tres funciones:
 
 $$\frac{d}{dx}[u \cdot v \cdot w] = u'vw + uv'w + uvw'$$
 
-> **Nota**: Cada término tiene exactamente una [derivada](../../../../glossary.md#derivada) y dos funciones sin derivar.
+> **Nota**: Cada término tiene exactamente una [derivada](../../../..](../../../../glossary.md)#derivada) y dos funciones sin derivar.
 
 ### Paso 3: Calcular cada término
 
@@ -113,4 +113,4 @@ Evaluando la fórmula: $g'(\pi/4) \approx 4.18 \checkmark$
 > **Regla general**: Para $n$ funciones multiplicadas:
 > $$\frac{d}{dx}[f_1 \cdot f_2 \cdots f_n] = \sum_{i=1}^{n} \left( f_1 \cdots f_{i-1} \cdot f_i' \cdot f_{i+1} \cdots f_n \right)$$
 
-> **Tip de [factorización](../../../../glossary.md#factorizacion)**: Siempre buscar factores comunes para simplificar la expresión final.
+> **Tip de [factorización](../../../..](../../../../glossary.md)#factorizacion)**: Siempre buscar factores comunes para simplificar la expresión final.

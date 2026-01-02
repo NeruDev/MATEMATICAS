@@ -11,7 +11,7 @@ status: active
 
 # Métodos: EDO de Segundo Orden
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias lineales de segundo [orden](../../../glossary.md#orden).
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias lineales de segundo [orden](../../..](../../../glossary.md)#orden).
 
 ---
 
@@ -114,9 +114,9 @@ $y'' + 6y' + 25y = e^{-3x}[(-7 - 18 + 25)\cos 4x + (24 - 24)\sin 4x] = 0$ ✓
 ### Cuándo Usar
 
 - Ecuación $ay'' + by' + cy = f(x)$ donde $f(x)$ es:
-  - [Polinomio](../../../glossary.md#polinomio)
+  - [Polinomio](../../..](../../../glossary.md)#polinomio)
   - Exponencial $e^{ax}$
-  - [Seno](../../../glossary.md#seno)/[coseno](../../../glossary.md#coseno) $\sin bx$, $\cos bx$
+  - [Seno](../../..](../../../glossary.md)#seno)/[coseno](../../..](../../../glossary.md)#coseno) $\sin bx$, $\cos bx$
   - Productos de los anteriores
 
 ### Tabla de Propuestas para $y_p$
@@ -154,7 +154,7 @@ Si la propuesta $y_p$ contiene términos de $y_h$:
 
 ---
 
-**Paso 1: Resolver [ecuación homogénea](../../../glossary.md#ecuacion-homogenea)**
+**Paso 1: Resolver [ecuación homogénea](../../..](../../../glossary.md)#ecuacion-homogenea)**
 
 $r^2 - 4 = 0 \implies r = \pm 2$
 
@@ -180,7 +180,7 @@ $$y_p = Axe^{2x} + Bx + D$$
 
 ---
 
-**Paso 4: Calcular [derivadas](../../../glossary.md#derivadas)**
+**Paso 4: Calcular [derivadas](../../..](../../../glossary.md)#derivadas)**
 
 $y_p' = Ae^{2x} + 2Axe^{2x} + B = Ae^{2x}(1 + 2x) + B$
 
@@ -208,7 +208,7 @@ $4Ae^{2x} - 4Bx - 4D = 8e^{2x} + 3x$
 
 ---
 
-**Paso 7: Escribir [solución general](../../../glossary.md#solucion-general)**
+**Paso 7: Escribir [solución general](../../..](../../../glossary.md)#solucion-general)**
 
 $$y_p = 2xe^{2x} - \frac{3x}{4}$$
 
@@ -226,13 +226,13 @@ $$\boxed{y = C_1 e^{2x} + C_2 e^{-2x} + 2xe^{2x} - \frac{3x}{4}}$$
 
 ### Fórmulas
 
-**[Wronskiano](../../../glossary.md#wronskiano):**
+**[Wronskiano](../../..](../../../glossary.md)#wronskiano):**
 $$W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} = y_1 y_2' - y_2 y_1'$$
 
 **Funciones auxiliares:**
 $$u_1' = -\frac{y_2 f(x)}{W}, \quad u_2' = \frac{y_1 f(x)}{W}$$
 
-**[Solución particular](../../../glossary.md#solucion-particular):**
+**[Solución particular](../../..](../../../glossary.md)#solucion-particular):**
 $$y_p = u_1 y_1 + u_2 y_2$$
 
 ### Algoritmo de Resolución
@@ -269,7 +269,7 @@ $y_1 = \cos x$, $y_2 = \sin x$
 
 ---
 
-**Paso 3: Calcular [Wronskiano](../../../glossary.md#wronskiano)**
+**Paso 3: Calcular [Wronskiano](../../..](../../../glossary.md)#wronskiano)**
 
 $$W = \begin{vmatrix} \cos x & \sin x \\ -\sin x & \cos x \end{vmatrix} = \cos^2 x + \sin^2 x = 1$$
 
@@ -291,7 +291,7 @@ $$u_2 = \int 1\,dx = x$$
 
 ---
 
-**Paso 6: Formar [solución particular](../../../glossary.md#solucion-particular)**
+**Paso 6: Formar [solución particular](../../..](../../../glossary.md)#solucion-particular)**
 
 $$y_p = u_1 y_1 + u_2 y_2 = \ln|\cos x| \cdot \cos x + x \cdot \sin x$$
 
@@ -328,7 +328,7 @@ $= \frac{\sin^2 x}{\cos x} + \cos x = \frac{\sin^2 x + \cos^2 x}{\cos x} = \sec 
 
 ### Fórmula
 
-**[Sustitución](../../../glossary.md#sustitucion):** $y = x^m$ transforma en ecuación auxiliar:
+**[Sustitución](../../..](../../../glossary.md)#sustitucion):** $y = x^m$ transforma en ecuación auxiliar:
 
 $$am(m-1) + bm + c = 0 \implies am^2 + (b-a)m + c = 0$$
 
@@ -390,7 +390,7 @@ $$\boxed{y = x^1[C_1 \cos(2\ln x) + C_2 \sin(2\ln x)] = x[C_1 \cos(2\ln x) + C_2
 
 ---
 
-**Método alternativo: [Sustitución](../../../glossary.md#sustitucion)** $x = e^t$
+**Método alternativo: [Sustitución](../../..](../../../glossary.md)#sustitucion)** $x = e^t$
 
 $t = \ln x$, $\frac{dt}{dx} = \frac{1}{x}$
 

@@ -5,7 +5,7 @@ topic_id: cv-04-funciones-varias-variables
 file_id: CV-04-Varias-Variables-Intro
 status: stable
 audience: student
-requires: [CD-01-Limites, CD-02-[Derivadas](../../glossary.md#derivadas), CV-01-Vectores]
+requires: [CD-01-Limites, CD-02-[Derivadas](../..](../../glossary.md)#derivadas), CV-01-Vectores]
 -->
 
 
@@ -17,25 +17,25 @@ requires: [CD-01-Limites, CD-02-[Derivadas](../../glossary.md#derivadas), CV-01-
 
 ## Propósito del tema
 
-Extender el [cálculo diferencial](../../glossary.md#calculo-diferencial) a funciones de múltiples variables, estudiando [límites](../../glossary.md#limites), [continuidad](../../glossary.md#continuidad), [derivadas](../../glossary.md#derivadas) parciales, gradiente y optimización para modelar superficies y fenómenos multidimensionales.
+Extender el [cálculo diferencial](../..](../../glossary.md)#calculo-diferencial) a funciones de múltiples variables, estudiando [límites](../..](../../glossary.md)#limites), [continuidad](../..](../../glossary.md)#continuidad), [derivadas](../..](../../glossary.md)#derivadas) parciales, gradiente y optimización para modelar superficies y fenómenos multidimensionales.
 
 ## Ruta de aprendizaje
 
-1. **Funciones de varias variables:** [dominio](../../glossary.md#dominio), rango, gráficas y curvas de nivel.
-2. **[Límites](../../glossary.md#limites) y [continuidad](../../glossary.md#continuidad):** límites en $\mathbb{R}^n$, trayectorias, continuidad.
-3. **Derivadas parciales:** definición, interpretación geométrica, derivadas de [orden](../../glossary.md#orden) superior.
-4. **[Diferenciabilidad](../../glossary.md#diferenciabilidad):** diferencial total, plano [tangente](../../glossary.md#tangente), aproximación lineal.
-5. **[Regla de la cadena](../../glossary.md#regla-de-la-cadena):** versiones para funciones compuestas.
-6. **Gradiente y [derivada](../../glossary.md#derivada) direccional:** máxima tasa de cambio, dirección.
-7. **Extremos:** puntos críticos, criterio de la segunda [derivada](../../glossary.md#derivada), extremos condicionados.
+1. **Funciones de varias variables:** [dominio](../..](../../glossary.md)#dominio), rango, gráficas y curvas de nivel.
+2. **[Límites](../..](../../glossary.md)#limites) y [continuidad](../..](../../glossary.md)#continuidad):** límites en $\mathbb{R}^n$, trayectorias, continuidad.
+3. **Derivadas parciales:** definición, interpretación geométrica, derivadas de [orden](../..](../../glossary.md)#orden) superior.
+4. **[Diferenciabilidad](../..](../../glossary.md)#diferenciabilidad):** diferencial total, plano [tangente](../..](../../glossary.md)#tangente), aproximación lineal.
+5. **[Regla de la cadena](../..](../../glossary.md)#regla-de-la-cadena):** versiones para funciones compuestas.
+6. **Gradiente y [derivada](../..](../../glossary.md)#derivada) direccional:** máxima tasa de cambio, dirección.
+7. **Extremos:** puntos críticos, criterio de la segunda [derivada](../..](../../glossary.md)#derivada), extremos condicionados.
 
 ## Mapa de recursos
 
 ```
-CV-04-Varias-Variables-Intro.md  ← Estás aquí
-CV-04-Resumen-Formulas.md        ← Fórmulas clave para repaso rápido
+[CV-04-Varias-Variables-Intro.md](CV-04-Varias-Variables-Intro.md)  ← Estás aquí
+[CV-04-Resumen-Formulas.md](CV-04-Resumen-Formulas.md)        ← Fórmulas clave para repaso rápido
 theory/
-  └── CV-04-Teoria-Varias.md     ← Desarrollo completo de la teoría
+  └── [CV-04-Teoria-Varias.md](CV-04-Teoria-Varias.md)     ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/

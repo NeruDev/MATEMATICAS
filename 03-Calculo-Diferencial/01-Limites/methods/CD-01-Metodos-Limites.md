@@ -17,7 +17,7 @@ status: active
 
 ## Método 1: Sustitución Directa
 
-**Cuándo Usar:** Cuando la [función](../../../glossary.md#funcion) es continua en el punto de evaluación y no produce formas indeterminadas.
+**Cuándo Usar:** Cuando la [función](../../..](../../../glossary.md)#funcion) es continua en el punto de evaluación y no produce formas indeterminadas.
 
 ### Algoritmo de Resolución
 
@@ -43,7 +43,7 @@ status: active
 
 ---
 
-**Paso 1: Verificar [continuidad](../../../glossary.md#continuidad)**
+**Paso 1: Verificar [continuidad](../../..](../../../glossary.md)#continuidad)**
 
 Los polinomios son continuos en todo $\mathbb{R}$, por lo tanto podemos sustituir directamente.
 
@@ -61,7 +61,7 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ## Método 2: Factorización
 
-**Cuándo Usar:** [Forma indeterminada](../../../glossary.md#forma-indeterminada) $\frac{0}{0}$ donde numerador y denominador son polinomios o expresiones factorizables.
+**Cuándo Usar:** [Forma indeterminada](../../..](../../../glossary.md)#forma-indeterminada) $\frac{0}{0}$ donde numerador y denominador son polinomios o expresiones factorizables.
 
 ### Algoritmo de Resolución
 
@@ -87,13 +87,13 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ---
 
-**Paso 1: Verificar [forma indeterminada](../../../glossary.md#forma-indeterminada)**
+**Paso 1: Verificar [forma indeterminada](../../..](../../../glossary.md)#forma-indeterminada)**
 
 $$\frac{(3)^3 - 27}{(3)^2 - 9} = \frac{27 - 27}{9 - 9} = \frac{0}{0}$$
 
 ---
 
-**Paso 2: [Factorizar](../../../glossary.md#factorizar) numerador (diferencia de cubos)**
+**Paso 2: [Factorizar](../../..](../../../glossary.md)#factorizar) numerador (diferencia de cubos)**
 
 $$x^3 - 27 = x^3 - 3^3 = (x - 3)(x^2 + 3x + 9)$$
 
@@ -162,7 +162,7 @@ $$= \frac{x}{x(\sqrt{1+x} + 1)} = \frac{1}{\sqrt{1+x} + 1}$$
 
 ---
 
-**Paso 4: Evaluar el [límite](../../../glossary.md#limite)**
+**Paso 4: Evaluar el [límite](../../..](../../../glossary.md)#limite)**
 
 $$\lim_{x \to 0} \frac{1}{\sqrt{1+x} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}{2}$$
 
@@ -204,7 +204,7 @@ $$\boxed{\lim_{x \to 4} \frac{x - 4}{\sqrt{x} - 2} = 4}$$
 
 ## Método 4: División entre Mayor Potencia (Límites al Infinito)
 
-**Cuándo Usar:** [Límites](../../../glossary.md#limites) cuando $x \to \pm\infty$ en funciones racionales.
+**Cuándo Usar:** [Límites](../../..](../../../glossary.md)#limites) cuando $x \to \pm\infty$ en funciones racionales.
 
 ### Algoritmo de Resolución
 
@@ -298,11 +298,11 @@ $$\boxed{\lim_{x \to \infty} \frac{2x^4 - x}{x^2 + 3} = +\infty}$$
 
 **Paso 1: Identificar el argumento**
 
-El argumento del [seno](../../../glossary.md#seno) es $5x$, pero el denominador tiene $3x$.
+El argumento del [seno](../../..](../../../glossary.md)#seno) es $5x$, pero el denominador tiene $3x$.
 
 ---
 
-**Paso 2: Introducir el factor [necesario](../../../glossary.md#necesario)**
+**Paso 2: Introducir el factor [necesario](../../..](../../../glossary.md)#necesario)**
 
 $$\frac{\sin 5x}{3x} = \frac{\sin 5x}{5x} \cdot \frac{5x}{3x} = \frac{\sin 5x}{5x} \cdot \frac{5}{3}$$
 
@@ -410,7 +410,7 @@ $$\boxed{\lim_{x \to 0} x^2 \cos\left(\frac{1}{x}\right) = 0}$$
 
 ## Método 7: Cambio de Variable (Sustitución)
 
-**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../../glossary.md#sustitucion) apropiada.
+**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../..](../../../glossary.md)#sustitucion) apropiada.
 
 ### Algoritmo de Resolución
 
@@ -578,7 +578,7 @@ $$\boxed{\lim_{x \to 2} \frac{|x - 2|}{x - 2} \text{ no existe}}$$
 
 **Paso 1: Identificar la forma**
 
-[Base](../../../glossary.md#base): $1 + \frac{3}{x} \to 1$ cuando $x \to \infty$
+[Base](../../..](../../../glossary.md)#base): $1 + \frac{3}{x} \to 1$ cuando $x \to \infty$
 Exponente: $2x \to \infty$
 
 Forma indeterminada $1^\infty$.
@@ -650,11 +650,11 @@ Asíntotas verticales: $x = 2$ y $x = -2$
 
 ---
 
-**[Asíntota](../../../glossary.md#asintota) Horizontal:**
+**[Asíntota](../../..](../../../glossary.md)#asintota) Horizontal:**
 
 $$\lim_{x \to \infty} \frac{2x^2 - 1}{x^2 - 4} = \lim_{x \to \infty} \frac{2 - \frac{1}{x^2}}{1 - \frac{4}{x^2}} = \frac{2}{1} = 2$$
 
-[Asíntota](../../../glossary.md#asintota) horizontal: $y = 2$
+[Asíntota](../../..](../../../glossary.md)#asintota) horizontal: $y = 2$
 
 $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
@@ -670,7 +670,7 @@ $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
 ---
 
-**Paso 1: Multiplicar por [identidad trigonométrica](../../../glossary.md#identidad-trigonometrica)**
+**Paso 1: Multiplicar por [identidad trigonométrica](../../..](../../../glossary.md)#identidad-trigonometrica)**
 
 Usamos: $1 - \cos x = 2\sin^2\left(\frac{x}{2}\right)$
 

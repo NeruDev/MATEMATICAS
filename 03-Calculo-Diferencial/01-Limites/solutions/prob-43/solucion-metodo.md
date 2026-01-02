@@ -21,7 +21,7 @@ Evalúa $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$
 ---
 
 ## Resultado fundamental
-Este [límite](../../../../glossary.md#limite) define el **número de Euler** $e$:
+Este [límite](../../../..](../../../../glossary.md)#limite) define el **número de Euler** $e$:
 $$e = \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$$
 
 ---
@@ -50,11 +50,11 @@ $$\left(1 + \frac{1}{n}\right)^n = \sum_{k=0}^{n} \binom{n}{k} \frac{1}{n^k}$$
 
 $$= 1 + 1 + \frac{n(n-1)}{2!n^2} + \frac{n(n-1)(n-2)}{3!n^3} + \cdots$$
 
-Cada término es [menor](../../../../glossary.md#menor) que $\frac{1}{k!}$, entonces:
+Cada término es [menor](../../../..](../../../../glossary.md)#menor) que $\frac{1}{k!}$, entonces:
 $$\left(1 + \frac{1}{n}\right)^n < 1 + 1 + \frac{1}{2!} + \frac{1}{3!} + \cdots = e < 3$$
 
 ### Paso 4: Conclusión
-Por el teorema de [convergencia](../../../../glossary.md#convergencia) monótona, la sucesión convergente a un número que llamamos $e$.
+Por el teorema de [convergencia](../../../..](../../../../glossary.md)#convergencia) monótona, la sucesión convergente a un número que llamamos $e$.
 
 ---
 
@@ -90,7 +90,7 @@ $$e = \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = \lim_{x \to 0} (1 + x
 ---
 
 ## Aplicaciones
-- [Base](../../../../glossary.md#base) del logaritmo natural: $\ln x = \log_e x$
-- [Función](../../../../glossary.md#funcion) exponencial: $e^x$
+- [Base](../../../..](../../../../glossary.md)#base) del logaritmo natural: $\ln x = \log_e x$
+- [Función](../../../..](../../../../glossary.md)#funcion) exponencial: $e^x$
 - Crecimiento/decrecimiento continuo
 - Fórmula de Euler: $e^{i\pi} + 1 = 0$

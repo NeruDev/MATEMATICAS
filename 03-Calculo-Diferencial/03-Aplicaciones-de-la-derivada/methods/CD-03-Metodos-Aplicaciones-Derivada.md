@@ -11,13 +11,13 @@ status: active
 
 # Métodos de Aplicaciones de la Derivada
 
-> Guía completa de aplicaciones prácticas de la [derivada](../../../glossary.md#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
+> Guía completa de aplicaciones prácticas de la [derivada](../../..](../../../glossary.md)#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
 
 ---
 
 ## Método 1: Recta Tangente y Recta Normal
 
-**Cuándo Usar:** Para encontrar la ecuación de la recta [tangente](../../../glossary.md#tangente) o normal a una curva en un punto dado.
+**Cuándo Usar:** Para encontrar la ecuación de la recta [tangente](../../..](../../../glossary.md)#tangente) o normal a una curva en un punto dado.
 
 ### Fórmulas
 
@@ -204,7 +204,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 
 ## Método 4: Criterio de la Primera Derivada
 
-**Cuándo Usar:** Para determinar si un [punto crítico](../../../glossary.md#punto-critico) es máximo local, mínimo local, o ninguno.
+**Cuándo Usar:** Para determinar si un [punto crítico](../../..](../../../glossary.md)#punto-critico) es máximo local, mínimo local, o ninguno.
 
 ### Algoritmo de Resolución
 
@@ -249,7 +249,7 @@ $$4x^2(x - 3) = 0 \Rightarrow x = 0, \quad x = 3$$
 **Paso 3: Clasificar**
 
 - En $x = 0$: No hay cambio de signo ($- \to -$)
-  - **No es extremo** ([punto de inflexión](../../../glossary.md#punto-de-inflexion) horizontal)
+  - **No es extremo** ([punto de inflexión](../../..](../../../glossary.md)#punto-de-inflexion) horizontal)
   
 - En $x = 3$: Cambio $- \to +$
   - **Mínimo local** en $x = 3$
@@ -286,7 +286,7 @@ $$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
 
 ---
 
-**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas)**
+**Paso 1: Calcular [derivadas](../../..](../../../glossary.md)#derivadas)**
 
 $$f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$$
 $$f''(x) = 6x - 12$$
@@ -345,7 +345,7 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 
 ---
 
-**Paso 3: [Función](../../../glossary.md#funcion) objetivo (área)**
+**Paso 3: [Función](../../..](../../../glossary.md)#funcion) objetivo (área)**
 
 $$A = xy$$
 
@@ -390,11 +390,11 @@ $$\boxed{A_{max} = 100 \times 200 = 20,000 \text{ m}^2}$$
 
 ### Ejemplo de Optimización con Costo
 
-**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con [base](../../../glossary.md#base) cuadrada que use la mínima cantidad de material.
+**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con [base](../../..](../../../glossary.md)#base) cuadrada que use la mínima cantidad de material.
 
 ---
 
-**Variables:** [Base](../../../glossary.md#base) $x \times x$, altura $h$
+**Variables:** [Base](../../..](../../../glossary.md)#base) $x \times x$, altura $h$
 
 **Objetivo:** Minimizar superficie $S = x^2 + 4xh$
 
@@ -568,7 +568,7 @@ $$\boxed{\text{Error relativo} \approx 1.5\%}$$
 
 ---
 
-**1. [Dominio](../../../glossary.md#dominio):**
+**1. [Dominio](../../..](../../../glossary.md)#dominio):**
 $$x^2 - 1 \neq 0 \Rightarrow x \neq \pm 1$$
 $$D = (-\infty, -1) \cup (-1, 1) \cup (1, \infty)$$
 
@@ -608,7 +608,7 @@ $f'(x) = 0 \Rightarrow x = 0$
 
 ---
 
-**7-8. Segunda derivada y [concavidad](../../../glossary.md#concavidad):**
+**7-8. Segunda derivada y [concavidad](../../..](../../../glossary.md)#concavidad):**
 $$f''(x) = \frac{2(3x^2 + 1)}{(x^2-1)^3}$$
 
 | Intervalo | Signo $f''$ | Concavidad |
@@ -625,7 +625,7 @@ $$\boxed{\text{Ver gráfica con AV: } x = \pm 1, \text{ AH: } y = 1, \text{ Máx
 
 ## Método 10: Método de Newton-Raphson
 
-**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
+**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../..](../../../glossary.md)#raices-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
 
 ### Fórmula Iterativa
 

@@ -112,4 +112,4 @@ solved_detailed: 5
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/FUN-06-Problemas.md`](../problems/FUN-06-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/FUN-06-Problemas.md](../problems/FUN-06-Problemas.md)

@@ -30,7 +30,7 @@ $$\arcsin x + \arccos x = \frac{\pi}{2}$$
 
 Presentamos tres enfoques para la demostración:
 1. **Demostración algebraica** usando definiciones de funciones inversas
-2. **Demostración por [derivadas](../../../../glossary.md#derivadas)** (análisis)
+2. **Demostración por [derivadas](../../../..](../../../../glossary.md)#derivadas)** (análisis)
 3. **Demostración geométrica** usando un triángulo rectángulo
 
 ---
@@ -94,7 +94,7 @@ Sea $f(x) = \arcsin x + \arccos x$ para $x \in [-1, 1]$
 
 $$f'(x) = \frac{d}{dx}[\arcsin x] + \frac{d}{dx}[\arccos x]$$
 
-Recordando las [derivadas](../../../../glossary.md#derivadas) de las funciones inversas:
+Recordando las [derivadas](../../../..](../../../../glossary.md)#derivadas) de las funciones inversas:
 - $\frac{d}{dx}[\arcsin x] = \frac{1}{\sqrt{1-x^2}}$
 - $\frac{d}{dx}[\arccos x] = -\frac{1}{\sqrt{1-x^2}}$
 
@@ -104,7 +104,7 @@ $$f'(x) = \frac{1}{\sqrt{1-x^2}} + \left(-\frac{1}{\sqrt{1-x^2}}\right) = 0$$
 
 ### Paso 3: Conclusión de la derivada
 
-Como $f'(x) = 0$ para todo $x \in (-1, 1)$, la [función](../../../../glossary.md#funcion) $f(x)$ es **constante**.
+Como $f'(x) = 0$ para todo $x \in (-1, 1)$, la [función](../../../..](../../../../glossary.md)#funcion) $f(x)$ es **constante**.
 
 ### Paso 4: Encontrar el valor de la constante
 
@@ -242,6 +242,6 @@ En ambos casos extremos, la suma sigue siendo $\frac{\pi}{2}$.
 
 ### Relación Geométrica
 
-Esta identidad refleja el hecho de que en un triángulo rectángulo, si un ángulo agudo tiene [seno](../../../../glossary.md#seno) $x$, entonces el otro ángulo agudo (que es el complemento a $90°$) tiene [coseno](../../../../glossary.md#coseno) $x$.
+Esta identidad refleja el hecho de que en un triángulo rectángulo, si un ángulo agudo tiene [seno](../../../..](../../../../glossary.md)#seno) $x$, entonces el otro ángulo agudo (que es el complemento a $90°$) tiene [coseno](../../../..](../../../../glossary.md)#coseno) $x$.
 
-> **Nota:** Esta es la razón por la que las funciones [seno](../../../../glossary.md#seno) y [coseno](../../../../glossary.md#coseno) se llaman **cofunciones** — cada una es la [función](../../../../glossary.md#funcion) del ángulo complementario de la otra.
+> **Nota:** Esta es la razón por la que las funciones [seno](../../../..](../../../../glossary.md)#seno) y [coseno](../../../..](../../../../glossary.md)#coseno) se llaman **cofunciones** — cada una es la [función](../../../..](../../../../glossary.md)#funcion) del ángulo complementario de la otra.

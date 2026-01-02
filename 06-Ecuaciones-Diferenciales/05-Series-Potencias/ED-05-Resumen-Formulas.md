@@ -40,7 +40,7 @@ Para $y'' + P(x)y' + Q(x)y = 0$:
 1. Proponer $y = \sum_{n=0}^{\infty} a_n x^n$
 2. Calcular $y' = \sum_{n=1}^{\infty} n a_n x^{n-1}$
 3. Calcular $y'' = \sum_{n=2}^{\infty} n(n-1) a_n x^{n-2}$
-4. Sustituir en la [EDO](../../glossary.md#edo)
+4. Sustituir en la [EDO](../..](../../glossary.md)#edo)
 5. Igualar coeficientes de potencias iguales
 6. Obtener **relación de recurrencia** para $a_n$
 
@@ -54,7 +54,7 @@ $$y = x^r \sum_{n=0}^{\infty} a_n x^n = \sum_{n=0}^{\infty} a_n x^{n+r}$$
 
 ### Ecuación indicial
 
-De $a_0 \neq 0$, el término de [menor](../../glossary.md#menor) potencia da:
+De $a_0 \neq 0$, el término de [menor](../..](../../glossary.md)#menor) potencia da:
 
 $$r(r-1) + p_0 r + q_0 = 0$$
 
@@ -166,7 +166,7 @@ $$\left(\sum a_n x^n\right)\left(\sum b_n x^n\right) = \sum_{n=0}^{\infty}\left(
 ---
 
 <!--
-IA: Hoja de referencia rápida para Series de Potencias en [EDO](../../glossary.md#edo).
-Para desarrollo completo: theory/ED-05-Teoria-Series-EDO.md
+IA: Hoja de referencia rápida para Series de Potencias en [EDO](../..](../../glossary.md)#edo).
+Para desarrollo completo: [theory/ED-05-Teoria-Series-EDO.md](theory/ED-05-Teoria-Series-EDO.md)
 file_id: ED-05-Resumen-Formulas
 -->

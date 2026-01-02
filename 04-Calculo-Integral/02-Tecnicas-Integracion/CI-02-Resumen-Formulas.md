@@ -109,7 +109,7 @@ $$ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 + c - \frac{b^2}{4a}$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [técnicas de integración](../../glossary.md#tecnicas-de-integracion).
-Para desarrollo completo: theory/CI-02-Teoria-Tecnicas.md
+IA: Hoja de referencia rápida para [técnicas de integración](../..](../../glossary.md)#tecnicas-de-integracion).
+Para desarrollo completo: [theory/CI-02-Teoria-Tecnicas.md](theory/CI-02-Teoria-Tecnicas.md)
 file_id: CI-02-Resumen-Formulas
 -->

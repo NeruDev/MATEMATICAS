@@ -27,8 +27,8 @@ expected_output:
 **Verificar Rolle para $f(x) = x^2 - 4x + 3$ en $[1, 3]$.**
 
 **Verificación de hipótesis:**
-- $f$ es [polinomio](../../../glossary.md#polinomio) → continua en $[1, 3]$ ✓
-- $f$ es [polinomio](../../../glossary.md#polinomio) → diferenciable en $(1, 3)$ ✓
+- $f$ es [polinomio](../../..](../../../glossary.md)#polinomio) → continua en $[1, 3]$ ✓
+- $f$ es [polinomio](../../..](../../../glossary.md)#polinomio) → diferenciable en $(1, 3)$ ✓
 - $f(1) = 1 - 4 + 3 = 0$, $f(3) = 9 - 12 + 3 = 0$ → $f(1) = f(3)$ ✓
 
 **Encontrar $c$:**
@@ -65,7 +65,7 @@ $f$ es estrictamente creciente, por lo que puede cruzar el eje $x$ a lo sumo una
 
 Por el TVM aplicado a $f(x) = \cos x$ en $[a, b]$ (o $[b, a]$):
 
-Existe $c$ entre $a$ y $b$ [tal que](../../../glossary.md#tal-que):
+Existe $c$ entre $a$ y $b$ [tal que](../../..](../../../glossary.md)#tal-que):
 $$\frac{\cos b - \cos a}{b - a} = f'(c) = -\sin c$$
 
 Por tanto:
@@ -81,7 +81,7 @@ $$\lvert \cos a - \cos b \rvert \leq \lvert a - b \rvert$$ ∎
 
 Sea $s(t)$ la posición del auto, con $s(0) = 0$ y $s(1) = 120$.
 
-Por el TVM, existe $c \in (0, 1)$ [tal que](../../../glossary.md#tal-que):
+Por el TVM, existe $c \in (0, 1)$ [tal que](../../..](../../../glossary.md)#tal-que):
 $$s'(c) = \frac{s(1) - s(0)}{1 - 0} = \frac{120 - 0}{1} = 120 \text{ km/h}$$
 
 ∴ En el instante $t = c$, la velocidad instantánea fue exactamente 120 km/h. ∎

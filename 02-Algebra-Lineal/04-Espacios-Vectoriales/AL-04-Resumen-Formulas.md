@@ -15,13 +15,13 @@ audience: student
 
 ## Axiomas de espacio vectorial
 
-Un conjunto $V$ con operaciones $+$ y $\cdot$ es [espacio vectorial](../../glossary.md#espacio-vectorial) si:
+Un conjunto $V$ con operaciones $+$ y $\cdot$ es [espacio vectorial](../..](../../glossary.md)#espacio-vectorial) si:
 
 ### Suma
 1. $\vec{u} + \vec{v} = \vec{v} + \vec{u}$ (conmutativa)
 2. $(\vec{u} + \vec{v}) + \vec{w} = \vec{u} + (\vec{v} + \vec{w})$ (asociativa)
-3. Existe $\vec{0}$ [tal que](../../glossary.md#tal-que) $\vec{v} + \vec{0} = \vec{v}$ (neutro)
-4. Existe $-\vec{v}$ [tal que](../../glossary.md#tal-que) $\vec{v} + (-\vec{v}) = \vec{0}$ (inverso)
+3. Existe $\vec{0}$ [tal que](../..](../../glossary.md)#tal-que) $\vec{v} + \vec{0} = \vec{v}$ (neutro)
+4. Existe $-\vec{v}$ [tal que](../..](../../glossary.md)#tal-que) $\vec{v} + (-\vec{v}) = \vec{0}$ (inverso)
 
 ### Producto por escalar
 5. $c(\vec{u} + \vec{v}) = c\vec{u} + c\vec{v}$
@@ -31,7 +31,7 @@ Un conjunto $V$ con operaciones $+$ y $\cdot$ es [espacio vectorial](../../gloss
 
 ## Criterio de subespacio
 
-$W \subseteq V$ es [subespacio](../../glossary.md#subespacio) si:
+$W \subseteq V$ es [subespacio](../..](../../glossary.md)#subespacio) si:
 1. $\vec{0} \in W$
 2. $\vec{u}, \vec{v} \in W \Rightarrow \vec{u} + \vec{v} \in W$ (cerrado bajo suma)
 3. $\vec{v} \in W, c \in \mathbb{R} \Rightarrow c\vec{v} \in W$ (cerrado bajo escalar)
@@ -52,12 +52,12 @@ $\{\vec{v}_1, \ldots, \vec{v}_n\}$ es **linealmente independiente** si:
 $$c_1\vec{v}_1 + c_2\vec{v}_2 + \cdots + c_n\vec{v}_n = \vec{0} \Rightarrow c_1 = c_2 = \cdots = c_n = 0$$
 
 ### Criterios prácticos
-- En $\mathbb{R}^n$: formar [matriz](../../glossary.md#matriz) y verificar $\det \neq 0$ (si es cuadrada)
-- Calcular rango de la [matriz](../../glossary.md#matriz) formada por los vectores
+- En $\mathbb{R}^n$: formar [matriz](../..](../../glossary.md)#matriz) y verificar $\det \neq 0$ (si es cuadrada)
+- Calcular rango de la [matriz](../..](../../glossary.md)#matriz) formada por los vectores
 
 ## Base
 
-$\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es **[base](../../glossary.md#base)** de $V$ si:
+$\mathcal{B} = \{\vec{v}_1, \ldots, \vec{v}_n\}$ es **[base](../..](../../glossary.md)#base)** de $V$ si:
 1. $\mathcal{B}$ es linealmente independiente
 2. $\text{span}(\mathcal{B}) = V$
 
@@ -68,7 +68,7 @@ donde $\vec{e}_i$ tiene 1 en posición $i$ y 0 en las demás.
 
 ## Dimensión
 
-$$\dim(V) = \text{número de vectores en cualquier [base](../../glossary.md#base) de } V$$
+$$\dim(V) = \text{número de vectores en cualquier [base](../..](../../glossary.md)#base) de } V$$
 
 ### Dimensiones importantes
 - $\dim(\mathbb{R}^n) = n$
@@ -94,7 +94,7 @@ $$P_{\mathcal{B}' \to \mathcal{B}} = \left(P_{\mathcal{B} \to \mathcal{B}'}\righ
 ## Teoremas importantes
 
 ### Teorema de la dimensión para subespacios
-Si $W$ es [subespacio](../../glossary.md#subespacio) de $V$:
+Si $W$ es [subespacio](../..](../../glossary.md)#subespacio) de $V$:
 $$\dim(W) \leq \dim(V)$$
 
 ### Suma de subespacios

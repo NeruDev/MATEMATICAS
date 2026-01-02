@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Métodos para [integral definida](../../../glossary.md#integral-definida).
+Métodos para [integral definida](../../..](../../../glossary.md)#integral-definida).
 
 IA:
 10 métodos prácticos detallados con explicaciones paso a paso.
@@ -25,7 +25,7 @@ format: step_by_step
 ## Método 1: Evaluación Directa usando TFC
 
 ### Cuándo Usar
-Para cualquier integral donde se conoce la [antiderivada](../../../glossary.md#antiderivada).
+Para cualquier integral donde se conoce la [antiderivada](../../..](../../../glossary.md)#antiderivada).
 
 ### Teorema Fundamental del Cálculo
 $$\int_a^b f(x) \, dx = F(b) - F(a) = \left[F(x)\right]_a^b$$
@@ -44,7 +44,7 @@ donde $F'(x) = f(x)$
 
 **Problema:** Calcular $\int_0^2 x^2 \, dx$
 
-**Paso 1:** Encontramos la [antiderivada](../../../glossary.md#antiderivada) de $x^2$:
+**Paso 1:** Encontramos la [antiderivada](../../..](../../../glossary.md)#antiderivada) de $x^2$:
 $$F(x) = \frac{x^3}{3}$$
 
 **Verificación:** $F'(x) = \frac{3x^2}{3} = x^2$ ✓
@@ -63,10 +63,10 @@ $$\int_0^2 x^2 \, dx = F(2) - F(0) = \frac{8}{3} - 0 = \frac{8}{3}$$
 ## Método 2: Sustitución con Cambio de Límites
 
 ### Cuándo Usar
-Integrales definidas que requieren [sustitución](../../../glossary.md#sustitucion) $u = g(x)$.
+Integrales definidas que requieren [sustitución](../../..](../../../glossary.md)#sustitucion) $u = g(x)$.
 
 ### Ventaja del Cambio de Límites
-Al cambiar los [límites](../../../glossary.md#limites) de integración, no es [necesario](../../../glossary.md#necesario) regresar a la variable original.
+Al cambiar los [límites](../../..](../../../glossary.md)#limites) de integración, no es [necesario](../../..](../../../glossary.md)#necesario) regresar a la variable original.
 
 ### Algoritmo de Resolución
 
@@ -92,7 +92,7 @@ $$du = 2x \, dx$$
 
 ¡Perfecto! $2x\,dx$ aparece exactamente en el integrando.
 
-**Paso 3:** Cambiamos los [límites](../../../glossary.md#limites) de integración:
+**Paso 3:** Cambiamos los [límites](../../..](../../../glossary.md)#limites) de integración:
 - Cuando $x = 0$: $u = 0^2 + 1 = 1$
 - Cuando $x = 1$: $u = 1^2 + 1 = 2$
 
@@ -107,7 +107,7 @@ $$\int_1^2 u^3 \, du = \left[\frac{u^4}{4}\right]_1^2 = \frac{2^4}{4} - \frac{1^
 ## Método 3: Simetría para Funciones Pares
 
 ### Cuándo Usar
-- La [función](../../../glossary.md#funcion) satisface $f(-x) = f(x)$
+- La [función](../../..](../../../glossary.md)#funcion) satisface $f(-x) = f(x)$
 - El intervalo de integración es simétrico: $[-a, a]$
 
 ### Fórmula de Simetría Par

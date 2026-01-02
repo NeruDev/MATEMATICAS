@@ -30,7 +30,7 @@ Matemática precisa. LaTeX permitido.
 
 ### Definición intuitiva
 
-El **[límite](../../../glossary.md#limite)** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
+El **[límite](../../..](../../../glossary.md)#limite)** de $f(x)$ cuando $x$ tiende a $a$ es $L$ si los valores de $f(x)$ se aproximan arbitrariamente a $L$ cuando $x$ se aproxima a $a$ (sin ser igual a $a$).
 
 $$\lim_{x \to a} f(x) = L$$
 
@@ -38,13 +38,13 @@ $$\lim_{x \to a} f(x) = L$$
 
 $$\lim_{x \to a} f(x) = L$$
 
-Si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ [tal que](../../../glossary.md#tal-que):
+Si y solo si: para todo $\varepsilon > 0$, existe un $\delta > 0$ [tal que](../../..](../../../glossary.md)#tal-que):
 
 $$0 < |x - a| < \delta \Rightarrow |f(x) - L| < \varepsilon$$
 
 ### Límites laterales
 
-**[Límite](../../../glossary.md#limite) por la derecha:**
+**[Límite](../../..](../../../glossary.md)#limite) por la derecha:**
 $$\lim_{x \to a^+} f(x) = L$$
 ($x$ se aproxima a $a$ desde valores mayores que $a$)
 
@@ -52,7 +52,7 @@ $$\lim_{x \to a^+} f(x) = L$$
 $$\lim_{x \to a^-} f(x) = L$$
 ($x$ se aproxima a $a$ desde valores menores que $a$)
 
-**Teorema:** $\lim_{x \to a} f(x) = L$ existe si y solo si ambos [límites](../../../glossary.md#limites) laterales existen e son iguales.
+**Teorema:** $\lim_{x \to a} f(x) = L$ existe si y solo si ambos [límites](../../..](../../../glossary.md)#limites) laterales existen e son iguales.
 
 ## Intuición
 
@@ -60,7 +60,7 @@ $$\lim_{x \to a^-} f(x) = L$$
 Explicación conceptual, no operativa.
 -->
 
-Piensa en el límite como una pregunta sobre el **[destino](../../../glossary.md#destino)**, no sobre la **llegada**:
+Piensa en el límite como una pregunta sobre el **[destino](../../..](../../../glossary.md)#destino)**, no sobre la **llegada**:
 
 > "¿Hacia dónde va $f(x)$ cuando $x$ se acerca a $a$?"
 
@@ -75,19 +75,19 @@ Errores comunes y confusiones típicas.
 -->
 
 **NO es:**
-- El valor de la [función](../../../glossary.md#funcion) en el punto: $\lim_{x \to a} f(x) \neq f(a)$ (en general)
-- Una [sustitución](../../../glossary.md#sustitucion) directa siempre válida
+- El valor de la [función](../../..](../../../glossary.md)#funcion) en el punto: $\lim_{x \to a} f(x) \neq f(a)$ (en general)
+- Una [sustitución](../../..](../../../glossary.md)#sustitucion) directa siempre válida
 - Un valor que $x$ "alcanza"
 
 **Errores comunes:**
 
-1. **Confundir límite con valor de [función](../../../glossary.md#funcion):**
+1. **Confundir límite con valor de [función](../../..](../../../glossary.md)#funcion):**
    - $f(2)$ puede no existir, pero $\lim_{x \to 2} f(x)$ puede existir
 
 2. **Ignorar formas indeterminadas:**
    - $\frac{0}{0}$ no significa que el límite sea 0 o indefinido
 
-3. **Asumir que [límites](../../../glossary.md#limites) laterales diferentes implican que el límite no existe:**
+3. **Asumir que [límites](../../..](../../../glossary.md)#limites) laterales diferentes implican que el límite no existe:**
    - Correcto, pero debemos verificar ambos lados
 
 ## Representaciones

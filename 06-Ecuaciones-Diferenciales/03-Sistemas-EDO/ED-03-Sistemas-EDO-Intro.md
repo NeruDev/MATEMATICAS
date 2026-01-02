@@ -1,11 +1,11 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)
-file_id: ED-03-Sistemas-[EDO](../../glossary.md#edo)-Intro
+topic_id: ed-03-sistemas-[edo](../..](../../glossary.md)#edo)
+file_id: ED-03-Sistemas-[EDO](../..](../../glossary.md)#edo)-Intro
 status: stable
 audience: student
-requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vectores-propios]
+requires: [ed-02-edo-segundo-[orden](../..](../../glossary.md)#orden), al-valores-vectores-propios]
 -->
 
 
@@ -17,15 +17,15 @@ requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vector
 
 ## Propósito del tema
 
-Resolver sistemas de [ecuaciones diferenciales](../../glossary.md#ecuaciones-diferenciales) usando métodos matriciales, esenciales para modelar sistemas interconectados y analizar estabilidad.
+Resolver sistemas de [ecuaciones diferenciales](../..](../../glossary.md)#ecuaciones-diferenciales) usando métodos matriciales, esenciales para modelar sistemas interconectados y analizar estabilidad.
 
 ## Mapa de recursos
 
 ```
-ED-03-Sistemas-EDO-Intro.md             ← Estás aquí
-ED-03-Resumen-Formulas.md               ← Fórmulas clave para repaso
+[ED-03-Sistemas-EDO-Intro.md](ED-03-Sistemas-EDO-Intro.md)             ← Estás aquí
+[ED-03-Resumen-Formulas.md](ED-03-Resumen-Formulas.md)               ← Fórmulas clave para repaso
 theory/
-  └── ED-03-Teoria-Sistemas-EDO.md      ← Desarrollo completo
+  └── [ED-03-Teoria-Sistemas-EDO.md](ED-03-Teoria-Sistemas-EDO.md)      ← Desarrollo completo
 methods/
   └── [métodos paso a paso]
 problems/
@@ -42,11 +42,11 @@ solutions/
 4. **Valores propios repetidos**: vectores generalizados
 5. **Sistemas no homogéneos**: variación de parámetros
 6. **Retratos de fase**: clasificación de puntos críticos
-7. **[Matriz](../../glossary.md#matriz) exponencial**: $e^{At}$ y solución fundamental
+7. **[Matriz](../..](../../glossary.md)#matriz) exponencial**: $e^{At}$ y solución fundamental
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de segundo [orden](../../glossary.md#orden), [Álgebra lineal](../../glossary.md#algebra-lineal) (eigenvalores)
+- **Prerequisitos**: EDO de segundo [orden](../..](../../glossary.md)#orden), [Álgebra lineal](../..](../../glossary.md)#algebra-lineal) (eigenvalores)
 - **Usos posteriores**: Estabilidad, Control, Modelado de sistemas
 
 ## Vista previa de conceptos clave
@@ -70,6 +70,6 @@ $$\begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{p
 
 <!--
 IA: Punto de entrada para Sistemas de EDO.
-Para fórmulas rápidas: ED-03-Resumen-Formulas.md
+Para fórmulas rápidas: [ED-03-Resumen-Formulas.md](ED-03-Resumen-Formulas.md)
 file_id: ED-03-Sistemas-EDO-Intro
 -->

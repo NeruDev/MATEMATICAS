@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Raíces de Ecuaciones
 
-> **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../../glossary.md#metodos-numericos) para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../../glossary.md#convergencia).
+> **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos) para encontrar [raíces de ecuaciones](../../..](../../../glossary.md)#raices-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../..](../../../glossary.md)#convergencia).
 
 ---
 
@@ -138,7 +138,7 @@ Para $[1,2]$ y $\varepsilon = 10^{-6}$: $n \geq \frac{\ln 1 - \ln(2 \times 10^{-
 
 - Similar a bisección pero potencialmente más rápido
 - Intervalo con cambio de signo conocido
-- [Función](../../../glossary.md#funcion) relativamente lineal
+- [Función](../../..](../../../glossary.md)#funcion) relativamente lineal
 
 ### Fórmula
 
@@ -216,7 +216,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
 ### Interpretación Geométrica
 
-La recta [tangente](../../../glossary.md#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
+La recta [tangente](../../..](../../../glossary.md)#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
 
 ### Algoritmo de Resolución
 
@@ -359,7 +359,7 @@ $$\boxed{x^* \approx 1.52138}$$
 
 ---
 
-**[Orden de convergencia](../../../glossary.md#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
+**[Orden de convergencia](../../..](../../../glossary.md)#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
 
 ---
 
@@ -512,8 +512,8 @@ $$\boxed{x^* = 1 \text{ (convergencia en 1 iteración)}}$$
 ### Cuándo Usar
 
 - Puede encontrar raíces complejas
-- No requiere [derivada](../../../glossary.md#derivada)
-- Usa [interpolación](../../../glossary.md#interpolacion) parabólica
+- No requiere [derivada](../../..](../../../glossary.md)#derivada)
+- Usa [interpolación](../../..](../../../glossary.md)#interpolacion) parabólica
 
 ### Fórmula
 
@@ -584,7 +584,7 @@ $$x = 1, \quad x = -\frac{1}{2} + \frac{\sqrt{3}}{2}i, \quad x = -\frac{1}{2} - 
 ### Cuándo Usar
 
 - Para acelerar punto fijo a convergencia cuadrática
-- Sin calcular [derivada](../../../glossary.md#derivada)
+- Sin calcular [derivada](../../..](../../../glossary.md)#derivada)
 
 ### Fórmula (Aceleración de Aitken)
 
@@ -654,7 +654,7 @@ $$\boxed{x^* \approx 0.56714}$$
 ### Idea Principal
 
 1. Mantener intervalo que encierra la raíz (como bisección)
-2. Usar [interpolación](../../../glossary.md#interpolacion) cuando es seguro y efectivo
+2. Usar [interpolación](../../..](../../../glossary.md)#interpolacion) cuando es seguro y efectivo
 3. Revertir a bisección si el progreso es insuficiente
 
 ### Características
@@ -691,7 +691,7 @@ raiz = brentq(f, 1, 2, xtol=1e-10)
 
 $$\mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}^{-1}(\mathbf{x}_n)\mathbf{F}(\mathbf{x}_n)$$
 
-donde $\mathbf{J}$ es la [matriz](../../../glossary.md#matriz) jacobiana:
+donde $\mathbf{J}$ es la [matriz](../../..](../../../glossary.md)#matriz) jacobiana:
 
 $$J_{ij} = \frac{\partial F_i}{\partial x_j}$$
 
@@ -728,7 +728,7 @@ $\mathbf{J}(\mathbf{x}_0) = \begin{pmatrix} 3 & 3 \\ 1.5 & 1.5 \end{pmatrix}$
 
 Resolver: $\begin{pmatrix} 3 & 3 \\ 1.5 & 1.5 \end{pmatrix}\begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} -0.5 \\ -1.25 \end{pmatrix}$
 
-La [matriz](../../../glossary.md#matriz) es singular en este punto, necesitamos mejor punto inicial.
+La [matriz](../../..](../../../glossary.md)#matriz) es singular en este punto, necesitamos mejor punto inicial.
 
 ---
 

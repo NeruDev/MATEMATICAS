@@ -25,9 +25,9 @@ $$\begin{cases} a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1 \\ a_{21}x_1 + 
 $$Ax = b$$
 
 donde:
-- $A$ = [matriz](../../../glossary.md#matriz) de coeficientes $(m \times n)$
-- $x$ = [vector](../../../glossary.md#vector) de incógnitas $(n \times 1)$
-- $b$ = [vector](../../../glossary.md#vector) de términos independientes $(m \times 1)$
+- $A$ = [matriz](../../..](../../../glossary.md)#matriz) de coeficientes $(m \times n)$
+- $x$ = [vector](../../..](../../../glossary.md)#vector) de incógnitas $(n \times 1)$
+- $b$ = [vector](../../..](../../../glossary.md)#vector) de términos independientes $(m \times 1)$
 
 ### Matriz Aumentada
 
@@ -47,10 +47,10 @@ Estas operaciones no cambian el conjunto solución.
 
 ### Algoritmo de Eliminación
 
-1. Comenzar con la [matriz](../../../glossary.md#matriz) aumentada $(A | b)$.
+1. Comenzar con la [matriz](../../..](../../../glossary.md)#matriz) aumentada $(A | b)$.
 2. Usar operaciones elementales para crear ceros debajo de la diagonal.
 3. Obtener forma escalonada.
-4. Resolver por [sustitución](../../../glossary.md#sustitucion) hacia atrás.
+4. Resolver por [sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás.
 
 ---
 
@@ -105,7 +105,7 @@ Número de variables libres = $n - \text{rango}(A)$
 El **rango** de una matriz $A$ es:
 - El número de pivotes en su forma escalonada
 - El número de filas no nulas en REF
-- La [dimensión](../../../glossary.md#dimension) del espacio fila (o columna)
+- La [dimensión](../../..](../../../glossary.md)#dimension) del espacio fila (o columna)
 
 ### Propiedades
 
@@ -128,18 +128,18 @@ $$Ax = 0$$
 
 ### Propiedades
 
-1. **Siempre tiene solución:** $x = 0$ (solución [trivial](../../../glossary.md#trivial))
-2. **Solución no [trivial](../../../glossary.md#trivial) existe** $\Leftrightarrow \text{rango}(A) < n$
+1. **Siempre tiene solución:** $x = 0$ (solución [trivial](../../..](../../../glossary.md)#trivial))
+2. **Solución no [trivial](../../..](../../../glossary.md)#trivial) existe** $\Leftrightarrow \text{rango}(A) < n$
 3. Si $m < n$ (más incógnitas que ecuaciones), siempre hay solución no trivial
 
 ### Espacio Nulo
 
-El conjunto de todas las soluciones de $Ax = 0$ forma un [subespacio](../../../glossary.md#subespacio) vectorial llamado **espacio nulo** o **kernel** de $A$:
+El conjunto de todas las soluciones de $Ax = 0$ forma un [subespacio](../../..](../../../glossary.md)#subespacio) vectorial llamado **espacio nulo** o **kernel** de $A$:
 $$\text{Nul}(A) = \{x : Ax = 0\}$$
 
-**[Dimensión](../../../glossary.md#dimension):** $\dim(\text{Nul}(A)) = n - \text{rango}(A)$
+**[Dimensión](../../..](../../../glossary.md)#dimension):** $\dim(\text{Nul}(A)) = n - \text{rango}(A)$
 
 ### Solución General
 
-Si $Ax = b$ tiene [solución particular](../../../glossary.md#solucion-particular) $x_p$ y $Ax = 0$ tiene [solución general](../../../glossary.md#solucion-general) $x_h$:
+Si $Ax = b$ tiene [solución particular](../../..](../../../glossary.md)#solucion-particular) $x_p$ y $Ax = 0$ tiene [solución general](../../..](../../../glossary.md)#solucion-general) $x_h$:
 $$x = x_p + x_h$$

@@ -1,9 +1,9 @@
 <!--
 ---
 content_type: problem_set
-topic_id: cd-02-[derivadas](../../../glossary.md#derivadas)
+topic_id: cd-02-[derivadas](../../..](../../../glossary.md)#derivadas)
 file_id: CD-02-Problemas
-title: Problemas de [Derivadas](../../../glossary.md#derivadas)
+title: Problemas de [Derivadas](../../..](../../../glossary.md)#derivadas)
 description: Conjunto de problemas de derivadas organizados por técnica
 difficulty_distribution:
   basico: 15
@@ -20,7 +20,7 @@ total_problems: 55
 
 # Problemas de Derivadas
 
-> **Instrucciones:** Calcula la [derivada](../../../glossary.md#derivada). Simplifica cuando sea posible.
+> **Instrucciones:** Calcula la [derivada](../../..](../../../glossary.md)#derivada). Simplifica cuando sea posible.
 
 ---
 
@@ -60,7 +60,7 @@ Usa la definición para calcular $f'(x)$ si $f(x) = \frac{1}{x}$.
 
 ### [Prob-05] Recta tangente usando la definición ⭐⭐⭐
 
-Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $y = x^2$ en $x = 3$ usando la definición de [derivada](../../../glossary.md#derivada).
+Encuentra la ecuación de la recta [tangente](../../..](../../../glossary.md)#tangente) a $y = x^2$ en $x = 3$ usando la definición de [derivada](../../..](../../../glossary.md)#derivada).
 
 📂 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
 
@@ -324,7 +324,7 @@ Encuentra $\frac{dy}{dx}$ si $e^{xy} = x - y$.
 
 ### [Prob-37] Folio de Descartes: pendiente en punto ⭐⭐⭐
 
-Para $x^3 + y^3 = 6xy$, encuentra la pendiente de la [tangente](../../../glossary.md#tangente) en $(3, 3)$.
+Para $x^3 + y^3 = 6xy$, encuentra la pendiente de la [tangente](../../..](../../../glossary.md)#tangente) en $(3, 3)$.
 
 📂 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 

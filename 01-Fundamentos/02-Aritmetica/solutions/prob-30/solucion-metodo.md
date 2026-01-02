@@ -6,7 +6,7 @@ file_id: FUN-02-Prob-30-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-30]"
-methods: ["estimación por raíz cúbica", "[factorización](../../../../glossary.md#factorizacion) directa", "búsqueda sistemática"]
+methods: ["estimación por raíz cúbica", "[factorización](../../../..](../../../../glossary.md)#factorizacion) directa", "búsqueda sistemática"]
 -->
 
 

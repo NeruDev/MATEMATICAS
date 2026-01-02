@@ -17,7 +17,7 @@ status: active
 
 ## Método 1: Verificar si una Función es Transformación Lineal
 
-**Cuándo Usar:** Para determinar si una [función](../../../glossary.md#funcion) $T: V \to W$ preserva la estructura de [espacio vectorial](../../../glossary.md#espacio-vectorial).
+**Cuándo Usar:** Para determinar si una [función](../../..](../../../glossary.md)#funcion) $T: V \to W$ preserva la estructura de [espacio vectorial](../../..](../../../glossary.md)#espacio-vectorial).
 
 **Definición:** $T$ es lineal si y solo si cumple:
 1. $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ (aditividad)
@@ -38,7 +38,7 @@ status: active
 
 ### Ejemplo Detallado: Transformación Lineal
 
-**Problema:** ¿Es $T: \mathbb{R}^3 \to \mathbb{R}^2$ definida por $T(x, y, z) = (2x - y + z, x + 3y)$ una [transformación lineal](../../../glossary.md#transformacion-lineal)?
+**Problema:** ¿Es $T: \mathbb{R}^3 \to \mathbb{R}^2$ definida por $T(x, y, z) = (2x - y + z, x + 3y)$ una [transformación lineal](../../..](../../../glossary.md)#transformacion-lineal)?
 
 ---
 
@@ -83,7 +83,7 @@ $$= (2cx - cy + cz, cx + 3cy) = c(2x - y + z, x + 3y) = cT(\mathbf{v}) \checkmar
 
 **Conclusión:**
 
-$$\boxed{T \text{ es una [transformación lineal](../../../glossary.md#transformacion-lineal)}}$$
+$$\boxed{T \text{ es una [transformación lineal](../../..](../../../glossary.md)#transformacion-lineal)}}$$
 
 ---
 
@@ -97,7 +97,7 @@ $$\boxed{T \text{ es una [transformación lineal](../../../glossary.md#transform
 
 $$T(0, 0) = (0 + 1, 0^2) = (1, 0) \neq (0, 0)$$
 
-$$\boxed{T \text{ NO es lineal (falla en el [vector](../../../glossary.md#vector) cero)}}$$
+$$\boxed{T \text{ NO es lineal (falla en el [vector](../../..](../../../glossary.md)#vector) cero)}}$$
 
 ---
 
@@ -119,12 +119,12 @@ $$\boxed{T \text{ NO es lineal (falla aditividad)}}$$
 
 ## Método 2: Encontrar el Núcleo de una Transformación
 
-**Cuándo Usar:** Para hallar todos los vectores que $T$ envía al [vector](../../../glossary.md#vector) cero.
+**Cuándo Usar:** Para hallar todos los vectores que $T$ envía al [vector](../../..](../../../glossary.md)#vector) cero.
 
 **Definición:** $\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}$
 
 **Propiedades:**
-- $\ker(T)$ es [subespacio](../../../glossary.md#subespacio) de $V$
+- $\ker(T)$ es [subespacio](../../..](../../../glossary.md)#subespacio) de $V$
 - $\dim(\ker(T)) =$ nulidad de $T$
 - $T$ inyectiva $\Leftrightarrow \ker(T) = \{\mathbf{0}\}$
 
@@ -141,7 +141,7 @@ $$\boxed{T \text{ NO es lineal (falla aditividad)}}$$
 
 ### Ejemplo Detallado
 
-**Problema:** Encontrar $\ker(T)$ y su [base](../../../glossary.md#base) para $T: \mathbb{R}^4 \to \mathbb{R}^3$ definida por:
+**Problema:** Encontrar $\ker(T)$ y su [base](../../..](../../../glossary.md)#base) para $T: \mathbb{R}^4 \to \mathbb{R}^3$ definida por:
 $$T(x_1, x_2, x_3, x_4) = (x_1 + x_2 - x_3, 2x_1 + x_2 + x_4, x_1 - x_3 + x_4)$$
 
 ---
@@ -156,7 +156,7 @@ x_1 - x_3 + x_4 = 0
 
 ---
 
-**Paso 2: Formar [matriz](../../../glossary.md#matriz) aumentada**
+**Paso 2: Formar [matriz](../../..](../../../glossary.md)#matriz) aumentada**
 
 $$\left(\begin{array}{cccc|c}
 1 & 1 & -1 & 0 & 0 \\
@@ -244,12 +244,12 @@ $$T(-1, 1, 0, 1) = (-1 + 1 - 0, 2(-1) + 1 + 1, -1 - 0 + 1) = (0, 0, 0) \checkmar
 
 ## Método 3: Encontrar la Imagen de una Transformación
 
-**Cuándo Usar:** Para hallar el conjunto de todos los vectores que son imagen de algún vector del [dominio](../../../glossary.md#dominio).
+**Cuándo Usar:** Para hallar el conjunto de todos los vectores que son imagen de algún vector del [dominio](../../..](../../../glossary.md)#dominio).
 
 **Definición:** $\text{Im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\} = \{w \in W : \exists v \in V, T(v) = w\}$
 
 **Propiedades:**
-- $\text{Im}(T)$ es [subespacio](../../../glossary.md#subespacio) de $W$
+- $\text{Im}(T)$ es [subespacio](../../..](../../../glossary.md)#subespacio) de $W$
 - $\dim(\text{Im}(T)) =$ rango de $T$
 - $T$ sobreyectiva $\Leftrightarrow \text{Im}(T) = W$
 
@@ -482,12 +482,12 @@ $$\boxed{T(4, 2) = (10, 5)}$$
 
 ## Método 6: Encontrar la Matriz de Composición
 
-**Cuándo Usar:** Para encontrar la matriz que representa la [composición](../../../glossary.md#composicion) $S \circ T$.
+**Cuándo Usar:** Para encontrar la matriz que representa la [composición](../../..](../../../glossary.md)#composicion) $S \circ T$.
 
 **Fórmula:** 
 $$[S \circ T]_{\mathcal{B}}^{\mathcal{D}} = [S]_{\mathcal{C}}^{\mathcal{D}} \cdot [T]_{\mathcal{B}}^{\mathcal{C}}$$
 
-**Nota:** El [orden](../../../glossary.md#orden) de multiplicación es inverso al orden de aplicación.
+**Nota:** El [orden](../../..](../../../glossary.md)#orden) de multiplicación es inverso al orden de aplicación.
 
 ### Algoritmo de Resolución
 
@@ -553,8 +553,8 @@ $$S(x + y, y + z) = (2(x+y) - (y+z), 3(y+z)) = (2x + y - z, 3y + 3z) \checkmark$
 
 **Definiciones:**
 - **Inyectiva (uno a uno):** $T(\mathbf{u}) = T(\mathbf{v}) \Rightarrow \mathbf{u} = \mathbf{v}$
-- **Sobreyectiva (sobre):** Para todo $\mathbf{w} \in W$, existe $\mathbf{v} \in V$ [tal que](../../../glossary.md#tal-que) $T(\mathbf{v}) = \mathbf{w}$
-- **Biyectiva ([isomorfismo](../../../glossary.md#isomorfismo)):** Inyectiva y sobreyectiva
+- **Sobreyectiva (sobre):** Para todo $\mathbf{w} \in W$, existe $\mathbf{v} \in V$ [tal que](../../..](../../../glossary.md)#tal-que) $T(\mathbf{v}) = \mathbf{w}$
+- **Biyectiva ([isomorfismo](../../..](../../../glossary.md)#isomorfismo)):** Inyectiva y sobreyectiva
 
 ### Criterios Algebraicos
 
@@ -601,7 +601,7 @@ $$\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
 
 **Conclusión:**
 
-$$\boxed{T \text{ es un [isomorfismo](../../../glossary.md#isomorfismo) (biyectiva)}}$$
+$$\boxed{T \text{ es un [isomorfismo](../../..](../../../glossary.md)#isomorfismo) (biyectiva)}}$$
 
 ---
 
@@ -698,7 +698,7 @@ Eigenvalores: $\lambda_1 = 5$, $\lambda_2 = 2$ ✓
 
 ## Método 9: Verificar si T es Isomorfismo
 
-**Cuándo Usar:** Para determinar si dos [espacios vectoriales](../../../glossary.md#espacios-vectoriales) son estructuralmente idénticos.
+**Cuándo Usar:** Para determinar si dos [espacios vectoriales](../../..](../../../glossary.md)#espacios-vectoriales) son estructuralmente idénticos.
 
 **Definición:** $T: V \to W$ es isomorfismo si es:
 1. Transformación lineal
@@ -721,7 +721,7 @@ Eigenvalores: $\lambda_1 = 5$, $\lambda_2 = 2$ ✓
 
 ---
 
-**Paso 1: Verificar [linealidad](../../../glossary.md#linealidad)**
+**Paso 1: Verificar [linealidad](../../..](../../../glossary.md)#linealidad)**
 
 Sean $p(x) = a_1 + b_1x + c_1x^2$ y $q(x) = a_2 + b_2x + c_2x^2$.
 
@@ -745,7 +745,7 @@ $$[T] = \begin{pmatrix} 1 & 0 & 0 \\ 1 & 1 & 0 \\ 1 & 1 & 1 \end{pmatrix}$$
 
 ---
 
-**Paso 3: Calcular [determinante](../../../glossary.md#determinante)**
+**Paso 3: Calcular [determinante](../../..](../../../glossary.md)#determinante)**
 
 $$\det([T]) = 1 \cdot \det\begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix} = 1 \cdot (1 - 0) = 1 \neq 0$$
 
@@ -807,7 +807,7 @@ $$= (2u - 2v + 2v - u, u - v + 2v - u) = (u, v) \checkmark$$
 
 ## Método 11: Teorema Rango-Nulidad para Transformaciones
 
-**Cuándo Usar:** Para relacionar dimensiones del núcleo e imagen con la [dimensión](../../../glossary.md#dimension) del dominio.
+**Cuándo Usar:** Para relacionar dimensiones del núcleo e imagen con la [dimensión](../../..](../../../glossary.md)#dimension) del dominio.
 
 **Teorema:** Para $T: V \to W$ lineal:
 $$\dim(\ker(T)) + \dim(\text{Im}(T)) = \dim(V)$$

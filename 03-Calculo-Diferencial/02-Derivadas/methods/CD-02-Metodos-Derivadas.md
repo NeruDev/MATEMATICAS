@@ -120,7 +120,7 @@ $$f(x) = x^2 + 3x, \quad g(x) = 2x^3 - x$$
 
 ---
 
-**Paso 2: Calcular [derivadas](../../../glossary.md#derivadas)**
+**Paso 2: Calcular [derivadas](../../..](../../../glossary.md)#derivadas)**
 
 $$f'(x) = 2x + 3$$
 $$g'(x) = 6x^2 - 1$$
@@ -160,7 +160,7 @@ $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cd
 
 ### Nemotecnia
 
-> "Lo de abajo por la [derivada](../../../glossary.md#derivada) de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
+> "Lo de abajo por la [derivada](../../..](../../../glossary.md)#derivada) de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
 
 ### Algoritmo de Resolución
 
@@ -246,7 +246,7 @@ $$g'(x) = 6x + 2$$
 
 ---
 
-**Paso 3: Aplicar [regla de la cadena](../../../glossary.md#regla-de-la-cadena)**
+**Paso 3: Aplicar [regla de la cadena](../../..](../../../glossary.md)#regla-de-la-cadena)**
 
 $$h'(x) = f'(g(x)) \cdot g'(x)$$
 $$= 5(3x^2 + 2x - 1)^4 \cdot (6x + 2)$$
@@ -441,7 +441,7 @@ $$\boxed{\frac{dy}{dx} = \frac{x^2\sqrt{x+1}}{(2x-3)^4}\left(\frac{2}{x} + \frac
 
 ## Método 7: Derivadas de Funciones Trigonométricas
 
-**Cuándo Usar:** Funciones que involucran [seno](../../../glossary.md#seno), [coseno](../../../glossary.md#coseno), [tangente](../../../glossary.md#tangente), etc.
+**Cuándo Usar:** Funciones que involucran [seno](../../..](../../../glossary.md)#seno), [coseno](../../..](../../../glossary.md)#coseno), [tangente](../../..](../../../glossary.md)#tangente), etc.
 
 ### Tabla de Derivadas Trigonométricas
 
@@ -631,7 +631,7 @@ $$\boxed{f'(x) = 3x^2 \text{sech}^2(x^3)}$$
 
 ## Método 11: Derivadas de Orden Superior
 
-**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de [concavidad](../../../glossary.md#concavidad), aceleración, etc.
+**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de [concavidad](../../..](../../../glossary.md)#concavidad), aceleración, etc.
 
 ### Algoritmo de Resolución
 

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheat-sheet
-topic_id: al-02-[determinantes](../../glossary.md#determinantes)
+topic_id: al-02-[determinantes](../..](../../glossary.md)#determinantes)
 file_id: AL-02-Resumen-Formulas
 status: stable
 audience: student
@@ -24,7 +24,7 @@ $$\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = aei + 
 ## Menores y Cofactores
 
 ### Menor $M_{ij}$
-[Determinante](../../glossary.md#determinante) de la submatriz que resulta de eliminar fila $i$ y columna $j$.
+[Determinante](../..](../../glossary.md)#determinante) de la submatriz que resulta de eliminar fila $i$ y columna $j$.
 
 ### Cofactor $C_{ij}$
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
@@ -58,7 +58,7 @@ $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 - $\det(AB) = \det(A) \cdot \det(B)$
 - $\det(A^T) = \det(A)$
 - $\det(A^{-1}) = \frac{1}{\det(A)}$
-- $\det(kA) = k^n \det(A)$ para [matriz](../../glossary.md#matriz) $n \times n$
+- $\det(kA) = k^n \det(A)$ para [matriz](../..](../../glossary.md)#matriz) $n \times n$
 - $\det(I) = 1$
 
 ## Matriz adjunta

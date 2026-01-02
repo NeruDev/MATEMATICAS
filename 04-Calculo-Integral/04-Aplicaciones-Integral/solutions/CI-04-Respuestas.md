@@ -68,4 +68,4 @@ solved_detailed: 0
 | [Prob-44] | $20$ °C | ➖ |
 | [Prob-45] | $20$ m/s | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/CI-04-Problemas.md`](../problems/CI-04-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CI-04-Problemas.md](../problems/CI-04-Problemas.md)

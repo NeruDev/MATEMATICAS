@@ -115,7 +115,7 @@ $$\boxed{(3x - 5)(2x + 7) = 6x^2 + 11x - 35}$$
 
 ## Método 3: División Sintética (Ruffini)
 
-**Cuándo Usar:** Para dividir un [polinomio](../../../glossary.md#polinomio) entre $(x - c)$ de manera eficiente.
+**Cuándo Usar:** Para dividir un [polinomio](../../..](../../../glossary.md)#polinomio) entre $(x - c)$ de manera eficiente.
 
 ### Algoritmo de Resolución
 
@@ -188,11 +188,11 @@ $$\boxed{\text{Cociente: } 2x^3 + x^2 + 2x - 1, \quad \text{Residuo: } 5}$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../../glossary.md#factorizar) $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
+**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
 
 ---
 
-**Paso 1: [MCD](../../../glossary.md#mcd) de coeficientes**
+**Paso 1: [MCD](../../..](../../../glossary.md)#mcd) de coeficientes**
 
 $$\text{MCD}(18, 24, 30) = 6$$
 
@@ -248,7 +248,7 @@ $$a^2 - 2ab + b^2 = (a - b)^2$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../../glossary.md#factorizar) $9x^2 - 30xy + 25y^2$
+**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) $9x^2 - 30xy + 25y^2$
 
 ---
 
@@ -496,7 +496,7 @@ $$\boxed{(3x + 5y^2)(9x^2 - 15xy^2 + 25y^4)}$$
 
 ---
 
-**Paso 1: Calcular [MCM](../../../glossary.md#mcm) de denominadores**
+**Paso 1: Calcular [MCM](../../..](../../../glossary.md)#mcm) de denominadores**
 
 $$\text{MCM}(3, 4, 6) = 12$$
 
@@ -741,7 +741,7 @@ $$\begin{cases} x + y + z = 6 \\ 2x - y + z = 3 \\ x + 2y - z = 2 \end{cases}$$
 
 ---
 
-**Paso 1: [Matriz](../../../glossary.md#matriz) aumentada**
+**Paso 1: [Matriz](../../..](../../../glossary.md)#matriz) aumentada**
 
 $$\left[\begin{array}{ccc|c} 1 & 1 & 1 & 6 \\ 2 & -1 & 1 & 3 \\ 1 & 2 & -1 & 2 \end{array}\right]$$
 
@@ -759,7 +759,7 @@ $$\left[\begin{array}{ccc|c} 1 & 1 & 1 & 6 \\ 0 & -3 & -1 & -9 \\ 0 & 0 & -7 & -
 
 ---
 
-**Paso 4: [Sustitución](../../../glossary.md#sustitucion) hacia atrás**
+**Paso 4: [Sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás**
 
 De la tercera fila: $-7z = -21 \Rightarrow z = 3$
 

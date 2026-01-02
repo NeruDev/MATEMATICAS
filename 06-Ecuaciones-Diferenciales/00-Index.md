@@ -11,7 +11,7 @@ status: active
 
 # Ecuaciones Diferenciales
 
-Módulo dedicado al estudio de [ecuaciones diferenciales](../glossary.md#ecuaciones-diferenciales) ordinarias y sus [métodos de solución](../glossary.md#metodos-de-solucion).
+Módulo dedicado al estudio de [ecuaciones diferenciales](..](../glossary.md)#ecuaciones-diferenciales) ordinarias y sus [métodos de solución](..](../glossary.md)#metodos-de-solucion).
 
 ## Contenido
 
@@ -25,6 +25,6 @@ Módulo dedicado al estudio de [ecuaciones diferenciales](../glossary.md#ecuacio
 
 ## Prerrequisitos
 
-- [Cálculo diferencial](../glossary.md#calculo-diferencial)
-- [Cálculo integral](../glossary.md#calculo-integral)
-- [Álgebra lineal](../glossary.md#algebra-lineal) (recomendado)
+- [Cálculo diferencial](..](../glossary.md)#calculo-diferencial)
+- [Cálculo integral](..](../glossary.md)#calculo-integral)
+- [Álgebra lineal](..](../glossary.md)#algebra-lineal) (recomendado)

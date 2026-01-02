@@ -5,7 +5,7 @@ topic_id: cv-02-curvas-parametricas-polares
 file_id: CV-02-Teoria-Curvas
 status: stable
 audience: student
-requires: [CD-02-[Derivadas](../../../glossary.md#derivadas), FUN-05-Trigonometria]
+requires: [CD-02-[Derivadas](../../..](../../../glossary.md)#derivadas), FUN-05-Trigonometria]
 -->
 
 
@@ -20,7 +20,7 @@ requires: [CD-02-[Derivadas](../../../glossary.md#derivadas), FUN-05-Trigonometr
 ## 2.1 Ecuaciones paramétricas
 
 ### Concepto intuitivo
-Una **curva paramétrica** describe la posición de un punto en el plano como [función](../../../glossary.md#funcion) de un parámetro $t$ (que frecuentemente representa el tiempo). En lugar de expresar $y$ directamente en función de $x$, ambas coordenadas dependen de $t$.
+Una **curva paramétrica** describe la posición de un punto en el plano como [función](../../..](../../../glossary.md)#funcion) de un parámetro $t$ (que frecuentemente representa el tiempo). En lugar de expresar $y$ directamente en función de $x$, ambas coordenadas dependen de $t$.
 
 ### Definición formal
 Una **curva paramétrica plana** es el conjunto de puntos $(x, y)$ donde:
@@ -54,12 +54,12 @@ Para obtener la ecuación cartesiana:
 
 ### Tangentes a curvas paramétricas
 
-La **pendiente de la recta [tangente](../../../glossary.md#tangente)** en un punto de la curva es:
+La **pendiente de la recta [tangente](../../..](../../../glossary.md)#tangente)** en un punto de la curva es:
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{y'(t)}{x'(t)}$$
 
 siempre que $x'(t) \neq 0$.
 
-**Segunda [derivada](../../../glossary.md#derivada)** (para [concavidad](../../../glossary.md#concavidad)):
+**Segunda [derivada](../../..](../../../glossary.md)#derivada)** (para [concavidad](../../..](../../../glossary.md)#concavidad)):
 $$\frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{dx/dt}$$
 
 ### Clasificación de tangentes
@@ -91,7 +91,7 @@ $$A = \int_a^b y(t) \cdot x'(t)\, dt$$
 o equivalentemente:
 $$A = -\int_a^b x(t) \cdot y'(t)\, dt$$
 
-**Nota**: El signo depende de la orientación; tomar valor absoluto si es [necesario](../../../glossary.md#necesario).
+**Nota**: El signo depende de la orientación; tomar valor absoluto si es [necesario](../../..](../../../glossary.md)#necesario).
 
 ### Área encerrada por una curva cerrada
 
@@ -180,7 +180,7 @@ $$A = \frac{1}{2}\int_\alpha^\beta r^2\, d\theta = \frac{1}{2}\int_\alpha^\beta 
 Si $r_{\text{int}} \leq r_{\text{ext}}$ para $\theta \in [\alpha, \beta]$:
 $$A = \frac{1}{2}\int_\alpha^\beta \left[ r_{\text{ext}}^2 - r_{\text{int}}^2 \right] d\theta$$
 
-**Importante**: Identificar correctamente los [límites](../../../glossary.md#limites) de integración encontrando los puntos de intersección.
+**Importante**: Identificar correctamente los [límites](../../..](../../../glossary.md)#limites) de integración encontrando los puntos de intersección.
 
 ### Intersección de curvas polares
 
@@ -250,6 +250,6 @@ $$S = 2\pi \int_a^b x(t) \sqrt{[x'(t)]^2 + [y'(t)]^2}\, dt$$
 <!--
 IA: Esta teoría cubre los subtemas principales de curvas paramétricas y polares.
 Usa las definiciones y fórmulas aquí como referencia canónica.
-Al generar problemas, asegura [dominio](../../../glossary.md#dominio) de cada sección antes de avanzar.
+Al generar problemas, asegura [dominio](../../..](../../../glossary.md)#dominio) de cada sección antes de avanzar.
 file_id: CV-02-Teoria-Curvas
 -->

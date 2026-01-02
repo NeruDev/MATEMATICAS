@@ -24,7 +24,7 @@ Una **ecuación bicuadrática** tiene la forma:
 
 $$ax^4 + bx^2 + c = 0$$
 
-Se resuelve mediante la **[sustitución](../../../../glossary.md#sustitucion)** $u = x^2$, lo que la convierte en una ecuación cuadrática en $u$.
+Se resuelve mediante la **[sustitución](../../../..](../../../../glossary.md)#sustitucion)** $u = x^2$, lo que la convierte en una ecuación cuadrática en $u$.
 
 ---
 
@@ -171,7 +171,7 @@ $$(-2)^4 - 5(-2)^2 + 4 = 16 - 20 + 4 = 0 \quad \checkmark$$
 
 ## Representación gráfica
 
-La [función](../../../../glossary.md#funcion) $f(x) = x^4 - 5x^2 + 4$ es un [polinomio](../../../../glossary.md#polinomio) de grado 4:
+La [función](../../../..](../../../../glossary.md)#funcion) $f(x) = x^4 - 5x^2 + 4$ es un [polinomio](../../../..](../../../../glossary.md)#polinomio) de grado 4:
 
 ```
      y
@@ -244,7 +244,7 @@ Como $\Delta > 0$, hay dos valores distintos de $u$. Como ambos son positivos ($
 
 ## Errores comunes a evitar
 
-⚠️ **Error 1:** Olvidar el signo $\pm$ al deshacer la [sustitución](../../../../glossary.md#sustitucion).
+⚠️ **Error 1:** Olvidar el signo $\pm$ al deshacer la [sustitución](../../../..](../../../../glossary.md)#sustitucion).
 
 Si $u = 4$, entonces $x = \pm 2$, no solo $x = 2$.
 
@@ -262,7 +262,7 @@ $$\boxed{x = -2, \quad x = -1, \quad x = 1, \quad x = 2}$$
 
 **Conjunto solución:** $\{-2, -1, 1, 2\}$
 
-**[Factorización](../../../../glossary.md#factorizacion) completa:**
+**[Factorización](../../../..](../../../../glossary.md)#factorizacion) completa:**
 
 $$x^4 - 5x^2 + 4 = (x + 2)(x + 1)(x - 1)(x - 2)$$
 

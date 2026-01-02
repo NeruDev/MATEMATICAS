@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Transformada de Laplace
 
-> **Referencia rápida:** Esta guía presenta 12 métodos sistemáticos para aplicar la [Transformada de Laplace](../../../glossary.md#transformada-de-laplace) en la resolución de [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales).
+> **Referencia rápida:** Esta guía presenta 12 métodos sistemáticos para aplicar la [Transformada de Laplace](../../..](../../../glossary.md)#transformada-de-laplace) en la resolución de [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales).
 
 ---
 
@@ -57,8 +57,8 @@ status: active
 
 ### Cuándo Usar
 
-- La [función](../../../glossary.md#funcion) es [combinación lineal](../../../glossary.md#combinacion-lineal) de funciones de la tabla
-- Aplicar [linealidad](../../../glossary.md#linealidad): $\mathcal{L}\{af + bg\} = aF + bG$
+- La [función](../../..](../../../glossary.md)#funcion) es [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal) de funciones de la tabla
+- Aplicar [linealidad](../../..](../../../glossary.md)#linealidad): $\mathcal{L}\{af + bg\} = aF + bG$
 
 ### Algoritmo de Resolución
 
@@ -79,7 +79,7 @@ status: active
 
 - $3t^2$: potencia
 - $-5e^{-2t}$: exponencial
-- $4\sin 3t$: [seno](../../../glossary.md#seno)
+- $4\sin 3t$: [seno](../../..](../../../glossary.md)#seno)
 - $2$: constante
 
 ---
@@ -96,7 +96,7 @@ $$\mathcal{L}\{1\} = \frac{1}{s}$$
 
 ---
 
-**Paso 3: Aplicar [linealidad](../../../glossary.md#linealidad)**
+**Paso 3: Aplicar [linealidad](../../..](../../../glossary.md)#linealidad)**
 
 $$\mathcal{L}\{f(t)\} = 3 \cdot \frac{2}{s^3} - 5 \cdot \frac{1}{s+2} + 4 \cdot \frac{3}{s^2+9} + 2 \cdot \frac{1}{s}$$
 
@@ -347,7 +347,7 @@ $$\boxed{f(t) = \frac{10}{9}(e^t - e^{-2t}) - \frac{1}{3}te^{-2t}}$$
 ### Cuándo Usar
 
 - Denominador cuadrático que no factoriza fácilmente
-- Para obtener formas de [seno](../../../glossary.md#seno)/[coseno](../../../glossary.md#coseno) amortiguado
+- Para obtener formas de [seno](../../..](../../../glossary.md)#seno)/[coseno](../../..](../../../glossary.md)#coseno) amortiguado
 
 ### Fórmula
 
@@ -415,7 +415,7 @@ $$\boxed{f(t) = 2e^{-2t}\cos 3t + \frac{1}{3}e^{-2t}\sin 3t = e^{-2t}\left(2\cos
 
 ### Cuándo Usar
 
-- [EDO](../../../glossary.md#edo) lineal con coeficientes constantes
+- [EDO](../../..](../../../glossary.md)#edo) lineal con coeficientes constantes
 - Condiciones iniciales dadas
 - Especialmente útil para entradas discontinuas
 
@@ -465,7 +465,7 @@ $$Y(s) = \frac{2s+3}{(s+1)^2(s+3)}$$
 
 ---
 
-**Paso 4: [Fracciones parciales](../../../glossary.md#fracciones-parciales)**
+**Paso 4: [Fracciones parciales](../../..](../../../glossary.md)#fracciones-parciales)**
 
 $$\frac{2s+3}{(s+1)^2(s+3)} = \frac{A}{s+1} + \frac{B}{(s+1)^2} + \frac{C}{s+3}$$
 
@@ -555,7 +555,7 @@ $$Y(s) = \frac{1 - e^{-2s}}{s(s+1)}$$
 
 ---
 
-**Paso 4: [Fracciones parciales](../../../glossary.md#fracciones-parciales)**
+**Paso 4: [Fracciones parciales](../../..](../../../glossary.md)#fracciones-parciales)**
 
 $$\frac{1}{s(s+1)} = \frac{1}{s} - \frac{1}{s+1}$$
 
@@ -647,12 +647,12 @@ $$\boxed{y(t) = -2\sin(t)u(t-\pi) = \begin{cases} 0 & 0 \leq t < \pi \\ -2\sin t
 
 ### Cuándo Usar
 
-- $F(s) = G(s) \cdot H(s)$ y es difícil [factorizar](../../../glossary.md#factorizar)
+- $F(s) = G(s) \cdot H(s)$ y es difícil [factorizar](../../..](../../../glossary.md)#factorizar)
 - Para resolver ecuaciones integro-diferenciales
 
 ### Fórmulas
 
-**[Convolución](../../../glossary.md#convolucion):**
+**[Convolución](../../..](../../../glossary.md)#convolucion):**
 $$(f * g)(t) = \int_0^t f(\tau)g(t-\tau)\,d\tau$$
 
 **Teorema:**
@@ -674,7 +674,7 @@ $$\mathcal{L}^{-1}\{F(s)G(s)\} = f * g$$
 
 ---
 
-**Paso 1: [Factorizar](../../../glossary.md#factorizar)**
+**Paso 1: [Factorizar](../../..](../../../glossary.md)#factorizar)**
 
 $$\frac{1}{(s^2+1)^2} = \frac{1}{s^2+1} \cdot \frac{1}{s^2+1}$$
 
@@ -688,7 +688,7 @@ $g(t) = h(t) = \sin t$
 
 ---
 
-**Paso 3: Calcular [convolución](../../../glossary.md#convolucion)**
+**Paso 3: Calcular [convolución](../../..](../../../glossary.md)#convolucion)**
 
 $$f(t) = \int_0^t \sin\tau \sin(t-\tau)\,d\tau$$
 
@@ -827,7 +827,7 @@ $$\mathcal{L}\{tf(t)\} = -\frac{dF(s)}{ds}$$
 
 ---
 
-**Método 1: Usando [derivada](../../../glossary.md#derivada)**
+**Método 1: Usando [derivada](../../..](../../../glossary.md)#derivada)**
 
 **Paso 1:** $f(t) = e^{3t}$, $n = 2$
 

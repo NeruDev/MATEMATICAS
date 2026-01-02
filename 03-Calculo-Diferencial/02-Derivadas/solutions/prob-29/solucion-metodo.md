@@ -2,8 +2,8 @@
 ---
 type: solution
 problem-id: CD-02-29
-topic: [Derivadas](../../../../glossary.md#derivadas)
-subtopic: [Regla de la cadena](../../../../glossary.md#regla-de-la-cadena)
+topic: [Derivadas](../../../..](../../../../glossary.md)#derivadas)
+subtopic: [Regla de la cadena](../../../..](../../../../glossary.md)#regla-de-la-cadena)
 difficulty: avanzado
 tags: [derivada, cadena-triple, funciones-compuestas, trigonométricas]
 created: 2024-12-22
@@ -19,7 +19,7 @@ created: 2024-12-22
 
 ## Problema
 
-Derivar $g(x) = \sin(\cos(\tan x))$ aplicando la [regla de la cadena](../../../../glossary.md#regla-de-la-cadena) tres veces.
+Derivar $g(x) = \sin(\cos(\tan x))$ aplicando la [regla de la cadena](../../../..](../../../../glossary.md)#regla-de-la-cadena) tres veces.
 
 ---
 
@@ -27,7 +27,7 @@ Derivar $g(x) = \sin(\cos(\tan x))$ aplicando la [regla de la cadena](../../../.
 
 ### Paso 1: Identificar la estructura de composición
 
-La [función](../../../../glossary.md#funcion) es una [composición](../../../../glossary.md#composicion) de tres funciones:
+La [función](../../../..](../../../../glossary.md)#funcion) es una [composición](../../../..](../../../../glossary.md)#composicion) de tres funciones:
 
 $$g(x) = (f \circ h \circ k)(x) = f(h(k(x)))$$
 
@@ -41,11 +41,11 @@ Donde:
 
 ### Paso 2: Establecer la regla de la cadena generalizada
 
-Para una [composición](../../../../glossary.md#composicion) triple $f(h(k(x)))$:
+Para una [composición](../../../..](../../../../glossary.md)#composicion) triple $f(h(k(x)))$:
 
 $$\frac{d}{dx}[f(h(k(x)))] = f'(h(k(x))) \cdot h'(k(x)) \cdot k'(x)$$
 
-> **Regla mnemotécnica**: "[Derivada](../../../../glossary.md#derivada) de la externa evaluada en lo de adentro, por derivada de la media evaluada en lo más interno, por derivada de la interna."
+> **Regla mnemotécnica**: "[Derivada](../../../..](../../../../glossary.md)#derivada) de la externa evaluada en lo de adentro, por derivada de la media evaluada en lo más interno, por derivada de la interna."
 
 ### Paso 3: Calcular cada factor
 
@@ -131,7 +131,7 @@ $$g'(x) = \sec^2 x \times (-\sin(\tan x)) \times \cos(\cos(\tan x))$$
 
 ## Notas adicionales
 
-> **[Generalización](../../../../glossary.md#generalizacion)**: Para $n$ funciones compuestas $f_1(f_2(\cdots f_n(x)))$:
+> **[Generalización](../../../..](../../../../glossary.md)#generalizacion)**: Para $n$ funciones compuestas $f_1(f_2(\cdots f_n(x)))$:
 > $$\frac{d}{dx} = f_1'(f_2(\cdots)) \cdot f_2'(f_3(\cdots)) \cdots f_n'(x)$$
 
-> **[Dominio](../../../../glossary.md#dominio)**: La derivada existe donde $\cos x \neq 0$, es decir, $x \neq \dfrac{\pi}{2} + k\pi$ para $k \in \mathbb{Z}$.
+> **[Dominio](../../../..](../../../../glossary.md)#dominio)**: La derivada existe donde $\cos x \neq 0$, es decir, $x \neq \dfrac{\pi}{2} + k\pi$ para $k \in \mathbb{Z}$.

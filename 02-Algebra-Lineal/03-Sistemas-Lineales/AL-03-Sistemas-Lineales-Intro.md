@@ -53,7 +53,7 @@ Los sistemas de ecuaciones lineales aparecen en prácticamente todas las áreas 
 ## Prerequisitos
 
 - [01-Matrices](../01-Matrices/AL-01-Matrices-Intro.md): Operaciones matriciales
-- [02-Determinantes](../02-[Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
+- [02-Determinantes](../02-[Determinantes](../..](../../glossary.md)#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
 
 ## Conexiones
 

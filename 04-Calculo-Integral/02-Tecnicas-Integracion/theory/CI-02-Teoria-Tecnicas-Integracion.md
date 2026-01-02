@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría de [técnicas de integración](../../../glossary.md#tecnicas-de-integracion).
+Teoría de [técnicas de integración](../../..](../../../glossary.md)#tecnicas-de-integracion).
 
 IA:
 Desarrolla cada técnica con ejemplos.
@@ -25,7 +25,7 @@ audience: self-study
 ## 2.1 Sustitución (Cambio de Variable)
 
 ### Teorema Fundamental
-Si $u = g(x)$ es una [función](../../../glossary.md#funcion) diferenciable y $f$ es continua en el rango de $g$, entonces:
+Si $u = g(x)$ es una [función](../../..](../../../glossary.md)#funcion) diferenciable y $f$ es continua en el rango de $g$, entonces:
 
 $$\boxed{\int f(g(x)) \cdot g'(x) \, dx = \int f(u) \, du}$$
 
@@ -53,7 +53,7 @@ Si $u$ y $v$ son funciones diferenciables:
 $$\boxed{\int u \, dv = uv - \int v \, du}$$
 
 ### Regla LIATE
-Para elegir $u$ (en [orden](../../../glossary.md#orden) de preferencia):
+Para elegir $u$ (en [orden](../../..](../../../glossary.md)#orden) de preferencia):
 1. **L**ogarítmicas: $\ln x$, $\log x$
 2. **I**nversas trigonométricas: $\arctan x$, $\arcsin x$
 3. **A**lgebraicas: $x^n$, polinomios
@@ -133,7 +133,7 @@ $$= \int \frac{2\cos\theta \, d\theta}{2\cos\theta} = \int d\theta = \theta + C 
 ## 2.5 Fracciones Parciales
 
 ### Requisito
-El grado del numerador debe ser **[menor](../../../glossary.md#menor)** que el grado del denominador. Si no, hacer división de polinomios primero.
+El grado del numerador debe ser **[menor](../../..](../../../glossary.md)#menor)** que el grado del denominador. Si no, hacer división de polinomios primero.
 
 ### Tipos de Descomposición
 
@@ -203,15 +203,15 @@ $$= 2(u - \ln\lvert u+1\rvert) + C = 2\sqrt{x} - 2\ln(\sqrt{x}+1) + C$$
 
 1. **¿Es integral básica?** → Usar tabla de fórmulas
 
-2. **¿Hay [composición](../../../glossary.md#composicion) de funciones?** → Intentar [sustitución](../../../glossary.md#sustitucion)
+2. **¿Hay [composición](../../..](../../../glossary.md)#composicion) de funciones?** → Intentar [sustitución](../../..](../../../glossary.md)#sustitucion)
 
 3. **¿Es producto de funciones diferentes?** → Intentar partes
 
 4. **¿Hay funciones trigonométricas?**
    - Potencias → Identidades trigonométricas
-   - $\sqrt{a^2 \pm x^2}$ → [Sustitución trigonométrica](../../../glossary.md#sustitucion-trigonometrica)
+   - $\sqrt{a^2 \pm x^2}$ → [Sustitución trigonométrica](../../..](../../../glossary.md)#sustitucion-trigonometrica)
 
-5. **¿Es fracción racional?** → [Fracciones parciales](../../../glossary.md#fracciones-parciales)
+5. **¿Es fracción racional?** → [Fracciones parciales](../../..](../../../glossary.md)#fracciones-parciales)
 
 6. **¿Hay radicales?** → Sustitución racional o trigonométrica
 

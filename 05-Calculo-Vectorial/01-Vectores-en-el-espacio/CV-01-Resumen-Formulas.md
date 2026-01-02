@@ -72,6 +72,6 @@ requires: []
 
 <!--
 IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta theory/CV-01-Teoria-Vectores.md
+Para desarrollo completo, consulta [theory/CV-01-Teoria-Vectores.md](theory/CV-01-Teoria-Vectores.md)
 file_id: CV-01-Resumen-Formulas
 -->

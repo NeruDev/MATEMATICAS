@@ -120,6 +120,6 @@ $$\bar{x} = \frac{\int_a^b x \cdot \rho(x)\,dx}{\int_a^b \rho(x)\,dx}$$
 
 <!--
 IA: Hoja de referencia rápida para aplicaciones de la integral.
-Para desarrollo completo: theory/CI-04-Teoria-Aplicaciones.md
+Para desarrollo completo: [theory/CI-04-Teoria-Aplicaciones.md](theory/CI-04-Teoria-Aplicaciones.md)
 file_id: CI-04-Resumen-Formulas
 -->

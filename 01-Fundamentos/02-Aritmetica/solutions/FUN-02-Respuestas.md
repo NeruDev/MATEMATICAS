@@ -108,4 +108,4 @@ solved_detailed: 8
 | [Prob-84] | 2400 votos en blanco | ➖ |
 | [Prob-85] | \$40000, \$60000, \$80000 | ➖ |
 
-> 📚 **Archivo de problemas:** [`problems/FUN-02-Problemas.md`](../problems/FUN-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/FUN-02-Problemas.md](../problems/FUN-02-Problemas.md)

@@ -97,4 +97,4 @@ solved_detailed: 0
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/MN-02-Problemas.md`](../problems/MN-02-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/MN-02-Problemas.md](../problems/MN-02-Problemas.md)

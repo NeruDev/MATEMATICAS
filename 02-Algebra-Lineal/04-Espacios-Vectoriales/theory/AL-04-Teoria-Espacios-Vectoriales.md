@@ -17,7 +17,7 @@ status: active
 
 ### Definición Formal
 
-Un **[espacio vectorial](../../../glossary.md#espacio-vectorial)** $V$ sobre un campo $\mathbb{F}$ (usualmente $\mathbb{R}$ o $\mathbb{C}$) es un conjunto no vacío con dos operaciones:
+Un **[espacio vectorial](../../..](../../../glossary.md)#espacio-vectorial)** $V$ sobre un campo $\mathbb{F}$ (usualmente $\mathbb{R}$ o $\mathbb{C}$) es un conjunto no vacío con dos operaciones:
 
 1. **Suma vectorial:** $+: V \times V \to V$
 2. **Multiplicación escalar:** $\cdot: \mathbb{F} \times V \to V$
@@ -64,8 +64,8 @@ Funciones continuas en $[a,b]$ con suma y multiplicación escalar puntuales.
 
 ### Propiedades Derivadas
 
-> **Teorema:** En todo [espacio vectorial](../../../glossary.md#espacio-vectorial):
-> 1. El [vector](../../../glossary.md#vector) cero $\mathbf{0}$ es único
+> **Teorema:** En todo [espacio vectorial](../../..](../../../glossary.md)#espacio-vectorial):
+> 1. El [vector](../../..](../../../glossary.md)#vector) cero $\mathbf{0}$ es único
 > 2. El inverso aditivo $-v$ es único para cada $v$
 > 3. $0 \cdot v = \mathbf{0}$
 > 4. $a \cdot \mathbf{0} = \mathbf{0}$
@@ -78,11 +78,11 @@ Funciones continuas en $[a,b]$ con suma y multiplicación escalar puntuales.
 
 ### Definición
 
-Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ es **[subespacio](../../../glossary.md#subespacio) vectorial** si $W$ es también un espacio vectorial con las mismas operaciones.
+Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ es **[subespacio](../../..](../../../glossary.md)#subespacio) vectorial** si $W$ es también un espacio vectorial con las mismas operaciones.
 
 ### Criterio del Subespacio (Forma Práctica)
 
-> **Teorema:** $W \subseteq V$ es [subespacio](../../../glossary.md#subespacio) si y solo si:
+> **Teorema:** $W \subseteq V$ es [subespacio](../../..](../../../glossary.md)#subespacio) si y solo si:
 > 1. $\mathbf{0} \in W$ (contiene el vector cero)
 > 2. $u, v \in W \Rightarrow u + v \in W$ (cerrado bajo suma)
 > 3. $v \in W, c \in \mathbb{F} \Rightarrow cv \in W$ (cerrado bajo multiplicación escalar)
@@ -94,7 +94,7 @@ Sea $V$ un espacio vectorial sobre $\mathbb{F}$. Un subconjunto $W \subseteq V$ 
 **En $\mathbb{R}^3$:**
 - Rectas por el origen: $W = \{t\mathbf{v} : t \in \mathbb{R}\}$
 - Planos por el origen: $W = \{s\mathbf{u} + t\mathbf{v} : s, t \in \mathbb{R}\}$
-- $\{\mathbf{0}\}$ (subespacio [trivial](../../../glossary.md#trivial))
+- $\{\mathbf{0}\}$ (subespacio [trivial](../../..](../../../glossary.md)#trivial))
 - $\mathbb{R}^3$ mismo
 
 **No son subespacios:**
@@ -124,7 +124,7 @@ $$\text{Row}(A) = \text{span}\{\text{filas de } A\}$$
 
 ### Combinación Lineal
 
-Una **[combinación lineal](../../../glossary.md#combinacion-lineal)** de vectores $v_1, v_2, ..., v_k$ es:
+Una **[combinación lineal](../../..](../../../glossary.md)#combinacion-lineal)** de vectores $v_1, v_2, ..., v_k$ es:
 $$c_1v_1 + c_2v_2 + ... + c_kv_k$$
 donde $c_i \in \mathbb{F}$ son escalares.
 
@@ -148,7 +148,7 @@ $$\text{span}\{v_1, ..., v_k\} = \{c_1v_1 + ... + c_kv_k : c_i \in \mathbb{F}\}$
 Un conjunto $S = \{v_1, ..., v_k\}$ **genera** a $V$ si:
 $$V = \text{span}\{v_1, ..., v_k\}$$
 
-Es decir, todo vector de $V$ puede escribirse como [combinación lineal](../../../glossary.md#combinacion-lineal) de $S$.
+Es decir, todo vector de $V$ puede escribirse como [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal) de $S$.
 
 ---
 
@@ -170,7 +170,7 @@ $$c_1v_1 + c_2v_2 + ... + c_kv_k = \mathbf{0}$$
 
 > **Teorema:** $\{v_1, ..., v_k\}$ es LD si y solo si algún $v_i$ es combinación lineal de los demás.
 
-> **Criterio Matricial:** Los vectores columna de $A$ son LI si y solo si el sistema $Ax = \mathbf{0}$ tiene solo la solución [trivial](../../../glossary.md#trivial).
+> **Criterio Matricial:** Los vectores columna de $A$ son LI si y solo si el sistema $Ax = \mathbf{0}$ tiene solo la solución [trivial](../../..](../../../glossary.md)#trivial).
 
 ### Propiedades
 
@@ -183,7 +183,7 @@ $$c_1v_1 + c_2v_2 + ... + c_kv_k = \mathbf{0}$$
 ### Determinación de Independencia
 
 Para vectores en $\mathbb{R}^n$:
-1. Formar la [matriz](../../../glossary.md#matriz) con vectores como columnas
+1. Formar la [matriz](../../..](../../../glossary.md)#matriz) con vectores como columnas
 2. Reducir a forma escalonada
 3. Son LI si cada columna tiene pivote
 
@@ -193,11 +193,11 @@ Para vectores en $\mathbb{R}^n$:
 
 ### Definición de Base
 
-Una **[base](../../../glossary.md#base)** de un espacio vectorial $V$ es un conjunto $\mathcal{B} = \{v_1, ..., v_n\}$ que:
+Una **[base](../../..](../../../glossary.md)#base)** de un espacio vectorial $V$ es un conjunto $\mathcal{B} = \{v_1, ..., v_n\}$ que:
 1. Es **linealmente independiente**
 2. **Genera** a $V$
 
-> **Teorema:** Todo vector $v \in V$ se escribe de manera **única** como combinación lineal de una [base](../../../glossary.md#base).
+> **Teorema:** Todo vector $v \in V$ se escribe de manera **única** como combinación lineal de una [base](../../..](../../../glossary.md)#base).
 
 ### Bases Estándar
 
@@ -211,9 +211,9 @@ Una **[base](../../../glossary.md#base)** de un espacio vectorial $V$ es un conj
 
 ### Dimensión
 
-> **Teorema de la [Dimensión](../../../glossary.md#dimension):** Todas las bases de un espacio vectorial finito-dimensional tienen el mismo número de elementos.
+> **Teorema de la [Dimensión](../../..](../../../glossary.md)#dimension):** Todas las bases de un espacio vectorial finito-dimensional tienen el mismo número de elementos.
 
-La **[dimensión](../../../glossary.md#dimension)** de $V$ es el número de vectores en cualquier base:
+La **[dimensión](../../..](../../../glossary.md)#dimension)** de $V$ es el número de vectores en cualquier base:
 $$\dim(V) = n$$
 
 ### Ejemplos de Dimensiones
@@ -240,7 +240,7 @@ $$\dim(V) = n$$
 ### Cómo Encontrar una Base
 
 **Para $\text{span}\{v_1, ..., v_k\}$:**
-1. Formar [matriz](../../../glossary.md#matriz) con vectores como filas
+1. Formar [matriz](../../..](../../../glossary.md)#matriz) con vectores como filas
 2. Reducir a forma escalonada
 3. Los vectores correspondientes a filas con pivote forman base
 

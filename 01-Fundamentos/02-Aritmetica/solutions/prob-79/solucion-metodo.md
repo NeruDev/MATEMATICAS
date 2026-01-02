@@ -89,11 +89,11 @@ $$x = 200 \times 2 = 400$$
 
 $$\text{Producción unitaria} = \frac{200 \text{ artículos}}{5 \text{ máquinas} \times 4 \text{ horas}}$$
 
-$$= \frac{200}{20} = 10 \text{ artículos por [máquina](../../../../glossary.md#maquina)-hora}$$
+$$= \frac{200}{20} = 10 \text{ artículos por [máquina](../../../..](../../../../glossary.md)#maquina)-hora}$$
 
 ### Paso 2: Calcular la producción total con los nuevos valores
 
-$$\text{Producción} = 10 \frac{\text{artículos}}{\text{[máquina](../../../../glossary.md#maquina)-hora}} \times 8 \text{ máquinas} \times 5 \text{ horas}$$
+$$\text{Producción} = 10 \frac{\text{artículos}}{\text{[máquina](../../../..](../../../../glossary.md)#maquina)-hora}} \times 8 \text{ máquinas} \times 5 \text{ horas}$$
 
 $$= 10 \times 8 \times 5 = 400 \text{ artículos}$$
 

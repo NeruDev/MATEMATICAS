@@ -16,7 +16,7 @@ audience: student
 
 ## Descripción General
 
-Los **teoremas fundamentales** del [cálculo diferencial](../../glossary.md#calculo-diferencial) proporcionan la [base](../../glossary.md#base) teórica rigurosa para todas las aplicaciones de la [derivada](../../glossary.md#derivada). Estos resultados conectan conceptos como [continuidad](../../glossary.md#continuidad), derivabilidad y comportamiento de funciones.
+Los **teoremas fundamentales** del [cálculo diferencial](../..](../../glossary.md)#calculo-diferencial) proporcionan la [base](../..](../../glossary.md)#base) teórica rigurosa para todas las aplicaciones de la [derivada](../..](../../glossary.md)#derivada). Estos resultados conectan conceptos como [continuidad](../..](../../glossary.md)#continuidad), derivabilidad y comportamiento de funciones.
 
 ## Objetivos de Aprendizaje
 
@@ -66,9 +66,9 @@ La serie de Taylor permite expresar funciones como sumas infinitas de potencias,
 
 ## Prerrequisitos
 
-- [Derivadas](../../glossary.md#derivadas) y sus propiedades
-- [Continuidad](../../glossary.md#continuidad) de funciones
-- [Límites](../../glossary.md#limites)
+- [Derivadas](../..](../../glossary.md)#derivadas) y sus propiedades
+- [Continuidad](../..](../../glossary.md)#continuidad) de funciones
+- [Límites](../..](../../glossary.md)#limites)
 
 ## Recursos
 
@@ -76,4 +76,4 @@ La serie de Taylor permite expresar funciones como sumas infinitas de potencias,
 
 ---
 
-> **Nota**: Aunque estos teoremas pueden parecer abstractos, son la [base](../../glossary.md#base) de muchas técnicas numéricas y computacionales usadas en ciencia e ingeniería.
+> **Nota**: Aunque estos teoremas pueden parecer abstractos, son la [base](../..](../../glossary.md)#base) de muchas técnicas numéricas y computacionales usadas en ciencia e ingeniería.

@@ -11,7 +11,7 @@ status: active
 
 # Métodos: Interpolación
 
-> **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../../glossary.md#interpolacion) numérica con algoritmos detallados, ejemplos completos y análisis de error.
+> **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../..](../../../glossary.md)#interpolacion) numérica con algoritmos detallados, ejemplos completos y análisis de error.
 
 ---
 
@@ -36,7 +36,7 @@ status: active
 
 ### Teorema de Existencia y Unicidad
 
-Dados $n+1$ puntos $(x_0, y_0), \ldots, (x_n, y_n)$ con $x_i$ distintos, existe un **único** [polinomio](../../../glossary.md#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../../glossary.md#tal-que) $P(x_i) = y_i$.
+Dados $n+1$ puntos $(x_0, y_0), \ldots, (x_n, y_n)$ con $x_i$ distintos, existe un **único** [polinomio](../../..](../../../glossary.md)#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../..](../../../glossary.md)#tal-que) $P(x_i) = y_i$.
 
 ### Error de Interpolación
 
@@ -64,7 +64,7 @@ Interpolación con muchos puntos equiespaciados puede **oscilar** en los extremo
 
 $$P_n(x) = \sum_{i=0}^{n} y_i L_i(x)$$
 
-donde los **polinomios [base](../../../glossary.md#base) de Lagrange** son:
+donde los **polinomios [base](../../..](../../../glossary.md)#base) de Lagrange** son:
 
 $$L_i(x) = \prod_{j=0, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}$$
 
@@ -150,11 +150,11 @@ $$\boxed{P(2) = \frac{5}{3} \approx 1.667}$$
 
 - Se necesita agregar puntos fácilmente
 - Evaluación eficiente
-- Análisis de [polinomio](../../../glossary.md#polinomio)
+- Análisis de [polinomio](../../..](../../../glossary.md)#polinomio)
 
 ### Fórmulas
 
-**[Diferencias divididas](../../../glossary.md#diferencias-divididas):**
+**[Diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas):**
 
 $$f[x_i] = y_i$$
 
@@ -211,7 +211,7 @@ def evaluar_newton(coefs, x_data, x):
 
 ---
 
-**Paso 1: Tabla de [diferencias divididas](../../../glossary.md#diferencias-divididas)**
+**Paso 1: Tabla de [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas)**
 
 | $i$ | $x_i$ | $f[x_i]$ | $f[x_i, x_{i+1}]$ | $f[x_i, x_{i+1}, x_{i+2}]$ |
 |:---:|:-----:|:--------:|:-----------------:|:--------------------------:|
@@ -434,9 +434,9 @@ $z: 0, 0, 1, 1$
 
 **Cálculos:**
 
-- $f[z_0, z_1] = f'(0) = 1$ ([derivada](../../../glossary.md#derivada) dada)
+- $f[z_0, z_1] = f'(0) = 1$ ([derivada](../../..](../../../glossary.md)#derivada) dada)
 - $f[z_1, z_2] = \frac{1-0}{1-0} = 1$
-- $f[z_2, z_3] = f'(1) = 0$ ([derivada](../../../glossary.md#derivada) dada)
+- $f[z_2, z_3] = f'(1) = 0$ ([derivada](../../..](../../../glossary.md)#derivada) dada)
 - $f[z_0, z_1, z_2] = \frac{1-1}{1-0} = 0$
 - $f[z_1, z_2, z_3] = \frac{0-1}{1-0} = -1$
 - $f[z_0, z_1, z_2, z_3] = \frac{-1-0}{1-0} = -1$
@@ -510,7 +510,7 @@ $$d_i = \frac{c_{i+1} - c_i}{3h_i}$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Spline cúbico](../../../glossary.md#spline-cubico) natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
+**Problema:** [Spline cúbico](../../..](../../../glossary.md)#spline-cubico) natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
@@ -655,7 +655,7 @@ $$\boxed{P(1.5) = 2.875}$$
 ### Cuándo Usar
 
 - Evaluación eficiente en múltiples puntos
-- [Estabilidad numérica](../../../glossary.md#estabilidad-numerica) mejorada
+- [Estabilidad numérica](../../..](../../../glossary.md)#estabilidad-numerica) mejorada
 
 ### Fórmulas
 

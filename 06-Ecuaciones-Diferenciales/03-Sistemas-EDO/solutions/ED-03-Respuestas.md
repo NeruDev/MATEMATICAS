@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-03-sistemas-[edo](../../../glossary.md#edo)
+topic_id: ed-03-sistemas-[edo](../../..](../../../glossary.md)#edo)
 file_id: ED-03-Respuestas
 status: stable
 audience: student
@@ -72,4 +72,4 @@ $$\mathbf{X}(t) = C_1\mathbf{v}e^{\lambda t} + C_2(\mathbf{v}te^{\lambda t} + \b
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/ED-03-Problemas.md`](../problems/ED-03-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/ED-03-Problemas.md](../problems/ED-03-Problemas.md)

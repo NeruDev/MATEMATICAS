@@ -31,10 +31,10 @@ Calcular integrales dobles y triples para determinar áreas, volúmenes, masas y
 ## Mapa de recursos
 
 ```
-CV-05-Integracion-Multiple-Intro.md  ← Estás aquí
-CV-05-Resumen-Formulas.md            ← Fórmulas clave para repaso rápido
+[CV-05-Integracion-Multiple-Intro.md](CV-05-Integracion-Multiple-Intro.md)  ← Estás aquí
+[CV-05-Resumen-Formulas.md](CV-05-Resumen-Formulas.md)            ← Fórmulas clave para repaso rápido
 theory/
-  └── CV-05-Teoria-Integracion.md    ← Desarrollo completo de la teoría
+  └── [CV-05-Teoria-Integracion.md](CV-05-Teoria-Integracion.md)    ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/
@@ -45,7 +45,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos:** [integral definida](../../glossary.md#integral-definida), funciones de varias variables.
+- **Prerequisitos:** [integral definida](../..](../../glossary.md)#integral-definida), funciones de varias variables.
 - **Usos posteriores:** integrales de línea, teoremas de Green, Stokes y Gauss.
 
 ## Vista previa de conceptos clave

@@ -82,4 +82,4 @@ solved_detailed: 3
 
 ---
 
-> 📚 **Archivo de problemas:** [`problems/CV-01-Problemas.md`](../problems/CV-01-Problemas.md)
+> 📚 **Archivo de problemas:** [problems/CV-01-Problemas.md](../problems/CV-01-Problemas.md)

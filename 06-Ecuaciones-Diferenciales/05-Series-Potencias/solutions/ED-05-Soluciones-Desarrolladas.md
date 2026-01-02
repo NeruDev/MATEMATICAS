@@ -22,13 +22,13 @@ status: active
 Usando el criterio del cociente:
 $$\lim_{n\to\infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n\to\infty} \frac{|x|^{n+1}/(n+1)!}{|x|^n/n!} = \lim_{n\to\infty} \frac{|x|}{n+1} = 0$$
 
-Como el [límite](../../../glossary.md#limite) es $0 < 1$ para todo $x$, el **radio de [convergencia](../../../glossary.md#convergencia) es $R = \infty$**.
+Como el [límite](../../..](../../../glossary.md)#limite) es $0 < 1$ para todo $x$, el **radio de [convergencia](../../..](../../../glossary.md)#convergencia) es $R = \infty$**.
 
 **b)** $\sum_{n=0}^{\infty} n! x^n$
 
 $$\lim_{n\to\infty} \left|\frac{(n+1)! x^{n+1}}{n! x^n}\right| = \lim_{n\to\infty} (n+1)|x| = \infty$$ para $x \neq 0$
 
-**Radio de [convergencia](../../../glossary.md#convergencia): $R = 0$** (solo converge en $x = 0$)
+**Radio de [convergencia](../../..](../../../glossary.md)#convergencia): $R = 0$** (solo converge en $x = 0$)
 
 **c)** $\sum_{n=1}^{\infty} \frac{x^n}{n}$
 
@@ -127,7 +127,7 @@ $$y'' + \frac{1}{2x}y' - \frac{1}{2x}y = 0$$
 
 $$P(x) = \frac{1}{2x}, \quad Q(x) = -\frac{1}{2x}$$
 
-**Paso 2:** Calcular [límites](../../../glossary.md#limites):
+**Paso 2:** Calcular [límites](../../..](../../../glossary.md)#limites):
 $$p_0 = \lim_{x \to 0} xP(x) = \lim_{x \to 0} x \cdot \frac{1}{2x} = \frac{1}{2}$$
 $$q_0 = \lim_{x \to 0} x^2 Q(x) = \lim_{x \to 0} x^2 \cdot \left(-\frac{1}{2x}\right) = 0$$
 
@@ -213,7 +213,7 @@ Como $a_1 = 0$, todos los coeficientes impares son cero.
 - $a_4 = -\frac{a_2}{16} = \frac{1}{64}$
 - $a_6 = -\frac{a_4}{36} = -\frac{1}{2304}$
 
-**[Función](../../../glossary.md#funcion) de Bessel $J_0$:**
+**[Función](../../..](../../../glossary.md)#funcion) de Bessel $J_0$:**
 $$\boxed{J_0(x) = 1 - \frac{x^2}{4} + \frac{x^4}{64} - \frac{x^6}{2304} + ... = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{2^{2n}(n!)^2}}$$
 
 ---
@@ -257,7 +257,7 @@ $$y = a_0\left(1 + \frac{x^3}{6} + \frac{x^6}{180} + ...\right) + a_1\left(x + \
 - $y(0) = a_0 = 1$
 - $y'(0) = a_1 = 0$
 
-**[Función](../../../glossary.md#funcion) de Airy $\text{Ai}(x)$:**
+**[Función](../../..](../../../glossary.md)#funcion) de Airy $\text{Ai}(x)$:**
 $$\boxed{\text{Ai}(x) = c\left(1 + \frac{x^3}{6} + \frac{x^6}{180} + \frac{x^9}{12960} + ...\right)}$$
 
 donde $c = 3^{-2/3}/\Gamma(2/3) \approx 0.355$ es la constante de normalización.

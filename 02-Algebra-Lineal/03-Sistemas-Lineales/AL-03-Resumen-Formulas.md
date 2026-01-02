@@ -19,9 +19,9 @@ Sistema de $m$ ecuaciones con $n$ incógnitas:
 $$Ax = b$$
 
 donde:
-- $A$: [matriz](../../glossary.md#matriz) de coeficientes ($m \times n$)
-- $x$: [vector](../../glossary.md#vector) de incógnitas ($n \times 1$)
-- $b$: [vector](../../glossary.md#vector) de términos independientes ($m \times 1$)
+- $A$: [matriz](../..](../../glossary.md)#matriz) de coeficientes ($m \times n$)
+- $x$: [vector](../..](../../glossary.md)#vector) de incógnitas ($n \times 1$)
+- $b$: [vector](../..](../../glossary.md)#vector) de términos independientes ($m \times 1$)
 
 **Matriz aumentada**: $[A | b]$
 
@@ -47,7 +47,7 @@ donde:
 
 ## Algoritmo de Gauss-Jordan
 
-1. Formar [matriz](../../glossary.md#matriz) aumentada $[A|b]$
+1. Formar [matriz](../..](../../glossary.md)#matriz) aumentada $[A|b]$
 2. Reducir a RREF usando operaciones elementales
 3. Leer solución del sistema reducido
 
@@ -72,7 +72,7 @@ $$\text{rang}(A) = \text{rang}([A|b])$$
 $$Ax = 0$$
 
 ### Propiedades
-- Siempre tiene solución [trivial](../../glossary.md#trivial): $x = 0$
+- Siempre tiene solución [trivial](../..](../../glossary.md)#trivial): $x = 0$
 - Tiene soluciones no triviales si y solo si $\text{rang}(A) < n$
 - Número de parámetros libres: $n - \text{rang}(A)$
 
@@ -85,8 +85,8 @@ $$\dim(\text{Nul}(A)) = n - \text{rang}(A)$$
 $$x = x_p + x_h$$
 
 donde:
-- $x_p$: [solución particular](../../glossary.md#solucion-particular) de $Ax = b$
-- $x_h$: [solución general](../../glossary.md#solucion-general) de $Ax = 0$
+- $x_p$: [solución particular](../..](../../glossary.md)#solucion-particular) de $Ax = b$
+- $x_h$: [solución general](../..](../../glossary.md)#solucion-general) de $Ax = 0$
 
 ## Métodos de solución directa
 
@@ -95,7 +95,7 @@ donde:
 **Inversa**:
 $$x = A^{-1}b$$
 
-**[Regla de Cramer](../../glossary.md#regla-de-cramer)**:
+**[Regla de Cramer](../..](../../glossary.md)#regla-de-cramer)**:
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
 ## Variables pivote y libres

@@ -47,7 +47,7 @@ $$n + 1 = 4 + 1 = 5$$
 **Paso 3:** Dividimos por el nuevo exponente:
 $$\frac{x^5}{5}$$
 
-**Paso 4:** Agregamos la [constante de integración](../../../glossary.md#constante-de-integracion):
+**Paso 4:** Agregamos la [constante de integración](../../..](../../../glossary.md)#constante-de-integracion):
 $$\int x^4 \, dx = \frac{x^5}{5} + C$$
 
 **Verificación:** Derivamos el resultado: $\frac{d}{dx}\left(\frac{x^5}{5}\right) = \frac{5x^4}{5} = x^4$ ✓
@@ -119,7 +119,7 @@ $$\int \frac{1}{x^4} \, dx = -\frac{1}{3x^3} + C$$
 $$\int \frac{1}{x} \, dx = \ln\lvert x \rvert + C$$
 
 ### ¿Por qué valor absoluto?
-La [función](../../../glossary.md#funcion) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../../glossary.md#antiderivada) funcione también para $x < 0$.
+La [función](../../..](../../../glossary.md)#funcion) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../..](../../../glossary.md)#antiderivada) funcione también para $x < 0$.
 
 ### Algoritmo de Resolución
 
@@ -150,8 +150,8 @@ $$\int \frac{3}{x} \, dx = 3\ln\lvert x \rvert + C$$
 ## Método 4: Exponenciales
 
 ### Cuándo Usar
-- Funciones $e^x$ ([base](../../../glossary.md#base) natural)
-- Funciones $a^x$ ([base](../../../glossary.md#base) cualquier positivo $a \neq 1$)
+- Funciones $e^x$ ([base](../../..](../../../glossary.md)#base) natural)
+- Funciones $a^x$ ([base](../../..](../../../glossary.md)#base) cualquier positivo $a \neq 1$)
 
 ### Fórmulas
 $$\int e^x \, dx = e^x + C$$
@@ -224,7 +224,7 @@ $$\int (3\sin x + 2\cos x) \, dx = -3\cos x + 2\sin x + C$$
 ## Método 6: Productos Trigonométricos Especiales
 
 ### Cuándo Usar
-- Producto $\sec x \tan x$ ([derivada](../../../glossary.md#derivada) de secante)
+- Producto $\sec x \tan x$ ([derivada](../../..](../../../glossary.md)#derivada) de secante)
 - Producto $\csc x \cot x$ (derivada de cosecante con signo)
 
 ### Fórmulas
