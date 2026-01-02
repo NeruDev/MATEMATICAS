@@ -33,10 +33,13 @@ $$g(x) = (f \circ h \circ k)(x) = f(h(k(x)))$$
 
 Donde:
 
-| Nivel | [Función](../../../../glossary.md#derivada) |
-|-------|---------|--------|----------|
-| Externa | $f(u) = \sin u$ | [seno](../../../../glossary.md#coseno) | $h'(v) = -\sin v$ |
-| Interna | $k(x) = \tan x$ | [tangente](../../../..](../../../../glossary.md#composicion) triple $f(h(k(x)))$:
+| Nivel | Función | Derivada |
+|-------|---------|----------|
+| Externa | $f(u) = \sin u$ | $f'(u) = \cos u$ |
+| Media | $h(v) = \cos v$ | $h'(v) = -\sin v$ |
+| Interna | $k(x) = \tan x$ | $k'(x) = \sec^2 x$ |
+
+Para la [composición](../../../../glossary.md#composicion) triple $f(h(k(x)))$:
 
 $$\frac{d}{dx}[f(h(k(x)))] = f'(h(k(x))) \cdot h'(k(x)) \cdot k'(x)$$
 
