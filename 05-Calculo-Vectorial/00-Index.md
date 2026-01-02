@@ -1,39 +1,41 @@
 <!--
-HUMANO:
-Índice del módulo de Cálculo Vectorial.
-Lista todos los temas disponibles en este módulo.
-
-IA:
-Usa este índice para navegar entre temas del módulo.
-
----
-content_type: index
-expected_output:
-  default: markdown
-audience: self-study
----
+::METADATA::
+type: index
+topic_id: calculo-vectorial
+status: active
 -->
 
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
 
 ---
 
-# 04 - Cálculo Vectorial
+# 05 - Cálculo Vectorial
 
 ## Descripción del módulo
 
-Este módulo cubre el cálculo en múltiples variables: funciones vectoriales, [derivadas](./01-Vectores-en-el-espacio/) - Vectores en plano y espacio, productos escalar/vectorial, rectas y planos
-2. [02-Curvas-planas-parametricas-y-polares](./03-Funciones-vectoriales/) - [Límites](../glossary.md#derivadas), integrales y curvatura de funciones vectoriales
-4. [04-Funciones-de-varias-variables](../glossary.md#continuidad), derivadas parciales y gradiente
-5. [05-Integracion-multiple](../glossary.md#fundamentos)** completo
-- **02-Calculo-Diferencial** completo
-- **03-Calculo-Integral** completo
-- [Álgebra lineal](../glossary.md#algebra-lineal) básica (vectores, matrices)
+Este módulo cubre el cálculo en múltiples variables: funciones vectoriales, derivadas parciales, integrales múltiples y análisis vectorial.
+
+## Temas del módulo
+
+| # | Tema | Descripción |
+|---|------|-------------|
+| 1 | [01-Vectores en el Espacio](./01-Vectores-en-el-espacio/CV-01-Vectores-Intro.md) | Vectores en plano y espacio, productos escalar y vectorial |
+| 2 | [02-Curvas Paramétricas y Polares](./02-Curvas-planas-parametricas-y-polares/CV-02-Curvas-Intro.md) | Ecuaciones paramétricas, coordenadas polares |
+| 3 | [03-Funciones Vectoriales](./03-Funciones-vectoriales/CV-03-Funciones-Vectoriales-Intro.md) | Límites, derivadas, integrales y curvatura |
+| 4 | [04-Funciones de Varias Variables](./04-Funciones-de-varias-variables/CV-04-Varias-Variables-Intro.md) | Continuidad, derivadas parciales, gradiente |
+| 5 | [05-Integración Múltiple](./05-Integracion-multiple/CV-05-Integracion-Multiple-Intro.md) | Integrales dobles, triples, cambio de coordenadas |
+
+## Prerequisitos
+
+- [01-Fundamentos](../01-Fundamentos/00-Index.md) completo
+- [03-Cálculo Diferencial](../03-Calculo-Diferencial/00-Index.md) completo
+- [04-Cálculo Integral](../04-Calculo-Integral/00-Index.md) completo
+- [02-Álgebra Lineal](../02-Algebra-Lineal/00-Index.md) básico (vectores, matrices)
 
 ## Conexión con otros módulos
 
-- **Anterior:** 03-Calculo-Integral
+- **Anterior:** [04-Cálculo Integral](../04-Calculo-Integral/00-Index.md)
+- **Siguiente:** [06-Ecuaciones Diferenciales](../06-Ecuaciones-Diferenciales/00-Index.md)
 
 ---
 
