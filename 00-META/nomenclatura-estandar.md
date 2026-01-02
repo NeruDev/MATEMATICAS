@@ -5,7 +5,7 @@ topic_id: meta-nomenclatura
 file_id: nomenclatura-estandar
 status: stable
 audience: ai_context
-last_updated: 2025-12-30
+last_updated: 2026-01-02
 -->
 
 # Estándar de Nomenclatura de Archivos
@@ -26,6 +26,7 @@ Este documento define las convenciones de nombrado para todos los archivos del r
 1. **Metadatos obligatorios:** Todo archivo `.md` nuevo o modificado debe incluir el bloque `::METADATA::` con campo `last_updated`.
 2. **Actualización del directorio:** Cualquier cambio estructural (nuevos archivos, renombrados, eliminaciones) debe reflejarse en `00-META/directory-tree.md`.
 3. **Registro de cambios:** Documentar brevemente el cambio realizado en el commit o en el archivo correspondiente.
+4. **Enlaces correctos:** Todo enlace interno debe seguir la sintaxis estándar (ver sección 0.4).
 
 ### 0.2 Campos de Control Temporal
 
@@ -44,8 +45,52 @@ change_log: "Descripción breve del último cambio"
 1. Realizar modificación en archivo(s)
 2. Actualizar campo `last_updated` en ::METADATA::
 3. Si es cambio estructural → Actualizar 00-META/directory-tree.md
-4. Commit con mensaje descriptivo
+4. Verificar que todos los enlaces usen sintaxis correcta
+5. Commit con mensaje descriptivo
 ```
+
+---
+
+## 0.4 Sintaxis de Enlaces Internos (OBLIGATORIO)
+
+> **⚠️ CRÍTICO:** La navegación funcional del repositorio depende de enlaces correctamente formados.
+
+### Formato Estándar
+
+```markdown
+[Texto visible](ruta/relativa/archivo.md)
+[Texto visible](ruta/relativa/archivo.md#ancla)
+```
+
+### Patrones Correctos por Tipo
+
+| Tipo de Enlace | Sintaxis | Ejemplo |
+|----------------|----------|---------|
+| Al glosario | `[término](../glossary.md#ancla)` | `[función](../glossary.md#funcion)` |
+| Al índice principal | `[texto](../WIKI_INDEX.md)` | `[← Volver](../WIKI_INDEX.md)` |
+| Mismo directorio | `[texto](./archivo.md)` | `[Intro](./AL-01-Intro.md)` |
+| Subdirectorio | `[texto](./sub/archivo.md)` | `[Teoría](./theory/AL-01-Teoria.md)` |
+| Directorio padre | `[texto](../archivo.md)` | `[Índice](../00-Index.md)` |
+| Otro módulo | `[texto](../Modulo/archivo.md)` | `[Álgebra](../02-Algebra-Lineal/00-Index.md)` |
+
+### Errores Prohibidos
+
+| ❌ INCORRECTO | ✅ CORRECTO | Problema |
+|---------------|-------------|----------|
+| `](../glossary.md)#term)` | `](../glossary.md#term)` | Paréntesis fuera del ancla |
+| `](..](../archivo.md)` | `](../archivo.md)` | Doble bracket |
+| `[texto](README.md)` | `[texto](*-Intro.md)` | No existen README |
+| `[texto](archivo)` | `[texto](archivo.md)` | Falta extensión |
+
+### Header de Navegación Estándar
+
+Todo archivo de contenido debe incluir al inicio:
+
+```markdown
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+```
+
+Ajustar `../` según profundidad del archivo.
 
 ---
 
@@ -63,7 +108,7 @@ La carpeta `01-Fundamentos/01-Simbologia-Matematica/` está **exenta** del siste
 ```
 01-Simbologia-Matematica/
 ├── manifest.json                      # type: "reference_library"
-├── [FUN-01-Simbologia-Intro.md](FUN-01-Simbologia-Intro.md)         # Punto de entrada (único archivo con prefijo)
+├── FUN-01-Simbologia-Intro.md         # Punto de entrada (único archivo con prefijo)
 └── theory/
     └── Tablas-de-Simbolos-Matematicos.md  # Contenido libre de nomenclatura
 ```

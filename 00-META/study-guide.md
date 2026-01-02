@@ -5,7 +5,7 @@ topic_id: meta-study-guide
 file_id: study-guide
 status: stable
 audience: student
-last_updated: 2025-12-30
+last_updated: 2026-01-02
 -->
 
 # Guía de Estudio
@@ -82,7 +82,9 @@ La IA respeta los métodos definidos en cada tema y no asume conocimientos fuera
 
 | Recurso | Ubicación | Uso |
 |---------|-----------|-----|
-| Glosario | [`glossary.md`](notation-cheatsheet.md) | Símbolos y convenciones |
+| Glosario | [`glossary.md`](../glossary.md) | Definiciones y términos clave |
+| Notación | [`notation-cheatsheet.md`](notation-cheatsheet.md) | Símbolos y convenciones |
+| Índice principal | [`WIKI_INDEX.md`](../WIKI_INDEX.md) | Navegación centralizada |
 | Fórmulas | `PREFIJO-XX-Resumen-Formulas.md` | Por cada tema |
 
 ## Prerequisitos generales
@@ -92,4 +94,4 @@ Antes de comenzar, debes tener conocimientos básicos de:
 - ✓ Geometría analítica básica (coordenadas, rectas)
 - ✓ Trigonometría básica (funciones, identidades fundamentales)
 
-El módulo **01-Fundamentos** te ayuda a reforzar estos conceptos si es necesario.
+El módulo **[01-Fundamentos](../01-Fundamentos/00-Index.md)** te ayuda a reforzar estos conceptos si es necesario.
