@@ -5,7 +5,7 @@ topic_id: meta-ai-directives
 file_id: ai-directives
 status: stable
 audience: ai_context
-last_updated: 2025-12-30
+last_updated: 2026-01-02
 -->
 
 # Directivas Técnicas para IA — Repositorio de Matemáticas
@@ -78,6 +78,66 @@ last_updated: 2025-12-30
 
 ---
 
-## 6. Referencias Cruzadas
+## 6. Sintaxis de Enlaces (OBLIGATORIO)
 
-Para términos del glosario, usar formato: `[→ término](../glossary.md#funcion)`
+> **⚠️ DIRECTIVA CRÍTICA:** Todos los enlaces internos DEBEN seguir esta sintaxis para garantizar navegación funcional en VS Code y GitHub.
+
+### 6.1 Formato Correcto de Enlaces
+
+```markdown
+[Texto visible](ruta/relativa/archivo.md)
+[Texto visible](ruta/relativa/archivo.md#ancla)
+```
+
+### 6.2 Ejemplos por Tipo de Enlace
+
+| Tipo | Sintaxis Correcta | Ejemplo |
+|------|-------------------|---------|
+| **Glosario** | `[término](../glossary.md#ancla)` | `[función](../glossary.md#funcion)` |
+| **Índice principal** | `[texto](../WIKI_INDEX.md)` | `[← Volver](../WIKI_INDEX.md)` |
+| **Archivo en misma carpeta** | `[texto](./archivo.md)` | `[Intro](./AL-01-Matrices-Intro.md)` |
+| **Archivo en subcarpeta** | `[texto](./subcarpeta/archivo.md)` | `[Teoría](./theory/AL-01-Teoria-Matrices.md)` |
+| **Archivo en carpeta padre** | `[texto](../carpeta/archivo.md)` | `[Índice](../00-Index.md)` |
+| **Otro módulo** | `[texto](../Modulo/carpeta/archivo.md)` | `[Álgebra](../02-Algebra-Lineal/00-Index.md)` |
+
+### 6.3 Errores Comunes (NO HACER)
+
+| ❌ Incorrecto | ✅ Correcto | Problema |
+|---------------|-------------|----------|
+| `](../glossary.md)#term)` | `](../glossary.md#term)` | Paréntesis fuera del ancla |
+| `](..](../glossary.md)` | `](../glossary.md)` | Doble bracket |
+| `[texto](README.md)` | `[texto](*-Intro.md)` | No existen README en subtemas |
+| `[texto](archivo)` | `[texto](archivo.md)` | Falta extensión .md |
+
+### 6.4 Navegación Estándar (Header)
+
+Todo archivo de contenido debe incluir este header de navegación:
+
+```markdown
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+```
+
+Ajustar la ruta relativa según la profundidad del archivo:
+- Nivel 1 (`01-Fundamentos/00-Index.md`): `../WIKI_INDEX.md`
+- Nivel 2 (`01-Fundamentos/02-Aritmetica/FUN-02-Intro.md`): `../../WIKI_INDEX.md`
+- Nivel 3 (`01-Fundamentos/02-Aritmetica/theory/FUN-02-Teoria.md`): `../../../WIKI_INDEX.md`
+
+### 6.5 Validación de Enlaces
+
+Antes de finalizar cualquier contenido nuevo:
+1. Verificar que todas las rutas relativas existen
+2. Probar enlaces en VS Code Markdown Preview
+3. Ejecutar script de validación si está disponible
+
+---
+
+## 7. Referencias Cruzadas al Glosario
+
+Para términos del glosario, usar formato: `[término](../glossary.md#ancla)`
+
+**Anclas válidas:** El ancla debe coincidir con el ID del término en `glossary.md` (en minúsculas, guiones en lugar de espacios).
+
+Ejemplos:
+- `[función](../glossary.md#funcion)`
+- `[valor absoluto](../glossary.md#valor-absoluto)`
+- `[regla de la cadena](../glossary.md#regla-de-la-cadena)`

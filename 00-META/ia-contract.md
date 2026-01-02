@@ -5,7 +5,7 @@ topic_id: meta-ia-contract
 file_id: ia-contract
 status: stable
 audience: ai_context
-last_updated: 2025-12-30
+last_updated: 2026-01-02
 -->
 
 # Contrato de IA para el Repositorio de Matemáticas
@@ -181,7 +181,49 @@ Para archivos completos, incluir también:
 
 ---
 
-## 5. Tareas Permitidas
+## 5. Sintaxis de Enlaces Internos (OBLIGATORIO)
+
+> **⚠️ CRÍTICO:** La navegación del repositorio depende de enlaces correctamente formados.
+
+### 5.1 Formato Estándar
+
+```markdown
+[Texto](ruta/relativa/archivo.md)
+[Texto](ruta/relativa/archivo.md#ancla)
+```
+
+### 5.2 Patrones por Contexto
+
+| Desde | Hacia | Sintaxis |
+|-------|-------|----------|
+| Cualquier archivo | Glosario | `[término](../glossary.md#ancla)` |
+| Cualquier archivo | Índice principal | `[← Volver](../WIKI_INDEX.md)` |
+| `00-Index.md` | Subtema Intro | `[Tema](./XX-Carpeta/PREFIJO-XX-Intro.md)` |
+| Archivo en subtema | Teoría | `[Teoría](./theory/PREFIJO-XX-Teoria-X.md)` |
+| Archivo en subcarpeta | Índice módulo | `[Índice](../00-Index.md)` |
+
+### 5.3 Header de Navegación Obligatorio
+
+Todo archivo `.md` de contenido debe incluir:
+
+```markdown
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+```
+
+Ajustar `../` según profundidad (añadir `../` por cada nivel).
+
+### 5.4 Prohibiciones en Enlaces
+
+❌ **NO HACER:**
+- `](../glossary.md)#term)` — paréntesis fuera del ancla
+- `](..](../archivo.md)` — doble bracket
+- `[texto](README.md)` — no existen README en subtemas
+- Enlaces sin extensión `.md`
+- Rutas absolutas del sistema de archivos
+
+---
+
+## 6. Tareas Permitidas
 
 | Tarea | Descripción |
 |-------|-------------|
@@ -195,7 +237,7 @@ Para archivos completos, incluir también:
 
 ---
 
-## 6. Prohibiciones
+## 7. Prohibiciones
 
 ❌ **NO hacer:**
 - Mezclar teoría con métodos en el mismo archivo
@@ -205,10 +247,11 @@ Para archivos completos, incluir también:
 - Asumir conocimientos no declarados en prerequisitos
 - Inventar métodos alternativos cuando hay `assigned_method`
 - Usar nombres de archivo en inglés para contenido nuevo
+- **Crear enlaces con sintaxis incorrecta** (ver sección 5.4)
 
 ---
 
-## 7. Recursos de Referencia
+## 8. Recursos de Referencia
 
 | Recurso | Ubicación | Uso |
 |---------|-----------|-----|
@@ -217,23 +260,26 @@ Para archivos completos, incluir también:
 | Plantilla respuestas | `00-META/plantilla-respuestas.md` | Formato de archivo de respuestas |
 | Validador | `00-META/tools/validate_repo.py` | Verificar integridad del repo |
 | Nomenclatura detallada | `00-META/nomenclatura-estandar.md` | Especificaciones técnicas completas |
+| **Directivas de enlaces** | `00-META/ai-directives.md` | Sintaxis correcta de hipervínculos |
 
 ---
 
-## 8. Flujo de Trabajo para Nuevo Contenido
+## 9. Flujo de Trabajo para Nuevo Contenido
 
 ```
 1. Consultar manifest.json del tema
 2. Verificar nomenclatura según prefijo del módulo
 3. Agregar bloque ::METADATA:: al inicio
 4. Respetar separación semántica
-5. Actualizar resource_map si es necesario
-6. Ejecutar validate_repo.py antes de finalizar
+5. **Usar sintaxis correcta de enlaces** (ver sección 5)
+6. Incluir header de navegación estándar
+7. Actualizar resource_map si es necesario
+8. Verificar enlaces antes de finalizar
 ```
 
 ---
 
-## 9. Idioma y Estilo
+## 10. Idioma y Estilo
 
 - **Idioma:** Español
 - **Nivel:** Universitario
@@ -248,4 +294,5 @@ Para archivos completos, incluir también:
 Este es tu CONTRATO. Viola cualquiera de estas reglas = contenido rechazado.
 Ante la duda, pregunta al usuario.
 Valida tu output mentalmente antes de generarlo.
+IMPORTANTE: Todos los enlaces deben seguir la sintaxis de la sección 5.
 -->
