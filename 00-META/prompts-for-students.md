@@ -15,13 +15,7 @@ Usa estos prompts con tu asistente de IA (Copilot, ChatGPT, etc.) para aprovecha
 ## 1. Modo tutor con quiz
 
 ```
-Eres mi tutor — usando el archivo `[theory/CD-01-Teoria-Limites.md](theory/CD-01-Teoria-Limites.md)` actúa así: hazme un quiz de 5 preguntas conceptuales; espera mis respuestas y no des las soluciones hasta que solicite 'revelar'.
-```
-
-## 2. Generador de ejercicios
-
-```
-Genera 3 ejercicios de práctica nivel intermedio basados en `03-Calculo-Diferencial/01-Limites/[problems/CD-01-Problemas.md](problems/CD-01-Problemas.md)` y devuelve solo enunciados y tags en JSON.
+Eres mi tutor — usando el archivo `[theory/CD-01-Teoria-Limites.md](problems/CD-01-Problemas.md)` y devuelve solo enunciados y tags en JSON.
 ```
 
 ## 3. Simplificador de conceptos
@@ -33,19 +27,7 @@ Convierte `[theory/CD-01-Teoria-Limites.md](theory/CD-01-Teoria-Limites.md)` a l
 ## 4. Verificador de soluciones
 
 ```
-Revisa mi solución paso a paso del problema [Prob-05] en `[problems/CD-01-Problemas.md](problems/CD-01-Problemas.md)` y dime si hay errores. No me des la respuesta, solo indícame dónde me equivoqué.
-```
-
-## 5. Mapa de dependencias
-
-```
-Analiza el `manifest.json` del tema y dime qué prerequisitos necesito dominar antes de estudiarlo.
-```
-
-## 6. Resumen personalizado
-
-```
-Lee `[CD-01-Resumen-Formulas.md](CD-01-Resumen-Formulas.md)` y genera una versión más corta de máximo 5 puntos para usar en una hoja de referencia de examen.
+Revisa mi solución paso a paso del problema [Prob-05] en `[problems/CD-01-Problemas.md](CD-01-Resumen-Formulas.md)` y genera una versión más corta de máximo 5 puntos para usar en una hoja de referencia de examen.
 ```
 
 ## 7. Explicación alternativa

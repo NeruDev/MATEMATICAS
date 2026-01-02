@@ -5,29 +5,23 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: Raíces de Ecuaciones
 
-> **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos) para encontrar [raíces de ecuaciones](../../..](../../../glossary.md)#raices-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../..](../../../glossary.md)#convergencia).
+> **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../../glossary.md#metodos-numericos) para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../../glossary.md#convergencia).
 
 ---
 
 ## Índice de Métodos
 
-| # | Método | [Convergencia](../../../glossary.md#convergencia) | Complejidad |
-|---|--------|--------------|-------------|
-| 1 | [Bisección](#método-1-bisección) | Lineal | ⭐ |
-| 2 | [Falsa Posición](#método-2-falsa-posición-regula-falsi) | Superlineal | ⭐⭐ |
-| 3 | [Newton-Raphson](#método-3-newton-raphson) | Cuadrática | ⭐⭐ |
-| 4 | [Secante](#método-4-secante) | Superlineal (1.618) | ⭐⭐ |
-| 5 | [Punto Fijo](#método-5-punto-fijo) | Lineal | ⭐⭐ |
-| 6 | [Newton Modificado](#método-6-newton-modificado-raíces-múltiples) | Cuadrática | ⭐⭐⭐ |
-| 7 | [Müller](#método-7-müller) | Superlineal (1.84) | ⭐⭐⭐ |
-| 8 | [Steffensen](#método-8-steffensen) | Cuadrática | ⭐⭐⭐ |
-| 9 | [Brent](#método-9-brent) | Superlineal | ⭐⭐⭐⭐ |
+| # | Método | [Convergencia](#método-1-bisección) | Lineal | ⭐ |
+| 2 | [Falsa Posición](#método-3-newton-raphson) | Cuadrática | ⭐⭐ |
+| 4 | [Secante](#método-5-punto-fijo) | Lineal | ⭐⭐ |
+| 6 | [Newton Modificado](#método-7-müller) | Superlineal (1.84) | ⭐⭐⭐ |
+| 8 | [Steffensen](#método-9-brent) | Superlineal | ⭐⭐⭐⭐ |
 | 10 | [Newton Multivariable](#método-10-newton-para-sistemas) | Cuadrática | ⭐⭐⭐⭐ |
 
 ---
@@ -138,7 +132,7 @@ Para $[1,2]$ y $\varepsilon = 10^{-6}$: $n \geq \frac{\ln 1 - \ln(2 \times 10^{-
 
 - Similar a bisección pero potencialmente más rápido
 - Intervalo con cambio de signo conocido
-- [Función](../../..](../../../glossary.md)#funcion) relativamente lineal
+- [Función](../../../glossary.md#funcion) relativamente lineal
 
 ### Fórmula
 
@@ -216,7 +210,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
 ### Interpretación Geométrica
 
-La recta [tangente](../../..](../../../glossary.md)#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
+La recta [tangente](../../../glossary.md#tangente) a $f$ en $x_n$ corta al eje $x$ en $x_{n+1}$.
 
 ### Algoritmo de Resolución
 
@@ -359,7 +353,7 @@ $$\boxed{x^* \approx 1.52138}$$
 
 ---
 
-**[Orden de convergencia](../../..](../../../glossary.md)#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
+**[Orden de convergencia](../../../glossary.md#orden-de-convergencia):** $p = \frac{1 + \sqrt{5}}{2} \approx 1.618$ (número áureo)
 
 ---
 
@@ -512,8 +506,8 @@ $$\boxed{x^* = 1 \text{ (convergencia en 1 iteración)}}$$
 ### Cuándo Usar
 
 - Puede encontrar raíces complejas
-- No requiere [derivada](../../..](../../../glossary.md)#derivada)
-- Usa [interpolación](../../..](../../../glossary.md)#interpolacion) parabólica
+- No requiere [derivada](../../../glossary.md#derivada)
+- Usa [interpolación](../../../glossary.md#interpolacion) parabólica
 
 ### Fórmula
 
@@ -584,7 +578,7 @@ $$x = 1, \quad x = -\frac{1}{2} + \frac{\sqrt{3}}{2}i, \quad x = -\frac{1}{2} - 
 ### Cuándo Usar
 
 - Para acelerar punto fijo a convergencia cuadrática
-- Sin calcular [derivada](../../..](../../../glossary.md)#derivada)
+- Sin calcular [derivada](../../../glossary.md#derivada)
 
 ### Fórmula (Aceleración de Aitken)
 
@@ -654,7 +648,7 @@ $$\boxed{x^* \approx 0.56714}$$
 ### Idea Principal
 
 1. Mantener intervalo que encierra la raíz (como bisección)
-2. Usar [interpolación](../../..](../../../glossary.md)#interpolacion) cuando es seguro y efectivo
+2. Usar [interpolación](../../../glossary.md#interpolacion) cuando es seguro y efectivo
 3. Revertir a bisección si el progreso es insuficiente
 
 ### Características
@@ -662,36 +656,7 @@ $$\boxed{x^* \approx 0.56714}$$
 | Propiedad | Valor |
 |-----------|-------|
 | Garantía de convergencia | ✓ |
-| [Orden](../../../glossary.md#orden) de convergencia | Superlineal |
-| Requiere derivada | No |
-| Requiere intervalo | Sí |
-
-### Pseudocódigo Simplificado
-
-```python
-from scipy.optimize import brentq
-
-# Uso típico
-def f(x):
-    return x**3 - x - 2
-
-raiz = brentq(f, 1, 2, xtol=1e-10)
-```
-
----
-
-## Método 10: Newton para Sistemas
-
-### Cuándo Usar
-
-- Sistema de ecuaciones no lineales
-- $\mathbf{F}(\mathbf{x}) = \mathbf{0}$
-
-### Fórmula
-
-$$\mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}^{-1}(\mathbf{x}_n)\mathbf{F}(\mathbf{x}_n)$$
-
-donde $\mathbf{J}$ es la [matriz](../../..](../../../glossary.md)#matriz) jacobiana:
+| [Orden](../../..](../../../glossary.md#matriz) jacobiana:
 
 $$J_{ij} = \frac{\partial F_i}{\partial x_j}$$
 
@@ -728,7 +693,7 @@ $\mathbf{J}(\mathbf{x}_0) = \begin{pmatrix} 3 & 3 \\ 1.5 & 1.5 \end{pmatrix}$
 
 Resolver: $\begin{pmatrix} 3 & 3 \\ 1.5 & 1.5 \end{pmatrix}\begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} -0.5 \\ -1.25 \end{pmatrix}$
 
-La [matriz](../../..](../../../glossary.md)#matriz) es singular en este punto, necesitamos mejor punto inicial.
+La [matriz](../../../glossary.md#matriz) es singular en este punto, necesitamos mejor punto inicial.
 
 ---
 
@@ -793,8 +758,7 @@ $$\boxed{(x^*, y^*) \approx (1.9319, 0.5176)}$$
 | División por cero en Newton | Falla del método | Verificar $f'(x_n) \neq 0$ |
 | Mal punto inicial | No convergencia | Graficar primero |
 | Intervalo sin cambio de signo | Bisección falla | Verificar $f(a)f(b) < 0$ |
-| $\vert g'\vert \geq 1$ en punto fijo | [Divergencia](../../../glossary.md#divergencia) | Reformular $g(x)$ |
-| Tolerancia muy pequeña | No termina | Considerar precisión de [máquina](../../../glossary.md#maquina) |
+| $\vert g'\vert \geq 1$ en punto fijo | [Divergencia](../../../glossary.md#maquina) |
 
 ---
 

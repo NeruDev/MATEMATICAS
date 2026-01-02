@@ -10,7 +10,7 @@ solved_detailed: 11
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -92,15 +92,9 @@ Las siguientes tienen desarrollo paso a paso completo:
 
 | Tema | Problemas con solución |
 |:-----|:-----------------------|
-| Demostración ε-δ | [Prob-04](./prob-04/) |
-| [Límites](../../../glossary.md#limites) laterales | [Prob-05](./prob-05/) |
-| Teorema del emparedado | [Prob-13](./prob-13/) |
-| [Factorización](../../../glossary.md#factorizacion) | [Prob-14](./prob-14/) |
-| Racionalización | [Prob-18](./prob-18/), [Prob-21](./prob-21/) |
-| Límites trigonométricos | [Prob-24](./prob-24/), [Prob-30](./prob-30/) |
-| Límites al infinito | [Prob-34](./prob-34/), [Prob-40](./prob-40/) |
-| Definición de e | [Prob-43](./prob-43/) |
-
----
-
-> 📚 **Archivo de problemas:** [problems/CD-01-Problemas.md](../problems/CD-01-Problemas.md)
+| Demostración ε-δ | [Prob-04](../../../glossary.md#limites) laterales | [Prob-05](./prob-13/) |
+| [Factorización](./prob-14/) |
+| Racionalización | [Prob-18](./prob-21/) |
+| Límites trigonométricos | [Prob-24](./prob-30/) |
+| Límites al infinito | [Prob-34](./prob-40/) |
+| Definición de e | [Prob-43](../problems/CD-01-Problemas.md)

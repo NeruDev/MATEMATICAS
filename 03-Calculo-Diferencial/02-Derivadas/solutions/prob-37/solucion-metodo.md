@@ -2,7 +2,7 @@
 ---
 type: solution
 problem-id: CD-02-37
-topic: [Derivadas](../../../..](../../../../glossary.md)#derivadas)
+topic: [Derivadas](../../../../glossary.md#derivadas)
 subtopic: Derivación implícita
 difficulty: avanzado
 tags: [derivada, implícita, folio-descartes, curvas-algebraicas, pendiente]
@@ -11,7 +11,7 @@ created: 2024-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -19,7 +19,7 @@ created: 2024-12-22
 
 ## Problema
 
-Para la curva $x^3 + y^3 = 6xy$ (Folio de Descartes), encontrar la pendiente de la recta [tangente](../../../..](../../../../glossary.md)#tangente) en el punto $(3, 3)$.
+Para la curva $x^3 + y^3 = 6xy$ (Folio de Descartes), encontrar la pendiente de la recta [tangente](../../../../glossary.md#tangente) en el punto $(3, 3)$.
 
 ---
 
@@ -39,15 +39,15 @@ El punto $(3, 3)$ sí pertenece a la curva.
 Partimos de:
 $$x^3 + y^3 = 6xy$$
 
-**[Derivada](../../../..](../../../../glossary.md)#derivada) del lado izquierdo:**
+**[Derivada](../../../../glossary.md#derivada) del lado izquierdo:**
 $$\frac{d}{dx}[x^3 + y^3] = \frac{d}{dx}[x^3] + \frac{d}{dx}[y^3]$$
 
 - $\dfrac{d}{dx}[x^3] = 3x^2$
-- $\dfrac{d}{dx}[y^3] = 3y^2 \cdot \dfrac{dy}{dx}$ ([regla de la cadena](../../../..](../../../../glossary.md)#regla-de-la-cadena))
+- $\dfrac{d}{dx}[y^3] = 3y^2 \cdot \dfrac{dy}{dx}$ ([regla de la cadena](../../../../glossary.md#regla-de-la-cadena))
 
 $$= 3x^2 + 3y^2 \frac{dy}{dx}$$
 
-**[Derivada](../../../..](../../../../glossary.md)#derivada) del lado derecho (regla del producto):**
+**[Derivada](../../../../glossary.md#derivada) del lado derecho (regla del producto):**
 $$\frac{d}{dx}[6xy] = 6\frac{d}{dx}[xy] = 6\left[ x\frac{dy}{dx} + y \cdot 1 \right] = 6x\frac{dy}{dx} + 6y$$
 
 ### Paso 3: Igualar las derivadas
@@ -96,7 +96,7 @@ El Folio de Descartes $x^3 + y^3 = 6xy$ es simétrico respecto a la recta $y = x
 
 El punto $(3, 3)$ está **sobre** la línea de simetría $y = x$.
 
-Por simetría, la [tangente](../../../..](../../../../glossary.md)#tangente) en un punto sobre $y = x$ debe ser perpendicular a esta línea, lo que significa que tiene pendiente $m = -1$. ✓
+Por simetría, la [tangente](../../../../glossary.md#tangente) en un punto sobre $y = x$ debe ser perpendicular a esta línea, lo que significa que tiene pendiente $m = -1$. ✓
 
 ### Método 2: Verificación paramétrica
 
@@ -138,7 +138,7 @@ $$\frac{dy}{dx} = \frac{3/2}{-3/2} = -1 \checkmark$$
 ```
 
 ### Características del Folio:
-- **[Asíntota](../../../..](../../../../glossary.md)#asintota)**: $x + y + 2 = 0$
+- **[Asíntota](../../../../glossary.md#asintota)**: $x + y + 2 = 0$
 - **Punto doble**: origen $(0, 0)$
 - **Simetría**: respecto a la recta $y = x$
 - **Lazo**: en el primer cuadrante

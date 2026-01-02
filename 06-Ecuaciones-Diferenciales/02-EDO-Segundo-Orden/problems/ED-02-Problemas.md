@@ -1,7 +1,7 @@
 <!--
 ---
 content_type: problem_set
-topic_id: ed-02-[edo](../../..](../../../glossary.md)#edo)-segundo-[orden](../../..](../../../glossary.md)#orden)
+topic_id: ed-02-[edo](../../../glossary.md#edo)-segundo-[orden](../../../glossary.md#orden)
 file_id: ED-02-Problemas
 total_problems: 30
 difficulty_distribution:
@@ -12,7 +12,7 @@ difficulty_distribution:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -296,7 +296,7 @@ c) $y'' + 4y = \cos 2x$, $y(0) = 0$, $y'(0) = 1$
 
 Una masa de 2 kg está unida a un resorte con $k = 18$ N/m. El sistema no tiene amortiguamiento.
 
-a) Escribir la [ecuación diferencial](../../..](../../../glossary.md)#ecuacion-diferencial) del movimiento
+a) Escribir la [ecuación diferencial](../../../glossary.md#ecuacion-diferencial) del movimiento
 
 b) Si $x(0) = 0.1$ m y $\dot{x}(0) = 0$, encontrar $x(t)$
 
@@ -340,7 +340,7 @@ Un oscilador con $m = 1$ kg, $c = 0$, $k = 9$ N/m está sujeto a $F(t) = 10\cos 
 
 a) Escribir y resolver la ecuación del movimiento
 
-b) Si $x(0) = 0$ y $\dot{x}(0) = 0$, encontrar la [solución particular](../../..](../../../glossary.md)#solucion-particular)
+b) Si $x(0) = 0$ y $\dot{x}(0) = 0$, encontrar la [solución particular](../../../glossary.md#solucion-particular)
 
 > 📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
 
@@ -390,7 +390,7 @@ b) Resolver el PVI con $q(0) = 0$, $i(0) = 0$
 
 Circuito con $L = 1$ H, $R = 0$, $C = 0.04$ F, y $E(t) = 100\cos 5t$ V.
 
-a) ¿Hay [resonancia](../../..](../../../glossary.md)#resonancia)? Explicar
+a) ¿Hay [resonancia](../../../glossary.md#resonancia)? Explicar
 
 b) Encontrar la solución para la corriente
 
@@ -416,7 +416,7 @@ c) $y'' - 4y' + 4y = e^{2x}/x$ (usar variación de parámetros)
 
 #### [Prob-29] Construcción de ecuaciones diferenciales ⭐
 
-Encontrar una [ecuación diferencial](../../..](../../../glossary.md)#ecuacion-diferencial) de segundo [orden](../../..](../../../glossary.md)#orden) con coeficientes constantes cuya [solución general](../../..](../../../glossary.md)#solucion-general) sea:
+Encontrar una [ecuación diferencial](../../../glossary.md#ecuacion-diferencial) de segundo [orden](../../../glossary.md#orden) con coeficientes constantes cuya [solución general](../../../glossary.md#solucion-general) sea:
 
 a) $y = C_1 e^{3x} + C_2 e^{-x}$
 

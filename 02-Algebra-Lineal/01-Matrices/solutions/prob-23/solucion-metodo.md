@@ -10,7 +10,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -18,7 +18,7 @@ audience: student
 
 **Método aplicado:** Fórmulas $S = \frac{1}{2}(A + A^T)$ y $K = \frac{1}{2}(A - A^T)$
 
-**Paso 1: Calcular la [transpuesta](../../../..](../../../../glossary.md)#transpuesta)**
+**Paso 1: Calcular la [transpuesta](../../../../glossary.md#transpuesta)**
 $$A^T = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$$
 
 **Paso 2: Parte simétrica**

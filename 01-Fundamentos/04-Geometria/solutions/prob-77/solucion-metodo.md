@@ -10,7 +10,7 @@ methods: ["relaciones-metricas", "media-geometrica", "triangulo-rectangulo", "te
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -57,7 +57,7 @@ methods: ["relaciones-metricas", "media-geometrica", "triangulo-rectangulo", "te
 
 ## Relaciones métricas fundamentales
 
-En un triángulo rectángulo, cuando se [traza](../../../..](../../../../glossary.md)#traza) la altura al lado de la hipotenusa, se cumplen las siguientes relaciones:
+En un triángulo rectángulo, cuando se [traza](../../../../glossary.md#traza) la altura al lado de la hipotenusa, se cumplen las siguientes relaciones:
 
 ### Teorema de la altura (Media geométrica)
 
@@ -149,7 +149,7 @@ $$169 = 169 \quad \checkmark$$
 
 ### Verificación 2: Área del triángulo (dos métodos)
 
-**Método 1:** Usando los catetos como [base](../../../..](../../../../glossary.md)#base) y altura
+**Método 1:** Usando los catetos como [base](../../../../glossary.md#base) y altura
 
 $$A = \frac{1}{2} \times AC \times BC = \frac{1}{2} \times 2\sqrt{13} \times 3\sqrt{13}$$
 

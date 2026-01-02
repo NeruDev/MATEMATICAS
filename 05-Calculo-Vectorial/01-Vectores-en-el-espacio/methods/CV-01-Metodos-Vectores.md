@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -21,7 +21,7 @@ audience: student
 ## Método 1: Magnitud de un Vector
 
 ### Cuándo Usar
-- Calcular la "longitud" o norma de un [vector](../../..](../../../glossary.md)#vector)
+- Calcular la "longitud" o norma de un [vector](../../../glossary.md#vector)
 - Normalizar vectores (crear unitarios)
 
 ### Fórmula
@@ -59,7 +59,7 @@ $$\lVert\mathbf{v}\rVert = \sqrt{169} = 13$$
 ## Método 2: Vector Unitario
 
 ### Cuándo Usar
-- Obtener un [vector](../../..](../../../glossary.md)#vector) de magnitud 1 en la misma dirección
+- Obtener un [vector](../../../glossary.md#vector) de magnitud 1 en la misma dirección
 - Normalizar para cálculos de proyección
 
 ### Fórmula

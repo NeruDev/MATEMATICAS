@@ -5,13 +5,13 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: Series de Potencias para EDO
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) usando series de potencias y el método de Frobenius.
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) usando series de potencias y el método de Frobenius.
 
 ---
 
@@ -19,45 +19,12 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Punto Ordinario](#método-1-solución-en-punto-ordinario) | [EDO](../../../glossary.md#edo) en punto ordinario | ⭐⭐ |
-| 2 | [Clasificar Puntos Singulares](#método-2-clasificar-puntos-singulares) | Identificar tipo de singularidad | ⭐⭐ |
-| 3 | [Ecuación Indicial](#método-3-ecuación-indicial) | Frobenius - encontrar exponentes | ⭐⭐ |
-| 4 | [Frobenius Caso 1](#método-4-frobenius-raíces-distintas-diferencia-no-entera) | $r_1 - r_2 \notin \mathbb{Z}$ | ⭐⭐⭐ |
-| 5 | [Frobenius Caso 2](#método-5-frobenius-raíces-iguales) | $r_1 = r_2$ | ⭐⭐⭐⭐ |
-| 6 | [Frobenius Caso 3](#método-6-frobenius-diferencia-entera) | $r_1 - r_2 \in \mathbb{Z}^+$ | ⭐⭐⭐⭐ |
-| 7 | [Radio de Convergencia](#método-7-determinar-radio-de-[convergencia](../../../glossary.md#convergencia)) | Analizar convergencia | ⭐⭐ |
-| 8 | [Ecuaciones Especiales](#método-8-identificar-ecuaciones-especiales) | Bessel, Legendre, etc. | ⭐⭐⭐ |
-| 9 | [Ecuación de Bessel](#método-9-resolver-ecuación-de-bessel) | Problemas cilíndricos | ⭐⭐⭐⭐ |
-| 10 | [Ecuación de Legendre](#método-10-resolver-ecuación-de-legendre) | Problemas esféricos | ⭐⭐⭐⭐ |
-
----
-
-## Conceptos Fundamentales
-
-### Definiciones Clave
-
-| Concepto | Definición |
-|----------|------------|
-| **Punto Ordinario** | $x_0$ donde $P(x)$ y $Q(x)$ son analíticas en $y'' + P(x)y' + Q(x)y = 0$ |
-| **Punto Singular** | $x_0$ donde $P$ o $Q$ no son analíticas |
-| **Singular Regular** | $x_0$ donde $(x-x_0)P$ y $(x-x_0)^2Q$ son analíticas |
-| **Singular Irregular** | Punto singular que no es regular |
-
-### Serie de Potencias en $x_0$
-
-$$y = \sum_{n=0}^{\infty} c_n (x - x_0)^n$$
-
-### Serie de Frobenius en $x_0$
-
-$$y = (x-x_0)^r \sum_{n=0}^{\infty} c_n (x-x_0)^n = \sum_{n=0}^{\infty} c_n (x-x_0)^{n+r}$$
-
----
-
-## Método 1: Solución en Punto Ordinario
-
-### Cuándo Usar
-
-- La [EDO](../../..](../../../glossary.md)#edo) es $y'' + P(x)y' + Q(x)y = 0$
+| 1 | [Punto Ordinario](../../../glossary.md#edo) en punto ordinario | ⭐⭐ |
+| 2 | [Clasificar Puntos Singulares](#método-3-ecuación-indicial) | Frobenius - encontrar exponentes | ⭐⭐ |
+| 4 | [Frobenius Caso 1](#método-5-frobenius-raíces-iguales) | $r_1 = r_2$ | ⭐⭐⭐⭐ |
+| 6 | [Frobenius Caso 3](#método-7-determinar-radio-de-[convergencia](../../../glossary.md#convergencia)) | Analizar convergencia | ⭐⭐ |
+| 8 | [Ecuaciones Especiales](#método-9-resolver-ecuación-de-bessel) | Problemas cilíndricos | ⭐⭐⭐⭐ |
+| 10 | [Ecuación de Legendre](../../..](../../../glossary.md#edo) es $y'' + P(x)y' + Q(x)y = 0$
 - El punto $x_0$ es ordinario (P y Q analíticas en $x_0$)
 - Para mayor simplicidad, usualmente $x_0 = 0$
 
@@ -99,7 +66,7 @@ Ambas analíticas en $x = 0$ ✓ Punto ordinario
 
 ---
 
-**Paso 2-3: Suponer serie y [derivadas](../../..](../../../glossary.md)#derivadas)**
+**Paso 2-3: Suponer serie y [derivadas](../../../glossary.md#derivadas)**
 
 $$y = \sum_{n=0}^{\infty} c_n x^n$$
 
@@ -549,7 +516,7 @@ $$y_1 = \frac{c_0}{x} = \frac{1}{x}$$
 
 ---
 
-**Paso 3: Encontrar** $y_2$ **por reducción de [orden](../../..](../../../glossary.md)#orden)**
+**Paso 3: Encontrar** $y_2$ **por reducción de [orden](../../../glossary.md#orden)**
 
 $y'' + \frac{3}{x}y' + \frac{1}{x^2}y = 0$
 
@@ -672,7 +639,7 @@ $$y_2 = c_1\left(x - \frac{x^2}{2} + \frac{x^3}{12} - \cdots\right)$$
 
 ---
 
-**Paso 4: Usar reducción de [orden](../../..](../../../glossary.md)#orden)**
+**Paso 4: Usar reducción de [orden](../../../glossary.md#orden)**
 
 $P(x) = 0$ en $y'' + 0 \cdot y' + \frac{1}{x}y = 0$
 
@@ -697,7 +664,7 @@ $$\boxed{y = C_1 y_1(x) + C_2 y_2(x) \text{ (donde } y_2 \text{ contiene } \ln x
 
 ### Teorema Principal
 
-El radio de [convergencia](../../..](../../../glossary.md)#convergencia) de la serie de potencias centrada en $x_0$ es **al menos** igual a la distancia de $x_0$ al punto singular más cercano.
+El radio de [convergencia](../../../glossary.md#convergencia) de la serie de potencias centrada en $x_0$ es **al menos** igual a la distancia de $x_0$ al punto singular más cercano.
 
 ### Algoritmo de Resolución
 
@@ -785,7 +752,7 @@ $\nu^2 = 9 \Rightarrow \nu = 3$
 
 $$\boxed{\text{Ecuación de Bessel con } \nu = 3}$$
 
-**[Solución general](../../..](../../../glossary.md)#solucion-general):** $y = C_1 J_3(x) + C_2 Y_3(x)$
+**[Solución general](../../../glossary.md#solucion-general):** $y = C_1 J_3(x) + C_2 Y_3(x)$
 
 ---
 
@@ -803,7 +770,7 @@ $$x^2y'' + xy' + (x^2 - \nu^2)y = 0$$
 
 ### Soluciones
 
-**[Función](../../..](../../../glossary.md)#funcion) de Bessel de primera clase:**
+**[Función](../../../glossary.md#funcion) de Bessel de primera clase:**
 
 $$J_\nu(x) = \sum_{m=0}^{\infty} \frac{(-1)^m}{m!\,\Gamma(m+\nu+1)}\left(\frac{x}{2}\right)^{2m+\nu}$$
 
@@ -836,7 +803,7 @@ $\nu^2 = 4 \Rightarrow \nu = 2$ (entero)
 
 ---
 
-**Paso 2: [Solución general](../../..](../../../glossary.md)#solucion-general)**
+**Paso 2: [Solución general](../../../glossary.md#solucion-general)**
 
 $$\boxed{y = C_1 J_2(x) + C_2 Y_2(x)}$$
 

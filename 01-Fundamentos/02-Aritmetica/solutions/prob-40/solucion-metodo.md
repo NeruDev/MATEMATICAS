@@ -6,17 +6,17 @@ file_id: FUN-02-Prob-40-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-40]"
-methods: ["relación [MCD](../../../..](../../../../glossary.md)#mcd)-[MCM](../../../..](../../../../glossary.md)#mcm)-producto", "[factorización](../../../..](../../../../glossary.md)#factorizacion) prima", "análisis de divisores"]
+methods: ["relación [MCD](../../../../glossary.md#mcd)-[MCM](../../../../glossary.md#mcm)-producto", "[factorización](../../../../glossary.md#factorizacion) prima", "análisis de divisores"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
 # Solución [Prob-40]: Encontrar n dado MCD y MCM
 
-> **Problema:** Si $\text{[MCD](../../../..](../../../../glossary.md)#mcd)}(n, 12) = 4$ y $\text{[MCM](../../../..](../../../../glossary.md)#mcm)}(n, 12) = 60$, encuentra $n$.
+> **Problema:** Si $\text{[MCD](../../../../glossary.md#mcd)}(n, 12) = 4$ y $\text{[MCM](../../../../glossary.md#mcm)}(n, 12) = 60$, encuentra $n$.
 
 ---
 

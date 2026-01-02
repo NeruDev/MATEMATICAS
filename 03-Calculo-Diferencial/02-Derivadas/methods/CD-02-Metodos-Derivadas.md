@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -21,7 +21,7 @@ status: active
 
 ### Fórmulas Fundamentales
 
-| [Función](../../../glossary.md#funcion) | [Derivada](../../../glossary.md#derivada) |
+| [Función](../../../glossary.md#derivada) |
 |---------|----------|
 | $c$ (constante) | $0$ |
 | $x^n$ | $nx^{n-1}$ |
@@ -104,9 +104,7 @@ $$\frac{d}{dx}[f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar $f$ y $g$ | Las dos funciones multiplicadas |
-| 2 | Calcular [derivadas](../../../glossary.md#derivadas) | $f'(x)$ y $g'(x)$ por separado |
-| 3 | Aplicar fórmula | $(f'g + fg')$ |
-| 4 | Simplificar | [Factorizar](../../../glossary.md#factorizar) si es posible |
+| 2 | Calcular [derivadas](../../../glossary.md#factorizar) si es posible |
 
 ### Ejemplo Detallado
 
@@ -120,7 +118,7 @@ $$f(x) = x^2 + 3x, \quad g(x) = 2x^3 - x$$
 
 ---
 
-**Paso 2: Calcular [derivadas](../../..](../../../glossary.md)#derivadas)**
+**Paso 2: Calcular [derivadas](../../../glossary.md#derivadas)**
 
 $$f'(x) = 2x + 3$$
 $$g'(x) = 6x^2 - 1$$
@@ -160,7 +158,7 @@ $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cd
 
 ### Nemotecnia
 
-> "Lo de abajo por la [derivada](../../..](../../../glossary.md)#derivada) de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
+> "Lo de abajo por la [derivada](../../../glossary.md#derivada) de lo de arriba, menos lo de arriba por la derivada de lo de abajo, todo sobre lo de abajo al cuadrado"
 
 ### Algoritmo de Resolución
 
@@ -221,32 +219,7 @@ $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar [función](../../../glossary.md#funcion) externa | $f$ (la "de afuera") |
-| 2 | Identificar función interna | $g$ (la "de adentro") |
-| 3 | Derivar externa | Mantener interna intacta |
-| 4 | Multiplicar por derivada interna | Por $g'(x)$ |
-
-### Ejemplo Detallado
-
-**Problema:** Derivar $h(x) = (3x^2 + 2x - 1)^5$
-
----
-
-**Paso 1: Identificar funciones**
-
-$$f(u) = u^5 \quad \text{(externa)}$$
-$$g(x) = 3x^2 + 2x - 1 \quad \text{(interna)}$$
-
----
-
-**Paso 2: Calcular derivadas**
-
-$$f'(u) = 5u^4$$
-$$g'(x) = 6x + 2$$
-
----
-
-**Paso 3: Aplicar [regla de la cadena](../../..](../../../glossary.md)#regla-de-la-cadena)**
+| 1 | Identificar [función](../../..](../../../glossary.md#regla-de-la-cadena)**
 
 $$h'(x) = f'(g(x)) \cdot g'(x)$$
 $$= 5(3x^2 + 2x - 1)^4 \cdot (6x + 2)$$
@@ -441,7 +414,7 @@ $$\boxed{\frac{dy}{dx} = \frac{x^2\sqrt{x+1}}{(2x-3)^4}\left(\frac{2}{x} + \frac
 
 ## Método 7: Derivadas de Funciones Trigonométricas
 
-**Cuándo Usar:** Funciones que involucran [seno](../../..](../../../glossary.md)#seno), [coseno](../../..](../../../glossary.md)#coseno), [tangente](../../..](../../../glossary.md)#tangente), etc.
+**Cuándo Usar:** Funciones que involucran [seno](../../../glossary.md#seno), [coseno](../../../glossary.md#coseno), [tangente](../../../glossary.md#tangente), etc.
 
 ### Tabla de Derivadas Trigonométricas
 
@@ -631,7 +604,7 @@ $$\boxed{f'(x) = 3x^2 \text{sech}^2(x^3)}$$
 
 ## Método 11: Derivadas de Orden Superior
 
-**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de [concavidad](../../..](../../../glossary.md)#concavidad), aceleración, etc.
+**Cuándo Usar:** Encontrar $f''(x)$, $f'''(x)$, etc. para análisis de [concavidad](../../../glossary.md#concavidad), aceleración, etc.
 
 ### Algoritmo de Resolución
 

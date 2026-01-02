@@ -5,32 +5,25 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: Solución Numérica de EDO
 
-> **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos) para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 [métodos numéricos](../../../glossary.md#metodos-numericos) para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
 ## Índice de Métodos
 
-| # | Método | [Orden](../../../glossary.md#orden) de Error | Complejidad |
-|---|--------|----------------|-------------|
-| 1 | [Euler Explícito](#método-1-euler-explícito) | $O(h)$ | ⭐ |
-| 2 | [Heun (Euler Mejorado)](#método-2-heun-euler-mejorado) | $O(h^2)$ | ⭐ |
-| 3 | [Punto Medio](#método-3-punto-medio) | $O(h^2)$ | ⭐ |
-| 4 | [Runge-Kutta 2 (RK2)](#método-4-runge-kutta-2-rk2) | $O(h^2)$ | ⭐⭐ |
-| 5 | [Runge-Kutta 4 (RK4)](#método-5-runge-kutta-4-rk4) | $O(h^4)$ | ⭐⭐ |
-| 6 | [Runge-Kutta-Fehlberg (RKF45)](#método-6-runge-kutta-fehlberg-rkf45) | Adaptativo | ⭐⭐⭐ |
-| 7 | [Adams-Bashforth](#método-7-adams-bashforth) | $O(h^k)$ | ⭐⭐⭐ |
-| 8 | [Adams-Moulton](#método-8-adams-moulton) | $O(h^{k+1})$ | ⭐⭐⭐ |
-| 9 | [Predictor-Corrector](#método-9-predictor-corrector) | $O(h^4)$-$O(h^5)$ | ⭐⭐⭐ |
-| 10 | [Euler Implícito](#método-10-euler-implícito) | $O(h)$ | ⭐⭐ |
-| 11 | [Trapecio (Crank-Nicolson)](#método-11-trapecio-crank-nicolson) | $O(h^2)$ | ⭐⭐⭐ |
-| 12 | [Sistemas de EDO](#método-12-sistemas-de-[edo](../../../glossary.md#edo)-con-rk4) | Variable | ⭐⭐⭐ |
+| # | Método | [Orden](#método-1-euler-explícito) | $O(h)$ | ⭐ |
+| 2 | [Heun (Euler Mejorado)](#método-3-punto-medio) | $O(h^2)$ | ⭐ |
+| 4 | [Runge-Kutta 2 (RK2)](#método-5-runge-kutta-4-rk4) | $O(h^4)$ | ⭐⭐ |
+| 6 | [Runge-Kutta-Fehlberg (RKF45)](#método-7-adams-bashforth) | $O(h^k)$ | ⭐⭐⭐ |
+| 8 | [Adams-Moulton](#método-9-predictor-corrector) | $O(h^4)$-$O(h^5)$ | ⭐⭐⭐ |
+| 10 | [Euler Implícito](#método-11-trapecio-crank-nicolson) | $O(h^2)$ | ⭐⭐⭐ |
+| 12 | [Sistemas de EDO](../../../glossary.md#edo)-con-rk4) | Variable | ⭐⭐⭐ |
 
 ---
 
@@ -59,7 +52,7 @@ $$\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0$$
 
 ### Estabilidad
 
-Un método es **estable** si los errores no crecen sin [límite](../../..](../../../glossary.md)#limite).
+Un método es **estable** si los errores no crecen sin [límite](../../../glossary.md#limite).
 
 **Región de estabilidad:** Valores de $h\lambda$ donde el método es estable para $y' = \lambda y$.
 
@@ -69,9 +62,9 @@ Un método es **estable** si los errores no crecen sin [límite](../../..](../..
 
 ### Cuándo Usar
 
-- Introducción a [métodos numéricos](../../..](../../../glossary.md)#metodos-numericos)
+- Introducción a [métodos numéricos](../../../glossary.md#metodos-numericos)
 - Problemas donde la velocidad prima sobre precisión
-- [Base](../../..](../../../glossary.md)#base) para métodos más avanzados
+- [Base](../../../glossary.md#base) para métodos más avanzados
 
 ### Fórmula
 
@@ -243,8 +236,8 @@ $$\boxed{y(0.4) \approx 1.5818}$$
 ### Cuándo Usar
 
 - Alternativa a Heun
-- Precisión de segundo [orden](../../..](../../../glossary.md)#orden)
-- [Base](../../..](../../../glossary.md)#base) para entender RK2
+- Precisión de segundo [orden](../../../glossary.md#orden)
+- [Base](../../../glossary.md#base) para entender RK2
 
 ### Fórmula
 
@@ -284,7 +277,7 @@ def punto_medio(f, x0, y0, xf, h):
 
 - Compromiso velocidad-precisión
 - Entender la estructura de métodos RK
-- Problemas donde $O(h^2)$ es [suficiente](../../..](../../../glossary.md)#suficiente)
+- Problemas donde $O(h^2)$ es [suficiente](../../../glossary.md#suficiente)
 
 ### Familia RK2
 
@@ -560,7 +553,7 @@ $$= 1.3997 + \frac{0.1}{24}(44.13) = 1.3997 + 0.1839 = 1.5836$$
 
 - Mayor precisión que Adams-Bashforth del mismo orden
 - Como corrector en métodos predictor-corrector
-- [EDO](../../..](../../../glossary.md)#edo) menos rígidas
+- [EDO](../../../glossary.md#edo) menos rígidas
 
 ### Idea
 
@@ -724,7 +717,7 @@ def euler_implicito(f, x0, y0, xf, h, tol=1e-8, max_iter=100):
 
 - EDO rígidas con precisión $O(h^2)$
 - A-estable
-- Ecuaciones en [derivadas](../../..](../../../glossary.md)#derivadas) parciales parabólicas
+- Ecuaciones en [derivadas](../../../glossary.md#derivadas) parciales parabólicas
 
 ### Fórmula
 
@@ -837,7 +830,7 @@ $$z_2' = -4z_1$$
 
 ---
 
-**Paso 2: Definir [función](../../..](../../../glossary.md)#funcion)**
+**Paso 2: Definir [función](../../../glossary.md#funcion)**
 
 ```python
 def f(x, z):

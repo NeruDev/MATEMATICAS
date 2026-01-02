@@ -82,8 +82,7 @@ La IA respeta los métodos definidos en cada tema y no asume conocimientos fuera
 
 | Recurso | Ubicación | Uso |
 |---------|-----------|-----|
-| Glosario | [`glossary.md`](../glossary.md) | ~150 términos con analogías |
-| Notación | [`00-META/notation-cheatsheet.md`](notation-cheatsheet.md) | Símbolos y convenciones |
+| Glosario | [`glossary.md`](notation-cheatsheet.md) | Símbolos y convenciones |
 | Fórmulas | `PREFIJO-XX-Resumen-Formulas.md` | Por cada tema |
 
 ## Prerequisitos generales

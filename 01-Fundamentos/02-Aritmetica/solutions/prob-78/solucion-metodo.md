@@ -6,11 +6,11 @@ file_id: FUN-02-Prob-78-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-78]"
-methods: ["sistema de ecuaciones", "[sustitución](../../../..](../../../../glossary.md)#sustitucion)", "razones equivalentes"]
+methods: ["sistema de ecuaciones", "[sustitución](../../../../glossary.md#sustitucion)", "razones equivalentes"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 

@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -37,7 +37,7 @@ $$\cos(2\theta) = 2\cos^2\theta - 1$$
 
 ### Paso 1: Determinar los límites de integración
 
-La cardioide $r = 1 + \cos\theta$ es una curva cerrada que se [traza](../../../..](../../../../glossary.md)#traza) completamente cuando $\theta$ varía de $0$ a $2\pi$.
+La cardioide $r = 1 + \cos\theta$ es una curva cerrada que se [traza](../../../../glossary.md#traza) completamente cuando $\theta$ varía de $0$ a $2\pi$.
 
 - Cuando $\theta = 0$: $r = 1 + 1 = 2$ (punto más alejado del origen)
 - Cuando $\theta = \pi$: $r = 1 + (-1) = 0$ (cúspide en el origen)
@@ -77,10 +77,10 @@ $$A = \frac{1}{2}\left[\int_0^{2\pi} \frac{3}{2} \, d\theta + \int_0^{2\pi} 2\co
 **Integral 1:** Constante
 $$\int_0^{2\pi} \frac{3}{2} \, d\theta = \frac{3}{2}[\theta]_0^{2\pi} = \frac{3}{2}(2\pi - 0) = 3\pi$$
 
-**Integral 2:** [Coseno](../../../..](../../../../glossary.md)#coseno) sobre período completo
+**Integral 2:** [Coseno](../../../../glossary.md#coseno) sobre período completo
 $$\int_0^{2\pi} 2\cos\theta \, d\theta = 2[\sin\theta]_0^{2\pi} = 2(\sin 2\pi - \sin 0) = 2(0 - 0) = 0$$
 
-**Integral 3:** [Coseno](../../../..](../../../../glossary.md)#coseno) de ángulo doble sobre período completo
+**Integral 3:** [Coseno](../../../../glossary.md#coseno) de ángulo doble sobre período completo
 $$\int_0^{2\pi} \frac{\cos(2\theta)}{2} \, d\theta = \frac{1}{2} \cdot \frac{1}{2}[\sin(2\theta)]_0^{2\pi}$$
 
 $$= \frac{1}{4}[\sin(4\pi) - \sin(0)] = \frac{1}{4}(0 - 0) = 0$$

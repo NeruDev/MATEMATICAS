@@ -9,7 +9,7 @@ requires: [fun-04-geometria]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -39,7 +39,7 @@ Un **ángulo** es la rotación de un rayo desde una posición inicial hasta una 
 
 **Radianes:**
 - Una vuelta completa = $2\pi$ rad
-- Un [radián](../../..](../../../glossary.md)#radian) = ángulo central que subtiende un arco igual al radio
+- Un [radián](../../../glossary.md#radian) = ángulo central que subtiende un arco igual al radio
 
 **Conversión:**
 $$\boxed{180° = \pi \text{ rad}}$$
@@ -121,9 +121,9 @@ $$\sin\theta = y \qquad \cos\theta = x \qquad \tan\theta = \frac{y}{x}$$
 
 **Regla mnemotécnica "ASTC"** (All Students Take Calculus):
 - **A**ll (I): todas positivas
-- **S**in (II): solo [seno](../../..](../../../glossary.md)#seno) positivo
-- **T**an (III): solo [tangente](../../..](../../../glossary.md)#tangente) positiva
-- **C**os (IV): solo [coseno](../../..](../../../glossary.md)#coseno) positivo
+- **S**in (II): solo [seno](../../../glossary.md#seno) positivo
+- **T**an (III): solo [tangente](../../../glossary.md#tangente) positiva
+- **C**os (IV): solo [coseno](../../../glossary.md#coseno) positivo
 
 ### Ángulos de referencia
 
@@ -285,7 +285,7 @@ $$\frac{a - b}{a + b} = \frac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$$
 
 ### Fórmulas de área
 
-**Con [base](../../..](../../../glossary.md)#base) y altura:**
+**Con [base](../../../glossary.md#base) y altura:**
 $$A = \frac{1}{2}bh$$
 
 **Con dos lados y ángulo comprendido:**
@@ -302,7 +302,7 @@ donde $s = \frac{a + b + c}{2}$ es el semiperímetro.
 
 ### Definiciones y dominios
 
-| [Función](../../../glossary.md#funcion) | Notación | [Dominio](../../../glossary.md#dominio) | Rango |
+| [Función](../../../glossary.md#dominio) | Rango |
 |---------|:--------:|:-------:|:-----:|
 | Arcoseno | $\arcsin x$ o $\sin^{-1}x$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | Arcocoseno | $\arccos x$ o $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
@@ -351,31 +351,10 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 
 1. Aislar la función trigonométrica
 2. Encontrar soluciones en el intervalo fundamental
-3. Escribir la [solución general](../../..](../../../glossary.md)#solucion-general) usando periodicidad
+3. Escribir la [solución general](../../../glossary.md#solucion-general) usando periodicidad
 
 ### Soluciones generales
 
-| Ecuación | [Solución general](../../../glossary.md#solucion-general) |
-|----------|------------------|
-| $\sin\theta = k$ | $\theta = \arcsin k + 2n\pi$ o $\theta = \pi - \arcsin k + 2n\pi$ |
-| $\cos\theta = k$ | $\theta = \pm\arccos k + 2n\pi$ |
-| $\tan\theta = k$ | $\theta = \arctan k + n\pi$ |
-
-donde $n \in \mathbb{Z}$.
-
-### Ecuaciones especiales
-
-| Ecuación | Soluciones |
-|----------|------------|
-| $\sin\theta = 0$ | $\theta = n\pi$ |
-| $\cos\theta = 0$ | $\theta = \frac{\pi}{2} + n\pi$ |
-| $\tan\theta = 0$ | $\theta = n\pi$ |
-| $\sin\theta = 1$ | $\theta = \frac{\pi}{2} + 2n\pi$ |
-| $\cos\theta = 1$ | $\theta = 2n\pi$ |
-
----
-
-<!--
-IA: Teoría completa de [trigonometría](../../..](../../../glossary.md)#trigonometria) para nivel [fundamentos](../../..](../../../glossary.md)#fundamentos).
+| Ecuación | [Solución general](../../..](../../../glossary.md#trigonometria) para nivel [fundamentos](../../../glossary.md#fundamentos).
 file_id: FUN-05-Teoria-Trigonometria
 -->

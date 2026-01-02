@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -65,7 +65,7 @@ $$\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$$
 
 - Centro: $(h, k)$
 - Semieje mayor: $a$ (si $a > b$)
-- Semieje [menor](../..](../../glossary.md)#menor): $b$
+- Semieje [menor](../../glossary.md#menor): $b$
 - Distancia focal: $c = \sqrt{a^2 - b^2}$
 - Excentricidad: $e = \frac{c}{a}$ (donde $0 < e < 1$)
 

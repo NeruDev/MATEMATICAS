@@ -12,7 +12,7 @@ format: step_by_step
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -134,7 +134,7 @@ $$W = \int_{0.1}^{0.5} 150x\,dx = 150\left[\frac{x^2}{2}\right]_{0.1}^{0.5} = 75
 ---
 
 ## Problema 42
-**Enunciado:** [Valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x) = \sin x$ en $[0, \pi]$.
+**Enunciado:** [Valor promedio](../../../glossary.md#valor-promedio) de $f(x) = \sin x$ en $[0, \pi]$.
 
 **Solución:**
 $$f_{\text{prom}} = \frac{1}{\pi - 0}\int_0^{\pi} \sin x\,dx = \frac{1}{\pi}[-\cos x]_0^{\pi}$$

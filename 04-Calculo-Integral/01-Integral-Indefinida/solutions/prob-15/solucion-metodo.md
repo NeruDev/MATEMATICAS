@@ -18,7 +18,7 @@ created: 2025-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -26,7 +26,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la [integral indefinida](../../../..](../../../../glossary.md)#integral-indefinida):
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int\frac{x^4 - 1}{x^2 + 1} \, dx$$
 
 ---
@@ -40,7 +40,7 @@ $$x^4 - 1 = (x^2)^2 - 1^2 = (x^2 + 1)(x^2 - 1)$$
 
 ### Paso 2: Simplificar la fracción
 
-Sustituimos la [factorización](../../../..](../../../../glossary.md)#factorizacion):
+Sustituimos la [factorización](../../../../glossary.md#factorizacion):
 $$\frac{x^4 - 1}{x^2 + 1} = \frac{(x^2 + 1)(x^2 - 1)}{x^2 + 1}$$
 
 Cancelamos el factor común $(x^2 + 1)$:
@@ -61,7 +61,7 @@ $$= \frac{x^3}{3} - x + C$$
 
 ## Método Alternativo: División de Polinomios
 
-Si no reconocemos la [factorización](../../../..](../../../../glossary.md)#factorizacion), podemos realizar la división directamente.
+Si no reconocemos la [factorización](../../../../glossary.md#factorizacion), podemos realizar la división directamente.
 
 ### División larga de $x^4 - 1$ entre $x^2 + 1$:
 

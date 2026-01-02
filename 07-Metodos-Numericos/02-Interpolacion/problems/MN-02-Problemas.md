@@ -3,12 +3,12 @@
 content_type: problem_set
 topic_id: mn-02-interpolacion
 file_id: MN-02-Problemas
-title: "Problemas: [Interpolación](../../..](../../../glossary.md)#interpolacion)"
+title: "Problemas: [Interpolación](../../../glossary.md#interpolacion)"
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -19,25 +19,18 @@ title: "Problemas: [Interpolación](../../..](../../../glossary.md)#interpolacio
 ## Sección 1: Interpolación de Lagrange
 
 ### [Prob-01] Polinomio de Lagrange básico ⭐
-> **Solución:** [solutions/prob-01/](../solutions/prob-01/)
-
-Usar la fórmula de Lagrange para encontrar el [polinomio](../../..](../../../glossary.md)#polinomio) que interpola los puntos $(0, 1)$, $(1, 0)$, $(2, 1)$.
+> **Solución:** [solutions/prob-01/](../../..](../../../glossary.md#polinomio) que interpola los puntos $(0, 1)$, $(1, 0)$, $(2, 1)$.
 
 ---
 
 ### [Prob-02] Polinomio de Lagrange y evaluación ⭐⭐
-> **Solución:** [solutions/prob-02/](../solutions/prob-02/)
-
-Dados los puntos $(-1, 4)$, $(0, 1)$, $(1, 0)$, $(2, 1)$:
-a) Encontrar el [polinomio de Lagrange](../../..](../../../glossary.md)#polinomio-de-lagrange)
+> **Solución:** [solutions/prob-02/](../../..](../../../glossary.md#polinomio-de-lagrange)
 b) Evaluar $P(0.5)$
 
 ---
 
 ### [Prob-03] Interpolación de función logarítmica ⭐⭐
-> **Solución:** [solutions/prob-03/](../solutions/prob-03/)
-
-Construir el [polinomio](../../..](../../../glossary.md)#polinomio) de [interpolación](../../..](../../../glossary.md)#interpolacion) de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
+> **Solución:** [solutions/prob-03/](../../..](../../../glossary.md#polinomio) de [interpolación](../../../glossary.md#interpolacion) de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
 
 ---
 
@@ -51,9 +44,7 @@ Demostrar que $\sum_{i=0}^{n} L_i(x) = 1$ para cualquier $x$.
 ## Sección 2: Diferencias Divididas
 
 ### [Prob-05] Tabla de diferencias divididas ⭐⭐
-> **Solución:** [solutions/prob-05/](../solutions/prob-05/)
-
-Construir la tabla de [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas) para los puntos $(0, -1)$, $(1, 1)$, $(3, 7)$, $(4, 13)$ y escribir el polinomio de Newton.
+> **Solución:** [solutions/prob-05/](../../..](../../../glossary.md#diferencias-divididas) para los puntos $(0, -1)$, $(1, 1)$, $(3, 7)$, $(4, 13)$ y escribir el polinomio de Newton.
 
 ---
 
@@ -70,7 +61,7 @@ c) $f[0, 1, 2, 3]$
 ### [Prob-07] Simetría de diferencias divididas ⭐⭐⭐
 > **Solución:** [solutions/prob-07/](../solutions/prob-07/)
 
-Demostrar que $f[x_0, x_1, ..., x_n]$ es simétrica ([invariante](../../..](../../../glossary.md)#invariante) ante permutaciones).
+Demostrar que $f[x_0, x_1, ..., x_n]$ es simétrica ([invariante](../../../glossary.md#invariante) ante permutaciones).
 
 ---
 
@@ -125,9 +116,7 @@ Usar Newton progresivo para estimar $\sin(0.15)$.
 ## Sección 4: Error de Interpolación
 
 ### [Prob-12] Error de interpolación lineal ⭐⭐
-> **Solución:** [solutions/prob-12/](../solutions/prob-12/)
-
-Acotar el [error de interpolación](../../..](../../../glossary.md)#error-de-interpolacion) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
+> **Solución:** [solutions/prob-12/](../../..](../../../glossary.md#error-de-interpolacion) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
 
 ---
 
@@ -141,9 +130,7 @@ b) Acotar el error en $[0, \pi/2]$
 ---
 
 ### [Prob-14] Fenómeno de Runge ⭐⭐⭐
-> **Solución:** [solutions/prob-14/](../solutions/prob-14/)
-
-Explicar el [fenómeno de Runge](../../..](../../../glossary.md)#fenomeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
+> **Solución:** [solutions/prob-14/](../../..](../../../glossary.md#fenomeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
 
 ---
 
@@ -157,17 +144,12 @@ Calcular los nodos de Chebyshev para $n = 3$ en $[-1, 1]$ y compararlos con nodo
 ## Sección 5: Splines Cúbicos
 
 ### [Prob-16] Spline cúbico natural básico ⭐⭐
-> **Solución:** [solutions/prob-16/](../solutions/prob-16/)
-
-Encontrar el [spline cúbico](../../..](../../../glossary.md)#spline-cubico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
+> **Solución:** [solutions/prob-16/](../../..](../../../glossary.md#spline-cubico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
 ### [Prob-17] Spline cúbico con 4 puntos ⭐⭐
-> **Solución:** [solutions/prob-17/](../solutions/prob-17/)
-
-Para los datos $(0, 1)$, $(1, 2)$, $(2, 3)$, $(3, 0)$:
-a) Construir el [spline cúbico](../../..](../../../glossary.md)#spline-cubico) natural
+> **Solución:** [solutions/prob-17/](../../..](../../../glossary.md#spline-cubico) natural
 b) Evaluar $S(1.5)$
 
 ---
@@ -184,9 +166,7 @@ Comparar la interpolación polinómica de grado 4 vs spline cúbico para:
 ---
 
 ### [Prob-19] Splines y fenómeno de Runge ⭐⭐⭐
-> **Solución:** [solutions/prob-19/](../solutions/prob-19/)
-
-¿Por qué los splines cúbicos evitan el [fenómeno de Runge](../../..](../../../glossary.md)#fenomeno-de-runge)?
+> **Solución:** [solutions/prob-19/](../../..](../../../glossary.md#fenomeno-de-runge)?
 
 ---
 
@@ -202,9 +182,7 @@ Encontrar el polinomio de Hermite que interpola:
 ---
 
 ### [Prob-21] Hermite para función exponencial ⭐⭐
-> **Solución:** [solutions/prob-21/](../solutions/prob-21/)
-
-Construir la interpolación de Hermite para $f(x) = e^x$ en $x = 0, 1$ usando valores y [derivadas](../../..](../../../glossary.md)#derivadas) exactas.
+> **Solución:** [solutions/prob-21/](../../..](../../../glossary.md#derivadas) exactas.
 
 ---
 
@@ -250,11 +228,8 @@ Una curva de carretera debe pasar por los puntos $(0, 0)$, $(100, 10)$, $(200, 0
 ## Sección 8: Problemas de Implementación
 
 ### [Prob-25] Implementación de diferencias divididas ⭐⭐
-> **Solución:** [solutions/prob-25/](../solutions/prob-25/)
-
-Implementar en Python/MATLAB:
-a) [Función](../../..](../../../glossary.md)#funcion) para calcular [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas)
-b) [Función](../../..](../../../glossary.md)#funcion) para evaluar el polinomio de Newton
+> **Solución:** [solutions/prob-25/](../../..](../../../glossary.md#funcion) para calcular [diferencias divididas](../../../glossary.md#diferencias-divididas)
+b) [Función](../../../glossary.md#funcion) para evaluar el polinomio de Newton
 
 ---
 
@@ -278,9 +253,7 @@ Comparar numéricamente Lagrange vs Newton para $n = 10, 20, 50$ puntos aleatori
 ## Sección 9: Problemas Teóricos
 
 ### [Prob-28] Equivalencia Lagrange-Newton ⭐⭐⭐
-> **Solución:** [solutions/prob-28/](../solutions/prob-28/)
-
-Demostrar que el [polinomio de Lagrange](../../..](../../../glossary.md)#polinomio-de-lagrange) y el de Newton son idénticos.
+> **Solución:** [solutions/prob-28/](../../..](../../../glossary.md#polinomio-de-lagrange) y el de Newton son idénticos.
 
 ---
 
@@ -295,4 +268,4 @@ $$f(x) - P_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{i=0}^{n}(x - x_i)$$
 ### [Prob-30] Optimalidad del spline cúbico ⭐⭐⭐
 > **Solución:** [solutions/prob-30/](../solutions/prob-30/)
 
-Demostrar que un spline cúbico natural minimiza $\int_a^b [S''(x)]^2 dx$ entre todas las funciones interpolantes con segunda [derivada](../../..](../../../glossary.md)#derivada) continua.
+Demostrar que un spline cúbico natural minimiza $\int_a^b [S''(x)]^2 dx$ entre todas las funciones interpolantes con segunda [derivada](../../../glossary.md#derivada) continua.

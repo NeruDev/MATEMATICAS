@@ -3,8 +3,8 @@
 content_type: problem_set
 topic_id: fun-05-trigonometria
 file_id: FUN-05-Problemas
-title: Problemas de [Trigonometría](../../..](../../../glossary.md)#trigonometria)
-description: Colección de problemas de [trigonometría](../../..](../../../glossary.md)#trigonometria) clasificados por tema y dificultad
+title: Problemas de [Trigonometría](../../../glossary.md#trigonometria)
+description: Colección de problemas de [trigonometría](../../../glossary.md#trigonometria) clasificados por tema y dificultad
 author: Repositorio Matemáticas
 date_created: 2025-12-20
 version: 1.0
@@ -12,7 +12,7 @@ version: 1.0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -145,7 +145,7 @@ Una escalera de 10 m forma un ángulo de 65° con el suelo. ¿A qué altura de l
 ---
 
 ### [Prob-17] Altura de edificio por elevación ⭐⭐
-Desde un punto a 50 m de la [base](../../..](../../../glossary.md)#base) de un edificio, el ángulo de elevación hacia la cima es 62°. ¿Cuál es la altura del edificio?
+Desde un punto a 50 m de la [base](../../../glossary.md#base) de un edificio, el ángulo de elevación hacia la cima es 62°. ¿Cuál es la altura del edificio?
 
 📎 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
 
@@ -273,7 +273,7 @@ Identifica amplitud, período y desplazamiento vertical de $y = 2\sin x + 3$.
 ---
 
 ### [Prob-34] Ecuación de función seno ⭐⭐
-Encuentra la ecuación de una [función](../../..](../../../glossary.md)#funcion) [seno](../../..](../../../glossary.md)#seno) con amplitud 4, período $\pi$ y que pasa por el origen.
+Encuentra la ecuación de una [función](../../../glossary.md#funcion) [seno](../../../glossary.md#seno) con amplitud 4, período $\pi$ y que pasa por el origen.
 
 📎 **Solución:** [solutions/prob-34/](../solutions/prob-34/)
 
@@ -294,7 +294,7 @@ Encuentra el valor máximo, mínimo y rango de $y = -2\cos x + 5$.
 ---
 
 ### [Prob-37] Ecuación coseno con transformaciones ⭐⭐⭐
-Escribe la ecuación de una [función](../../..](../../../glossary.md)#funcion) [coseno](../../..](../../../glossary.md)#coseno) con amplitud 3, período $4\pi$, desplazamiento horizontal $\frac{\pi}{2}$ a la derecha y desplazamiento vertical 2 hacia arriba.
+Escribe la ecuación de una [función](../../../glossary.md#funcion) [coseno](../../../glossary.md#coseno) con amplitud 3, período $4\pi$, desplazamiento horizontal $\frac{\pi}{2}$ a la derecha y desplazamiento vertical 2 hacia arriba.
 
 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
 
@@ -734,7 +734,7 @@ Una rueda de la fortuna tiene radio 30 m y su centro está a 35 m del suelo. Si 
 ---
 
 ### [Prob-98] Modelo de mareas ⭐⭐⭐
-La profundidad del agua en un puerto varía según la marea. A las 6:00 AM la profundidad es máxima (12 m) y a las 12:00 PM es mínima (4 m). Escribe una función [coseno](../../..](../../../glossary.md)#coseno) que modele la profundidad $d(t)$ y encuentra la profundidad a las 9:00 AM.
+La profundidad del agua en un puerto varía según la marea. A las 6:00 AM la profundidad es máxima (12 m) y a las 12:00 PM es mínima (4 m). Escribe una función [coseno](../../../glossary.md#coseno) que modele la profundidad $d(t)$ y encuentra la profundidad a las 9:00 AM.
 
 📎 **Solución:** [solutions/prob-98/](../solutions/prob-98/)
 
@@ -748,7 +748,7 @@ Un helicóptero vuela a 500 m de altura. Desde él se observan dos autos en una 
 ---
 
 ### [Prob-100] Cables de antena ⭐⭐⭐⭐
-Una antena de radio se sostiene con dos cables anclados a 50 m y 80 m de la [base](../../..](../../../glossary.md)#base), en el mismo lado. Los cables forman ángulos de 65° y 40° con el suelo respectivamente. ¿Son los cables de la misma longitud que se conectan al mismo punto de la antena?
+Una antena de radio se sostiene con dos cables anclados a 50 m y 80 m de la [base](../../../glossary.md#base), en el mismo lado. Los cables forman ángulos de 65° y 40° con el suelo respectivamente. ¿Son los cables de la misma longitud que se conectan al mismo punto de la antena?
 
 📎 **Solución:** [solutions/prob-100/](../solutions/prob-100/)
 

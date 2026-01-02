@@ -17,7 +17,7 @@ created: 2025-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -25,7 +25,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la [integral indefinida](../../../..](../../../../glossary.md)#integral-indefinida):
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int\left(\sqrt{x} + \frac{1}{\sqrt{x}}\right)^2 dx$$
 
 ---

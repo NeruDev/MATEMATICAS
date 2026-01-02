@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: ed-02-[edo](../../..](../../../glossary.md)#edo)-segundo-[orden](../../..](../../../glossary.md)#orden)
+topic_id: ed-02-[edo](../../../glossary.md#edo)-segundo-[orden](../../../glossary.md#orden)
 file_id: ED-02-Respuestas
 status: stable
 audience: student
@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 

@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -19,7 +19,7 @@ status: active
 
 **Cuándo Usar:** Para evaluar correctamente cualquier expresión aritmética que contenga múltiples operaciones.
 
-**Regla:** La jerarquía evita ambigüedad en el [orden](../../..](../../../glossary.md)#orden) de las operaciones.
+**Regla:** La jerarquía evita ambigüedad en el [orden](../../../glossary.md#orden) de las operaciones.
 
 ### Algoritmo de Resolución
 
@@ -98,7 +98,7 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 ## Método 2: Descomponer en Factores Primos
 
-**Cuándo Usar:** [Base](../../..](../../../glossary.md)#base) fundamental para calcular [MCD](../../..](../../../glossary.md)#mcd), [MCM](../../..](../../../glossary.md)#mcm), simplificar fracciones y raíces.
+**Cuándo Usar:** [Base](../../../glossary.md#base) fundamental para calcular [MCD](../../../glossary.md#mcd), [MCM](../../../glossary.md#mcm), simplificar fracciones y raíces.
 
 **Definición:** Todo número entero mayor que 1 puede expresarse como producto de números primos de manera única (Teorema Fundamental de la Aritmética).
 
@@ -106,15 +106,11 @@ $$\boxed{\frac{54}{7} \approx 7.71}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Dividir por el [menor](../../../glossary.md#menor) primo | Comenzar por 2 |
-| 2 | Continuar dividiendo | Usar el mismo primo mientras sea posible |
-| 3 | Cambiar de primo | Cuando no divida, probar el siguiente primo |
-| 4 | Terminar | Cuando el cociente sea 1 |
-| 5 | Escribir [factorización](../../../glossary.md#factorizacion) | Producto de primos con exponentes |
+| 1 | Dividir por el [menor](../../../glossary.md#factorizacion) | Producto de primos con exponentes |
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) 2520 en primos.
+**Problema:** [Factorizar](../../../glossary.md#factorizar) 2520 en primos.
 
 ---
 
@@ -148,15 +144,13 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Cuándo Usar:** Para simplificar fracciones al máximo o encontrar el mayor divisor común de varios números.
 
-**Definición:** El [MCD](../../..](../../../glossary.md)#mcd) es el mayor número que divide exactamente a todos los números dados.
+**Definición:** El [MCD](../../../glossary.md#mcd) es el mayor número que divide exactamente a todos los números dados.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | [Factorizar](../../../glossary.md#factorizar) | Descomponer cada número en primos |
-| 2 | Identificar comunes | Listar factores que aparecen en TODOS |
-| 3 | Tomar [menor](../../../glossary.md#menor) exponente | Para cada factor común |
+| 1 | [Factorizar](../../../glossary.md#menor) exponente | Para cada factor común |
 | 4 | Multiplicar | Producto de factores seleccionados |
 
 ### Ejemplo Detallado
@@ -167,93 +161,9 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Paso 1: Factorizar cada número**
 
-| Número | [Factorización](../../../glossary.md#factorizacion) |
-|--------|---------------|
-| 168 | $2^3 \times 3 \times 7$ |
-| 252 | $2^2 \times 3^2 \times 7$ |
-| 420 | $2^2 \times 3 \times 5 \times 7$ |
+| Número | [Factorización](../../..](../../../glossary.md#combinacion-lineal).
 
----
-
-**Paso 2: Identificar factores comunes**
-
-Aparecen en los tres: $2$, $3$, $7$
-
----
-
-**Paso 3: Tomar menor exponente de cada uno**
-
-| Factor | Exponentes | Menor |
-|--------|------------|-------|
-| 2 | 3, 2, 2 | 2 |
-| 3 | 1, 2, 1 | 1 |
-| 7 | 1, 1, 1 | 1 |
-
----
-
-**Paso 4: Multiplicar**
-
-$$\text{MCD} = 2^2 \times 3^1 \times 7^1 = 4 \times 3 \times 7 = 84$$
-
----
-
-**Verificación:**
-
-$$168 \div 84 = 2, \quad 252 \div 84 = 3, \quad 420 \div 84 = 5 \checkmark$$
-
-$$\boxed{\text{MCD}(168, 252, 420) = 84}$$
-
----
-
-## Método 4: Calcular MCD por Algoritmo de Euclides
-
-**Cuándo Usar:** Más eficiente que factorización para números grandes.
-
-**Fundamento:** $\text{MCD}(a, b) = \text{MCD}(b, a \mod b)$ hasta que el residuo sea 0.
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Ordenar | Colocar mayor primero |
-| 2 | Dividir | $a = bq + r$ |
-| 3 | Reemplazar | $(a, b) \to (b, r)$ |
-| 4 | Repetir | Hasta que $r = 0$ |
-| 5 | Concluir | MCD = último divisor no nulo |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\text{MCD}(1071, 462)$ por Euclides.
-
----
-
-| División | Cálculo | Residuo |
-|----------|---------|---------|
-| $1071 \div 462$ | $1071 = 462 \times 2 + 147$ | $r = 147$ |
-| $462 \div 147$ | $462 = 147 \times 3 + 21$ | $r = 21$ |
-| $147 \div 21$ | $147 = 21 \times 7 + 0$ | $r = 0$ |
-
----
-
-El último divisor no nulo es **21**.
-
----
-
-**Verificación:**
-
-$$1071 = 21 \times 51, \quad 462 = 21 \times 22 \checkmark$$
-
-$$\boxed{\text{MCD}(1071, 462) = 21}$$
-
----
-
-### Euclides Extendido (Identidad de Bézout)
-
-**Objetivo:** Encontrar $x, y$ tales que $ax + by = \text{MCD}(a, b)$
-
-**Problema:** Expresar $\text{MCD}(1071, 462) = 21$ como [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal).
-
-**Método de [sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás:**
+**Método de [sustitución](../../../glossary.md#sustitucion) hacia atrás:**
 
 De la tabla:
 - $21 = 462 - 147 \times 3$
@@ -272,7 +182,7 @@ $$\boxed{21 = 462(7) + 1071(-3)}$$
 
 **Cuándo Usar:** Para encontrar denominadores comunes en sumas de fracciones, problemas de ciclos.
 
-**Definición:** El [MCM](../../..](../../../glossary.md)#mcm) es el menor número que es múltiplo de todos los números dados.
+**Definición:** El [MCM](../../../glossary.md#mcm) es el menor número que es múltiplo de todos los números dados.
 
 ### Algoritmo de Resolución
 

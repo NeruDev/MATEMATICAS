@@ -5,33 +5,25 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos de Aplicaciones de la Derivada
 
-> Guía completa de aplicaciones prácticas de la [derivada](../../..](../../../glossary.md)#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
+> Guía completa de aplicaciones prácticas de la [derivada](../../../glossary.md#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.
 
 ---
 
 ## Método 1: Recta Tangente y Recta Normal
 
-**Cuándo Usar:** Para encontrar la ecuación de la recta [tangente](../../..](../../../glossary.md)#tangente) o normal a una curva en un punto dado.
+**Cuándo Usar:** Para encontrar la ecuación de la recta [tangente](../../../glossary.md#tangente) o normal a una curva en un punto dado.
 
 ### Fórmulas
 
 | Tipo | Ecuación |
 |------|----------|
-| Recta [Tangente](../../../glossary.md#tangente) | $y - y_0 = f'(x_0)(x - x_0)$ |
-| Recta Normal | $y - y_0 = -\frac{1}{f'(x_0)}(x - x_0)$ |
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Calcular $y_0$ | $y_0 = f(x_0)$ |
-| 2 | Calcular la [derivada](../../../glossary.md#derivada) | $f'(x)$ |
+| Recta [Tangente](../../../glossary.md#derivada) | $f'(x)$ |
 | 3 | Evaluar la pendiente | $m = f'(x_0)$ |
 | 4 | Escribir la ecuación | Usar punto-pendiente |
 
@@ -204,7 +196,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 
 ## Método 4: Criterio de la Primera Derivada
 
-**Cuándo Usar:** Para determinar si un [punto crítico](../../..](../../../glossary.md)#punto-critico) es máximo local, mínimo local, o ninguno.
+**Cuándo Usar:** Para determinar si un [punto crítico](../../../glossary.md#punto-critico) es máximo local, mínimo local, o ninguno.
 
 ### Algoritmo de Resolución
 
@@ -221,35 +213,7 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 |------------------------|------------|
 | $+ \to -$ | Máximo local |
 | $- \to +$ | Mínimo local |
-| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../../glossary.md#punto-de-inflexion) (no extremo) |
-
-### Ejemplo Detallado
-
-**Problema:** Clasificar los puntos críticos de $f(x) = x^4 - 4x^3$
-
----
-
-**Paso 1: Encontrar puntos críticos**
-
-$$f'(x) = 4x^3 - 12x^2 = 4x^2(x - 3)$$
-$$4x^2(x - 3) = 0 \Rightarrow x = 0, \quad x = 3$$
-
----
-
-**Paso 2: Crear tabla de signos**
-
-| Intervalo | $4x^2$ | $(x-3)$ | $f'(x)$ | Comportamiento |
-|-----------|--------|---------|---------|----------------|
-| $(-\infty, 0)$ | $+$ | $-$ | $-$ | Decreciente |
-| $(0, 3)$ | $+$ | $-$ | $-$ | Decreciente |
-| $(3, \infty)$ | $+$ | $+$ | $+$ | Creciente |
-
----
-
-**Paso 3: Clasificar**
-
-- En $x = 0$: No hay cambio de signo ($- \to -$)
-  - **No es extremo** ([punto de inflexión](../../..](../../../glossary.md)#punto-de-inflexion) horizontal)
+| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../..](../../../glossary.md#punto-de-inflexion) horizontal)
   
 - En $x = 3$: Cambio $- \to +$
   - **Mínimo local** en $x = 3$
@@ -275,18 +239,7 @@ $$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos [derivadas](../../../glossary.md#derivadas) |
-| 2 | Encontrar puntos críticos | Resolver $f'(x) = 0$ |
-| 3 | Evaluar $f''$ en cada crítico | Determinar signo |
-| 4 | Clasificar | Según el criterio |
-
-### Ejemplo Detallado
-
-**Problema:** Clasificar los puntos críticos de $f(x) = x^3 - 6x^2 + 9x + 2$
-
----
-
-**Paso 1: Calcular [derivadas](../../..](../../../glossary.md)#derivadas)**
+| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos [derivadas](../../..](../../../glossary.md#derivadas)**
 
 $$f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$$
 $$f''(x) = 6x - 12$$
@@ -326,26 +279,7 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 |------|--------|---------|
 | 1 | Identificar objetivo | ¿Qué maximizar/minimizar? |
 | 2 | Definir variables | Asignar símbolos |
-| 3 | Escribir [función](../../../glossary.md#funcion) objetivo | En términos de las variables |
-| 4 | Escribir restricciones | Ecuaciones que limitan las variables |
-| 5 | Reducir a una variable | Usar restricciones para eliminar |
-| 6 | Derivar y resolver | $f'(x) = 0$ |
-| 7 | Verificar máximo/mínimo | Criterio de 2ª derivada o contexto |
-
-### Ejemplo Detallado
-
-**Problema:** Un granjero quiere cercar un área rectangular con 400 m de cerca, usando un río como uno de los lados. ¿Qué dimensiones maximizan el área?
-
----
-
-**Paso 1-2: Definir variables**
-
-- $x$ = lado perpendicular al río (dos lados)
-- $y$ = lado paralelo al río (un lado)
-
----
-
-**Paso 3: [Función](../../..](../../../glossary.md)#funcion) objetivo (área)**
+| 3 | Escribir [función](../../..](../../../glossary.md#funcion) objetivo (área)**
 
 $$A = xy$$
 
@@ -390,11 +324,11 @@ $$\boxed{A_{max} = 100 \times 200 = 20,000 \text{ m}^2}$$
 
 ### Ejemplo de Optimización con Costo
 
-**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con [base](../../..](../../../glossary.md)#base) cuadrada que use la mínima cantidad de material.
+**Problema:** Diseñar una caja abierta de volumen 4000 cm³ con [base](../../../glossary.md#base) cuadrada que use la mínima cantidad de material.
 
 ---
 
-**Variables:** [Base](../../..](../../../glossary.md)#base) $x \times x$, altura $h$
+**Variables:** [Base](../../../glossary.md#base) $x \times x$, altura $h$
 
 **Objetivo:** Minimizar superficie $S = x^2 + 4xh$
 
@@ -553,13 +487,7 @@ $$\boxed{\text{Error relativo} \approx 1.5\%}$$
 
 | Paso | Analizar | Método |
 |------|----------|--------|
-| 1 | [Dominio](../../../glossary.md#dominio) | Restricciones en $x$ |
-| 2 | Interceptos | $y$-intercept: $f(0)$; $x$-intercepts: $f(x)=0$ |
-| 3 | Simetría | Par si $f(-x)=f(x)$; impar si $f(-x)=-f(x)$ |
-| 4 | Asíntotas | Verticales, horizontales, oblicuas |
-| 5 | Intervalos de crecimiento | Signo de $f'(x)$ |
-| 6 | Extremos locales | $f'(x) = 0$ y clasificar |
-| 7 | [Concavidad](../../../glossary.md#concavidad) | Signo de $f''(x)$ |
+| 1 | [Dominio](../../../glossary.md#concavidad) | Signo de $f''(x)$ |
 | 8 | Puntos de inflexión | Donde $f''(x)$ cambia de signo |
 
 ### Ejemplo Detallado
@@ -568,7 +496,7 @@ $$\boxed{\text{Error relativo} \approx 1.5\%}$$
 
 ---
 
-**1. [Dominio](../../..](../../../glossary.md)#dominio):**
+**1. [Dominio](../../../glossary.md#dominio):**
 $$x^2 - 1 \neq 0 \Rightarrow x \neq \pm 1$$
 $$D = (-\infty, -1) \cup (-1, 1) \cup (1, \infty)$$
 
@@ -608,7 +536,7 @@ $f'(x) = 0 \Rightarrow x = 0$
 
 ---
 
-**7-8. Segunda derivada y [concavidad](../../..](../../../glossary.md)#concavidad):**
+**7-8. Segunda derivada y [concavidad](../../../glossary.md#concavidad):**
 $$f''(x) = \frac{2(3x^2 + 1)}{(x^2-1)^3}$$
 
 | Intervalo | Signo $f''$ | Concavidad |
@@ -625,7 +553,7 @@ $$\boxed{\text{Ver gráfica con AV: } x = \pm 1, \text{ AH: } y = 1, \text{ Máx
 
 ## Método 10: Método de Newton-Raphson
 
-**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../..](../../../glossary.md)#raices-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
+**Cuándo Usar:** Para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) (soluciones de $f(x) = 0$) numéricamente.
 
 ### Fórmula Iterativa
 
@@ -638,8 +566,7 @@ $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 | 1 | Elegir $x_0$ | Estimación inicial cercana a la raíz |
 | 2 | Calcular $f(x_n)$ y $f'(x_n)$ | En el punto actual |
 | 3 | Aplicar fórmula | Obtener $x_{n+1}$ |
-| 4 | Verificar [convergencia](../../../glossary.md#convergencia) | Si $\vert x_{n+1} - x_n\vert < \epsilon$ |
-| 5 | Repetir | Hasta [convergencia](../../../glossary.md#convergencia) |
+| 4 | Verificar [convergencia](../../../glossary.md#convergencia) |
 
 ### Ejemplo Detallado
 

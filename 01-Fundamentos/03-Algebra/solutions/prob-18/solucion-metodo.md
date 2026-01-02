@@ -10,7 +10,7 @@ methods: ["division-sintetica", "factorizacion-por-raices", "teorema-del-factor"
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -59,7 +59,7 @@ $$P(x) = (x - 1)(x^2 - 5x + 6)$$
 
 ### Paso 4: Factorizar el trinomio cuadrático
 
-Necesitamos [factorizar](../../../..](../../../../glossary.md)#factorizar) $x^2 - 5x + 6$.
+Necesitamos [factorizar](../../../../glossary.md#factorizar) $x^2 - 5x + 6$.
 
 Buscamos dos números que:
 - **Sumen** $-5$

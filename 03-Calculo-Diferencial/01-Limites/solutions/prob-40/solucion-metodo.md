@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -21,7 +21,7 @@ Evalúa $\displaystyle\lim_{x \to \infty} \left(\sqrt{x^2 + 2x} - \sqrt{x^2 - 2x
 ---
 
 ## Análisis inicial
-[Forma indeterminada](../../../..](../../../../glossary.md)#forma-indeterminada): $\infty - \infty$
+[Forma indeterminada](../../../../glossary.md#forma-indeterminada): $\infty - \infty$
 
 ---
 

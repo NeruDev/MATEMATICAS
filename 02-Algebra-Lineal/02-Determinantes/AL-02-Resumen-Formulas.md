@@ -1,30 +1,7 @@
 <!--
 ::METADATA::
 type: cheat-sheet
-topic_id: al-02-[determinantes](../..](../../glossary.md)#determinantes)
-file_id: AL-02-Resumen-Formulas
-status: stable
-audience: student
--->
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
-
----
-
-# Resumen de Fórmulas: Determinantes
-
-## Determinante 2×2
-
-$$\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$$
-
-## Determinante 3×3 (Regla de Sarrus)
-
-$$\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = aei + bfg + cdh - ceg - bdi - afh$$
-
-## Menores y Cofactores
-
-### Menor $M_{ij}$
-[Determinante](../..](../../glossary.md)#determinante) de la submatriz que resulta de eliminar fila $i$ y columna $j$.
+topic_id: al-02-[determinantes](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md#determinante) de la submatriz que resulta de eliminar fila $i$ y columna $j$.
 
 ### Cofactor $C_{ij}$
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
@@ -51,14 +28,7 @@ $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 | Sumar múltiplo de fila a otra | No cambia |
 | Fila de ceros | $\det = 0$ |
 | Dos filas iguales | $\det = 0$ |
-| [Matriz](../../glossary.md#matriz) triangular | $\det = $ producto diagonal |
-
-## Propiedades algebraicas
-
-- $\det(AB) = \det(A) \cdot \det(B)$
-- $\det(A^T) = \det(A)$
-- $\det(A^{-1}) = \frac{1}{\det(A)}$
-- $\det(kA) = k^n \det(A)$ para [matriz](../..](../../glossary.md)#matriz) $n \times n$
+| [Matriz](../../glossary.md#matriz) $n \times n$
 - $\det(I) = 1$
 
 ## Matriz adjunta

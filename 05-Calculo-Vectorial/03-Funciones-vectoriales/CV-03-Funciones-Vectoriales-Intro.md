@@ -9,7 +9,7 @@ requires: [CV-01-Vectores, CV-02-Curvas, CD-02-Derivadas]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -21,19 +21,9 @@ Estudiar curvas en el espacio mediante funciones vectoriales, analizando velocid
 
 ## Ruta de aprendizaje
 
-1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, [límites](../..](../../glossary.md)#limites) y [continuidad](../..](../../glossary.md)#continuidad).
-2. **[Derivada](../..](../../glossary.md)#derivada) vectorial:** [vector](../..](../../glossary.md)#vector) [tangente](../..](../../glossary.md)#tangente), velocidad y aceleración.
-3. **Integral vectorial:** antiderivadas de funciones vectoriales.
-4. **Longitud de arco:** parametrización por longitud de arco.
-5. **Curvatura y torsión:** marcos TNB, radio de curvatura.
-
-## Mapa de recursos
-
-```
-[CV-03-Funciones-Vectoriales-Intro.md](CV-03-Funciones-Vectoriales-Intro.md)  ← Estás aquí
-[CV-03-Resumen-Formulas.md](CV-03-Resumen-Formulas.md)             ← Fórmulas clave para repaso rápido
-theory/
-  └── [CV-03-Teoria-Vectoriales.md](CV-03-Teoria-Vectoriales.md)     ← Desarrollo completo de la teoría
+1. **Funciones vectoriales:** definición $\mathbf{r}(t)$, [límites](../../glossary.md#continuidad).
+2. **[Derivada](../../glossary.md#vector) [tangente](CV-03-Funciones-Vectoriales-Intro.md)  ← Estás aquí
+[CV-03-Resumen-Formulas.md](theory/CV-03-Teoria-Vectoriales.md)     ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/
@@ -44,16 +34,8 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos:** vectores en el espacio, [derivadas](../..](../../glossary.md)#derivadas), curvas paramétricas.
-- **Usos posteriores:** campos vectoriales, integrales de línea, mecánica.
-
-## Vista previa de conceptos clave
-
-| Concepto | Descripción breve |
-|----------|-------------------|
-| [Función](../../glossary.md#funcion) vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
-| [Derivada](../../glossary.md#derivada) | $\mathbf{r}'(t) = \langle x'(t), y'(t), z'(t) \rangle$ |
-| [Vector](../../glossary.md#vector) [tangente](../../glossary.md#tangente) unitario | $\mathbf{T} = \mathbf{r}'/\lVert\mathbf{r}'\rVert$ |
+- **Prerequisitos:** vectores en el espacio, [derivadas](../../glossary.md#funcion) vectorial | $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$ |
+| [Derivada](../../glossary.md#vector) [tangente](../../glossary.md#tangente) unitario | $\mathbf{T} = \mathbf{r}'/\lVert\mathbf{r}'\rVert$ |
 | Curvatura | $\kappa = \lVert d\mathbf{T}/ds \rVert$ |
 | Marco TNB | Tangente, Normal, Binormal |
 

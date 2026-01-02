@@ -7,7 +7,7 @@ status: stable
 audience: student
 -->
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -15,7 +15,7 @@ audience: student
 
 ## Notación
 
-- [Matriz](../..](../../glossary.md)#matriz) $A$ de tamaño $m \times n$: $A = [a_{ij}]$ donde $i = 1, \ldots, m$ y $j = 1, \ldots, n$
+- [Matriz](../../glossary.md#matriz) $A$ de tamaño $m \times n$: $A = [a_{ij}]$ donde $i = 1, \ldots, m$ y $j = 1, \ldots, n$
 - Elemento en fila $i$, columna $j$: $a_{ij}$ o $(A)_{ij}$
 
 ## Tipos especiales de matrices

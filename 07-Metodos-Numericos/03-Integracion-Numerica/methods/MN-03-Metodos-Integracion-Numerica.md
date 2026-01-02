@@ -5,32 +5,25 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: Integración Numérica
 
-> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../..](../../../glossary.md)#integracion-numerica) ([cuadratura](../../..](../../../glossary.md)#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
+> **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integracion-numerica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.
 
 ---
 
 ## Índice de Métodos
 
-| # | Método | [Orden](../../../glossary.md#orden) de Error | Complejidad |
-|---|--------|----------------|-------------|
-| 1 | [Trapecio Simple](#método-1-regla-del-trapecio-simple) | $O(h^3)$ | ⭐ |
-| 2 | [Trapecio Compuesto](#método-2-trapecio-compuesto) | $O(h^2)$ | ⭐ |
-| 3 | [Simpson 1/3 Simple](#método-3-simpson-13-simple) | $O(h^5)$ | ⭐ |
-| 4 | [Simpson Compuesto](#método-4-simpson-compuesto) | $O(h^4)$ | ⭐⭐ |
-| 5 | [Simpson 3/8](#método-5-simpson-38) | $O(h^5)$ | ⭐⭐ |
-| 6 | [Romberg](#método-6-integración-de-romberg) | $O(h^{2k})$ | ⭐⭐⭐ |
-| 7 | [Gauss-Legendre](#método-7-[cuadratura](../../../glossary.md#cuadratura)-de-gauss-legendre) | Exacto grado $2n-1$ | ⭐⭐⭐ |
-| 8 | [Gauss-Laguerre](#método-8-gauss-laguerre) | [Integrales impropias](../../../glossary.md#integrales-impropias) | ⭐⭐⭐ |
-| 9 | [Gauss-Hermite](#método-9-gauss-hermite) | Integrales $(-\infty, \infty)$ | ⭐⭐⭐ |
-| 10 | [Cuadratura Adaptativa](#método-10-cuadratura-adaptativa) | Variable | ⭐⭐⭐⭐ |
-| 11 | [Monte Carlo](#método-11-monte-carlo) | $O(1/\sqrt{n})$ | ⭐⭐ |
-| 12 | [Doble/Triple](#método-12-integrales-múltiples) | Variable | ⭐⭐⭐ |
+| # | Método | [Orden](#método-1-regla-del-trapecio-simple) | $O(h^3)$ | ⭐ |
+| 2 | [Trapecio Compuesto](#método-3-simpson-13-simple) | $O(h^5)$ | ⭐ |
+| 4 | [Simpson Compuesto](#método-5-simpson-38) | $O(h^5)$ | ⭐⭐ |
+| 6 | [Romberg](#método-7-[cuadratura](../../../glossary.md#cuadratura)-de-gauss-legendre) | Exacto grado $2n-1$ | ⭐⭐⭐ |
+| 8 | [Gauss-Laguerre](../../../glossary.md#integrales-impropias) | ⭐⭐⭐ |
+| 9 | [Gauss-Hermite](#método-10-cuadratura-adaptativa) | Variable | ⭐⭐⭐⭐ |
+| 11 | [Monte Carlo](#método-12-integrales-múltiples) | Variable | ⭐⭐⭐ |
 
 ---
 
@@ -44,7 +37,7 @@ $$\int_a^b f(x)\,dx \approx \sum_{i=0}^{n} w_i f(x_i)$$
 
 ### Fórmulas de Newton-Cotes
 
-Basadas en [interpolación](../../..](../../../glossary.md)#interpolacion) polinomial con **nodos equiespaciados**.
+Basadas en [interpolación](../../../glossary.md#interpolacion) polinomial con **nodos equiespaciados**.
 
 ### Cuadratura de Gauss
 
@@ -122,7 +115,7 @@ $$\boxed{I \approx 1.8591}$$
 
 - Mejor precisión que trapecio simple
 - Datos tabulados equiespaciados
-- [Base](../../..](../../../glossary.md)#base) para Romberg
+- [Base](../../../glossary.md#base) para Romberg
 
 ### Fórmula
 
@@ -360,7 +353,7 @@ Valor exacto: $e^3 - 1 = 19.086$
 ### Cuándo Usar
 
 - Alta precisión requerida
-- [Función](../../..](../../../glossary.md)#funcion) suave
+- [Función](../../../glossary.md#funcion) suave
 - Costo computacional aceptable
 
 ### Idea
@@ -451,7 +444,7 @@ $$\boxed{I \approx 1.7182818 \text{ (Romberg con } k=3 \text{)}}$$
 
 ### Cuándo Usar
 
-- [Función](../../..](../../../glossary.md)#funcion) conocida analíticamente
+- [Función](../../../glossary.md#funcion) conocida analíticamente
 - Alta precisión con pocas evaluaciones
 - Nodos no necesitan ser equiespaciados
 
@@ -570,7 +563,7 @@ $$\boxed{I \approx 1.7181 \text{ (solo 2 evaluaciones)}}$$
 ### Cuándo Usar
 
 - Integrales de la forma $\int_0^\infty e^{-x} g(x)\,dx$
-- [Integrales impropias](../../..](../../../glossary.md)#integrales-impropias) $[0, \infty)$
+- [Integrales impropias](../../../glossary.md#integrales-impropias) $[0, \infty)$
 
 ### Fórmula
 
@@ -634,7 +627,7 @@ $$\int_{-\infty}^{\infty} e^{-x^2} g(x)\,dx \approx \sum_{i=1}^{n} w_i g(x_i)$$
 1. Aplicar regla a todo $[a, b]$
 2. Dividir y aplicar a cada mitad
 3. Si diferencia > tolerancia, subdividir más
-4. Recursivamente hasta [convergencia](../../..](../../../glossary.md)#convergencia)
+4. Recursivamente hasta [convergencia](../../../glossary.md#convergencia)
 
 ### Pseudocódigo
 
@@ -663,7 +656,7 @@ Concentra el esfuerzo donde la función es más difícil de integrar.
 
 - Dimensiones altas (integrales múltiples)
 - Dominios irregulares
-- Estimación probabilística [suficiente](../../..](../../../glossary.md)#suficiente)
+- Estimación probabilística [suficiente](../../../glossary.md#suficiente)
 
 ### Fórmula Básica
 

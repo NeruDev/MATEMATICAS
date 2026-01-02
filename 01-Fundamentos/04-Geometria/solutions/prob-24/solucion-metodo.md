@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -23,7 +23,7 @@ En un triángulo equilátero de lado 6 cm, encuentra la altura, el área y el ra
 ## Método: Fórmulas del triángulo equilátero
 
 ### Paso 1: Calcular la altura
-En un triángulo equilátero, la altura divide la [base](../../../..](../../../../glossary.md)#base) en dos partes iguales, formando dos triángulos rectángulos.
+En un triángulo equilátero, la altura divide la [base](../../../../glossary.md#base) en dos partes iguales, formando dos triángulos rectángulos.
 
 Usando el teorema de Pitágoras:
 $$h^2 + \left(\frac{a}{2}\right)^2 = a^2$$
@@ -35,7 +35,7 @@ $$h^2 = 27$$
 $$h = \sqrt{27} = \sqrt{9 \times 3} = 3\sqrt{3} \text{ cm}$$
 
 ### Paso 2: Calcular el área
-$$A = \frac{1}{2} \times \text{[base](../../../..](../../../../glossary.md)#base)} \times \text{altura}$$
+$$A = \frac{1}{2} \times \text{[base](../../../../glossary.md#base)} \times \text{altura}$$
 $$A = \frac{1}{2} \times 6 \times 3\sqrt{3}$$
 $$A = 9\sqrt{3} \text{ cm}^2$$
 

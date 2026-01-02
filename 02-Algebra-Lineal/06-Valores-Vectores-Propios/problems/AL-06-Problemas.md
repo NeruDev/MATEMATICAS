@@ -3,7 +3,7 @@
 content_type: problem_set
 topic_id: al-06-valores-vectores-propios
 file_id: AL-06-Problemas
-title: Problemas - [Valores y Vectores Propios](../../..](../../../glossary.md)#valores-y-vectores-propios)
+title: Problemas - [Valores y Vectores Propios](../../../glossary.md#valores-y-vectores-propios)
 total_problems: 28
 difficulty_distribution:
   basic: 10
@@ -13,7 +13,7 @@ difficulty_distribution:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -47,7 +47,7 @@ c) $C = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
 
 ### [Prob-03] Eigenvectores asociados ⭐⭐
 
-Para cada [matriz](../../..](../../../glossary.md)#matriz) del problema 2, encontrar los eigenvectores asociados a cada eigenvalor.
+Para cada [matriz](../../../glossary.md#matriz) del problema 2, encontrar los eigenvectores asociados a cada eigenvalor.
 
 > 📂 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
 
@@ -74,7 +74,7 @@ Si $\lambda$ es eigenvalor de $A$, demostrar que $\lambda^2$ es eigenvalor de $A
 
 ### [Prob-06] Polinomio característico paramétrico ⭐⭐
 
-Escribir el [polinomio característico](../../..](../../../glossary.md)#polinomio-caracteristico) de:
+Escribir el [polinomio característico](../../../glossary.md#polinomio-caracteristico) de:
 
 a) $\begin{pmatrix} a & b \\ b & a \end{pmatrix}$
 
@@ -110,7 +110,7 @@ d) Eigenvalores de $A + 2I$
 
 ### [Prob-09] Eigenvalor desconocido ⭐⭐
 
-Sea $A$ una [matriz](../../..](../../../glossary.md)#matriz) $3 \times 3$ con $\text{tr}(A) = 6$, $\det(A) = 8$, y eigenvalores $\lambda, 2, 2$. Encontrar $\lambda$.
+Sea $A$ una [matriz](../../../glossary.md#matriz) $3 \times 3$ con $\text{tr}(A) = 6$, $\det(A) = 8$, y eigenvalores $\lambda, 2, 2$. Encontrar $\lambda$.
 
 > 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
 
@@ -142,7 +142,7 @@ c) ¿Es diagonalizable?
 
 ### [Prob-12] Base del espacio propio ⭐⭐
 
-Encontrar una [base](../../..](../../../glossary.md)#base) para cada espacio propio de:
+Encontrar una [base](../../../glossary.md#base) para cada espacio propio de:
 $$A = \begin{pmatrix} 5 & -1 \\ 1 & 3 \end{pmatrix}$$
 
 > 📂 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
@@ -202,7 +202,7 @@ b) Diagonalizar $A$
 
 ### [Prob-17] Diagonalización ortogonal 2×2 ⭐⭐
 
-Diagonalizar ortogonalmente la [matriz simétrica](../../..](../../../glossary.md)#matriz-simetrica):
+Diagonalizar ortogonalmente la [matriz simétrica](../../../glossary.md#matriz-simetrica):
 $$A = \begin{pmatrix} 3 & 1 \\ 1 & 3 \end{pmatrix}$$
 
 > 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
@@ -222,7 +222,7 @@ $$A = \begin{pmatrix} 1 & 2 & 0 \\ 2 & 1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
 
 ### [Prob-19] Potencia mediante diagonalización ⭐⭐
 
-Usando [diagonalización](../../..](../../../glossary.md)#diagonalizacion), calcular $A^{10}$ donde:
+Usando [diagonalización](../../../glossary.md#diagonalizacion), calcular $A^{10}$ donde:
 $$A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$$
 
 > 📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
@@ -278,7 +278,7 @@ La sucesión de Fibonacci satisface $F_n = F_{n-1} + F_{n-2}$.
 
 a) Expresar como sistema matricial
 
-b) Usar [diagonalización](../../..](../../../glossary.md)#diagonalizacion) para encontrar fórmula cerrada de $F_n$
+b) Usar [diagonalización](../../../glossary.md#diagonalizacion) para encontrar fórmula cerrada de $F_n$
 
 > 📂 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
 
@@ -319,16 +319,7 @@ b) $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$
 
 Verificar el teorema de Cayley-Hamilton para $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
 
-> 📂 **Solución:** [solutions/prob-28/](../solutions/prob-28/)
-
----
-
-## Resumen de Distribución
-
-| Sección | Problemas | Dificultad |
-|---------|-----------|------------|
-| 6.1 Eigenvalores y Eigenvectores Básicos | 01-05 | ⭐-⭐⭐ |
-| 6.2 [Polinomio](../../../glossary.md#polinomio) Característico | 06-10 | ⭐⭐ |
+> 📂 **Solución:** [solutions/prob-28/](../../../glossary.md#polinomio) Característico | 06-10 | ⭐⭐ |
 | 6.3 Espacios Propios y Multiplicidades | 11-14 | ⭐⭐-⭐⭐⭐ |
 | 6.4 Diagonalización | 15-18 | ⭐⭐-⭐⭐⭐ |
 | 6.5 Potencias de Matrices | 19-21 | ⭐⭐-⭐⭐⭐ |

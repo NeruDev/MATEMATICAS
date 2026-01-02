@@ -9,7 +9,7 @@ requires: [CV-04-Teoria-Varias, CI-03-Teoria-Definida]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -33,7 +33,7 @@ Si $f$ es continua en $R = [a, b] \times [c, d]$:
 
 $$\iint_R f(x, y)\, dA = \int_a^b \int_c^d f(x, y)\, dy\, dx = \int_c^d \int_a^b f(x, y)\, dx\, dy$$
 
-El [orden](../../..](../../../glossary.md)#orden) de integración puede intercambiarse.
+El [orden](../../../glossary.md#orden) de integración puede intercambiarse.
 
 ### Interpretación geométrica
 
@@ -66,9 +66,9 @@ $$\iint_D f(x, y)\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x, y)\, dx\, dy$$
 
 ### Selección del orden de integración
 
-- Elegir el [orden](../../..](../../../glossary.md)#orden) que simplifique los [límites](../../..](../../../glossary.md)#limites)
+- Elegir el [orden](../../../glossary.md#orden) que simplifique los [límites](../../../glossary.md#limites)
 - A veces un orden es imposible o muy difícil; el otro puede ser factible
-- Para cambiar el orden: dibujar la región e identificar los nuevos [límites](../../..](../../../glossary.md)#limites)
+- Para cambiar el orden: dibujar la región e identificar los nuevos [límites](../../../glossary.md#limites)
 
 ### Valor medio
 
@@ -304,7 +304,7 @@ $\int_C \mathbf{F} \cdot d\mathbf{r}$ es independiente del camino si y solo si $
 
 ### Campo conservativo
 
-$\mathbf{F}$ es **conservativo** si existe $f$ [tal que](../../..](../../../glossary.md)#tal-que) $\mathbf{F} = \nabla f$.
+$\mathbf{F}$ es **conservativo** si existe $f$ [tal que](../../../glossary.md#tal-que) $\mathbf{F} = \nabla f$.
 
 **Criterio** (en región simplemente conexa): $\mathbf{F} = \langle P, Q \rangle$ es conservativo si y solo si:
 $$\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}$$
@@ -320,7 +320,7 @@ $$\int_C \nabla f \cdot d\mathbf{r} = f(\mathbf{r}(b)) - f(\mathbf{r}(a))$$
 
 ### Enunciado
 
-Sea $D$ una región simplemente conexa con frontera $C$ recorrida en sentido positivo (antihorario). Si $P$ y $Q$ tienen [derivadas](../../..](../../../glossary.md)#derivadas) parciales continuas:
+Sea $D$ una región simplemente conexa con frontera $C$ recorrida en sentido positivo (antihorario). Si $P$ y $Q$ tienen [derivadas](../../../glossary.md#derivadas) parciales continuas:
 
 $$\oint_C P\,dx + Q\,dy = \iint_D \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dA$$
 
@@ -373,7 +373,7 @@ Relaciona la circulación de $\mathbf{F}$ alrededor de $C$ con el flujo del rota
 
 $$\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E \nabla \cdot \mathbf{F}\, dV$$
 
-Relaciona el flujo de $\mathbf{F}$ a través de $S$ con la integral de la [divergencia](../../..](../../../glossary.md)#divergencia) sobre $E$.
+Relaciona el flujo de $\mathbf{F}$ a través de $S$ con la integral de la [divergencia](../../../glossary.md#divergencia) sobre $E$.
 
 ### Operadores diferenciales
 
@@ -389,6 +389,6 @@ Relaciona el flujo de $\mathbf{F}$ a través de $S$ con la integral de la [diver
 <!--
 IA: Esta teoría cubre integración múltiple, cambio de coordenadas y teoremas vectoriales.
 Usa las definiciones y fórmulas aquí como referencia canónica.
-Al generar problemas, asegura [dominio](../../..](../../../glossary.md)#dominio) progresivo de cada sección.
+Al generar problemas, asegura [dominio](../../../glossary.md#dominio) progresivo de cada sección.
 file_id: CV-05-Teoria-Integracion
 -->

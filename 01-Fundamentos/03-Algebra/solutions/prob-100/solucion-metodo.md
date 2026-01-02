@@ -6,11 +6,11 @@ file_id: FUN-03-Prob-100-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-100]"
-methods: ["elevar-al-cuadrado", "verificacion-soluciones", "analisis-[dominio](../../../..](../../../../glossary.md)#dominio)"]
+methods: ["elevar-al-cuadrado", "verificacion-soluciones", "analisis-[dominio](../../../../glossary.md#dominio)"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -36,7 +36,7 @@ $$2x + 3 \geq 0 \quad \Rightarrow \quad x \geq -\frac{3}{2}$$
 **Restricción 2:** El lado derecho debe ser no negativo (pues $\sqrt{\cdot} \geq 0$):
 $$x \geq 0$$
 
-**[Dominio](../../../..](../../../../glossary.md)#dominio) válido:** $x \geq 0$
+**[Dominio](../../../../glossary.md#dominio) válido:** $x \geq 0$
 
 ### Paso 2: Elevar ambos lados al cuadrado
 
@@ -50,7 +50,7 @@ $$x^2 - 2x - 3 = 0$$
 
 ### Paso 4: Resolver la ecuación cuadrática
 
-**Opción A: [Factorización](../../../..](../../../../glossary.md)#factorizacion)**
+**Opción A: [Factorización](../../../../glossary.md#factorizacion)**
 
 Buscamos dos números que multiplicados den $-3$ y sumados den $-2$:
 - Los números son $-3$ y $1$

@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -47,7 +47,7 @@ $$n + 1 = 4 + 1 = 5$$
 **Paso 3:** Dividimos por el nuevo exponente:
 $$\frac{x^5}{5}$$
 
-**Paso 4:** Agregamos la [constante de integración](../../..](../../../glossary.md)#constante-de-integracion):
+**Paso 4:** Agregamos la [constante de integración](../../../glossary.md#constante-de-integracion):
 $$\int x^4 \, dx = \frac{x^5}{5} + C$$
 
 **Verificación:** Derivamos el resultado: $\frac{d}{dx}\left(\frac{x^5}{5}\right) = \frac{5x^4}{5} = x^4$ ✓
@@ -119,7 +119,7 @@ $$\int \frac{1}{x^4} \, dx = -\frac{1}{3x^3} + C$$
 $$\int \frac{1}{x} \, dx = \ln\lvert x \rvert + C$$
 
 ### ¿Por qué valor absoluto?
-La [función](../../..](../../../glossary.md)#funcion) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../..](../../../glossary.md)#antiderivada) funcione también para $x < 0$.
+La [función](../../../glossary.md#funcion) $\ln x$ solo está definida para $x > 0$, pero $\frac{1}{x}$ existe para todo $x \neq 0$. El valor absoluto permite que la [antiderivada](../../../glossary.md#antiderivada) funcione también para $x < 0$.
 
 ### Algoritmo de Resolución
 
@@ -128,30 +128,8 @@ La [función](../../..](../../../glossary.md)#funcion) $\ln x$ solo está defini
 | 1 | Verificar la forma $\frac{k}{x}$ | Extraer constante $k$ |
 | 2 | Aplicar $\int \frac{1}{x}dx = \ln\lvert x\rvert$ | Usar valor absoluto |
 | 3 | Multiplicar por la constante | $k \cdot \ln\lvert x\rvert$ |
-| 4 | Agregar $+ C$ | [Constante de integración](../../../glossary.md#constante-de-integracion) |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\int \frac{3}{x} \, dx$
-
-**Paso 1:** Identificamos la constante $k = 3$:
-$$\int \frac{3}{x} \, dx = 3 \int \frac{1}{x} \, dx$$
-
-**Paso 2:** Aplicamos la fórmula del logaritmo:
-$$= 3 \cdot \ln\lvert x \rvert$$
-
-**Paso 3:** Agregamos la constante:
-$$\int \frac{3}{x} \, dx = 3\ln\lvert x \rvert + C$$
-
-**Verificación:** $\frac{d}{dx}(3\ln|x|) = 3 \cdot \frac{1}{x} = \frac{3}{x}$ ✓
-
----
-
-## Método 4: Exponenciales
-
-### Cuándo Usar
-- Funciones $e^x$ ([base](../../..](../../../glossary.md)#base) natural)
-- Funciones $a^x$ ([base](../../..](../../../glossary.md)#base) cualquier positivo $a \neq 1$)
+| 4 | Agregar $+ C$ | [Constante de integración](../../..](../../../glossary.md#base) natural)
+- Funciones $a^x$ ([base](../../../glossary.md#base) cualquier positivo $a \neq 1$)
 
 ### Fórmulas
 $$\int e^x \, dx = e^x + C$$
@@ -187,18 +165,7 @@ $$\frac{d}{dx}\left(\frac{5^x}{\ln 5}\right) = \frac{5^x \cdot \ln 5}{\ln 5} = 5
 
 ### Tabla de Fórmulas con Verificación
 
-| Integral | Resultado | Verificación ([derivada](../../../glossary.md#derivada)) |
-|----------|-----------|------------------------|
-| $\int \sin x \, dx$ | $-\cos x + C$ | $(-\cos x)' = \sin x$ ✓ |
-| $\int \cos x \, dx$ | $\sin x + C$ | $(\sin x)' = \cos x$ ✓ |
-| $\int \sec^2 x \, dx$ | $\tan x + C$ | $(\tan x)' = \sec^2 x$ ✓ |
-| $\int \csc^2 x \, dx$ | $-\cot x + C$ | $(-\cot x)' = \csc^2 x$ ✓ |
-
-### Algoritmo de Resolución
-
-| Paso | Acción |
-|------|--------|
-| 1 | Identificar la [función](../../../glossary.md#funcion) trigonométrica |
+| Integral | Resultado | Verificación ([derivada](../../../glossary.md#funcion) trigonométrica |
 | 2 | Extraer constantes multiplicativas |
 | 3 | Consultar la tabla de antiderivadas |
 | 4 | Multiplicar por las constantes y agregar $C$ |
@@ -224,7 +191,7 @@ $$\int (3\sin x + 2\cos x) \, dx = -3\cos x + 2\sin x + C$$
 ## Método 6: Productos Trigonométricos Especiales
 
 ### Cuándo Usar
-- Producto $\sec x \tan x$ ([derivada](../../..](../../../glossary.md)#derivada) de secante)
+- Producto $\sec x \tan x$ ([derivada](../../../glossary.md#derivada) de secante)
 - Producto $\csc x \cot x$ (derivada de cosecante con signo)
 
 ### Fórmulas

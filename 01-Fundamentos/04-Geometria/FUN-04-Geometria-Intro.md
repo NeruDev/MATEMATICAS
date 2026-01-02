@@ -9,16 +9,12 @@ requires: [fun-03-algebra]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
 # Geometría
 
 ## Propósito
-Entender figuras, medidas y propiedades espaciales para preparar [trigonometría](../..](../../glossary.md)#trigonometria) y geometría analítica.
-
-## Mapa de recursos
-- [FUN-04-Geometria-Intro.md](FUN-04-Geometria-Intro.md) ← Estás aquí
-- [FUN-04-Resumen-Formulas.md](FUN-04-Resumen-Formulas.md)
-- [theory/FUN-04-Teoria-Geometria.md](theory/FUN-04-Teoria-Geometria.md)
+Entender figuras, medidas y propiedades espaciales para preparar [trigonometría](FUN-04-Geometria-Intro.md) ← Estás aquí
+- [FUN-04-Resumen-Formulas.md](theory/FUN-04-Teoria-Geometria.md)

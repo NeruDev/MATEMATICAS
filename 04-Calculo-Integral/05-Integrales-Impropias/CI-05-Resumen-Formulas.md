@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -92,27 +92,7 @@ Si $f(x), g(x) > 0$ y $\lim_{x\to\infty} \dfrac{f(x)}{g(x)} = L$:
 
 ## Comportamiento asintótico
 
-Para determinar [convergencia](../..](../../glossary.md)#convergencia), analizar el comportamiento cuando $x \to \infty$:
-
-| Si $f(x) \sim \dfrac{1}{x^p}$ cuando $x \to \infty$ | Entonces |
-|-----------------------------------------------------|----------|
-| $p > 1$ | $\int_a^\infty f(x)\,dx$ converge |
-| $p \leq 1$ | $\int_a^\infty f(x)\,dx$ diverge |
-
-## Resumen de convergencia
-
-```
-Para ∫_a^∞ f(x)dx:
-1. Calcular ∫_a^t f(x)dx
-2. Evaluar lim(t→∞)
-3. Si el límite es finito → CONVERGE
-4. Si el límite es ∞ o no existe → DIVERGE
-```
-
----
-
-<!--
-IA: Hoja de referencia rápida para [integrales impropias](../..](../../glossary.md)#integrales-impropias).
-Para desarrollo completo: [theory/CI-05-Teoria-Impropias.md](theory/CI-05-Teoria-Impropias.md)
+Para determinar [convergencia](../../glossary.md#integrales-impropias).
+Para desarrollo completo: [theory/CI-05-Teoria-Integrales-Impropias.md](theory/CI-05-Teoria-Integrales-Impropias.md)
 file_id: CI-05-Resumen-Formulas
 -->

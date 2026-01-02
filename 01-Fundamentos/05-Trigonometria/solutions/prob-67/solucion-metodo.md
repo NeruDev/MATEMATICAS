@@ -12,7 +12,7 @@ created: 2025-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -28,7 +28,7 @@ $$2\sin^2\theta + 3\cos\theta = 3$$
 
 ## 🎯 Estrategia de Solución
 
-1. Usar la identidad pitagórica $\sin^2\theta = 1 - \cos^2\theta$ para expresar todo en términos de [coseno](../../../..](../../../../glossary.md)#coseno)
+1. Usar la identidad pitagórica $\sin^2\theta = 1 - \cos^2\theta$ para expresar todo en términos de [coseno](../../../../glossary.md#coseno)
 2. Resolver la ecuación cuadrática resultante en $\cos\theta$
 3. Encontrar todos los ángulos $\theta$ en el intervalo dado
 
@@ -73,7 +73,7 @@ $$2u^2 - 3u + 1 = 0$$
 
 ### Paso 5: Resolver la ecuación cuadrática
 
-**Método: [Factorización](../../../..](../../../../glossary.md)#factorizacion)**
+**Método: [Factorización](../../../../glossary.md#factorizacion)**
 
 Buscamos dos números que multiplicados den $2 \times 1 = 2$ y sumados den $-3$.
 
@@ -105,7 +105,7 @@ Ahora tenemos:
 
 **Para $\cos\theta = \dfrac{1}{2}$:**
 
-El [coseno](../../../..](../../../../glossary.md)#coseno) es positivo en el primer y cuarto cuadrante.
+El [coseno](../../../../glossary.md#coseno) es positivo en el primer y cuarto cuadrante.
 
 El ángulo de referencia es $\theta_{ref} = \dfrac{\pi}{3}$ (ya que $\cos\dfrac{\pi}{3} = \dfrac{1}{2}$)
 
@@ -183,7 +183,7 @@ Círculo Unitario - Ubicación de Soluciones
 
 ## 📚 Notas del Método
 
-> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola [función](../../../..](../../../../glossary.md)#funcion) trigonométrica.
+> **Consejo:** Cuando una ecuación trigonométrica contiene tanto $\sin\theta$ como $\cos\theta$, es útil usar identidades pitagóricas para expresarla en términos de una sola [función](../../../../glossary.md#funcion) trigonométrica.
 
 ### Resumen del Proceso
 

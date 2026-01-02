@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -78,39 +78,6 @@ $\nabla f = \mathbf{0}$ o $\nabla f$ no existe
 
 ### Criterio de la segunda derivada ($z = f(x,y)$)
 
-Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el [punto crítico](../..](../../glossary.md)#punto-critico):
-
-| Condición | Conclusión |
-|-----------|------------|
-| $D > 0$ y $f_{xx} > 0$ | Mínimo local |
-| $D > 0$ y $f_{xx} < 0$ | Máximo local |
-| $D < 0$ | Punto silla |
-| $D = 0$ | Prueba no concluyente |
-
-## Multiplicadores de Lagrange
-
-Para optimizar $f(x,y,z)$ sujeto a $g(x,y,z) = k$:
-
-$$\nabla f = \lambda \nabla g$$
-$$g(x,y,z) = k$$
-
-Con dos restricciones $g = k_1$, $h = k_2$:
-$$\nabla f = \lambda \nabla g + \mu \nabla h$$
-
-## Vector normal a superficie
-
-Para la superficie $F(x,y,z) = k$:
-$$\mathbf{n} = \nabla F = \langle F_x, F_y, F_z \rangle$$
-
-## Ecuación del plano tangente
-
-Para $F(x,y,z) = k$ en $(x_0, y_0, z_0)$:
-$$F_x(x-x_0) + F_y(y-y_0) + F_z(z-z_0) = 0$$
-
----
-
-<!--
-IA: Usa este resumen para respuestas breves.
-Para desarrollo completo, consulta [theory/CV-04-Teoria-Varias.md](theory/CV-04-Teoria-Varias.md)
+Sea $D = f_{xx}f_{yy} - (f_{xy})^2$ en el [punto crítico](theory/CV-04-Teoria-Varias.md)
 file_id: CV-04-Resumen-Formulas
 -->

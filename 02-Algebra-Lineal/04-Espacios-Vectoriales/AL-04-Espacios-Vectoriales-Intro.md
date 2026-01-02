@@ -7,7 +7,7 @@ status: stable
 audience: student
 -->
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -15,19 +15,10 @@ audience: student
 
 ## Propósito
 
-Los [espacios vectoriales](../..](../../glossary.md)#espacios-vectoriales) proporcionan el marco abstracto que unifica el [álgebra lineal](../..](../../glossary.md)#algebra-lineal). Este módulo desarrolla los conceptos fundamentales de [independencia lineal](../..](../../glossary.md)#independencia-lineal), bases y [dimensión](../..](../../glossary.md)#dimension), que son esenciales para comprender [transformaciones lineales](../..](../../glossary.md)#transformaciones-lineales), valores propios y aplicaciones avanzadas.
-
-## Mapa de recursos
-
-| Tipo | Archivo | Descripción |
-|------|---------|-------------|
-| 📖 Teoría | [Teoria-Espacios-Vectoriales.md](theory/Teoria-Espacios-Vectoriales.md) | Axiomas y teoremas |
-| 🔧 Métodos | [Metodos-Espacios-Vectoriales.md](methods/Metodos-Espacios-Vectoriales.md) | Algoritmos paso a paso |
-| 📝 Problemas | [Problemas-Espacios-Vectoriales.md](problems/Problemas-Espacios-Vectoriales.md) | Ejercicios de práctica |
-| ✅ Soluciones | [Soluciones-Espacios-Vectoriales.md](solutions/Soluciones-Espacios-Vectoriales.md) | Respuestas detalladas |
-| 📋 Resumen | [AL-04-Resumen-Formulas.md](AL-04-Resumen-Formulas.md) | Fórmulas clave |
-| 🎯 Diagnóstico | [diagnostic/](diagnostic/) | Evaluación inicial |
-| 🌍 Aplicaciones | [applications/](applications/) | Casos de uso real |
+Los [espacios vectoriales](../../glossary.md#algebra-lineal). Este módulo desarrolla los conceptos fundamentales de [independencia lineal](../../glossary.md#dimension), que son esenciales para comprender [transformaciones lineales](theory/AL-04-Teoria-Espacios-Vectoriales.md) | Axiomas y teoremas |
+| 🔧 Métodos | [AL-04-Metodos-Espacios-Vectoriales.md](problems/AL-04-Problemas.md) | Ejercicios de práctica |
+| ✅ Soluciones | [AL-04-Soluciones-Desarrolladas.md](AL-04-Resumen-Formulas.md) | Fórmulas clave |
+| 🎯 Diagnóstico | [diagnostic/](applications/) | Casos de uso real |
 
 ## Ruta de aprendizaje
 
@@ -47,18 +38,16 @@ Los [espacios vectoriales](../..](../../glossary.md)#espacios-vectoriales) propo
 
 ### Secuencia recomendada
 
-1. **[Fundamentos](../..](../../glossary.md)#fundamentos)** (1.5h): Axiomas de [espacio vectorial](../..](../../glossary.md)#espacio-vectorial) y ejemplos
+1. **[Fundamentos](../../glossary.md#espacio-vectorial) y ejemplos
 2. **Subespacios** (1h): Criterios y construcción de subespacios
 3. **Generadores** (1.5h): Span y combinaciones lineales
 4. **Independencia** (1.5h): Criterios y aplicaciones
-5. **Bases** (2h): [Dimensión](../..](../../glossary.md)#dimension), coordenadas y cambio de [base](../..](../../glossary.md)#base)
+5. **Bases** (2h): [Dimensión](../../glossary.md#base)
 
 ## Prerequisitos
 
-- [01-Matrices](../01-Matrices/AL-01-Matrices-Intro.md): Operaciones matriciales
-- [03-Sistemas-Lineales](../03-Sistemas-Lineales/AL-03-Sistemas-Lineales-Intro.md): Resolución de sistemas
+- [01-Matrices](../03-Sistemas-Lineales/AL-03-Sistemas-Lineales-Intro.md): Resolución de sistemas
 
 ## Conexiones
 
-- **Siguiente**: [05-Transformaciones-Lineales](../05-Transformaciones-Lineales/AL-05-Transformaciones-Lineales-Intro.md)
-- **Aplica en**: [Transformaciones lineales](../..](../../glossary.md)#transformaciones-lineales), valores propios, espacios de funciones, mecánica cuántica
+- **Siguiente**: [05-Transformaciones-Lineales](../../glossary.md#transformaciones-lineales), valores propios, espacios de funciones, mecánica cuántica

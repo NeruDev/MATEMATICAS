@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Problemas de [Integral Definida](../../..](../../../glossary.md)#integral-definida)"
+title: "Problemas de [Integral Definida](../../../glossary.md#integral-definida)"
 topic_id: ci-03-integral-definida
 file_id: CI-03-Problemas
 content_type: problem_set
@@ -15,7 +15,7 @@ total_problems: 42
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -333,7 +333,7 @@ Calcular el área encerrada entre $y = x^2$ y $y = 4$.
 ---
 
 ### [Prob-39] Valor promedio de función ⭐⭐
-Encontrar el [valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x) = x^2$ en $[0, 3]$.
+Encontrar el [valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en $[0, 3]$.
 
 > **Solución:** Ver [solutions/prob-39/](../solutions/prob-39/)
 

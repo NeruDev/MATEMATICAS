@@ -12,7 +12,7 @@ format: formal_exposition
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -201,15 +201,15 @@ $$W = \int_0^L \lambda g (L - y) \, dy$$
 
 ### Definición
 
-El [valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f$ en $[a,b]$:
+El [valor promedio](../../../glossary.md#valor-promedio) de $f$ en $[a,b]$:
 $$f_{\text{prom}} = \frac{1}{b-a}\int_a^b f(x) \, dx$$
 
 ### Teorema del Valor Medio para Integrales
 
-Si $f$ es continua en $[a,b]$, existe $c \in (a,b)$ [tal que](../../..](../../../glossary.md)#tal-que):
+Si $f$ es continua en $[a,b]$, existe $c \in (a,b)$ [tal que](../../../glossary.md#tal-que):
 $$f(c) = \frac{1}{b-a}\int_a^b f(x)\,dx$$
 
-**Interpretación:** La integral es igual al área de un rectángulo de [base](../../..](../../../glossary.md)#base) $(b-a)$ y altura $f(c)$.
+**Interpretación:** La integral es igual al área de un rectángulo de [base](../../../glossary.md#base) $(b-a)$ y altura $f(c)$.
 
 ### Aplicaciones
 

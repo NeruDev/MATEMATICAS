@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: ed-03-sistemas-[edo](../..](../../glossary.md)#edo)
+topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)
 file_id: ED-03-Resumen-Formulas
 status: stable
 audience: exam_review
@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -42,28 +42,7 @@ donde $\text{tr}(A) = a + d$ y $\det(A) = ad - bc$
 
 **Eigenvectores:** $\mathbf{v}_1, \mathbf{v}_2$
 
-**[Solución general](../..](../../glossary.md)#solucion-general):**
-$$\mathbf{X}(t) = C_1 e^{\lambda_1 t}\mathbf{v}_1 + C_2 e^{\lambda_2 t}\mathbf{v}_2$$
-
----
-
-### Caso 2: Valores propios complejos $\lambda = \alpha \pm \beta i$
-
-**Eigenvector complejo:** $\mathbf{v} = \mathbf{a} + i\mathbf{b}$
-
-**Solución real:**
-$$\mathbf{X}(t) = C_1 e^{\alpha t}(\mathbf{a}\cos\beta t - \mathbf{b}\sin\beta t) + C_2 e^{\alpha t}(\mathbf{a}\sin\beta t + \mathbf{b}\cos\beta t)$$
-
----
-
-### Caso 3: Valor propio repetido $\lambda$ (multiplicidad 2)
-
-**Si hay 2 eigenvectores independientes:**
-$$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v}_1 + C_2 e^{\lambda t}\mathbf{v}_2$$
-
-**Si hay 1 eigenvector (deficiente):**
-- Eigenvector: $\mathbf{v}$
-- [Vector](../..](../../glossary.md)#vector) generalizado: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
+**[Solución general](../../glossary.md#vector) generalizado: $(A - \lambda I)\mathbf{w} = \mathbf{v}$
 
 $$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + \mathbf{w})$$
 
@@ -73,7 +52,7 @@ $$\mathbf{X}(t) = C_1 e^{\lambda t}\mathbf{v} + C_2 e^{\lambda t}(t\mathbf{v} + 
 
 $$\Phi(t) = \begin{pmatrix} \mathbf{X}_1(t) & \mathbf{X}_2(t) \end{pmatrix}$$
 
-**[Solución general](../..](../../glossary.md)#solucion-general):** $\mathbf{X}(t) = \Phi(t)\mathbf{C}$
+**[Solución general](../../glossary.md#solucion-general):** $\mathbf{X}(t) = \Phi(t)\mathbf{C}$
 
 **Con condición inicial:** $\mathbf{X}(t) = \Phi(t)\Phi^{-1}(t_0)\mathbf{X}_0$
 
@@ -134,7 +113,6 @@ Sea $\tau = \text{tr}(A)$, $\Delta = \det(A)$
 ---
 
 <!--
-IA: Hoja de referencia rápida para Sistemas de [EDO](../..](../../glossary.md)#edo).
-Para desarrollo completo: [theory/ED-03-Teoria-Sistemas-EDO.md](theory/ED-03-Teoria-Sistemas-EDO.md)
+IA: Hoja de referencia rápida para Sistemas de [EDO](theory/ED-03-Teoria-Sistemas-EDO.md)
 file_id: ED-03-Resumen-Formulas
 -->

@@ -1,26 +1,7 @@
 <!--
 ::METADATA::
 type: cheatsheet
-topic_id: cd-02-[derivadas](../..](../../glossary.md)#derivadas)
-file_id: CD-02-Resumen-Formulas
-status: stable
-audience: student
--->
-
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
-
----
-
-# Resumen de Fórmulas: Derivadas
-
-## Definición de Derivada
-
-$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
-
-## Reglas Básicas de Derivación
-
-| Regla | [Función](../../glossary.md#funcion) | [Derivada](../../glossary.md#derivada) |
+topic_id: cd-02-[derivadas](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md#funcion) | [Derivada](../../glossary.md#derivada) |
 |-------|---------|----------|
 | Constante | $c$ | $0$ |
 | Potencia | $x^n$ | $nx^{n-1}$ |
@@ -32,7 +13,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ## Derivadas de Funciones Trigonométricas
 
-| [Función](../../glossary.md#funcion) | [Derivada](../../glossary.md#derivada) |
+| [Función](../../glossary.md#derivada) |
 |---------|----------|
 | $\sin x$ | $\cos x$ |
 | $\cos x$ | $-\sin x$ |
@@ -110,4 +91,4 @@ $$f''(x) = \frac{d^2f}{dx^2}, \quad f'''(x) = \frac{d^3f}{dx^3}, \quad f^{(n)}(x
 
 ---
 
-> **Tip**: Memoriza las [derivadas](../..](../../glossary.md)#derivadas) básicas y practica la [regla de la cadena](../..](../../glossary.md)#regla-de-la-cadena) hasta que sea automática.
+> **Tip**: Memoriza las [derivadas](../../glossary.md#regla-de-la-cadena) hasta que sea automática.

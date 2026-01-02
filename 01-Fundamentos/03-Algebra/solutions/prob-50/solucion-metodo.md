@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -28,7 +28,7 @@ Resuelve: $\frac{x}{x-2} + \frac{2}{x+2} = \frac{8}{x^2-4}$
 - $(x^2 - 4) = (x-2)(x+2)$: diferencia de cuadrados
 
 ### Paso 2: Identificar el MCM
-$$\text{[MCM](../../../..](../../../../glossary.md)#mcm)} = (x - 2)(x + 2) = x^2 - 4$$
+$$\text{[MCM](../../../../glossary.md#mcm)} = (x - 2)(x + 2) = x^2 - 4$$
 
 ### Paso 3: Identificar restricciones
 Para que la ecuación tenga sentido, los denominadores no pueden ser cero:
@@ -57,7 +57,7 @@ $$x^2 + 4x - 12 = 0$$
 
 ### Paso 8: Resolver la ecuación cuadrática
 
-**Método: [Factorización](../../../..](../../../../glossary.md)#factorizacion)**
+**Método: [Factorización](../../../../glossary.md#factorizacion)**
 
 Buscamos dos números que:
 - Multipliquen a $-12$

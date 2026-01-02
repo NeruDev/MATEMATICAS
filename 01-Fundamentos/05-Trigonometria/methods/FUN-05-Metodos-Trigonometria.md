@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -68,100 +68,8 @@ $$\boxed{225° = \frac{5\pi}{4} \text{ rad}}$$
 
 | Razón | Definición | Mnemónico |
 |-------|------------|-----------|
-| [Seno](../../../glossary.md#seno) | $\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}}$ | SOH |
-| [Coseno](../../../glossary.md#coseno) | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
-| [Tangente](../../../glossary.md#tangente) | $\tan\theta = \frac{\text{opuesto}}{\text{adyacente}}$ | TOA |
-| Cosecante | $\csc\theta = \frac{\text{hipotenusa}}{\text{opuesto}}$ | |
-| Secante | $\sec\theta = \frac{\text{hipotenusa}}{\text{adyacente}}$ | |
-| Cotangente | $\cot\theta = \frac{\text{adyacente}}{\text{opuesto}}$ | |
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Identificar | Ángulo conocido y lado conocido |
-| 2 | Clasificar lados | Opuesto, adyacente, hipotenusa respecto al ángulo |
-| 3 | Seleccionar razón | Que relacione el lado conocido con el buscado |
-| 4 | Plantear ecuación | Usar la razón correspondiente |
-| 5 | Resolver | Despejar la incógnita |
-
-### Ejemplo Detallado
-
-**Problema:** En un triángulo rectángulo, un ángulo agudo mide $35°$ y la hipotenusa mide 20 cm. Hallar los catetos.
-
----
-
-**Paso 1: Identificar elementos**
-
-- Ángulo: $\theta = 35°$
-- Hipotenusa: $c = 20$ cm
-- Cateto opuesto: $a = ?$
-- Cateto adyacente: $b = ?$
-
----
-
-**Paso 2: Calcular cateto opuesto**
-
-$$\sin(35°) = \frac{a}{20}$$
-$$a = 20 \times \sin(35°) = 20 \times 0.5736 = 11.47 \text{ cm}$$
-
----
-
-**Paso 3: Calcular cateto adyacente**
-
-$$\cos(35°) = \frac{b}{20}$$
-$$b = 20 \times \cos(35°) = 20 \times 0.8192 = 16.38 \text{ cm}$$
-
----
-
-**Verificación (Pitágoras):**
-
-$$a^2 + b^2 = 11.47^2 + 16.38^2 = 131.56 + 268.30 = 399.86 \approx 400 = 20^2 \checkmark$$
-
-$$\boxed{a = 11.47 \text{ cm}, \quad b = 16.38 \text{ cm}}$$
-
----
-
-## Método 3: Usar el Círculo Unitario
-
-**Cuándo Usar:** Para determinar valores exactos de funciones trigonométricas en ángulos especiales.
-
-### Valores en Ángulos Especiales
-
-| $\theta$ | $\sin\theta$ | $\cos\theta$ | $\tan\theta$ |
-|----------|--------------|--------------|--------------|
-| $0°$ | $0$ | $1$ | $0$ |
-| $30°$ | $\frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{3}}{3}$ |
-| $45°$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ | $1$ |
-| $60°$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{2}$ | $\sqrt{3}$ |
-| $90°$ | $1$ | $0$ | $\nexists$ |
-
-### Signos por Cuadrante (ASTC)
-
-| Cuadrante | Ángulos | Positivas | Mnemónico |
-|-----------|---------|-----------|-----------|
-| I | $0° - 90°$ | todas | **A**ll |
-| II | $90° - 180°$ | sen, csc | **S**tudents |
-| III | $180° - 270°$ | tan, cot | **T**ake |
-| IV | $270° - 360°$ | cos, sec | **C**alculus |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular los valores exactos de $\sin(240°)$, $\cos(240°)$, $\tan(240°)$.
-
----
-
-**Paso 1: Identificar cuadrante y ángulo de referencia**
-
-$240°$ está en el tercer cuadrante (entre $180°$ y $270°$)
-
-Ángulo de referencia: $\alpha = 240° - 180° = 60°$
-
----
-
-**Paso 2: Determinar signos**
-
-En el tercer cuadrante: solo [tangente](../../..](../../../glossary.md)#tangente) y cotangente son positivas.
+| [Seno](../../../glossary.md#coseno) | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
+| [Tangente](../../..](../../../glossary.md#tangente) y cotangente son positivas.
 
 - $\sin(240°) < 0$
 - $\cos(240°) < 0$
@@ -285,79 +193,14 @@ $$\boxed{\text{Amplitud: } 3, \quad \text{Período: } \pi, \quad \text{Rango: } 
 | Estrategia | Descripción |
 |------------|-------------|
 | Trabajar un lado | Transformar hasta igualar al otro |
-| Convertir a sen/cos | Expresar todo en términos de [seno](../../../glossary.md#seno) y [coseno](../../../glossary.md#coseno) |
-| [Factorizar](../../../glossary.md#factorizar) | Buscar factores comunes |
-| Conjugado | Multiplicar por conjugado |
-| Identidades pitagóricas | Usar $\sin^2 + \cos^2 = 1$ |
-
-### Ejemplo Detallado
-
-**Problema:** Demostrar que $\frac{\sin\theta}{1 - \cos\theta} = \frac{1 + \cos\theta}{\sin\theta}$
-
----
-
-**Método: Multiplicar por conjugado**
-
-**Paso 1:** Trabajamos el lado izquierdo, multiplicamos por $\frac{1 + \cos\theta}{1 + \cos\theta}$
-
-$$\frac{\sin\theta}{1 - \cos\theta} \times \frac{1 + \cos\theta}{1 + \cos\theta}$$
-
----
-
-**Paso 2:** Desarrollar
-
-$$= \frac{\sin\theta(1 + \cos\theta)}{(1 - \cos\theta)(1 + \cos\theta)}$$
-
----
-
-**Paso 3:** Aplicar diferencia de cuadrados en denominador
-
-$$= \frac{\sin\theta(1 + \cos\theta)}{1 - \cos^2\theta}$$
-
----
-
-**Paso 4:** Usar identidad pitagórica: $1 - \cos^2\theta = \sin^2\theta$
-
-$$= \frac{\sin\theta(1 + \cos\theta)}{\sin^2\theta}$$
-
----
-
-**Paso 5:** Simplificar
-
-$$= \frac{1 + \cos\theta}{\sin\theta}$$
-
-$$\boxed{\frac{\sin\theta}{1 - \cos\theta} = \frac{1 + \cos\theta}{\sin\theta} \quad \blacksquare}$$
-
----
-
-## Método 6: Resolver Ecuaciones Trigonométricas
-
-**Cuándo Usar:** Cuando la incógnita está dentro de una [función](../../..](../../../glossary.md)#funcion) trigonométrica.
+| Convertir a sen/cos | Expresar todo en términos de [seno](../../../glossary.md#coseno) |
+| [Factorizar](../../..](../../../glossary.md#funcion) trigonométrica.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Aislar [función](../../../glossary.md#funcion) trig | Dejar $\sin x$, $\cos x$, etc. solos |
-| 2 | Encontrar ángulo de referencia | Usando valor absoluto |
-| 3 | Identificar cuadrantes | Donde la función tiene ese signo |
-| 4 | Escribir soluciones | En el intervalo pedido |
-| 5 | Generalizar (si aplica) | Añadir múltiplos del período |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver $2\cos^2 x - \cos x - 1 = 0$ para $x \in [0, 2\pi)$
-
----
-
-**Paso 1: Reconocer como cuadrática**
-
-Sea $u = \cos x$:
-$$2u^2 - u - 1 = 0$$
-
----
-
-**Paso 2: [Factorizar](../../..](../../../glossary.md)#factorizar)**
+| 1 | Aislar [función](../../..](../../../glossary.md#factorizar)**
 
 $$(2u + 1)(u - 1) = 0$$
 

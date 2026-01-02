@@ -1,15 +1,15 @@
 <!--
 ::METADATA::
 type: method
-topic_id: al-02-[determinantes](../../..](../../../glossary.md)#determinantes)
-file_id: AL-02-Metodos-[Determinantes](../../..](../../../glossary.md)#determinantes)
+topic_id: al-02-[determinantes](../../../glossary.md#determinantes)
+file_id: AL-02-Metodos-[Determinantes](../../../glossary.md#determinantes)
 status: stable
 audience: student
 last_updated: 2024-12-29
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -50,25 +50,7 @@ $$\det(A) = 5(4) - 3(2) = 20 - 6 = \boxed{14}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir la [matriz](../../../glossary.md#matriz) | Copiar las dos primeras columnas a la derecha |
-| 2 | Diagonales descendentes | Sumar productos (→) |
-| 3 | Diagonales ascendentes | Restar productos (←) |
-
-### Diagrama Visual
-```
-| a  b  c | a  b
-| d  e  f | d  e
-| g  h  i | g  h
-
-(+): aei + bfg + cdh
-(-): ceg + afh + bdi
-
-det = (+) - (-)
-```
-
-### Ejemplo Detallado
-
-**Problema:** Calcular el [determinante](../../..](../../../glossary.md)#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
+| 1 | Escribir la [matriz](../../..](../../../glossary.md#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
 
 **Paso 1:** Copiamos las dos primeras columnas:
 ```
@@ -112,10 +94,10 @@ $$\det(A) = \sum_{j=1}^{n} a_{ij} C_{ij}$$
 **Por columna $j$:**
 $$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
 
-donde el **[cofactor](../../..](../../../glossary.md)#cofactor)** es:
+donde el **[cofactor](../../../glossary.md#cofactor)** es:
 $$C_{ij} = (-1)^{i+j} M_{ij}$$
 
-y $M_{ij}$ es el **[menor](../../..](../../../glossary.md)#menor)** ([determinante](../../..](../../../glossary.md)#determinante) de la submatriz sin fila $i$ y columna $j$).
+y $M_{ij}$ es el **[menor](../../../glossary.md#menor)** ([determinante](../../../glossary.md#determinante) de la submatriz sin fila $i$ y columna $j$).
 
 ### Patrón de Signos
 $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + & - & \cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{pmatrix}$$
@@ -125,37 +107,7 @@ $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + 
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Elegir fila o columna | Preferir la que tenga más ceros |
-| 2 | Para cada elemento $a_{ij}$ | Calcular su [cofactor](../../../glossary.md#cofactor) $C_{ij}$ |
-| 3 | Multiplicar y sumar | $\det = \sum a_{ij} C_{ij}$ |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular el determinante de $A = \begin{pmatrix} 2 & 0 & 1 & 0 \\ 3 & 1 & 2 & 0 \\ 1 & 0 & 4 & 0 \\ 2 & 1 & 0 & 3 \end{pmatrix}$
-
-**Paso 1:** Elegimos la **columna 4** (tiene tres ceros):
-$$\det(A) = a_{14}C_{14} + a_{24}C_{24} + a_{34}C_{34} + a_{44}C_{44}$$
-$$= 0 \cdot C_{14} + 0 \cdot C_{24} + 0 \cdot C_{34} + 3 \cdot C_{44}$$
-$$= 3 \cdot C_{44}$$
-
-**Paso 2:** Calculamos $C_{44}$:
-$$C_{44} = (-1)^{4+4} M_{44} = (+1) \begin{vmatrix} 2 & 0 & 1 \\ 3 & 1 & 2 \\ 1 & 0 & 4 \end{vmatrix}$$
-
-**Paso 3:** Expandimos por columna 2 (dos ceros):
-$$M_{44} = 0 - 1 \cdot \begin{vmatrix} 2 & 1 \\ 1 & 4 \end{vmatrix} + 0 = -1(8-1) = -7$$
-
-**Resultado:**
-$$\det(A) = 3 \cdot (-7) = \boxed{-21}$$
-
----
-
-## Método 4: Reducción a Forma Triangular
-
-### Cuándo Usar
-- Matrices grandes
-- Método más eficiente computacionalmente
-
-### Propiedad Clave
-Para una [matriz](../../..](../../../glossary.md)#matriz) triangular (superior o inferior):
+| 2 | Para cada elemento $a_{ij}$ | Calcular su [cofactor](../../..](../../../glossary.md#matriz) triangular (superior o inferior):
 $$\det(A) = \prod_{i=1}^{n} a_{ii} = a_{11} \cdot a_{22} \cdot \ldots \cdot a_{nn}$$
 
 ### Efecto de las Operaciones de Fila
@@ -209,76 +161,7 @@ $$\det(A) = 1 \cdot 1 \cdot (-1) = \boxed{-1}$$
 | Dos filas/columnas proporcionales | $\det = 0$ |
 | Matriz triangular | $\det =$ producto de diagonal |
 | $\det(AB) = \det(A) \cdot \det(B)$ | Producto de determinantes |
-| $\det(A^T) = \det(A)$ | [Transpuesta](../../../glossary.md#transpuesta) |
-| $\det(kA) = k^n \det(A)$ | Para matriz $n \times n$ |
-| $\det(A^{-1}) = \frac{1}{\det(A)}$ | Inversa |
-
-### Ejemplo: Detectar det = 0
-
-**Problema:** Sin calcular, determinar si $\det(A) = 0$:
-$$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 5 & 7 & 9 \end{pmatrix}$$
-
-**Observación:** Fila 3 = Fila 1 + Fila 2:
-$$\begin{pmatrix} 5 & 7 & 9 \end{pmatrix} = \begin{pmatrix} 1 & 2 & 3 \end{pmatrix} + \begin{pmatrix} 4 & 5 & 6 \end{pmatrix}$$
-
-**Resultado:** $\det(A) = \boxed{0}$ (las filas son linealmente dependientes)
-
----
-
-## Método 6: Factor Común en Fila/Columna
-
-### Cuándo Usar
-- Simplificar antes de calcular
-- Reducir números grandes
-
-### Fórmula
-Si una fila tiene factor común $k$:
-$$\det\begin{pmatrix} ka_1 & ka_2 & ka_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{pmatrix} = k \cdot \det\begin{pmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{pmatrix}$$
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\det\begin{pmatrix} 6 & 12 & 18 \\ 1 & 2 & 1 \\ 2 & 1 & 3 \end{pmatrix}$
-
-**Paso 1:** Sacamos factor 6 de la fila 1:
-$$= 6 \cdot \det\begin{pmatrix} 1 & 2 & 3 \\ 1 & 2 & 1 \\ 2 & 1 & 3 \end{pmatrix}$$
-
-**Paso 2:** Calculamos el determinante simplificado (Sarrus):
-$$(+): 1(2)(3) + 2(1)(2) + 3(1)(1) = 6 + 4 + 3 = 13$$
-$$(−): 3(2)(2) + 2(1)(3) + 1(1)(1) = 12 + 6 + 1 = 19$$
-$$\det = 13 - 19 = -6$$
-
-**Resultado:**
-$$\det(A) = 6 \cdot (-6) = \boxed{-36}$$
-
----
-
-## Método 7: Regla de Cramer
-
-### Cuándo Usar
-- Resolver sistemas $n \times n$ con $\det(A) \neq 0$
-- Encontrar una variable específica sin resolver todo el sistema
-
-### Fórmula
-Para el sistema $Ax = b$:
-$$x_i = \frac{\det(A_i)}{\det(A)}$$
-
-donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por $b$.
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Calcular $\det(A)$ | Verificar que $\det(A) \neq 0$ |
-| 2 | Para cada variable $x_i$ | Formar $A_i$ reemplazando columna $i$ |
-| 3 | Calcular $\det(A_i)$ | Para cada variable |
-| 4 | Dividir | $x_i = \frac{\det(A_i)}{\det(A)}$ |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver el sistema usando Cramer:
-$$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 4 \end{cases}$$
-
-**Paso 1:** Matriz de coeficientes y [vector](../../..](../../../glossary.md)#vector) de términos independientes:
+| $\det(A^T) = \det(A)$ | [Transpuesta](../../..](../../../glossary.md#vector) de términos independientes:
 $$A = \begin{pmatrix} 2 & 1 & -1 \\ 1 & -1 & 2 \\ 3 & 2 & 1 \end{pmatrix}, \quad b = \begin{pmatrix} 3 \\ 1 \\ 4 \end{pmatrix}$$
 
 **Paso 2:** Calculamos $\det(A)$ (por Sarrus):
@@ -374,7 +257,7 @@ $$A = \frac{1}{2}|14| = \boxed{7 \text{ unidades}^2}$$
 
 ### Cuándo Usar
 - Matrices con estructura especial de potencias
-- [Interpolación](../../..](../../../glossary.md)#interpolacion) polinomial
+- [Interpolación](../../../glossary.md#interpolacion) polinomial
 
 ### Fórmula
 $$\det\begin{pmatrix} 1 & x_1 & x_1^2 \\ 1 & x_2 & x_2^2 \\ 1 & x_3 & x_3^2 \end{pmatrix} = (x_2 - x_1)(x_3 - x_1)(x_3 - x_2)$$

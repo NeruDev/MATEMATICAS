@@ -7,7 +7,7 @@ status: stable
 audience: student
 -->
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -21,39 +21,11 @@ Los sistemas de ecuaciones lineales aparecen en prácticamente todas las áreas 
 
 | Tipo | Archivo | Descripción |
 |------|---------|-------------|
-| 📖 Teoría | [Teoria-Sistemas-Lineales.md](theory/Teoria-Sistemas-Lineales.md) | Conceptos y teoremas |
-| 🔧 Métodos | [Metodos-Sistemas-Lineales.md](methods/Metodos-Sistemas-Lineales.md) | Algoritmos de solución |
-| 📝 Problemas | [Problemas-Sistemas-Lineales.md](problems/Problemas-Sistemas-Lineales.md) | Ejercicios de práctica |
-| ✅ Soluciones | [Soluciones-Sistemas-Lineales.md](solutions/Soluciones-Sistemas-Lineales.md) | Respuestas detalladas |
-| 📋 Resumen | [AL-03-Resumen-Formulas.md](AL-03-Resumen-Formulas.md) | Fórmulas clave |
-| 🎯 Diagnóstico | [diagnostic/](diagnostic/) | Evaluación inicial |
-| 🌍 Aplicaciones | [applications/](applications/) | Casos de uso real |
-
-## Ruta de aprendizaje
-
-```
-3.1 Forma matricial Ax = b
-        ↓
-3.2 Eliminación gaussiana
-        ↓
-3.3 Forma escalonada (REF/RREF)
-        ↓
-3.4 Clasificación de soluciones ←──→ 3.5 Rango de matriz
-        ↓
-3.6 Sistemas homogéneos
-```
-
-### Secuencia recomendada
-
-1. **Representación** (1h): Dominar la forma matricial Ax = b
-2. **Eliminación** (1.5h): Algoritmo de Gauss y operaciones elementales
-3. **Análisis** (1.5h): Formas escalonadas y clasificación de sistemas
-4. **Casos especiales** (2h): Rango, sistemas homogéneos y soluciones paramétricas
-
-## Prerequisitos
-
-- [01-Matrices](../01-Matrices/AL-01-Matrices-Intro.md): Operaciones matriciales
-- [02-Determinantes](../02-[Determinantes](../..](../../glossary.md)#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
+| 📖 Teoría | [AL-03-Teoria-Sistemas-Lineales.md](methods/AL-03-Metodos-Sistemas-Lineales.md) | Algoritmos de solución |
+| 📝 Problemas | [AL-03-Problemas.md](solutions/AL-03-Soluciones-Desarrolladas.md) | Respuestas detalladas |
+| 📋 Resumen | [AL-03-Resumen-Formulas.md](diagnostic/) | Evaluación inicial |
+| 🌍 Aplicaciones | [applications/](../01-Matrices/AL-01-Matrices-Intro.md): Operaciones matriciales
+- [02-Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
 
 ## Conexiones
 

@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: mn-04-[edo](../../..](../../../glossary.md)#edo)-numericas
+topic_id: mn-04-[edo](../../../glossary.md#edo)-numericas
 file_id: MN-04-Respuestas
 status: stable
 audience: student
@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 

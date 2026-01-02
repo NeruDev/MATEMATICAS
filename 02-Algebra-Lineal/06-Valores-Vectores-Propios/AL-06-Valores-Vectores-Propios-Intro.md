@@ -7,7 +7,7 @@ status: stable
 audience: student
 -->
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -15,19 +15,10 @@ audience: student
 
 ## Propósito
 
-Los [valores y vectores propios](../..](../../glossary.md)#valores-y-vectores-propios) revelan las direcciones invariantes de una [transformación lineal](../..](../../glossary.md)#transformacion-lineal). Este módulo culmina el [álgebra lineal](../..](../../glossary.md)#algebra-lineal) proporcionando herramientas para diagonalizar matrices, simplificar cálculos de potencias y resolver sistemas dinámicos, con aplicaciones en física, ingeniería y ciencia de datos.
-
-## Mapa de recursos
-
-| Tipo | Archivo | Descripción |
-|------|---------|-------------|
-| 📖 Teoría | [Teoria-Valores-Vectores-Propios.md](theory/Teoria-Valores-Vectores-Propios.md) | Definiciones y teoremas |
-| 🔧 Métodos | [Metodos-Valores-Vectores-Propios.md](methods/Metodos-Valores-Vectores-Propios.md) | Algoritmos de cálculo |
-| 📝 Problemas | [Problemas-Valores-Vectores-Propios.md](problems/Problemas-Valores-Vectores-Propios.md) | Ejercicios de práctica |
-| ✅ Soluciones | [Soluciones-Valores-Vectores-Propios.md](solutions/Soluciones-Valores-Vectores-Propios.md) | Respuestas detalladas |
-| 📋 Resumen | [AL-06-Resumen-Formulas.md](AL-06-Resumen-Formulas.md) | Fórmulas clave |
-| 🎯 Diagnóstico | [diagnostic/](diagnostic/) | Evaluación inicial |
-| 🌍 Aplicaciones | [applications/](applications/) | Casos de uso real |
+Los [valores y vectores propios](../../glossary.md#transformacion-lineal). Este módulo culmina el [álgebra lineal](theory/AL-06-Teoria-Valores-Vectores-Propios.md) | Definiciones y teoremas |
+| 🔧 Métodos | [AL-06-Metodos-Valores-Vectores-Propios.md](problems/AL-06-Problemas.md) | Ejercicios de práctica |
+| ✅ Soluciones | [AL-06-Soluciones-Desarrolladas.md](AL-06-Resumen-Formulas.md) | Fórmulas clave |
+| 🎯 Diagnóstico | [diagnostic/](applications/) | Casos de uso real |
 
 ## Ruta de aprendizaje
 
@@ -46,16 +37,10 @@ Los [valores y vectores propios](../..](../../glossary.md)#valores-y-vectores-pr
 ### Secuencia recomendada
 
 1. **Conceptos** (1.5h): Definición, ejemplos geométricos y cálculo básico
-2. **[Polinomio característico](../..](../../glossary.md)#polinomio-caracteristico)** (1.5h): Ecuación característica y cálculo de eigenvalores
-3. **Espacios propios** (2h): Multiplicidades y cálculo de eigenvectores
-4. **[Diagonalización](../..](../../glossary.md)#diagonalizacion)** (2h): Criterios y proceso de diagonalización
+2. **[Polinomio característico](../../glossary.md#diagonalizacion)** (2h): Criterios y proceso de diagonalización
 5. **Aplicaciones** (2h): Potencias de matrices, sistemas dinámicos, PCA
 
 ## Prerequisitos
 
-- [02-Determinantes](../02-[Determinantes](../..](../../glossary.md)#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
-- [05-Transformaciones-Lineales](../05-Transformaciones-Lineales/AL-05-Transformaciones-Lineales-Intro.md): Matrices de transformaciones
-
-## Conexiones
-
-- **Aplica en**: [Ecuaciones diferenciales](../..](../../glossary.md)#ecuaciones-diferenciales), cadenas de Markov, análisis de componentes principales, vibraciones mecánicas, Google PageRank
+- [02-Determinantes](../../glossary.md#determinantes)/AL-02-Determinantes-Intro.md): Cálculo de determinantes
+- [05-Transformaciones-Lineales](../../glossary.md#ecuaciones-diferenciales), cadenas de Markov, análisis de componentes principales, vibraciones mecánicas, Google PageRank

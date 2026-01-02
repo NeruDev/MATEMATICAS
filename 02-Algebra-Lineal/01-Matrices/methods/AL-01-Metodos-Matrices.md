@@ -9,7 +9,7 @@ last_updated: 2024-12-29
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -46,7 +46,7 @@ $$A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = 
 ## Método 2: Multiplicación por Escalar
 
 ### Cuándo Usar
-- Escalar todos los elementos de una [matriz](../../..](../../../glossary.md)#matriz) por un factor constante
+- Escalar todos los elementos de una [matriz](../../../glossary.md#matriz) por un factor constante
 
 ### Fórmula
 $$(kA)_{ij} = k \cdot a_{ij}$$
@@ -63,9 +63,9 @@ $$3A = 3 \begin{pmatrix} 1 & -2 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 3(1) & 
 ## Método 3: Multiplicación de Matrices (Fila × Columna)
 
 ### Cuándo Usar
-- [Composición](../../..](../../../glossary.md)#composicion) de [transformaciones lineales](../../..](../../../glossary.md)#transformaciones-lineales)
+- [Composición](../../../glossary.md#composicion) de [transformaciones lineales](../../../glossary.md#transformaciones-lineales)
 - Sistemas de ecuaciones
-- Cambios de [base](../../..](../../../glossary.md)#base)
+- Cambios de [base](../../../glossary.md#base)
 
 ### Requisito
 Columnas de $A$ = Filas de $B$: $(m \times n) \cdot (n \times p) = (m \times p)$
@@ -120,52 +120,11 @@ $$(A^T)_{ij} = a_{ji}$$
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| Doble [transpuesta](../../../glossary.md#transpuesta) | $(A^T)^T = A$ |
-| Suma | $(A + B)^T = A^T + B^T$ |
-| Escalar | $(kA)^T = kA^T$ |
-| Producto | $(AB)^T = B^T A^T$ |
-
-### Ejemplo Detallado
-
-**Problema:** Encontrar $A^T$ para $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$
-
-**Solución:** La fila $i$ se convierte en columna $i$:
-
-$$A^T = \boxed{\begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}}$$
-
-**Verificación de dimensiones:** $A_{2 \times 3} \rightarrow A^T_{3 \times 2}$ ✓
-
----
-
-## Método 5: Inversa de Matriz $2 \times 2$ (Fórmula Directa)
-
-### Cuándo Usar
-- Matrices pequeñas $2 \times 2$
-- Cálculo rápido cuando $\det(A) \neq 0$
-
-### Fórmula
-$$A^{-1} = \frac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \quad \text{donde } A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Cálculo |
-|------|--------|---------|
-| 1 | Calcular [determinante](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
+| Doble [transpuesta](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
 | 2 | Verificar invertibilidad | Si $\det = 0$, no existe inversa |
 | 3 | Intercambiar diagonal principal | $a \leftrightarrow d$ |
 | 4 | Cambiar signo diagonal secundaria | $b \to -b$, $c \to -c$ |
-| 5 | Dividir entre [determinante](../../../glossary.md#determinante) | Multiplicar por $\frac{1}{\det(A)}$ |
-
-### Ejemplo Detallado
-
-**Problema:** Encontrar la inversa de $A = \begin{pmatrix} 4 & 3 \\ 2 & 1 \end{pmatrix}$
-
-**Paso 1:** Calculamos el determinante:
-$$\det(A) = 4(1) - 3(2) = 4 - 6 = -2$$
-
-**Paso 2:** Como $\det(A) = -2 \neq 0$, la inversa existe.
-
-**Paso 3-4:** Formamos la [matriz](../../..](../../../glossary.md)#matriz) adjunta:
+| 5 | Dividir entre [determinante](../../..](../../../glossary.md#matriz) adjunta:
 $$\text{adj}(A) = \begin{pmatrix} 1 & -3 \\ -2 & 4 \end{pmatrix}$$
 
 **Paso 5:** Dividimos entre el determinante:
@@ -241,8 +200,8 @@ $$A^{-1} = \boxed{\begin{pmatrix} 7 & -2 \\ -3 & 1 \end{pmatrix}}$$
 ## Método 7: Rango de una Matriz
 
 ### Cuándo Usar
-- Determinar la [dimensión](../../..](../../../glossary.md)#dimension) del espacio columna
-- Verificar [independencia lineal](../../..](../../../glossary.md)#independencia-lineal)
+- Determinar la [dimensión](../../../glossary.md#dimension) del espacio columna
+- Verificar [independencia lineal](../../../glossary.md#independencia-lineal)
 - Analizar sistemas de ecuaciones
 
 ### Definición
@@ -351,7 +310,7 @@ $$\begin{pmatrix} + & - & + & \cdots \\ - & + & - & \cdots \\ + & - & + & \cdots
 
 **Problema:** Encontrar $\text{adj}(A)$ para $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 1 & 0 & 6 \end{pmatrix}$
 
-**Paso 1-2:** Calculamos cada [cofactor](../../..](../../../glossary.md)#cofactor):
+**Paso 1-2:** Calculamos cada [cofactor](../../../glossary.md#cofactor):
 
 $$C_{11} = (+1)\begin{vmatrix} 4 & 5 \\ 0 & 6 \end{vmatrix} = 24$$
 

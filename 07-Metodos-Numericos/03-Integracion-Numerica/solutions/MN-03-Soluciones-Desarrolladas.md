@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -195,7 +195,7 @@ $n = 6$ (par), $h = 1$ hora
 Fórmula Simpson compuesto:
 $$\text{AUC} = \frac{h}{3}[C_0 + 4(C_1 + C_3 + C_5) + 2(C_2 + C_4) + C_6]$$
 
-**[Sustitución](../../..](../../../glossary.md)#sustitucion):**
+**[Sustitución](../../../glossary.md#sustitucion):**
 $$\text{AUC} = \frac{1}{3}[0 + 4(8.5 + 12.1 + 5.0) + 2(15.2 + 8.3) + 2.8]$$
 $$= \frac{1}{3}[0 + 4(25.6) + 2(23.5) + 2.8]$$
 $$= \frac{1}{3}[102.4 + 47.0 + 2.8]$$
@@ -229,7 +229,7 @@ Suma = 17.7477
 
 $$L = \frac{0.25}{3} \times 17.7477 = 1.479$$
 
-**Valor exacto (usando [sustitución](../../..](../../../glossary.md)#sustitucion) hiperbólica):**
+**Valor exacto (usando [sustitución](../../../glossary.md#sustitucion) hiperbólica):**
 $$L = \frac{1}{2}\left[\sqrt{5} + \frac{\sinh^{-1}(2)}{2}\right] = 1.4789$$
 
 **Error:** $|1.479 - 1.4789| = 0.0001$ (0.007%)

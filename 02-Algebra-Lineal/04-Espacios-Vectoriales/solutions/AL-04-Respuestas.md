@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -26,20 +26,8 @@ solved_detailed: 0
 | ID | Respuesta | Solución |
 |:---|:----------|:--------:|
 | Prob-01 | Sí, $\mathbb{R}^2$ cumple los 8 axiomas | ➖ |
-| Prob-02 | Sí, es [espacio vectorial](../../../glossary.md#espacio-vectorial) con esas operaciones | ➖ |
-| Prob-03 | No, no es cerrado bajo multiplicación escalar | ➖ |
-| Prob-04 | a) Sí; b) No (no contiene $\vec{0}$); c) No (no cerrado); d) Sí | ➖ |
-| Prob-05 | Sí, es [subespacio](../../../glossary.md#subespacio) | ➖ |
-| Prob-06 | Sí, es [subespacio](../../../glossary.md#subespacio) | ➖ |
-| Prob-07 | Demostración: cerrado bajo suma y producto escalar, contiene $\vec{0}$ | ➖ |
-| Prob-08 | No, no es cerrado bajo multiplicación escalar | ➖ |
-| Prob-09 | No, $(1,2,3) \neq c_1(1,0,1) + c_2(0,1,1)$ para ningún $c_1, c_2$ | ➖ |
-| Prob-10 | $(7,4,5) = 5(1,0,0) + 3(1,1,0) + 4(1,1,1)$ | ➖ |
-| Prob-11 | Una recta que pasa por el origen | ➖ |
-| Prob-12 | Sí, $\det \neq 0$ por lo que generan $\mathbb{R}^3$ | ➖ |
-| Prob-13 | $\text{span} = P_2$ (generan todo el espacio) | ➖ |
-| Prob-14 | a) LD; b) LI; c) LI | ➖ |
-| Prob-15 | Sí, son LI (forman [base](../../../glossary.md#base) canónica de $M_{2\times 2}$) | ➖ |
+| Prob-02 | Sí, es [espacio vectorial](../../../glossary.md#subespacio) | ➖ |
+| Prob-06 | Sí, es [subespacio](../../../glossary.md#base) canónica de $M_{2\times 2}$) | ➖ |
 | Prob-16 | $k = -1$ | ➖ |
 | Prob-17 | Demostración por definición de LI | ➖ |
 | Prob-18 | LD (ya que $\sin^2 x + \cos^2 x = 1$) | ➖ |
@@ -55,8 +43,7 @@ solved_detailed: 0
 | Prob-28 | $[v]_{\mathcal{B}'} = \begin{pmatrix} 4 \\ -9 \end{pmatrix}$ | ➖ |
 | Prob-29 | $P_{\mathcal{E} \to \mathcal{B}} = \begin{pmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 1 \end{pmatrix}$ | ➖ |
 | Prob-30 | 3 ecuaciones independientes ($5 - 2 = 3$) | ➖ |
-| Prob-31 | Sí, son LI ([Wronskiano](../../../glossary.md#wronskiano) $\neq 0$) | ➖ |
-| Prob-32 | Subespacio de [dimensión](../../../glossary.md#dimension) $k$ generado por vectores base | ➖ |
+| Prob-31 | Sí, son LI ([Wronskiano](../../../glossary.md#dimension) $k$ generado por vectores base | ➖ |
 
 ---
 

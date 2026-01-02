@@ -1,13 +1,13 @@
 <!--
 ---
 content_type: problem_set
-topic_id: ed-03-sistemas-[edo](../../..](../../../glossary.md)#edo)
+topic_id: ed-03-sistemas-[edo](../../../glossary.md#edo)
 file_id: ED-03-Problemas
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -31,7 +31,7 @@ b) $\begin{cases} x' = x + 2y - z \\ y' = 3x - y + 2z \\ z' = -x + y + z \end{ca
 
 ### [Prob-02] Reducción a Sistema de Primer Orden ⭐
 
-Convertir a sistema de primer [orden](../../..](../../../glossary.md)#orden):
+Convertir a sistema de primer [orden](../../../glossary.md#orden):
 
 a) $y'' + 4y' + 3y = 0$
 
@@ -205,7 +205,7 @@ b) $\begin{cases} x' = -x - y \\ y' = x - y \end{cases}$
 
 ### [Prob-15] Cálculo de Matriz Exponencial por Diagonalización ⭐⭐⭐
 
-Calcular $e^{At}$ por [diagonalización](../../..](../../../glossary.md)#diagonalizacion):
+Calcular $e^{At}$ por [diagonalización](../../../glossary.md#diagonalizacion):
 
 a) $A = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$
 
@@ -233,7 +233,7 @@ Calcular $e^{At}$ para:
 
 $A = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
 
-y verificar que coincide con la [matriz](../../..](../../../glossary.md)#matriz) de rotación.
+y verificar que coincide con la [matriz](../../../glossary.md#matriz) de rotación.
 
 > 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
 
@@ -267,7 +267,7 @@ $\mathbf{X}' = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ -6 & 11 & -6 \end{pmatr
 
 Dos tanques de 100 L cada uno están conectados. El tanque 1 recibe agua pura a 3 L/min. La mezcla fluye del tanque 1 al 2 a 4 L/min, del tanque 2 al 1 a 1 L/min, y sale del tanque 2 a 3 L/min. Sea $x_1(t)$ y $x_2(t)$ las cantidades de sal.
 
-a) Escribir el [sistema de EDO](../../..](../../../glossary.md)#sistema-de-[edo](../../..](../../../glossary.md)#edo))
+a) Escribir el [sistema de EDO](../../../glossary.md)#sistema-de-[edo](../../../glossary.md#edo))
 
 b) Si inicialmente hay 10 kg de sal en cada tanque, encontrar $x_1(t)$ y $x_2(t)$
 
@@ -281,7 +281,7 @@ Dos masas iguales $m$ están conectadas por resortes de constante $k$. Las ecuac
 $$m\ddot{x}_1 = -2kx_1 + kx_2$$
 $$m\ddot{x}_2 = kx_1 - 2kx_2$$
 
-a) Escribir como sistema de primer [orden](../../..](../../../glossary.md)#orden)
+a) Escribir como sistema de primer [orden](../../../glossary.md#orden)
 
 b) Encontrar las frecuencias naturales (modos normales)
 
