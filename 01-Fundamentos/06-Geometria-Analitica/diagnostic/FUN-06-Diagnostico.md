@@ -9,6 +9,11 @@ estimated_time: 8
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Geometría Analítica?
 
 1) Calcula la distancia entre $(1,2)$ y $(4,6)$.

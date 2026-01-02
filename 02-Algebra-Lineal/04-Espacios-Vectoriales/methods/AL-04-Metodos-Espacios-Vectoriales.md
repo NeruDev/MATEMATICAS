@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Espacios Vectoriales
 
 > Guía completa de métodos con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

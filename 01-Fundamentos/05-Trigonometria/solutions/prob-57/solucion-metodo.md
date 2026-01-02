@@ -11,6 +11,11 @@ created: 2025-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Demostración: cos(3θ) = 4cos³θ - 3cosθ
 
 ## 📋 Enunciado del Problema

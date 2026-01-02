@@ -9,6 +9,11 @@ problem_ref: "[Prob-52]"
 methods: ["completar-cuadrado", "identificacion-elementos-elipse", "excentricidad"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-52]: Elipse - Conversión a forma estándar
 
 > **Problema:** Convierte a forma estándar: $4x^2 + 9y^2 - 16x + 18y - 11 = 0$

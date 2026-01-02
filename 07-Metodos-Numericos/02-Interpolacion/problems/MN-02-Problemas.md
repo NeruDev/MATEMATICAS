@@ -7,6 +7,11 @@ title: "Problemas: [Interpolación](../../../glossary.md#interpolacion)"
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Interpolación
 
 ---

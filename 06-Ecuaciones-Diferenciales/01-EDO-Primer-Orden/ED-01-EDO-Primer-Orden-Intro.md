@@ -8,6 +8,11 @@ audience: student
 requires: [ci-integral-indefinida, ci-tecnicas-integracion]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # EDO de Primer Orden
 
 ## Propósito del tema

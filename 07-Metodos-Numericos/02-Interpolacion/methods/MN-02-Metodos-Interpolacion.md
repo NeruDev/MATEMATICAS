@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Interpolación
 
 > **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../../glossary.md#interpolacion) numérica con algoritmos detallados, ejemplos completos y análisis de error.

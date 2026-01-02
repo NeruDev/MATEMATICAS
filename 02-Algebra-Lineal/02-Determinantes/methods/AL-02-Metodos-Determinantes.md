@@ -8,6 +8,11 @@ audience: student
 last_updated: 2024-12-29
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos de Cálculo de Determinantes
 
 > **Objetivo:** Dominar el cálculo de determinantes con algoritmos detallados, cálculos intermedios y ejemplos clásicos paso a paso.

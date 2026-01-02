@@ -11,6 +11,11 @@ format: step_by_step
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Integral Definida
 
 > **Objetivo:** Dominar la evaluación de integrales definidas con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.

@@ -18,6 +18,11 @@ total_problems: 28
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Transformaciones Lineales
 
 ---

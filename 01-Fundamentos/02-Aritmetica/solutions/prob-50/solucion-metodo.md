@@ -9,6 +9,11 @@ problem_ref: "[Prob-50]"
 methods: ["[sustitución](../../../../glossary.md#sustitucion)", "ecuación cuadrática", "análisis algebraico"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-50]: Ecuación suma de recíprocos
 
 > **Problema:** Si $\frac{a}{b} + \frac{b}{a} = \frac{25}{12}$, y $a, b > 0$, encuentra $\frac{a}{b}$.

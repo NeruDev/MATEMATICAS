@@ -9,6 +9,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Descomposición simétrica-antisimétrica
 
 **Método aplicado:** Fórmulas $S = \frac{1}{2}(A + A^T)$ y $K = \frac{1}{2}(A - A^T)$

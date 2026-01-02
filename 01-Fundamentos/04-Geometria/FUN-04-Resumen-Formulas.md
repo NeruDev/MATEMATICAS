@@ -8,6 +8,11 @@ audience: student
 requires: [fun-04-geometria-intro]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Geometría — Resumen de Fórmulas
 
 ## Ángulos

@@ -9,6 +9,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Límite seno fundamental
 
 **Método aplicado:** [Límite](../../../../glossary.md#limite) trigonométrico fundamental $\lim_{u \to 0} \frac{\sin u}{u} = 1$

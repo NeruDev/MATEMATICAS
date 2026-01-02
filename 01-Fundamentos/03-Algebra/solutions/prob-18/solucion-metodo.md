@@ -9,6 +9,11 @@ problem_ref: "[Prob-18]"
 methods: ["division-sintetica", "factorizacion-por-raices", "teorema-del-factor"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-18]: Factorización con raíces (división sintética)
 
 > **Problema:** Si $P(x) = x^3 - 6x^2 + 11x - 6$ y $P(1) = 0$, factoriza $P(x)$ completamente.

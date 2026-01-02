@@ -9,6 +9,11 @@ total_problems: 30
 difficulty_distribution: {basic: 10, intermediate: 12, advanced: 8}
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas: Solución Numérica de EDO
 
 ---

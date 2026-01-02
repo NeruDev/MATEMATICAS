@@ -8,6 +8,11 @@ audience: student
 requires: [CV-01-Teoria-Vectores, CV-02-Teoria-Curvas]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría — Funciones vectoriales de una variable real
 
 ---

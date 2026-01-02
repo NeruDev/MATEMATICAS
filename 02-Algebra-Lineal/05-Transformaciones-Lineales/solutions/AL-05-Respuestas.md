@@ -9,6 +9,11 @@ total_problems: 28
 solved_detailed: 0
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Transformaciones Lineales
 
 > **Uso:** Consulta rápida de respuestas.

@@ -13,6 +13,11 @@ audience: self-study
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Soluciones de Geometría Analítica
 
 > **Formato:** Contexto teórico → Desarrollo paso a paso → Verificación

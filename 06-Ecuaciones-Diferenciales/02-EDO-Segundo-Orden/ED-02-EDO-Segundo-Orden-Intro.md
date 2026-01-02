@@ -8,6 +8,11 @@ audience: student
 requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # EDO de Segundo Orden
 
 ## Propósito del tema

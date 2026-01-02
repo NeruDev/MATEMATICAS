@@ -9,6 +9,11 @@ total_problems: 108
 solved_detailed: 6
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Álgebra
 
 > **Leyenda:** ✅ Solución desarrollada | ➖ Solo respuesta

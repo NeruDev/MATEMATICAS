@@ -9,6 +9,11 @@ problem_ref: "[Prob-49]"
 methods: ["fracciones-complejas", "[mcm](../../../../glossary.md#mcm)", "simplificacion-algebraica"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-49]: Fracción compleja - simplificación
 
 > **Problema:** Simplifica la fracción compleja: $\displaystyle\frac{\frac{1}{x} - \frac{1}{y}}{\frac{1}{x} + \frac{1}{y}}$

@@ -17,6 +17,11 @@ created: 2025-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: $\int\frac{x^4 - 1}{x^2 + 1} \, dx$
 
 ## Problema

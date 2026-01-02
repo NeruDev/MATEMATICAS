@@ -9,6 +9,11 @@ problem_count: 85
 difficulty_distribution: {basico: 35, intermedio: 35, avanzado: 15}
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Aritmética
 
 > **Instrucciones:** Resuelve cada problema. Las respuestas se encuentran en `solutions/FUN-02-Respuestas.md`.

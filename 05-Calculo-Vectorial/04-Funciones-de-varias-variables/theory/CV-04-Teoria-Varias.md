@@ -8,6 +8,11 @@ audience: student
 requires: [CD-01-Teoria-Limites, CD-02-Teoria-[Derivadas](../../../glossary.md#derivadas), CV-01-Teoria-Vectores]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría — Funciones reales de varias variables
 
 ---

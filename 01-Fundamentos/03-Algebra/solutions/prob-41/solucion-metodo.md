@@ -9,6 +9,11 @@ problem_ref: "[Prob-41]"
 methods: ["diferencia-de-cuadrados", "factorizacion-cascada", "suma-de-cuadrados"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-41]: Diferencia de cuartas potencias (factorización cascada)
 
 > **Problema:** Factoriza: $x^4 - 16$

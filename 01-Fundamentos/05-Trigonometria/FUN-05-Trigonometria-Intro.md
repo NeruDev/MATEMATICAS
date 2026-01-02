@@ -8,6 +8,11 @@ audience: student
 requires: [fun-04-geometria, fun-03-algebra]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Trigonometría
 
 ## Propósito del tema

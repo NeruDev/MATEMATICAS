@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Raíces de Ecuaciones
 
 > **Referencia rápida:** Esta guía presenta 10 [métodos numéricos](../../../glossary.md#metodos-numericos) para encontrar [raíces de ecuaciones](../../../glossary.md#raices-de-ecuaciones) $f(x) = 0$ con algoritmos detallados y análisis de [convergencia](../../../glossary.md#convergencia).

@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Vectores en el Espacio
 
 > **Objetivo:** Dominar las operaciones con vectores en $\mathbb{R}^3$ con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.

@@ -9,6 +9,11 @@ problem_ref: "[Prob-10]"
 methods: ["binomio-de-newton", "coeficientes-binomiales"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-10]: Coeficiente en expansión del binomio
 
 > **Problema:** ¿Cuál es el coeficiente del término de grado 3 en $(x + 2)^4$?

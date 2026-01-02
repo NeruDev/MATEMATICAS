@@ -11,6 +11,11 @@ difficulty_distribution:
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Determinantes
 
 ---

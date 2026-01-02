@@ -8,6 +8,11 @@ audience: student
 requires: [ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden), cd-series-taylor]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Solución de EDO mediante Series de Potencias
 
 ## Propósito del tema

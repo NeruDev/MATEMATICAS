@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Geometría
 
 > **Instrucciones:** Realiza diagramas claros y justifica cada paso con propiedades geométricas.

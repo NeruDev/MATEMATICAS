@@ -9,6 +9,11 @@ problem_ref: "[Prob-34]"
 methods: ["sistema-ecuaciones-3x3", "completar-cuadrado", "verificacion"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-34]: Circunferencia que pasa por tres puntos
 
 > **Problema:** Encuentra la ecuación de la circunferencia que pasa por los puntos $A(1, 0)$, $B(5, 0)$ y $C(3, 4)$.

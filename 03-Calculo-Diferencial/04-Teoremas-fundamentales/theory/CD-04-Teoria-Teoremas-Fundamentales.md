@@ -13,6 +13,11 @@ audience: self-study
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoremas Fundamentales del Cálculo Diferencial
 
 ## 4.1 Teorema de Rolle

@@ -9,6 +9,11 @@ estimated_time: 10
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Pre-test rápido — ¿Listo para Álgebra?
 
 1) Simplifica $3(x-2)+2(x+4)$.

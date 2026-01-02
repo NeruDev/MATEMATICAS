@@ -4,6 +4,11 @@ type: index
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+
+---
+
 # Métodos Numéricos
 
 Módulo dedicado a algoritmos para aproximar soluciones de problemas matemáticos.

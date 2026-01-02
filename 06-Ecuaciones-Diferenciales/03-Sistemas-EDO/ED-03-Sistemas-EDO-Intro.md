@@ -8,6 +8,11 @@ audience: student
 requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vectores-propios]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Sistemas de Ecuaciones Diferenciales
 
 ## Propósito del tema

@@ -8,6 +8,11 @@ audience: student
 requires: [CV-04-Teoria-Varias, CI-03-Teoria-Definida]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría — Integración múltiple
 
 ---

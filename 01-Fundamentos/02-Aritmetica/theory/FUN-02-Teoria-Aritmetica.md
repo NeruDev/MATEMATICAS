@@ -8,6 +8,11 @@ audience: student
 requires: []
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría de Aritmética
 
 La aritmética es la rama más antigua de las matemáticas, fundamental para todas las demás áreas. Dominar sus conceptos es esencial para el éxito en álgebra, cálculo y matemáticas superiores.

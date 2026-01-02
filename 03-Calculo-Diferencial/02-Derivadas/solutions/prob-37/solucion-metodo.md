@@ -10,6 +10,11 @@ created: 2024-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Pendiente del Folio de Descartes en (3,3)
 
 ## Problema

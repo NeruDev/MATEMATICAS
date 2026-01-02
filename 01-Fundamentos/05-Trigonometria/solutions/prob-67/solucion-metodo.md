@@ -11,6 +11,11 @@ created: 2025-12-22
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Resolver: 2sin²θ + 3cosθ = 3 en [0, 2π)
 
 ## 📋 Enunciado del Problema

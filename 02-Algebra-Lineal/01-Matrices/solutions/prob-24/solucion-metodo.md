@@ -9,6 +9,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Inversa por fórmula 2×2
 
 **Método aplicado:** Fórmula $A^{-1} = \frac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$

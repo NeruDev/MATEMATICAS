@@ -9,6 +9,11 @@ problem_count: 32
 difficulty_distribution: {basico: 14, intermedio: 12, avanzado: 6}
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Matrices
 
 > **Instrucciones:** Resuelve cada problema. Las soluciones se encuentran en `solutions/prob-XX/`.

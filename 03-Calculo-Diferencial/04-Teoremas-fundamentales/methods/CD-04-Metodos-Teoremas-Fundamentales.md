@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Teoremas Fundamentales del Cálculo Diferencial
 
 > Guía completa de teoremas fundamentales con demostraciones, algoritmos de aplicación y ejemplos detallados.

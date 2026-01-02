@@ -14,6 +14,11 @@ audience: self-study
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+
+---
+
 # 04 - Cálculo Integral
 
 ## Descripción del módulo

@@ -9,6 +9,11 @@ problem_ref: "[Prob-30]"
 methods: ["binomio-de-newton", "triangulo-de-pascal", "coeficientes-binomiales"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-30]: Binomio de Newton - expansión completa
 
 > **Problema:** Expande $(x + 1)^5$ usando el binomio de Newton.

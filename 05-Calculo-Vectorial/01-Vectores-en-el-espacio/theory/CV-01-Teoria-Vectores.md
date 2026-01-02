@@ -8,6 +8,11 @@ audience: student
 requires: [FUN-04-Geometria, FUN-06-Geometria-Analitica]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Teoría — Vectores en el espacio
 
 ---

@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos de Aplicaciones de la Derivada
 
 > Guía completa de aplicaciones prácticas de la [derivada](../../../glossary.md#derivada) con algoritmos detallados, tablas de procedimientos y ejemplos paso a paso.

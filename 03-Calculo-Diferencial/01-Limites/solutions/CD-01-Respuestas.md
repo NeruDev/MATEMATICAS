@@ -9,6 +9,11 @@ total_problems: 57
 solved_detailed: 11
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Respuestas Rápidas - Límites
 
 > **Uso:** Consulta rápida de respuestas. Para el desarrollo paso a paso, usa los enlaces a soluciones.

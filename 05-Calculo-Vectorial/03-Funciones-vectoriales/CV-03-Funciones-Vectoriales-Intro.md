@@ -8,6 +8,11 @@ audience: student
 requires: [CV-01-Vectores, CV-02-Curvas, CD-02-Derivadas]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Funciones vectoriales
 
 ## Propósito del tema

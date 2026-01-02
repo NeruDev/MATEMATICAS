@@ -4,6 +4,11 @@ type: index
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../WIKI_INDEX.md) | [📚 Glosario](../glossary.md)
+
+---
+
 # Ecuaciones Diferenciales
 
 Módulo dedicado al estudio de [ecuaciones diferenciales](../glossary.md#ecuaciones-diferenciales) ordinarias y sus [métodos de solución](../glossary.md#metodos-de-solucion).

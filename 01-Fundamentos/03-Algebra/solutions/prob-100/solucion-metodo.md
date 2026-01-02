@@ -9,6 +9,11 @@ problem_ref: "[Prob-100]"
 methods: ["elevar-al-cuadrado", "verificacion-soluciones", "analisis-[dominio](../../../../glossary.md#dominio)"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-100]: Ecuación radical (I)
 
 > **Problema:** Resuelve: $\sqrt{2x + 3} = x$

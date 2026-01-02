@@ -8,6 +8,11 @@ audience: student
 requires: [ed-02-[edo](../../glossary.md#edo)-segundo-[orden](../../glossary.md#orden), ci-integrales-impropias]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Transformada de Laplace
 
 ## Propósito del tema

@@ -9,6 +9,11 @@ problem_ref: "[Prob-60]"
 methods: ["valores-absolutos", "casos-por-signo", "ecuaciones-equivalentes"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-60]: Ecuación con dos valores absolutos
 
 > **Problema:** Resuelve: $|3x + 1| = |x - 5|$

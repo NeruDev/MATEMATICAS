@@ -9,6 +9,11 @@ problem_ref: "[Prob-79]"
 methods: ["proporcionalidad compuesta", "regla de tres compuesta", "análisis dimensional"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-79]: Proporcionalidad compuesta
 
 > **Problema:** Si 5 máquinas producen 200 artículos en 4 horas, ¿cuántos artículos producen 8 máquinas en 5 horas?

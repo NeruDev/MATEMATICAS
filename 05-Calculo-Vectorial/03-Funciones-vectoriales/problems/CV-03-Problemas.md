@@ -12,6 +12,11 @@ difficulty_distribution:
   advanced: 10
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas — Funciones Vectoriales
 
 > **Instrucciones:** Resuelve cada problema mostrando el procedimiento completo.

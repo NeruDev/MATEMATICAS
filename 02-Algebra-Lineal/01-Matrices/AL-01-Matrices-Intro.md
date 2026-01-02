@@ -6,6 +6,11 @@ file_id: AL-01-Matrices-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Matrices y Operaciones
 
 ## Propósito

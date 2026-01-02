@@ -9,6 +9,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución: Matriz singular
 
 **Método aplicado:** Criterio del [determinante](../../../../glossary.md#determinante)

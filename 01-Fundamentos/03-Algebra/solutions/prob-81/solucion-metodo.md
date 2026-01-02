@@ -9,6 +9,11 @@ problem_ref: "[Prob-81]"
 methods: ["sistema-ecuaciones", "problema-verbal", "representacion-digitos"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-81]: Problema de dígitos
 
 > **Problema:** Invirtiendo los dígitos de un número de dos cifras, se obtiene un número 27 unidades mayor. Si la suma de los dígitos es 9, ¿cuál es el número original?

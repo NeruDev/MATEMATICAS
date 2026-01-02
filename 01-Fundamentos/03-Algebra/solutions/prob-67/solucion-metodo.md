@@ -9,6 +9,11 @@ problem_ref: "[Prob-67]"
 methods: ["formula-cuadratica", "numeros-complejos", "discriminante"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-67]: Raíces complejas de una ecuación cuadrática
 
 > **Problema:** Resuelve: $x^2 + 4x + 5 = 0$

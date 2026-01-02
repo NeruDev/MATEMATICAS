@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Transformada de Laplace
 
 > **Referencia rápida:** Esta guía presenta 12 métodos sistemáticos para aplicar la [Transformada de Laplace](../../../glossary.md#transformada-de-laplace) en la resolución de [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales).

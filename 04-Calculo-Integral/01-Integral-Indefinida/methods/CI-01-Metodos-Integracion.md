@@ -7,6 +7,11 @@ status: stable
 audience: student
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos de Integración Directa
 
 > **Objetivo:** Dominar las técnicas fundamentales de integración con explicaciones paso a paso, cálculos intermedios detallados y ejemplos clásicos.

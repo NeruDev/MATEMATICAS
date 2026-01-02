@@ -9,6 +9,11 @@ updated: 2025-12-20
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Integración Numérica (Cuadratura)
 
 ## Descripción General

@@ -6,6 +6,11 @@ file_id: AL-03-Sistemas-Lineales-Intro
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Sistemas de Ecuaciones Lineales
 
 ## Propósito

@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos: Integración Numérica
 
 > **Referencia rápida:** Esta guía presenta 12 métodos de [integración numérica](../../../glossary.md#integracion-numerica) ([cuadratura](../../../glossary.md#cuadratura)) con algoritmos detallados, análisis de error y ejemplos completos.

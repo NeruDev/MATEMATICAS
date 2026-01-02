@@ -9,6 +9,11 @@ problem_count: 57
 difficulty_distribution: {basico: 18, intermedio: 24, avanzado: 12, experto: 3}
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Límites
 
 > **Instrucciones:** Evalúa cada [límite](../../../glossary.md#limite). Indica si no existe y por qué. Las soluciones se encuentran en `solutions/prob-XX/`.

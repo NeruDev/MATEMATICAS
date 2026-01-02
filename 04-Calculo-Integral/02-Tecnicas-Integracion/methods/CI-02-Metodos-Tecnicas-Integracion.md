@@ -13,6 +13,11 @@ audience: self-study
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos de Técnicas de Integración
 
 > **Objetivo:** Dominar las técnicas avanzadas de integración con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.

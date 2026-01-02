@@ -9,6 +9,11 @@ problem_ref: "[Prob-27]"
 methods: ["demostracion-coordenadas", "demostracion-geometrica", "vectores", "centroide"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-27]: El centroide divide las medianas en razón 2:1
 
 > **Problema:** Demuestra que los tres puntos de intersección de las medianas de un triángulo (centroide) dividen cada mediana en razón 2:1 desde el vértice.

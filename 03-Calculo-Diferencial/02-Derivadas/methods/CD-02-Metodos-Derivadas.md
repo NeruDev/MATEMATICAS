@@ -4,6 +4,11 @@ type: method
 status: active
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Métodos para Calcular Derivadas
 
 > Guía completa de reglas de derivación con algoritmos detallados, tablas de fórmulas y ejemplos paso a paso.

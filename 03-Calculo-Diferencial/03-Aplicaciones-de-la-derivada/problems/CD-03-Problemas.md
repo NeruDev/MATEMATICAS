@@ -11,6 +11,11 @@ total_problems: 48
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Aplicaciones de la Derivada
 
 ---

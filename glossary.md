@@ -21,6 +21,11 @@ ai_usage:
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](WIKI_INDEX.md) | [📖 README](README.md)
+
+---
+
 # Glosario de Matemáticas
 
 ---

@@ -9,6 +9,11 @@ problem_ref: "[Prob-64]"
 methods: ["formula-heron", "semiperimetro", "calculo-area"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-64]: Área de un triángulo por fórmula de Herón
 
 > **Problema:** Un triángulo tiene lados de 13 cm, 14 cm y 15 cm. Calcula su área usando la fórmula de Herón.

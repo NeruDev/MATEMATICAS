@@ -11,6 +11,11 @@ format: step_by_step
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Soluciones de Aplicaciones de la Integral
 
 ---

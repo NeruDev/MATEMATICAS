@@ -9,6 +9,11 @@ problem_ref: "[Prob-87]"
 methods: ["analisis-signos", "recta-real", "tabla-signos"]
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+
+---
+
 # Solución [Prob-87]: Desigualdad de grado 3 (análisis de signos)
 
 > **Problema:** Resuelve: $(x - 1)(x + 2)(x - 3) > 0$

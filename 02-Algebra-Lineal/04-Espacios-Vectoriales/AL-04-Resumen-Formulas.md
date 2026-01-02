@@ -6,6 +6,11 @@ file_id: AL-04-Resumen-Formulas
 status: stable
 audience: student
 -->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
 # Resumen de Fórmulas: Espacios Vectoriales
 
 ## Axiomas de espacio vectorial

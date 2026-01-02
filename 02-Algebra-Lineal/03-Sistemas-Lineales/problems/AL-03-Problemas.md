@@ -6,6 +6,11 @@ file_id: AL-03-Problemas
 ---
 -->
 
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+
+---
+
 # Problemas de Sistemas de Ecuaciones Lineales
 
 ---
