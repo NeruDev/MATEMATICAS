@@ -27,7 +27,7 @@ difficulty_distribution:
 
 Verificar que $v = (1, 2)^T$ es eigenvector de $A = \begin{pmatrix} 3 & 1 \\ 2 & 2 \end{pmatrix}$ y encontrar el eigenvalor asociado.
 
-> 📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-01)
 
 ---
 
@@ -41,7 +41,7 @@ b) $B = \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$
 
 c) $C = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-02)
 
 ---
 
@@ -49,7 +49,7 @@ c) $C = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
 
 Para cada [matriz](../../../glossary.md#matriz) del problema 2, encontrar los eigenvectores asociados a cada eigenvalor.
 
-> 📂 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-03)
 
 ---
 
@@ -58,7 +58,7 @@ Para cada [matriz](../../../glossary.md#matriz) del problema 2, encontrar los ei
 Encontrar eigenvalores y eigenvectores de:
 $$A = \begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-04)
 
 ---
 
@@ -66,7 +66,7 @@ $$A = \begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$$
 
 Si $\lambda$ es eigenvalor de $A$, demostrar que $\lambda^2$ es eigenvalor de $A^2$.
 
-> 📂 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-05)
 
 ---
 
@@ -80,7 +80,7 @@ a) $\begin{pmatrix} a & b \\ b & a \end{pmatrix}$
 
 b) $\begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-06)
 
 ---
 
@@ -88,7 +88,7 @@ b) $\begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}$
 
 Encontrar los eigenvalores de $A = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 1 & 1 \\ 0 & 1 & 1 \end{pmatrix}$.
 
-> 📂 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-07)
 
 ---
 
@@ -104,7 +104,7 @@ c) Eigenvalores de $A^{-1}$
 
 d) Eigenvalores de $A + 2I$
 
-> 📂 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-08)
 
 ---
 
@@ -112,7 +112,7 @@ d) Eigenvalores de $A + 2I$
 
 Sea $A$ una [matriz](../../../glossary.md#matriz) $3 \times 3$ con $\text{tr}(A) = 6$, $\det(A) = 8$, y eigenvalores $\lambda, 2, 2$. Encontrar $\lambda$.
 
-> 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-09)
 
 ---
 
@@ -120,7 +120,7 @@ Sea $A$ una [matriz](../../../glossary.md#matriz) $3 \times 3$ con $\text{tr}(A)
 
 Demostrar que si $A^2 = I$, los eigenvalores de $A$ solo pueden ser $\pm 1$.
 
-> 📂 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-10)
 
 ---
 
@@ -136,7 +136,7 @@ b) Encontrar las multiplicidades geométricas
 
 c) ¿Es diagonalizable?
 
-> 📂 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-11)
 
 ---
 
@@ -145,7 +145,7 @@ c) ¿Es diagonalizable?
 Encontrar una [base](../../../glossary.md#base) para cada espacio propio de:
 $$A = \begin{pmatrix} 5 & -1 \\ 1 & 3 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-12)
 
 ---
 
@@ -159,7 +159,7 @@ b) Calcular $m_a$ y $m_g$ para cada uno
 
 c) ¿Es diagonalizable?
 
-> 📂 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-13)
 
 ---
 
@@ -168,7 +168,7 @@ c) ¿Es diagonalizable?
 Encontrar todos los valores de $k$ para los cuales la matriz es diagonalizable:
 $$A = \begin{pmatrix} k & 1 \\ 0 & k \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-14/](../solutions/prob-14/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-14)
 
 ---
 
@@ -184,7 +184,7 @@ b) $B = \begin{pmatrix} 1 & -1 \\ 1 & 3 \end{pmatrix}$
 
 c) $C = \begin{pmatrix} 4 & 6 \\ -3 & -5 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-15)
 
 ---
 
@@ -196,7 +196,7 @@ a) Encontrar eigenvalores
 
 b) Diagonalizar $A$
 
-> 📂 **Solución:** [solutions/prob-16/](../solutions/prob-16/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-16)
 
 ---
 
@@ -205,7 +205,7 @@ b) Diagonalizar $A$
 Diagonalizar ortogonalmente la [matriz simétrica](../../../glossary.md#matriz-simetrica):
 $$A = \begin{pmatrix} 3 & 1 \\ 1 & 3 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-17)
 
 ---
 
@@ -214,7 +214,7 @@ $$A = \begin{pmatrix} 3 & 1 \\ 1 & 3 \end{pmatrix}$$
 Diagonalizar ortogonalmente:
 $$A = \begin{pmatrix} 1 & 2 & 0 \\ 2 & 1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-18)
 
 ---
 
@@ -225,7 +225,7 @@ $$A = \begin{pmatrix} 1 & 2 & 0 \\ 2 & 1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
 Usando [diagonalización](../../../glossary.md#diagonalizacion), calcular $A^{10}$ donde:
 $$A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-19)
 
 ---
 
@@ -234,7 +234,7 @@ $$A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$$
 Calcular $A^n$ para:
 $$A = \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$$
 
-> 📂 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-20)
 
 ---
 
@@ -242,7 +242,7 @@ $$A = \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$$
 
 Si $A = \begin{pmatrix} 5 & -2 \\ 3 & 0 \end{pmatrix}$, expresar $A^{-1}$ en términos de $A$ usando Cayley-Hamilton.
 
-> 📂 **Solución:** [solutions/prob-21/](../solutions/prob-21/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-21)
 
 ---
 
@@ -257,7 +257,7 @@ a) Encontrar eigenvalores
 
 b) ¿Las poblaciones crecen, decrecen o se estabilizan a largo plazo?
 
-> 📂 **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-22)
 
 ---
 
@@ -268,7 +268,7 @@ $$P = \begin{pmatrix} 0.8 & 0.4 \\ 0.2 & 0.6 \end{pmatrix}$$
 
 Encontrar la distribución de clima a largo plazo.
 
-> 📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-23)
 
 ---
 
@@ -280,7 +280,7 @@ a) Expresar como sistema matricial
 
 b) Usar [diagonalización](../../../glossary.md#diagonalizacion) para encontrar fórmula cerrada de $F_n$
 
-> 📂 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-24)
 
 ---
 
@@ -288,7 +288,7 @@ b) Usar [diagonalización](../../../glossary.md#diagonalizacion) para encontrar 
 
 Clasificar la cónica $5x^2 + 4xy + 2y^2 = 1$ usando eigenvalores.
 
-> 📂 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-25)
 
 ---
 
@@ -299,7 +299,7 @@ $$G = \begin{pmatrix} 0 & 1/2 & 1 \\ 1/2 & 0 & 0 \\ 1/2 & 1/2 & 0 \end{pmatrix}$
 
 Encontrar el ranking de páginas (eigenvector de $\lambda = 1$).
 
-> 📂 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-26)
 
 ---
 
@@ -311,7 +311,7 @@ a) $\begin{pmatrix} 4 & 2 \\ 2 & 3 \end{pmatrix}$
 
 b) $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/AL-06-Respuestas.md#prob-27)
 
 ---
 

@@ -25,7 +25,7 @@ a) $\begin{cases} x' = 3x - 2y \\ y' = x + y \end{cases}$
 
 b) $\begin{cases} x' = x + 2y - z \\ y' = 3x - y + 2z \\ z' = -x + y + z \end{cases}$
 
-> 📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-01)
 
 ---
 
@@ -39,7 +39,7 @@ b) $y''' - 2y'' + y' = 0$
 
 c) $y'' + \omega^2 y = 0$ (oscilador armónico)
 
-> 📂 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-02)
 
 ---
 
@@ -55,7 +55,7 @@ b) $\mathbf{X}' = \begin{pmatrix} 3 & -1 \\ 4 & -2 \end{pmatrix}\mathbf{X}$
 
 c) $\mathbf{X}' = \begin{pmatrix} 5 & 3 \\ -6 & -4 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-03)
 
 ---
 
@@ -67,7 +67,7 @@ a) $\mathbf{X}' = \begin{pmatrix} 1 & 1 \\ 4 & 1 \end{pmatrix}\mathbf{X}$
 
 b) $\mathbf{X}' = \begin{pmatrix} -2 & 1 \\ 1 & -2 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-04)
 
 ---
 
@@ -77,7 +77,7 @@ Resolver el PVI:
 
 $\mathbf{X}' = \begin{pmatrix} 2 & -1 \\ 3 & -2 \end{pmatrix}\mathbf{X}$, $\mathbf{X}(0) = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-05)
 
 ---
 
@@ -93,7 +93,7 @@ b) $\mathbf{X}' = \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}\mathbf{X}$
 
 c) $\mathbf{X}' = \begin{pmatrix} -1 & 2 \\ -1 & -1 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-06)
 
 ---
 
@@ -105,7 +105,7 @@ a) $\mathbf{X}' = \begin{pmatrix} 2 & -5 \\ 1 & -2 \end{pmatrix}\mathbf{X}$
 
 b) $\mathbf{X}' = \begin{pmatrix} 4 & -2 \\ 5 & 2 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-07)
 
 ---
 
@@ -115,7 +115,7 @@ Resolver el PVI:
 
 $\mathbf{X}' = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix}\mathbf{X}$, $\mathbf{X}(0) = \begin{pmatrix} 2 \\ 0 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-08)
 
 ---
 
@@ -131,7 +131,7 @@ b) $\mathbf{X}' = \begin{pmatrix} 1 & 1 \\ -1 & 3 \end{pmatrix}\mathbf{X}$
 
 c) $\mathbf{X}' = \begin{pmatrix} -1 & 1 \\ -1 & -3 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-09)
 
 ---
 
@@ -143,7 +143,7 @@ a) $\mathbf{X}' = \begin{pmatrix} 5 & -4 \\ 1 & 1 \end{pmatrix}\mathbf{X}$
 
 b) $\mathbf{X}' = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-10)
 
 ---
 
@@ -153,7 +153,7 @@ Resolver el PVI:
 
 $\mathbf{X}' = \begin{pmatrix} 3 & 1 \\ -1 & 1 \end{pmatrix}\mathbf{X}$, $\mathbf{X}(0) = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-11)
 
 ---
 
@@ -171,7 +171,7 @@ c) $A = \begin{pmatrix} 0 & 1 \\ -4 & 0 \end{pmatrix}$
 
 d) $A = \begin{pmatrix} -3 & 1 \\ -2 & -1 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-12)
 
 ---
 
@@ -185,7 +185,7 @@ b) $\mathbf{X}' = \begin{pmatrix} 1 & -5 \\ 1 & -1 \end{pmatrix}\mathbf{X}$
 
 c) $\mathbf{X}' = \begin{pmatrix} 0 & -2 \\ 2 & 0 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-13)
 
 ---
 
@@ -197,7 +197,7 @@ a) $\begin{cases} x' = x \\ y' = -2y \end{cases}$
 
 b) $\begin{cases} x' = -x - y \\ y' = x - y \end{cases}$
 
-> 📂 **Solución:** [solutions/prob-14/](../solutions/prob-14/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-14)
 
 ---
 
@@ -213,7 +213,7 @@ b) $A = \begin{pmatrix} 0 & 1 \\ -2 & 3 \end{pmatrix}$
 
 c) $A = \begin{pmatrix} 1 & 1 \\ 4 & 1 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-15)
 
 ---
 
@@ -223,7 +223,7 @@ Usar $e^{At}$ para resolver el PVI:
 
 $\mathbf{X}' = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}\mathbf{X}$, $\mathbf{X}(0) = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 
-> 📂 **Solución:** [solutions/prob-16/](../solutions/prob-16/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-16)
 
 ---
 
@@ -235,7 +235,7 @@ $A = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$
 
 y verificar que coincide con la [matriz](../../../glossary.md#matriz) de rotación.
 
-> 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-17)
 
 ---
 
@@ -247,7 +247,7 @@ Resolver:
 
 $\mathbf{X}' = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-18)
 
 ---
 
@@ -257,7 +257,7 @@ Resolver:
 
 $\mathbf{X}' = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ -6 & 11 & -6 \end{pmatrix}\mathbf{X}$
 
-> 📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-19)
 
 ---
 
@@ -271,7 +271,7 @@ a) Escribir el sistema de [EDO](../../../glossary.md#edo)
 
 b) Si inicialmente hay 10 kg de sal en cada tanque, encontrar $x_1(t)$ y $x_2(t)$
 
-> 📂 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-20)
 
 ---
 
@@ -285,7 +285,7 @@ a) Escribir como sistema de primer [orden](../../../glossary.md#orden)
 
 b) Encontrar las frecuencias naturales (modos normales)
 
-> 📂 **Solución:** [solutions/prob-21/](../solutions/prob-21/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-21)
 
 ---
 
@@ -296,7 +296,7 @@ $$\begin{cases} x' = x(2 - x - y) \\ y' = y(3 - 2x - y) \end{cases}$$
 
 Linearizar cerca del punto de equilibrio $(1, 1)$ y clasificarlo.
 
-> 📂 **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-22)
 
 ---
 
@@ -312,4 +312,4 @@ a) Escribir en forma matricial
 
 b) Resolver con $i_1(0) = 1$ A, $i_2(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-03-Respuestas.md#prob-23)

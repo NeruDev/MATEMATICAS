@@ -31,7 +31,7 @@ Evalúa la siguiente [integral impropia](../../../glossary.md#integral-impropia)
 
 $$\int_1^{\infty} \frac{1}{x^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-01/](../solutions/prob-01/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-01)
 
 ---
 
@@ -41,7 +41,7 @@ Evalúa la siguiente [integral impropia](../../../glossary.md#integral-impropia)
 
 $$\int_0^{\infty} e^{-x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-02/](../solutions/prob-02/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-02)
 
 ---
 
@@ -51,7 +51,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{x^3}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-03/](../solutions/prob-03/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-03)
 
 ---
 
@@ -61,7 +61,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{\infty} e^{-2x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-04/](../solutions/prob-04/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-04)
 
 ---
 
@@ -71,7 +71,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{\sqrt{x}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-05/](../solutions/prob-05/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-05)
 
 ---
 
@@ -81,7 +81,7 @@ Evalúa la siguiente integral impropia ([integración por partes](../../../gloss
 
 $$\int_0^{\infty} xe^{-x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-06/](../solutions/prob-06/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-06)
 
 ---
 
@@ -91,7 +91,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{x^2 + 1}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-07/](../solutions/prob-07/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-07)
 
 ---
 
@@ -101,7 +101,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{\infty} \frac{1}{(x+1)^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-08/](../solutions/prob-08/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-08)
 
 ---
 
@@ -111,7 +111,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-09/](../solutions/prob-09/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-09)
 
 ---
 
@@ -121,7 +121,7 @@ Evalúa la siguiente integral impropia ([integración por partes](../../../gloss
 
 $$\int_0^{\infty} x^2 e^{-x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-10/](../solutions/prob-10/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-10)
 
 ---
 
@@ -131,7 +131,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{\infty} \frac{x}{(1+x^2)^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-11/](../solutions/prob-11/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-11)
 
 ---
 
@@ -141,7 +141,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{\ln x}{x^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-12/](../solutions/prob-12/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-12)
 
 ---
 
@@ -151,7 +151,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{\infty} e^{-x}\cos x\,dx$$
 
-> 📁 **Solución**: [solutions/prob-13/](../solutions/prob-13/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-13)
 
 ---
 
@@ -165,7 +165,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^1 \frac{1}{\sqrt{x}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-14/](../solutions/prob-14/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-14)
 
 ---
 
@@ -175,7 +175,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^4 \frac{1}{\sqrt{4-x}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-15/](../solutions/prob-15/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-15)
 
 ---
 
@@ -185,7 +185,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^1 \frac{1}{x^{2/3}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-16/](../solutions/prob-16/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-16)
 
 ---
 
@@ -195,7 +195,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_0^1 \frac{1}{x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-17/](../solutions/prob-17/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-17)
 
 ---
 
@@ -205,7 +205,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_0^{\pi/2} \tan x\,dx$$
 
-> 📁 **Solución**: [solutions/prob-18/](../solutions/prob-18/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-18)
 
 ---
 
@@ -215,7 +215,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^1 \frac{\ln x}{\sqrt{x}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-19/](../solutions/prob-19/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-19)
 
 ---
 
@@ -225,7 +225,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^2 \frac{1}{\sqrt{2-x}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-20/](../solutions/prob-20/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-20)
 
 ---
 
@@ -235,7 +235,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^3 \frac{1}{(x-1)^{2/3}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-21/](../solutions/prob-21/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-21)
 
 ---
 
@@ -245,7 +245,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^1 \frac{1}{\sqrt{x(1-x)}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-22/](../solutions/prob-22/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-22)
 
 ---
 
@@ -259,7 +259,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{x+1}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-23/](../solutions/prob-23/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-23)
 
 ---
 
@@ -269,7 +269,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{\sqrt{x^3+1}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-24/](../solutions/prob-24/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-24)
 
 ---
 
@@ -279,7 +279,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_2^{\infty} \frac{1}{x\ln x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-25/](../solutions/prob-25/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-25)
 
 ---
 
@@ -289,7 +289,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{\sin^2 x}{x^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-26/](../solutions/prob-26/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-26)
 
 ---
 
@@ -299,7 +299,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_0^{\infty} \frac{1}{1+e^x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-27/](../solutions/prob-27/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-27)
 
 ---
 
@@ -309,7 +309,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{x^2+1}{x^4+1}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-28/](../solutions/prob-28/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-28)
 
 ---
 
@@ -319,7 +319,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_2^{\infty} \frac{1}{x(\ln x)^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-29/](../solutions/prob-29/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-29)
 
 ---
 
@@ -329,7 +329,7 @@ Determina si converge o diverge la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{\arctan x}{x^2}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-30/](../solutions/prob-30/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-30)
 
 ---
 
@@ -343,7 +343,7 @@ $$\int_1^{\infty} \frac{\arctan x}{x^2}\,dx$$
 
 $$\int_1^{\infty} \frac{1}{x^p}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-31/](../solutions/prob-31/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-31)
 
 ---
 
@@ -353,7 +353,7 @@ $$\int_1^{\infty} \frac{1}{x^p}\,dx$$
 
 $$\int_0^{1} \frac{1}{x^p}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-32/](../solutions/prob-32/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-32)
 
 ---
 
@@ -363,7 +363,7 @@ $$\int_0^{1} \frac{1}{x^p}\,dx$$
 
 $$\int_0^{\infty} \frac{1}{x^p}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-33/](../solutions/prob-33/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-33)
 
 ---
 
@@ -373,7 +373,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{x^{5/4}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-34/](../solutions/prob-34/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-34)
 
 ---
 
@@ -383,7 +383,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{1} \frac{1}{x^{3/4}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-35/](../solutions/prob-35/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-35)
 
 ---
 
@@ -397,7 +397,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_0^{\infty} \frac{1}{\sqrt{x}(1+x)}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-36/](../solutions/prob-36/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-36)
 
 ---
 
@@ -407,7 +407,7 @@ Evalúa la siguiente integral impropia:
 
 $$\int_1^{\infty} \frac{1}{x\sqrt{x^2-1}}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-37/](../solutions/prob-37/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-37)
 
 ---
 
@@ -419,7 +419,7 @@ $$\int_0^{\infty} e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}$$
 
 > **Sugerencia**: Considera $\left(\int_0^{\infty} e^{-x^2}dx\right)^2$ en coordenadas polares.
 
-> 📁 **Solución**: [solutions/prob-38/](../solutions/prob-38/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-38)
 
 ---
 
@@ -429,7 +429,7 @@ Determina si converge la siguiente integral impropia:
 
 $$\int_0^{\infty} \frac{\sin x}{x}\,dx$$
 
-> 📁 **Solución**: [solutions/prob-39/](../solutions/prob-39/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-39)
 
 ---
 
@@ -439,6 +439,6 @@ Evalúa la siguiente integral para $p > -1$:
 
 $$\int_0^1 x^p \ln x\,dx$$
 
-> 📁 **Solución**: [solutions/prob-40/](../solutions/prob-40/)
+> 📁 **Solución**: [📎 Ver Respuesta](../solutions/CI-05-Respuestas.md#prob-40)
 
 ---

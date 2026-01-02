@@ -47,7 +47,7 @@ difficulty_distribution:
 
 **[Prob-08]** Evalúa $\displaystyle\lim_{(x,y) \to (0,0)} \frac{x^2 + y^2}{\sqrt{x^2 + y^2 + 1} - 1}$.
 
-**[Prob-09]** Demuestra que $\displaystyle\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$ no existe.
+**[Prob-09]** Demuestra que $\displaystyle\lim_{(x,y) \to (0,0)} \frac{xy}{x^2 + y^2}$ no existe.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-09/solucion-metodo.md)
 
 **[Prob-10]** Demuestra que $\displaystyle\lim_{(x,y) \to (0,0)} \frac{x^2y}{x^4 + y^2}$ no existe.
 
@@ -140,7 +140,7 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 
 **[Prob-42]** Encuentra los puntos críticos de $f(x, y) = x^2 + y^2 - 2x - 4y + 5$.
 
-**[Prob-43]** Clasifica los puntos críticos de $f(x, y) = x^3 + y^3 - 3xy$.
+**[Prob-43]** Clasifica los puntos críticos de $f(x, y) = x^3 + y^3 - 3xy$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-43/solucion-metodo.md)
 
 **[Prob-44]** Encuentra y clasifica los extremos de $f(x, y) = x^2 - y^2$.
 
@@ -152,7 +152,7 @@ $$f(x,y) = \begin{cases} \frac{x^2y}{x^2 + y^2} & (x,y) \neq (0,0) \\ 0 & (x,y) 
 
 ## 4.9 Multiplicadores de Lagrange
 
-**[Prob-47]** Usa multiplicadores de Lagrange para encontrar los extremos de $f(x, y) = xy$ sujeto a $x^2 + y^2 = 1$.
+**[Prob-47]** Usa multiplicadores de Lagrange para encontrar los extremos de $f(x, y) = xy$ sujeto a $x^2 + y^2 = 1$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-47/solucion-metodo.md)
 
 **[Prob-48]** Encuentra los extremos de $f(x, y) = x + 2y$ sujeto a $x^2 + y^2 = 5$.
 

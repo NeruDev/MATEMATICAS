@@ -41,7 +41,7 @@ c) $T: \mathbb{R}^2 \to \mathbb{R}$, $T(x, y) = xy$
 
 d) $T: \mathbb{R}^2 \to \mathbb{R}^2$, $T(x, y) = (x + 1, y)$
 
-> **Solución:** Ver [solutions/prob-01/](../solutions/prob-01/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-01)
 
 ---
 
@@ -49,7 +49,7 @@ d) $T: \mathbb{R}^2 \to \mathbb{R}^2$, $T(x, y) = (x + 1, y)$
 
 Sea $T: P_2 \to P_1$ definida por $T(p(x)) = p'(x)$ ([derivada](../../../glossary.md#derivada)). Verificar que $T$ es lineal.
 
-> **Solución:** Ver [solutions/prob-02/](../solutions/prob-02/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-02)
 
 ---
 
@@ -57,7 +57,7 @@ Sea $T: P_2 \to P_1$ definida por $T(p(x)) = p'(x)$ ([derivada](../../../glossar
 
 Sea $T: M_{2 \times 2} \to \mathbb{R}$ definida por $T(A) = \text{tr}(A)$ ([traza](../../../glossary.md#traza)). ¿Es $T$ lineal?
 
-> **Solución:** Ver [solutions/prob-03/](../solutions/prob-03/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-03)
 
 ---
 
@@ -65,7 +65,7 @@ Sea $T: M_{2 \times 2} \to \mathbb{R}$ definida por $T(A) = \text{tr}(A)$ ([traz
 
 Sea $T: C[0,1] \to \mathbb{R}$ definida por $T(f) = f(0) + f(1)$. ¿Es $T$ lineal?
 
-> **Solución:** Ver [solutions/prob-04/](../solutions/prob-04/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-04)
 
 ---
 
@@ -73,7 +73,7 @@ Sea $T: C[0,1] \to \mathbb{R}$ definida por $T(f) = f(0) + f(1)$. ¿Es $T$ linea
 
 Sea $T: \mathbb{R}^3 \to \mathbb{R}^3$ definida por $T(x, y, z) = (|x|, y, z)$. ¿Es $T$ lineal?
 
-> **Solución:** Ver [solutions/prob-05/](../solutions/prob-05/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-05)
 
 ---
 
@@ -89,7 +89,7 @@ b) Encontrar $\text{Im}(T)$ y su base
 
 c) Verificar el teorema del rango-nulidad
 
-> **Solución:** Ver [solutions/prob-06/](../solutions/prob-06/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-06)
 
 ---
 
@@ -103,7 +103,7 @@ b) Hallar $\text{Im}(T)$
 
 c) ¿Es $T$ inyectiva? ¿Sobreyectiva?
 
-> **Solución:** Ver [solutions/prob-07/](../solutions/prob-07/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-07)
 
 ---
 
@@ -117,7 +117,7 @@ b) $\text{Im}(T)$
 
 c) Verificar rango-nulidad
 
-> **Solución:** Ver [solutions/prob-08/](../solutions/prob-08/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-08)
 
 ---
 
@@ -129,7 +129,7 @@ a) $\text{Nul}(A)$
 
 b) $\text{Col}(A)$
 
-> **Solución:** Ver [solutions/prob-09/](../solutions/prob-09/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-09)
 
 ---
 
@@ -139,7 +139,7 @@ Sea $T: \mathbb{R}^4 \to \mathbb{R}^3$ con [matriz](../../../glossary.md#matriz)
 
 Determinar $\dim(\ker(T))$ y $\dim(\text{Im}(T))$.
 
-> **Solución:** Ver [solutions/prob-10/](../solutions/prob-10/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-10)
 
 ---
 
@@ -155,7 +155,7 @@ b) $T(x, y, z) = (x + y, y + z)$
 
 c) $T(x, y) = (x, x + y, y)$
 
-> **Solución:** Ver [solutions/prob-11/](../solutions/prob-11/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-11)
 
 ---
 
@@ -163,7 +163,7 @@ c) $T(x, y) = (x, x + y, y)$
 
 Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la reflexión respecto al eje $y$. Encontrar $[T]$.
 
-> **Solución:** Ver [solutions/prob-12/](../solutions/prob-12/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-12)
 
 ---
 
@@ -171,7 +171,7 @@ Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la reflexión respecto al eje $y$. Encont
 
 Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la rotación de $45°$ en sentido antihorario. Encontrar $[T]$.
 
-> **Solución:** Ver [solutions/prob-13/](../solutions/prob-13/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-13)
 
 ---
 
@@ -179,7 +179,7 @@ Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la rotación de $45°$ en sentido antihor
 
 Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la proyección sobre la recta $y = x$. Encontrar $[T]$.
 
-> **Solución:** Ver [solutions/prob-14/](../solutions/prob-14/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-14)
 
 ---
 
@@ -187,7 +187,7 @@ Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$ la proyección sobre la recta $y = x$. En
 
 Sea $T: P_2 \to P_2$ definida por $T(p(x)) = p(x + 1)$. Encontrar $[T]$ respecto a la base $\{1, x, x^2\}$.
 
-> **Solución:** Ver [solutions/prob-15/](../solutions/prob-15/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-15)
 
 ---
 
@@ -197,7 +197,7 @@ Sea $T: \mathbb{R}^2 \to \mathbb{R}^2$, $T(x, y) = (x + y, x - y)$.
 
 Encontrar $[T]_{\mathcal{B}}$ donde $\mathcal{B} = \{(1, 1), (1, -1)\}$.
 
-> **Solución:** Ver [solutions/prob-16/](../solutions/prob-16/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-16)
 
 ---
 
@@ -213,7 +213,7 @@ b) Calcular $[T \circ S]$
 
 c) ¿Son iguales?
 
-> **Solución:** Ver [solutions/prob-17/](../solutions/prob-17/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-17)
 
 ---
 
@@ -227,7 +227,7 @@ b) Si sí, encontrar $[T^{-1}]$
 
 c) Verificar que $[T][T^{-1}] = I$
 
-> **Solución:** Ver [solutions/prob-18/](../solutions/prob-18/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-18)
 
 ---
 
@@ -239,7 +239,7 @@ a) Demostrar que $R_\alpha \circ R_\beta = R_{\alpha + \beta}$
 
 b) Encontrar $R_\theta^{-1}$
 
-> **Solución:** Ver [solutions/prob-19/](../solutions/prob-19/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-19)
 
 ---
 
@@ -247,7 +247,7 @@ b) Encontrar $R_\theta^{-1}$
 
 Sean $T: \mathbb{R}^3 \to \mathbb{R}^2$ y $S: \mathbb{R}^2 \to \mathbb{R}^3$ lineales. ¿Puede $S \circ T$ ser la identidad de $\mathbb{R}^3$? Justificar.
 
-> **Solución:** Ver [solutions/prob-20/](../solutions/prob-20/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-20)
 
 ---
 
@@ -259,7 +259,7 @@ Sea $[T]_{\mathcal{E}} = \begin{pmatrix} 3 & 1 \\ 0 & 2 \end{pmatrix}$ (base est
 
 Encontrar $[T]_{\mathcal{B}}$ donde $\mathcal{B} = \{(1, 1), (1, 0)\}$.
 
-> **Solución:** Ver [solutions/prob-21/](../solutions/prob-21/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-21)
 
 ---
 
@@ -267,7 +267,7 @@ Encontrar $[T]_{\mathcal{B}}$ donde $\mathcal{B} = \{(1, 1), (1, 0)\}$.
 
 Demostrar que las matrices $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ y $B = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ NO son similares.
 
-> **Solución:** Ver [solutions/prob-22/](../solutions/prob-22/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-22)
 
 ---
 
@@ -275,7 +275,7 @@ Demostrar que las matrices $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ y 
 
 Determinar si $A = \begin{pmatrix} 4 & -2 \\ 1 & 1 \end{pmatrix}$ y $B = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$ son similares.
 
-> **Solución:** Ver [solutions/prob-23/](../solutions/prob-23/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-23)
 
 ---
 
@@ -285,7 +285,7 @@ Sea $[T]_{\mathcal{E}} = \begin{pmatrix} 5 & -3 \\ 6 & -4 \end{pmatrix}$.
 
 Encontrar una base $\mathcal{B}$ [tal que](../../../glossary.md#tal-que) $[T]_{\mathcal{B}}$ sea diagonal.
 
-> **Solución:** Ver [solutions/prob-24/](../solutions/prob-24/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-24)
 
 ---
 
@@ -303,7 +303,7 @@ c) Reflejar respecto al eje $x$
 
 Encontrar la matriz de transformación compuesta.
 
-> **Solución:** Ver [solutions/prob-25/](../solutions/prob-25/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-25)
 
 ---
 
@@ -313,7 +313,7 @@ Un [sistema de coordenadas](../../../glossary.md#sistema-de-coordenadas) de un r
 
 Si la posición en coordenadas del robot es $[p]_{\mathcal{B}} = (3, 2)^T$, ¿cuál es la posición en coordenadas estándar?
 
-> **Solución:** Ver [solutions/prob-26/](../solutions/prob-26/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-26)
 
 ---
 
@@ -325,7 +325,7 @@ La población de dos ciudades $A$ y $B$ evoluciona según:
 
 Modelar como [transformación lineal](../../../glossary.md#transformacion-lineal) y encontrar su matriz.
 
-> **Solución:** Ver [solutions/prob-27/](../solutions/prob-27/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-27)
 
 ---
 
@@ -341,4 +341,4 @@ b) ¿Qué hace este filtro? (escala de grises)
 
 c) Encontrar $\ker(T)$
 
-> **Solución:** Ver [solutions/prob-28/](../solutions/prob-28/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/AL-05-Respuestas.md#prob-28)

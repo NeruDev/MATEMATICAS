@@ -43,54 +43,45 @@ last_updated: 2026-01-02
 
 | Métrica | Valor | Estado |
 |---------|:-----:|:------:|
-| Enlaces internos funcionando | 2,607 | ✅ |
-| Enlaces rotos totales | 1,021 | ⚠️ |
-| Patrones malformados | 8 | ⚠️ |
-| Archivos con problemas | 32 | — |
+| Enlaces internos funcionando | 4,040+ | ✅ |
+| Enlaces rotos totales | 0 | ✅ |
+| Patrones malformados | 0 | ✅ |
 
-### 2.2 Clasificación de Enlaces Rotos
+### 2.2 Sistema de Enlaces a Soluciones (Corregido 2026-01-02)
 
-| Categoría | Cantidad | Acción Requerida |
-|-----------|:--------:|------------------|
-| Enlaces a `solutions/prob-XX/` (carpetas no creadas) | 1,009 | 📋 Pendiente: crear carpetas cuando se desarrollen soluciones |
-| Enlaces de ejemplo en plantillas | 7 | ✅ Intencional: son ejemplos de sintaxis |
-| Enlaces malformados (doble bracket) | 0 | ✅ Corregidos |
-| Otros enlaces rotos | 3 | ✅ Corregidos |
+Se implementó un sistema de enrutamiento inteligente:
+
+| Tipo de Problema | Destino del Enlace | Icono |
+|------------------|-------------------|:-----:|
+| Sin solución desarrollada | `*-Respuestas.md#prob-XX` | 📎 |
+| Con solución desarrollada | `prob-XX/solucion-metodo.md` | 📂 |
+
+**Estadísticas:**
+- **1,331 problemas** enlazan a respuestas rápidas
+- **97 problemas** enlazan a soluciones desarrolladas paso a paso
+- **Total:** 1,428 enlaces en archivos de problemas
+- **Verificación:** 1,433 enlaces OK, 0 rotos
 
 ### 2.3 Correcciones de Enlaces Realizadas (2026-01-02)
 
 | Archivo | Problema | Corrección |
 |---------|----------|------------|
+| 29 archivos `*-Problemas.md` | Enlaces a carpetas inexistentes | ✅ Redirigidos a `*-Respuestas.md` |
 | `AL-01-Matrices-Intro.md` | Doble bracket con glosario | ✅ Corregido |
 | `solucion-metodo.md` (prob-29) | Tabla corrupta | ✅ Corregido |
 | `MN-02-Soluciones-Desarrolladas.md` | Paréntesis malformados | ✅ Corregido |
 | `ED-03-Problemas.md` | Paréntesis malformados | ✅ Corregido |
 
-### 2.4 Archivos con Enlaces a Carpetas Inexistentes
+### 2.4 Distribución de Soluciones Desarrolladas
 
-Los siguientes archivos de problemas enlazan a carpetas `solutions/prob-XX/` que aún no han sido creadas:
-
-- `01-Fundamentos/04-Geometria/problems/FUN-04-Problemas.md`
-- `01-Fundamentos/05-Trigonometria/problems/FUN-05-Problemas.md`
-- `01-Fundamentos/06-Geometria-Analitica/problems/FUN-06-Problemas.md`
-- `02-Algebra-Lineal/02-Determinantes/problems/AL-02-Problemas.md`
-- `02-Algebra-Lineal/03-Sistemas-Lineales/problems/AL-03-Problemas.md`
-- `02-Algebra-Lineal/04-Espacios-Vectoriales/problems/AL-04-Problemas.md`
-- `02-Algebra-Lineal/05-Transformaciones-Lineales/problems/AL-05-Problemas.md`
-- `02-Algebra-Lineal/06-Valores-Vectores-Propios/problems/AL-06-Problemas.md`
-- `03-Calculo-Diferencial/02-Derivadas/problems/CD-02-Problemas.md`
-- `03-Calculo-Diferencial/03-Aplicaciones-de-la-derivada/problems/CD-03-Problemas.md`
-- `03-Calculo-Diferencial/04-Teoremas-fundamentales/problems/CD-04-Problemas.md`
-- `04-Calculo-Integral/01-Integral-Indefinida/problems/CI-01-Problemas.md`
-- `04-Calculo-Integral/02-Tecnicas-Integracion/problems/CI-02-Problemas.md`
-- `04-Calculo-Integral/03-Integral-Definida/problems/CI-03-Problemas.md`
-- `04-Calculo-Integral/04-Aplicaciones-Integral/problems/CI-04-Problemas.md`
-- `04-Calculo-Integral/05-Integrales-Impropias/problems/CI-05-Problemas.md`
-- `06-Ecuaciones-Diferenciales/02-EDO-Segundo-Orden/problems/ED-02-Problemas.md`
-- `06-Ecuaciones-Diferenciales/03-Sistemas-EDO/problems/ED-03-Problemas.md`
-- `06-Ecuaciones-Diferenciales/04-Transformada-Laplace/problems/ED-04-Problemas.md`
-
-> **Nota:** Estos enlaces son **válidos estructuralmente** pero apuntan a carpetas que se crearán cuando se desarrollen las soluciones detalladas de cada problema.
+| Módulo | Problemas con Desarrollo |
+|--------|:------------------------:|
+| 01-Fundamentos | 49 |
+| 02-Algebra-Lineal | 9 |
+| 03-Calculo-Diferencial | 16 |
+| 04-Calculo-Integral | 6 |
+| 05-Calculo-Vectorial | 17 |
+| **Total** | **97** |
 
 ---
 

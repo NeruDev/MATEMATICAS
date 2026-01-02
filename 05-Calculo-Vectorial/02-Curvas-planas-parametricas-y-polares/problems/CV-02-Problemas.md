@@ -62,7 +62,7 @@ b) Halla los puntos donde la [tangente](../../../glossary.md#tangente) es horizo
 
 **[Prob-12]** Encuentra la longitud de $x = t^2$, $y = t^3$ desde $t = 0$ hasta $t = 1$.
 
-**[Prob-13]** Calcula la longitud de un arco de la cicloide $x = t - \sin t$, $y = 1 - \cos t$ para $t \in [0, 2\pi]$.
+**[Prob-13]** Calcula la longitud de un arco de la cicloide $x = t - \sin t$, $y = 1 - \cos t$ para $t \in [0, 2\pi]$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-13/solucion-metodo.md)
 
 **[Prob-14]** Encuentra la longitud de la astroide $x = \cos^3 t$, $y = \sin^3 t$ para $t \in [0, 2\pi]$.
 
@@ -142,7 +142,7 @@ c) $(0, -5)$
 
 **[Prob-39]** Encuentra el área de un pétalo de $r = \cos(2\theta)$.
 
-**[Prob-40]** Calcula el área encerrada por la cardioide $r = 1 + \cos\theta$.
+**[Prob-40]** Calcula el área encerrada por la cardioide $r = 1 + \cos\theta$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-40/solucion-metodo.md)
 
 **[Prob-41]** Encuentra el área interior a $r = 3\sin\theta$ y exterior a $r = 1 + \sin\theta$.
 
@@ -156,7 +156,7 @@ c) $(0, -5)$
 
 ## 2.8 Longitud de Arco en Polares
 
-**[Prob-45]** Encuentra la longitud de la cardioide $r = 1 + \cos\theta$.
+**[Prob-45]** Encuentra la longitud de la cardioide $r = 1 + \cos\theta$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-45/solucion-metodo.md)
 
 **[Prob-46]** Calcula la longitud de $r = e^\theta$ desde $\theta = 0$ hasta $\theta = 2\pi$.
 

@@ -66,7 +66,7 @@ b) Calcula la distancia entre $A$ y $B$
 
 **[Prob-15]** Si $\lVert\mathbf{u}\rVert = 5$, $\lVert\mathbf{v}\rVert = 3$ y el ángulo entre ellos es $60°$, calcula $\mathbf{u} \cdot \mathbf{v}$.
 
-**[Prob-16]** Descompón $\mathbf{F} = \langle 5, 8, -1 \rangle$ en componentes paralela y perpendicular a $\mathbf{d} = \langle 1, 2, 2 \rangle$.
+**[Prob-16]** Descompón $\mathbf{F} = \langle 5, 8, -1 \rangle$ en componentes paralela y perpendicular a $\mathbf{d} = \langle 1, 2, 2 \rangle$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-16/solucion-metodo.md)
 
 ---
 
@@ -93,7 +93,7 @@ b) Calcula la distancia entre $A$ y $B$
 ## 1.4 Triple Producto Escalar
 
 **[Prob-25]** Calcula $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$ donde:
-$\mathbf{u} = \langle 1, 2, 3 \rangle$, $\mathbf{v} = \langle 2, -1, 1 \rangle$, $\mathbf{w} = \langle 3, 1, -2 \rangle$
+$\mathbf{u} = \langle 1, 2, 3 \rangle$, $\mathbf{v} = \langle 2, -1, 1 \rangle$, $\mathbf{w} = \langle 3, 1, -2 \rangle$\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-25/solucion-metodo.md)
 
 **[Prob-26]** Encuentra el volumen del paralelepípedo determinado por:
 $\mathbf{a} = \langle 1, 0, 2 \rangle$, $\mathbf{b} = \langle 0, 3, 1 \rangle$, $\mathbf{c} = \langle 2, 1, 0 \rangle$
@@ -154,7 +154,7 @@ $$L_2: \frac{x-2}{1} = \frac{y}{2} = \frac{z-1}{1}$$
 
 **[Prob-44]** Calcula la distancia entre las rectas que se cruzan:
 $$L_1: x = 1 + t,\ y = 2t,\ z = -1 + t$$
-$$L_2: x = 2 + s,\ y = 1 + s,\ z = s$$
+$$L_2: x = 2 + s,\ y = 1 + s,\ z = s$$\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-44/solucion-metodo.md)
 
 **[Prob-45]** Encuentra la ecuación del plano que contiene la recta $\frac{x-1}{2} = \frac{y+1}{1} = \frac{z}{3}$ y es perpendicular al plano $x - y + z = 5$.
 

@@ -36,7 +36,7 @@ c) $y'' - 4y = 0$
 
 d) $2y'' - 5y' - 3y = 0$
 
-> 📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-01)
 
 ---
 
@@ -44,7 +44,7 @@ d) $2y'' - 5y' - 3y = 0$
 
 Resolver el PVI: $y'' - 3y' + 2y = 0$, $y(0) = 1$, $y'(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-02)
 
 ---
 
@@ -60,7 +60,7 @@ b) $y'' + 6y' + 9y = 0$
 
 c) $4y'' + 4y' + y = 0$
 
-> 📂 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-03)
 
 ---
 
@@ -68,7 +68,7 @@ c) $4y'' + 4y' + y = 0$
 
 Resolver el PVI: $y'' - 2y' + y = 0$, $y(0) = 2$, $y'(0) = 1$
 
-> 📂 **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-04)
 
 ---
 
@@ -86,7 +86,7 @@ c) $y'' - 4y' + 13y = 0$
 
 d) $y'' + 9y = 0$
 
-> 📂 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-05)
 
 ---
 
@@ -94,7 +94,7 @@ d) $y'' + 9y = 0$
 
 Resolver el PVI: $y'' + 4y' + 8y = 0$, $y(0) = 1$, $y'(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-06)
 
 ---
 
@@ -114,7 +114,7 @@ c) $y'' - 4y = e^{3x}$
 
 d) $y'' + 9y = \cos 2x$
 
-> 📂 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-07)
 
 ---
 
@@ -128,7 +128,7 @@ b) $y'' + 4y = \sin x$
 
 c) $y'' - 2y' + y = x^3$
 
-> 📂 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-08)
 
 ---
 
@@ -146,7 +146,7 @@ c) $y'' - y = e^x$
 
 d) $y'' + y = \sin x$
 
-> 📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-09)
 
 ---
 
@@ -158,7 +158,7 @@ a) $y'' - 4y = e^{2x}$
 
 b) $y'' + 4y = 3\sin 2x$
 
-> 📂 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-10)
 
 ---
 
@@ -174,7 +174,7 @@ b) $y'' + y = x + \cos x$
 
 c) $y'' - 3y' + 2y = e^x + e^{2x}$
 
-> 📂 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-11)
 
 ---
 
@@ -190,7 +190,7 @@ b) $y'' + y = \tan x$
 
 c) $y'' + y = \csc x$
 
-> 📂 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-12)
 
 ---
 
@@ -204,7 +204,7 @@ b) $y'' + 4y = \sec 2x$
 
 c) $y'' - 2y' + y = \frac{e^x}{x}$
 
-> 📂 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-13)
 
 ---
 
@@ -216,7 +216,7 @@ a) $y'' + y = \sec^2 x$
 
 b) $y'' - y = e^x \ln x$
 
-> 📂 **Solución:** [solutions/prob-14/](../solutions/prob-14/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-14)
 
 ---
 
@@ -234,7 +234,7 @@ c) $x^2y'' - xy' + y = 0$
 
 d) $x^2y'' + 3xy' + y = 0$
 
-> 📂 **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-15)
 
 ---
 
@@ -246,7 +246,7 @@ a) $x^2y'' + xy' + 4y = 0$ (raíces complejas)
 
 b) $x^2y'' - 3xy' + 4y = 0$ (raíz doble)
 
-> 📂 **Solución:** [solutions/prob-16/](../solutions/prob-16/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-16)
 
 ---
 
@@ -254,7 +254,7 @@ b) $x^2y'' - 3xy' + 4y = 0$ (raíz doble)
 
 Resolver el PVI: $x^2y'' - 2y = 0$, $y(1) = 1$, $y'(1) = 4$
 
-> 📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-17)
 
 ---
 
@@ -270,7 +270,7 @@ b) $y'' - 6y' + 9y = 0$, $y(0) = 1$, $y'(0) = 4$
 
 c) $y'' + 2y' + 2y = 0$, $y(0) = 1$, $y'(0) = -1$
 
-> 📂 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-18)
 
 ---
 
@@ -284,7 +284,7 @@ b) $y'' - y = e^{-x}$, $y(0) = 1$, $y'(0) = 0$
 
 c) $y'' + 4y = \cos 2x$, $y(0) = 0$, $y'(0) = 1$
 
-> 📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-19)
 
 ---
 
@@ -302,7 +302,7 @@ b) Si $x(0) = 0.1$ m y $\dot{x}(0) = 0$, encontrar $x(t)$
 
 c) Determinar la frecuencia y período de oscilación
 
-> 📂 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-20)
 
 ---
 
@@ -316,7 +316,7 @@ b) Resolver el PVI con $x(0) = 1$, $\dot{x}(0) = 0$
 
 c) Encontrar la frecuencia de oscilación amortiguada
 
-> 📂 **Solución:** [solutions/prob-21/](../solutions/prob-21/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-21)
 
 ---
 
@@ -328,7 +328,7 @@ a) Encontrar el valor de $c$ para amortiguamiento crítico
 
 b) Resolver con $x(0) = 2$, $\dot{x}(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-22)
 
 ---
 
@@ -342,7 +342,7 @@ a) Escribir y resolver la ecuación del movimiento
 
 b) Si $x(0) = 0$ y $\dot{x}(0) = 0$, encontrar la [solución particular](../../../glossary.md#solucion-particular)
 
-> 📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-23)
 
 ---
 
@@ -354,7 +354,7 @@ a) Encontrar la solución de estado estacionario
 
 b) Calcular la amplitud de oscilación forzada
 
-> 📂 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-24)
 
 ---
 
@@ -370,7 +370,7 @@ b) Determinar el tipo de respuesta
 
 c) Resolver con $q(0) = 1$ C, $i(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-25)
 
 ---
 
@@ -382,7 +382,7 @@ a) Encontrar la carga en estado estacionario
 
 b) Resolver el PVI con $q(0) = 0$, $i(0) = 0$
 
-> 📂 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-26)
 
 ---
 
@@ -394,7 +394,7 @@ a) ¿Hay [resonancia](../../../glossary.md#resonancia)? Explicar
 
 b) Encontrar la solución para la corriente
 
-> 📂 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-27)
 
 ---
 
@@ -410,7 +410,7 @@ b) $4x^2y'' + 8xy' + y = 0$
 
 c) $y'' - 4y' + 4y = e^{2x}/x$ (usar variación de parámetros)
 
-> 📂 **Solución:** [solutions/prob-28/](../solutions/prob-28/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-28)
 
 ---
 
@@ -424,7 +424,7 @@ b) $y = e^{2x}(C_1 \cos 3x + C_2 \sin 3x)$
 
 c) $y = (C_1 + C_2 x)e^{-2x}$
 
-> 📂 **Solución:** [solutions/prob-29/](../solutions/prob-29/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-29)
 
 ---
 
@@ -438,4 +438,4 @@ b) Clasificar el amortiguamiento
 
 c) Si se desplaza 0.1 m y se suelta desde el reposo, encontrar $x(t)$
 
-> 📂 **Solución:** [solutions/prob-30/](../solutions/prob-30/)
+> 📂 **Solución:** [📎 Ver Respuesta](../solutions/ED-02-Respuestas.md#prob-30)

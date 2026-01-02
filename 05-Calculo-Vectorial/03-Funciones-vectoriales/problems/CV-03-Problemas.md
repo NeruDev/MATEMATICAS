@@ -105,7 +105,7 @@ b) Evalúa $\mathbf{T}(\pi/4)$
 
 **[Prob-27]** Calcula la curvatura de $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 0$.
 
-**[Prob-28]** Encuentra la curvatura de la hélice $\mathbf{r}(t) = \langle 2\cos t, 2\sin t, t \rangle$.
+**[Prob-28]** Encuentra la curvatura de la hélice $\mathbf{r}(t) = \langle 2\cos t, 2\sin t, t \rangle$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-28/solucion-metodo.md)
 
 **[Prob-29]** Calcula la curvatura de $y = x^2$ en el punto $(0, 0)$ usando la fórmula para curvas planas.
 
@@ -119,11 +119,11 @@ b) Evalúa $\mathbf{T}(\pi/4)$
 
 ## 3.7 Marco TNB y Torsión
 
-**[Prob-33]** Para $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$, encuentra $\mathbf{T}$, $\mathbf{N}$ y $\mathbf{B}$.
+**[Prob-33]** Para $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$, encuentra $\mathbf{T}$, $\mathbf{N}$ y $\mathbf{B}$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-33/solucion-metodo.md)
 
 **[Prob-34]** Calcula el [vector](../../../glossary.md#vector) normal principal $\mathbf{N}(t)$ para $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$ en $t = 1$.
 
-**[Prob-35]** Encuentra la torsión de la hélice $\mathbf{r}(t) = \langle 3\cos t, 3\sin t, 4t \rangle$.
+**[Prob-35]** Encuentra la torsión de la hélice $\mathbf{r}(t) = \langle 3\cos t, 3\sin t, 4t \rangle$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-35/solucion-metodo.md)
 
 **[Prob-36]** Demuestra que la torsión de una curva plana es cero para $\mathbf{r}(t) = \langle t, t^2, 0 \rangle$.
 
@@ -138,7 +138,7 @@ c) Rapidez en $t = 1$
 
 **[Prob-38]** Para el movimiento $\mathbf{r}(t) = \langle \cos t, \sin t, t \rangle$:
 a) Calcula $\mathbf{v}(t)$ y $\mathbf{a}(t)$
-b) Encuentra las componentes tangencial y normal de la aceleración
+b) Encuentra las componentes tangencial y normal de la aceleración\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-38/solucion-metodo.md)
 
 **[Prob-39]** Una partícula tiene $\mathbf{a}(t) = \langle 0, 0, -10 \rangle$, $\mathbf{v}(0) = \langle 20, 30, 40 \rangle$ y $\mathbf{r}(0) = \langle 0, 0, 0 \rangle$. Encuentra $\mathbf{r}(t)$.
 
@@ -147,7 +147,7 @@ b) Encuentra las componentes tangencial y normal de la aceleración
 **[Prob-41]** Un proyectil se lanza con velocidad inicial $\mathbf{v}_0 = \langle 50, 50\sqrt{3} \rangle$ m/s. Con $g = 10$ m/s²:
 a) Encuentra la ecuación de posición
 b) ¿Cuál es la altura máxima?
-c) ¿Cuál es el alcance horizontal?
+c) ¿Cuál es el alcance horizontal?\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-41/solucion-metodo.md)
 
 ---
 

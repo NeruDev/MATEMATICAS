@@ -26,105 +26,105 @@ last_updated: 2025-12-20
 ### [Prob-01] Potencia entera positiva ⭐
 $\displaystyle\int x^5 \, dx$
 
-📁 [Solución](../solutions/prob-01/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-01)
 
 ---
 
 ### [Prob-02] Potencia con coeficiente constante ⭐
 $\displaystyle\int 3x^2 \, dx$
 
-📁 [Solución](../solutions/prob-02/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-02)
 
 ---
 
 ### [Prob-03] Suma de potencias ⭐
 $\displaystyle\int (x^3 + x) \, dx$
 
-📁 [Solución](../solutions/prob-03/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-03)
 
 ---
 
 ### [Prob-04] Integral de una constante ⭐
 $\displaystyle\int 7 \, dx$
 
-📁 [Solución](../solutions/prob-04/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-04)
 
 ---
 
 ### [Prob-05] Potencia negativa ⭐
 $\displaystyle\int \frac{1}{x^3} \, dx$
 
-📁 [Solución](../solutions/prob-05/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-05)
 
 ---
 
 ### [Prob-06] Raíz cuadrada como potencia fraccionaria ⭐
 $\displaystyle\int \sqrt{x} \, dx$
 
-📁 [Solución](../solutions/prob-06/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-06)
 
 ---
 
 ### [Prob-07] Raíz cuadrada en denominador ⭐⭐
 $\displaystyle\int \frac{2}{\sqrt{x}} \, dx$
 
-📁 [Solución](../solutions/prob-07/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-07)
 
 ---
 
 ### [Prob-08] Polinomio de grado 4 ⭐⭐
 $\displaystyle\int (3x^4 - 2x^2 + 5) \, dx$
 
-📁 [Solución](../solutions/prob-08/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-08)
 
 ---
 
 ### [Prob-09] Raíz cúbica ⭐⭐
 $\displaystyle\int \sqrt[3]{x} \, dx$
 
-📁 [Solución](../solutions/prob-09/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-09)
 
 ---
 
 ### [Prob-10] Simplificación algebraica previa ⭐⭐
 $\displaystyle\int \frac{x^2 - 1}{x} \, dx$
 
-📁 [Solución](../solutions/prob-10/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-10)
 
 ---
 
 ### [Prob-11] Binomio al cuadrado ⭐⭐
 $\displaystyle\int (x + 2)^2 \, dx$
 
-📁 [Solución](../solutions/prob-11/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-11)
 
 ---
 
 ### [Prob-12] División de polinomios ⭐⭐
 $\displaystyle\int \frac{x^3 + 3x^2 - 4}{x^2} \, dx$
 
-📁 [Solución](../solutions/prob-12/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-12)
 
 ---
 
 ### [Prob-13] Diferencia de cuadrados ⭐⭐⭐
 $\displaystyle\int \frac{(x+1)(x-1)}{x^2} \, dx$
 
-📁 [Solución](../solutions/prob-13/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-13)
 
 ---
 
 ### [Prob-14] Binomio con radicales al cuadrado ⭐⭐⭐
 $\displaystyle\int \left(\sqrt{x} + \frac{1}{\sqrt{x}}\right)^2 \, dx$
 
-📁 [Solución](../solutions/prob-14/)
+📁 [📂 Solución Desarrollada](../solutions/prob-14/solucion-metodo.md)
 
 ---
 
 ### [Prob-15] División de polinomios con factorización ⭐⭐⭐
 $\displaystyle\int \frac{x^4 - 1}{x^2 + 1} \, dx$
 
-📁 [Solución](../solutions/prob-15/)
+📁 [📂 Solución Desarrollada](../solutions/prob-15/solucion-metodo.md)
 
 ---
 
@@ -133,63 +133,63 @@ $\displaystyle\int \frac{x^4 - 1}{x^2 + 1} \, dx$
 ### [Prob-16] Exponencial natural básica ⭐
 $\displaystyle\int e^x \, dx$
 
-📁 [Solución](../solutions/prob-16/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-16)
 
 ---
 
 ### [Prob-17] Exponencial con coeficiente ⭐
 $\displaystyle\int 5e^x \, dx$
 
-📁 [Solución](../solutions/prob-17/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-17)
 
 ---
 
 ### [Prob-18] Exponencial base 2 ⭐
 $\displaystyle\int 2^x \, dx$
 
-📁 [Solución](../solutions/prob-18/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-18)
 
 ---
 
 ### [Prob-19] Exponencial base 3 ⭐
 $\displaystyle\int 3^x \, dx$
 
-📁 [Solución](../solutions/prob-19/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-19)
 
 ---
 
 ### [Prob-20] Suma de exponencial y polinomio ⭐⭐
 $\displaystyle\int (e^x + x^2) \, dx$
 
-📁 [Solución](../solutions/prob-20/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-20)
 
 ---
 
 ### [Prob-21] Combinación de exponenciales diferentes ⭐⭐
 $\displaystyle\int (3e^x - 2 \cdot 5^x) \, dx$
 
-📁 [Solución](../solutions/prob-21/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-21)
 
 ---
 
 ### [Prob-22] Simplificación exponencial ⭐⭐
 $\displaystyle\int \frac{e^x + 1}{e^x} \, dx$
 
-📁 [Solución](../solutions/prob-22/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-22)
 
 ---
 
 ### [Prob-23] Diferencia de exponenciales ⭐⭐⭐
 $\displaystyle\int \frac{e^{2x} - 1}{e^x} \, dx$
 
-📁 [Solución](../solutions/prob-23/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-23)
 
 ---
 
 ### [Prob-24] Binomio exponencial al cuadrado ⭐⭐⭐
 $\displaystyle\int (e^x + e^{-x})^2 \, dx$
 
-📁 [Solución](../solutions/prob-24/)
+📁 [📂 Solución Desarrollada](../solutions/prob-24/solucion-metodo.md)
 
 ---
 
@@ -198,35 +198,35 @@ $\displaystyle\int (e^x + e^{-x})^2 \, dx$
 ### [Prob-25] Integral logarítmica básica ⭐
 $\displaystyle\int \frac{1}{x} \, dx$
 
-📁 [Solución](../solutions/prob-25/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-25)
 
 ---
 
 ### [Prob-26] Logarítmica con coeficiente ⭐
 $\displaystyle\int \frac{5}{x} \, dx$
 
-📁 [Solución](../solutions/prob-26/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-26)
 
 ---
 
 ### [Prob-27] Suma con término logarítmico ⭐⭐
 $\displaystyle\int \left(\frac{1}{x} + x\right) \, dx$
 
-📁 [Solución](../solutions/prob-27/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-27)
 
 ---
 
 ### [Prob-28] Simplificación a logaritmo ⭐⭐
 $\displaystyle\int \frac{x + 1}{x} \, dx$
 
-📁 [Solución](../solutions/prob-28/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-28)
 
 ---
 
 ### [Prob-29] División con término logarítmico ⭐⭐
 $\displaystyle\int \frac{3x^2 - 2}{x} \, dx$
 
-📁 [Solución](../solutions/prob-29/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-29)
 
 ---
 
@@ -235,98 +235,98 @@ $\displaystyle\int \frac{3x^2 - 2}{x} \, dx$
 ### [Prob-30] Integral del seno ⭐
 $\displaystyle\int \sin x \, dx$
 
-📁 [Solución](../solutions/prob-30/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-30)
 
 ---
 
 ### [Prob-31] Integral del coseno ⭐
 $\displaystyle\int \cos x \, dx$
 
-📁 [Solución](../solutions/prob-31/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-31)
 
 ---
 
 ### [Prob-32] Coseno con coeficiente ⭐
 $\displaystyle\int 3\cos x \, dx$
 
-📁 [Solución](../solutions/prob-32/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-32)
 
 ---
 
 ### [Prob-33] Secante al cuadrado ⭐
 $\displaystyle\int \sec^2 x \, dx$
 
-📁 [Solución](../solutions/prob-33/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-33)
 
 ---
 
 ### [Prob-34] Cosecante al cuadrado ⭐
 $\displaystyle\int \csc^2 x \, dx$
 
-📁 [Solución](../solutions/prob-34/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-34)
 
 ---
 
 ### [Prob-35] Suma seno y coseno ⭐⭐
 $\displaystyle\int (\sin x + \cos x) \, dx$
 
-📁 [Solución](../solutions/prob-35/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-35)
 
 ---
 
 ### [Prob-36] Combinación lineal seno y coseno ⭐⭐
 $\displaystyle\int (2\sin x - 3\cos x) \, dx$
 
-📁 [Solución](../solutions/prob-36/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-36)
 
 ---
 
 ### [Prob-37] Suma secante y cosecante al cuadrado ⭐⭐
 $\displaystyle\int (\sec^2 x + \csc^2 x) \, dx$
 
-📁 [Solución](../solutions/prob-37/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-37)
 
 ---
 
 ### [Prob-38] Derivada de secante ⭐⭐
 $\displaystyle\int \sec x \tan x \, dx$
 
-📁 [Solución](../solutions/prob-38/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-38)
 
 ---
 
 ### [Prob-39] Derivada de cosecante ⭐⭐
 $\displaystyle\int \csc x \cot x \, dx$
 
-📁 [Solución](../solutions/prob-39/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-39)
 
 ---
 
 ### [Prob-40] Combinación de funciones trigonométricas ⭐⭐
 $\displaystyle\int (4\sec^2 x - \sec x \tan x) \, dx$
 
-📁 [Solución](../solutions/prob-40/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-40)
 
 ---
 
 ### [Prob-41] Identidad pitagórica fundamental ⭐⭐⭐
 $\displaystyle\int (\sin^2 x + \cos^2 x) \, dx$
 
-📁 [Solución](../solutions/prob-41/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-41)
 
 ---
 
 ### [Prob-42] Secante al cuadrado como fracción ⭐⭐⭐
 $\displaystyle\int \frac{1}{\cos^2 x} \, dx$
 
-📁 [Solución](../solutions/prob-42/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-42)
 
 ---
 
 ### [Prob-43] Secante por tangente como fracción ⭐⭐⭐
 $\displaystyle\int \frac{\sin x}{\cos^2 x} \, dx$
 
-📁 [Solución](../solutions/prob-43/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-43)
 
 ---
 
@@ -335,70 +335,70 @@ $\displaystyle\int \frac{\sin x}{\cos^2 x} \, dx$
 ### [Prob-44] Arcoseno básico ⭐
 $\displaystyle\int \frac{1}{\sqrt{1-x^2}} \, dx$
 
-📁 [Solución](../solutions/prob-44/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-44)
 
 ---
 
 ### [Prob-45] Arcotangente básico ⭐
 $\displaystyle\int \frac{1}{1+x^2} \, dx$
 
-📁 [Solución](../solutions/prob-45/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-45)
 
 ---
 
 ### [Prob-46] Arcotangente con coeficiente ⭐
 $\displaystyle\int \frac{3}{1+x^2} \, dx$
 
-📁 [Solución](../solutions/prob-46/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-46)
 
 ---
 
 ### [Prob-47] Arcoseno con ajuste de constante ⭐⭐
 $\displaystyle\int \frac{1}{\sqrt{4-x^2}} \, dx$
 
-📁 [Solución](../solutions/prob-47/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-47)
 
 ---
 
 ### [Prob-48] Arcotangente con ajuste de constante ⭐⭐
 $\displaystyle\int \frac{1}{9+x^2} \, dx$
 
-📁 [Solución](../solutions/prob-48/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-48)
 
 ---
 
 ### [Prob-49] Arcoseno con raíz mayor ⭐⭐
 $\displaystyle\int \frac{1}{\sqrt{16-x^2}} \, dx$
 
-📁 [Solución](../solutions/prob-49/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-49)
 
 ---
 
 ### [Prob-50] Arcotangente con coeficiente y constante ⭐⭐
 $\displaystyle\int \frac{2}{25+x^2} \, dx$
 
-📁 [Solución](../solutions/prob-50/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-50)
 
 ---
 
 ### [Prob-51] Arcoseno con coeficiente cuadrático ⭐⭐⭐
 $\displaystyle\int \frac{1}{\sqrt{1-4x^2}} \, dx$
 
-📁 [Solución](../solutions/prob-51/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-51)
 
 ---
 
 ### [Prob-52] Arcotangente con coeficiente cuadrático ⭐⭐⭐
 $\displaystyle\int \frac{1}{1+9x^2} \, dx$
 
-📁 [Solución](../solutions/prob-52/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-52)
 
 ---
 
 ### [Prob-53] Arcoseno con constante irracional ⭐⭐⭐
 $\displaystyle\int \frac{1}{\sqrt{3-x^2}} \, dx$
 
-📁 [Solución](../solutions/prob-53/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-53)
 
 ---
 
@@ -407,46 +407,46 @@ $\displaystyle\int \frac{1}{\sqrt{3-x^2}} \, dx$
 ### [Prob-54] Polinomio, exponencial y trigonométrica ⭐⭐
 $\displaystyle\int (x^2 + e^x + \sin x) \, dx$
 
-📁 [Solución](../solutions/prob-54/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-54)
 
 ---
 
 ### [Prob-55] Logarítmica y coseno ⭐⭐
 $\displaystyle\int \left(\frac{1}{x} + \cos x\right) \, dx$
 
-📁 [Solución](../solutions/prob-55/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-55)
 
 ---
 
 ### [Prob-56] Raíz y arcoseno ⭐⭐
 $\displaystyle\int \left(\sqrt{x} - \frac{1}{\sqrt{1-x^2}}\right) \, dx$
 
-📁 [Solución](../solutions/prob-56/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-56)
 
 ---
 
 ### [Prob-57] Exponencial y arcotangente ⭐⭐
 $\displaystyle\int \left(3^x + \frac{1}{1+x^2}\right) \, dx$
 
-📁 [Solución](../solutions/prob-57/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-57)
 
 ---
 
 ### [Prob-58] Triple combinación trascendente ⭐⭐⭐
 $\displaystyle\int \left(e^x + \sec^2 x + \frac{1}{\sqrt{1-x^2}}\right) \, dx$
 
-📁 [Solución](../solutions/prob-58/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-58)
 
 ---
 
 ### [Prob-59] División algebraica y trigonométrica ⭐⭐⭐
 $\displaystyle\int \left(\frac{x^3 + 1}{x} + 2\cos x\right) \, dx$
 
-📁 [Solución](../solutions/prob-59/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-59)
 
 ---
 
 ### [Prob-60] Triple función inversa ⭐⭐⭐
 $\displaystyle\int \left(\frac{1}{x} + \frac{1}{1+x^2} + \frac{1}{\sqrt{1-x^2}}\right) \, dx$
 
-📁 [Solución](../solutions/prob-60/)
+📁 [📎 Ver Respuesta](../solutions/CI-01-Respuestas.md#prob-60)

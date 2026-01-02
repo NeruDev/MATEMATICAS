@@ -32,7 +32,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int 2x(x^2+1)^3 \, dx$
 > 
-> 📁 [Solución](solutions/prob-01/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-01)
 
 ---
 
@@ -40,7 +40,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \cos x \sin^3 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-02/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-02)
 
 ---
 
@@ -48,7 +48,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{e^x}{1+e^x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-03/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-03)
 
 ---
 
@@ -56,7 +56,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{2x}{x^2+4} \, dx$
 > 
-> 📁 [Solución](solutions/prob-04/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-04)
 
 ---
 
@@ -64,7 +64,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int (3x-1)^5 \, dx$
 > 
-> 📁 [Solución](solutions/prob-05/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-05)
 
 ---
 
@@ -74,7 +74,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\ln x}{x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-06/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-06)
 
 ---
 
@@ -82,7 +82,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{e^{\sqrt{x}}}{\sqrt{x}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-07/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-07)
 
 ---
 
@@ -90,7 +90,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \tan x \, dx$
 > 
-> 📁 [Solución](solutions/prob-08/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-08)
 
 ---
 
@@ -98,7 +98,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x}{\sqrt{1-x^2}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-09/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-09)
 
 ---
 
@@ -106,7 +106,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\sin(\ln x)}{x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-10/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-10)
 
 ---
 
@@ -116,7 +116,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{e^{\arctan x}}{1+x^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-11/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-11)
 
 ---
 
@@ -124,7 +124,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{x \ln x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-12/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-12)
 
 ---
 
@@ -132,7 +132,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\cos x}{\sin^2 x + 1} \, dx$
 > 
-> 📁 [Solución](solutions/prob-13/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-13)
 
 ---
 
@@ -144,7 +144,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x e^x \, dx$
 > 
-> 📁 [Solución](solutions/prob-14/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-14)
 
 ---
 
@@ -152,7 +152,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x \cos x \, dx$
 > 
-> 📁 [Solución](solutions/prob-15/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-15)
 
 ---
 
@@ -160,7 +160,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x \sin x \, dx$
 > 
-> 📁 [Solución](solutions/prob-16/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-16)
 
 ---
 
@@ -168,7 +168,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \ln x \, dx$
 > 
-> 📁 [Solución](solutions/prob-17/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-17)
 
 ---
 
@@ -176,7 +176,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x^2 e^x \, dx$
 > 
-> 📁 [Solución](solutions/prob-18/)
+📂 **Solución:** [Ver desarrollo paso a paso](../solutions/prob-18/solucion-metodo.md)
 
 ---
 
@@ -186,7 +186,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x^2 \ln x \, dx$
 > 
-> 📁 [Solución](solutions/prob-19/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-19)
 
 ---
 
@@ -194,7 +194,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int e^x \cos x \, dx$
 > 
-> 📁 [Solución](solutions/prob-20/)
+📂 **Solución:** [Ver desarrollo paso a paso](../solutions/prob-20/solucion-metodo.md)
 
 ---
 
@@ -202,7 +202,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int e^x \sin x \, dx$
 > 
-> 📁 [Solución](solutions/prob-21/)
+📂 **Solución:** [Ver desarrollo paso a paso](../solutions/prob-21/solucion-metodo.md)
 
 ---
 
@@ -210,7 +210,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \arctan x \, dx$
 > 
-> 📁 [Solución](solutions/prob-22/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-22)
 
 ---
 
@@ -218,7 +218,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \arcsin x \, dx$
 > 
-> 📁 [Solución](solutions/prob-23/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-23)
 
 ---
 
@@ -230,7 +230,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > *Sugerencia: combinar con sustitución*
 > 
-> 📁 [Solución](solutions/prob-24/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-24)
 
 ---
 
@@ -238,7 +238,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int (\ln x)^2 \, dx$
 > 
-> 📁 [Solución](solutions/prob-25/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-25)
 
 ---
 
@@ -246,7 +246,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x^2 \sin x \, dx$
 > 
-> 📁 [Solución](solutions/prob-26/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-26)
 
 ---
 
@@ -258,7 +258,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sin^3 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-27/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-27)
 
 ---
 
@@ -266,7 +266,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \cos^3 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-28/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-28)
 
 ---
 
@@ -274,7 +274,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sin^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-29/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-29)
 
 ---
 
@@ -282,7 +282,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \cos^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-30/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-30)
 
 ---
 
@@ -292,7 +292,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sin^4 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-31/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-31)
 
 ---
 
@@ -300,7 +300,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sin^2 x \cos^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-32/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-32)
 
 ---
 
@@ -308,7 +308,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \tan^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-33/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-33)
 
 ---
 
@@ -316,7 +316,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sec^3 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-34/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-34)
 
 ---
 
@@ -324,7 +324,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \tan^3 x \sec x \, dx$
 > 
-> 📁 [Solución](solutions/prob-35/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-35)
 
 ---
 
@@ -334,7 +334,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sin^5 x \cos^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-36/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-36)
 
 ---
 
@@ -342,7 +342,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \tan^4 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-37/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-37)
 
 ---
 
@@ -350,7 +350,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sec^4 x \tan^2 x \, dx$
 > 
-> 📁 [Solución](solutions/prob-38/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-38)
 
 ---
 
@@ -362,7 +362,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{\sqrt{9-x^2}}$
 > 
-> 📁 [Solución](solutions/prob-39/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-39)
 
 ---
 
@@ -370,7 +370,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{\sqrt{x^2+4}}$
 > 
-> 📁 [Solución](solutions/prob-40/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-40)
 
 ---
 
@@ -378,7 +378,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{\sqrt{x^2-1}}$
 > 
-> 📁 [Solución](solutions/prob-41/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-41)
 
 ---
 
@@ -388,7 +388,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \sqrt{4-x^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-42/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-42)
 
 ---
 
@@ -396,7 +396,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^2}{\sqrt{1-x^2}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-43/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-43)
 
 ---
 
@@ -404,7 +404,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{(x^2+1)^{3/2}}$
 > 
-> 📁 [Solución](solutions/prob-44/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-44)
 
 ---
 
@@ -412,7 +412,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\sqrt{x^2-4}}{x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-45/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-45)
 
 ---
 
@@ -422,7 +422,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int x^2 \sqrt{1-x^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-46/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-46)
 
 ---
 
@@ -430,7 +430,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^2}{(x^2+4)^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-47/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-47)
 
 ---
 
@@ -438,7 +438,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{x^2\sqrt{x^2+9}}$
 > 
-> 📁 [Solución](solutions/prob-48/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-48)
 
 ---
 
@@ -450,7 +450,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{x^2-1} \, dx$
 > 
-> 📁 [Solución](solutions/prob-49/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-49)
 
 ---
 
@@ -458,7 +458,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{x^2-4} \, dx$
 > 
-> 📁 [Solución](solutions/prob-50/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-50)
 
 ---
 
@@ -466,7 +466,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x}{(x-1)(x+2)} \, dx$
 > 
-> 📁 [Solución](solutions/prob-51/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-51)
 
 ---
 
@@ -474,7 +474,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{3x+5}{x^2+3x+2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-52/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-52)
 
 ---
 
@@ -484,7 +484,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^2}{x^2-1} \, dx$
 > 
-> 📁 [Solución](solutions/prob-53/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-53)
 
 ---
 
@@ -492,7 +492,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{x(x-1)^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-54/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-54)
 
 ---
 
@@ -500,7 +500,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{2x+1}{(x+1)(x^2+1)} \, dx$
 > 
-> 📁 [Solución](solutions/prob-55/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-55)
 
 ---
 
@@ -508,7 +508,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^3+1}{x^2-x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-56/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-56)
 
 ---
 
@@ -518,7 +518,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^2+1}{(x-1)^2(x+1)} \, dx$
 > 
-> 📁 [Solución](solutions/prob-57/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-57)
 
 ---
 
@@ -526,7 +526,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{x^4-1} \, dx$
 > 
-> 📁 [Solución](solutions/prob-58/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-58)
 
 ---
 
@@ -534,7 +534,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x^2}{(x^2+1)^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-59/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-59)
 
 ---
 
@@ -546,7 +546,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{x^2+4x+5}$
 > 
-> 📁 [Solución](solutions/prob-60/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-60)
 
 ---
 
@@ -554,7 +554,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{\sqrt{4x-x^2}}$
 > 
-> 📁 [Solución](solutions/prob-61/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-61)
 
 ---
 
@@ -562,7 +562,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x+1}{x^2+2x+5} \, dx$
 > 
-> 📁 [Solución](solutions/prob-62/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-62)
 
 ---
 
@@ -572,7 +572,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{dx}{x^2-6x+13}$
 > 
-> 📁 [Solución](solutions/prob-63/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-63)
 
 ---
 
@@ -580,7 +580,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{2x-3}{x^2+4x+8} \, dx$
 > 
-> 📁 [Solución](solutions/prob-64/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-64)
 
 ---
 
@@ -592,7 +592,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x+1}{\sqrt{x^2+2x+5}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-65/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-65)
 
 ---
 
@@ -600,7 +600,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{e^x}{1+e^{2x}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-66/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-66)
 
 ---
 
@@ -608,7 +608,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\sqrt{x}}{1+x} \, dx$
 > 
-> 📁 [Solución](solutions/prob-67/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-67)
 
 ---
 
@@ -616,7 +616,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{1}{1+\sqrt[3]{x}} \, dx$
 > 
-> 📁 [Solución](solutions/prob-68/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-68)
 
 ---
 
@@ -624,7 +624,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{x \arctan x}{(1+x^2)^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-69/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-69)
 
 ---
 
@@ -632,7 +632,7 @@ Colección de problemas organizados por técnica de integración con dificultad 
 > 
 > Calcular: $\displaystyle\int \frac{\ln(1+x^2)}{x^2} \, dx$
 > 
-> 📁 [Solución](solutions/prob-70/)
+📎 **Solución:** [Ver respuesta](../solutions/CI-02-Respuestas.md#prob-70)
 
 ---
 
