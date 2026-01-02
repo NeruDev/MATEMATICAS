@@ -5,11 +5,11 @@ topic_id: ed-04-transformada-laplace
 file_id: ED-04-Transformada-Laplace-Intro
 status: stable
 audience: student
-requires: [ed-02-[edo](../..](../../glossary.md)#edo)-segundo-[orden](../..](../../glossary.md)#orden), ci-integrales-impropias]
+requires: [ed-02-[edo](../../glossary.md#orden), ci-integrales-impropias]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -17,15 +17,14 @@ requires: [ed-02-[edo](../..](../../glossary.md)#edo)-segundo-[orden](../..](../
 
 ## Propósito del tema
 
-Dominar la [transformada de Laplace](../..](../../glossary.md)#transformada-de-laplace) como herramienta algebraica para resolver [ecuaciones diferenciales](../..](../../glossary.md)#ecuaciones-diferenciales) con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
+Dominar la [transformada de Laplace](../../glossary.md#ecuaciones-diferenciales) con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
 
 ## Mapa de recursos
 
 ```
-[ED-04-Transformada-Laplace-Intro.md](ED-04-Transformada-Laplace-Intro.md)     ← Estás aquí
-[ED-04-Resumen-Formulas.md](ED-04-Resumen-Formulas.md)               ← Fórmulas clave para repaso
+[ED-04-Transformada-Laplace-Intro.md](ED-04-Resumen-Formulas.md)               ← Fórmulas clave para repaso
 theory/
-  └── [ED-04-Teoria-Laplace.md](ED-04-Teoria-Laplace.md)           ← Desarrollo completo
+  └── [ED-04-Teoria-Laplace.md](theory/ED-04-Teoria-Transformada-Laplace.md)           ← Desarrollo completo
 methods/
   └── [métodos paso a paso]
 problems/
@@ -38,14 +37,8 @@ solutions/
 
 1. **Definición**: $\mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)\,dt$
 2. **Transformadas básicas**: tabla de funciones elementales
-3. **Propiedades**: [linealidad](../..](../../glossary.md)#linealidad), traslación, [derivadas](../..](../../glossary.md)#derivadas), integrales
-4. **Transformada inversa**: [fracciones parciales](../..](../../glossary.md)#fracciones-parciales)
-5. **Resolución de PVI**: método algebraico
-6. **Funciones especiales**: escalón unitario, delta de Dirac
-
-## Conexiones
-
-- **Prerequisitos**: [EDO](../..](../../glossary.md)#edo) de segundo [orden](../..](../../glossary.md)#orden), [Integrales impropias](../..](../../glossary.md)#integrales-impropias)
+3. **Propiedades**: [linealidad](../../glossary.md#derivadas), integrales
+4. **Transformada inversa**: [fracciones parciales](../../glossary.md#edo) de segundo [orden](../../glossary.md#integrales-impropias)
 - **Usos posteriores**: Control automático, Señales y sistemas, Ingeniería
 
 ## Vista previa de conceptos clave
@@ -64,14 +57,7 @@ solutions/
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| [Derivada](../../glossary.md#derivada) | $\mathcal{L}\{f'(t)\} = sF(s) - f(0)$ |
-| Traslación en $s$ | $\mathcal{L}\{e^{at}f(t)\} = F(s-a)$ |
-| Traslación en $t$ | $\mathcal{L}\{u(t-a)f(t-a)\} = e^{-as}F(s)$ |
-
----
-
-<!--
-IA: Punto de entrada para [Transformada de Laplace](../..](../../glossary.md)#transformada-de-laplace).
+| [Derivada](../../glossary.md#transformada-de-laplace).
 Para fórmulas rápidas: [ED-04-Resumen-Formulas.md](ED-04-Resumen-Formulas.md)
 file_id: ED-04-Transformada-Laplace-Intro
 -->

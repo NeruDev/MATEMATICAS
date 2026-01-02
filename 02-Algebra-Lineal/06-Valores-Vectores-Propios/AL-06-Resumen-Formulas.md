@@ -7,7 +7,7 @@ status: stable
 audience: student
 -->
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -16,11 +16,7 @@ audience: student
 ## Definiciones fundamentales
 
 ### Valor propio (eigenvalor)
-$\lambda$ es **valor propio** de $A$ si existe $\vec{v} \neq \vec{0}$ [tal que](../..](../../glossary.md)#tal-que):
-$$A\vec{v} = \lambda\vec{v}$$
-
-### Vector propio (eigenvector)
-$\vec{v} \neq \vec{0}$ es **[vector](../..](../../glossary.md)#vector) propio** asociado a $\lambda$ si:
+$\lambda$ es **valor propio** de $A$ si existe $\vec{v} \neq \vec{0}$ [tal que](../../glossary.md#vector) propio** asociado a $\lambda$ si:
 $$A\vec{v} = \lambda\vec{v}$$
 
 ### Ecuación característica
@@ -30,7 +26,7 @@ $$\det(A - \lambda I) = 0$$
 
 $$p(\lambda) = \det(A - \lambda I)$$
 
-Para [matriz](../..](../../glossary.md)#matriz) $n \times n$: [polinomio](../..](../../glossary.md)#polinomio) de grado $n$.
+Para [matriz](../../glossary.md#polinomio) de grado $n$.
 
 ### Caso 2×2
 $$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
@@ -39,8 +35,7 @@ $$p(\lambda) = \lambda^2 - (a+d)\lambda + (ad-bc)$$
 $$p(\lambda) = \lambda^2 - \text{tr}(A)\lambda + \det(A)$$
 
 ### Fórmulas útiles
-- **[Traza](../..](../../glossary.md)#traza)**: $\text{tr}(A) = \sum \lambda_i$ (suma de valores propios)
-- **[Determinante](../..](../../glossary.md)#determinante)**: $\det(A) = \prod \lambda_i$ (producto de valores propios)
+- **[Traza](../../glossary.md#determinante)**: $\det(A) = \prod \lambda_i$ (producto de valores propios)
 
 ## Espacio propio (eigenespacio)
 
@@ -64,27 +59,7 @@ $$1 \leq m_g(\lambda) \leq m_a(\lambda)$$
 ## Diagonalización
 
 ### Matriz diagonalizable
-$A$ es **diagonalizable** si existe $P$ invertible [tal que](../..](../../glossary.md)#tal-que):
-$$A = PDP^{-1}$$
-
-donde $D$ es diagonal.
-
-### Construcción
-- $D$: valores propios en la diagonal
-- $P$: columnas son los vectores propios correspondientes
-
-$$P = \begin{pmatrix} | & | & & | \\ \vec{v}_1 & \vec{v}_2 & \cdots & \vec{v}_n \\ | & | & & | \end{pmatrix}, \quad D = \begin{pmatrix} \lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & \lambda_n \end{pmatrix}$$
-
-### Criterios de diagonalización
-
-$A$ ($n \times n$) es diagonalizable si y solo si:
-1. $A$ tiene $n$ vectores propios linealmente independientes
-2. $m_g(\lambda) = m_a(\lambda)$ para todo $\lambda$
-3. La suma de dimensiones de espacios propios es $n$
-
-### Casos garantizados
-- $n$ valores propios distintos $\Rightarrow$ diagonalizable
-- [Matriz simétrica](../..](../../glossary.md)#matriz-simetrica) real $\Rightarrow$ diagonalizable (con valores propios reales)
+$A$ es **diagonalizable** si existe $P$ invertible [tal que](../../glossary.md#matriz-simetrica) real $\Rightarrow$ diagonalizable (con valores propios reales)
 
 ## Potencias de matrices
 
@@ -108,14 +83,7 @@ $$D^k = \begin{pmatrix} \lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots
 ## Matrices similares
 
 Si $B = P^{-1}AP$:
-- Mismo [polinomio característico](../..](../../glossary.md)#polinomio-caracteristico)
-- Mismos valores propios
-- Misma [traza](../..](../../glossary.md)#traza) y [determinante](../..](../../glossary.md)#determinante)
-- Si $\vec{v}$ es eigenvector de $A$, entonces $P^{-1}\vec{v}$ es eigenvector de $B$
-
-## Teorema de Cayley-Hamilton
-
-Toda [matriz](../..](../../glossary.md)#matriz) satisface su propia ecuación característica:
+- Mismo [polinomio característico](../../glossary.md#traza) y [determinante](../../glossary.md#matriz) satisface su propia ecuación característica:
 $$p(A) = 0$$
 
 Si $p(\lambda) = \lambda^2 - 5\lambda + 6$, entonces $A^2 - 5A + 6I = O$.

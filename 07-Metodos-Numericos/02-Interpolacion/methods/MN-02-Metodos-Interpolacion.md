@@ -5,13 +5,13 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: Interpolación
 
-> **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../..](../../../glossary.md)#interpolacion) numérica con algoritmos detallados, ejemplos completos y análisis de error.
+> **Referencia rápida:** Esta guía presenta 10 métodos de [interpolación](../../../glossary.md#interpolacion) numérica con algoritmos detallados, ejemplos completos y análisis de error.
 
 ---
 
@@ -19,24 +19,12 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Lagrange](#método-1-[interpolación](../../../glossary.md#interpolacion)-de-lagrange) | General, pocos puntos | ⭐⭐ |
-| 2 | [Diferencias Divididas](#método-2-diferencias-divididas-de-newton) | General, agregar puntos | ⭐⭐ |
-| 3 | [Newton Progresivo](#método-3-newton-progresivo) | Datos equiespaciados | ⭐⭐ |
-| 4 | [Newton Regresivo](#método-4-newton-regresivo) | Extrapolación final | ⭐⭐ |
-| 5 | [Hermite](#método-5-interpolación-de-hermite) | Con [derivadas](../../../glossary.md#derivadas) | ⭐⭐⭐ |
-| 6 | [Splines Cúbicos](#método-6-splines-cúbicos-naturales) | Curvas suaves | ⭐⭐⭐ |
-| 7 | [Splines Sujetos](#método-7-splines-cúbicos-sujetos) | [Derivadas](../../../glossary.md#derivadas) en extremos | ⭐⭐⭐ |
-| 8 | [Neville](#método-8-algoritmo-de-neville) | Evaluación directa | ⭐⭐ |
-| 9 | [Baricentrica](#método-9-interpolación-baricéntrica) | Evaluación eficiente | ⭐⭐⭐ |
-| 10 | [Trigonométrica](#método-10-interpolación-trigonométrica) | Datos periódicos | ⭐⭐⭐ |
-
----
-
-## Conceptos Fundamentales
-
-### Teorema de Existencia y Unicidad
-
-Dados $n+1$ puntos $(x_0, y_0), \ldots, (x_n, y_n)$ con $x_i$ distintos, existe un **único** [polinomio](../../..](../../../glossary.md)#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../..](../../../glossary.md)#tal-que) $P(x_i) = y_i$.
+| 1 | [Lagrange](../../../glossary.md#interpolacion)-de-lagrange) | General, pocos puntos | ⭐⭐ |
+| 2 | [Diferencias Divididas](#método-3-newton-progresivo) | Datos equiespaciados | ⭐⭐ |
+| 4 | [Newton Regresivo](#método-5-interpolación-de-hermite) | Con [derivadas](#método-6-splines-cúbicos-naturales) | Curvas suaves | ⭐⭐⭐ |
+| 7 | [Splines Sujetos](../../../glossary.md#derivadas) en extremos | ⭐⭐⭐ |
+| 8 | [Neville](#método-9-interpolación-baricéntrica) | Evaluación eficiente | ⭐⭐⭐ |
+| 10 | [Trigonométrica](../../..](../../../glossary.md#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../../glossary.md#tal-que) $P(x_i) = y_i$.
 
 ### Error de Interpolación
 
@@ -64,7 +52,7 @@ Interpolación con muchos puntos equiespaciados puede **oscilar** en los extremo
 
 $$P_n(x) = \sum_{i=0}^{n} y_i L_i(x)$$
 
-donde los **polinomios [base](../../..](../../../glossary.md)#base) de Lagrange** son:
+donde los **polinomios [base](../../../glossary.md#base) de Lagrange** son:
 
 $$L_i(x) = \prod_{j=0, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}$$
 
@@ -150,11 +138,11 @@ $$\boxed{P(2) = \frac{5}{3} \approx 1.667}$$
 
 - Se necesita agregar puntos fácilmente
 - Evaluación eficiente
-- Análisis de [polinomio](../../..](../../../glossary.md)#polinomio)
+- Análisis de [polinomio](../../../glossary.md#polinomio)
 
 ### Fórmulas
 
-**[Diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas):**
+**[Diferencias divididas](../../../glossary.md#diferencias-divididas):**
 
 $$f[x_i] = y_i$$
 
@@ -164,7 +152,7 @@ $$f[x_i, \ldots, x_{i+k}] = \frac{f[x_{i+1}, \ldots, x_{i+k}] - f[x_i, \ldots, x
 
 **Polinomio:**
 
-$$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0) + f[x_0,x_1,x_2](x-x_0)(x-x_1) + \cdots$$
+$$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0)(x-x_1) + \cdots$$
 
 ### Algoritmo de Resolución
 
@@ -211,7 +199,7 @@ def evaluar_newton(coefs, x_data, x):
 
 ---
 
-**Paso 1: Tabla de [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas)**
+**Paso 1: Tabla de [diferencias divididas](../../../glossary.md#diferencias-divididas)**
 
 | $i$ | $x_i$ | $f[x_i]$ | $f[x_i, x_{i+1}]$ | $f[x_i, x_{i+1}, x_{i+2}]$ |
 |:---:|:-----:|:--------:|:-----------------:|:--------------------------:|
@@ -434,9 +422,9 @@ $z: 0, 0, 1, 1$
 
 **Cálculos:**
 
-- $f[z_0, z_1] = f'(0) = 1$ ([derivada](../../..](../../../glossary.md)#derivada) dada)
+- $f[z_0, z_1] = f'(0) = 1$ ([derivada](../../../glossary.md#derivada) dada)
 - $f[z_1, z_2] = \frac{1-0}{1-0} = 1$
-- $f[z_2, z_3] = f'(1) = 0$ ([derivada](../../..](../../../glossary.md)#derivada) dada)
+- $f[z_2, z_3] = f'(1) = 0$ ([derivada](../../../glossary.md#derivada) dada)
 - $f[z_0, z_1, z_2] = \frac{1-1}{1-0} = 0$
 - $f[z_1, z_2, z_3] = \frac{0-1}{1-0} = -1$
 - $f[z_0, z_1, z_2, z_3] = \frac{-1-0}{1-0} = -1$
@@ -510,7 +498,7 @@ $$d_i = \frac{c_{i+1} - c_i}{3h_i}$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Spline cúbico](../../..](../../../glossary.md)#spline-cubico) natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
+**Problema:** [Spline cúbico](../../../glossary.md#spline-cubico) natural para $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
@@ -655,7 +643,7 @@ $$\boxed{P(1.5) = 2.875}$$
 ### Cuándo Usar
 
 - Evaluación eficiente en múltiples puntos
-- [Estabilidad numérica](../../..](../../../glossary.md)#estabilidad-numerica) mejorada
+- [Estabilidad numérica](../../../glossary.md#estabilidad-numerica) mejorada
 
 ### Fórmulas
 

@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -17,7 +17,7 @@ audience: student
 
 ## Problema
 
-Descomponer el [vector](../../../..](../../../../glossary.md)#vector) $\mathbf{F} = \langle 5, 8, -1 \rangle$ en componentes paralela y perpendicular al vector $\mathbf{d} = \langle 1, 2, 2 \rangle$.
+Descomponer el [vector](../../../../glossary.md#vector) $\mathbf{F} = \langle 5, 8, -1 \rangle$ en componentes paralela y perpendicular al vector $\mathbf{d} = \langle 1, 2, 2 \rangle$.
 
 ---
 

@@ -10,7 +10,7 @@ methods: ["ecuacion-cuadratica", "formula-general", "factorizacion", "analisis-f
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -124,7 +124,7 @@ $$t - 3 = 0 \quad \Rightarrow \quad t = 3$$
 
 ### ¿Por qué hay una sola solución?
 
-El discriminante $\Delta = 0$ indica que la parábola $h(t) = -5t^2 + 30t + 10$ es **[tangente](../../../..](../../../../glossary.md)#tangente)** a la recta horizontal $h = 55$.
+El discriminante $\Delta = 0$ indica que la parábola $h(t) = -5t^2 + 30t + 10$ es **[tangente](../../../../glossary.md#tangente)** a la recta horizontal $h = 55$.
 
 Esto significa que:
 - El proyectil alcanza exactamente 55 metros **una sola vez**

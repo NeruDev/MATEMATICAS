@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -67,13 +67,6 @@ solved_detailed: 0
 
 | Propiedad | Fórmula |
 |:----------|:--------|
-| [Linealidad](../../../glossary.md#linealidad) | $\mathcal{L}\{af + bg\} = aF + bG$ |
-| Traslación en $s$ | $\mathcal{L}\{e^{at}f\} = F(s-a)$ |
-| Traslación en $t$ | $\mathcal{L}\{f(t-a)u(t-a)\} = e^{-as}F(s)$ |
-| [Derivada](../../../glossary.md#derivada) | $\mathcal{L}\{f'\} = sF(s) - f(0)$ |
+| [Linealidad](../../../glossary.md#derivada) | $\mathcal{L}\{f'\} = sF(s) - f(0)$ |
 | Multiplicación por $t$ | $\mathcal{L}\{tf\} = -F'(s)$ |
-| [Convolución](../../../glossary.md#convolucion) | $\mathcal{L}\{f * g\} = F(s)G(s)$ |
-
----
-
-> 📚 **Archivo de problemas:** [problems/ED-04-Problemas.md](../problems/ED-04-Problemas.md)
+| [Convolución](../problems/ED-04-Problemas.md)

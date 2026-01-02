@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -26,7 +26,7 @@ Si $f$ satisface:
 2. $f$ es derivable en $(a, b)$
 3. $f(a) = f(b)$
 
-Entonces existe al menos un $c \in (a, b)$ [tal que](../../..](../../../glossary.md)#tal-que) $f'(c) = 0$.
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que) $f'(c) = 0$.
 
 ### Algoritmo de Resolución
 
@@ -44,9 +44,9 @@ Entonces existe al menos un $c \in (a, b)$ [tal que](../../..](../../../glossary
 
 ---
 
-**Paso 1: Verificar [continuidad](../../..](../../../glossary.md)#continuidad)**
+**Paso 1: Verificar [continuidad](../../../glossary.md#continuidad)**
 
-$f(x) = x^3 - 3x$ es un [polinomio](../../..](../../../glossary.md)#polinomio), continuo en todo $\mathbb{R}$ ✓
+$f(x) = x^3 - 3x$ es un [polinomio](../../../glossary.md#polinomio), continuo en todo $\mathbb{R}$ ✓
 
 ---
 
@@ -83,7 +83,7 @@ $$\boxed{c_1 = -1, \quad c_2 = 1}$$
 
 ## Método 2: Teorema del Valor Medio (TVM)
 
-**Cuándo Usar:** Para relacionar el cambio promedio de una [función](../../..](../../../glossary.md)#funcion) con su [derivada](../../..](../../../glossary.md)#derivada) instantánea.
+**Cuándo Usar:** Para relacionar el cambio promedio de una [función](../../../glossary.md#funcion) con su [derivada](../../../glossary.md#derivada) instantánea.
 
 ### Enunciado del Teorema
 
@@ -91,12 +91,12 @@ Si $f$ satisface:
 1. $f$ es continua en $[a, b]$
 2. $f$ es derivable en $(a, b)$
 
-Entonces existe al menos un $c \in (a, b)$ [tal que](../../..](../../../glossary.md)#tal-que):
+Entonces existe al menos un $c \in (a, b)$ [tal que](../../../glossary.md#tal-que):
 $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 ### Interpretación Geométrica
 
-> La pendiente de la recta secante entre $(a, f(a))$ y $(b, f(b))$ es igual a la pendiente de la recta [tangente](../../..](../../../glossary.md)#tangente) en algún punto $c$ intermedio.
+> La pendiente de la recta secante entre $(a, f(a))$ y $(b, f(b))$ es igual a la pendiente de la recta [tangente](../../../glossary.md#tangente) en algún punto $c$ intermedio.
 
 ### Algoritmo de Resolución
 
@@ -116,7 +116,7 @@ $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
 **Paso 1: Verificar hipótesis**
 
-$f(x)$ es [polinomio](../../..](../../../glossary.md)#polinomio): continua y derivable en todo $\mathbb{R}$ ✓
+$f(x)$ es [polinomio](../../../glossary.md#polinomio): continua y derivable en todo $\mathbb{R}$ ✓
 
 ---
 
@@ -154,11 +154,11 @@ $$\boxed{c = 1}$$
 
 ## Método 3: Regla de L'Hôpital (Forma $\frac{0}{0}$)
 
-**Cuándo Usar:** [Límites](../../..](../../../glossary.md)#limites) de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) de la forma $\frac{0}{0}$ que no se pueden resolver por métodos algebraicos simples.
 
 ### Enunciado
 
-Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el [límite](../../..](../../../glossary.md)#limite) $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
+Si $\displaystyle\lim_{x \to a} f(x) = 0$ y $\displaystyle\lim_{x \to a} g(x) = 0$, y el [límite](../../../glossary.md#limite) $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ existe, entonces:
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
@@ -168,8 +168,7 @@ $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 |------|--------|---------|
 | 1 | Verificar forma $\frac{0}{0}$ | Sustituir directamente |
 | 2 | Derivar numerador y denominador | Por separado |
-| 3 | Evaluar nuevo [límite](../../../glossary.md#limite) | Sustituir o repetir L'Hôpital |
-| 4 | Repetir si [necesario](../../../glossary.md#necesario) | Si sigue siendo indeterminado |
+| 3 | Evaluar nuevo [límite](../../../glossary.md#necesario) | Si sigue siendo indeterminado |
 
 ### Ejemplo Detallado
 
@@ -208,7 +207,7 @@ $$\boxed{\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \frac{1}{2}}$$
 
 ## Método 4: Regla de L'Hôpital (Forma $\frac{\infty}{\infty}$)
 
-**Cuándo Usar:** [Límites](../../..](../../../glossary.md)#limites) donde tanto numerador como denominador tienden a infinito.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) donde tanto numerador como denominador tienden a infinito.
 
 ### Ejemplo Detallado
 
@@ -354,7 +353,7 @@ $$\boxed{\lim_{x \to 0^+} \left(\frac{1}{x} - \frac{1}{\sin x}\right) = 0}$$
 
 ## Método 7: L'Hôpital para Formas Exponenciales ($0^0$, $1^\infty$, $\infty^0$)
 
-**Cuándo Usar:** Límites de la forma $[f(x)]^{g(x)}$ donde la [base](../../..](../../../glossary.md)#base) y/o exponente producen indeterminación.
+**Cuándo Usar:** Límites de la forma $[f(x)]^{g(x)}$ donde la [base](../../../glossary.md#base) y/o exponente producen indeterminación.
 
 ### Algoritmo de Resolución
 
@@ -436,20 +435,7 @@ $$= f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \
 
 ### Series de Maclaurin Importantes (Taylor en $a = 0$)
 
-| [Función](../../../glossary.md#funcion) | Serie de Maclaurin |
-|---------|-------------------|
-| $e^x$ | $\sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$ |
-| $\sin x$ | $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots$ |
-| $\cos x$ | $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots$ |
-| $\ln(1+x)$ | $\sum_{n=1}^{\infty} \frac{(-1)^{n+1} x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots$ |
-| $\frac{1}{1-x}$ | $\sum_{n=0}^{\infty} x^n = 1 + x + x^2 + x^3 + \cdots$ |
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Identificar centro $a$ | Usualmente $a = 0$ (Maclaurin) |
-| 2 | Calcular [derivadas](../../../glossary.md#derivadas) | $f(a), f'(a), f''(a), \ldots$ |
+| [Función](../../../glossary.md#derivadas) | $f(a), f'(a), f''(a), \ldots$ |
 | 3 | Escribir términos | $\frac{f^{(n)}(a)}{n!}(x-a)^n$ |
 | 4 | Identificar patrón | Si existe |
 
@@ -459,7 +445,7 @@ $$= f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \
 
 ---
 
-**Paso 1: Calcular [derivadas](../../..](../../../glossary.md)#derivadas) y evaluarlas en $a = 0$**
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas) y evaluarlas en $a = 0$**
 
 | $n$ | $f^{(n)}(x)$ | $f^{(n)}(0)$ |
 |-----|-------------|-------------|

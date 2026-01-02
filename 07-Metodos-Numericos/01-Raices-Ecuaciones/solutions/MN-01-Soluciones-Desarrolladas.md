@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -69,7 +69,7 @@ Fórmula: $x_{n+1} = x_n - \frac{x_n^2 - 5}{2x_n} = \frac{x_n^2 + 5}{2x_n} = \fr
 
 $$\boxed{\sqrt{5} \approx 2.2360679775}$$
 
-La [convergencia](../../..](../../../glossary.md)#convergencia) es cuadrática: el número de dígitos correctos se duplica en cada iteración.
+La [convergencia](../../../glossary.md#convergencia) es cuadrática: el número de dígitos correctos se duplica en cada iteración.
 
 ---
 
@@ -142,7 +142,7 @@ $$\boxed{g_2(x) = (x+1)^{1/3} \text{ converge}}$$
 
 ## Solución Problema 17 (Newton para $x^2 - a$)
 
-**Demostrar la fórmula y verificar [convergencia](../../..](../../../glossary.md)#convergencia) cuadrática**
+**Demostrar la fórmula y verificar [convergencia](../../../glossary.md#convergencia) cuadrática**
 
 $f(x) = x^2 - a$, $f'(x) = 2x$
 
@@ -219,7 +219,7 @@ Para $x_n$ cerca de $x^*$: $f'(x_n) \approx f'(x^*)$
 
 $$e_{n+1} \approx e_n - e_n - \frac{f''(\xi_n)}{2f'(x^*)}e_n^2 = -\frac{f''(\xi_n)}{2f'(x^*)}e_n^2$$
 
-Tomando [límite](../../..](../../../glossary.md)#limite):
+Tomando [límite](../../../glossary.md#limite):
 $$\boxed{\lim_{n\to\infty}\frac{|e_{n+1}|}{|e_n|^2} = \frac{|f''(x^*)|}{2|f'(x^*)|}}$$
 
-Esto confirma **[orden de convergencia](../../..](../../../glossary.md)#orden-de-convergencia) $p = 2$** (cuadrática).
+Esto confirma **[orden de convergencia](../../../glossary.md#orden-de-convergencia) $p = 2$** (cuadrática).

@@ -10,7 +10,7 @@ estimated_time: 8
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 

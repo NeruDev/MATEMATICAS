@@ -10,15 +10,15 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
 # Solución: Límite seno fundamental
 
-**Método aplicado:** [Límite](../../../..](../../../../glossary.md)#limite) trigonométrico fundamental $\lim_{u \to 0} \frac{\sin u}{u} = 1$
+**Método aplicado:** [Límite](../../../../glossary.md#limite) trigonométrico fundamental $\lim_{u \to 0} \frac{\sin u}{u} = 1$
 
-**Paso 1: Reescribir usando el [límite](../../../..](../../../../glossary.md)#limite) fundamental**
+**Paso 1: Reescribir usando el [límite](../../../../glossary.md#limite) fundamental**
 Hacemos $u = 5x$. Cuando $x \to 0$, también $u \to 0$.
 
 $$\lim_{x \to 0} \frac{\sin 5x}{x}$$

@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -60,9 +60,7 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 Dados $a=\prod p_i^{\alpha_i}$, $b=\prod p_i^{\beta_i}$:
 
 $$\gcd(a,b)=\prod p_i^{\min(\alpha_i,\beta_i)}$$
-$$\text{[mcm](../..](../../glossary.md)#mcm)}(a,b)=\prod p_i^{\max(\alpha_i,\beta_i)}$$
-
-**Relación:** $\gcd(a,b) \cdot \text{[mcm](../..](../../glossary.md)#mcm)}(a,b) = a \cdot b$
+$$\text{[mcm](../../glossary.md#mcm)}(a,b) = a \cdot b$
 
 ## Porcentajes
 

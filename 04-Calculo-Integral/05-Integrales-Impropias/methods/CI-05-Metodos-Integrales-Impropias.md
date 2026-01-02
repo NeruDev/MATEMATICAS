@@ -1,9 +1,9 @@
 <!--
 HUMANO:
-Métodos para [integrales impropias](../../..](../../../glossary.md)#integrales-impropias).
+Métodos para [integrales impropias](../../../glossary.md#integrales-impropias).
 
 IA:
-Procedimientos para evaluar y determinar [convergencia](../../..](../../../glossary.md)#convergencia) con explicaciones detalladas.
+Procedimientos para evaluar y determinar [convergencia](../../../glossary.md#convergencia) con explicaciones detalladas.
 
 ---
 content_type: methods
@@ -12,13 +12,13 @@ format: step_by_step
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos para Integrales Impropias
 
-> **Objetivo:** Dominar la evaluación y análisis de [convergencia](../../..](../../../glossary.md)#convergencia) de [integrales impropias](../../..](../../../glossary.md)#integrales-impropias) con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.
+> **Objetivo:** Dominar la evaluación y análisis de [convergencia](../../../glossary.md#convergencia) de [integrales impropias](../../../glossary.md#integrales-impropias) con explicaciones detalladas, cálculos intermedios y ejemplos clásicos paso a paso.
 
 ---
 
@@ -34,9 +34,7 @@ $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
 | Paso | Acción | Verificación |
 |------|--------|--------------|
-| 1 | Reemplazar $\infty$ por $t$ | Convertir en [integral definida](../../../glossary.md#integral-definida) |
-| 2 | Calcular la integral en términos de $t$ | Aplicar técnicas usuales |
-| 3 | Tomar el [límite](../../../glossary.md#limite) cuando $t \to \infty$ | Evaluar convergencia |
+| 1 | Reemplazar $\infty$ por $t$ | Convertir en [integral definida](../../../glossary.md#limite) cuando $t \to \infty$ | Evaluar convergencia |
 | 4 | Si el límite existe y es finito | La integral **converge** |
 | 5 | Si el límite es $\pm\infty$ o no existe | La integral **diverge** |
 
@@ -44,10 +42,10 @@ $$\int_a^{\infty} f(x)\,dx = \lim_{t \to \infty} \int_a^t f(x)\,dx$$
 
 **Problema:** Evaluar $\int_1^{\infty} e^{-x}\,dx$
 
-**Paso 1:** Reemplazamos el [límite](../../..](../../../glossary.md)#limite) infinito por $t$:
+**Paso 1:** Reemplazamos el [límite](../../../glossary.md#limite) infinito por $t$:
 $$\int_1^{\infty} e^{-x}\,dx = \lim_{t \to \infty} \int_1^t e^{-x}\,dx$$
 
-**Paso 2:** Calculamos la [integral definida](../../..](../../../glossary.md)#integral-definida):
+**Paso 2:** Calculamos la [integral definida](../../../glossary.md#integral-definida):
 $$\int_1^t e^{-x}\,dx = \left[-e^{-x}\right]_1^t = -e^{-t} - (-e^{-1}) = -e^{-t} + e^{-1}$$
 
 **Paso 3:** Tomamos el límite:
@@ -64,7 +62,7 @@ $$= 0 + e^{-1} = \frac{1}{e}$$
 ## Método 2: Evaluación Directa (Tipo II - Discontinuidad)
 
 ### Cuándo Usar
-Integrales donde el integrando tiene una discontinuidad ([asíntota](../../..](../../../glossary.md)#asintota) vertical) en uno de los [límites](../../..](../../../glossary.md)#limites) o dentro del intervalo.
+Integrales donde el integrando tiene una discontinuidad ([asíntota](../../../glossary.md#asintota) vertical) en uno de los [límites](../../../glossary.md#limites) o dentro del intervalo.
 
 ### Definición
 Si $f$ tiene discontinuidad en $x = a$:
@@ -169,16 +167,14 @@ Cuando no se puede calcular la integral explícitamente pero se puede comparar c
 
 **Para convergencia:** Si $0 \leq f(x) \leq g(x)$ y $\int g(x)\,dx$ converge, entonces $\int f(x)\,dx$ converge.
 
-**Para [divergencia](../../..](../../../glossary.md)#divergencia):** Si $f(x) \geq g(x) \geq 0$ y $\int g(x)\,dx$ diverge, entonces $\int f(x)\,dx$ diverge.
+**Para [divergencia](../../../glossary.md#divergencia):** Si $f(x) \geq g(x) \geq 0$ y $\int g(x)\,dx$ diverge, entonces $\int f(x)\,dx$ diverge.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Propósito |
 |------|--------|-----------|
 | 1 | Identificar el comportamiento dominante | Para $x$ grande o cerca de discontinuidad |
-| 2 | Encontrar [función](../../../glossary.md#funcion) de comparación $g(x)$ | Más simple, convergencia conocida |
-| 3 | Verificar la desigualdad | $f \leq g$ o $f \geq g$ |
-| 4 | Aplicar el teorema apropiado | Concluir convergencia/[divergencia](../../../glossary.md#divergencia) |
+| 2 | Encontrar [función](../../../glossary.md#divergencia) |
 
 ### Ejemplo Detallado
 
@@ -195,7 +191,7 @@ $$\frac{1}{x^2 + 1} < \frac{1}{x^2}$$
 **Paso 4:** Por el teorema de comparación:
 $$0 < \frac{1}{x^2+1} < \frac{1}{x^2}$$
 
-Como la [función](../../..](../../../glossary.md)#funcion) mayor converge, la integral $\int_1^{\infty} \frac{1}{x^2 + 1}\,dx$ **converge**.
+Como la [función](../../../glossary.md#funcion) mayor converge, la integral $\int_1^{\infty} \frac{1}{x^2 + 1}\,dx$ **converge**.
 
 ---
 
@@ -218,39 +214,7 @@ $$L = \lim_{x \to \infty} \frac{f(x)}{g(x)}$$
 |------|--------|---------|
 | 1 | Identificar término dominante de $f(x)$ | Para $x \to \infty$ |
 | 2 | Elegir $g(x)$ con ese comportamiento | Función simple |
-| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es [necesario](../../../glossary.md#necesario) |
-| 4 | Determinar convergencia de $\int g$ | Test p u otro método |
-| 5 | Concluir sobre $\int f$ | Mismo comportamiento |
-
-### Ejemplo Detallado
-
-**Problema:** Determinar si $\int_1^{\infty} \frac{x^2 + 3}{x^4 - x + 2}\,dx$ converge.
-
-**Paso 1:** Identificamos el comportamiento dominante:
-- Numerador: $x^2 + 3 \approx x^2$ para $x$ grande
-- Denominador: $x^4 - x + 2 \approx x^4$ para $x$ grande
-
-**Paso 2:** Elegimos $g(x) = \frac{x^2}{x^4} = \frac{1}{x^2}$
-
-**Paso 3:** Calculamos el límite:
-$$L = \lim_{x \to \infty} \frac{(x^2+3)/(x^4-x+2)}{1/x^2}$$
-
-$$= \lim_{x \to \infty} \frac{(x^2+3) \cdot x^2}{x^4 - x + 2}$$
-
-$$= \lim_{x \to \infty} \frac{x^4 + 3x^2}{x^4 - x + 2}$$
-
-Dividimos todo por $x^4$:
-$$= \lim_{x \to \infty} \frac{1 + 3/x^2}{1 - 1/x^3 + 2/x^4} = \frac{1 + 0}{1 - 0 + 0} = 1$$
-
-**Paso 4:** Como $L = 1$ (finito y positivo) y $\int_1^{\infty} \frac{1}{x^2}\,dx$ converge (test p, $p = 2 > 1$), entonces la integral original **converge**.
-
----
-
-## Método 7: División en Subintervalos
-
-### Cuándo Usar
-- Discontinuidad en el **interior** del intervalo
-- **Ambos** [límites](../../..](../../../glossary.md)#limites) son infinitos
+| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es [necesario](../../..](../../../glossary.md#limites) son infinitos
 
 ### Principio
 La integral total converge si y solo si **todas** las partes convergen.
@@ -295,22 +259,13 @@ $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx = \frac{\pi}{2} + \frac{\pi}{2} = 
 Para simplificar la integral antes de evaluar, especialmente con sustituciones trigonométricas.
 
 ### Punto Clave
-Al hacer [sustitución](../../..](../../../glossary.md)#sustitucion), los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
+Al hacer [sustitución](../../../glossary.md#sustitucion), los límites de integración **también cambian**. Un límite infinito puede convertirse en un valor finito.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Cuidado |
 |------|--------|---------|
-| 1 | Aplicar [sustitución](../../../glossary.md#sustitucion) usual | $u = g(x)$, $du = g'(x)dx$ |
-| 2 | Cambiar límites de integración | Evaluar $g(a)$ y $g(b)$ |
-| 3 | Si $x \to \infty$, determinar $u \to ?$ | Puede ser finito |
-| 4 | Evaluar la nueva integral | Puede ser propia o impropia |
-
-### Ejemplo Detallado
-
-**Problema:** Evaluar $\int_1^{\infty} \frac{1}{x\sqrt{x^2-1}}\,dx$
-
-**Paso 1:** Hacemos la [sustitución trigonométrica](../../..](../../../glossary.md)#sustitucion-trigonometrica) $x = \sec\theta$:
+| 1 | Aplicar [sustitución](../../..](../../../glossary.md#sustitucion-trigonometrica) $x = \sec\theta$:
 - $dx = \sec\theta\tan\theta\,d\theta$
 - $\sqrt{x^2-1} = \sqrt{\sec^2\theta - 1} = \tan\theta$
 
@@ -352,7 +307,7 @@ Para reconocer integrales clásicas cuyo valor es conocido.
 $$\int_0^{\infty} x^3 e^{-x}\,dx = 3! = 6$$
 
 **Verificación por partes (opcional):**
-Usando [integración por partes](../../..](../../../glossary.md)#integracion-por-partes) repetida o la fórmula de reducción, se confirma que el resultado es $6$.
+Usando [integración por partes](../../../glossary.md#integracion-por-partes) repetida o la fórmula de reducción, se confirma que el resultado es $6$.
 
 **Resultado:** $\boxed{6}$
 

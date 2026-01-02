@@ -11,7 +11,7 @@ expected_output:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -21,13 +21,8 @@ expected_output:
 
 | Concepto | Enlace | Descripción |
 |----------|--------|-------------|
-| Concepto de [límite](../../../../glossary.md#limite) | *Por agregar* | Visualización de aproximación a un punto |
-| [Límites](../../../../glossary.md#limites) laterales | *Por agregar* | Comparación de límites por izquierda y derecha |
-| [Forma indeterminada](../../../../glossary.md#forma-indeterminada) | *Por agregar* | Ejemplo visual de 0/0 |
-
-## Cómo agregar nuevos enlaces
-
-1. Crear el recurso en [GeoGebra](https://www.geogebra.org/)
+| Concepto de [límite](../../../../glossary.md#limites) laterales | *Por agregar* | Comparación de límites por izquierda y derecha |
+| [Forma indeterminada](https://www.geogebra.org/)
 2. Hacerlo público
 3. Copiar el enlace de compartir
 4. Agregar a esta tabla con descripción

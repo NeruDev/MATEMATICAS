@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -238,7 +238,7 @@ $i(0) = C_2 - 3 = 0 \Rightarrow C_2 = 3$
 ---
 
 ## Problema 29b
-**Encontrar [EDO](../../..](../../../glossary.md)#edo) con solución:** $y = e^{2x}(C_1\cos 3x + C_2\sin 3x)$
+**Encontrar [EDO](../../../glossary.md#edo) con solución:** $y = e^{2x}(C_1\cos 3x + C_2\sin 3x)$
 
 **Solución:**
 Las raíces son $r = 2 \pm 3i$

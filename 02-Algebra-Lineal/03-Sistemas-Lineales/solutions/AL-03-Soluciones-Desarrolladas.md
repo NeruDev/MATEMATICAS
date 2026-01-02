@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -41,7 +41,7 @@ $$\left(\begin{array}{ccc|c} 1 & 2 & 1 & 6 \\ 0 & -3 & -3 & -11 \\ 0 & -3 & 1 & 
 $R_3 \leftarrow R_3 - R_2$:
 $$\left(\begin{array}{ccc|c} 1 & 2 & 1 & 6 \\ 0 & -3 & -3 & -11 \\ 0 & 0 & 4 & 10 \end{array}\right)$$
 
-[Sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás:
+[Sustitución](../../../glossary.md#sustitucion) hacia atrás:
 - $4z = 10 \Rightarrow z = 5/2$
 - $-3y - 3(5/2) = -11 \Rightarrow y = 7/6$
 - $x + 2(7/6) + 5/2 = 6 \Rightarrow x = 5/3$

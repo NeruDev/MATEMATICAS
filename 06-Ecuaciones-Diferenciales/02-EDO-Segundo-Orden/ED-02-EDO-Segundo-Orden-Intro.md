@@ -1,15 +1,15 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-02-[edo](../..](../../glossary.md)#edo)-segundo-[orden](../..](../../glossary.md)#orden)
-file_id: ED-02-[EDO](../..](../../glossary.md)#edo)-Segundo-[Orden](../..](../../glossary.md)#orden)-Intro
+topic_id: ed-02-[edo](../../glossary.md#orden)
+file_id: ED-02-[EDO](../../glossary.md#orden)-Intro
 status: stable
 audience: student
 requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -17,15 +17,8 @@ requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
 
 ## Propósito del tema
 
-Resolver [ecuaciones diferenciales](../..](../../glossary.md)#ecuaciones-diferenciales) de segundo orden con coeficientes constantes y variables, esenciales para modelar oscilaciones, vibraciones y circuitos eléctricos.
-
-## Mapa de recursos
-
-```
-[ED-02-EDO-Segundo-Orden-Intro.md](ED-02-EDO-Segundo-Orden-Intro.md)        ← Estás aquí
-[ED-02-Resumen-Formulas.md](ED-02-Resumen-Formulas.md)               ← Fórmulas clave para repaso
-theory/
-  └── [ED-02-Teoria-EDO-Segundo-Orden.md](ED-02-Teoria-EDO-Segundo-Orden.md) ← Desarrollo completo
+Resolver [ecuaciones diferenciales](ED-02-EDO-Segundo-Orden-Intro.md)        ← Estás aquí
+[ED-02-Resumen-Formulas.md](theory/ED-02-Teoria-EDO-Segundo-Orden.md) ← Desarrollo completo
 methods/
   └── [métodos paso a paso]
 problems/
@@ -45,8 +38,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../..](../../glossary.md)#algebra-lineal) (valores propios)
-- **Usos posteriores**: Sistemas de EDO, [Transformada de Laplace](../..](../../glossary.md)#transformada-de-laplace), Vibraciones
+- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../../glossary.md#transformada-de-laplace), Vibraciones
 
 ## Vista previa de conceptos clave
 
@@ -60,13 +52,6 @@ solutions/
 
 | Método | Cuándo usar |
 |--------|-------------|
-| Coeficientes indeterminados | $g(x)$ es [polinomio](../../glossary.md#polinomio), exponencial o trigonométrica |
-| Variación de parámetros | Cualquier $g(x)$ continua |
-
----
-
-<!--
-IA: Punto de entrada para EDO de Segundo Orden.
-Para fórmulas rápidas: [ED-02-Resumen-Formulas.md](ED-02-Resumen-Formulas.md)
+| Coeficientes indeterminados | $g(x)$ es [polinomio](ED-02-Resumen-Formulas.md)
 file_id: ED-02-EDO-Segundo-Orden-Intro
 -->

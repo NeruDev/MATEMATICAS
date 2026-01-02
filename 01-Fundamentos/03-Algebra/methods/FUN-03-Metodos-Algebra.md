@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -115,7 +115,7 @@ $$\boxed{(3x - 5)(2x + 7) = 6x^2 + 11x - 35}$$
 
 ## Método 3: División Sintética (Ruffini)
 
-**Cuándo Usar:** Para dividir un [polinomio](../../..](../../../glossary.md)#polinomio) entre $(x - c)$ de manera eficiente.
+**Cuándo Usar:** Para dividir un [polinomio](../../../glossary.md#polinomio) entre $(x - c)$ de manera eficiente.
 
 ### Algoritmo de Resolución
 
@@ -181,18 +181,17 @@ $$\boxed{\text{Cociente: } 2x^3 + x^2 + 2x - 1, \quad \text{Residuo: } 5}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar [MCD](../../../glossary.md#mcd) | De coeficientes numéricos |
-| 2 | Identificar factor variable | [Menor](../../../glossary.md#menor) exponente de cada variable |
+| 1 | Identificar [MCD](../../../glossary.md#menor) exponente de cada variable |
 | 3 | Extraer factor común | Escribir fuera del paréntesis |
 | 4 | Dividir cada término | Lo que queda dentro del paréntesis |
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
+**Problema:** [Factorizar](../../../glossary.md#factorizar) $18x^4y^3 - 24x^3y^5 + 30x^5y^2$
 
 ---
 
-**Paso 1: [MCD](../../..](../../../glossary.md)#mcd) de coeficientes**
+**Paso 1: [MCD](../../../glossary.md#mcd) de coeficientes**
 
 $$\text{MCD}(18, 24, 30) = 6$$
 
@@ -248,7 +247,7 @@ $$a^2 - 2ab + b^2 = (a - b)^2$$
 
 ### Ejemplo Detallado
 
-**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) $9x^2 - 30xy + 25y^2$
+**Problema:** [Factorizar](../../../glossary.md#factorizar) $9x^2 - 30xy + 25y^2$
 
 ---
 
@@ -483,8 +482,7 @@ $$\boxed{(3x + 5y^2)(9x^2 - 15xy^2 + 25y^4)}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Eliminar paréntesis | Distribuir si es [necesario](../../../glossary.md#necesario) |
-| 2 | Eliminar fracciones | Multiplicar por [MCM](../../../glossary.md#mcm) |
+| 1 | Eliminar paréntesis | Distribuir si es [necesario](../../../glossary.md#mcm) |
 | 3 | Agrupar términos | Variables a un lado, constantes al otro |
 | 4 | Combinar | Términos semejantes |
 | 5 | Despejar | Dividir por coeficiente |
@@ -496,7 +494,7 @@ $$\boxed{(3x + 5y^2)(9x^2 - 15xy^2 + 25y^4)}$$
 
 ---
 
-**Paso 1: Calcular [MCM](../../..](../../../glossary.md)#mcm) de denominadores**
+**Paso 1: Calcular [MCM](../../../glossary.md#mcm) de denominadores**
 
 $$\text{MCM}(3, 4, 6) = 12$$
 
@@ -557,135 +555,7 @@ $$\boxed{x = 4}$$
 
 | Método | Cuándo Usar |
 |--------|-------------|
-| [Factorización](../../../glossary.md#factorizacion) | Si es fácilmente factorizable |
-| Completar cuadrado | Para derivar fórmula general |
-| Fórmula general | Siempre funciona |
-
-### Fórmula General (Bhaskara)
-
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-### Discriminante
-
-| Valor de $\Delta = b^2 - 4ac$ | Naturaleza de las raíces |
-|-------------------------------|--------------------------|
-| $\Delta > 0$ | Dos raíces reales distintas |
-| $\Delta = 0$ | Una raíz real doble |
-| $\Delta < 0$ | Dos raíces complejas conjugadas |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver $3x^2 - 10x + 3 = 0$
-
----
-
-**Paso 1: Identificar coeficientes**
-
-$$a = 3, \quad b = -10, \quad c = 3$$
-
----
-
-**Paso 2: Calcular discriminante**
-
-$$\Delta = b^2 - 4ac = (-10)^2 - 4(3)(3) = 100 - 36 = 64$$
-
-Como $\Delta > 0$, hay dos raíces reales distintas.
-
----
-
-**Paso 3: Aplicar fórmula**
-
-$$x = \frac{-(-10) \pm \sqrt{64}}{2(3)} = \frac{10 \pm 8}{6}$$
-
----
-
-**Paso 4: Calcular raíces**
-
-$$x_1 = \frac{10 + 8}{6} = \frac{18}{6} = 3$$
-
-$$x_2 = \frac{10 - 8}{6} = \frac{2}{6} = \frac{1}{3}$$
-
----
-
-**Verificación con relaciones de Vieta:**
-
-- Suma: $x_1 + x_2 = 3 + \frac{1}{3} = \frac{10}{3} = -\frac{b}{a} = \frac{10}{3}$ ✓
-- Producto: $x_1 \cdot x_2 = 3 \cdot \frac{1}{3} = 1 = \frac{c}{a} = \frac{3}{3} = 1$ ✓
-
-$$\boxed{x_1 = 3, \quad x_2 = \frac{1}{3}}$$
-
----
-
-## Método 12: Completar el Cuadrado
-
-**Cuándo Usar:** Para resolver cuadráticas, derivar fórmula del vértice, o simplificar expresiones.
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Asegurar $a = 1$ | Dividir toda la ecuación por $a$ |
-| 2 | Mover constante | Al lado derecho |
-| 3 | Calcular $\left(\frac{b}{2}\right)^2$ | Mitad del coeficiente lineal, al cuadrado |
-| 4 | Sumar a ambos lados | Para mantener igualdad |
-| 5 | Factorizar | Como cuadrado perfecto |
-| 6 | Resolver | Aplicar raíz cuadrada |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver $2x^2 + 12x - 7 = 0$ completando el cuadrado.
-
----
-
-**Paso 1: Dividir por $a = 2$**
-
-$$x^2 + 6x - \frac{7}{2} = 0$$
-
----
-
-**Paso 2: Mover constante**
-
-$$x^2 + 6x = \frac{7}{2}$$
-
----
-
-**Paso 3: Calcular $\left(\frac{b}{2}\right)^2$**
-
-$$\left(\frac{6}{2}\right)^2 = 3^2 = 9$$
-
----
-
-**Paso 4: Sumar 9 a ambos lados**
-
-$$x^2 + 6x + 9 = \frac{7}{2} + 9 = \frac{7}{2} + \frac{18}{2} = \frac{25}{2}$$
-
----
-
-**Paso 5: Factorizar**
-
-$$(x + 3)^2 = \frac{25}{2}$$
-
----
-
-**Paso 6: Aplicar raíz cuadrada**
-
-$$x + 3 = \pm\sqrt{\frac{25}{2}} = \pm\frac{5}{\sqrt{2}} = \pm\frac{5\sqrt{2}}{2}$$
-
-$$x = -3 \pm \frac{5\sqrt{2}}{2}$$
-
-$$\boxed{x = -3 + \frac{5\sqrt{2}}{2} \approx 0.536, \quad x = -3 - \frac{5\sqrt{2}}{2} \approx -6.536}$$
-
----
-
-## Método 13: Resolver Sistemas de Ecuaciones Lineales 2×2
-
-**Cuándo Usar:** Dos ecuaciones con dos incógnitas.
-
-### Métodos Disponibles
-
-| Método | Cuándo Usar |
-|--------|-------------|
-| [Sustitución](../../../glossary.md#sustitucion) | Una variable fácil de despejar |
+| [Factorización](../../../glossary.md#sustitucion) | Una variable fácil de despejar |
 | Eliminación | Coeficientes permiten fácil eliminación |
 | Igualación | Cuando ambas ecuaciones despejan la misma variable |
 
@@ -741,7 +611,7 @@ $$\begin{cases} x + y + z = 6 \\ 2x - y + z = 3 \\ x + 2y - z = 2 \end{cases}$$
 
 ---
 
-**Paso 1: [Matriz](../../..](../../../glossary.md)#matriz) aumentada**
+**Paso 1: [Matriz](../../../glossary.md#matriz) aumentada**
 
 $$\left[\begin{array}{ccc|c} 1 & 1 & 1 & 6 \\ 2 & -1 & 1 & 3 \\ 1 & 2 & -1 & 2 \end{array}\right]$$
 
@@ -759,7 +629,7 @@ $$\left[\begin{array}{ccc|c} 1 & 1 & 1 & 6 \\ 0 & -3 & -1 & -9 \\ 0 & 0 & -7 & -
 
 ---
 
-**Paso 4: [Sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás**
+**Paso 4: [Sustitución](../../../glossary.md#sustitucion) hacia atrás**
 
 De la tercera fila: $-7z = -21 \Rightarrow z = 3$
 

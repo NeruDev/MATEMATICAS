@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -17,12 +17,12 @@ status: active
 
 ### 1.1 El Problema de Interpolación
 
-Dados $n+1$ puntos $(x_0, y_0), (x_1, y_1), ..., (x_n, y_n)$ con $x_i$ distintos, encontrar una [función](../../..](../../../glossary.md)#funcion) $P(x)$ [tal que](../../..](../../../glossary.md)#tal-que):
+Dados $n+1$ puntos $(x_0, y_0), (x_1, y_1), ..., (x_n, y_n)$ con $x_i$ distintos, encontrar una [función](../../../glossary.md#funcion) $P(x)$ [tal que](../../../glossary.md#tal-que):
 $$P(x_i) = y_i \quad \text{para } i = 0, 1, ..., n$$
 
 ### 1.2 Teorema de Existencia y Unicidad
 
-> **Teorema:** Dados $n+1$ puntos con abscisas distintas, existe un único [polinomio](../../..](../../../glossary.md)#polinomio) de grado [menor](../../..](../../../glossary.md)#menor) o igual a $n$ que los interpola.
+> **Teorema:** Dados $n+1$ puntos con abscisas distintas, existe un único [polinomio](../../../glossary.md#polinomio) de grado [menor](../../../glossary.md#menor) o igual a $n$ que los interpola.
 
 **Demostración de unicidad:** Si $P$ y $Q$ son dos polinomios de grado $\leq n$ que interpolan los mismos puntos, entonces $P - Q$ tiene grado $\leq n$ y se anula en $n+1$ puntos, por lo que $P - Q = 0$.
 
@@ -61,10 +61,10 @@ $$P_2(x) = 1 \cdot L_0 + 3 \cdot L_1 + 2 \cdot L_2 = -\frac{3}{2}x^2 + \frac{7}{
 
 ### 3.1 Definición Recursiva
 
-**Diferencia dividida de [orden](../../..](../../../glossary.md)#orden) 0:**
+**Diferencia dividida de [orden](../../../glossary.md#orden) 0:**
 $$f[x_i] = f(x_i) = y_i$$
 
-**Diferencia dividida de [orden](../../..](../../../glossary.md)#orden) 1:**
+**Diferencia dividida de [orden](../../../glossary.md#orden) 1:**
 $$f[x_i, x_{i+1}] = \frac{f[x_{i+1}] - f[x_i]}{x_{i+1} - x_i}$$
 
 **Diferencia dividida de orden $k$:**
@@ -81,9 +81,9 @@ $$f[x_i, x_{i+1}, ..., x_{i+k}] = \frac{f[x_{i+1}, ..., x_{i+k}] - f[x_i, ..., x
 
 ### 3.3 Propiedades
 
-1. **Simetría:** $f[x_0, x_1, ..., x_n]$ es [invariante](../../..](../../../glossary.md)#invariante) ante permutaciones de los argumentos.
+1. **Simetría:** $f[x_0, x_1, ..., x_n]$ es [invariante](../../../glossary.md#invariante) ante permutaciones de los argumentos.
 
-2. **Relación con [derivadas](../../..](../../../glossary.md)#derivadas):** Si $f \in C^n$, entonces:
+2. **Relación con [derivadas](../../../glossary.md#derivadas):** Si $f \in C^n$, entonces:
 $$f[x_0, x_1, ..., x_n] = \frac{f^{(n)}(\xi)}{n!}$$ para algún $\xi$ en el intervalo.
 
 ---
@@ -92,7 +92,7 @@ $$f[x_0, x_1, ..., x_n] = \frac{f^{(n)}(\xi)}{n!}$$ para algún $\xi$ en el inte
 
 ### 4.1 Fórmula General
 
-$$P_n(x) = f[x_0] + f[x_0, x_1](x - x_0) + f[x_0, x_1, x_2](x - x_0)(x - x_1) + ...$$
+$$P_n(x) = f[x_0] + f[x_0, x_1](x - x_0)(x - x_1) + ...$$
 
 $$= \sum_{k=0}^{n} f[x_0, ..., x_k] \prod_{j=0}^{k-1}(x - x_j)$$
 
@@ -136,7 +136,7 @@ $$P_n(x) = \sum_{k=0}^{n} \binom{-s}{k}(-1)^k \nabla^k f_n$$
 
 ### 6.1 Teorema del Error
 
-Si $f \in C^{n+1}[a, b]$ y $P_n$ es el [polinomio](../../..](../../../glossary.md)#polinomio) interpolante en $x_0, ..., x_n \in [a, b]$, entonces:
+Si $f \in C^{n+1}[a, b]$ y $P_n$ es el [polinomio](../../../glossary.md#polinomio) interpolante en $x_0, ..., x_n \in [a, b]$, entonces:
 
 $$f(x) - P_n(x) = \frac{f^{(n+1)}(\xi_x)}{(n+1)!}\prod_{i=0}^{n}(x - x_i)$$
 
@@ -150,7 +150,7 @@ donde $M_{n+1} = \max_{a \leq x \leq b} |f^{(n+1)}(x)|$
 
 ### 6.3 Fenómeno de Runge
 
-La [función](../../..](../../../glossary.md)#funcion) $f(x) = \frac{1}{1+25x^2}$ interpolada con puntos equiespaciados en $[-1, 1]$ muestra oscilaciones crecientes cerca de los extremos cuando $n$ aumenta.
+La [función](../../../glossary.md#funcion) $f(x) = \frac{1}{1+25x^2}$ interpolada con puntos equiespaciados en $[-1, 1]$ muestra oscilaciones crecientes cerca de los extremos cuando $n$ aumenta.
 
 **Solución:** Usar nodos de Chebyshev:
 $$x_k = \cos\left(\frac{2k+1}{2(n+1)}\pi\right), \quad k = 0, 1, ..., n$$
@@ -161,7 +161,7 @@ $$x_k = \cos\left(\frac{2k+1}{2(n+1)}\pi\right), \quad k = 0, 1, ..., n$$
 
 ### 7.1 Definición
 
-Un [spline cúbico](../../..](../../../glossary.md)#spline-cubico) $S(x)$ en $[a, b]$ con nodos $a = x_0 < x_1 < ... < x_n = b$ es una función que:
+Un [spline cúbico](../../../glossary.md#spline-cubico) $S(x)$ en $[a, b]$ con nodos $a = x_0 < x_1 < ... < x_n = b$ es una función que:
 
 1. En cada subintervalo $[x_i, x_{i+1}]$, $S(x)$ es un polinomio de grado $\leq 3$
 2. $S$, $S'$ y $S''$ son continuas en $[a, b]$
@@ -172,9 +172,9 @@ Un [spline cúbico](../../..](../../../glossary.md)#spline-cubico) $S(x)$ en $[a
 En cada intervalo: $S_i(x) = a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3$
 
 **Condiciones:**
-- [Interpolación](../../..](../../../glossary.md)#interpolacion): $4n$ incógnitas (coeficientes), $n$ condiciones
-- [Continuidad](../../..](../../../glossary.md)#continuidad) de $S$: $n-1$ condiciones
-- [Continuidad](../../..](../../../glossary.md)#continuidad) de $S'$: $n-1$ condiciones
+- [Interpolación](../../../glossary.md#interpolacion): $4n$ incógnitas (coeficientes), $n$ condiciones
+- [Continuidad](../../../glossary.md#continuidad) de $S$: $n-1$ condiciones
+- [Continuidad](../../../glossary.md#continuidad) de $S'$: $n-1$ condiciones
 - Continuidad de $S''$: $n-1$ condiciones
 
 Total: $n + 3(n-1) = 4n - 3$ condiciones → Faltan 2
@@ -197,12 +197,12 @@ El cálculo de los $c_i = \frac{S''(x_i)}{2}$ lleva a un sistema tridiagonal.
 
 ### 8.1 Planteamiento
 
-Dados los puntos y sus [derivadas](../../..](../../../glossary.md)#derivadas) $(x_i, y_i, y'_i)$ para $i = 0, ..., n$, encontrar un polinomio $H(x)$ de grado $\leq 2n+1$ [tal que](../../..](../../../glossary.md)#tal-que):
+Dados los puntos y sus [derivadas](../../../glossary.md#derivadas) $(x_i, y_i, y'_i)$ para $i = 0, ..., n$, encontrar un polinomio $H(x)$ de grado $\leq 2n+1$ [tal que](../../../glossary.md#tal-que):
 $$H(x_i) = y_i, \quad H'(x_i) = y'_i$$
 
 ### 8.2 Forma de Newton para Hermite
 
-Usar [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas) "ampliadas" donde puntos repetidos implican derivadas:
+Usar [diferencias divididas](../../../glossary.md#diferencias-divididas) "ampliadas" donde puntos repetidos implican derivadas:
 $$f[x_i, x_i] = f'(x_i)$$
 
 ---
@@ -210,6 +210,6 @@ $$f[x_i, x_i] = f'(x_i)$$
 ## 9. Aplicaciones
 
 1. **Gráficos por computadora:** Curvas suaves (Bézier, B-splines)
-2. **Procesamiento de señales:** [Reconstrucción](../../..](../../../glossary.md)#reconstruccion) de señales
+2. **Procesamiento de señales:** [Reconstrucción](../../../glossary.md#reconstruccion) de señales
 3. **Tablas numéricas:** Estimación entre valores tabulados
-4. **Integración y diferenciación numérica:** [Base](../../..](../../../glossary.md)#base) para otros métodos
+4. **Integración y diferenciación numérica:** [Base](../../../glossary.md#base) para otros métodos

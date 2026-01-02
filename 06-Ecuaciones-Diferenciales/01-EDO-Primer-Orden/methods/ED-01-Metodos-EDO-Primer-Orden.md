@@ -5,13 +5,13 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Métodos: EDO de Primer Orden
 
-> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../..](../../../glossary.md)#ecuaciones-diferenciales) ordinarias de primer [orden](../../..](../../../glossary.md)#orden).
+> **Referencia rápida:** Esta guía presenta 10 métodos sistemáticos para resolver [ecuaciones diferenciales](../../../glossary.md#ecuaciones-diferenciales) ordinarias de primer [orden](../../../glossary.md#orden).
 
 ---
 
@@ -19,71 +19,12 @@ status: active
 
 | # | Método | Forma de Ecuación | Complejidad |
 |---|--------|-------------------|-------------|
-| 1 | [Variables Separables](#método-1-resolver-ecuación-separable) | $\frac{dy}{dx} = g(x)h(y)$ | ⭐ |
-| 2 | [Ecuación Lineal](#método-2-resolver-ecuación-lineal) | $y' + P(x)y = Q(x)$ | ⭐⭐ |
-| 3 | [Ecuación Exacta](#método-3-resolver-ecuación-exacta) | $M\,dx + N\,dy = 0$, $M_y = N_x$ | ⭐⭐ |
-| 4 | [Factor Integrante](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ | ⭐⭐⭐ |
-| 5 | [Bernoulli](#método-5-resolver-ecuación-de-bernoulli) | $y' + P(x)y = Q(x)y^n$ | ⭐⭐⭐ |
-| 6 | [Homogénea](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
-| 7 | [Reducción a Separable](#método-7-[sustitución](../../../glossary.md#sustitucion)-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
-| 8 | [Ricatti](#método-8-ecuación-de-ricatti) | $y' = P(x) + Q(x)y + R(x)y^2$ | ⭐⭐⭐⭐ |
-| 9 | [Identificación de Tipo](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
-| 10 | [Resolver PVI](#método-10-resolver-problema-de-valor-inicial) | Con condición inicial | ⭐ |
-
----
-
-## Método 1: Resolver Ecuación Separable
-
-### Cuándo Usar
-
-- La ecuación se puede escribir como $\frac{dy}{dx} = g(x) \cdot h(y)$
-- Las variables pueden separarse completamente
-
-### Fórmula
-
-$$\frac{dy}{dx} = g(x)h(y) \implies \int \frac{dy}{h(y)} = \int g(x)\,dx + C$$
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|:----:|--------|---------|
-| 1 | **Separar** | Llevar todos los términos con $y$ a un lado y con $x$ al otro |
-| 2 | **Verificar** | Confirmar que $h(y) \neq 0$ en el dominio |
-| 3 | **Integrar** | Integrar ambos lados independientemente |
-| 4 | **Despejar** | Obtener $y$ explícitamente si es posible |
-| 5 | **Añadir constante** | Incluir una única constante de integración $C$ |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver $\frac{dy}{dx} = \frac{x^2}{1 + y^2}$, $y(0) = 1$
-
----
-
-**Paso 1: Separar variables**
-
-$$\frac{dy}{dx} = \frac{x^2}{1 + y^2}$$
-
-$$(1 + y^2)\,dy = x^2\,dx$$
-
----
-
-**Paso 2: Integrar ambos lados**
-
-$$\int (1 + y^2)\,dy = \int x^2\,dx$$
-
-$$y + \frac{y^3}{3} = \frac{x^3}{3} + C$$
-
----
-
-**Paso 3: Aplicar condición inicial** $y(0) = 1$
-
-$$1 + \frac{1^3}{3} = \frac{0^3}{3} + C$$
-
-$$1 + \frac{1}{3} = C \implies C = \frac{4}{3}$$
-
----
-
-**Paso 4: Escribir [solución particular](../../..](../../../glossary.md)#solucion-particular)**
+| 1 | [Variables Separables](#método-2-resolver-ecuación-lineal) | $y' + P(x)y = Q(x)$ | ⭐⭐ |
+| 3 | [Ecuación Exacta](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ | ⭐⭐⭐ |
+| 5 | [Bernoulli](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
+| 7 | [Reducción a Separable](../../../glossary.md#sustitucion)-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
+| 8 | [Ricatti](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
+| 10 | [Resolver PVI](../../..](../../../glossary.md#solucion-particular)**
 
 $$y + \frac{y^3}{3} = \frac{x^3}{3} + \frac{4}{3}$$
 
@@ -106,7 +47,7 @@ $$\boxed{3y + y^3 = x^3 + 4}$$
 
 ### Fórmula
 
-**[Factor integrante](../../..](../../../glossary.md)#factor-integrante):** $\mu(x) = e^{\int P(x)\,dx}$
+**[Factor integrante](../../../glossary.md#factor-integrante):** $\mu(x) = e^{\int P(x)\,dx}$
 
 **Solución:**
 $$y = \frac{1}{\mu(x)}\left[\int \mu(x) Q(x)\,dx + C\right]$$
@@ -141,7 +82,7 @@ $$P(x) = -\frac{2}{x}, \quad Q(x) = x^3$$
 
 ---
 
-**Paso 3: [Factor integrante](../../..](../../../glossary.md)#factor-integrante)**
+**Paso 3: [Factor integrante](../../../glossary.md#factor-integrante)**
 
 $$\mu = e^{\int -\frac{2}{x}dx} = e^{-2\ln|x|} = e^{\ln|x|^{-2}} = x^{-2} = \frac{1}{x^2}$$
 
@@ -153,7 +94,7 @@ $$\frac{1}{x^2}y' - \frac{2}{x^3}y = x$$
 
 ---
 
-**Paso 5: Reconocer [derivada](../../..](../../../glossary.md)#derivada)**
+**Paso 5: Reconocer [derivada](../../../glossary.md#derivada)**
 
 $$\frac{d}{dx}\left(\frac{y}{x^2}\right) = x$$
 
@@ -188,7 +129,7 @@ $xy' - 2y = x(2x^3 + 2Cx) - 2\left(\frac{x^4}{2} + Cx^2\right) = 2x^4 + 2Cx^2 - 
 
 ### Fórmula
 
-Si es exacta, existe $F(x,y)$ [tal que](../../..](../../../glossary.md)#tal-que):
+Si es exacta, existe $F(x,y)$ [tal que](../../../glossary.md#tal-que):
 $$\frac{\partial F}{\partial x} = M, \quad \frac{\partial F}{\partial y} = N$$
 
 **Solución:** $F(x,y) = C$
@@ -293,7 +234,7 @@ $$\mu(y) = e^{\int \frac{N_x - M_y}{M}dy}$$
 
 ---
 
-**Paso 1: Calcular [derivadas](../../..](../../../glossary.md)#derivadas) parciales**
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivadas) parciales**
 
 $$M = xy + 1, \quad N = x^2 + 4xy - 2x$$
 
@@ -354,7 +295,7 @@ $$\boxed{xy + \ln|x| + 2y^2 - 2y = C}$$
 ### Cuándo Usar
 
 - Forma: $\frac{dy}{dx} + P(x)y = Q(x)y^n$ donde $n \neq 0, 1$
-- Se transforma en lineal mediante [sustitución](../../..](../../../glossary.md)#sustitucion)
+- Se transforma en lineal mediante [sustitución](../../../glossary.md#sustitucion)
 
 ### Fórmula
 
@@ -437,14 +378,14 @@ $$\boxed{y = \pm\sqrt{\frac{x^2}{2x + C}} = \pm\frac{x}{\sqrt{2x + C}}}$$
 
 ### Cuándo Usar
 
-- La [función](../../..](../../../glossary.md)#funcion) $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
+- La [función](../../../glossary.md#funcion) $f(x,y)$ cumple $f(tx, ty) = f(x,y)$ (grado 0)
 - Equivalente: $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$
 
 ### Fórmula
 
 **Sustitución:** $y = vx$ donde $v = \frac{y}{x}$
 
-**[Derivada](../../..](../../../glossary.md)#derivada):** $\frac{dy}{dx} = v + x\frac{dv}{dx}$
+**[Derivada](../../../glossary.md#derivada):** $\frac{dy}{dx} = v + x\frac{dv}{dx}$
 
 ### Algoritmo de Resolución
 
@@ -608,7 +549,7 @@ $y' = \sec^2(x + C) - 1 = \tan^2(x + C) = (x + y + 1)^2$ ✓
 ### Cuándo Usar
 
 - Forma: $\frac{dy}{dx} = P(x) + Q(x)y + R(x)y^2$
-- Se conoce una [solución particular](../../..](../../../glossary.md)#solucion-particular) $y_1(x)$
+- Se conoce una [solución particular](../../../glossary.md#solucion-particular) $y_1(x)$
 
 ### Fórmula
 
@@ -728,20 +669,7 @@ $$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
 |------|----------------|--------|
 | Separable | $y' = g(x)h(y)$ | Separar e integrar |
 | Lineal | $y' + P(x)y = Q(x)$ | Factor integrante $e^{\int P\,dx}$ |
-| Exacta | $M_y = N_x$ | Buscar $F$ [tal que](../../../glossary.md#tal-que) $F_x = M$, $F_y = N$ |
-| No exacta | $M_y \neq N_x$ | Buscar factor integrante $\mu(x)$ o $\mu(y)$ |
-| Bernoulli | $y' + Py = Qy^n$ | Sustitución $v = y^{1-n}$ |
-| Homogénea | $f(tx,ty) = f(x,y)$ | Sustitución $y = vx$ |
-| Sustitución | $y' = f(ax+by+c)$ | Sustitución $u = ax + by + c$ |
-| Ricatti | $y' = P + Qy + Ry^2$ | Conocer $y_1$, usar $y = y_1 + 1/v$ |
-
----
-
-## Método 10: Resolver Problema de Valor Inicial
-
-### Cuándo Usar
-
-- Se tiene [EDO](../../..](../../../glossary.md)#edo) junto con condición inicial $y(x_0) = y_0$
+| Exacta | $M_y = N_x$ | Buscar $F$ [tal que](../../..](../../../glossary.md#edo) junto con condición inicial $y(x_0) = y_0$
 - Se busca solución particular única
 
 ### Algoritmo de Resolución

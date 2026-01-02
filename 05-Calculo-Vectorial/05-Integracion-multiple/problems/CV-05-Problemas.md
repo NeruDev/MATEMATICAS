@@ -13,7 +13,7 @@ difficulty_distribution:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -49,9 +49,9 @@ difficulty_distribution:
 
 **[Prob-09]** Evalúa $\displaystyle\iint_D xy\, dA$ donde $D$ es el semicírculo $y = \sqrt{4 - x^2}$.
 
-**[Prob-10]** Cambia el [orden](../../..](../../../glossary.md)#orden) de integración y evalúa: $\displaystyle\int_0^1 \int_x^1 e^{y^2}\, dy\, dx$.
+**[Prob-10]** Cambia el [orden](../../../glossary.md#orden) de integración y evalúa: $\displaystyle\int_0^1 \int_x^1 e^{y^2}\, dy\, dx$.
 
-**[Prob-11]** Cambia el [orden](../../..](../../../glossary.md)#orden) de integración: $\displaystyle\int_0^2 \int_{y/2}^1 f(x, y)\, dx\, dy$.
+**[Prob-11]** Cambia el [orden](../../../glossary.md#orden) de integración: $\displaystyle\int_0^2 \int_{y/2}^1 f(x, y)\, dx\, dy$.
 
 **[Prob-12]** Evalúa $\displaystyle\int_0^1 \int_y^1 \sin(x^2)\, dx\, dy$ cambiando el orden.
 
@@ -87,7 +87,7 @@ difficulty_distribution:
 
 **[Prob-24]** Calcula el momento de inercia $I_x$ de una lámina circular de radio $a$ y densidad constante $\rho$.
 
-**[Prob-25]** Encuentra el [valor promedio](../../..](../../../glossary.md)#valor-promedio) de $f(x, y) = xy$ sobre el rectángulo $[0, 2] \times [0, 3]$.
+**[Prob-25]** Encuentra el [valor promedio](../../../glossary.md#valor-promedio) de $f(x, y) = xy$ sobre el rectángulo $[0, 2] \times [0, 3]$.
 
 ---
 
@@ -180,6 +180,5 @@ Evalúa esta integral y encuentra la atracción cuando la partícula está a alt
 
 ---
 
-> 📚 **Respuestas:** [solutions/CV-05-Respuestas.md](../solutions/CV-05-Respuestas.md)
-> 📖 **Teoría:** [`theory/`](../theory/)
+> 📚 **Respuestas:** [solutions/CV-05-Respuestas.md](../theory/)
 > 📋 **Fórmulas:** [CV-05-Resumen-Formulas.md](../CV-05-Resumen-Formulas.md)

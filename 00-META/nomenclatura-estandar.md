@@ -238,12 +238,9 @@ requires: [lista-de-dependencias]
 ```
 05-Calculo-Vectorial/01-Vectores-en-el-espacio/
 ├── manifest.json
-├── [CV-01-Vectores-Intro.md](CV-01-Vectores-Intro.md)          # entry_point
-├── [CV-01-Resumen-Formulas.md](CV-01-Resumen-Formulas.md)        # cheat_sheet
+├── [CV-01-Vectores-Intro.md](CV-01-Resumen-Formulas.md)        # cheat_sheet
 ├── theory/
-│   └── [CV-01-Teoria-Vectores.md](CV-01-Teoria-Vectores.md)     # main_theory
-├── methods/
-│   └── [CV-01-Metodo-Producto-Cruz.md](CV-01-Metodo-Producto-Cruz.md)
+│   └── [CV-01-Teoria-Vectores.md](CV-01-Metodo-Producto-Cruz.md)
 ├── problems/
 │   └── [CV-01-Problema-Recta-Plano.md](CV-01-Problema-Recta-Plano.md)
 └── solutions/

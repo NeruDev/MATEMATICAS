@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Teoría completa de [derivadas](../../..](../../../glossary.md)#derivadas).
+Teoría completa de [derivadas](../../../glossary.md#derivadas).
 
 IA:
 Este archivo define CONCEPTOS de diferenciación.
@@ -14,7 +14,7 @@ audience: self-study
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -24,7 +24,7 @@ audience: self-study
 
 ### Definición por Límite
 
-La **[derivada](../../..](../../../glossary.md)#derivada)** de $f(x)$ en $x = a$ es:
+La **[derivada](../../../glossary.md#derivada)** de $f(x)$ en $x = a$ es:
 
 $$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
 
@@ -35,13 +35,7 @@ $$f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$
 | Notación | Se lee |
 |----------|--------|
 | $f'(x)$ | "f prima de x" |
-| $\frac{df}{dx}$ | "[derivada](../../../glossary.md#derivada) de f respecto a x" |
-| $\frac{dy}{dx}$ | "derivada de y respecto a x" |
-| $Df(x)$ | "D de f de x" |
-| $\dot{y}$ | "y punto" (física) |
-
-### Interpretación Geométrica
-La derivada $f'(a)$ es la **pendiente de la recta [tangente](../../..](../../../glossary.md)#tangente)** a la gráfica de $f$ en el punto $(a, f(a))$.
+| $\frac{df}{dx}$ | "[derivada](../../..](../../../glossary.md#tangente)** a la gráfica de $f$ en el punto $(a, f(a))$.
 
 ### Interpretación Física
 Si $s(t)$ es posición, entonces $s'(t)$ es **velocidad instantánea**.
@@ -52,16 +46,6 @@ Si $v(t)$ es velocidad, entonces $v'(t) = s''(t)$ es **aceleración**.
 ## 2.2 Derivadas de Funciones Elementales
 
 ### Funciones Algebraicas
-
-| [Función](../../../glossary.md#funcion) | Derivada |
-|---------|----------|
-| $c$ (constante) | $0$ |
-| $x$ | $1$ |
-| $x^n$ | $nx^{n-1}$ |
-| $\sqrt{x} = x^{1/2}$ | $\frac{1}{2\sqrt{x}}$ |
-| $\frac{1}{x} = x^{-1}$ | $-\frac{1}{x^2}$ |
-
-### Funciones Exponenciales y Logarítmicas
 
 | [Función](../../../glossary.md#funcion) | Derivada |
 |---------|----------|
@@ -140,7 +124,7 @@ Cuando $y$ está definida implícitamente por $F(x,y) = 0$:
 
 ### Procedimiento
 1. Derivar ambos lados respecto a $x$
-2. Aplicar [regla de la cadena](../../..](../../../glossary.md)#regla-de-la-cadena): $\frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}$
+2. Aplicar [regla de la cadena](../../../glossary.md#regla-de-la-cadena): $\frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}$
 3. Despejar $\frac{dy}{dx}$
 
 ### Ejemplo
@@ -161,8 +145,8 @@ $$f^{(n)}(x) = \frac{d^nf}{dx^n}$$
 ### Interpretación
 - $f'(x)$: velocidad (tasa de cambio)
 - $f''(x)$: aceleración (tasa de cambio de la tasa de cambio)
-- $f''(x) > 0$: [concavidad](../../..](../../../glossary.md)#concavidad) hacia arriba
-- $f''(x) < 0$: [concavidad](../../..](../../../glossary.md)#concavidad) hacia abajo
+- $f''(x) > 0$: [concavidad](../../../glossary.md#concavidad) hacia arriba
+- $f''(x) < 0$: [concavidad](../../../glossary.md#concavidad) hacia abajo
 
 ---
 

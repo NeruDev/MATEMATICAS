@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -129,7 +129,7 @@ Las rectas **se intersectan** en el punto $(1, 0, -1)$, por lo que la distancia 
 
 El triple producto escalar $(\overrightarrow{P_1P_2}) \cdot (\mathbf{v_1} \times \mathbf{v_2}) = 0$ indica que:
 
-1. El [vector](../../../..](../../../../glossary.md)#vector) $\overrightarrow{P_1P_2}$ es perpendicular al vector normal común $\mathbf{v_1} \times \mathbf{v_2}$
+1. El [vector](../../../../glossary.md#vector) $\overrightarrow{P_1P_2}$ es perpendicular al vector normal común $\mathbf{v_1} \times \mathbf{v_2}$
 2. Esto significa que $\overrightarrow{P_1P_2}$ está en el plano que contiene a ambos vectores directores
 3. Por lo tanto, las rectas **son coplanares** y, al no ser paralelas, **se intersectan**
 
@@ -147,4 +147,4 @@ Ambas rectas pasan por el punto $(1, 0, -1)$. $\checkmark$
 
 ### Nota metodológica
 
-Para rectas que verdaderamente se cruzan (no coplanares), el triple producto escalar sería distinto de cero y la fórmula daría la distancia mínima entre ellas. El [vector](../../../..](../../../../glossary.md)#vector) $\mathbf{v_1} \times \mathbf{v_2}$ representa la dirección perpendicular a ambas rectas, que es la dirección del segmento más corto que las conecta.
+Para rectas que verdaderamente se cruzan (no coplanares), el triple producto escalar sería distinto de cero y la fórmula daría la distancia mínima entre ellas. El [vector](../../../../glossary.md#vector) $\mathbf{v_1} \times \mathbf{v_2}$ representa la dirección perpendicular a ambas rectas, que es la dirección del segmento más corto que las conecta.

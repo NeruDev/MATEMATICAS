@@ -9,7 +9,7 @@ requires: [fun-03-algebra, fun-04-geometria]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -22,10 +22,9 @@ Estudiar figuras geométricas mediante coordenadas y ecuaciones algebraicas, uni
 ## Mapa de recursos
 
 ```
-[FUN-06-Geometria-Analitica-Intro.md](FUN-06-Geometria-Analitica-Intro.md)     ← Estás aquí
-[FUN-06-Resumen-Formulas.md](FUN-06-Resumen-Formulas.md)              ← Fórmulas clave
+[FUN-06-Geometria-Analitica-Intro.md](FUN-06-Resumen-Formulas.md)              ← Fórmulas clave
 theory/
-  └── [FUN-06-Teoria-Geometria-Analitica.md](FUN-06-Teoria-Geometria-Analitica.md)
+  └── [FUN-06-Teoria-Geometria-Analitica.md](theory/FUN-06-Teoria-Geometria-Analitica.md)
 methods/
   └── [métodos de resolución]
 problems/
@@ -34,7 +33,7 @@ problems/
 
 ## Ruta de aprendizaje
 
-1. **[Sistema de coordenadas](../..](../../glossary.md)#sistema-de-coordenadas)**: plano cartesiano, distancia, punto medio
+1. **[Sistema de coordenadas](../../glossary.md#sistema-de-coordenadas)**: plano cartesiano, distancia, punto medio
 2. **La recta**: pendiente, ecuaciones, paralelismo, perpendicularidad
 3. **La circunferencia**: ecuación canónica y general
 4. **La parábola**: vértice, foco, directriz

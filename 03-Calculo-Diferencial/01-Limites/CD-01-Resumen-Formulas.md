@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -78,21 +78,7 @@ Si $\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0$ o $\pm\infty$, entonces:
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
-siempre que el [límite](../..](../../glossary.md)#limite) del lado derecho exista.
-
-## Teorema del Sándwich (Squeeze)
-
-Si $g(x) \leq f(x) \leq h(x)$ cerca de $a$ y:
-
-$$\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L$$
-
-entonces:
-
-$$\lim_{x \to a} f(x) = L$$
-
-## Continuidad
-
-Una [función](../..](../../glossary.md)#funcion) $f$ es **continua** en $x = a$ si:
+siempre que el [límite](../../glossary.md#funcion) $f$ es **continua** en $x = a$ si:
 
 1. $f(a)$ está definida
 2. $\lim_{x \to a} f(x)$ existe
@@ -100,4 +86,4 @@ Una [función](../..](../../glossary.md)#funcion) $f$ es **continua** en $x = a$
 
 ---
 
-> **Tip**: Siempre intenta [sustitución](../..](../../glossary.md)#sustitucion) directa primero. Si obtienes una [forma indeterminada](../..](../../glossary.md)#forma-indeterminada), aplica técnicas algebraicas o L'Hôpital.
+> **Tip**: Siempre intenta [sustitución](../../glossary.md#forma-indeterminada), aplica técnicas algebraicas o L'Hôpital.

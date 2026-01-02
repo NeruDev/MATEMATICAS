@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -17,9 +17,9 @@ status: active
 
 ### 1.1 Motivación
 
-Muchas integrales no tienen [antiderivada](../../..](../../../glossary.md)#antiderivada) elemental:
-- $\int e^{-x^2} dx$ ([función](../../..](../../../glossary.md)#funcion) de error)
-- $\int \frac{\sin(x)}{x} dx$ ([seno](../../..](../../../glossary.md)#seno) integral)
+Muchas integrales no tienen [antiderivada](../../../glossary.md#antiderivada) elemental:
+- $\int e^{-x^2} dx$ ([función](../../../glossary.md#funcion) de error)
+- $\int \frac{\sin(x)}{x} dx$ ([seno](../../../glossary.md#seno) integral)
 - $\int \sqrt{1 + \cos^2(x)} dx$ (longitud de elipse)
 
 También: datos experimentales solo disponibles en puntos discretos.
@@ -37,14 +37,14 @@ donde $x_i$ son los **nodos** y $w_i$ los **pesos**.
 
 ### 2.1 Derivación
 
-Se interpola $f$ con un [polinomio](../../..](../../../glossary.md)#polinomio) en nodos equiespaciados y se integra el polinomio.
+Se interpola $f$ con un [polinomio](../../../glossary.md#polinomio) en nodos equiespaciados y se integra el polinomio.
 
 Con $h = \frac{b-a}{n}$ y $x_i = a + ih$:
 $$\int_a^b f(x)\,dx \approx \int_a^b P_n(x)\,dx$$
 
 ### 2.2 Regla del Trapecio (n = 1)
 
-[Interpolación](../../..](../../../glossary.md)#interpolacion) lineal entre $(a, f(a))$ y $(b, f(b))$:
+[Interpolación](../../../glossary.md#interpolacion) lineal entre $(a, f(a))$ y $(b, f(b))$:
 
 $$\int_a^b f(x)\,dx \approx \frac{h}{2}[f(a) + f(b)]$$
 
@@ -55,7 +55,7 @@ $$E = -\frac{h^3}{12}f''(\xi), \quad \xi \in (a, b)$$
 
 ### 2.3 Regla de Simpson 1/3 (n = 2)
 
-[Interpolación](../../..](../../../glossary.md)#interpolacion) cuadrática por 3 puntos: $a$, $\frac{a+b}{2}$, $b$
+[Interpolación](../../../glossary.md#interpolacion) cuadrática por 3 puntos: $a$, $\frac{a+b}{2}$, $b$
 
 $$\int_a^b f(x)\,dx \approx \frac{h}{3}[f(a) + 4f(\frac{a+b}{2}) + f(b)]$$
 
@@ -120,7 +120,7 @@ Usar extrapolación de Richardson para mejorar la precisión del trapecio compue
 Sea $T(h)$ el resultado del trapecio compuesto con paso $h$. Se puede demostrar:
 $$I = T(h) + c_1 h^2 + c_2 h^4 + c_3 h^6 + ...$$
 
-Eliminando términos de bajo [orden](../../..](../../../glossary.md)#orden):
+Eliminando términos de bajo [orden](../../../glossary.md#orden):
 $$I = \frac{4T(h/2) - T(h)}{3} + O(h^4)$$
 
 ### 4.3 Esquema de Romberg
@@ -152,7 +152,7 @@ Para $\int_{-1}^{1} f(x)\,dx$:
 
 $$\int_{-1}^{1} f(x)\,dx \approx \sum_{i=1}^{n} w_i f(x_i)$$
 
-Los nodos $x_i$ son las raíces del [polinomio](../../..](../../../glossary.md)#polinomio) de Legendre $P_n(x)$.
+Los nodos $x_i$ son las raíces del [polinomio](../../../glossary.md#polinomio) de Legendre $P_n(x)$.
 
 **Tabla de nodos y pesos:**
 
@@ -178,40 +178,7 @@ $$E = \frac{2^{2n+1}(n!)^4}{(2n+1)[(2n)!]^3}f^{(2n)}(\xi)$$
 
 ### 6.1 Comparación de Órdenes
 
-| Método | [Orden](../../../glossary.md#orden) local | Orden global |
-|--------|-------------|--------------|
-| Trapecio | $O(h^3)$ | $O(h^2)$ |
-| Simpson | $O(h^5)$ | $O(h^4)$ |
-| Gauss-2 | Exacto para grado 3 | - |
-| Gauss-3 | Exacto para grado 5 | - |
-
-### 6.2 Estimación Práctica del Error
-
-**Regla de duplicación:** Si $I_n$ es el resultado con $n$ intervalos:
-$$E \approx \frac{I_{2n} - I_n}{2^p - 1}$$
-
-donde $p$ es el orden del método (2 para trapecio, 4 para Simpson).
-
----
-
-## 7. Integrales Impropias y Casos Especiales
-
-### 7.1 Integrales con Singularidades
-
-Si $f$ tiene singularidad en $a$:
-1. Separar la singularidad: $f(x) = g(x) + \frac{c}{(x-a)^\alpha}$
-2. Integrar la parte singular analíticamente
-3. Integrar $g(x)$ numéricamente
-
-### 7.2 Integrales Infinitas
-
-Cambio de variable $x = \frac{1}{t}$:
-$$\int_a^{\infty} f(x)\,dx = \int_0^{1/a} \frac{1}{t^2}f\left(\frac{1}{t}\right)dt$$
-
-### 7.3 Funciones Oscilatorias
-
-Para $\int_a^b f(x)\sin(\omega x)\,dx$ con $\omega$ grande:
-- Usar [cuadratura](../../..](../../../glossary.md)#cuadratura) de Filon
+| Método | [Orden](../../..](../../../glossary.md#cuadratura) de Filon
 - O integrar por partes y aplicar métodos estándar
 
 ---

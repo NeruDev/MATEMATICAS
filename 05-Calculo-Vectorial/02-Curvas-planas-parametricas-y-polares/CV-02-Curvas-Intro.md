@@ -9,7 +9,7 @@ requires: [FUN-05-Trigonometria, CD-02-Derivadas]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -22,7 +22,7 @@ Describir trayectorias y curvas en el plano mediante parámetros y sistemas de c
 ## Ruta de aprendizaje
 
 1. **Ecuaciones paramétricas:** representación $x(t), y(t)$; trazado y orientación.
-2. **Cálculo con parámetros:** [derivadas](../..](../../glossary.md)#derivadas) $dy/dx$, tangentes, [concavidad](../..](../../glossary.md)#concavidad).
+2. **Cálculo con parámetros:** [derivadas](../../glossary.md#concavidad).
 3. **Longitud de arco:** fórmula paramétrica para medir curvas.
 4. **Coordenadas polares:** conversión, gráficas de curvas polares clásicas.
 5. **Áreas en polares:** cálculo del área encerrada por curvas polares.
@@ -30,10 +30,9 @@ Describir trayectorias y curvas en el plano mediante parámetros y sistemas de c
 ## Mapa de recursos
 
 ```
-[CV-02-Curvas-Intro.md](CV-02-Curvas-Intro.md)          ← Estás aquí
-[CV-02-Resumen-Formulas.md](CV-02-Resumen-Formulas.md)      ← Fórmulas clave para repaso rápido
+[CV-02-Curvas-Intro.md](CV-02-Resumen-Formulas.md)      ← Fórmulas clave para repaso rápido
 theory/
-  └── [CV-02-Teoria-Curvas.md](CV-02-Teoria-Curvas.md)   ← Desarrollo completo de la teoría
+  └── [CV-02-Teoria-Curvas.md](theory/CV-02-Teoria-Curvas.md)   ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/

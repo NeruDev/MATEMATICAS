@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -30,14 +30,6 @@ $$\int f(x)\,dx = F(x) + C \quad \text{donde} \quad F'(x) = f(x)$$
 ## Tabla de integrales básicas
 
 ### Funciones algebraicas
-
-| [Función](../../glossary.md#funcion) | Integral |
-|---------|----------|
-| $x^n$ $(n \neq -1)$ | $\dfrac{x^{n+1}}{n+1} + C$ |
-| $\dfrac{1}{x}$ | $\ln\|x\| + C$ |
-| $\dfrac{1}{\sqrt{x}}$ | $2\sqrt{x} + C$ |
-
-### Funciones exponenciales y logarítmicas
 
 | [Función](../../glossary.md#funcion) | Integral |
 |---------|----------|
@@ -95,7 +87,6 @@ $$\frac{d}{dx}\left[\int f(x)\,dx\right] = f(x)$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [integral indefinida](../..](../../glossary.md)#integral-indefinida).
-Para desarrollo completo: [theory/CI-01-Teoria-Integral-Indefinida.md](theory/CI-01-Teoria-Integral-Indefinida.md)
+IA: Hoja de referencia rápida para [integral indefinida](theory/CI-01-Teoria-Integral-Indefinida.md)
 file_id: CI-01-Resumen-Formulas
 -->

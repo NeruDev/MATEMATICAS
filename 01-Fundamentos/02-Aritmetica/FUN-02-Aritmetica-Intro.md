@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -22,10 +22,9 @@ Dominar operaciones numéricas básicas y razonamiento aritmético para soportar
 ## Mapa de recursos
 
 ```
-[FUN-02-Aritmetica-Intro.md](FUN-02-Aritmetica-Intro.md)              ← Estás aquí
-[FUN-02-Resumen-Formulas.md](FUN-02-Resumen-Formulas.md)              ← Fórmulas clave para repaso
+[FUN-02-Aritmetica-Intro.md](FUN-02-Resumen-Formulas.md)              ← Fórmulas clave para repaso
 theory/
-  └── [FUN-02-Teoria-Aritmetica.md](FUN-02-Teoria-Aritmetica.md)       ← Desarrollo completo
+  └── [FUN-02-Teoria-Aritmetica.md](theory/FUN-02-Teoria-Aritmetica.md)       ← Desarrollo completo
 methods/
   └── [métodos paso a paso]
 problems/
@@ -38,24 +37,8 @@ solutions/
 
 1. **Sistemas numéricos**: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
 2. **Operaciones fundamentales**: propiedades conmutativa, asociativa, distributiva
-3. **Divisibilidad y primos**: criterios, [factorización](../..](../../glossary.md)#factorizacion) prima, TFA
-4. **[MCD](../..](../../glossary.md)#mcd) y [MCM](../..](../../glossary.md)#mcm)**: algoritmo de Euclides, método por exponentes
-5. **Fracciones**: operaciones, simplificación
-6. **Potencias y raíces**: leyes de exponentes, racionalización
-7. **Razones y proporciones**: regla de tres, proporcionalidad
-
-## Conexiones
-
-- **Prerequisitos**: Ninguno (tema fundamental)
-- **Usos posteriores**: Álgebra, ecuaciones, cálculo
-
-## Vista previa de conceptos clave
-
-| Concepto | Descripción |
-|----------|-------------|
-| PEMDAS | [Orden](../../glossary.md#orden) de operaciones |
-| [Factorización](../../glossary.md#factorizacion) prima | $n = p_1^{a_1} \cdot p_2^{a_2} \cdots$ |
-| [MCD](../../glossary.md#mcd)/[MCM](../../glossary.md#mcm) | Por exponentes mínimos/máximos |
+3. **Divisibilidad y primos**: criterios, [factorización](../../glossary.md#mcd) y [MCM](../../glossary.md#orden) de operaciones |
+| [Factorización](../../glossary.md#mcd)/[MCM](../../glossary.md#mcm) | Por exponentes mínimos/máximos |
 | Fracciones | $\frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}$ |
 | Potencias | $a^m \cdot a^n = a^{m+n}$ |
 

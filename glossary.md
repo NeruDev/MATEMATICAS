@@ -22,7 +22,7 @@ ai_usage:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](WIKI_INDEX.md) | [📖 README](README.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](README.md)
 
 ---
 
@@ -32,14 +32,10 @@ ai_usage:
 
 ## Índice por Módulo
 
-- [Fundamentos](#fundamentos)
-- [Álgebra Lineal](#álgebra-lineal)
-- [Cálculo Diferencial](#cálculo-diferencial)
-- [Cálculo Integral](#cálculo-integral)
-- [Ecuaciones Diferenciales](#ecuaciones-diferenciales)
-- [Métodos Numéricos](#métodos-numéricos)
-- [Conceptos Abstractos y Analogías](#conceptos-abstractos-y-analogías)
-- [Notación](#notación-común)
+- [Fundamentos](#álgebra-lineal)
+- [Cálculo Diferencial](#cálculo-integral)
+- [Ecuaciones Diferenciales](#métodos-numéricos)
+- [Conceptos Abstractos y Analogías](#notación-común)
 
 ---
 

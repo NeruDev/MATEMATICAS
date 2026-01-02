@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Soluciones detalladas y contextualizadas para problemas de [trigonometría](../../..](../../../glossary.md)#trigonometria).
+Soluciones detalladas y contextualizadas para problemas de [trigonometría](../../../glossary.md#trigonometria).
 
 IA:
 Antes de cada solución, incluye contexto teórico.
@@ -15,7 +15,7 @@ solution_format: context + development + verification
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -144,7 +144,7 @@ $$h = 50 \tan 62° = 50 \times 1.8807 \approx 94.0 \text{ m}$$
 ---
 
 ### Solución 5.2.10
-**Contexto:** Si $90° < \theta < 180°$ (segundo cuadrante), el [coseno](../../..](../../../glossary.md)#coseno) es negativo.
+**Contexto:** Si $90° < \theta < 180°$ (segundo cuadrante), el [coseno](../../../glossary.md#coseno) es negativo.
 
 **Desarrollo:**
 $$\cos^2\theta = 1 - \sin^2\theta = 1 - \frac{4}{9} = \frac{5}{9}$$
@@ -181,7 +181,7 @@ $$\tan 300° = -\tan 60° = -\sqrt{3}$$
 ---
 
 ### Solución 5.3.5
-**Contexto:** En el tercer cuadrante, [seno](../../..](../../../glossary.md)#seno) y [coseno](../../..](../../../glossary.md)#coseno) son negativos.
+**Contexto:** En el tercer cuadrante, [seno](../../../glossary.md#seno) y [coseno](../../../glossary.md#coseno) son negativos.
 
 **Desarrollo:**
 Dado $\cos\theta = -\frac{3}{5}$ en el cuadrante III:
@@ -192,7 +192,7 @@ $$\tan\theta = \frac{-4/5}{-3/5} = \frac{4}{3} \quad \text{(positivo en cuadrant
 ---
 
 ### Solución 5.3.7
-**Contexto:** $\sin\theta = -\frac{\sqrt{2}}{2}$ ocurre cuando el ángulo de referencia es 45° y el [seno](../../..](../../../glossary.md)#seno) es negativo (cuadrantes III y IV).
+**Contexto:** $\sin\theta = -\frac{\sqrt{2}}{2}$ ocurre cuando el ángulo de referencia es 45° y el [seno](../../../glossary.md#seno) es negativo (cuadrantes III y IV).
 
 **Desarrollo:**
 - Cuadrante III: $\theta = 180° + 45° = 225° = \frac{5\pi}{4}$
@@ -428,7 +428,7 @@ $$d = \frac{50}{\tan 17°} = \frac{50}{0.3057} \approx 163.6 \text{ m}$$
 ---
 
 ### Solución 5.10.7
-**Contexto:** Modelamos con [función](../../..](../../../glossary.md)#funcion) seno/coseno. El pasajero sube y baja con el centro a 35 m.
+**Contexto:** Modelamos con [función](../../../glossary.md#funcion) seno/coseno. El pasajero sube y baja con el centro a 35 m.
 
 **Desarrollo:**
 - El centro está a 35 m, el radio es 30 m
@@ -444,7 +444,7 @@ $$h(t) = -30\cos\left(\frac{2\pi}{30}t\right) + 35 = -30\cos\left(\frac{\pi t}{1
 ---
 
 ### Solución 5.10.8
-**Contexto:** Modelamos la marea como [función](../../..](../../../glossary.md)#funcion) coseno con máximo en $t = 0$ (6:00 AM).
+**Contexto:** Modelamos la marea como [función](../../../glossary.md#funcion) coseno con máximo en $t = 0$ (6:00 AM).
 
 **Desarrollo:**
 - Amplitud: $\frac{12 - 4}{2} = 4$ m

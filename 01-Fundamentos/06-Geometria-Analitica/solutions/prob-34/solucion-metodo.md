@@ -10,7 +10,7 @@ methods: ["sistema-ecuaciones-3x3", "completar-cuadrado", "verificacion"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 

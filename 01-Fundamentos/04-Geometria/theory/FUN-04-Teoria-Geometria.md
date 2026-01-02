@@ -9,7 +9,7 @@ requires: [fun-03-algebra]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -177,7 +177,7 @@ Cuadriláteros
 
 ### Trapecio
 
-- **[Base](../../..](../../../glossary.md)#base) mayor** y **base [menor](../../..](../../../glossary.md)#menor)**: lados paralelos
+- **[Base](../../../glossary.md#base) mayor** y **base [menor](../../../glossary.md#menor)**: lados paralelos
 - **Mediana del trapecio**: $m = \frac{B + b}{2}$
 
 ---
@@ -228,7 +228,7 @@ Un polígono es **regular** si todos sus lados y ángulos son iguales.
 
 ### Propiedades de la tangente
 
-- La [tangente](../../..](../../../glossary.md)#tangente) es perpendicular al radio en el punto de tangencia
+- La [tangente](../../../glossary.md#tangente) es perpendicular al radio en el punto de tangencia
 - Desde un punto exterior, las dos tangentes tienen igual longitud
 
 ### Ángulos en la circunferencia
@@ -397,4 +397,4 @@ $$a \cdot b = c \cdot h$$
 
 ### Principio de Cavalieri
 
-Dos sólidos con igual altura tienen igual volumen si todas las secciones paralelas a la [base](../../..](../../../glossary.md)#base) tienen igual área.
+Dos sólidos con igual altura tienen igual volumen si todas las secciones paralelas a la [base](../../../glossary.md#base) tienen igual área.

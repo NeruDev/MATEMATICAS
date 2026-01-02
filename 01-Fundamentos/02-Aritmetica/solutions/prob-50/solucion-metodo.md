@@ -6,11 +6,11 @@ file_id: FUN-02-Prob-50-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-50]"
-methods: ["[sustitución](../../../..](../../../../glossary.md)#sustitucion)", "ecuación cuadrática", "análisis algebraico"]
+methods: ["[sustitución](../../../../glossary.md#sustitucion)", "ecuación cuadrática", "análisis algebraico"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -179,7 +179,7 @@ Ambos rectángulos tienen:
 $$\boxed{\frac{a}{b} = \frac{4}{3} \quad \text{o} \quad \frac{a}{b} = \frac{3}{4}}$$
 
 Ambas soluciones son válidas. Si se pide la solución mayor que 1, es $\frac{4}{3}$.
-Si se pide la solución [menor](../../../..](../../../../glossary.md)#menor) que 1, es $\frac{3}{4}$.
+Si se pide la solución [menor](../../../../glossary.md#menor) que 1, es $\frac{3}{4}$.
 
 ---
 

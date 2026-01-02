@@ -3,12 +3,12 @@
 content_type: problem_set
 topic_id: ed-05-series-potencias
 file_id: ED-05-Problemas
-description: Problemas de Series de Potencias para [EDO](../../..](../../../glossary.md)#edo)
+description: Problemas de Series de Potencias para [EDO](../../../glossary.md#edo)
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -20,7 +20,7 @@ description: Problemas de Series de Potencias para [EDO](../../..](../../../glos
 
 ### [Prob-01] Radio de convergencia de series ⭐
 
-Encontrar el radio de [convergencia](../../..](../../../glossary.md)#convergencia):
+Encontrar el radio de [convergencia](../../../glossary.md#convergencia):
 
 a) $\sum_{n=0}^{\infty} \frac{x^n}{n!}$
 

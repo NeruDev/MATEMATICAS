@@ -1,7 +1,7 @@
 <!--
 ::METADATA::
 type: answer-key
-topic_id: cd-03-aplicaciones-[derivada](../../..](../../../glossary.md)#derivada)
+topic_id: cd-03-aplicaciones-[derivada](../../../glossary.md#derivada)
 file_id: CD-03-Respuestas
 status: stable
 audience: student
@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 

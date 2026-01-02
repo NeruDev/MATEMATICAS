@@ -1,6 +1,6 @@
 <!--
 HUMANO:
-Métodos de [técnicas de integración](../../..](../../../glossary.md)#tecnicas-de-integracion).
+Métodos de [técnicas de integración](../../../glossary.md#tecnicas-de-integracion).
 
 IA:
 Procedimientos paso a paso para cada técnica.
@@ -14,7 +14,7 @@ audience: self-study
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -27,8 +27,8 @@ audience: self-study
 ## Método 1: Sustitución Simple
 
 ### Cuándo Usar
-- Se identifica una [función](../../..](../../../glossary.md)#funcion) y su [derivada](../../..](../../../glossary.md)#derivada) (o múltiplo) en el integrando
-- Hay una "[función](../../..](../../../glossary.md)#funcion) interna" compuesta
+- Se identifica una [función](../../../glossary.md#funcion) y su [derivada](../../../glossary.md#derivada) (o múltiplo) en el integrando
+- Hay una "[función](../../../glossary.md#funcion) interna" compuesta
 
 ### Algoritmo de Resolución
 
@@ -47,7 +47,7 @@ audience: self-study
 
 **Paso 1:** Identificamos la función interna:
 $$u = x^2 + 1$$
-Observamos que $x$ (que está en el numerador) es proporcional a la [derivada](../../..](../../../glossary.md)#derivada) de $u$.
+Observamos que $x$ (que está en el numerador) es proporcional a la [derivada](../../../glossary.md#derivada) de $u$.
 
 **Paso 2:** Calculamos $du$:
 $$du = 2x \, dx$$
@@ -73,7 +73,7 @@ $$\int \frac{x}{x^2+1} \, dx = \frac{1}{2}\ln(x^2+1) + C$$
 ### Cuándo Usar
 - Producto de funciones de diferentes tipos
 - Integrales de $\ln x$, funciones trigonométricas inversas
-- Cuando la [sustitución](../../..](../../../glossary.md)#sustitucion) simple no funciona
+- Cuando la [sustitución](../../../glossary.md#sustitucion) simple no funciona
 
 ### Fórmula Fundamental
 $$\int u \, dv = uv - \int v \, du$$
@@ -146,26 +146,13 @@ Si $m$ es impar: separar un $\sin x$ y usar $\sin^2 x = 1 - \cos^2 x$
 | 1 | Separar un factor $\cos x$ | Reservar para $du$ |
 | 2 | Convertir $\cos^{n-1} x$ usando identidad | $\cos^2 x = 1 - \sin^2 x$ |
 | 3 | Sustituir $u = \sin x$ | $du = \cos x \, dx$ |
-| 4 | Integrar el [polinomio](../../../glossary.md#polinomio) en $u$ | Expandir y aplicar regla de potencia |
-| 5 | Regresar a $x$ | $u = \sin x$ |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\int \sin^2 x \cos^3 x \, dx$
-
-**Paso 1:** Identificamos que $n = 3$ es impar. Separamos un $\cos x$:
-$$\int \sin^2 x \cos^3 x \, dx = \int \sin^2 x \cos^2 x \cdot \cos x \, dx$$
-
-**Paso 2:** Convertimos $\cos^2 x$ usando la identidad pitagórica:
-$$= \int \sin^2 x (1 - \sin^2 x) \cos x \, dx$$
-
-**Paso 3:** Hacemos la [sustitución](../../..](../../../glossary.md)#sustitucion):
+| 4 | Integrar el [polinomio](../../..](../../../glossary.md#sustitucion):
 $$u = \sin x \implies du = \cos x \, dx$$
 
 **Paso 4:** Sustituimos completamente:
 $$= \int u^2(1-u^2) \, du = \int (u^2 - u^4) \, du$$
 
-**Paso 5:** Integramos el [polinomio](../../..](../../../glossary.md)#polinomio):
+**Paso 5:** Integramos el [polinomio](../../../glossary.md#polinomio):
 $$= \frac{u^3}{3} - \frac{u^5}{5} + C$$
 
 **Paso 6:** Regresamos a $x$:
@@ -343,133 +330,7 @@ $$\int \frac{1}{\sqrt{4+x^2}} \, dx = \ln\left|\frac{\sqrt{4+x^2}}{2} + \frac{x}
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Verificar que $\deg P < \deg Q$ | Si no, dividir primero |
-| 2 | [Factorizar](../../../glossary.md#factorizar) el denominador | Obtener $(x-r_1)(x-r_2)\cdots$ |
-| 3 | Escribir la descomposición | $\frac{A}{x-r_1} + \frac{B}{x-r_2} + \cdots$ |
-| 4 | Multiplicar por denominador común | Eliminar fracciones |
-| 5 | Sustituir raíces para hallar constantes | $x = r_1, r_2, \ldots$ |
-| 6 | Integrar cada fracción | $\int \frac{A}{x-r} dx = A\ln\lvert x-r \rvert$ |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\int \frac{2x+3}{x^2-x-2} \, dx$
-
-**Paso 1:** Verificamos grados: numerador grado 1, denominador grado 2. ✓
-
-**Paso 2:** Factorizamos el denominador:
-$$x^2-x-2 = (x-2)(x+1)$$
-
-**Paso 3:** Escribimos la descomposición:
-$$\frac{2x+3}{(x-2)(x+1)} = \frac{A}{x-2} + \frac{B}{x+1}$$
-
-**Paso 4:** Multiplicamos por $(x-2)(x+1)$:
-$$2x+3 = A(x+1) + B(x-2)$$
-
-**Paso 5:** Encontramos $A$ y $B$ sustituyendo raíces:
-
-Para $x = 2$:
-$$2(2)+3 = A(2+1) + B(0) \implies 7 = 3A \implies A = \frac{7}{3}$$
-
-Para $x = -1$:
-$$2(-1)+3 = A(0) + B(-1-2) \implies 1 = -3B \implies B = -\frac{1}{3}$$
-
-**Paso 6:** Integramos:
-$$\int \frac{2x+3}{x^2-x-2} \, dx = \int \frac{7/3}{x-2} \, dx + \int \frac{-1/3}{x+1} \, dx$$
-
-$$= \frac{7}{3}\ln\lvert x-2\rvert - \frac{1}{3}\ln\lvert x+1\rvert + C$$
-
----
-
-## Método 8: Fracciones Parciales (factor cuadrático irreducible)
-
-### Cuándo Usar
-- Denominador tiene factor $ax^2 + bx + c$ con discriminante $b^2 - 4ac < 0$
-
-### Forma de la Descomposición
-Para un factor cuadrático irreducible:
-$$\frac{Ax + B}{ax^2+bx+c}$$
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Escribir descomposición con $Ax + B$ | Numerador lineal para cuadráticos |
-| 2 | Encontrar $A$ y $B$ | Sistema de ecuaciones |
-| 3 | Separar la integral | Parte logarítmica + parte arcotangente |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\int \frac{x+1}{x^2+4} \, dx$
-
-**Paso 1:** Notamos que $x^2+4$ es irreducible (discriminante $= -16 < 0$)
-
-**Paso 2:** Separamos el numerador de forma estratégica:
-$$\frac{x+1}{x^2+4} = \frac{x}{x^2+4} + \frac{1}{x^2+4}$$
-
-**Paso 3:** Primera integral (produce logaritmo):
-$$\int \frac{x}{x^2+4} \, dx$$
-
-Hacemos $u = x^2+4$, $du = 2x\,dx$:
-$$= \frac{1}{2}\int \frac{du}{u} = \frac{1}{2}\ln(x^2+4)$$
-
-**Paso 4:** Segunda integral (produce arcotangente):
-$$\int \frac{1}{x^2+4} \, dx = \int \frac{1}{2^2+x^2} \, dx = \frac{1}{2}\arctan\frac{x}{2}$$
-
-**Paso 5:** Combinamos:
-$$\int \frac{x+1}{x^2+4} \, dx = \frac{1}{2}\ln(x^2+4) + \frac{1}{2}\arctan\frac{x}{2} + C$$
-
----
-
-## Método 9: Completar el Cuadrado
-
-### Cuándo Usar
-- Integrando con $ax^2 + bx + c$ en denominador que no factoriza fácilmente
-- Para convertir a forma que permita usar arcotangente o arcoseno
-
-### Fórmula para Completar el Cuadrado
-$$ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)$$
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Cálculo |
-|------|--------|---------|
-| 1 | Identificar $a$, $b$, $c$ | Coeficientes del trinomio |
-| 2 | Calcular $(x + \frac{b}{2a})^2$ | El cuadrado perfecto |
-| 3 | Calcular el término constante | $c - \frac{b^2}{4a}$ |
-| 4 | Sustituir $u = x + \frac{b}{2a}$ | Simplifica la expresión |
-| 5 | Aplicar fórmula de arctan o arcsin | Según el signo |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\int \frac{dx}{x^2 + 6x + 13}$
-
-**Paso 1:** Identificamos: $a=1$, $b=6$, $c=13$
-
-**Paso 2:** Completamos el cuadrado:
-$$x^2 + 6x + 13 = (x^2 + 6x + 9) + 4 = (x+3)^2 + 4$$
-
-**Paso 3:** Reescribimos la integral:
-$$\int \frac{dx}{x^2 + 6x + 13} = \int \frac{dx}{(x+3)^2 + 4}$$
-
-**Paso 4:** Hacemos $u = x + 3$, $du = dx$:
-$$= \int \frac{du}{u^2 + 4} = \int \frac{du}{u^2 + 2^2}$$
-
-**Paso 5:** Aplicamos la fórmula de arcotangente:
-$$= \frac{1}{2}\arctan\frac{u}{2} + C$$
-
-**Paso 6:** Regresamos a $x$:
-$$\int \frac{dx}{x^2 + 6x + 13} = \frac{1}{2}\arctan\frac{x+3}{2} + C$$
-
-$= \int \frac{du}{u^2 + 4} = \frac{1}{2}\arctan\frac{u}{2} + C = \frac{1}{2}\arctan\frac{x+3}{2} + C$
-
----
-
-## Método 10: Partes Tabular (Derivadas Repetidas)
-
-### Cuándo Usar
-- $\int x^n e^{ax} dx$, $\int x^n \sin(ax) dx$, $\int x^n \cos(ax) dx$
-
-### Pasos
-1. Crear tabla con [derivadas](../../..](../../../glossary.md)#derivadas) sucesivas de $x^n$ y primitivas de la otra función
+| 2 | [Factorizar](../../..](../../../glossary.md#derivadas) sucesivas de $x^n$ y primitivas de la otra función
 2. Alternar signos: $+, -, +, -, \ldots$
 3. Multiplicar diagonalmente
 

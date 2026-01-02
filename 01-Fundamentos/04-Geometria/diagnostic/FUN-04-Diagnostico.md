@@ -10,14 +10,14 @@ estimated_time: 8
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Pre-test rápido — ¿Listo para Geometría?
 
 1) ¿Cuánto mide la suma de los ángulos interiores de un triángulo?
-2) Calcula el área de un triángulo de [base](../../..](../../../glossary.md)#base) 10 y altura 6.
+2) Calcula el área de un triángulo de [base](../../../glossary.md#base) 10 y altura 6.
 3) Identifica la razón de semejanza entre dos cuadrados cuyos lados miden 3 y 9.
 
 <!--

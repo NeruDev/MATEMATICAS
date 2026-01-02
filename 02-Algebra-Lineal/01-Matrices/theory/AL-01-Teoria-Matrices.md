@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -19,12 +19,12 @@ audience: student
 ## 1.1 Definición y Notación
 
 ### Definición
-Una **[matriz](../../..](../../../glossary.md)#matriz)** es un arreglo rectangular de números organizados en filas y columnas.
+Una **[matriz](../../../glossary.md#matriz)** es un arreglo rectangular de números organizados en filas y columnas.
 
 $$A = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix}$$
 
 ### Notación
-- $A_{m \times n}$ o $A \in \mathbb{R}^{m \times n}$: [matriz](../../..](../../../glossary.md)#matriz) con $m$ filas y $n$ columnas
+- $A_{m \times n}$ o $A \in \mathbb{R}^{m \times n}$: [matriz](../../../glossary.md#matriz) con $m$ filas y $n$ columnas
 - $a_{ij}$ o $(A)_{ij}$: elemento en la fila $i$, columna $j$
 - Forma compacta: $A = (a_{ij})$
 
@@ -49,7 +49,7 @@ $A = B$ si y solo si tienen las mismas dimensiones y $a_{ij} = b_{ij}$ para todo
 **Matriz diagonal:**
 $$D = \begin{pmatrix} d_1 & 0 & \cdots & 0 \\ 0 & d_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & d_n \end{pmatrix} = \text{diag}(d_1, d_2, \ldots, d_n)$$
 
-**[Matriz identidad](../../..](../../../glossary.md)#matriz-identidad):**
+**[Matriz identidad](../../../glossary.md#matriz-identidad):**
 $$I_n = \begin{pmatrix} 1 & 0 & \cdots & 0 \\ 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 1 \end{pmatrix}$$
 
 **Matriz triangular superior:**
@@ -66,7 +66,7 @@ $$L = \begin{pmatrix} l_{11} & 0 & 0 \\ l_{21} & l_{22} & 0 \\ l_{31} & l_{32} &
 
 ### Suma de Matrices
 
-Si $A$ y $B$ son de la misma [dimensión](../../..](../../../glossary.md)#dimension) $m \times n$:
+Si $A$ y $B$ son de la misma [dimensión](../../../glossary.md#dimension) $m \times n$:
 $$(A + B)_{ij} = a_{ij} + b_{ij}$$
 
 **Propiedades:**
@@ -113,7 +113,7 @@ El elemento $(i,j)$ del producto es el producto punto de la fila $i$ de $A$ con 
 
 ### Potencias
 
-Para [matriz cuadrada](../../..](../../../glossary.md)#matriz-cuadrada) $A$:
+Para [matriz cuadrada](../../../glossary.md#matriz-cuadrada) $A$:
 - $A^0 = I$
 - $A^n = A \cdot A \cdots A$ ($n$ veces)
 - $A^m A^n = A^{m+n}$
@@ -125,7 +125,7 @@ Para [matriz cuadrada](../../..](../../../glossary.md)#matriz-cuadrada) $A$:
 
 ### Definición
 
-La [transpuesta](../../..](../../../glossary.md)#transpuesta) de $A_{m \times n}$ es $A^T_{n \times m}$ donde:
+La [transpuesta](../../../glossary.md#transpuesta) de $A_{m \times n}$ es $A^T_{n \times m}$ donde:
 $$(A^T)_{ij} = a_{ji}$$
 
 Las filas se convierten en columnas y viceversa.
@@ -139,7 +139,7 @@ $$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix} \Rightarrow A^T = \be
 1. $(A^T)^T = A$
 2. $(A + B)^T = A^T + B^T$
 3. $(cA)^T = cA^T$
-4. $(AB)^T = B^T A^T$ (**nota el [orden](../../..](../../../glossary.md)#orden)**)
+4. $(AB)^T = B^T A^T$ (**nota el [orden](../../../glossary.md#orden)**)
 
 ### Matrices Simétricas y Antisimétricas
 
@@ -147,7 +147,7 @@ $$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix} \Rightarrow A^T = \be
 
 **Antisimétrica:** $A = -A^T$ (diagonal principal es cero)
 
-**Teorema:** Toda [matriz cuadrada](../../..](../../../glossary.md)#matriz-cuadrada) se puede escribir como:
+**Teorema:** Toda [matriz cuadrada](../../../glossary.md#matriz-cuadrada) se puede escribir como:
 $$A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)$$
 (parte simétrica + parte antisimétrica)
 
@@ -157,7 +157,7 @@ $$A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)$$
 
 ### Definición
 
-Una matriz cuadrada $A$ es **invertible** (o no singular) si existe una matriz $A^{-1}$ [tal que](../../..](../../../glossary.md)#tal-que):
+Una matriz cuadrada $A$ es **invertible** (o no singular) si existe una matriz $A^{-1}$ [tal que](../../../glossary.md#tal-que):
 $$AA^{-1} = A^{-1}A = I$$
 
 ### Existencia
@@ -178,7 +178,7 @@ Para encontrar $A^{-1}$:
 ### Propiedades
 
 1. $(A^{-1})^{-1} = A$
-2. $(AB)^{-1} = B^{-1}A^{-1}$ (**nota el [orden](../../..](../../../glossary.md)#orden)**)
+2. $(AB)^{-1} = B^{-1}A^{-1}$ (**nota el [orden](../../../glossary.md#orden)**)
 3. $(A^T)^{-1} = (A^{-1})^T$
 4. $(cA)^{-1} = \frac{1}{c}A^{-1}$ para $c \neq 0$
 5. $\det(A^{-1}) = \frac{1}{\det(A)}$

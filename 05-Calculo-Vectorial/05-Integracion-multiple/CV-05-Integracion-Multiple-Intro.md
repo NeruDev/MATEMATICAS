@@ -9,7 +9,7 @@ requires: [CI-03-Integral-Definida, CV-04-Varias-Variables]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -31,10 +31,9 @@ Calcular integrales dobles y triples para determinar áreas, volúmenes, masas y
 ## Mapa de recursos
 
 ```
-[CV-05-Integracion-Multiple-Intro.md](CV-05-Integracion-Multiple-Intro.md)  ← Estás aquí
-[CV-05-Resumen-Formulas.md](CV-05-Resumen-Formulas.md)            ← Fórmulas clave para repaso rápido
+[CV-05-Integracion-Multiple-Intro.md](CV-05-Resumen-Formulas.md)            ← Fórmulas clave para repaso rápido
 theory/
-  └── [CV-05-Teoria-Integracion.md](CV-05-Teoria-Integracion.md)    ← Desarrollo completo de la teoría
+  └── [CV-05-Teoria-Integracion.md](theory/CV-05-Teoria-Integracion.md)    ← Desarrollo completo de la teoría
 methods/
   └── [métodos paso a paso]
 problems/
@@ -45,16 +44,7 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos:** [integral definida](../..](../../glossary.md)#integral-definida), funciones de varias variables.
-- **Usos posteriores:** integrales de línea, teoremas de Green, Stokes y Gauss.
-
-## Vista previa de conceptos clave
-
-| Concepto | Descripción breve |
-|----------|-------------------|
-| Integral doble | $\iint_R f(x,y)\, dA$ |
-| Integral triple | $\iiint_E f(x,y,z)\, dV$ |
-| Jacobiano | [Factor de escala](../../glossary.md#factor-de-escala) en cambio de variables |
+- **Prerequisitos:** [integral definida](../../glossary.md#factor-de-escala) en cambio de variables |
 | Coord. cilíndricas | $(r, \theta, z)$, $dV = r\,dr\,d\theta\,dz$ |
 | Coord. esféricas | $(\rho, \phi, \theta)$, $dV = \rho^2\sin\phi\,d\rho\,d\phi\,d\theta$ |
 

@@ -1,16 +1,14 @@
 <!--
 ---
-title: Resumen de Fórmulas - [EDO Numéricas](../..](../../glossary.md)#edo-numericas)
-type: cheatsheet
-topic: [edo](../..](../../glossary.md)#edo)-numericas
-tags: [métodos-numéricos, [EDO](../..](../../glossary.md)#edo), fórmulas, cheatsheet]
+title: Resumen de Fórmulas - [EDO Numéricas](../../glossary.md#edo)-numericas
+tags: [métodos-numéricos, [EDO](../../glossary.md#edo), fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -37,7 +35,7 @@ $$\tau = \frac{h^2}{2}y''(\xi) = O(h^2)$$
 ### Error Global
 $$E = O(h)$$
 
-**[Orden](../..](../../glossary.md)#orden) del método:** 1
+**[Orden](../../glossary.md#orden) del método:** 1
 
 ---
 
@@ -56,7 +54,7 @@ $$\begin{aligned}
 y_{n+1} &= y_n + \frac{h}{2}\left[f(x_n, y_n) + f(x_{n+1}, \tilde{y}_{n+1})\right] \quad \text{(corrector)}
 \end{aligned}$$
 
-**[Orden](../..](../../glossary.md)#orden) del método:** 2
+**[Orden](../../glossary.md#orden) del método:** 2
 
 ---
 

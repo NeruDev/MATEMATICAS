@@ -10,7 +10,7 @@ solved_detailed: 0
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -63,6 +63,4 @@ solved_detailed: 0
 | [Prob-39] | $3$ | ➖ |
 | [Prob-40] | $\dfrac{1}{2}$ | ➖ |
 | [Prob-41] | $a = 2\sqrt[3]{3}$ | ➖ |
-| [Prob-42] | Demostración por [sustitución](../../../glossary.md#sustitucion) $u = \dfrac{\pi}{2} - x$ | ➖ |
-
-> 📚 **Archivo de problemas:** [problems/CI-03-Problemas.md](../problems/CI-03-Problemas.md)
+| [Prob-42] | Demostración por [sustitución](../problems/CI-03-Problemas.md)

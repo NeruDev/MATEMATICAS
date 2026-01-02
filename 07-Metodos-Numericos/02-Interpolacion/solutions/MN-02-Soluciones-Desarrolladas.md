@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -17,9 +17,9 @@ status: active
 
 ## Solución Problema 1 (Lagrange)
 
-**Encontrar [polinomio](../../..](../../../glossary.md)#polinomio) para $(0, 1)$, $(1, 0)$, $(2, 1)$**
+**Encontrar [polinomio](../../../glossary.md#polinomio) para $(0, 1)$, $(1, 0)$, $(2, 1)$**
 
-**Paso 1:** Calcular polinomios [base](../../..](../../../glossary.md)#base):
+**Paso 1:** Calcular polinomios [base](../../../glossary.md#base):
 
 $$L_0(x) = \frac{(x-1)(x-2)}{(0-1)(0-2)} = \frac{(x-1)(x-2)}{2}$$
 
@@ -27,7 +27,7 @@ $$L_1(x) = \frac{(x-0)(x-2)}{(1-0)(1-2)} = \frac{x(x-2)}{-1} = -x(x-2)$$
 
 $$L_2(x) = \frac{(x-0)(x-1)}{(2-0)(2-1)} = \frac{x(x-1)}{2}$$
 
-**Paso 2:** Construir [polinomio](../../..](../../../glossary.md)#polinomio):
+**Paso 2:** Construir [polinomio](../../../glossary.md#polinomio):
 
 $$P(x) = 1 \cdot L_0(x) + 0 \cdot L_1(x) + 1 \cdot L_2(x)$$
 
@@ -47,7 +47,7 @@ $$\boxed{P(x) = x^2 - 2x + 1}$$
 
 **Puntos:** $(0, -1)$, $(1, 1)$, $(3, 7)$, $(4, 13)$
 
-**Tabla de [diferencias divididas](../../..](../../../glossary.md)#diferencias-divididas):**
+**Tabla de [diferencias divididas](../../../glossary.md#diferencias-divididas):**
 
 | $x_i$ | $f[x_i]$ | $f[x_i, x_{i+1}]$ | $f[x_i, x_{i+1}, x_{i+2}]$ | $f[...]$ |
 |-------|----------|-------------------|----------------------------|----------|
@@ -115,7 +115,7 @@ $$\boxed{P(x) = \frac{3x^4 - 10x^3 + 15x^2 - 8x + 8}{8}}$$
 
 ## Solución Problema 12 (Error de Interpolación)
 
-**Acotar [error de interpolación](../../..](../../../glossary.md)#error-de-[interpolacion](../../..](../../../glossary.md)#interpolacion)) lineal de $e^x$ en $[0, 1]$**
+**Acotar [error de interpolación](../../../glossary.md)#error-de-[interpolacion](../../../glossary.md#interpolacion)) lineal de $e^x$ en $[0, 1]$**
 
 Fórmula del error:
 $$|f(x) - P_1(x)| \leq \frac{M_2}{2!}|(x - x_0)(x - x_1)|$$
@@ -166,7 +166,7 @@ $$S_1(x) = 1 + 0(x-1) - 1.5(x-1)^2 + 0.5(x-1)^3$$
 **Spline completo:**
 $$\boxed{S(x) = \begin{cases} 1.5x - 0.5x^3 & \text{si } 0 \leq x \leq 1 \\ 1 - 1.5(x-1)^2 + 0.5(x-1)^3 & \text{si } 1 \leq x \leq 2 \end{cases}}$$
 
-**Verificación de [continuidad](../../..](../../../glossary.md)#continuidad) en $x = 1$:**
+**Verificación de [continuidad](../../../glossary.md#continuidad) en $x = 1$:**
 - $S_0(1) = 1.5 - 0.5 = 1$ ✓
 - $S_1(1) = 1$ ✓
 - $S_0'(1) = 1.5 - 1.5 = 0$, $S_1'(1) = 0$ ✓

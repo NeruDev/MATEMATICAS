@@ -10,7 +10,7 @@ solved_detailed: 9
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -57,20 +57,8 @@ solved_detailed: 9
 | [Prob-29] | $X = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$ | ➖ |
 | [Prob-30] | Demostración por inversibilidad | ➖ |
 | [Prob-31] | Demostración directa: $A^{-1} = A$ | ➖ |
-| [Prob-32] | $\begin{pmatrix} 1 & -a \\ 0 & 1 \end{pmatrix}$ | [✅](./prob-32/solucion-metodo.md) |
-
----
-
-## Resumen de Soluciones Desarrolladas
-
-Las siguientes tienen desarrollo paso a paso completo:
-
-| Tema | Problemas con solución |
-|:-----|:-----------------------|
-| Operaciones básicas | [Prob-04](./prob-04/) |
-| Multiplicación | [Prob-09](./prob-09/), [Prob-10](./prob-10/), [Prob-13](./prob-13/) |
-| [Transpuesta](../../../glossary.md#transpuesta) | [Prob-23](./prob-23/) |
-| [Matriz inversa](../../../glossary.md#matriz-inversa) | [Prob-24](./prob-24/), [Prob-27](./prob-27/), [Prob-28](./prob-28/), [Prob-32](./prob-32/) |
+| [Prob-32] | $\begin{pmatrix} 1 & -a \\ 0 & 1 \end{pmatrix}$ | [✅](./prob-04/) |
+| Multiplicación | [Prob-09](./prob-10/), [Prob-13](../../../glossary.md#transpuesta) | [Prob-23](../../../glossary.md#matriz-inversa) | [Prob-24](./prob-27/), [Prob-28](./prob-32/) |
 
 ---
 

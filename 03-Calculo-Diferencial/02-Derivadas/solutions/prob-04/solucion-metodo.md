@@ -2,16 +2,16 @@
 ---
 type: solution
 problem-id: CD-02-04
-topic: [Derivadas](../../../..](../../../../glossary.md)#derivadas)
-subtopic: Definición de [derivada](../../../..](../../../../glossary.md)#derivada)
+topic: [Derivadas](../../../../glossary.md#derivadas)
+subtopic: Definición de [derivada](../../../../glossary.md#derivada)
 difficulty: intermedio
-tags: [derivada, definición, [límite](../../../..](../../../../glossary.md)#limite), [función](../../../..](../../../../glossary.md)#funcion)-racional]
+tags: [derivada, definición, [límite](../../../../glossary.md#limite), [función](../../../../glossary.md#funcion)-racional]
 created: 2024-12-22
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -19,7 +19,7 @@ created: 2024-12-22
 
 ## Problema
 
-Usar la definición de [derivada](../../../..](../../../../glossary.md)#derivada) para calcular $f'(x)$ si $f(x) = \dfrac{1}{x}$.
+Usar la definición de [derivada](../../../../glossary.md#derivada) para calcular $f'(x)$ si $f(x) = \dfrac{1}{x}$.
 
 ---
 
@@ -27,7 +27,7 @@ Usar la definición de [derivada](../../../..](../../../../glossary.md)#derivada
 
 ### Paso 1: Escribir la definición de derivada
 
-La derivada de una [función](../../../..](../../../../glossary.md)#funcion) $f(x)$ se define como:
+La derivada de una [función](../../../../glossary.md#funcion) $f(x)$ se define como:
 
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
@@ -97,6 +97,6 @@ $$\frac{f(2.001) - f(2)}{0.001} = \frac{\frac{1}{2.001} - \frac{1}{2}}{0.001} = 
 
 ## Notas adicionales
 
-> **[Dominio](../../../..](../../../../glossary.md)#dominio) de f'(x)**: La derivada $f'(x) = -\dfrac{1}{x^2}$ está definida para todo $x \neq 0$, igual que la función original.
+> **[Dominio](../../../../glossary.md#dominio) de f'(x)**: La derivada $f'(x) = -\dfrac{1}{x^2}$ está definida para todo $x \neq 0$, igual que la función original.
 
-> **Interpretación geométrica**: Como $f'(x) < 0$ para todo $x \neq 0$, la función $f(x) = \dfrac{1}{x}$ es **siempre decreciente** en cada uno de sus intervalos de [dominio](../../../..](../../../../glossary.md)#dominio).
+> **Interpretación geométrica**: Como $f'(x) < 0$ para todo $x \neq 0$, la función $f(x) = \dfrac{1}{x}$ es **siempre decreciente** en cada uno de sus intervalos de [dominio](../../../../glossary.md#dominio).

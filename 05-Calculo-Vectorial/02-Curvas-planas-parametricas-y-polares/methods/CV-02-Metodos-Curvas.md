@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -62,8 +62,8 @@ $$x^2 + y^2 = \cos^2 t + \sin^2 t = 1$$
 ## Método 2: Pendiente de la Tangente (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Encontrar la pendiente de la recta [tangente](../../..](../../../glossary.md)#tangente) en un punto
-- Analizar puntos donde la [tangente](../../..](../../../glossary.md)#tangente) es horizontal o vertical
+- Encontrar la pendiente de la recta [tangente](../../../glossary.md#tangente) en un punto
+- Analizar puntos donde la [tangente](../../../glossary.md#tangente) es horizontal o vertical
 
 ### Fórmula
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{y'(t)}{x'(t)}$$
@@ -110,7 +110,7 @@ $$\frac{dy}{dx}\bigg|_{t=2} = \frac{3(2)}{2} = 3$$
 ## Método 3: Segunda Derivada (Curvas Paramétricas)
 
 ### Cuándo Usar
-- Determinar [concavidad](../../..](../../../glossary.md)#concavidad) de la curva
+- Determinar [concavidad](../../../glossary.md#concavidad) de la curva
 - Encontrar puntos de inflexión
 
 ### Fórmula
@@ -122,46 +122,7 @@ $$\frac{d^2y}{dx^2} = \frac{d}{dt}\left(\frac{dy}{dx}\right) \cdot \frac{1}{dx/d
 |------|--------|---------|
 | 1 | Calcular $\frac{dy}{dx}$ | Método 2 |
 | 2 | Derivar $\frac{dy}{dx}$ respecto a $t$ | $\frac{d}{dt}\left(\frac{dy}{dx}\right)$ |
-| 3 | Dividir por $\frac{dx}{dt}$ | Segunda [derivada](../../../glossary.md#derivada) |
-
-### Ejemplo Detallado
-
-**Problema:** Encontrar $\frac{d^2y}{dx^2}$ para $x = t^2$, $y = t^3$
-
-**Paso 1:** Ya sabemos que:
-$$\frac{dy}{dx} = \frac{3t}{2}$$
-
-**Paso 2:** Derivamos respecto a $t$:
-$$\frac{d}{dt}\left(\frac{dy}{dx}\right) = \frac{d}{dt}\left(\frac{3t}{2}\right) = \frac{3}{2}$$
-
-**Paso 3:** Dividimos por $\frac{dx}{dt} = 2t$:
-$$\frac{d^2y}{dx^2} = \frac{3/2}{2t} = \frac{3}{4t}$$
-
-**Resultado:** $\frac{d^2y}{dx^2} = \boxed{\frac{3}{4t}}$
-
-**Interpretación:** 
-- Para $t > 0$: $\frac{d^2y}{dx^2} > 0$ → cóncava hacia arriba
-- Para $t < 0$: $\frac{d^2y}{dx^2} < 0$ → cóncava hacia abajo
-
----
-
-## Método 4: Longitud de Arco (Curvas Paramétricas)
-
-### Cuándo Usar
-- Calcular la longitud de una curva paramétrica
-
-### Fórmula
-$$L = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\, dt$$
-
-### Algoritmo de Resolución
-
-| Paso | Acción | Cálculo |
-|------|--------|---------|
-| 1 | Calcular $\frac{dx}{dt}$ | Derivar $x(t)$ |
-| 2 | Calcular $\frac{dy}{dt}$ | Derivar $y(t)$ |
-| 3 | Elevar al cuadrado y sumar | $\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2$ |
-| 4 | Sacar raíz cuadrada | $\sqrt{\text{suma}}$ |
-| 5 | Integrar de $a$ a $b$ | [Límites](../../../glossary.md#limites) del parámetro |
+| 3 | Dividir por $\frac{dx}{dt}$ | Segunda [derivada](../../../glossary.md#limites) del parámetro |
 
 ### Ejemplo Detallado
 

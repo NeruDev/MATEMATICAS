@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -22,24 +22,18 @@ Esta sección sirve como referencia rápida para todos los símbolos matemático
 ## Mapa de recursos
 
 ```
-[FUN-01-Simbologia-Intro.md](FUN-01-Simbologia-Intro.md)              ← Estás aquí
-theory/
-  └── [FUN-01-Tablas-Simbolos.md](FUN-01-Tablas-Simbolos.md)         ← Tablas completas de símbolos
+[FUN-01-Simbologia-Intro.md](theory/Tablas-de-Simbolos-Matematicos.md)         ← Tablas completas de símbolos
 ```
 
 ## Contenido
 
 | Sección | Descripción |
 |---------|-------------|
-| Aritmética y Álgebra | Operaciones básicas, relaciones de [orden](../../glossary.md#orden) |
-| Lógica y Conjuntos | Cuantificadores, operaciones con conjuntos |
-| [Cálculo Diferencial](../../glossary.md#calculo-diferencial) | [Límites](../../glossary.md#limites), [derivadas](../../glossary.md#derivadas), series |
-| [Cálculo Integral](../../glossary.md#calculo-integral) | Integrales, notación de integración |
-| Cálculo Vectorial | Nabla, [derivadas](../../glossary.md#derivadas) parciales, integrales múltiples |
-| [Álgebra Lineal](../../glossary.md#algebra-lineal) | Matrices, vectores, eigenvalores |
-| [Trigonometría](../../glossary.md#trigonometria) | Funciones circulares, hiperbólicas, geometría |
+| Aritmética y Álgebra | Operaciones básicas, relaciones de [orden](../../glossary.md#calculo-diferencial) | [Límites](../../glossary.md#derivadas), series |
+| [Cálculo Integral](../../glossary.md#derivadas) parciales, integrales múltiples |
+| [Álgebra Lineal](../../glossary.md#trigonometria) | Funciones circulares, hiperbólicas, geometría |
 | Números Complejos | Notación, operaciones |
-| [Ecuaciones Diferenciales](../../glossary.md#ecuaciones-diferenciales) | Notación de [EDO](../../glossary.md#edo), transformadas |
+| [Ecuaciones Diferenciales](../../glossary.md#edo), transformadas |
 | [Métodos Numéricos](../../glossary.md#metodos-numericos) | Error, iteración |
 | Estadística | Probabilidad, distribuciones |
 

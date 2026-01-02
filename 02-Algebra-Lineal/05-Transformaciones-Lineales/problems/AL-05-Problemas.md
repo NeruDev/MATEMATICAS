@@ -3,8 +3,8 @@
 content_type: problem_set
 topic_id: al-05-transformaciones-lineales
 file_id: AL-05-Problemas
-title: Problemas de [Transformaciones Lineales](../../..](../../../glossary.md)#transformaciones-lineales)
-description: Conjunto de problemas sobre [transformaciones lineales](../../..](../../../glossary.md)#transformaciones-lineales), núcleo, imagen, matrices asociadas, [composición](../../..](../../../glossary.md)#composicion) e inversa, y cambio de [base](../../..](../../../glossary.md)#base)
+title: Problemas de [Transformaciones Lineales](../../../glossary.md#transformaciones-lineales)
+description: Conjunto de problemas sobre [transformaciones lineales](../../../glossary.md#transformaciones-lineales), núcleo, imagen, matrices asociadas, [composición](../../../glossary.md#composicion) e inversa, y cambio de [base](../../../glossary.md#base)
 author: Repositorio Matemáticas
 date_created: 2025-12-20
 date_modified: 2025-12-20
@@ -19,7 +19,7 @@ total_problems: 28
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -47,7 +47,7 @@ d) $T: \mathbb{R}^2 \to \mathbb{R}^2$, $T(x, y) = (x + 1, y)$
 
 ### [Prob-02] Operador derivada en espacio de polinomios ⭐
 
-Sea $T: P_2 \to P_1$ definida por $T(p(x)) = p'(x)$ ([derivada](../../..](../../../glossary.md)#derivada)). Verificar que $T$ es lineal.
+Sea $T: P_2 \to P_1$ definida por $T(p(x)) = p'(x)$ ([derivada](../../../glossary.md#derivada)). Verificar que $T$ es lineal.
 
 > **Solución:** Ver [solutions/prob-02/](../solutions/prob-02/)
 
@@ -55,7 +55,7 @@ Sea $T: P_2 \to P_1$ definida por $T(p(x)) = p'(x)$ ([derivada](../../..](../../
 
 ### [Prob-03] Linealidad de la función traza ⭐
 
-Sea $T: M_{2 \times 2} \to \mathbb{R}$ definida por $T(A) = \text{tr}(A)$ ([traza](../../..](../../../glossary.md)#traza)). ¿Es $T$ lineal?
+Sea $T: M_{2 \times 2} \to \mathbb{R}$ definida por $T(A) = \text{tr}(A)$ ([traza](../../../glossary.md#traza)). ¿Es $T$ lineal?
 
 > **Solución:** Ver [solutions/prob-03/](../solutions/prob-03/)
 
@@ -83,7 +83,7 @@ Sea $T: \mathbb{R}^3 \to \mathbb{R}^3$ definida por $T(x, y, z) = (|x|, y, z)$. 
 
 Para $T: \mathbb{R}^3 \to \mathbb{R}^2$, $T(x, y, z) = (x - y, y - z)$:
 
-a) Encontrar $\ker(T)$ y su [base](../../..](../../../glossary.md)#base)
+a) Encontrar $\ker(T)$ y su [base](../../../glossary.md#base)
 
 b) Encontrar $\text{Im}(T)$ y su base
 
@@ -123,7 +123,7 @@ c) Verificar rango-nulidad
 
 ### [Prob-09] Espacios nulo y columna de una matriz ⭐⭐
 
-Para la [matriz](../../..](../../../glossary.md)#matriz) $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 1 & 2 & 3 \end{pmatrix}$, hallar base de:
+Para la [matriz](../../../glossary.md#matriz) $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 1 & 2 & 3 \end{pmatrix}$, hallar base de:
 
 a) $\text{Nul}(A)$
 
@@ -135,7 +135,7 @@ b) $\text{Col}(A)$
 
 ### [Prob-10] Dimensiones mediante teorema rango-nulidad ⭐⭐
 
-Sea $T: \mathbb{R}^4 \to \mathbb{R}^3$ con [matriz](../../..](../../../glossary.md)#matriz) $[T] = \begin{pmatrix} 1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 3 & 1 \end{pmatrix}$.
+Sea $T: \mathbb{R}^4 \to \mathbb{R}^3$ con [matriz](../../../glossary.md#matriz) $[T] = \begin{pmatrix} 1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 3 & 1 \end{pmatrix}$.
 
 Determinar $\dim(\ker(T))$ y $\dim(\text{Im}(T))$.
 
@@ -283,7 +283,7 @@ Determinar si $A = \begin{pmatrix} 4 & -2 \\ 1 & 1 \end{pmatrix}$ y $B = \begin{
 
 Sea $[T]_{\mathcal{E}} = \begin{pmatrix} 5 & -3 \\ 6 & -4 \end{pmatrix}$.
 
-Encontrar una base $\mathcal{B}$ [tal que](../../..](../../../glossary.md)#tal-que) $[T]_{\mathcal{B}}$ sea diagonal.
+Encontrar una base $\mathcal{B}$ [tal que](../../../glossary.md#tal-que) $[T]_{\mathcal{B}}$ sea diagonal.
 
 > **Solución:** Ver [solutions/prob-24/](../solutions/prob-24/)
 
@@ -309,7 +309,7 @@ Encontrar la matriz de transformación compuesta.
 
 ### [Prob-26] Conversión de coordenadas en robótica ⭐⭐
 
-Un [sistema de coordenadas](../../..](../../../glossary.md)#sistema-de-coordenadas) de un robot usa la base $\mathcal{B} = \{(1, 1), (-1, 1)\}$.
+Un [sistema de coordenadas](../../../glossary.md#sistema-de-coordenadas) de un robot usa la base $\mathcal{B} = \{(1, 1), (-1, 1)\}$.
 
 Si la posición en coordenadas del robot es $[p]_{\mathcal{B}} = (3, 2)^T$, ¿cuál es la posición en coordenadas estándar?
 
@@ -323,7 +323,7 @@ La población de dos ciudades $A$ y $B$ evoluciona según:
 - Cada año, 10% de $A$ migra a $B$
 - Cada año, 5% de $B$ migra a $A$
 
-Modelar como [transformación lineal](../../..](../../../glossary.md)#transformacion-lineal) y encontrar su matriz.
+Modelar como [transformación lineal](../../../glossary.md#transformacion-lineal) y encontrar su matriz.
 
 > **Solución:** Ver [solutions/prob-27/](../solutions/prob-27/)
 

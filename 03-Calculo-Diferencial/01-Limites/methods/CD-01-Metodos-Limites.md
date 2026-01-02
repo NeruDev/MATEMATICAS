@@ -5,7 +5,7 @@ status: active
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -17,7 +17,7 @@ status: active
 
 ## Método 1: Sustitución Directa
 
-**Cuándo Usar:** Cuando la [función](../../..](../../../glossary.md)#funcion) es continua en el punto de evaluación y no produce formas indeterminadas.
+**Cuándo Usar:** Cuando la [función](../../../glossary.md#funcion) es continua en el punto de evaluación y no produce formas indeterminadas.
 
 ### Algoritmo de Resolución
 
@@ -29,11 +29,7 @@ status: active
 
 ### Funciones donde aplica directamente
 
-| Tipo de [Función](../../../glossary.md#funcion) | Condición |
-|-----------------|-----------|
-| Polinomios | Siempre continuas |
-| Racionales | Si $x = a$ no anula el denominador |
-| Trigonométricas | En puntos de su [dominio](../../../glossary.md#dominio) |
+| Tipo de [Función](../../../glossary.md#dominio) |
 | Exponenciales | Siempre continuas |
 | Logarítmicas | Si el argumento es positivo |
 
@@ -43,7 +39,7 @@ status: active
 
 ---
 
-**Paso 1: Verificar [continuidad](../../..](../../../glossary.md)#continuidad)**
+**Paso 1: Verificar [continuidad](../../../glossary.md#continuidad)**
 
 Los polinomios son continuos en todo $\mathbb{R}$, por lo tanto podemos sustituir directamente.
 
@@ -61,20 +57,14 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ## Método 2: Factorización
 
-**Cuándo Usar:** [Forma indeterminada](../../..](../../../glossary.md)#forma-indeterminada) $\frac{0}{0}$ donde numerador y denominador son polinomios o expresiones factorizables.
+**Cuándo Usar:** [Forma indeterminada](../../../glossary.md#forma-indeterminada) $\frac{0}{0}$ donde numerador y denominador son polinomios o expresiones factorizables.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Verificar forma | Sustituir para confirmar $\frac{0}{0}$ |
-| 2 | [Factorizar](../../../glossary.md#factorizar) | Numerador y denominador |
-| 3 | Cancelar | El factor común $(x - a)$ |
-| 4 | Sustituir | En la expresión simplificada |
-
-### Técnicas de Factorización Útiles
-
-| Expresión | [Factorización](../../../glossary.md#factorizacion) |
+| 2 | [Factorizar](../../../glossary.md#factorizacion) |
 |-----------|---------------|
 | $x^2 - a^2$ | $(x-a)(x+a)$ |
 | $x^3 - a^3$ | $(x-a)(x^2 + ax + a^2)$ |
@@ -87,13 +77,13 @@ $$\boxed{\lim_{x \to 2} (x^3 - 3x^2 + 5x - 7) = -1}$$
 
 ---
 
-**Paso 1: Verificar [forma indeterminada](../../..](../../../glossary.md)#forma-indeterminada)**
+**Paso 1: Verificar [forma indeterminada](../../../glossary.md#forma-indeterminada)**
 
 $$\frac{(3)^3 - 27}{(3)^2 - 9} = \frac{27 - 27}{9 - 9} = \frac{0}{0}$$
 
 ---
 
-**Paso 2: [Factorizar](../../..](../../../glossary.md)#factorizar) numerador (diferencia de cubos)**
+**Paso 2: [Factorizar](../../../glossary.md#factorizar) numerador (diferencia de cubos)**
 
 $$x^3 - 27 = x^3 - 3^3 = (x - 3)(x^2 + 3x + 9)$$
 
@@ -162,7 +152,7 @@ $$= \frac{x}{x(\sqrt{1+x} + 1)} = \frac{1}{\sqrt{1+x} + 1}$$
 
 ---
 
-**Paso 4: Evaluar el [límite](../../..](../../../glossary.md)#limite)**
+**Paso 4: Evaluar el [límite](../../../glossary.md#limite)**
 
 $$\lim_{x \to 0} \frac{1}{\sqrt{1+x} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}{2}$$
 
@@ -204,7 +194,7 @@ $$\boxed{\lim_{x \to 4} \frac{x - 4}{\sqrt{x} - 2} = 4}$$
 
 ## Método 4: División entre Mayor Potencia (Límites al Infinito)
 
-**Cuándo Usar:** [Límites](../../..](../../../glossary.md)#limites) cuando $x \to \pm\infty$ en funciones racionales.
+**Cuándo Usar:** [Límites](../../../glossary.md#limites) cuando $x \to \pm\infty$ en funciones racionales.
 
 ### Algoritmo de Resolución
 
@@ -212,68 +202,7 @@ $$\boxed{\lim_{x \to 4} \frac{x - 4}{\sqrt{x} - 2} = 4}$$
 |------|--------|---------|
 | 1 | Identificar grados | $n$ = grado numerador, $m$ = grado denominador |
 | 2 | Dividir todo | Por $x^m$ (mayor potencia del denominador) |
-| 3 | Aplicar [límites](../../../glossary.md#limites) | $\lim_{x \to \infty} \frac{1}{x^k} = 0$ para $k > 0$ |
-| 4 | Evaluar | Los términos restantes |
-
-### Regla Rápida
-
-| Comparación de Grados | Resultado |
-|----------------------|-----------|
-| $n < m$ | $\lim = 0$ |
-| $n = m$ | $\lim = \frac{\text{coef. principal num.}}{\text{coef. principal den.}}$ |
-| $n > m$ | $\lim = \pm\infty$ |
-
-### Ejemplo Detallado
-
-**Problema:** Calcular $\displaystyle\lim_{x \to \infty} \frac{5x^3 - 2x^2 + 7}{3x^3 + 4x - 1}$
-
----
-
-**Paso 1: Identificar grados**
-
-Numerador: grado 3, Denominador: grado 3 (iguales)
-
----
-
-**Paso 2: Dividir todo entre $x^3$**
-
-$$\frac{5x^3 - 2x^2 + 7}{3x^3 + 4x - 1} = \frac{\frac{5x^3}{x^3} - \frac{2x^2}{x^3} + \frac{7}{x^3}}{\frac{3x^3}{x^3} + \frac{4x}{x^3} - \frac{1}{x^3}}$$
-
-$$= \frac{5 - \frac{2}{x} + \frac{7}{x^3}}{3 + \frac{4}{x^2} - \frac{1}{x^3}}$$
-
----
-
-**Paso 3: Aplicar límites**
-
-Cuando $x \to \infty$: $\frac{1}{x}, \frac{1}{x^2}, \frac{1}{x^3} \to 0$
-
-$$\lim_{x \to \infty} \frac{5 - 0 + 0}{3 + 0 - 0} = \frac{5}{3}$$
-
-$$\boxed{\lim_{x \to \infty} \frac{5x^3 - 2x^2 + 7}{3x^3 + 4x - 1} = \frac{5}{3}}$$
-
----
-
-### Ejemplo cuando $n > m$
-
-**Problema:** Calcular $\displaystyle\lim_{x \to \infty} \frac{2x^4 - x}{x^2 + 3}$
-
----
-
-**Grado numerador (4) > Grado denominador (2)**
-
-$$= \lim_{x \to \infty} \frac{x^2(2x^2 - \frac{1}{x})}{x^2(1 + \frac{3}{x^2})} = \lim_{x \to \infty} \frac{2x^2 - \frac{1}{x}}{1 + \frac{3}{x^2}} = \frac{\infty}{1} = +\infty$$
-
-$$\boxed{\lim_{x \to \infty} \frac{2x^4 - x}{x^2 + 3} = +\infty}$$
-
----
-
-## Método 5: Límites Trigonométricos Fundamentales
-
-**Cuándo Usar:** Expresiones con funciones trigonométricas cuando $x \to 0$.
-
-### Límites Fundamentales
-
-| [Límite](../../../glossary.md#limite) | Valor |
+| 3 | Aplicar [límites](../../../glossary.md#limite) | Valor |
 |--------|-------|
 | $\displaystyle\lim_{u \to 0} \frac{\sin u}{u}$ | $1$ |
 | $\displaystyle\lim_{u \to 0} \frac{u}{\sin u}$ | $1$ |
@@ -298,11 +227,11 @@ $$\boxed{\lim_{x \to \infty} \frac{2x^4 - x}{x^2 + 3} = +\infty}$$
 
 **Paso 1: Identificar el argumento**
 
-El argumento del [seno](../../..](../../../glossary.md)#seno) es $5x$, pero el denominador tiene $3x$.
+El argumento del [seno](../../../glossary.md#seno) es $5x$, pero el denominador tiene $3x$.
 
 ---
 
-**Paso 2: Introducir el factor [necesario](../../..](../../../glossary.md)#necesario)**
+**Paso 2: Introducir el factor [necesario](../../../glossary.md#necesario)**
 
 $$\frac{\sin 5x}{3x} = \frac{\sin 5x}{5x} \cdot \frac{5x}{3x} = \frac{\sin 5x}{5x} \cdot \frac{5}{3}$$
 
@@ -410,7 +339,7 @@ $$\boxed{\lim_{x \to 0} x^2 \cos\left(\frac{1}{x}\right) = 0}$$
 
 ## Método 7: Cambio de Variable (Sustitución)
 
-**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../..](../../../glossary.md)#sustitucion) apropiada.
+**Cuándo Usar:** Para simplificar expresiones complicadas mediante una [sustitución](../../../glossary.md#sustitucion) apropiada.
 
 ### Algoritmo de Resolución
 
@@ -578,7 +507,7 @@ $$\boxed{\lim_{x \to 2} \frac{|x - 2|}{x - 2} \text{ no existe}}$$
 
 **Paso 1: Identificar la forma**
 
-[Base](../../..](../../../glossary.md)#base): $1 + \frac{3}{x} \to 1$ cuando $x \to \infty$
+[Base](../../../glossary.md#base): $1 + \frac{3}{x} \to 1$ cuando $x \to \infty$
 Exponente: $2x \to \infty$
 
 Forma indeterminada $1^\infty$.
@@ -650,11 +579,11 @@ Asíntotas verticales: $x = 2$ y $x = -2$
 
 ---
 
-**[Asíntota](../../..](../../../glossary.md)#asintota) Horizontal:**
+**[Asíntota](../../../glossary.md#asintota) Horizontal:**
 
 $$\lim_{x \to \infty} \frac{2x^2 - 1}{x^2 - 4} = \lim_{x \to \infty} \frac{2 - \frac{1}{x^2}}{1 - \frac{4}{x^2}} = \frac{2}{1} = 2$$
 
-[Asíntota](../../..](../../../glossary.md)#asintota) horizontal: $y = 2$
+[Asíntota](../../../glossary.md#asintota) horizontal: $y = 2$
 
 $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
@@ -670,7 +599,7 @@ $$\boxed{\text{AV: } x = 2, x = -2; \quad \text{AH: } y = 2}$$
 
 ---
 
-**Paso 1: Multiplicar por [identidad trigonométrica](../../..](../../../glossary.md)#identidad-trigonometrica)**
+**Paso 1: Multiplicar por [identidad trigonométrica](../../../glossary.md#identidad-trigonometrica)**
 
 Usamos: $1 - \cos x = 2\sin^2\left(\frac{x}{2}\right)$
 

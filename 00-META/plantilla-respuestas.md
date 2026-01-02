@@ -34,13 +34,8 @@ Las siguientes tienen desarrollo paso a paso completo:
 
 | Tema | Problemas con solución |
 |:-----|:-----------------------|
-| [Subtema 1] | [Prob-XX](./prob-XX/), [Prob-YY](./prob-YY/) |
-| [Subtema 2] | [Prob-ZZ](./prob-ZZ/) |
-
----
--->
-
-> 📚 **Archivo de problemas:** [`problems/XX-NN-Problemas.md`](../problems/XX-NN-Problemas.md)
+| [Subtema 1] | [Prob-XX](./prob-YY/) |
+| [Subtema 2] | [Prob-ZZ](../problems/XX-NN-Problemas.md)
 
 ---
 

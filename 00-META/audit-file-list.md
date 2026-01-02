@@ -127,16 +127,11 @@ XX-Nombre-Subtema/
 ```
 01-Matrices/
 ├── manifest.json
-├── [AL-01-Matrices-Intro.md](AL-01-Matrices-Intro.md)
-├── [AL-01-Resumen-Formulas.md](AL-01-Resumen-Formulas.md)
+├── [AL-01-Matrices-Intro.md](AL-01-Resumen-Formulas.md)
 ├── theory/
-│   └── [AL-01-Teoria-Matrices.md](AL-01-Teoria-Matrices.md)
-├── methods/
-│   └── [AL-01-Metodos-Operaciones.md](AL-01-Metodos-Operaciones.md)
+│   └── [AL-01-Teoria-Matrices.md](AL-01-Metodos-Operaciones.md)
 ├── problems/
-│   └── [AL-01-Problemas.md](AL-01-Problemas.md)
-└── solutions/
-    ├── [AL-01-Respuestas.md](AL-01-Respuestas.md)
+│   └── [AL-01-Problemas.md](AL-01-Respuestas.md)
     └── prob-01/
         └── solucion-metodo.md
 ```

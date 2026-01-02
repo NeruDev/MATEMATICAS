@@ -10,7 +10,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -27,7 +27,7 @@ $$\lim_{x \to \infty} \frac{3x + 2}{x - 1} = \lim_{x \to \infty} \frac{\frac{3x}
 **Paso 3: Simplificar**
 $$= \lim_{x \to \infty} \frac{3 + \frac{2}{x}}{1 - \frac{1}{x}}$$
 
-**Paso 4: Evaluar el [límite](../../../..](../../../../glossary.md)#limite)**
+**Paso 4: Evaluar el [límite](../../../../glossary.md#limite)**
 Cuando $x \to \infty$: $\frac{2}{x} \to 0$ y $\frac{1}{x} \to 0$
 
 $$= \frac{3 + 0}{1 - 0} = \frac{3}{1} = 3$$
@@ -36,4 +36,4 @@ $$= \frac{3 + 0}{1 - 0} = \frac{3}{1} = 3$$
 
 $$\lim_{x \to \infty} \frac{3x + 2}{x - 1} = 3$$
 
-**Nota:** Cuando los grados son iguales, el [límite](../../../..](../../../../glossary.md)#limite) es el cociente de los coeficientes principales.
+**Nota:** Cuando los grados son iguales, el [límite](../../../../glossary.md#limite) es el cociente de los coeficientes principales.

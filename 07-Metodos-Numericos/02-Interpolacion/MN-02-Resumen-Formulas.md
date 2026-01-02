@@ -1,16 +1,16 @@
 <!--
 ---
-title: Resumen de Fórmulas - [Interpolación](../..](../../glossary.md)#interpolacion)
+title: Resumen de Fórmulas - Interpolación
 type: cheatsheet
 topic: interpolacion
-tags: [métodos-numéricos, [interpolación](../..](../../glossary.md)#interpolacion), fórmulas, cheatsheet]
+tags: [métodos-numéricos, interpolación, fórmulas, cheatsheet]
 created: 2025-12-20
 updated: 2025-12-20
 ---
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -32,14 +32,14 @@ $$P_2(x) = y_0 \frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)} + y_1 \frac{(x-x_0)(x-x
 ## 2. Interpolación de Newton (Diferencias Divididas)
 
 ### Fórmula Principal
-$$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0) + f[x_0,x_1,x_2](x-x_0)(x-x_1) + \cdots$$
+$$P_n(x) = f[x_0] + f[x_0,x_1](x-x_0)(x-x_1) + \cdots$$
 
 ### Diferencias Divididas
 
-**[Orden](../..](../../glossary.md)#orden) 0:**
+**[Orden](../../glossary.md#orden) 0:**
 $$f[x_i] = f(x_i) = y_i$$
 
-**[Orden](../..](../../glossary.md)#orden) 1:**
+**[Orden](../../glossary.md#orden) 1:**
 $$f[x_i, x_{i+1}] = \frac{f[x_{i+1}] - f[x_i]}{x_{i+1} - x_i}$$
 
 **Orden 2:**
@@ -76,41 +76,8 @@ $$S_i(x) = a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3$$
 
 ### Condiciones de Continuidad
 1. $S_i(x_i) = y_i$ (pasa por los puntos)
-2. $S_i(x_{i+1}) = S_{i+1}(x_{i+1})$ ([continuidad](../..](../../glossary.md)#continuidad))
-3. $S'_i(x_{i+1}) = S'_{i+1}(x_{i+1})$ ([derivada](../..](../../glossary.md)#derivada) primera continua)
-4. $S''_i(x_{i+1}) = S''_{i+1}(x_{i+1})$ ([derivada](../..](../../glossary.md)#derivada) segunda continua)
-
-### Spline Natural (Condiciones de Frontera)
-$$S''(x_0) = 0 \quad \text{y} \quad S''(x_n) = 0$$
-
-### Sistema Tridiagonal para $M_i = S''(x_i)$
-$$h_{i-1}M_{i-1} + 2(h_{i-1} + h_i)M_i + h_i M_{i+1} = 6\left(\frac{y_{i+1}-y_i}{h_i} - \frac{y_i - y_{i-1}}{h_{i-1}}\right)$$
-
-donde $h_i = x_{i+1} - x_i$.
-
----
-
-## 5. Error de Interpolación
-
-### Fórmula del Error
-$$E_n(x) = f(x) - P_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!} \prod_{i=0}^{n}(x - x_i)$$
-
-para algún $\xi$ en el intervalo que contiene a $x$ y todos los $x_i$.
-
-### Cota del Error
-$$|E_n(x)| \leq \frac{M_{n+1}}{(n+1)!} \max\left|\prod_{i=0}^{n}(x - x_i)\right|$$
-
-donde $M_{n+1} = \max|f^{(n+1)}(x)|$.
-
----
-
-## Tabla Comparativa
-
-| Método | Ventajas | Desventajas |
-|--------|----------|-------------|
-| Lagrange | Fórmula directa, conceptualmente simple | Recalcular todo al añadir puntos |
-| Newton | Fácil añadir puntos | Más cálculos iniciales |
-| Splines | Evita oscilaciones, [derivadas](../../glossary.md#derivadas) continuas | Sistema de ecuaciones más grande |
+2. $S_i(x_{i+1}) = S_{i+1}(x_{i+1})$ ([continuidad](../../glossary.md#derivada) primera continua)
+4. $S''_i(x_{i+1}) = S''_{i+1}(x_{i+1})$ ([derivada](../../glossary.md#derivadas) continuas | Sistema de ecuaciones más grande |
 
 ---
 
@@ -120,4 +87,4 @@ donde $M_{n+1} = \max|f^{(n+1)}(x)|$.
 $$\binom{s}{k} = \frac{s(s-1)(s-2)\cdots(s-k+1)}{k!}$$
 
 ### Unicidad del Polinomio
-Para $n+1$ puntos con $x_i$ distintos, existe un **único** [polinomio](../..](../../glossary.md)#polinomio) de grado $\leq n$ que pasa por todos ellos.
+Para $n+1$ puntos con $x_i$ distintos, existe un **único** [polinomio](../../glossary.md#polinomio) de grado $\leq n$ que pasa por todos ellos.

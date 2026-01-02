@@ -13,7 +13,7 @@ difficulty_distribution:
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -24,7 +24,7 @@ difficulty_distribution:
 ## Sección 1: Regla del Trapecio
 
 ### [Prob-01] Trapecio simple para función cuadrática ⭐
-Aproxima $\int_0^2 x^2\,dx$ usando la [regla del trapecio](../../..](../../../glossary.md)#regla-del-trapecio) simple. Calcula el error relativo.
+Aproxima $\int_0^2 x^2\,dx$ usando la [regla del trapecio](../../../glossary.md#regla-del-trapecio) simple. Calcula el error relativo.
 
 > 📁 Solución: `solutions/prob-01/`
 
@@ -34,7 +34,7 @@ Usa el trapecio compuesto con $n = 4$ para estimar $\int_1^3 \frac{1}{x}\,dx$. C
 > 📁 Solución: `solutions/prob-02/`
 
 ### [Prob-03] Estimación de subintervalos para precisión dada ⭐⭐
-Determina el número de subintervalos necesarios para calcular $\int_0^1 e^{-x^2}\,dx$ con error [menor](../../..](../../../glossary.md)#menor) a $10^{-4}$ usando trapecio compuesto.
+Determina el número de subintervalos necesarios para calcular $\int_0^1 e^{-x^2}\,dx$ con error [menor](../../../glossary.md#menor) a $10^{-4}$ usando trapecio compuesto.
 
 > 📁 Solución: `solutions/prob-03/`
 
@@ -50,7 +50,7 @@ Calcula $\int_1^3 f(x)\,dx$ usando trapecio compuesto.
 > 📁 Solución: `solutions/prob-04/`
 
 ### [Prob-05] Análisis de convergencia del trapecio ⭐⭐
-Para $\int_0^{\pi} \sin x\,dx$, calcula las aproximaciones con trapecio compuesto usando $n = 2, 4, 8$ y analiza la [convergencia](../../..](../../../glossary.md)#convergencia).
+Para $\int_0^{\pi} \sin x\,dx$, calcula las aproximaciones con trapecio compuesto usando $n = 2, 4, 8$ y analiza la [convergencia](../../../glossary.md#convergencia).
 
 > 📁 Solución: `solutions/prob-05/`
 
@@ -74,7 +74,7 @@ Calcula $\int_0^{0.8} e^{-x^2}\,dx$ con Simpson compuesto ($n = 4$).
 > 📁 Solución: `solutions/prob-08/`
 
 ### [Prob-09] Demostración de la regla de Simpson 3/8 ⭐⭐⭐
-Demuestra que la [regla de Simpson](../../..](../../../glossary.md)#regla-de-simpson) 3/8 con puntos $x_0, x_1, x_2, x_3$ equiespaciados da:
+Demuestra que la [regla de Simpson](../../../glossary.md#regla-de-simpson) 3/8 con puntos $x_0, x_1, x_2, x_3$ equiespaciados da:
 $$I \approx \frac{3h}{8}[f_0 + 3f_1 + 3f_2 + f_3]$$
 
 > 📁 Solución: `solutions/prob-09/`
@@ -110,7 +110,7 @@ Usa integración de Romberg para calcular $\int_0^{\pi/2} \cos x\,dx$ con tolera
 > 📁 Solución: `solutions/prob-13/`
 
 ### [Prob-14] Romberg para logaritmo natural ⭐⭐
-Calcula $\int_1^2 \frac{1}{x}\,dx$ usando Romberg. Llena la tabla hasta [convergencia](../../..](../../../glossary.md)#convergencia) ($\varepsilon < 10^{-5}$).
+Calcula $\int_1^2 \frac{1}{x}\,dx$ usando Romberg. Llena la tabla hasta [convergencia](../../../glossary.md#convergencia) ($\varepsilon < 10^{-5}$).
 
 > 📁 Solución: `solutions/prob-14/`
 
@@ -140,12 +140,12 @@ Evalúa $\int_{-1}^{1} \frac{1}{1+x^2}\,dx$ usando Gauss-Legendre con $n = 2$ y 
 > 📁 Solución: `solutions/prob-18/`
 
 ### [Prob-19] Gauss-Legendre con cambio de variable ⭐⭐
-Calcula $\int_1^3 \ln x\,dx$ usando Gauss-Legendre con 3 puntos. Realiza el cambio de variable [necesario](../../..](../../../glossary.md)#necesario).
+Calcula $\int_1^3 \ln x\,dx$ usando Gauss-Legendre con 3 puntos. Realiza el cambio de variable [necesario](../../../glossary.md#necesario).
 
 > 📁 Solución: `solutions/prob-19/`
 
 ### [Prob-20] Grado de exactitud de Gauss-Legendre ⭐
-¿Cuál es el grado máximo de [polinomio](../../..](../../../glossary.md)#polinomio) que integra exactamente Gauss-Legendre con $n = 4$ puntos?
+¿Cuál es el grado máximo de [polinomio](../../../glossary.md#polinomio) que integra exactamente Gauss-Legendre con $n = 4$ puntos?
 
 > 📁 Solución: `solutions/prob-20/`
 
@@ -171,7 +171,7 @@ b) Compara con el error real
 > 📁 Solución: `solutions/prob-23/`
 
 ### [Prob-24] Subintervalos mínimos para Simpson ⭐⭐
-Determina el número mínimo de subintervalos para Simpson compuesto que garantiza error [menor](../../..](../../../glossary.md)#menor) a $10^{-6}$ en $\int_0^1 \frac{1}{1+x}\,dx$.
+Determina el número mínimo de subintervalos para Simpson compuesto que garantiza error [menor](../../../glossary.md#menor) a $10^{-6}$ en $\int_0^1 \frac{1}{1+x}\,dx$.
 
 > 📁 Solución: `solutions/prob-24/`
 
@@ -245,7 +245,7 @@ con Simpson compuesto ($n = 4$).
 > 📁 Solución: `solutions/prob-33/`
 
 ### [Prob-34] Cálculo de la función error ⭐⭐
-Calcula la [función](../../..](../../../glossary.md)#funcion) error $\text{erf}(1) = \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2}\,dt$ con precisión de 4 decimales.
+Calcula la [función](../../../glossary.md#funcion) error $\text{erf}(1) = \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2}\,dt$ con precisión de 4 decimales.
 
 > 📁 Solución: `solutions/prob-34/`
 
@@ -264,7 +264,7 @@ Implementa integración adaptativa que subdivida el intervalo solo donde el erro
 > 📁 Solución: `solutions/prob-36/`
 
 ### [Prob-37] Integración con puntos no equiespaciados ⭐⭐⭐
-Dada una [función](../../..](../../../glossary.md)#funcion) tabulada en puntos NO equiespaciados:
+Dada una [función](../../../glossary.md#funcion) tabulada en puntos NO equiespaciados:
 
 | $x$ | 0 | 0.2 | 0.5 | 0.8 | 1.0 |
 |-----|---|-----|-----|-----|-----|

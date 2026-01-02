@@ -8,7 +8,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -20,12 +20,12 @@ audience: student
 
 ### Definición
 
-Una [función](../../..](../../../glossary.md)#funcion) $F(x)$ es una **[antiderivada](../../..](../../../glossary.md)#antiderivada)** (o [primitiva](../../..](../../../glossary.md)#primitiva)) de $f(x)$ en un intervalo $I$ si:
+Una [función](../../../glossary.md#funcion) $F(x)$ es una **[antiderivada](../../../glossary.md#antiderivada)** (o [primitiva](../../../glossary.md#primitiva)) de $f(x)$ en un intervalo $I$ si:
 
 $$F'(x) = f(x) \quad \text{para todo } x \in I$$
 
 ### Ejemplo
-Si $F(x) = x^3$, entonces $F'(x) = 3x^2$, por lo que $F(x) = x^3$ es una [antiderivada](../../..](../../../glossary.md)#antiderivada) de $f(x) = 3x^2$.
+Si $F(x) = x^3$, entonces $F'(x) = 3x^2$, por lo que $F(x) = x^3$ es una [antiderivada](../../../glossary.md#antiderivada) de $f(x) = 3x^2$.
 
 ### Observación Importante
 Si $F(x)$ es una antiderivada de $f(x)$, entonces $F(x) + C$ también lo es para cualquier constante $C$, porque:
@@ -36,7 +36,7 @@ $$(F(x) + C)' = F'(x) + 0 = f(x)$$
 ## 1.2 Notación y Constante de Integración
 
 ### Notación
-La **[integral indefinida](../../..](../../../glossary.md)#integral-indefinida)** de $f(x)$ se denota:
+La **[integral indefinida](../../../glossary.md#integral-indefinida)** de $f(x)$ se denota:
 
 $$\int f(x) \, dx = F(x) + C$$
 
@@ -45,7 +45,7 @@ donde:
 - $f(x)$ es el **integrando**
 - $dx$ indica la variable de integración
 - $F(x)$ es una antiderivada de $f(x)$
-- $C$ es la **[constante de integración](../../..](../../../glossary.md)#constante-de-integracion)**
+- $C$ es la **[constante de integración](../../../glossary.md#constante-de-integracion)**
 
 ### La Constante de Integración
 La constante $C$ representa que hay infinitas antiderivadas que difieren por una constante.
@@ -77,7 +77,7 @@ $$\boxed{\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1}$$
 
 $$\boxed{\int \frac{1}{x} \, dx = \ln\lvert x \rvert + C}$$
 
-El valor absoluto es [necesario](../../..](../../../glossary.md)#necesario) porque $\ln x$ solo está definido para $x > 0$.
+El valor absoluto es [necesario](../../../glossary.md#necesario) porque $\ln x$ solo está definido para $x > 0$.
 
 ---
 
@@ -101,7 +101,7 @@ $$\int e^{kx} \, dx = \frac{e^{kx}}{k} + C$$
 
 ## 1.5 Integrales de Funciones Logarítmicas
 
-La integral de $\ln x$ requiere [integración por partes](../../..](../../../glossary.md)#integracion-por-partes) (ver [Técnicas de Integración](../../..](../../../glossary.md)#tecnicas-de-integracion)):
+La integral de $\ln x$ requiere [integración por partes](../../../glossary.md#integracion-por-partes) (ver [Técnicas de Integración](../../../glossary.md#tecnicas-de-integracion)):
 
 $$\int \ln x \, dx = x \ln x - x + C$$
 
@@ -164,7 +164,7 @@ $$\int k \cdot f(x) \, dx = k \int f(x) \, dx$$
 **Propiedad 2: Suma y diferencia**
 $$\int [f(x) \pm g(x)] \, dx = \int f(x) \, dx \pm \int g(x) \, dx$$
 
-**Combinación ([Linealidad](../../..](../../../glossary.md)#linealidad) completa):**
+**Combinación ([Linealidad](../../../glossary.md#linealidad) completa):**
 $$\int [af(x) + bg(x)] \, dx = a\int f(x) \, dx + b\int g(x) \, dx$$
 
 ### Tabla Resumen de Integrales Básicas

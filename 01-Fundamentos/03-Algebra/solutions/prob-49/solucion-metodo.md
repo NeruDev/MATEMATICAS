@@ -6,11 +6,11 @@ file_id: FUN-03-Prob-49-Solucion
 status: stable
 audience: student
 problem_ref: "[Prob-49]"
-methods: ["fracciones-complejas", "[mcm](../../../..](../../../../glossary.md)#mcm)", "simplificacion-algebraica"]
+methods: ["fracciones-complejas", "[mcm](../../../../glossary.md#mcm)", "simplificacion-algebraica"]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -30,7 +30,7 @@ Esta es una fracción donde tanto el numerador como el denominador contienen fra
 
 Los denominadores internos son $x$ e $y$.
 
-$$\text{[MCM](../../../..](../../../../glossary.md)#mcm)}(x, y) = xy$$
+$$\text{[MCM](../../../../glossary.md#mcm)}(x, y) = xy$$
 
 ### Paso 3: Multiplicar numerador y denominador por el MCM
 
@@ -177,7 +177,7 @@ La expresión está definida cuando:
 2. $y \neq 0$ (para que exista $\frac{1}{y}$)
 3. $\frac{1}{x} + \frac{1}{y} \neq 0$, es decir, $x + y \neq 0$ o $y \neq -x$
 
-**[Dominio](../../../..](../../../../glossary.md)#dominio):** $\{(x, y) \in \mathbb{R}^2 : x \neq 0, y \neq 0, x \neq -y\}$
+**[Dominio](../../../../glossary.md#dominio):** $\{(x, y) \in \mathbb{R}^2 : x \neq 0, y \neq 0, x \neq -y\}$
 
 ---
 

@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Solución - [Integración por Partes](../../../..](../../../../glossary.md)#integracion-por-partes) Iteradas"
+title: "Solución - [Integración por Partes](../../../../glossary.md#integracion-por-partes) Iteradas"
 type: solution
 topic: tecnicas-integracion
 problem_id: CI-02-018
@@ -18,7 +18,7 @@ created: 2025-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -26,7 +26,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la [integral indefinida](../../../..](../../../../glossary.md)#integral-indefinida):
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int x^2 e^x \, dx$$
 
 ---
@@ -173,7 +173,7 @@ $$\int x^n e^{ax} \, dx = e^{ax}\sum_{k=0}^{n} (-1)^k \frac{n!}{(n-k)!} \frac{x^
 
 ## Notas Adicionales
 
-> **Regla LIATE:** Para elegir $u$ en [integración por partes](../../../..](../../../../glossary.md)#integracion-por-partes), priorizar:
+> **Regla LIATE:** Para elegir $u$ en [integración por partes](../../../../glossary.md#integracion-por-partes), priorizar:
 > - **L**ogarítmicas
 > - **I**nversas trigonométricas
 > - **A**lgebraicas (polinomios)

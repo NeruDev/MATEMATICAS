@@ -9,7 +9,7 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -52,10 +52,10 @@ $$x = \frac{15}{90}$$
 $$\frac{15}{90} = \frac{15 \div 15}{90 \div 15} = \frac{1}{6}$$
 
 **Detalle de simplificación:**
-$$\text{[MCD](../../../..](../../../../glossary.md)#mcd)}(15, 90) = 15$$
+$$\text{[MCD](../../../../glossary.md#mcd)}(15, 90) = 15$$
 - $15 = 3 \times 5$
 - $90 = 2 \times 3^2 \times 5$
-- $\text{[MCD](../../../..](../../../../glossary.md)#mcd)} = 3 \times 5 = 15$
+- $\text{[MCD](../../../../glossary.md#mcd)} = 3 \times 5 = 15$
 
 ---
 

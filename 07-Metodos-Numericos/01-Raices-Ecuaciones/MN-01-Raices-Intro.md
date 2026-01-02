@@ -1,6 +1,6 @@
 <!--
 ---
-title: Introducción a Métodos de [Raíces de Ecuaciones](../..](../../glossary.md)#raices-de-ecuaciones)
+title: Introducción a Métodos de [Raíces de Ecuaciones](../../glossary.md#raices-de-ecuaciones)
 type: index
 topic: raices-ecuaciones
 tags: [métodos-numéricos, raíces, bisección, newton-raphson, secante, punto-fijo]
@@ -10,7 +10,7 @@ updated: 2025-12-20
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -18,7 +18,7 @@ updated: 2025-12-20
 
 ## Descripción General
 
-Los [métodos numéricos](../..](../../glossary.md)#metodos-numericos) para encontrar [raíces de ecuaciones](../..](../../glossary.md)#raices-de-ecuaciones) son algoritmos iterativos que aproximan las soluciones de $f(x) = 0$ cuando no es posible obtener una solución analítica exacta.
+Los [métodos numéricos](../../glossary.md#raices-de-ecuaciones) son algoritmos iterativos que aproximan las soluciones de $f(x) = 0$ cuando no es posible obtener una solución analítica exacta.
 
 ## Contenido del Módulo
 
@@ -36,16 +36,9 @@ Los [métodos numéricos](../..](../../glossary.md)#metodos-numericos) para enco
 
 ## Objetivos de Aprendizaje
 
-1. Comprender el concepto de [convergencia](../..](../../glossary.md)#convergencia) y error en métodos iterativos
-2. Aplicar el [método de bisección](../..](../../glossary.md)#metodo-de-biseccion) para encontrar raíces en intervalos acotados
-3. Implementar el [método de Newton-Raphson](../..](../../glossary.md)#metodo-de-newton-raphson) y analizar su [convergencia](../..](../../glossary.md)#convergencia)
-4. Comparar la eficiencia de diferentes [métodos numéricos](../..](../../glossary.md)#metodos-numericos)
-
-## Prerrequisitos
-
-- [Cálculo diferencial](../..](../../glossary.md)#calculo-diferencial) ([derivadas](../..](../../glossary.md)#derivadas))
-- Teorema del valor intermedio
-- Conceptos de [límites](../..](../../glossary.md)#limites) y [continuidad](../..](../../glossary.md)#continuidad)
+1. Comprender el concepto de [convergencia](../../glossary.md#metodo-de-biseccion) para encontrar raíces en intervalos acotados
+3. Implementar el [método de Newton-Raphson](../../glossary.md#convergencia)
+4. Comparar la eficiencia de diferentes [métodos numéricos](../../glossary.md#calculo-diferencial) ([derivadas](../../glossary.md#limites) y [continuidad](../../glossary.md#continuidad)
 
 ## Mapa Conceptual
 

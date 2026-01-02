@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -19,60 +19,7 @@ requires: []
 
 $$\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt$$
 
-**Condición de existencia:** $f(t)$ de [orden](../..](../../glossary.md)#orden) exponencial y seccionalmente continua.
-
----
-
-## Tabla de Transformadas Básicas
-
-| $f(t)$ | $F(s) = \mathcal{L}\{f(t)\}$ | Restricción |
-|--------|------------------------------|-------------|
-| $1$ | $\dfrac{1}{s}$ | $s > 0$ |
-| $t$ | $\dfrac{1}{s^2}$ | $s > 0$ |
-| $t^n$ | $\dfrac{n!}{s^{n+1}}$ | $s > 0$ |
-| $e^{at}$ | $\dfrac{1}{s-a}$ | $s > a$ |
-| $t^n e^{at}$ | $\dfrac{n!}{(s-a)^{n+1}}$ | $s > a$ |
-| $\sin(bt)$ | $\dfrac{b}{s^2+b^2}$ | $s > 0$ |
-| $\cos(bt)$ | $\dfrac{s}{s^2+b^2}$ | $s > 0$ |
-| $\sinh(bt)$ | $\dfrac{b}{s^2-b^2}$ | $s > \lvert b \rvert$ |
-| $\cosh(bt)$ | $\dfrac{s}{s^2-b^2}$ | $s > \lvert b \rvert$ |
-| $e^{at}\sin(bt)$ | $\dfrac{b}{(s-a)^2+b^2}$ | $s > a$ |
-| $e^{at}\cos(bt)$ | $\dfrac{s-a}{(s-a)^2+b^2}$ | $s > a$ |
-| $t\sin(bt)$ | $\dfrac{2bs}{(s^2+b^2)^2}$ | $s > 0$ |
-| $t\cos(bt)$ | $\dfrac{s^2-b^2}{(s^2+b^2)^2}$ | $s > 0$ |
-
----
-
-## Propiedades Fundamentales
-
-### Linealidad
-$$\mathcal{L}\{af(t) + bg(t)\} = aF(s) + bG(s)$$
-
-### Derivadas
-$$\mathcal{L}\{f'(t)\} = sF(s) - f(0)$$
-$$\mathcal{L}\{f''(t)\} = s^2F(s) - sf(0) - f'(0)$$
-$$\mathcal{L}\{f^{(n)}(t)\} = s^nF(s) - s^{n-1}f(0) - \cdots - f^{(n-1)}(0)$$
-
-### Integral
-$$\mathcal{L}\left\{\int_0^t f(\tau)\,d\tau\right\} = \frac{F(s)}{s}$$
-
-### Multiplicación por $t$
-$$\mathcal{L}\{t^n f(t)\} = (-1)^n \frac{d^n F(s)}{ds^n}$$
-
-### División por $t$
-$$\mathcal{L}\left\{\frac{f(t)}{t}\right\} = \int_s^\infty F(\sigma)\,d\sigma$$
-
----
-
-## Teoremas de Traslación
-
-### Primera traslación (en $s$)
-$$\mathcal{L}\{e^{at}f(t)\} = F(s-a)$$
-
-### Segunda traslación (en $t$)
-$$\mathcal{L}\{u(t-a)f(t-a)\} = e^{-as}F(s)$$
-
-donde $u(t-a)$ es la [función](../..](../../glossary.md)#funcion) escalón unitario.
+**Condición de existencia:** $f(t)$ de [orden](../../glossary.md#funcion) escalón unitario.
 
 ---
 
@@ -119,8 +66,7 @@ $$\frac{P(s)}{s^2+bs+c} = \frac{As+B}{s^2+bs+c}$$
 ## Resolución de PVI
 
 ### Método
-1. Aplicar $\mathcal{L}$ a ambos lados de la [EDO](../..](../../glossary.md)#edo)
-2. Usar propiedades de [derivadas](../..](../../glossary.md)#derivadas) con condiciones iniciales
+1. Aplicar $\mathcal{L}$ a ambos lados de la [EDO](../../glossary.md#derivadas) con condiciones iniciales
 3. Despejar $Y(s)$
 4. Aplicar $\mathcal{L}^{-1}$ para obtener $y(t)$
 
@@ -142,7 +88,6 @@ $$H(s) = \frac{Y(s)}{F(s)} = \frac{1}{as^2 + bs + c}$$
 ---
 
 <!--
-IA: Hoja de referencia rápida para [Transformada de Laplace](../..](../../glossary.md)#transformada-de-laplace).
-Para desarrollo completo: [theory/ED-04-Teoria-Laplace.md](theory/ED-04-Teoria-Laplace.md)
+IA: Hoja de referencia rápida para [Transformada de Laplace](theory/ED-04-Teoria-Transformada-Laplace.md)
 file_id: ED-04-Resumen-Formulas
 -->

@@ -9,7 +9,7 @@ requires: [fun-02-aritmetica]
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -19,6 +19,5 @@ requires: [fun-02-aritmetica]
 Manipular expresiones algebraicas, resolver ecuaciones y sistemas.
 
 ## Mapa de recursos
-- [FUN-03-Algebra-Intro.md](FUN-03-Algebra-Intro.md) ← Estás aquí
-- [FUN-03-Resumen-Formulas.md](FUN-03-Resumen-Formulas.md)
+- [FUN-03-Algebra-Intro.md](FUN-03-Resumen-Formulas.md)
 - [theory/FUN-03-Teoria-Algebra.md](theory/FUN-03-Teoria-Algebra.md)

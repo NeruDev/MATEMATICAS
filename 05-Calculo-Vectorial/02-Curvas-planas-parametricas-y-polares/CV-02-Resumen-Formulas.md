@@ -9,7 +9,7 @@ requires: []
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
 
 ---
 
@@ -25,8 +25,7 @@ requires: []
 
 ## Tangentes paramétricas
 
-- **[Tangente](../..](../../glossary.md)#tangente) horizontal:** $dy/dt = 0$ y $dx/dt \neq 0$
-- **[Tangente](../..](../../glossary.md)#tangente) vertical:** $dx/dt = 0$ y $dy/dt \neq 0$
+- **[Tangente](../../glossary.md#tangente) vertical:** $dx/dt = 0$ y $dy/dt \neq 0$
 - **Punto singular:** $dx/dt = 0$ y $dy/dt = 0$ (requiere análisis adicional)
 
 ## Longitud de arco paramétrico

@@ -9,7 +9,7 @@ last_updated: 2024-12-29
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
@@ -26,24 +26,20 @@ last_updated: 2024-12-29
 - Método estándar y sistemático
 
 ### Objetivo
-Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../..](../../../glossary.md)#sustitucion) hacia atrás**.
+Transformar el sistema a **forma escalonada por filas (REF)** y resolver por **[sustitución](../../../glossary.md#sustitucion) hacia atrás**.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir [matriz](../../../glossary.md#matriz) aumentada | $(A \mid b)$ |
-| 2 | Encontrar pivote | Primer elemento no nulo en columna |
-| 3 | Hacer ceros debajo del pivote | $R_i - \frac{a_{i1}}{a_{11}}R_1 \to R_i$ |
-| 4 | Repetir para cada columna | Avanzar a la siguiente columna |
-| 5 | [Sustitución](../../../glossary.md#sustitucion) hacia atrás | Resolver desde la última ecuación |
+| 1 | Escribir [matriz](../../../glossary.md#sustitucion) hacia atrás | Resolver desde la última ecuación |
 
 ### Ejemplo Detallado
 
 **Problema:** Resolver el sistema:
 $$\begin{cases} x + 2y + z = 9 \\ 2x + 5y + 3z = 22 \\ 3x + 6y + 4z = 28 \end{cases}$$
 
-**Paso 1:** Escribimos la [matriz](../../..](../../../glossary.md)#matriz) aumentada:
+**Paso 1:** Escribimos la [matriz](../../../glossary.md#matriz) aumentada:
 $$\left(\begin{array}{ccc|c} 1 & 2 & 1 & 9 \\ 2 & 5 & 3 & 22 \\ 3 & 6 & 4 & 28 \end{array}\right)$$
 
 **Paso 2:** Hacemos ceros en la columna 1 debajo del pivote:
@@ -175,53 +171,12 @@ $$\left(\begin{array}{ccc|c} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 3 \en
 | 3 | Identificar variables libres | Columnas sin pivote |
 | 4 | Asignar parámetros | A cada variable libre |
 | 5 | Despejar variables básicas | En términos de parámetros |
-| 6 | Escribir solución vectorial | [Solución particular](../../../glossary.md#solucion-particular) + combinación de vectores |
-
-### Ejemplo Detallado
-
-**Problema:** Resolver:
-$$\begin{cases} x_1 + 2x_2 - x_3 + x_4 = 3 \\ 2x_1 + 4x_2 + x_3 - 2x_4 = 1 \\ x_1 + 2x_2 + 2x_3 - 3x_4 = -2 \end{cases}$$
-
-**Paso 1:** Matriz aumentada y reducción:
-$$\left(\begin{array}{cccc|c} 1 & 2 & -1 & 1 & 3 \\ 2 & 4 & 1 & -2 & 1 \\ 1 & 2 & 2 & -3 & -2 \end{array}\right)$$
-
-$R_2 - 2R_1 \to R_2$, $R_3 - R_1 \to R_3$:
-$$\left(\begin{array}{cccc|c} 1 & 2 & -1 & 1 & 3 \\ 0 & 0 & 3 & -4 & -5 \\ 0 & 0 & 3 & -4 & -5 \end{array}\right)$$
-
-$R_3 - R_2 \to R_3$:
-$$\left(\begin{array}{cccc|c} 1 & 2 & -1 & 1 & 3 \\ 0 & 0 & 3 & -4 & -5 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right)$$
-
-$\frac{1}{3}R_2 \to R_2$:
-$$\left(\begin{array}{cccc|c} 1 & 2 & -1 & 1 & 3 \\ 0 & 0 & 1 & -\frac{4}{3} & -\frac{5}{3} \\ 0 & 0 & 0 & 0 & 0 \end{array}\right)$$
-
-$R_1 + R_2 \to R_1$:
-$$\left(\begin{array}{cccc|c} 1 & 2 & 0 & -\frac{1}{3} & \frac{4}{3} \\ 0 & 0 & 1 & -\frac{4}{3} & -\frac{5}{3} \\ 0 & 0 & 0 & 0 & 0 \end{array}\right)$$
-
-**Paso 2-3:** Identificamos:
-- Variables básicas (pivotes en columnas 1 y 3): $x_1$, $x_3$
-- Variables libres (sin pivote en columnas 2 y 4): $x_2$, $x_4$
-
-**Paso 4:** Asignamos parámetros: $x_2 = s$, $x_4 = t$
-
-**Paso 5:** Despejamos:
-$$x_3 = -\frac{5}{3} + \frac{4}{3}t$$
-$$x_1 = \frac{4}{3} - 2s + \frac{1}{3}t$$
-
-**Paso 6:** Solución vectorial:
-$$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} 4/3 \\ 0 \\ -5/3 \\ 0 \end{pmatrix} + s\begin{pmatrix} -2 \\ 1 \\ 0 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1/3 \\ 0 \\ 4/3 \\ 1 \end{pmatrix}}$$
-
----
-
-## Método 5: Sistemas Homogéneos ($Ax = 0$)
-
-### Cuándo Usar
-- Sistema con todos los términos independientes iguales a cero
-- Encontrar el [núcleo (kernel)](../../..](../../../glossary.md)#nucleo-kernel) de una matriz
+| 6 | Escribir solución vectorial | [Solución particular](../../..](../../../glossary.md#nucleo-kernel) de una matriz
 
 ### Propiedades
-- **Siempre** tiene la solución [trivial](../../..](../../../glossary.md)#trivial) $x = 0$
+- **Siempre** tiene la solución [trivial](../../../glossary.md#trivial) $x = 0$
 - Si $\text{rango}(A) < n$, tiene infinitas soluciones no triviales
-- El conjunto solución es un **[subespacio](../../..](../../../glossary.md)#subespacio) vectorial**
+- El conjunto solución es un **[subespacio](../../../glossary.md#subespacio) vectorial**
 
 ### Algoritmo de Resolución
 
@@ -229,7 +184,7 @@ $$\boxed{\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix
 |------|--------|---------|
 | 1 | Reducir $A$ a RREF | Sin columna aumentada |
 | 2 | Identificar variables libres | Columnas sin pivote |
-| 3 | Encontrar [base](../../../glossary.md#base) del núcleo | Un [vector](../../../glossary.md#vector) por cada variable libre |
+| 3 | Encontrar [base](../../../glossary.md#vector) por cada variable libre |
 
 ### Ejemplo Detallado
 
@@ -251,7 +206,7 @@ $$x_1 = -2t, \quad x_3 = 0$$
 **Resultado:** El espacio solución es:
 $$\boxed{\ker(A) = \text{span}\left\{\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix}\right\}}$$
 
-[Dimensión](../../..](../../../glossary.md)#dimension) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
+[Dimensión](../../../glossary.md#dimension) del núcleo: $\dim(\ker A) = 1$ (una variable libre).
 
 ---
 
@@ -299,9 +254,9 @@ $$\boxed{x = 1, \quad y = 3}$$
 ### Fórmula
 $$x_i = \frac{\det(A_i)}{\det(A)}$$
 
-donde $A_i$ tiene la columna $i$ reemplazada por el [vector](../../..](../../../glossary.md)#vector) $b$.
+donde $A_i$ tiene la columna $i$ reemplazada por el [vector](../../../glossary.md#vector) $b$.
 
-*Ver Método 7 de [Determinantes](../../..](../../../glossary.md)#determinantes) para ejemplo detallado.*
+*Ver Método 7 de [Determinantes](../../../glossary.md#determinantes) para ejemplo detallado.*
 
 ---
 
@@ -320,13 +275,7 @@ Descomponer $A = LU$ donde:
 
 | Paso | Acción | Sistema |
 |------|--------|---------|
-| 1 | [Factorizar](../../../glossary.md#factorizar) $A = LU$ | Durante eliminación gaussiana |
-| 2 | Resolver $Ly = b$ | Sustitución hacia adelante |
-| 3 | Resolver $Ux = y$ | Sustitución hacia atrás |
-
-### Ejemplo Detallado
-
-**Problema:** [Factorizar](../../..](../../../glossary.md)#factorizar) y resolver:
+| 1 | [Factorizar](../../..](../../../glossary.md#factorizar) y resolver:
 $$\begin{cases} 2x + y + z = 1 \\ 4x + 3y + 3z = 1 \\ 8x + 7y + 9z = 5 \end{cases}$$
 
 **Paso 1:** Eliminación guardando multiplicadores:
@@ -368,16 +317,7 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 
 | Paso | Acción |
 |------|--------|
-| 1 | Calcular $\det(A)$ en [función](../../../glossary.md#funcion) del parámetro |
-| 2 | Encontrar valores críticos donde $\det = 0$ |
-| 3 | Analizar cada caso por separado |
-
-### Ejemplo Detallado
-
-**Problema:** Para qué valores de $k$ el sistema tiene solución única, infinitas o ninguna:
-$$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 1 \\ x + 2y + kz = 1 \end{cases}$$
-
-**Paso 1:** Calculamos el [determinante](../../..](../../../glossary.md)#determinante):
+| 1 | Calcular $\det(A)$ en [función](../../..](../../../glossary.md#determinante):
 $$\det(A) = \det\begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & k \end{pmatrix}$$
 
 Expandiendo por la columna 1:

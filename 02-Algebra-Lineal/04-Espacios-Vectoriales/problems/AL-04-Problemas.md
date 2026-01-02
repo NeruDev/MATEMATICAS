@@ -8,13 +8,13 @@ audience: student
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../WIKI_INDEX.md) | [📚 Glosario](../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../glossary.md)
 
 ---
 
 # Problemas: Espacios Vectoriales
 
-> Colección de problemas graduados por dificultad para [espacios vectoriales](../../..](../../../glossary.md)#espacios-vectoriales).
+> Colección de problemas graduados por dificultad para [espacios vectoriales](../../../glossary.md#espacios-vectoriales).
 
 ---
 
@@ -22,7 +22,7 @@ audience: student
 
 ### [Prob-01] Verificación de axiomas en R² ⭐
 
-Verificar los axiomas de [espacio vectorial](../../..](../../../glossary.md)#espacio-vectorial) para $\mathbb{R}^2$ con las operaciones usuales.
+Verificar los axiomas de [espacio vectorial](../../../glossary.md#espacio-vectorial) para $\mathbb{R}^2$ con las operaciones usuales.
 
 📁 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
 
@@ -34,7 +34,7 @@ Sea $V = \{(x, y) : x, y > 0\}$ con operaciones:
 - $(x_1, y_1) \oplus (x_2, y_2) = (x_1 x_2, y_1 y_2)$
 - $c \odot (x, y) = (x^c, y^c)$
 
-Verificar si es [espacio vectorial](../../..](../../../glossary.md)#espacio-vectorial) sobre $\mathbb{R}$.
+Verificar si es [espacio vectorial](../../../glossary.md#espacio-vectorial) sobre $\mathbb{R}$.
 
 📁 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
 
@@ -68,7 +68,7 @@ d) $W_4 = \{(x, y, z) : x = 2y\}$
 
 ### [Prob-05] Matrices simétricas como subespacio ⭐
 
-¿Es $W = \{A \in M_{2\times 2} : A^T = A\}$ (matrices simétricas) [subespacio](../../..](../../../glossary.md)#subespacio) de $M_{2\times 2}$?
+¿Es $W = \{A \in M_{2\times 2} : A^T = A\}$ (matrices simétricas) [subespacio](../../../glossary.md#subespacio) de $M_{2\times 2}$?
 
 📁 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
 
@@ -76,7 +76,7 @@ d) $W_4 = \{(x, y, z) : x = 2y\}$
 
 ### [Prob-06] Polinomios con raíz en cero ⭐
 
-¿Es $W = \{p(x) \in P_3 : p(0) = 0\}$ [subespacio](../../..](../../../glossary.md)#subespacio) de $P_3$?
+¿Es $W = \{p(x) \in P_3 : p(0) = 0\}$ [subespacio](../../../glossary.md#subespacio) de $P_3$?
 
 📁 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
 
@@ -84,7 +84,7 @@ d) $W_4 = \{(x, y, z) : x = 2y\}$
 
 ### [Prob-07] Espacio nulo como subespacio ⭐⭐
 
-Sea $A$ una [matriz](../../..](../../../glossary.md)#matriz) $m \times n$. Demostrar que $\text{Nul}(A)$ es subespacio de $\mathbb{R}^n$.
+Sea $A$ una [matriz](../../../glossary.md#matriz) $m \times n$. Demostrar que $\text{Nul}(A)$ es subespacio de $\mathbb{R}^n$.
 
 📁 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
 
@@ -102,7 +102,7 @@ Determinar si $W = \{(x, y, z) : x^2 + y^2 + z^2 \leq 1\}$ es subespacio de $\ma
 
 ### [Prob-09] Verificar combinación lineal ⭐
 
-¿Es $v = (1, 2, 3)$ [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal) de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
+¿Es $v = (1, 2, 3)$ [combinación lineal](../../../glossary.md#combinacion-lineal) de $u_1 = (1, 0, 1)$ y $u_2 = (0, 1, 1)$?
 
 📁 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
 
@@ -110,7 +110,7 @@ Determinar si $W = \{(x, y, z) : x^2 + y^2 + z^2 \leq 1\}$ es subespacio de $\ma
 
 ### [Prob-10] Expresar como combinación lineal ⭐
 
-Escribir $(7, 4, 5)$ como [combinación lineal](../../..](../../../glossary.md)#combinacion-lineal) de $(1, 1, 1)$, $(1, 1, 0)$, $(1, 0, 0)$.
+Escribir $(7, 4, 5)$ como [combinación lineal](../../../glossary.md#combinacion-lineal) de $(1, 1, 1)$, $(1, 1, 0)$, $(1, 0, 0)$.
 
 📁 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
 
@@ -192,7 +192,7 @@ Demostrar que si $\{v_1, v_2, v_3\}$ es LI, entonces $\{v_1, v_1 + v_2, v_1 + v_
 
 ### [Prob-19] Base y dimensión de subespacios ⭐⭐
 
-Encontrar una [base](../../..](../../../glossary.md)#base) y la [dimensión](../../..](../../../glossary.md)#dimension) de:
+Encontrar una [base](../../../glossary.md#base) y la [dimensión](../../../glossary.md#dimension) de:
 
 a) $W = \{(x, y, z) : x - 2y + z = 0\}$
 
@@ -204,7 +204,7 @@ b) $W = \{(x, y, z, w) : x + y = 0, z + w = 0\}$
 
 ### [Prob-20] Base de matrices simétricas ⭐⭐
 
-Encontrar una [base](../../..](../../../glossary.md)#base) para el espacio de matrices simétricas $2 \times 2$. ¿Cuál es su [dimensión](../../..](../../../glossary.md)#dimension)?
+Encontrar una [base](../../../glossary.md#base) para el espacio de matrices simétricas $2 \times 2$. ¿Cuál es su [dimensión](../../../glossary.md#dimension)?
 
 📁 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
 
@@ -270,7 +270,7 @@ Sea $\mathcal{B} = \{1, 1+x, 1+x+x^2\}$ base de $P_2$. Encontrar $[p]_{\mathcal{
 
 ### [Prob-27] Matriz de cambio de base ⭐⭐
 
-Encontrar la [matriz](../../..](../../../glossary.md)#matriz) de cambio de base de $\mathcal{B} = \{(1, 0), (0, 1)\}$ a $\mathcal{B}' = \{(1, 1), (2, 1)\}$.
+Encontrar la [matriz](../../../glossary.md#matriz) de cambio de base de $\mathcal{B} = \{(1, 0), (0, 1)\}$ a $\mathcal{B}' = \{(1, 1), (2, 1)\}$.
 
 📁 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
 
@@ -304,7 +304,7 @@ En un circuito eléctrico, las corrientes satisfacen ciertas ecuaciones de Kirch
 
 ### [Prob-31] Ecuaciones diferenciales y espacios solución ⭐⭐⭐
 
-El espacio de soluciones de una [ecuación diferencial](../../..](../../../glossary.md)#ecuacion-diferencial) lineal homogénea de [orden](../../..](../../../glossary.md)#orden) $n$ tiene dimensión $n$. Si $y_1 = e^x$ y $y_2 = e^{-x}$ son soluciones de una [EDO](../../..](../../../glossary.md)#edo) de orden 2, ¿forman base del espacio solución?
+El espacio de soluciones de una [ecuación diferencial](../../../glossary.md#ecuacion-diferencial) lineal homogénea de [orden](../../../glossary.md#orden) $n$ tiene dimensión $n$. Si $y_1 = e^x$ y $y_2 = e^{-x}$ son soluciones de una [EDO](../../../glossary.md#edo) de orden 2, ¿forman base del espacio solución?
 
 📁 **Solución:** [solutions/prob-31/](../solutions/prob-31/)
 
@@ -312,20 +312,9 @@ El espacio de soluciones de una [ecuación diferencial](../../..](../../../gloss
 
 ### [Prob-32] Compresión de imágenes y subespacios ⭐⭐⭐
 
-En compresión de imágenes, una imagen de $m \times n$ píxeles puede verse como [vector](../../..](../../../glossary.md)#vector) en $\mathbb{R}^{mn}$. Si queremos representarla con $k < mn$ coeficientes, ¿qué estructura algebraica usamos?
+En compresión de imágenes, una imagen de $m \times n$ píxeles puede verse como [vector](../../../glossary.md#vector) en $\mathbb{R}^{mn}$. Si queremos representarla con $k < mn$ coeficientes, ¿qué estructura algebraica usamos?
 
-📁 **Solución:** [solutions/prob-32/](../solutions/prob-32/)
-
----
-
-## Resumen de Problemas
-
-| Sección | Problemas | Dificultad |
-|---------|-----------|------------|
-| 4.1 Axiomas y Definición | Prob-01 a Prob-03 | ⭐ a ⭐⭐ |
-| 4.2 Subespacios | Prob-04 a Prob-08 | ⭐ a ⭐⭐ |
-| 4.3 Combinaciones Lineales y Span | Prob-09 a Prob-13 | ⭐ a ⭐⭐ |
-| 4.4 [Independencia Lineal](../../../glossary.md#independencia-lineal) | Prob-14 a Prob-18 | ⭐ a ⭐⭐⭐ |
+📁 **Solución:** [solutions/prob-32/](../../../glossary.md#independencia-lineal) | Prob-14 a Prob-18 | ⭐ a ⭐⭐⭐ |
 | 4.5 Bases y Dimensión | Prob-19 a Prob-24 | ⭐ a ⭐⭐ |
 | 4.6 Coordenadas y Cambio de Base | Prob-25 a Prob-29 | ⭐⭐ a ⭐⭐⭐ |
 | 4.7 Aplicaciones | Prob-30 a Prob-32 | ⭐⭐⭐ |

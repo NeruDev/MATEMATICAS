@@ -18,7 +18,7 @@ created: 2025-12-22
 -->
 
 
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../WIKI_INDEX.md) | [📚 Glosario](../../../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../../../glossary.md)
 
 ---
 
@@ -26,7 +26,7 @@ created: 2025-12-22
 
 ## Problema
 
-Calcular la [integral indefinida](../../../..](../../../../glossary.md)#integral-indefinida):
+Calcular la [integral indefinida](../../../../glossary.md#integral-indefinida):
 $$\int(e^x + e^{-x})^2 \, dx$$
 
 ---
@@ -112,7 +112,7 @@ $$(e^x + e^{-x})^2 = e^{2x} + 2 + e^{-2x} \quad \checkmark$$
 
 ### Relación con $\cosh(x)$
 
-Recordemos que el [coseno](../../../..](../../../../glossary.md)#coseno) hiperbólico se define como:
+Recordemos que el [coseno](../../../../glossary.md#coseno) hiperbólico se define como:
 $$\cosh(x) = \frac{e^x + e^{-x}}{2}$$
 
 Por lo tanto:
