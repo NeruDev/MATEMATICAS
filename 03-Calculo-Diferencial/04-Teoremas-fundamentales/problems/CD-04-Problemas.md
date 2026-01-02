@@ -34,7 +34,7 @@ Colección de problemas sobre los teoremas fundamentales del [cálculo diferenci
 
 Verificar que $f(x) = x^2 - 4x + 3$ cumple las hipótesis de Rolle en $[1, 3]$ y encontrar $c$.
 
-> 📎 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-01)
 
 ---
 
@@ -42,7 +42,7 @@ Verificar que $f(x) = x^2 - 4x + 3$ cumple las hipótesis de Rolle en $[1, 3]$ y
 
 ¿La [función](../../../glossary.md#funcion) $f(x) = \lvert x \rvert$ cumple el teorema de Rolle en $[-1, 1]$? Justificar.
 
-> 📎 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-02)
 
 ---
 
@@ -50,7 +50,7 @@ Verificar que $f(x) = x^2 - 4x + 3$ cumple las hipótesis de Rolle en $[1, 3]$ y
 
 Verificar Rolle para $f(x) = \sin x$ en $[0, \pi]$ y hallar $c$.
 
-> 📎 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-03)
 
 ---
 
@@ -58,7 +58,7 @@ Verificar Rolle para $f(x) = \sin x$ en $[0, \pi]$ y hallar $c$.
 
 Mostrar que $f(x) = x^3 - 3x$ cumple Rolle en $[-\sqrt{3}, \sqrt{3}]$.
 
-> 📎 **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-04)
 
 ---
 
@@ -66,7 +66,7 @@ Mostrar que $f(x) = x^3 - 3x$ cumple Rolle en $[-\sqrt{3}, \sqrt{3}]$.
 
 Usar Rolle para probar que $x^3 + x - 1 = 0$ tiene exactamente una raíz real.
 
-> 📎 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-05)
 
 ---
 
@@ -74,7 +74,7 @@ Usar Rolle para probar que $x^3 + x - 1 = 0$ tiene exactamente una raíz real.
 
 Demostrar que entre dos raíces consecutivas de $\cos x$ hay una raíz de $\sin x$.
 
-> 📎 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-06)
 
 ---
 
@@ -82,7 +82,7 @@ Demostrar que entre dos raíces consecutivas de $\cos x$ hay una raíz de $\sin 
 
 Probar que $e^x = 1 + x$ tiene exactamente una solución.
 
-> 📎 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-07)
 
 ---
 
@@ -90,7 +90,7 @@ Probar que $e^x = 1 + x$ tiene exactamente una solución.
 
 Si $f(a) = f(b) = 0$, probar que $f(x) + f'(x) = 0$ tiene al menos una solución en $(a, b)$.
 
-> 📎 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-08)
 
 ---
 
@@ -98,7 +98,7 @@ Si $f(a) = f(b) = 0$, probar que $f(x) + f'(x) = 0$ tiene al menos una solución
 
 Sea $f$ diferenciable con $f(0) = 0$ y $f(1) = 1$. Probar que la ecuación $f'(x) = 2x$ tiene solución en $(0, 1)$.
 
-> 📎 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-09)
 
 ---
 
@@ -106,7 +106,7 @@ Sea $f$ diferenciable con $f(0) = 0$ y $f(1) = 1$. Probar que la ecuación $f'(x
 
 Probar que si $f$ es diferenciable y tiene $n$ raíces distintas, entonces $f'$ tiene al menos $n-1$ raíces.
 
-> 📎 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-10)
 
 ---
 
@@ -116,7 +116,7 @@ Probar que si $f$ es diferenciable y tiene $n$ raíces distintas, entonces $f'$ 
 
 Encontrar $c$ que satisface el TVM para $f(x) = x^2$ en $[0, 2]$.
 
-> 📎 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-11)
 
 ---
 
@@ -124,7 +124,7 @@ Encontrar $c$ que satisface el TVM para $f(x) = x^2$ en $[0, 2]$.
 
 Verificar el TVM para $f(x) = \sqrt{x}$ en $[1, 4]$.
 
-> 📎 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-12)
 
 ---
 
@@ -132,7 +132,7 @@ Verificar el TVM para $f(x) = \sqrt{x}$ en $[1, 4]$.
 
 Encontrar $c$ para $f(x) = x^3 - x$ en $[0, 2]$.
 
-> 📎 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-13)
 
 ---
 
@@ -140,7 +140,7 @@ Encontrar $c$ para $f(x) = x^3 - x$ en $[0, 2]$.
 
 Aplicar TVM a $f(x) = \ln x$ en $[1, e]$.
 
-> 📎 **Solución:** [solutions/prob-14/](../solutions/prob-14/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-14)
 
 ---
 
@@ -148,7 +148,7 @@ Aplicar TVM a $f(x) = \ln x$ en $[1, e]$.
 
 Probar que $\lvert \cos a - \cos b \rvert \leq \lvert a - b \rvert$ para todo $a, b$.
 
-> 📎 **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-15)
 
 ---
 
@@ -156,7 +156,7 @@ Probar que $\lvert \cos a - \cos b \rvert \leq \lvert a - b \rvert$ para todo $a
 
 Demostrar que $\sqrt{1 + x} < 1 + \frac{x}{2}$ para $x > 0$.
 
-> 📎 **Solución:** [solutions/prob-16/](../solutions/prob-16/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-16)
 
 ---
 
@@ -164,7 +164,7 @@ Demostrar que $\sqrt{1 + x} < 1 + \frac{x}{2}$ para $x > 0$.
 
 Un auto recorre 120 km en 1 hora. Probar que en algún momento su velocidad fue exactamente 120 km/h.
 
-> 📎 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-17)
 
 ---
 
@@ -172,7 +172,7 @@ Un auto recorre 120 km en 1 hora. Probar que en algún momento su velocidad fue 
 
 Si $f'(x) > 0$ en $(a, b)$, probar que $f$ es estrictamente creciente.
 
-> 📎 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-18)
 
 ---
 
@@ -180,7 +180,7 @@ Si $f'(x) > 0$ en $(a, b)$, probar que $f$ es estrictamente creciente.
 
 Probar que $\tan x > x$ para $x \in (0, \frac{\pi}{2})$.
 
-> 📎 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-19)
 
 ---
 
@@ -188,7 +188,7 @@ Probar que $\tan x > x$ para $x \in (0, \frac{\pi}{2})$.
 
 Sea $f$ continua en $[0, 1]$, diferenciable en $(0, 1)$, con $f(0) = 0$ y $f(1) = 1$. Probar que existen $c_1, c_2 \in (0, 1)$ distintos con $f'(c_1) \cdot f'(c_2) = 1$.
 
-> 📎 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-20)
 
 ---
 
@@ -196,7 +196,7 @@ Sea $f$ continua en $[0, 1]$, diferenciable en $(0, 1)$, con $f(0) = 0$ y $f(1) 
 
 Probar: $\frac{a - b}{\cos^2 b} \leq \tan a - \tan b \leq \frac{a - b}{\cos^2 a}$ para $0 < b < a < \frac{\pi}{2}$.
 
-> 📎 **Solución:** [solutions/prob-21/](../solutions/prob-21/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-21)
 
 ---
 
@@ -204,7 +204,7 @@ Probar: $\frac{a - b}{\cos^2 b} \leq \tan a - \tan b \leq \frac{a - b}{\cos^2 a}
 
 Si $f''(x) > 0$ en $[a, b]$, probar que $f\left(\frac{a+b}{2}\right) < \frac{f(a) + f(b)}{2}$.
 
-> 📎 **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-22)
 
 ---
 
@@ -214,7 +214,7 @@ Si $f''(x) > 0$ en $[a, b]$, probar que $f\left(\frac{a+b}{2}\right) < \frac{f(a
 
 Verificar el TVM de Cauchy para $f(x) = x^2$ y $g(x) = x^3$ en $[1, 2]$.
 
-> 📎 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-23)
 
 ---
 
@@ -222,7 +222,7 @@ Verificar el TVM de Cauchy para $f(x) = x^2$ y $g(x) = x^3$ en $[1, 2]$.
 
 Aplicar TVM de Cauchy a $f(x) = \sin x$ y $g(x) = \cos x$ en $[0, \frac{\pi}{4}]$.
 
-> 📎 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-24)
 
 ---
 
@@ -230,7 +230,7 @@ Aplicar TVM de Cauchy a $f(x) = \sin x$ y $g(x) = \cos x$ en $[0, \frac{\pi}{4}]
 
 Si $f(t) = t^2$ y $g(t) = t^3$ representan posición en dos coordenadas, interpretar geométricamente el TVM de Cauchy.
 
-> 📎 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-25)
 
 ---
 
@@ -238,7 +238,7 @@ Si $f(t) = t^2$ y $g(t) = t^3$ representan posición en dos coordenadas, interpr
 
 Usar TVM de Cauchy para probar la regla de L'Hôpital para el caso $\frac{0}{0}$.
 
-> 📎 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-26)
 
 ---
 
@@ -247,7 +247,7 @@ Usar TVM de Cauchy para probar la regla de L'Hôpital para el caso $\frac{0}{0}$
 Sean $f$ y $g$ diferenciables con $g'(x) \neq 0$. Probar que existe $\theta \in (0, 1)$ [tal que](../../../glossary.md#tal-que):
 $$\frac{f(a+h) - f(a)}{g(a+h) - g(a)} = \frac{f'(a + \theta h)}{g'(a + \theta h)}$$
 
-> 📎 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-27)
 
 ---
 
@@ -257,7 +257,7 @@ $$\frac{f(a+h) - f(a)}{g(a+h) - g(a)} = \frac{f'(a + \theta h)}{g'(a + \theta h)
 
 $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$
 
-> 📎 **Solución:** [solutions/prob-28/](../solutions/prob-28/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-28)
 
 ---
 
@@ -265,7 +265,7 @@ $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$
 
 $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$
 
-> 📎 **Solución:** [solutions/prob-29/](../solutions/prob-29/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-29)
 
 ---
 
@@ -273,7 +273,7 @@ $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$
 
 $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$
 
-> 📎 **Solución:** [solutions/prob-30/](../solutions/prob-30/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-30)
 
 ---
 
@@ -281,7 +281,7 @@ $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$
 
 $\displaystyle\lim_{x \to 1} \frac{\ln x}{x - 1}$
 
-> 📎 **Solución:** [solutions/prob-31/](../solutions/prob-31/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-31)
 
 ---
 
@@ -289,7 +289,7 @@ $\displaystyle\lim_{x \to 1} \frac{\ln x}{x - 1}$
 
 $\displaystyle\lim_{x \to 0} \frac{\tan x - x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-32/](../solutions/prob-32/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-32)
 
 ---
 
@@ -297,7 +297,7 @@ $\displaystyle\lim_{x \to 0} \frac{\tan x - x}{x^3}$
 
 $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-33/](../solutions/prob-33/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-33)
 
 ---
 
@@ -305,7 +305,7 @@ $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$
 
 $\displaystyle\lim_{x \to 0} \frac{e^x - e^{-x} - 2x}{x - \sin x}$
 
-> 📎 **Solución:** [solutions/prob-34/](../solutions/prob-34/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-34)
 
 ---
 
@@ -313,7 +313,7 @@ $\displaystyle\lim_{x \to 0} \frac{e^x - e^{-x} - 2x}{x - \sin x}$
 
 $\displaystyle\lim_{x \to 0} \frac{\arctan x - x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-35/](../solutions/prob-35/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-35)
 
 ---
 
@@ -321,7 +321,7 @@ $\displaystyle\lim_{x \to 0} \frac{\arctan x - x}{x^3}$
 
 $\displaystyle\lim_{x \to a} \frac{x^n - a^n}{x - a}$ (demostrar que es $na^{n-1}$)
 
-> 📎 **Solución:** [solutions/prob-36/](../solutions/prob-36/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-36)
 
 ---
 
@@ -329,7 +329,7 @@ $\displaystyle\lim_{x \to a} \frac{x^n - a^n}{x - a}$ (demostrar que es $na^{n-1
 
 $\displaystyle\lim_{x \to 0} \frac{\sqrt{1+x} - \sqrt{1-x}}{x}$
 
-> 📎 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-37)
 
 ---
 
@@ -337,7 +337,7 @@ $\displaystyle\lim_{x \to 0} \frac{\sqrt{1+x} - \sqrt{1-x}}{x}$
 
 $\displaystyle\lim_{x \to 0} \frac{e^{x^2} - \cos x}{x^2}$
 
-> 📎 **Solución:** [solutions/prob-38/](../solutions/prob-38/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-38)
 
 ---
 
@@ -345,7 +345,7 @@ $\displaystyle\lim_{x \to 0} \frac{e^{x^2} - \cos x}{x^2}$
 
 $\displaystyle\lim_{x \to 0} \frac{\tan x - \sin x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-39/](../solutions/prob-39/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-39)
 
 ---
 
@@ -353,7 +353,7 @@ $\displaystyle\lim_{x \to 0} \frac{\tan x - \sin x}{x^3}$
 
 $\displaystyle\lim_{x \to 0} \frac{x\cos x - \sin x}{x^2 \sin x}$
 
-> 📎 **Solución:** [solutions/prob-40/](../solutions/prob-40/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-40)
 
 ---
 
@@ -363,7 +363,7 @@ $\displaystyle\lim_{x \to 0} \frac{x\cos x - \sin x}{x^2 \sin x}$
 
 $\displaystyle\lim_{x \to \infty} \frac{x}{e^x}$
 
-> 📎 **Solución:** [solutions/prob-41/](../solutions/prob-41/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-41)
 
 ---
 
@@ -371,7 +371,7 @@ $\displaystyle\lim_{x \to \infty} \frac{x}{e^x}$
 
 $\displaystyle\lim_{x \to \infty} \frac{\ln x}{x}$
 
-> 📎 **Solución:** [solutions/prob-42/](../solutions/prob-42/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-42)
 
 ---
 
@@ -379,7 +379,7 @@ $\displaystyle\lim_{x \to \infty} \frac{\ln x}{x}$
 
 $\displaystyle\lim_{x \to \infty} \frac{x^2}{e^x}$
 
-> 📎 **Solución:** [solutions/prob-43/](../solutions/prob-43/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-43)
 
 ---
 
@@ -387,7 +387,7 @@ $\displaystyle\lim_{x \to \infty} \frac{x^2}{e^x}$
 
 $\displaystyle\lim_{x \to 0^+} \frac{\ln x}{\cot x}$
 
-> 📎 **Solución:** [solutions/prob-44/](../solutions/prob-44/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-44)
 
 ---
 
@@ -395,7 +395,7 @@ $\displaystyle\lim_{x \to 0^+} \frac{\ln x}{\cot x}$
 
 $\displaystyle\lim_{x \to \infty} \frac{x^n}{e^x}$ para $n \in \mathbb{N}$
 
-> 📎 **Solución:** [solutions/prob-45/](../solutions/prob-45/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-45)
 
 ---
 
@@ -403,7 +403,7 @@ $\displaystyle\lim_{x \to \infty} \frac{x^n}{e^x}$ para $n \in \mathbb{N}$
 
 $\displaystyle\lim_{x \to \infty} \frac{\ln(\ln x)}{\ln x}$
 
-> 📎 **Solución:** [solutions/prob-46/](../solutions/prob-46/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-46)
 
 ---
 
@@ -411,7 +411,7 @@ $\displaystyle\lim_{x \to \infty} \frac{\ln(\ln x)}{\ln x}$
 
 $\displaystyle\lim_{x \to \infty} \frac{e^x + e^{-x}}{e^x - e^{-x}}$
 
-> 📎 **Solución:** [solutions/prob-47/](../solutions/prob-47/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-47)
 
 ---
 
@@ -421,7 +421,7 @@ $\displaystyle\lim_{x \to \infty} \frac{e^x + e^{-x}}{e^x - e^{-x}}$
 
 $\displaystyle\lim_{x \to 0^+} x \ln x$
 
-> 📎 **Solución:** [solutions/prob-48/](../solutions/prob-48/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-48)
 
 ---
 
@@ -429,7 +429,7 @@ $\displaystyle\lim_{x \to 0^+} x \ln x$
 
 $\displaystyle\lim_{x \to \infty} x e^{-x}$
 
-> 📎 **Solución:** [solutions/prob-49/](../solutions/prob-49/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-49)
 
 ---
 
@@ -437,7 +437,7 @@ $\displaystyle\lim_{x \to \infty} x e^{-x}$
 
 $\displaystyle\lim_{x \to 0^+} x^2 \cot x$
 
-> 📎 **Solución:** [solutions/prob-50/](../solutions/prob-50/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-50)
 
 ---
 
@@ -445,7 +445,7 @@ $\displaystyle\lim_{x \to 0^+} x^2 \cot x$
 
 $\displaystyle\lim_{x \to \frac{\pi}{2}^-} (\sec x - \tan x) \cdot \cos x$
 
-> 📎 **Solución:** [solutions/prob-51/](../solutions/prob-51/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-51)
 
 ---
 
@@ -453,7 +453,7 @@ $\displaystyle\lim_{x \to \frac{\pi}{2}^-} (\sec x - \tan x) \cdot \cos x$
 
 $\displaystyle\lim_{x \to 0} \left(\frac{1}{\sin x} - \frac{1}{x}\right)$
 
-> 📎 **Solución:** [solutions/prob-52/](../solutions/prob-52/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-52)
 
 ---
 
@@ -461,7 +461,7 @@ $\displaystyle\lim_{x \to 0} \left(\frac{1}{\sin x} - \frac{1}{x}\right)$
 
 $\displaystyle\lim_{x \to \infty} (x - \sqrt{x^2 + x})$
 
-> 📎 **Solución:** [solutions/prob-53/](../solutions/prob-53/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-53)
 
 ---
 
@@ -469,7 +469,7 @@ $\displaystyle\lim_{x \to \infty} (x - \sqrt{x^2 + x})$
 
 $\displaystyle\lim_{x \to 0} \left(\frac{1}{x} - \frac{1}{e^x - 1}\right)$
 
-> 📎 **Solución:** [solutions/prob-54/](../solutions/prob-54/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-54)
 
 ---
 
@@ -477,7 +477,7 @@ $\displaystyle\lim_{x \to 0} \left(\frac{1}{x} - \frac{1}{e^x - 1}\right)$
 
 $\displaystyle\lim_{x \to 0^+} \left(\frac{1}{\ln(1+x)} - \frac{1}{x}\right)$
 
-> 📎 **Solución:** [solutions/prob-55/](../solutions/prob-55/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-55)
 
 ---
 
@@ -485,7 +485,7 @@ $\displaystyle\lim_{x \to 0^+} \left(\frac{1}{\ln(1+x)} - \frac{1}{x}\right)$
 
 $\displaystyle\lim_{x \to 0^+} x^x$
 
-> 📎 **Solución:** [solutions/prob-56/](../solutions/prob-56/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-56)
 
 ---
 
@@ -493,7 +493,7 @@ $\displaystyle\lim_{x \to 0^+} x^x$
 
 $\displaystyle\lim_{x \to 0^+} (\sin x)^x$
 
-> 📎 **Solución:** [solutions/prob-57/](../solutions/prob-57/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-57)
 
 ---
 
@@ -501,7 +501,7 @@ $\displaystyle\lim_{x \to 0^+} (\sin x)^x$
 
 $\displaystyle\lim_{x \to 0^+} x^{\sin x}$
 
-> 📎 **Solución:** [solutions/prob-58/](../solutions/prob-58/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-58)
 
 ---
 
@@ -509,7 +509,7 @@ $\displaystyle\lim_{x \to 0^+} x^{\sin x}$
 
 $\displaystyle\lim_{x \to 0} (1 + x)^{1/x}$
 
-> 📎 **Solución:** [solutions/prob-59/](../solutions/prob-59/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-59)
 
 ---
 
@@ -517,7 +517,7 @@ $\displaystyle\lim_{x \to 0} (1 + x)^{1/x}$
 
 $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$
 
-> 📎 **Solución:** [solutions/prob-60/](../solutions/prob-60/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-60)
 
 ---
 
@@ -525,7 +525,7 @@ $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$
 
 $\displaystyle\lim_{x \to 0} (\cos x)^{1/x^2}$
 
-> 📎 **Solución:** [solutions/prob-61/](../solutions/prob-61/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-61)
 
 ---
 
@@ -533,7 +533,7 @@ $\displaystyle\lim_{x \to 0} (\cos x)^{1/x^2}$
 
 $\displaystyle\lim_{x \to 0} \left(\frac{\sin x}{x}\right)^{1/x^2}$
 
-> 📎 **Solución:** [solutions/prob-62/](../solutions/prob-62/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-62)
 
 ---
 
@@ -541,7 +541,7 @@ $\displaystyle\lim_{x \to 0} \left(\frac{\sin x}{x}\right)^{1/x^2}$
 
 $\displaystyle\lim_{x \to \infty} x^{1/x}$
 
-> 📎 **Solución:** [solutions/prob-63/](../solutions/prob-63/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-63)
 
 ---
 
@@ -549,7 +549,7 @@ $\displaystyle\lim_{x \to \infty} x^{1/x}$
 
 $\displaystyle\lim_{x \to \infty} (e^x + x)^{1/x}$
 
-> 📎 **Solución:** [solutions/prob-64/](../solutions/prob-64/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-64)
 
 ---
 
@@ -557,7 +557,7 @@ $\displaystyle\lim_{x \to \infty} (e^x + x)^{1/x}$
 
 $\displaystyle\lim_{x \to 0^+} (\cot x)^{\sin x}$
 
-> 📎 **Solución:** [solutions/prob-65/](../solutions/prob-65/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-65)
 
 ---
 
@@ -567,7 +567,7 @@ $\displaystyle\lim_{x \to 0^+} (\cot x)^{\sin x}$
 
 Encontrar el [polinomio](../../../glossary.md#polinomio) de Taylor de grado 3 de $e^x$ alrededor de $x = 0$.
 
-> 📎 **Solución:** [solutions/prob-66/](../solutions/prob-66/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-66)
 
 ---
 
@@ -575,7 +575,7 @@ Encontrar el [polinomio](../../../glossary.md#polinomio) de Taylor de grado 3 de
 
 Encontrar $P_4(x)$ de $\cos x$ alrededor de $x = 0$.
 
-> 📎 **Solución:** [solutions/prob-67/](../solutions/prob-67/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-67)
 
 ---
 
@@ -583,7 +583,7 @@ Encontrar $P_4(x)$ de $\cos x$ alrededor de $x = 0$.
 
 Encontrar $P_3(x)$ de $\ln(1 + x)$ alrededor de $x = 0$.
 
-> 📎 **Solución:** [solutions/prob-68/](../solutions/prob-68/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-68)
 
 ---
 
@@ -591,7 +591,7 @@ Encontrar $P_3(x)$ de $\ln(1 + x)$ alrededor de $x = 0$.
 
 Encontrar $P_2(x)$ de $\sqrt{1 + x}$ alrededor de $x = 0$.
 
-> 📎 **Solución:** [solutions/prob-69/](../solutions/prob-69/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-69)
 
 ---
 
@@ -599,7 +599,7 @@ Encontrar $P_2(x)$ de $\sqrt{1 + x}$ alrededor de $x = 0$.
 
 Encontrar $P_3(x)$ de $\ln x$ alrededor de $x = 1$.
 
-> 📎 **Solución:** [solutions/prob-70/](../solutions/prob-70/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-70)
 
 ---
 
@@ -607,7 +607,7 @@ Encontrar $P_3(x)$ de $\ln x$ alrededor de $x = 1$.
 
 Encontrar $P_2(x)$ de $\sin x$ alrededor de $x = \frac{\pi}{6}$.
 
-> 📎 **Solución:** [solutions/prob-71/](../solutions/prob-71/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-71)
 
 ---
 
@@ -615,7 +615,7 @@ Encontrar $P_2(x)$ de $\sin x$ alrededor de $x = \frac{\pi}{6}$.
 
 Encontrar $P_3(x)$ de $e^x$ alrededor de $x = 1$.
 
-> 📎 **Solución:** [solutions/prob-72/](../solutions/prob-72/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-72)
 
 ---
 
@@ -623,7 +623,7 @@ Encontrar $P_3(x)$ de $e^x$ alrededor de $x = 1$.
 
 Usar $P_2(x)$ de $e^x$ para aproximar $e^{0.1}$ y estimar el error.
 
-> 📎 **Solución:** [solutions/prob-73/](../solutions/prob-73/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-73)
 
 ---
 
@@ -631,7 +631,7 @@ Usar $P_2(x)$ de $e^x$ para aproximar $e^{0.1}$ y estimar el error.
 
 ¿Cuántos términos de la serie de $\sin x$ se necesitan para aproximar $\sin(0.1)$ con error [menor](../../../glossary.md#menor) que $10^{-6}$?
 
-> 📎 **Solución:** [solutions/prob-74/](../solutions/prob-74/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-74)
 
 ---
 
@@ -639,7 +639,7 @@ Usar $P_2(x)$ de $e^x$ para aproximar $e^{0.1}$ y estimar el error.
 
 Aproximar $\sqrt{1.1}$ usando Taylor de grado 2 y estimar el error.
 
-> 📎 **Solución:** [solutions/prob-75/](../solutions/prob-75/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-75)
 
 ---
 
@@ -647,7 +647,7 @@ Aproximar $\sqrt{1.1}$ usando Taylor de grado 2 y estimar el error.
 
 $\displaystyle\lim_{x \to 0} \frac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-76/](../solutions/prob-76/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-76)
 
 ---
 
@@ -655,7 +655,7 @@ $\displaystyle\lim_{x \to 0} \frac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
 
 $\displaystyle\lim_{x \to 0} \frac{\sin x - x + \frac{x^3}{6}}{x^5}$
 
-> 📎 **Solución:** [solutions/prob-77/](../solutions/prob-77/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-77)
 
 ---
 
@@ -663,7 +663,7 @@ $\displaystyle\lim_{x \to 0} \frac{\sin x - x + \frac{x^3}{6}}{x^5}$
 
 $\displaystyle\lim_{x \to 0} \frac{\cos x - 1 + \frac{x^2}{2}}{x^4}$
 
-> 📎 **Solución:** [solutions/prob-78/](../solutions/prob-78/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-78)
 
 ---
 
@@ -671,7 +671,7 @@ $\displaystyle\lim_{x \to 0} \frac{\cos x - 1 + \frac{x^2}{2}}{x^4}$
 
 $\displaystyle\lim_{x \to 0} \frac{e^{\sin x} - e^x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-79/](../solutions/prob-79/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-79)
 
 ---
 
@@ -679,7 +679,7 @@ $\displaystyle\lim_{x \to 0} \frac{e^{\sin x} - e^x}{x^3}$
 
 $\displaystyle\lim_{x \to 0} \frac{\ln(1 + \sin x) - \sin x}{x^3}$
 
-> 📎 **Solución:** [solutions/prob-80/](../solutions/prob-80/)
+> 📎 **Solución:** [📎 Ver Respuesta](../solutions/CD-04-Respuestas.md#prob-80)
 
 ---
 

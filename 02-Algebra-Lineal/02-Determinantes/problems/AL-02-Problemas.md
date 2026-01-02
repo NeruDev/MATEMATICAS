@@ -28,7 +28,7 @@ Calcular el [determinante](../../../glossary.md#determinante):
 
 $$\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-01/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-01)
 
 ---
 
@@ -38,7 +38,7 @@ Calcular el [determinante](../../../glossary.md#determinante):
 
 $$\begin{vmatrix} 5 & -2 \\ 3 & 7 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-02/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-02)
 
 ---
 
@@ -48,7 +48,7 @@ Calcular el determinante:
 
 $$\begin{vmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-03/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-03)
 
 ---
 
@@ -58,7 +58,7 @@ Calcular el determinante:
 
 $$\begin{vmatrix} 2 & 0 & 1 \\ 3 & 1 & 2 \\ 1 & 0 & 4 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-04/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-04)
 
 ---
 
@@ -68,7 +68,7 @@ Calcular el determinante:
 
 $$\begin{vmatrix} 1 & 2 & 3 \\ 0 & 1 & 2 \\ 0 & 0 & 3 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-05/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-05)
 
 ---
 
@@ -78,7 +78,7 @@ Expresar el determinante en términos de $a, b, c, d$:
 
 $$\begin{vmatrix} a & b \\ c & d \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-06/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-06)
 
 ---
 
@@ -88,7 +88,7 @@ $$\begin{vmatrix} a & b \\ c & d \end{vmatrix}$$
 
 Si $\det(A) = 3$ y $\det(B) = 2$, hallar $\det(AB)$.
 
-> 📎 [Solución](../solutions/prob-07/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-07)
 
 ---
 
@@ -96,7 +96,7 @@ Si $\det(A) = 3$ y $\det(B) = 2$, hallar $\det(AB)$.
 
 Si $\det(A) = 4$, hallar $\det(A^{-1})$.
 
-> 📎 [Solución](../solutions/prob-08/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-08)
 
 ---
 
@@ -104,7 +104,7 @@ Si $\det(A) = 4$, hallar $\det(A^{-1})$.
 
 Si $\det(A) = 2$ y $A$ es $3 \times 3$, hallar $\det(3A)$.
 
-> 📎 [Solución](../solutions/prob-09/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-09)
 
 ---
 
@@ -114,7 +114,7 @@ Usando propiedades, calcular sin expandir:
 
 $$\begin{vmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-10/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-10)
 
 ---
 
@@ -122,7 +122,7 @@ $$\begin{vmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{vmatrix}$$
 
 Si intercambiamos dos filas de $A$ para obtener $B$, ¿cuál es la relación entre $\det(A)$ y $\det(B)$?
 
-> 📎 [Solución](../solutions/prob-11/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-11)
 
 ---
 
@@ -130,7 +130,7 @@ Si intercambiamos dos filas de $A$ para obtener $B$, ¿cuál es la relación ent
 
 Demostrar que $\det(A^T) = \det(A)$ para $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-12/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-12)
 
 ---
 
@@ -140,7 +140,7 @@ Demostrar que $\det(A^T) = \det(A)$ para $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \en
 
 Hallar todos los cofactores de $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-13/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-13)
 
 ---
 
@@ -148,7 +148,7 @@ Hallar todos los cofactores de $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
 
 Calcular $M_{11}$ y $C_{11}$ de $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-14/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-14)
 
 ---
 
@@ -158,7 +158,7 @@ Calcular el determinante por expansión de la primera fila:
 
 $$\begin{vmatrix} 2 & 1 & 3 \\ 0 & 4 & 1 \\ 5 & 2 & 0 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-15/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-15)
 
 ---
 
@@ -168,7 +168,7 @@ Calcular el determinante por expansión de la columna 2:
 
 $$\begin{vmatrix} 1 & 0 & 2 \\ 3 & 0 & 4 \\ 5 & 1 & 6 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-16/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-16)
 
 ---
 
@@ -178,7 +178,7 @@ Calcular el determinante:
 
 $$\begin{vmatrix} 1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 1 \end{vmatrix}$$
 
-> 📎 [Solución](../solutions/prob-17/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-17)
 
 ---
 
@@ -188,7 +188,7 @@ $$\begin{vmatrix} 1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 &
 
 Hallar $\text{adj}(A)$ para $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-18/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-18)
 
 ---
 
@@ -196,7 +196,7 @@ Hallar $\text{adj}(A)$ para $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$.
 
 Usar la fórmula $A^{-1} = \frac{1}{\det(A)}\text{adj}(A)$ para encontrar la inversa de $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-19/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-19)
 
 ---
 
@@ -206,7 +206,7 @@ Hallar $\text{adj}(A)$ para:
 
 $$A = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 0 \end{pmatrix}$$
 
-> 📎 [Solución](../solutions/prob-20/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-20)
 
 ---
 
@@ -214,7 +214,7 @@ $$A = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 0 \end{pmatrix}$$
 
 Verificar que $A \cdot \text{adj}(A) = \det(A) \cdot I$ para $A = \begin{pmatrix} 2 & 1 \\ 3 & 4 \end{pmatrix}$.
 
-> 📎 [Solución](../solutions/prob-21/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-21)
 
 ---
 
@@ -226,7 +226,7 @@ Resolver por Cramer:
 
 $$\begin{cases} 2x + y = 5 \\ x + 3y = 5 \end{cases}$$
 
-> 📎 [Solución](../solutions/prob-22/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-22)
 
 ---
 
@@ -236,7 +236,7 @@ Resolver por Cramer:
 
 $$\begin{cases} 3x - 2y = 7 \\ x + y = 4 \end{cases}$$
 
-> 📎 [Solución](../solutions/prob-23/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-23)
 
 ---
 
@@ -246,7 +246,7 @@ Resolver por Cramer:
 
 $$\begin{cases} x + y + z = 6 \\ x - y + z = 2 \\ 2x + y - z = 1 \end{cases}$$
 
-> 📎 [Solución](../solutions/prob-24/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-24)
 
 ---
 
@@ -256,7 +256,7 @@ $$\begin{cases} x + y + z = 6 \\ x - y + z = 2 \\ 2x + y - z = 1 \end{cases}$$
 
 $$\begin{cases} kx + y = 1 \\ 2x + ky = 2 \end{cases}$$
 
-> 📎 [Solución](../solutions/prob-25/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-25)
 
 ---
 
@@ -268,7 +268,7 @@ Demostrar que el área del triángulo con vértices $(x_1,y_1)$, $(x_2,y_2)$, $(
 
 $$\text{Área} = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix}\right|$$
 
-> 📎 [Solución](../solutions/prob-26/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-26)
 
 ---
 
@@ -276,7 +276,7 @@ $$\text{Área} = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1
 
 Si $A$ es una [matriz](../../../glossary.md#matriz) $n \times n$ y $\det(A) = 5$, hallar $\det(A^3)$.
 
-> 📎 [Solución](../solutions/prob-27/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-27)
 
 ---
 
@@ -284,4 +284,4 @@ Si $A$ es una [matriz](../../../glossary.md#matriz) $n \times n$ y $\det(A) = 5$
 
 Probar que si $A^2 = A$, entonces $\det(A) = 0$ o $\det(A) = 1$.
 
-> 📎 [Solución](../solutions/prob-28/)
+> 📎 [📎 Ver Respuesta](../solutions/AL-02-Respuestas.md#prob-28)

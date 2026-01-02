@@ -35,7 +35,7 @@ b) Evaluar $P(0.5)$
 ---
 
 ### [Prob-04] Propiedad de suma de polinomios base ⭐⭐⭐
-> **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-04)
 
 Demostrar que $\sum_{i=0}^{n} L_i(x) = 1$ para cualquier $x$.
 
@@ -49,7 +49,7 @@ Demostrar que $\sum_{i=0}^{n} L_i(x) = 1$ para cualquier $x$.
 ---
 
 ### [Prob-06] Diferencias divididas de función cúbica ⭐⭐
-> **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-06)
 
 Para $f(x) = x^3$, calcular:
 a) $f[0, 1]$
@@ -59,14 +59,14 @@ c) $f[0, 1, 2, 3]$
 ---
 
 ### [Prob-07] Simetría de diferencias divididas ⭐⭐⭐
-> **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-07)
 
 Demostrar que $f[x_0, x_1, ..., x_n]$ es simétrica ([invariante](../../../glossary.md#invariante) ante permutaciones).
 
 ---
 
 ### [Prob-08] Diferencia dividida de polinomio ⭐⭐⭐
-> **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-08)
 
 Si $f(x) = a_0 + a_1x + ... + a_nx^n$, demostrar que $f[x_0, ..., x_n] = a_n$.
 
@@ -75,7 +75,7 @@ Si $f(x) = a_0 + a_1x + ... + a_nx^n$, demostrar que $f[x_0, ..., x_n] = a_n$.
 ## Sección 3: Datos Equiespaciados
 
 ### [Prob-09] Newton progresivo con diferencias finitas ⭐⭐
-> **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-09)
 
 Construir la tabla de diferencias finitas para:
 
@@ -88,7 +88,7 @@ y escribir el polinomio de Newton progresivo.
 ---
 
 ### [Prob-10] Newton regresivo ⭐⭐
-> **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-10)
 
 Usar Newton regresivo para interpolar hacia atrás con los datos:
 
@@ -101,7 +101,7 @@ Estimar $y(1.25)$.
 ---
 
 ### [Prob-11] Interpolación de función seno ⭐⭐
-> **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-11)
 
 La siguiente tabla da $f(x) = \sin(x)$:
 
@@ -121,7 +121,7 @@ Usar Newton progresivo para estimar $\sin(0.15)$.
 ---
 
 ### [Prob-13] Error de interpolación del seno ⭐⭐
-> **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-13)
 
 Para $f(x) = \sin(x)$ interpolada en $0, \pi/4, \pi/2$:
 a) Escribir el polinomio interpolante
@@ -135,7 +135,7 @@ b) Acotar el error en $[0, \pi/2]$
 ---
 
 ### [Prob-15] Nodos de Chebyshev ⭐⭐
-> **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-15)
 
 Calcular los nodos de Chebyshev para $n = 3$ en $[-1, 1]$ y compararlos con nodos equiespaciados.
 
@@ -155,7 +155,7 @@ b) Evaluar $S(1.5)$
 ---
 
 ### [Prob-18] Comparación polinomio vs spline ⭐⭐
-> **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-18)
 
 Comparar la interpolación polinómica de grado 4 vs spline cúbico para:
 
@@ -173,7 +173,7 @@ Comparar la interpolación polinómica de grado 4 vs spline cúbico para:
 ## Sección 6: Interpolación de Hermite
 
 ### [Prob-20] Polinomio de Hermite básico ⭐⭐
-> **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-20)
 
 Encontrar el polinomio de Hermite que interpola:
 - $f(0) = 1$, $f'(0) = 2$
@@ -189,7 +189,7 @@ Encontrar el polinomio de Hermite que interpola:
 ## Sección 7: Problemas Aplicados
 
 ### [Prob-22] Tabla de densidades del agua ⭐⭐
-> **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-22)
 
 La densidad del agua a diferentes temperaturas es:
 
@@ -204,7 +204,7 @@ b) Spline cúbico
 ---
 
 ### [Prob-23] Trayectoria de proyectil ⭐⭐
-> **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-23)
 
 Las posiciones medidas de un proyectil son:
 
@@ -219,7 +219,7 @@ c) Estimar la velocidad en $t = 1.5$ s (derivar el polinomio)
 ---
 
 ### [Prob-24] Diseño de curva de carretera ⭐⭐⭐
-> **Solución:** [solutions/prob-24/](../solutions/prob-24/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-24)
 
 Una curva de carretera debe pasar por los puntos $(0, 0)$, $(100, 10)$, $(200, 0)$ con pendiente 0 en los extremos. Usar spline cúbico sujeto.
 
@@ -234,7 +234,7 @@ b) [Función](../../../glossary.md#funcion) para evaluar el polinomio de Newton
 ---
 
 ### [Prob-26] Programa de spline cúbico ⭐⭐⭐
-> **Solución:** [solutions/prob-26/](../solutions/prob-26/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-26)
 
 Crear un programa que:
 a) Tome $n$ puntos como entrada
@@ -244,7 +244,7 @@ c) Grafique el spline junto con los puntos originales
 ---
 
 ### [Prob-27] Comparación numérica Lagrange vs Newton ⭐⭐⭐
-> **Solución:** [solutions/prob-27/](../solutions/prob-27/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-27)
 
 Comparar numéricamente Lagrange vs Newton para $n = 10, 20, 50$ puntos aleatorios. ¿Hay diferencia en precisión o tiempo?
 
@@ -258,7 +258,7 @@ Comparar numéricamente Lagrange vs Newton para $n = 10, 20, 50$ puntos aleatori
 ---
 
 ### [Prob-29] Demostración fórmula del error ⭐⭐⭐
-> **Solución:** [solutions/prob-29/](../solutions/prob-29/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-29)
 
 Demostrar la fórmula del error:
 $$f(x) - P_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{i=0}^{n}(x - x_i)$$
@@ -266,6 +266,6 @@ $$f(x) - P_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{i=0}^{n}(x - x_i)$$
 ---
 
 ### [Prob-30] Optimalidad del spline cúbico ⭐⭐⭐
-> **Solución:** [solutions/prob-30/](../solutions/prob-30/)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-30)
 
 Demostrar que un spline cúbico natural minimiza $\int_a^b [S''(x)]^2 dx$ entre todas las funciones interpolantes con segunda [derivada](../../../glossary.md#derivada) continua.

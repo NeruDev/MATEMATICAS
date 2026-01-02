@@ -30,7 +30,7 @@ total_problems: 55
 
 Usa la definición para calcular $f'(x)$ si $f(x) = 3x - 2$.
 
-📂 **Solución:** [solutions/prob-01/](../solutions/prob-01/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-01)
 
 ---
 
@@ -38,7 +38,7 @@ Usa la definición para calcular $f'(x)$ si $f(x) = 3x - 2$.
 
 Usa la definición para calcular $f'(x)$ si $f(x) = x^2 + x$.
 
-📂 **Solución:** [solutions/prob-02/](../solutions/prob-02/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-02)
 
 ---
 
@@ -46,7 +46,7 @@ Usa la definición para calcular $f'(x)$ si $f(x) = x^2 + x$.
 
 Usa la definición para encontrar $f'(4)$ si $f(x) = \sqrt{x}$.
 
-📂 **Solución:** [solutions/prob-03/](../solutions/prob-03/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-03)
 
 ---
 
@@ -54,7 +54,7 @@ Usa la definición para encontrar $f'(4)$ si $f(x) = \sqrt{x}$.
 
 Usa la definición para calcular $f'(x)$ si $f(x) = \frac{1}{x}$.
 
-📂 **Solución:** [solutions/prob-04/](../solutions/prob-04/)
+📂 **Solución:** [📂 Solución Desarrollada](../solutions/prob-04/solucion-metodo.md)
 
 ---
 
@@ -62,7 +62,7 @@ Usa la definición para calcular $f'(x)$ si $f(x) = \frac{1}{x}$.
 
 Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $y = x^2$ en $x = 3$ usando la definición de [derivada](../../../glossary.md#derivada).
 
-📂 **Solución:** [solutions/prob-05/](../solutions/prob-05/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-05)
 
 ---
 
@@ -72,7 +72,7 @@ Encuentra la ecuación de la recta [tangente](../../../glossary.md#tangente) a $
 
 $f(x) = 5x^3 - 2x^2 + 7x - 4$
 
-📂 **Solución:** [solutions/prob-06/](../solutions/prob-06/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-06)
 
 ---
 
@@ -80,7 +80,7 @@ $f(x) = 5x^3 - 2x^2 + 7x - 4$
 
 $g(x) = \sqrt{x} + \frac{1}{x}$
 
-📂 **Solución:** [solutions/prob-07/](../solutions/prob-07/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-07)
 
 ---
 
@@ -88,7 +88,7 @@ $g(x) = \sqrt{x} + \frac{1}{x}$
 
 $h(x) = e^x + \ln x$
 
-📂 **Solución:** [solutions/prob-08/](../solutions/prob-08/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-08)
 
 ---
 
@@ -96,7 +96,7 @@ $h(x) = e^x + \ln x$
 
 $f(x) = 3\sin x - 2\cos x$
 
-📂 **Solución:** [solutions/prob-09/](../solutions/prob-09/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-09)
 
 ---
 
@@ -104,7 +104,7 @@ $f(x) = 3\sin x - 2\cos x$
 
 $g(x) = x^{3/2} - x^{-2/3}$
 
-📂 **Solución:** [solutions/prob-10/](../solutions/prob-10/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-10)
 
 ---
 
@@ -112,7 +112,7 @@ $g(x) = x^{3/2} - x^{-2/3}$
 
 $h(x) = 2^x + \log_2 x$
 
-📂 **Solución:** [solutions/prob-11/](../solutions/prob-11/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-11)
 
 ---
 
@@ -120,7 +120,7 @@ $h(x) = 2^x + \log_2 x$
 
 $f(x) = \tan x + \sec x$
 
-📂 **Solución:** [solutions/prob-12/](../solutions/prob-12/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-12)
 
 ---
 
@@ -128,7 +128,7 @@ $f(x) = \tan x + \sec x$
 
 $g(x) = \arcsin x + \arctan x$
 
-📂 **Solución:** [solutions/prob-13/](../solutions/prob-13/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-13)
 
 ---
 
@@ -138,7 +138,7 @@ $g(x) = \arcsin x + \arctan x$
 
 $f(x) = x^2 \cdot e^x$
 
-📂 **Solución:** [solutions/prob-14/](../solutions/prob-14/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-14)
 
 ---
 
@@ -146,7 +146,7 @@ $f(x) = x^2 \cdot e^x$
 
 $g(x) = x \sin x$
 
-📂 **Solución:** [solutions/prob-15/](../solutions/prob-15/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-15)
 
 ---
 
@@ -154,7 +154,7 @@ $g(x) = x \sin x$
 
 $h(x) = \frac{x^2 + 1}{x^2 - 1}$
 
-📂 **Solución:** [solutions/prob-16/](../solutions/prob-16/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-16)
 
 ---
 
@@ -162,7 +162,7 @@ $h(x) = \frac{x^2 + 1}{x^2 - 1}$
 
 $f(x) = \frac{e^x}{x}$
 
-📂 **Solución:** [solutions/prob-17/](../solutions/prob-17/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-17)
 
 ---
 
@@ -170,7 +170,7 @@ $f(x) = \frac{e^x}{x}$
 
 $g(x) = \frac{\sin x}{\cos x + 1}$
 
-📂 **Solución:** [solutions/prob-18/](../solutions/prob-18/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-18)
 
 ---
 
@@ -178,7 +178,7 @@ $g(x) = \frac{\sin x}{\cos x + 1}$
 
 $h(x) = (x^2 + 1)(x^3 - x)$
 
-📂 **Solución:** [solutions/prob-19/](../solutions/prob-19/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-19)
 
 ---
 
@@ -186,7 +186,7 @@ $h(x) = (x^2 + 1)(x^3 - x)$
 
 $f(x) = \frac{x \ln x}{e^x}$
 
-📂 **Solución:** [solutions/prob-20/](../solutions/prob-20/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-20)
 
 ---
 
@@ -194,7 +194,7 @@ $f(x) = \frac{x \ln x}{e^x}$
 
 $g(x) = x^2 e^x \sin x$
 
-📂 **Solución:** [solutions/prob-21/](../solutions/prob-21/)
+📂 **Solución:** [📂 Solución Desarrollada](../solutions/prob-21/solucion-metodo.md)
 
 ---
 
@@ -204,7 +204,7 @@ $g(x) = x^2 e^x \sin x$
 
 $f(x) = (3x + 1)^5$
 
-📂 **Solución:** [solutions/prob-22/](../solutions/prob-22/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-22)
 
 ---
 
@@ -212,7 +212,7 @@ $f(x) = (3x + 1)^5$
 
 $g(x) = \sin(2x)$
 
-📂 **Solución:** [solutions/prob-23/](../solutions/prob-23/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-23)
 
 ---
 
@@ -220,7 +220,7 @@ $g(x) = \sin(2x)$
 
 $h(x) = e^{3x}$
 
-📂 **Solución:** [solutions/prob-24/](../solutions/prob-24/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-24)
 
 ---
 
@@ -228,7 +228,7 @@ $h(x) = e^{3x}$
 
 $f(x) = \sqrt{x^2 + 1}$
 
-📂 **Solución:** [solutions/prob-25/](../solutions/prob-25/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-25)
 
 ---
 
@@ -236,7 +236,7 @@ $f(x) = \sqrt{x^2 + 1}$
 
 $g(x) = \ln(x^2 + 4x)$
 
-📂 **Solución:** [solutions/prob-26/](../solutions/prob-26/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-26)
 
 ---
 
@@ -244,7 +244,7 @@ $g(x) = \ln(x^2 + 4x)$
 
 $h(x) = \cos^3(x)$
 
-📂 **Solución:** [solutions/prob-27/](../solutions/prob-27/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-27)
 
 ---
 
@@ -252,7 +252,7 @@ $h(x) = \cos^3(x)$
 
 $f(x) = e^{\sin x}$
 
-📂 **Solución:** [solutions/prob-28/](../solutions/prob-28/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-28)
 
 ---
 
@@ -260,7 +260,7 @@ $f(x) = e^{\sin x}$
 
 $g(x) = \sin(\cos(\tan x))$
 
-📂 **Solución:** [solutions/prob-29/](../solutions/prob-29/)
+📂 **Solución:** [📂 Solución Desarrollada](../solutions/prob-29/solucion-metodo.md)
 
 ---
 
@@ -268,7 +268,7 @@ $g(x) = \sin(\cos(\tan x))$
 
 $h(x) = \sqrt{1 + \sqrt{1 + x}}$
 
-📂 **Solución:** [solutions/prob-30/](../solutions/prob-30/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-30)
 
 ---
 
@@ -276,7 +276,7 @@ $h(x) = \sqrt{1 + \sqrt{1 + x}}$
 
 $f(x) = \ln(\sec x + \tan x)$
 
-📂 **Solución:** [solutions/prob-31/](../solutions/prob-31/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-31)
 
 ---
 
@@ -286,7 +286,7 @@ $f(x) = \ln(\sec x + \tan x)$
 
 Encuentra $\frac{dy}{dx}$ si $x^2 + y^2 = 25$.
 
-📂 **Solución:** [solutions/prob-32/](../solutions/prob-32/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-32)
 
 ---
 
@@ -294,7 +294,7 @@ Encuentra $\frac{dy}{dx}$ si $x^2 + y^2 = 25$.
 
 Encuentra $\frac{dy}{dx}$ si $xy = 10$.
 
-📂 **Solución:** [solutions/prob-33/](../solutions/prob-33/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-33)
 
 ---
 
@@ -302,7 +302,7 @@ Encuentra $\frac{dy}{dx}$ si $xy = 10$.
 
 Encuentra $\frac{dy}{dx}$ si $x^2 + xy + y^2 = 7$.
 
-📂 **Solución:** [solutions/prob-34/](../solutions/prob-34/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-34)
 
 ---
 
@@ -310,7 +310,7 @@ Encuentra $\frac{dy}{dx}$ si $x^2 + xy + y^2 = 7$.
 
 Encuentra $\frac{dy}{dx}$ si $\sin(xy) = x + y$.
 
-📂 **Solución:** [solutions/prob-35/](../solutions/prob-35/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-35)
 
 ---
 
@@ -318,7 +318,7 @@ Encuentra $\frac{dy}{dx}$ si $\sin(xy) = x + y$.
 
 Encuentra $\frac{dy}{dx}$ si $e^{xy} = x - y$.
 
-📂 **Solución:** [solutions/prob-36/](../solutions/prob-36/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-36)
 
 ---
 
@@ -326,7 +326,7 @@ Encuentra $\frac{dy}{dx}$ si $e^{xy} = x - y$.
 
 Para $x^3 + y^3 = 6xy$, encuentra la pendiente de la [tangente](../../../glossary.md#tangente) en $(3, 3)$.
 
-📂 **Solución:** [solutions/prob-37/](../solutions/prob-37/)
+📂 **Solución:** [📂 Solución Desarrollada](../solutions/prob-37/solucion-metodo.md)
 
 ---
 
@@ -334,7 +334,7 @@ Para $x^3 + y^3 = 6xy$, encuentra la pendiente de la [tangente](../../../glossar
 
 Para $x^2 + y^2 = (2x^2 + 2y^2 - x)^2$, encuentra $\frac{dy}{dx}$.
 
-📂 **Solución:** [solutions/prob-38/](../solutions/prob-38/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-38)
 
 ---
 
@@ -344,7 +344,7 @@ Para $x^2 + y^2 = (2x^2 + 2y^2 - x)^2$, encuentra $\frac{dy}{dx}$.
 
 Encuentra $f''(x)$ si $f(x) = x^4 - 3x^2 + 2$.
 
-📂 **Solución:** [solutions/prob-39/](../solutions/prob-39/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-39)
 
 ---
 
@@ -352,7 +352,7 @@ Encuentra $f''(x)$ si $f(x) = x^4 - 3x^2 + 2$.
 
 Encuentra $f''(x)$ si $f(x) = e^{2x}$.
 
-📂 **Solución:** [solutions/prob-40/](../solutions/prob-40/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-40)
 
 ---
 
@@ -360,7 +360,7 @@ Encuentra $f''(x)$ si $f(x) = e^{2x}$.
 
 Encuentra $f'''(x)$ si $f(x) = \sin x$.
 
-📂 **Solución:** [solutions/prob-41/](../solutions/prob-41/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-41)
 
 ---
 
@@ -368,7 +368,7 @@ Encuentra $f'''(x)$ si $f(x) = \sin x$.
 
 Si $y = xe^x$, encuentra $y''$.
 
-📂 **Solución:** [solutions/prob-42/](../solutions/prob-42/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-42)
 
 ---
 
@@ -376,7 +376,7 @@ Si $y = xe^x$, encuentra $y''$.
 
 Encuentra una fórmula para $f^{(n)}(x)$ si $f(x) = e^{ax}$.
 
-📂 **Solución:** [solutions/prob-43/](../solutions/prob-43/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-43)
 
 ---
 
@@ -384,7 +384,7 @@ Encuentra una fórmula para $f^{(n)}(x)$ si $f(x) = e^{ax}$.
 
 Si $x^2 + y^2 = 1$, encuentra $\frac{d^2y}{dx^2}$.
 
-📂 **Solución:** [solutions/prob-44/](../solutions/prob-44/)
+📂 **Solución:** [📂 Solución Desarrollada](../solutions/prob-44/solucion-metodo.md)
 
 ---
 
@@ -394,7 +394,7 @@ Si $x^2 + y^2 = 1$, encuentra $\frac{d^2y}{dx^2}$.
 
 Calcula $\frac{d}{dx}[\arcsin(2x)]$.
 
-📂 **Solución:** [solutions/prob-45/](../solutions/prob-45/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-45)
 
 ---
 
@@ -402,7 +402,7 @@ Calcula $\frac{d}{dx}[\arcsin(2x)]$.
 
 Calcula $\frac{d}{dx}[\arctan(x^2)]$.
 
-📂 **Solución:** [solutions/prob-46/](../solutions/prob-46/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-46)
 
 ---
 
@@ -410,7 +410,7 @@ Calcula $\frac{d}{dx}[\arctan(x^2)]$.
 
 Calcula $\frac{d}{dx}[\arccos(\sqrt{x})]$.
 
-📂 **Solución:** [solutions/prob-47/](../solutions/prob-47/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-47)
 
 ---
 
@@ -418,7 +418,7 @@ Calcula $\frac{d}{dx}[\arccos(\sqrt{x})]$.
 
 Si $f(x) = x^3 + x$ es invertible, encuentra $(f^{-1})'(2)$.
 
-📂 **Solución:** [solutions/prob-48/](../solutions/prob-48/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-48)
 
 ---
 
@@ -426,7 +426,7 @@ Si $f(x) = x^3 + x$ es invertible, encuentra $(f^{-1})'(2)$.
 
 Calcula $\frac{d}{dx}\left[\arctan\left(\frac{x-1}{x+1}\right)\right]$.
 
-📂 **Solución:** [solutions/prob-49/](../solutions/prob-49/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-49)
 
 ---
 
@@ -436,7 +436,7 @@ Calcula $\frac{d}{dx}\left[\arctan\left(\frac{x-1}{x+1}\right)\right]$.
 
 $y = x^x$
 
-📂 **Solución:** [solutions/prob-50/](../solutions/prob-50/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-50)
 
 ---
 
@@ -444,7 +444,7 @@ $y = x^x$
 
 $y = (\sin x)^x$
 
-📂 **Solución:** [solutions/prob-51/](../solutions/prob-51/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-51)
 
 ---
 
@@ -452,7 +452,7 @@ $y = (\sin x)^x$
 
 $y = x^{\ln x}$
 
-📂 **Solución:** [solutions/prob-52/](../solutions/prob-52/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-52)
 
 ---
 
@@ -460,7 +460,7 @@ $y = x^{\ln x}$
 
 $y = \frac{x^2 \sqrt{x+1}}{(x-1)^3(x+2)^4}$
 
-📂 **Solución:** [solutions/prob-53/](../solutions/prob-53/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-53)
 
 ---
 
@@ -468,7 +468,7 @@ $y = \frac{x^2 \sqrt{x+1}}{(x-1)^3(x+2)^4}$
 
 $y = (\cos x)^{\sin x}$
 
-📂 **Solución:** [solutions/prob-54/](../solutions/prob-54/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-54)
 
 ---
 
@@ -478,7 +478,7 @@ $y = (\cos x)^{\sin x}$
 
 Encuentra todos los puntos de $y = x^3 - 3x$ donde la tangente es horizontal.
 
-📂 **Solución:** [solutions/prob-55/](../solutions/prob-55/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-55)
 
 ---
 
@@ -486,7 +486,7 @@ Encuentra todos los puntos de $y = x^3 - 3x$ donde la tangente es horizontal.
 
 Encuentra la ecuación de la recta normal a $y = e^x$ en $x = 0$.
 
-📂 **Solución:** [solutions/prob-56/](../solutions/prob-56/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-56)
 
 ---
 
@@ -494,7 +494,7 @@ Encuentra la ecuación de la recta normal a $y = e^x$ en $x = 0$.
 
 Si $f(x) = \lvert x^2 - 4 \rvert$, ¿dónde no es diferenciable $f$?
 
-📂 **Solución:** [solutions/prob-57/](../solutions/prob-57/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-57)
 
 ---
 
@@ -502,7 +502,7 @@ Si $f(x) = \lvert x^2 - 4 \rvert$, ¿dónde no es diferenciable $f$?
 
 Demuestra que $\frac{d}{dx}[\arcsin x + \arccos x] = 0$ y explica geométricamente.
 
-📂 **Solución:** [solutions/prob-58/](../solutions/prob-58/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-58)
 
 ---
 
@@ -510,6 +510,6 @@ Demuestra que $\frac{d}{dx}[\arcsin x + \arccos x] = 0$ y explica geométricamen
 
 Si $y = f(x)$ satisface $y'' + y = 0$, demuestra que $y = A\sin x + B\cos x$ es solución.
 
-📂 **Solución:** [solutions/prob-59/](../solutions/prob-59/)
+📂 **Solución:** [📎 Ver Respuesta](../solutions/CD-02-Respuestas.md#prob-59)
 
 ---

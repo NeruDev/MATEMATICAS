@@ -30,7 +30,7 @@ b) $\left(\frac{d^2y}{dx^2}\right)^2 + \frac{dy}{dx} = x$
 
 c) $y''' + (y')^3 = \sin x$
 
-> 📁 Solución: `solutions/prob-01/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-01)
 
 ---
 
@@ -38,7 +38,7 @@ c) $y''' + (y')^3 = \sin x$
 
 Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../../glossary.md#solucion-general) de $\frac{dy}{dx} + y = x$.
 
-> 📁 Solución: `solutions/prob-02/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-02)
 
 ---
 
@@ -46,7 +46,7 @@ Verificar que $y = Ce^{-x} + x - 1$ es [solución general](../../../glossary.md#
 
 Para $\frac{dy}{dx} = y^2$, verificar que $y = -\frac{1}{x+C}$ es [solución general](../../../glossary.md#solucion-general).
 
-> 📁 Solución: `solutions/prob-03/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-03)
 
 ---
 
@@ -62,7 +62,7 @@ b) $\frac{dy}{dx} = y\sin x$
 
 c) $(1+y^2)dx + (1+x^2)dy = 0$
 
-> 📁 Solución: `solutions/prob-04/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-04)
 
 ---
 
@@ -70,7 +70,7 @@ c) $(1+y^2)dx + (1+x^2)dy = 0$
 
 Resolver el PVI: $\frac{dy}{dx} = \frac{y^2}{x}$, $y(1) = 1$
 
-> 📁 Solución: `solutions/prob-05/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-05)
 
 ---
 
@@ -78,7 +78,7 @@ Resolver el PVI: $\frac{dy}{dx} = \frac{y^2}{x}$, $y(1) = 1$
 
 Resolver: $\frac{dy}{dx} = e^{x+y}$
 
-> 📁 Solución: `solutions/prob-06/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-06)
 
 ---
 
@@ -86,7 +86,7 @@ Resolver: $\frac{dy}{dx} = e^{x+y}$
 
 Resolver: $\frac{dy}{dx} = \frac{1+y^2}{1+x^2}$
 
-> 📁 Solución: `solutions/prob-07/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-07)
 
 ---
 
@@ -102,7 +102,7 @@ b) $\frac{dy}{dx} - \frac{y}{x} = x^2$
 
 c) $x\frac{dy}{dx} + 2y = x^3$
 
-> 📁 Solución: `solutions/prob-08/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-08)
 
 ---
 
@@ -110,7 +110,7 @@ c) $x\frac{dy}{dx} + 2y = x^3$
 
 Resolver el PVI: $\frac{dy}{dx} + y = e^x$, $y(0) = 1$
 
-> 📁 Solución: `solutions/prob-09/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-09)
 
 ---
 
@@ -118,7 +118,7 @@ Resolver el PVI: $\frac{dy}{dx} + y = e^x$, $y(0) = 1$
 
 Resolver: $\frac{dy}{dx} + y\tan x = \sec x$
 
-> 📁 Solución: `solutions/prob-10/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-10)
 
 ---
 
@@ -126,7 +126,7 @@ Resolver: $\frac{dy}{dx} + y\tan x = \sec x$
 
 Resolver: $\frac{dy}{dx} + \frac{3}{x}y = \frac{1}{x^2}$
 
-> 📁 Solución: `solutions/prob-11/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-11)
 
 ---
 
@@ -142,7 +142,7 @@ b) $(3x^2 + 6xy)dx + (3x^2 + 4y)dy = 0$
 
 c) $(ye^{xy} + 2x)dx + (xe^{xy} + 2y)dy = 0$
 
-> 📁 Solución: `solutions/prob-12/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-12)
 
 ---
 
@@ -150,7 +150,7 @@ c) $(ye^{xy} + 2x)dx + (xe^{xy} + 2y)dy = 0$
 
 Resolver: $(2xy - 3x^2)dx + (x^2 + 2y)dy = 0$
 
-> 📁 Solución: `solutions/prob-13/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-13)
 
 ---
 
@@ -158,7 +158,7 @@ Resolver: $(2xy - 3x^2)dx + (x^2 + 2y)dy = 0$
 
 Resolver el PVI: $(y\cos x + 2xe^y)dx + (\sin x + x^2e^y)dy = 0$, $y(0) = 0$
 
-> 📁 Solución: `solutions/prob-14/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-14)
 
 ---
 
@@ -174,7 +174,7 @@ b) $(x + y)dx + x\,dy = 0$
 
 c) $ydx + (2xy - e^{-2y})dy = 0$
 
-> 📁 Solución: `solutions/prob-15/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-15)
 
 ---
 
@@ -182,7 +182,7 @@ c) $ydx + (2xy - e^{-2y})dy = 0$
 
 Resolver: $(y^2 + xy)dx - x^2dy = 0$
 
-> 📁 Solución: `solutions/prob-16/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-16)
 
 ---
 
@@ -190,7 +190,7 @@ Resolver: $(y^2 + xy)dx - x^2dy = 0$
 
 Encontrar $\mu(x)$ para: $(2y - 6x)dx + (3x - 4x^2y^{-1})dy = 0$
 
-> 📁 Solución: `solutions/prob-17/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-17)
 
 ---
 
@@ -206,7 +206,7 @@ b) $\frac{dy}{dx} - y = xy^3$
 
 c) $x\frac{dy}{dx} + y = y^2\ln x$
 
-> 📁 Solución: `solutions/prob-18/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-18)
 
 ---
 
@@ -214,7 +214,7 @@ c) $x\frac{dy}{dx} + y = y^2\ln x$
 
 Resolver el PVI: $\frac{dy}{dx} + \frac{y}{x} = xy^2$, $y(1) = 1$
 
-> 📁 Solución: `solutions/prob-19/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-19)
 
 ---
 
@@ -222,7 +222,7 @@ Resolver el PVI: $\frac{dy}{dx} + \frac{y}{x} = xy^2$, $y(1) = 1$
 
 Resolver: $\frac{dy}{dx} + y\cot x = y^3\csc x$
 
-> 📁 Solución: `solutions/prob-20/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-20)
 
 ---
 
@@ -238,7 +238,7 @@ b) $(x^2 + y^2)dx - 2xy\,dy = 0$
 
 c) $\frac{dy}{dx} = \frac{y^2 - x^2}{xy}$
 
-> 📁 Solución: `solutions/prob-21/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-21)
 
 ---
 
@@ -246,7 +246,7 @@ c) $\frac{dy}{dx} = \frac{y^2 - x^2}{xy}$
 
 Resolver el PVI: $\frac{dy}{dx} = \frac{x + 2y}{x}$, $y(1) = 0$
 
-> 📁 Solución: `solutions/prob-22/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-22)
 
 ---
 
@@ -254,7 +254,7 @@ Resolver el PVI: $\frac{dy}{dx} = \frac{x + 2y}{x}$, $y(1) = 0$
 
 Resolver: $(x - y)dx + (x + y)dy = 0$
 
-> 📁 Solución: `solutions/prob-23/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-23)
 
 ---
 
@@ -264,7 +264,7 @@ Resolver: $(x - y)dx + (x + y)dy = 0$
 
 La cantidad de un material radiactivo decrece según $\frac{dN}{dt} = -kN$. Si inicialmente hay 100g y después de 10 años quedan 60g, ¿cuánto quedará después de 25 años?
 
-> 📁 Solución: `solutions/prob-24/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-24)
 
 ---
 
@@ -272,7 +272,7 @@ La cantidad de un material radiactivo decrece según $\frac{dN}{dt} = -kN$. Si i
 
 Un objeto a 90°C se coloca en un ambiente a 20°C. Después de 10 minutos está a 60°C. ¿Cuándo estará a 30°C?
 
-> 📁 Solución: `solutions/prob-25/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-25)
 
 ---
 
@@ -284,7 +284,7 @@ $$L\frac{di}{dt} + Ri = E$$
 
 Si $i(0) = 0$, encontrar $i(t)$.
 
-> 📁 Solución: `solutions/prob-26/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-26)
 
 ---
 
@@ -292,7 +292,7 @@ Si $i(0) = 0$, encontrar $i(t)$.
 
 Un tanque contiene 100L de agua con 10kg de sal. Entra solución a 3L/min con concentración 0.2 kg/L, y sale mezcla a 3L/min. Encontrar la cantidad de sal en el tanque en [función](../../../glossary.md#funcion) del tiempo.
 
-> 📁 Solución: `solutions/prob-27/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-27)
 
 ---
 
@@ -304,4 +304,4 @@ $$\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$$
 
 con $r = 0.1$, $K = 1000$, $P(0) = 100$. Resolver para $P(t)$.
 
-> 📁 Solución: `solutions/prob-28/`
+📎 **Solución:** [Ver respuesta](../solutions/ED-01-Respuestas.md#prob-28)

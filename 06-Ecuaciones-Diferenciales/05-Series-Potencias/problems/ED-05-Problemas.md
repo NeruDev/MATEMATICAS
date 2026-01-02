@@ -30,7 +30,7 @@ c) $\sum_{n=1}^{\infty} \frac{x^n}{n}$
 
 d) $\sum_{n=0}^{\infty} \frac{(x-2)^n}{3^n}$
 
-> **Solución:** Ver [solutions/prob-01/](../solutions/prob-01/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-01)
 
 ---
 
@@ -44,7 +44,7 @@ b) $e^{-x^2}$
 
 c) $\ln(1+x)$
 
-> **Solución:** Ver [solutions/prob-02/](../solutions/prob-02/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-02)
 
 ---
 
@@ -62,7 +62,7 @@ c) $(x^2-1)y'' + xy' + y = 0$
 
 d) $x^2y'' + xy' + (x^2-1)y = 0$
 
-> **Solución:** Ver [solutions/prob-03/](../solutions/prob-03/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-03)
 
 ---
 
@@ -76,7 +76,7 @@ b) $y'' - y = 0$
 
 c) $y' - y = 0$
 
-> **Solución:** Ver [solutions/prob-04/](../solutions/prob-04/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-04)
 
 ---
 
@@ -90,7 +90,7 @@ b) $y'' - 2xy' + 2y = 0$ (Hermite con $n = 1$)
 
 c) $(1-x^2)y'' - 2xy' + 2y = 0$ (Legendre con $n = 1$)
 
-> **Solución:** Ver [solutions/prob-05/](../solutions/prob-05/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-05)
 
 ---
 
@@ -102,7 +102,7 @@ a) $y'' + xy' + y = 0$, $y(0) = 1$, $y'(0) = 0$
 
 b) $y'' - x^2y = 0$, $y(0) = 0$, $y'(0) = 1$
 
-> **Solución:** Ver [solutions/prob-06/](../solutions/prob-06/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-06)
 
 ---
 
@@ -114,7 +114,7 @@ a) $y'' + x^2y = 0$
 
 b) $(1+x^2)y'' + 2xy' - 2y = 0$
 
-> **Solución:** Ver [solutions/prob-07/](../solutions/prob-07/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-07)
 
 ---
 
@@ -132,7 +132,7 @@ c) $xy'' + y' + xy = 0$
 
 d) $x^2y'' + (x + x^2)y' + y = 0$
 
-> **Solución:** Ver [solutions/prob-08/](../solutions/prob-08/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-08)
 
 ---
 
@@ -148,7 +148,7 @@ c) $xy'' + y = 0$
 
 d) $x^2y'' - xy' + y = 0$
 
-> **Solución:** Ver [solutions/prob-09/](../solutions/prob-09/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-09)
 
 ---
 
@@ -162,7 +162,7 @@ b) $x^2y'' + xy' + (x^2-4)y = 0$ (raíces: $2, -2$)
 
 c) $2x^2y'' + 3xy' - (1+x)y = 0$ (raíces: $1, -\frac{1}{2}$)
 
-> **Solución:** Ver [solutions/prob-10/](../solutions/prob-10/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-10)
 
 ---
 
@@ -178,7 +178,7 @@ b) $xy'' + y' - y = 0$
 
 c) $x^2y'' + xy' + (x^2 - 1)y = 0$ (Bessel, $\nu = 1$)
 
-> **Solución:** Ver [solutions/prob-11/](../solutions/prob-11/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-11)
 
 ---
 
@@ -190,7 +190,7 @@ a) $x^2y'' - xy' + (1-x)y = 0$
 
 b) $xy'' + (1-x)y' - y = 0$
 
-> **Solución:** Ver [solutions/prob-12/](../solutions/prob-12/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-12)
 
 ---
 
@@ -202,7 +202,7 @@ a) $xy'' + 2y' + xy = 0$
 
 b) $x^2y'' + x(x-1)y' + y = 0$
 
-> **Solución:** Ver [solutions/prob-13/](../solutions/prob-13/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-13)
 
 ---
 
@@ -216,7 +216,7 @@ a) $y = J_0(x) = 1 - \frac{x^2}{4} + \frac{x^4}{64} - ...$ satisface $x^2y'' + x
 
 b) $y = P_2(x) = \frac{1}{2}(3x^2 - 1)$ satisface $(1-x^2)y'' - 2xy' + 6y = 0$
 
-> **Solución:** Ver [solutions/prob-14/](../solutions/prob-14/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-14)
 
 ---
 
@@ -230,7 +230,7 @@ b) Para $\nu = 0$, encontrar los primeros cuatro términos de $J_0(x)$
 
 c) Para $\nu = 1$, encontrar los primeros tres términos de $J_1(x)$
 
-> **Solución:** Ver [solutions/prob-15/](../solutions/prob-15/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-15)
 
 ---
 
@@ -244,7 +244,7 @@ b) Para $n = 2$, encontrar $P_2(x)$
 
 c) Verificar la ortogonalidad: $\int_{-1}^{1} P_1(x)P_2(x)\,dx = 0$
 
-> **Solución:** Ver [solutions/prob-16/](../solutions/prob-16/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-16)
 
 ---
 
@@ -260,7 +260,7 @@ b) Encontrar la solución en serie hasta $x^6$
 
 c) Usar las condiciones $y(0) = 1$, $y'(0) = 0$ para encontrar $\text{Ai}(x)$
 
-> **Solución:** Ver [solutions/prob-17/](../solutions/prob-17/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-17)
 
 ---
 
@@ -276,7 +276,7 @@ a) Encontrar una solución en serie
 
 b) Verificar que $\psi = e^{-x^2/2}$ es solución
 
-> **Solución:** Ver [solutions/prob-18/](../solutions/prob-18/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-18)
 
 ---
 
@@ -290,7 +290,7 @@ a) Identificar esta como ecuación de Bessel
 
 b) ¿Cuál es la solución acotada en $r = 0$?
 
-> **Solución:** Ver [solutions/prob-19/](../solutions/prob-19/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-19)
 
 ---
 
@@ -306,4 +306,4 @@ a) Identificar como ecuación de Legendre
 
 b) Para $n = 3$, encontrar $P_3(x)$
 
-> **Solución:** Ver [solutions/prob-20/](../solutions/prob-20/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-05-Respuestas.md#prob-20)

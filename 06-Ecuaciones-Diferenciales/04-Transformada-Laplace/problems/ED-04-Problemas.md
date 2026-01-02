@@ -32,7 +32,7 @@ d) $f(t) = \sin 5t$
 
 e) $f(t) = \cos 2t$
 
-> **Solución:** Ver [solutions/prob-01/](../solutions/prob-01/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-01)
 
 ---
 
@@ -48,7 +48,7 @@ c) $f(t) = 2\cos 3t + 5\sin 3t$
 
 d) $f(t) = \cosh 2t - \sinh 2t$
 
-> **Solución:** Ver [solutions/prob-02/](../solutions/prob-02/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-02)
 
 ---
 
@@ -66,7 +66,7 @@ c) $\mathcal{L}\{e^{t}\cos 3t\}$
 
 d) $\mathcal{L}\{e^{-t}(t^2 + 2t)\}$
 
-> **Solución:** Ver [solutions/prob-03/](../solutions/prob-03/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-03)
 
 ---
 
@@ -78,7 +78,7 @@ a) $\mathcal{L}\{e^{2t}(3\cos 5t - 4\sin 5t)\}$
 
 b) $\mathcal{L}\{te^{-3t}\sin 2t\}$
 
-> **Solución:** Ver [solutions/prob-04/](../solutions/prob-04/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-04)
 
 ---
 
@@ -92,7 +92,7 @@ a) $\mathcal{L}\{f'(t)\}$ con $f(0) = 2$
 
 b) $\mathcal{L}\{f''(t)\}$ con $f(0) = 1$, $f'(0) = -3$
 
-> **Solución:** Ver [solutions/prob-05/](../solutions/prob-05/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-05)
 
 ---
 
@@ -106,7 +106,7 @@ b) $\mathcal{L}\{t\cos t\}$
 
 c) $\mathcal{L}\{t^2 e^{-t}\}$
 
-> **Solución:** Ver [solutions/prob-06/](../solutions/prob-06/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-06)
 
 ---
 
@@ -124,7 +124,7 @@ c) $F(s) = \frac{4}{s^2+16}$
 
 d) $F(s) = \frac{s}{s^2+9}$
 
-> **Solución:** Ver [solutions/prob-07/](../solutions/prob-07/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-07)
 
 ---
 
@@ -140,7 +140,7 @@ c) $F(s) = \frac{2s-1}{s^2-4}$
 
 d) $F(s) = \frac{s}{(s+1)(s^2+1)}$
 
-> **Solución:** Ver [solutions/prob-08/](../solutions/prob-08/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-08)
 
 ---
 
@@ -154,7 +154,7 @@ b) $F(s) = \frac{s}{(s-1)^2}$
 
 c) $F(s) = \frac{2s+3}{(s+1)^3}$
 
-> **Solución:** Ver [solutions/prob-09/](../solutions/prob-09/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-09)
 
 ---
 
@@ -168,7 +168,7 @@ b) $F(s) = \frac{s+1}{s^2+4s+8}$
 
 c) $F(s) = \frac{2s-3}{s^2-6s+13}$
 
-> **Solución:** Ver [solutions/prob-10/](../solutions/prob-10/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-10)
 
 ---
 
@@ -184,7 +184,7 @@ b) $y' - y = e^{2t}$, $y(0) = 1$
 
 c) $y' + 3y = \sin t$, $y(0) = 0$
 
-> **Solución:** Ver [solutions/prob-11/](../solutions/prob-11/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-11)
 
 ---
 
@@ -198,7 +198,7 @@ b) $y'' - y = 0$, $y(0) = 0$, $y'(0) = 2$
 
 c) $y'' + 2y' + y = 0$, $y(0) = 1$, $y'(0) = 1$
 
-> **Solución:** Ver [solutions/prob-12/](../solutions/prob-12/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-12)
 
 ---
 
@@ -212,7 +212,7 @@ b) $y'' - 3y' + 2y = e^t$, $y(0) = 0$, $y'(0) = 0$
 
 c) $y'' + y = t$, $y(0) = 1$, $y'(0) = 0$
 
-> **Solución:** Ver [solutions/prob-13/](../solutions/prob-13/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-13)
 
 ---
 
@@ -224,7 +224,7 @@ a) $y'' + 2y' + 5y = e^{-t}\sin 2t$, $y(0) = 0$, $y'(0) = 0$
 
 b) $y''' - y' = 0$, $y(0) = 0$, $y'(0) = 1$, $y''(0) = 0$
 
-> **Solución:** Ver [solutions/prob-14/](../solutions/prob-14/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-14)
 
 ---
 
@@ -240,7 +240,7 @@ b) $f(t) = \begin{cases} t, & 0 \leq t < 2 \\ 4-t, & t \geq 2 \end{cases}$
 
 c) $f(t) = \begin{cases} 1, & 0 \leq t < 1 \\ 0, & 1 \leq t < 2 \\ 1, & t \geq 2 \end{cases}$
 
-> **Solución:** Ver [solutions/prob-15/](../solutions/prob-15/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-15)
 
 ---
 
@@ -256,7 +256,7 @@ c) $\mathcal{L}\{e^{-(t-3)}u(t-3)\}$
 
 d) $\mathcal{L}\{\sin(t-\pi)u(t-\pi)\}$
 
-> **Solución:** Ver [solutions/prob-16/](../solutions/prob-16/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-16)
 
 ---
 
@@ -270,7 +270,7 @@ b) $F(s) = \frac{e^{-s}}{s^2}$
 
 c) $F(s) = \frac{se^{-\pi s}}{s^2+1}$
 
-> **Solución:** Ver [solutions/prob-17/](../solutions/prob-17/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-17)
 
 ---
 
@@ -286,7 +286,7 @@ b) $y'' + 4y = \delta(t-\pi)$, $y(0) = 0$, $y'(0) = 0$
 
 c) $y'' + 2y' + y = \delta(t)$, $y(0) = 0$, $y'(0) = 0$
 
-> **Solución:** Ver [solutions/prob-18/](../solutions/prob-18/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-18)
 
 ---
 
@@ -300,7 +300,7 @@ a) $\mathcal{L}^{-1}\left\{\frac{1}{s^2(s-1)}\right\}$
 
 b) $\mathcal{L}^{-1}\left\{\frac{1}{(s-1)(s-2)}\right\}$
 
-> **Solución:** Ver [solutions/prob-19/](../solutions/prob-19/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-19)
 
 ---
 
@@ -312,7 +312,7 @@ $y'' + y = f(t)$, $y(0) = 0$, $y'(0) = 0$
 
 donde la solución es $(f * \sin)(t)$
 
-> **Solución:** Ver [solutions/prob-20/](../solutions/prob-20/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-20)
 
 ---
 
@@ -325,7 +325,7 @@ $$R\frac{dq}{dt} + \frac{q}{C} = E(t)$$
 
 Si $E(t) = 10$ V constante y $q(0) = 0$, encontrar $q(t)$.
 
-> **Solución:** Ver [solutions/prob-21/](../solutions/prob-21/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-21)
 
 ---
 
@@ -336,7 +336,7 @@ $$L\frac{d^2i}{dt^2} + R\frac{di}{dt} + \frac{i}{C} = \frac{dE}{dt}$$
 
 Resolver con $i(0) = 0$, $i'(0) = 10$.
 
-> **Solución:** Ver [solutions/prob-22/](../solutions/prob-22/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-22)
 
 ---
 
@@ -347,7 +347,7 @@ $$\ddot{x} + 4x = 3\delta(t-2)$$
 
 Resolver con $x(0) = 0$, $\dot{x}(0) = 0$.
 
-> **Solución:** Ver [solutions/prob-23/](../solutions/prob-23/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-23)
 
 ---
 
@@ -358,4 +358,4 @@ $$EI\frac{d^4y}{dx^4} = w(x)$$
 
 Si $w(x) = w_0[u(x) - u(x-L/2)]$ y las condiciones son $y(0) = y'(0) = 0$, encontrar $Y(s)$.
 
-> **Solución:** Ver [solutions/prob-24/](../solutions/prob-24/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/ED-04-Respuestas.md#prob-24)

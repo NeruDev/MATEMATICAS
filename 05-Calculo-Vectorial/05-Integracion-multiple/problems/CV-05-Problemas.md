@@ -59,7 +59,7 @@ difficulty_distribution:
 
 ## 5.3 Integrales Dobles en Coordenadas Polares
 
-**[Prob-13]** Calcula $\displaystyle\iint_D (x^2 + y^2)\, dA$ donde $D$ es el disco $x^2 + y^2 \leq 4$.
+**[Prob-13]** Calcula $\displaystyle\iint_D (x^2 + y^2)\, dA$ donde $D$ es el disco $x^2 + y^2 \leq 4$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-13/solucion-metodo.md)
 
 **[Prob-14]** Evalúa $\displaystyle\iint_D e^{-(x^2 + y^2)}\, dA$ donde $D$ es el disco unitario.
 
@@ -109,7 +109,7 @@ difficulty_distribution:
 
 **[Prob-31]** Evalúa $\displaystyle\iiint_E (x^2 + y^2)\, dV$ donde $E$ es el cilindro $x^2 + y^2 \leq 1$, $0 \leq z \leq 2$.
 
-**[Prob-32]** Calcula el volumen del sólido acotado por el paraboloide $z = x^2 + y^2$ y el plano $z = 4$.
+**[Prob-32]** Calcula el volumen del sólido acotado por el paraboloide $z = x^2 + y^2$ y el plano $z = 4$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-32/solucion-metodo.md)
 
 **[Prob-33]** Encuentra el volumen del cono $z = \sqrt{x^2 + y^2}$ bajo el plano $z = 1$.
 
@@ -161,7 +161,7 @@ difficulty_distribution:
 
 ## 5.10 Problemas de Síntesis
 
-**[Prob-50]** Calcula $\displaystyle\int_0^\infty e^{-x^2}\, dx$ usando la integral doble $\iint_{\mathbb{R}^2} e^{-(x^2+y^2)}\, dA$.
+**[Prob-50]** Calcula $\displaystyle\int_0^\infty e^{-x^2}\, dx$ usando la integral doble $\iint_{\mathbb{R}^2} e^{-(x^2+y^2)}\, dA$.\n\n📂 **Solución desarrollada:** [Ver paso a paso](../solutions/prob-50/solucion-metodo.md)
 
 **[Prob-51]** Un sólido tiene forma de "helado" (cono con casquete esférico): cono $z = \sqrt{x^2 + y^2}$ coronado por la esfera $x^2 + y^2 + z^2 = 2$.
 a) Encuentra el volumen del cono bajo la esfera

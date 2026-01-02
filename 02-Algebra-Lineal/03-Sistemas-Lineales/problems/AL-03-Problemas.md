@@ -22,7 +22,7 @@ file_id: AL-03-Problemas
 Escribir en forma matricial $Ax = b$:
 $$\begin{cases} 2x + 3y = 7 \\ x - y = 1 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-01/](../solutions/prob-01/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-01)
 
 ---
 
@@ -31,7 +31,7 @@ $$\begin{cases} 2x + 3y = 7 \\ x - y = 1 \end{cases}$$
 Resolver por eliminación gaussiana:
 $$\begin{cases} x + y = 5 \\ 2x - y = 4 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-02/](../solutions/prob-02/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-02)
 
 ---
 
@@ -40,7 +40,7 @@ $$\begin{cases} x + y = 5 \\ 2x - y = 4 \end{cases}$$
 Resolver:
 $$\begin{cases} x + 2y + z = 6 \\ 2x + y - z = 1 \\ x - y + 2z = 5 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-03/](../solutions/prob-03/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-03)
 
 ---
 
@@ -49,7 +49,7 @@ $$\begin{cases} x + 2y + z = 6 \\ 2x + y - z = 1 \\ x - y + 2z = 5 \end{cases}$$
 Resolver:
 $$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 0 \\ 3x + 2y + z = 5 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-04/](../solutions/prob-04/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-04)
 
 ---
 
@@ -58,7 +58,7 @@ $$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 0 \\ 3x + 2y + z = 5 \end{cases}$
 Resolver y verificar:
 $$\begin{cases} x + y + z + w = 10 \\ 2x - y + z = 5 \\ x + 2y - z + w = 4 \\ 3x + y + 2z - w = 9 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-05/](../solutions/prob-05/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-05)
 
 ---
 
@@ -69,7 +69,7 @@ $$\begin{cases} x + y + z + w = 10 \\ 2x - y + z = 5 \\ x + 2y - z + w = 4 \\ 3x
 Llevar a REF:
 $$\begin{pmatrix} 1 & 2 & 3 \\ 2 & 5 & 3 \\ 1 & 0 & 8 \end{pmatrix}$$
 
-> 📂 Solución: [solutions/prob-06/](../solutions/prob-06/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-06)
 
 ---
 
@@ -78,7 +78,7 @@ $$\begin{pmatrix} 1 & 2 & 3 \\ 2 & 5 & 3 \\ 1 & 0 & 8 \end{pmatrix}$$
 Llevar a RREF:
 $$\begin{pmatrix} 1 & 2 & 1 \\ 3 & 8 & 1 \\ 2 & 4 & 3 \end{pmatrix}$$
 
-> 📂 Solución: [solutions/prob-07/](../solutions/prob-07/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-07)
 
 ---
 
@@ -88,7 +88,7 @@ $$\begin{pmatrix} 1 & 2 & 1 \\ 3 & 8 & 1 \\ 2 & 4 & 3 \end{pmatrix}$$
 - $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$
 - $\begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 3 \\ 0 & 0 & 0 \end{pmatrix}$
 
-> 📂 Solución: [solutions/prob-08/](../solutions/prob-08/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-08)
 
 ---
 
@@ -99,7 +99,7 @@ $$\begin{pmatrix} 1 & 2 & 1 \\ 3 & 8 & 1 \\ 2 & 4 & 3 \end{pmatrix}$$
 Clasificar (sin resolver):
 $$\begin{cases} x + y = 2 \\ 2x + 2y = 4 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-09/](../solutions/prob-09/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-09)
 
 ---
 
@@ -108,7 +108,7 @@ $$\begin{cases} x + y = 2 \\ 2x + 2y = 4 \end{cases}$$
 Clasificar:
 $$\begin{cases} x + y = 2 \\ x + y = 3 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-10/](../solutions/prob-10/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-10)
 
 ---
 
@@ -117,7 +117,7 @@ $$\begin{cases} x + y = 2 \\ x + y = 3 \end{cases}$$
 ¿Para qué valor de $k$ el sistema tiene infinitas soluciones?
 $$\begin{cases} x + ky = 1 \\ 2x + 2y = 2 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-11/](../solutions/prob-11/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-11)
 
 ---
 
@@ -126,7 +126,7 @@ $$\begin{cases} x + ky = 1 \\ 2x + 2y = 2 \end{cases}$$
 ¿Para qué valor de $k$ el sistema no tiene solución?
 $$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 2 \\ 2x + 3y + kz = 3 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-12/](../solutions/prob-12/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-12)
 
 ---
 
@@ -135,7 +135,7 @@ $$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 2 \\ 2x + 3y + kz = 3 \end{cases}
 Clasificar según el valor de $a$:
 $$\begin{cases} x + y + z = 1 \\ x + 2y + az = 2 \\ x + 4y + a^2z = 4 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-13/](../solutions/prob-13/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-13)
 
 ---
 
@@ -145,7 +145,7 @@ $$\begin{cases} x + y + z = 1 \\ x + 2y + az = 2 \\ x + 4y + a^2z = 4 \end{cases
 
 Hallar el rango de $A = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{pmatrix}$.
 
-> 📂 Solución: [solutions/prob-14/](../solutions/prob-14/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-14)
 
 ---
 
@@ -153,7 +153,7 @@ Hallar el rango de $A = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end
 
 Hallar el rango de $A = \begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 3 \\ 2 & 1 & 7 \end{pmatrix}$.
 
-> 📂 Solución: [solutions/prob-15/](../solutions/prob-15/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-15)
 
 ---
 
@@ -162,7 +162,7 @@ Hallar el rango de $A = \begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 3 \\ 2 & 1 & 7 \end
 ¿Para qué valores de $k$ el rango es [menor](../../../glossary.md#menor) que 3?
 $$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & k & 2 \\ 1 & 1 & 1 \end{pmatrix}$$
 
-> 📂 Solución: [solutions/prob-16/](../solutions/prob-16/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-16)
 
 ---
 
@@ -172,7 +172,7 @@ $$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & k & 2 \\ 1 & 1 & 1 \end{pmatrix}$$
 
 Resolver $Ax = 0$ donde $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$.
 
-> 📂 Solución: [solutions/prob-17/](../solutions/prob-17/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-17)
 
 ---
 
@@ -181,7 +181,7 @@ Resolver $Ax = 0$ donde $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$.
 Resolver:
 $$\begin{cases} x + 2y + 3z = 0 \\ 2x + 4y + 6z = 0 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-18/](../solutions/prob-18/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-18)
 
 ---
 
@@ -189,7 +189,7 @@ $$\begin{cases} x + 2y + 3z = 0 \\ 2x + 4y + 6z = 0 \end{cases}$$
 
 Hallar una [base](../../../glossary.md#base) para el espacio nulo de $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 4 & 3 \end{pmatrix}$.
 
-> 📂 Solución: [solutions/prob-19/](../solutions/prob-19/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-19)
 
 ---
 
@@ -198,7 +198,7 @@ Hallar una [base](../../../glossary.md#base) para el espacio nulo de $A = \begin
 ¿Para qué valores de $k$ el sistema homogéneo tiene solución no [trivial](../../../glossary.md#trivial)?
 $$\begin{cases} x + y + kz = 0 \\ x + ky + z = 0 \\ kx + y + z = 0 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-20/](../solutions/prob-20/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-20)
 
 ---
 
@@ -209,7 +209,7 @@ $$\begin{cases} x + y + kz = 0 \\ x + ky + z = 0 \\ kx + y + z = 0 \end{cases}$$
 Un triángulo tiene vértices que satisfacen el sistema. Hallar los vértices:
 $$\begin{cases} x + y = 5 \\ x - y = 1 \end{cases}$$
 
-> 📂 Solución: [solutions/prob-21/](../solutions/prob-21/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-21)
 
 ---
 
@@ -217,7 +217,7 @@ $$\begin{cases} x + y = 5 \\ x - y = 1 \end{cases}$$
 
 Encontrar $a$, $b$, $c$ [tal que](../../../glossary.md#tal-que) la parábola $y = ax^2 + bx + c$ pase por $(1, 2)$, $(2, 3)$ y $(3, 6)$.
 
-> 📂 Solución: [solutions/prob-22/](../solutions/prob-22/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-22)
 
 ---
 
@@ -225,4 +225,4 @@ Encontrar $a$, $b$, $c$ [tal que](../../../glossary.md#tal-que) la parábola $y 
 
 Hallar el [polinomio](../../../glossary.md#polinomio) de grado 2 que interpola los puntos $(-1, 4)$, $(0, 1)$, $(2, 7)$.
 
-> 📂 Solución: [solutions/prob-23/](../solutions/prob-23/)
+> 📂 Solución: [📎 Ver Respuesta](../solutions/AL-03-Respuestas.md#prob-23)

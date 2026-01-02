@@ -25,14 +25,14 @@ Usa el [método de Euler](../../../glossary.md#metodo-de-euler) con $h = 0.1$ pa
 $$y' = 2xy, \quad y(0) = 1$$
 Compara con la solución exacta $y = e^{x^2}$.
 
-> 📁 Solución: `solutions/prob-01/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-01)
 
 ---
 
 ### [Prob-02] Euler con Cálculo de Errores por Paso ⭐
 Resuelve $y' = y - x$, $y(0) = 2$ en $[0, 1]$ con $h = 0.2$ usando Euler. Calcula errores en cada paso.
 
-> 📁 Solución: `solutions/prob-02/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-02)
 
 ---
 
@@ -42,7 +42,7 @@ a) Aplica Euler con $h = 0.5$ y $h = 0.25$
 b) ¿Qué método es más preciso?
 c) Verifica la condición de estabilidad
 
-> 📁 Solución: `solutions/prob-03/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-03)
 
 ---
 
@@ -51,14 +51,14 @@ Un tanque con 100 L de salmuera con 5 kg de sal tiene entrada de agua pura a 3 L
 $$y' = -0.03y, \quad y(0) = 5$$
 Usa Euler ($h = 5$ min) para encontrar $y(30)$.
 
-> 📁 Solución: `solutions/prob-04/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-04)
 
 ---
 
 ### [Prob-05] Euler Implícito y Análisis de Estabilidad ⭐⭐⭐
 Implementa el [método de Euler](../../../glossary.md#metodo-de-euler) implícito para $y' = -10y$, $y(0) = 1$ con $h = 0.3$. ¿Por qué es estable cuando Euler explícito no lo es?
 
-> 📁 Solución: `solutions/prob-05/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-05)
 
 ---
 
@@ -69,21 +69,21 @@ Aplica el [método de Heun](../../../glossary.md#metodo-de-heun) con $h = 0.2$ p
 $$y' = x^2 + y, \quad y(0) = 1$$
 Calcula $y(0.4)$ y compara con Euler.
 
-> 📁 Solución: `solutions/prob-06/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-06)
 
 ---
 
 ### [Prob-07] Heun en Intervalo Extendido ⭐
 Resuelve $y' = xy$, $y(1) = 1$ en $[1, 2]$ usando Heun con $h = 0.25$.
 
-> 📁 Solución: `solutions/prob-07/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-07)
 
 ---
 
 ### [Prob-08] Proyectil Vertical con Resistencia ⭐⭐
 Un proyectil vertical satisface $v' = -g - kv^2/m$ con $g = 9.8$, $k = 0.01$, $m = 1$ kg y $v(0) = 50$ m/s. Usa Heun ($h = 0.5$) para encontrar $v(2)$.
 
-> 📁 Solución: `solutions/prob-08/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-08)
 
 ---
 
@@ -92,7 +92,7 @@ Compara los errores de Euler y Heun para:
 $$y' = \cos(x) - y, \quad y(0) = 0$$
 con $h = 0.1$ en $[0, 1]$. ¿Cuál es la razón de errores?
 
-> 📁 Solución: `solutions/prob-09/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-09)
 
 ---
 
@@ -103,7 +103,7 @@ Usa RK4 con $h = 0.2$ para resolver:
 $$y' = y - x^2 + 1, \quad y(0) = 0.5$$
 Compara $y(1)$ con la solución exacta $y = x^2 + 2x + 1 - 0.5e^x$.
 
-> 📁 Solución: `solutions/prob-10/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-10)
 
 ---
 
@@ -111,28 +111,28 @@ Compara $y(1)$ con la solución exacta $y = x^2 + 2x + 1 - 0.5e^x$.
 Resuelve con RK4 ($h = 0.1$):
 $$y' = 3y + e^{2x}, \quad y(0) = 1$$
 
-> 📁 Solución: `solutions/prob-11/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-11)
 
 ---
 
 ### [Prob-12] Comparación RK2 vs RK4 ⭐⭐
 Aplica RK2 (punto medio) y RK4 a $y' = \sin(y)$, $y(0) = 1$ con $h = 0.2$. Calcula $y(1)$ con ambos métodos.
 
-> 📁 Solución: `solutions/prob-12/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-12)
 
 ---
 
 ### [Prob-13] Circuito RL con RK4 ⭐⭐
 Un circuito RL tiene $L\frac{di}{dt} + Ri = V$ con $L = 2$ H, $R = 4$ Ω, $V = 12$ V e $i(0) = 0$. Usa RK4 ($h = 0.1$) para encontrar $i(1)$.
 
-> 📁 Solución: `solutions/prob-13/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-13)
 
 ---
 
 ### [Prob-14] Demostración de Exactitud de RK4 ⭐⭐⭐
 Demuestra que RK4 integra exactamente el [polinomio](../../../glossary.md#polinomio) $y' = 1 + 2x + 3x^2 + 4x^3$ con $y(0) = 0$ usando cualquier tamaño de paso $h$.
 
-> 📁 Solución: `solutions/prob-14/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-14)
 
 ---
 
@@ -144,7 +144,7 @@ Dados los valores iniciales (de RK4) para $y' = y - x$, $y(0) = 2$:
 
 Usa Adams-Bashforth de 4 pasos con $h = 0.1$ para calcular $y_4$ y $y_5$.
 
-> 📁 Solución: `solutions/prob-15/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-15)
 
 ---
 
@@ -153,7 +153,7 @@ Aplica el método predictor-corrector (AB4-AM3) al problema:
 $$y' = x + y, \quad y(0) = 1$$
 con $h = 0.1$. Calcula $y(0.5)$.
 
-> 📁 Solución: `solutions/prob-16/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-16)
 
 ---
 
@@ -162,7 +162,7 @@ Compara la eficiencia de RK4 vs Adams-Bashforth 4 para resolver:
 $$y' = -y, \quad y(0) = 1$$
 en $[0, 10]$ con $h = 0.1$. ¿Cuántas evaluaciones de $f$ requiere cada método?
 
-> 📁 Solución: `solutions/prob-17/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-17)
 
 ---
 
@@ -173,7 +173,7 @@ Convierte a sistema de primer [orden](../../../glossary.md#orden) y resuelve con
 $$y'' + y = 0, \quad y(0) = 1, \; y'(0) = 0$$
 Calcula $y(0.3)$ y compara con $\cos(0.3)$.
 
-> 📁 Solución: `solutions/prob-18/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-18)
 
 ---
 
@@ -183,7 +183,7 @@ $$x' = x - y, \quad y' = x + y$$
 $$x(0) = 1, \quad y(0) = 0$$
 Calcula $(x(0.4), y(0.4))$.
 
-> 📁 Solución: `solutions/prob-19/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-19)
 
 ---
 
@@ -193,14 +193,14 @@ $$x' = 0.4x - 0.01xy$$
 $$y' = -0.3y + 0.005xy$$
 con $x(0) = 50$ (presas) e $y(0) = 20$ (depredadores). Usa RK4 ($h = 0.5$) para simular hasta $t = 10$.
 
-> 📁 Solución: `solutions/prob-20/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-20)
 
 ---
 
 ### [Prob-21] Péndulo Simple No Lineal ⭐⭐
 Un péndulo simple satisface $\theta'' + \sin\theta = 0$ con $\theta(0) = 0.5$ rad y $\theta'(0) = 0$. Resuelve con RK4 ($h = 0.1$) hasta $t = 2$.
 
-> 📁 Solución: `solutions/prob-21/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-21)
 
 ---
 
@@ -209,7 +209,7 @@ Resuelve la ecuación de Van der Pol:
 $$y'' - \mu(1-y^2)y' + y = 0, \quad \mu = 1$$
 con $y(0) = 2$, $y'(0) = 0$ usando RK4 ($h = 0.1$) hasta $t = 10$.
 
-> 📁 Solución: `solutions/prob-22/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-22)
 
 ---
 
@@ -220,14 +220,14 @@ Para $y' = -5y$, $y(0) = 1$:
 a) Determina el tamaño de paso máximo para estabilidad con Euler
 b) Verifica experimentalmente con $h = 0.3$ y $h = 0.5$
 
-> 📁 Solución: `solutions/prob-23/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-23)
 
 ---
 
 ### [Prob-24] Extrapolación de Richardson ⭐⭐
 Usa extrapolación de Richardson: si Euler con $h = 0.1$ da $y(1) = 2.5937$ y con $h = 0.05$ da $y(1) = 2.6408$, estima el valor exacto.
 
-> 📁 Solución: `solutions/prob-24/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-24)
 
 ---
 
@@ -236,7 +236,7 @@ Para RK4 aplicado a $y' = y$, $y(0) = 1$:
 a) Calcula $y(1)$ con $h = 0.2$ y $h = 0.1$
 b) Estima el error usando la fórmula $E \approx \frac{y_{h/2} - y_h}{15}$
 
-> 📁 Solución: `solutions/prob-25/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-25)
 
 ---
 
@@ -246,7 +246,7 @@ a) Euler con $h = 0.001$ diverge
 b) Euler con $h = 0.0001$ converge
 c) Euler implícito con $h = 0.1$ converge
 
-> 📁 Solución: `solutions/prob-26/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-26)
 
 ---
 
@@ -255,14 +255,14 @@ c) Euler implícito con $h = 0.1$ converge
 ### [Prob-27] Enfriamiento de Newton ⭐
 Un objeto a 90°C se coloca en ambiente a 20°C. Si $T' = -0.1(T - 20)$, usa RK4 ($h = 1$ min) para determinar cuándo $T = 50°C$.
 
-> 📁 Solución: `solutions/prob-27/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-27)
 
 ---
 
 ### [Prob-28] Crecimiento Logístico Poblacional ⭐
 Una población sigue $P' = 0.1P(1 - P/1000)$ con $P(0) = 100$. Simula con RK4 ($h = 1$) hasta $t = 50$ y encuentra cuándo $P = 500$.
 
-> 📁 Solución: `solutions/prob-28/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-28)
 
 ---
 
@@ -271,14 +271,14 @@ Un paracaidista de 80 kg cae con $v' = 9.8 - 0.005v^2$, $v(0) = 0$. Usa RK4 ($h 
 a) Encontrar $v(10)$
 b) Estimar la velocidad terminal
 
-> 📁 Solución: `solutions/prob-29/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-29)
 
 ---
 
 ### [Prob-30] Cinética Química de Segundo Orden ⭐
 En una reacción de segundo [orden](../../../glossary.md#orden): $c' = -kc^2$ con $k = 0.5$ y $c(0) = 2$ mol/L. Calcula $c(5)$ con RK4.
 
-> 📁 Solución: `solutions/prob-30/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-30)
 
 ---
 
@@ -286,7 +286,7 @@ En una reacción de segundo [orden](../../../glossary.md#orden): $c' = -kc^2$ co
 $$y'' + 0.5y' + 4y = 0, \quad y(0) = 2, \; y'(0) = 0$$
 Grafica la solución en $[0, 10]$ usando RK4 ($h = 0.1$).
 
-> 📁 Solución: `solutions/prob-31/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-31)
 
 ---
 
@@ -295,14 +295,14 @@ Grafica la solución en $[0, 10]$ usando RK4 ($h = 0.1$).
 ### [Prob-32] RK Adaptativo con Control de Error ⭐⭐⭐
 Implementa un algoritmo RK adaptativo que ajuste $h$ automáticamente para mantener error local [menor](../../../glossary.md#menor) que $10^{-6}$.
 
-> 📁 Solución: `solutions/prob-32/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-32)
 
 ---
 
 ### [Prob-33] Comparador Automático de Métodos ⭐⭐⭐
 Diseña un programa que compare automáticamente Euler, Heun y RK4, mostrando errores y número de evaluaciones.
 
-> 📁 Solución: `solutions/prob-33/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-33)
 
 ---
 
@@ -312,7 +312,7 @@ $$y_{n+1}^{(4)} = y_n + \frac{h}{360}(90k_1 + 224k_3 + 64k_4 - 10k_5)$$
 $$y_{n+1}^{(5)} = y_n + \frac{h}{720}(180k_1 + 448k_3 + 90k_4 + 56k_5 - 54k_6)$$
 Implementa y aplica a $y' = y$, $y(0) = 1$ con tolerancia $10^{-8}$.
 
-> 📁 Solución: `solutions/prob-34/`
+📎 **Solución:** [Ver respuesta](../solutions/MN-04-Respuestas.md#prob-34)
 
 ---
 

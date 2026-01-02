@@ -29,7 +29,7 @@ total_problems: 42
 Calcular:
 $$\int_0^2 x^2 \, dx$$
 
-> **Solución:** Ver [solutions/prob-01/](../solutions/prob-01/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-01)
 
 ---
 
@@ -37,7 +37,7 @@ $$\int_0^2 x^2 \, dx$$
 Calcular:
 $$\int_1^4 \sqrt{x} \, dx$$
 
-> **Solución:** Ver [solutions/prob-02/](../solutions/prob-02/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-02)
 
 ---
 
@@ -45,7 +45,7 @@ $$\int_1^4 \sqrt{x} \, dx$$
 Calcular:
 $$\int_0^{\pi} \cos x \, dx$$
 
-> **Solución:** Ver [solutions/prob-03/](../solutions/prob-03/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-03)
 
 ---
 
@@ -53,7 +53,7 @@ $$\int_0^{\pi} \cos x \, dx$$
 Calcular:
 $$\int_0^1 e^x \, dx$$
 
-> **Solución:** Ver [solutions/prob-04/](../solutions/prob-04/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-04)
 
 ---
 
@@ -61,7 +61,7 @@ $$\int_0^1 e^x \, dx$$
 Calcular:
 $$\int_1^e \frac{1}{x} \, dx$$
 
-> **Solución:** Ver [solutions/prob-05/](../solutions/prob-05/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-05)
 
 ---
 
@@ -69,7 +69,7 @@ $$\int_1^e \frac{1}{x} \, dx$$
 Calcular:
 $$\int_0^{\pi/2} \sin x \, dx$$
 
-> **Solución:** Ver [solutions/prob-06/](../solutions/prob-06/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-06)
 
 ---
 
@@ -77,7 +77,7 @@ $$\int_0^{\pi/2} \sin x \, dx$$
 Calcular:
 $$\int_0^1 (3x^2 - 2x + 1) \, dx$$
 
-> **Solución:** Ver [solutions/prob-07/](../solutions/prob-07/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-07)
 
 ---
 
@@ -85,7 +85,7 @@ $$\int_0^1 (3x^2 - 2x + 1) \, dx$$
 Calcular:
 $$\int_1^2 \frac{x^3 + 1}{x^2} \, dx$$
 
-> **Solución:** Ver [solutions/prob-08/](../solutions/prob-08/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-08)
 
 ---
 
@@ -93,7 +93,7 @@ $$\int_1^2 \frac{x^3 + 1}{x^2} \, dx$$
 Calcular:
 $$\int_0^{\pi/4} \sec^2 x \, dx$$
 
-> **Solución:** Ver [solutions/prob-09/](../solutions/prob-09/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-09)
 
 ---
 
@@ -101,7 +101,7 @@ $$\int_0^{\pi/4} \sec^2 x \, dx$$
 Calcular:
 $$\int_0^1 \frac{1}{1+x^2} \, dx$$
 
-> **Solución:** Ver [solutions/prob-10/](../solutions/prob-10/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-10)
 
 ---
 
@@ -111,7 +111,7 @@ $$\int_0^1 \frac{1}{1+x^2} \, dx$$
 Hallar:
 $$\frac{d}{dx}\int_0^x t^2 \, dt$$
 
-> **Solución:** Ver [solutions/prob-11/](../solutions/prob-11/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-11)
 
 ---
 
@@ -119,7 +119,7 @@ $$\frac{d}{dx}\int_0^x t^2 \, dt$$
 Hallar:
 $$\frac{d}{dx}\int_1^x e^t \, dt$$
 
-> **Solución:** Ver [solutions/prob-12/](../solutions/prob-12/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-12)
 
 ---
 
@@ -127,7 +127,7 @@ $$\frac{d}{dx}\int_1^x e^t \, dt$$
 Hallar:
 $$\frac{d}{dx}\int_a^x \sin t \, dt$$
 
-> **Solución:** Ver [solutions/prob-13/](../solutions/prob-13/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-13)
 
 ---
 
@@ -135,7 +135,7 @@ $$\frac{d}{dx}\int_a^x \sin t \, dt$$
 Hallar:
 $$\frac{d}{dx}\int_0^{x^2} \cos t \, dt$$
 
-> **Solución:** Ver [solutions/prob-14/](../solutions/prob-14/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-14)
 
 ---
 
@@ -143,7 +143,7 @@ $$\frac{d}{dx}\int_0^{x^2} \cos t \, dt$$
 Hallar:
 $$\frac{d}{dx}\int_x^1 e^{t^2} \, dt$$
 
-> **Solución:** Ver [solutions/prob-15/](../solutions/prob-15/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-15)
 
 ---
 
@@ -151,14 +151,14 @@ $$\frac{d}{dx}\int_x^1 e^{t^2} \, dt$$
 Hallar:
 $$\frac{d}{dx}\int_{\sqrt{x}}^{x} t^3 \, dt$$
 
-> **Solución:** Ver [solutions/prob-16/](../solutions/prob-16/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-16)
 
 ---
 
 ### [Prob-17] Derivada de integral con parámetro ⭐⭐⭐
 Si $g(x) = \displaystyle\int_0^x (x-t)f(t) \, dt$, hallar $g'(x)$.
 
-> **Solución:** Ver [solutions/prob-17/](../solutions/prob-17/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-17)
 
 ---
 
@@ -166,7 +166,7 @@ Si $g(x) = \displaystyle\int_0^x (x-t)f(t) \, dt$, hallar $g'(x)$.
 Hallar:
 $$\frac{d}{dx}\int_{\sin x}^{\cos x} t^2 \, dt$$
 
-> **Solución:** Ver [solutions/prob-18/](../solutions/prob-18/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-18)
 
 ---
 
@@ -176,7 +176,7 @@ $$\frac{d}{dx}\int_{\sin x}^{\cos x} t^2 \, dt$$
 Calcular:
 $$\int_0^1 2x(x^2+1)^3 \, dx$$
 
-> **Solución:** Ver [solutions/prob-19/](../solutions/prob-19/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-19)
 
 ---
 
@@ -184,7 +184,7 @@ $$\int_0^1 2x(x^2+1)^3 \, dx$$
 Calcular:
 $$\int_0^{\pi/2} \sin x \cos^2 x \, dx$$
 
-> **Solución:** Ver [solutions/prob-20/](../solutions/prob-20/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-20)
 
 ---
 
@@ -192,7 +192,7 @@ $$\int_0^{\pi/2} \sin x \cos^2 x \, dx$$
 Calcular:
 $$\int_0^1 xe^{x^2} \, dx$$
 
-> **Solución:** Ver [solutions/prob-21/](../solutions/prob-21/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-21)
 
 ---
 
@@ -200,7 +200,7 @@ $$\int_0^1 xe^{x^2} \, dx$$
 Calcular:
 $$\int_0^4 \frac{x}{\sqrt{x^2+9}} \, dx$$
 
-> **Solución:** Ver [solutions/prob-22/](../solutions/prob-22/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-22)
 
 ---
 
@@ -208,7 +208,7 @@ $$\int_0^4 \frac{x}{\sqrt{x^2+9}} \, dx$$
 Calcular:
 $$\int_0^{\pi/4} \tan x \, dx$$
 
-> **Solución:** Ver [solutions/prob-23/](../solutions/prob-23/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-23)
 
 ---
 
@@ -216,7 +216,7 @@ $$\int_0^{\pi/4} \tan x \, dx$$
 Calcular:
 $$\int_1^e \frac{\ln x}{x} \, dx$$
 
-> **Solución:** Ver [solutions/prob-24/](../solutions/prob-24/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-24)
 
 ---
 
@@ -224,7 +224,7 @@ $$\int_1^e \frac{\ln x}{x} \, dx$$
 Calcular:
 $$\int_0^1 \frac{e^x}{1+e^x} \, dx$$
 
-> **Solución:** Ver [solutions/prob-25/](../solutions/prob-25/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-25)
 
 ---
 
@@ -232,7 +232,7 @@ $$\int_0^1 \frac{e^x}{1+e^x} \, dx$$
 Calcular:
 $$\int_0^{\pi/2} \frac{\cos x}{1 + \sin^2 x} \, dx$$
 
-> **Solución:** Ver [solutions/prob-26/](../solutions/prob-26/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-26)
 
 ---
 
@@ -240,7 +240,7 @@ $$\int_0^{\pi/2} \frac{\cos x}{1 + \sin^2 x} \, dx$$
 Calcular:
 $$\int_0^1 x^2 \sqrt{1-x^3} \, dx$$
 
-> **Solución:** Ver [solutions/prob-27/](../solutions/prob-27/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-27)
 
 ---
 
@@ -250,7 +250,7 @@ $$\int_0^1 x^2 \sqrt{1-x^3} \, dx$$
 Calcular:
 $$\int_{-2}^{2} x^3 \, dx$$
 
-> **Solución:** Ver [solutions/prob-28/](../solutions/prob-28/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-28)
 
 ---
 
@@ -258,7 +258,7 @@ $$\int_{-2}^{2} x^3 \, dx$$
 Calcular:
 $$\int_{-\pi}^{\pi} \sin x \, dx$$
 
-> **Solución:** Ver [solutions/prob-29/](../solutions/prob-29/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-29)
 
 ---
 
@@ -266,7 +266,7 @@ $$\int_{-\pi}^{\pi} \sin x \, dx$$
 Calcular:
 $$\int_{-1}^{1} x^4 \, dx$$
 
-> **Solución:** Ver [solutions/prob-30/](../solutions/prob-30/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-30)
 
 ---
 
@@ -274,7 +274,7 @@ $$\int_{-1}^{1} x^4 \, dx$$
 Calcular:
 $$\int_{-\pi}^{\pi} \cos x \, dx$$
 
-> **Solución:** Ver [solutions/prob-31/](../solutions/prob-31/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-31)
 
 ---
 
@@ -282,7 +282,7 @@ $$\int_{-\pi}^{\pi} \cos x \, dx$$
 Calcular:
 $$\int_{-2}^{2} (x^3 + x^2) \, dx$$
 
-> **Solución:** Ver [solutions/prob-32/](../solutions/prob-32/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-32)
 
 ---
 
@@ -290,7 +290,7 @@ $$\int_{-2}^{2} (x^3 + x^2) \, dx$$
 Calcular:
 $$\int_{-\pi/2}^{\pi/2} (\sin x + \cos x) \, dx$$
 
-> **Solución:** Ver [solutions/prob-33/](../solutions/prob-33/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-33)
 
 ---
 
@@ -298,7 +298,7 @@ $$\int_{-\pi/2}^{\pi/2} (\sin x + \cos x) \, dx$$
 Calcular:
 $$\int_{-1}^{1} \frac{x^2}{1+x^4} \, dx$$
 
-> **Solución:** Ver [solutions/prob-34/](../solutions/prob-34/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-34)
 
 ---
 
@@ -307,35 +307,35 @@ $$\int_{-1}^{1} \frac{x^2}{1+x^4} \, dx$$
 ### [Prob-35] Área bajo parábola ⭐
 Calcular el área bajo $y = x^2$ entre $x = 0$ y $x = 3$.
 
-> **Solución:** Ver [solutions/prob-35/](../solutions/prob-35/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-35)
 
 ---
 
 ### [Prob-36] Área bajo curva seno ⭐
 Calcular el área bajo $y = \sin x$ entre $x = 0$ y $x = \pi$.
 
-> **Solución:** Ver [solutions/prob-36/](../solutions/prob-36/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-36)
 
 ---
 
 ### [Prob-37] Área entre dos curvas ⭐⭐
 Calcular el área entre $y = x^2$ y $y = x$ para $0 \leq x \leq 1$.
 
-> **Solución:** Ver [solutions/prob-37/](../solutions/prob-37/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-37)
 
 ---
 
 ### [Prob-38] Área encerrada por parábola y recta ⭐⭐
 Calcular el área encerrada entre $y = x^2$ y $y = 4$.
 
-> **Solución:** Ver [solutions/prob-38/](../solutions/prob-38/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-38)
 
 ---
 
 ### [Prob-39] Valor promedio de función ⭐⭐
 Encontrar el [valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en $[0, 3]$.
 
-> **Solución:** Ver [solutions/prob-39/](../solutions/prob-39/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-39)
 
 ---
 
@@ -343,14 +343,14 @@ Encontrar el [valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^
 Calcular:
 $$\int_0^1 \lvert 2x - 1 \rvert \, dx$$
 
-> **Solución:** Ver [solutions/prob-40/](../solutions/prob-40/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-40)
 
 ---
 
 ### [Prob-41] Problema inverso de integral ⭐⭐⭐
 Si $\displaystyle\int_0^a x^2 \, dx = 8$, hallar $a$.
 
-> **Solución:** Ver [solutions/prob-41/](../solutions/prob-41/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-41)
 
 ---
 
@@ -358,4 +358,4 @@ Si $\displaystyle\int_0^a x^2 \, dx = 8$, hallar $a$.
 Demostrar que:
 $$\int_0^{\pi/2} \sin^n x \, dx = \int_0^{\pi/2} \cos^n x \, dx$$
 
-> **Solución:** Ver [solutions/prob-42/](../solutions/prob-42/)
+> **Solución:** Ver [📎 Ver Respuesta](../solutions/CI-03-Respuestas.md#prob-42)
