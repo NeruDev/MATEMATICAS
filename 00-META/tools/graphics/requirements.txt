@@ -1,0 +1,15 @@
+# Dependencias para generación de gráficos matemáticos
+# Versiones mínimas recomendadas con compatibilidad probada
+
+# Core
+matplotlib>=3.7.0,<4.0.0
+numpy>=1.24.0,<2.0.0
+
+# Configuración
+pyyaml>=6.0,<7.0
+
+# Opcional para gráficos 3D avanzados
+# scipy>=1.10.0,<2.0.0
+
+# Para desarrollo/testing
+# pytest>=7.0.0

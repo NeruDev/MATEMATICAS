@@ -126,6 +126,10 @@ $$S_e = 360°$$
 | **Mediatriz** | Perpendicular en punto medio de un lado | Circuncentro (O) |
 | **Bisectriz** | Divide un ángulo en dos partes iguales | Incentro (I) |
 
+![Líneas Notables del Triángulo](../media/generated/triangulo_lineas_notables.png)
+
+*Figura 4.3.1: Las cuatro líneas notables del triángulo y sus puntos de concurrencia*
+
 ### Propiedades del centroide
 
 El centroide divide cada mediana en razón $2:1$ desde el vértice.
@@ -147,16 +151,9 @@ Dos triángulos son congruentes si cumplen:
 
 ### Clasificación
 
-```
-Cuadriláteros
-├── Paralelogramos (lados opuestos paralelos)
-│   ├── Rectángulo (4 ángulos rectos)
-│   ├── Rombo (4 lados iguales)
-│   └── Cuadrado (rectángulo + rombo)
-└── No paralelogramos
-    ├── Trapecio (un par de lados paralelos)
-    └── Trapezoide (ningún lado paralelo)
-```
+![Clasificación de Cuadriláteros](../media/generated/cuadrilateros_clasificacion.png)
+
+*Figura 4.4.1: Clasificación jerárquica de los cuadriláteros según sus propiedades*
 
 ### Propiedades de paralelogramos
 
@@ -226,6 +223,10 @@ Un polígono es **regular** si todos sus lados y ángulos son iguales.
 | **Secante** | Recta que corta la circunferencia en dos puntos |
 | **Tangente** | Recta que toca la circunferencia en un solo punto |
 
+![Elementos de la Circunferencia](../media/generated/circunferencia_elementos.png)
+
+*Figura 4.6.1: Elementos principales de la circunferencia*
+
 ### Propiedades de la tangente
 
 - La [tangente](../../../glossary.md#tangente) es perpendicular al radio en el punto de tangencia
@@ -265,6 +266,10 @@ $$\text{Ángulo inscrito} = \frac{\text{Arco}}{2}$$
 | **Polígono regular** | $A = \frac{P \cdot a}{2}$ | $P$ = perímetro, $a$ = apotema |
 | **Círculo** | $A = \pi r^2$ | $r$ = radio |
 | **Sector circular** | $A = \frac{\theta}{360°} \pi r^2$ | $\theta$ = ángulo central |
+
+![Área del Triángulo](../media/generated/triangulo_altura_area.png)
+
+*Figura 4.7.1: Fórmula del área del triángulo ilustrada*
 
 ### Fórmula de Herón (triángulo)
 
@@ -320,6 +325,10 @@ En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de
 $$c^2 = a^2 + b^2$$
 
 donde $c$ es la hipotenusa y $a$, $b$ son los catetos.
+
+![Teorema de Pitágoras](../media/generated/pitagoras_visual.png)
+
+*Figura 4.9.1: Demostración visual del teorema de Pitágoras*
 
 ### Recíproco
 

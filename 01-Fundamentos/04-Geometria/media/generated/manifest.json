@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-01-03T16:49:19.218382",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "circunferencia_elementos",
+      "description": "Elementos principales de la circunferencia: radio, diámetro, cuerda, tangente",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.6 Circunferencia y círculo",
+      "source_file": "sources/FUN-04/circunferencia_elementos.py",
+      "files": {
+        "svg": "circunferencia_elementos.svg",
+        "png": "circunferencia_elementos.png"
+      },
+      "generated_at": "2026-01-03T16:49:18.051071"
+    },
+    {
+      "name": "cuadrilateros_clasificacion",
+      "description": "Diagrama jerárquico de clasificación de cuadriláteros",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.4 Cuadriláteros",
+      "source_file": "sources/FUN-04/cuadrilateros_clasificacion.py",
+      "files": {
+        "svg": "cuadrilateros_clasificacion.svg",
+        "png": "cuadrilateros_clasificacion.png"
+      },
+      "generated_at": "2026-01-03T16:49:18.237020"
+    },
+    {
+      "name": "paralelas_transversal_angulos",
+      "description": "Dos rectas paralelas cortadas por una transversal mostrando ángulos",
+      "used_in": [
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.2 Ángulos - Prob-13",
+      "source_file": "sources/FUN-04/paralelas_transversal_angulos.py",
+      "files": {
+        "svg": "paralelas_transversal_angulos.svg",
+        "png": "paralelas_transversal_angulos.png"
+      },
+      "generated_at": "2026-01-03T16:49:18.443210"
+    },
+    {
+      "name": "pitagoras_visual",
+      "description": "Representación visual del teorema de Pitágoras con cuadrados",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md",
+        "methods/FUN-04-Metodos-Geometria.md"
+      ],
+      "section": "4.9 Teorema de Pitágoras",
+      "source_file": "sources/FUN-04/pitagoras_visual.py",
+      "files": {
+        "svg": "pitagoras_visual.svg",
+        "png": "pitagoras_visual.png"
+      },
+      "generated_at": "2026-01-03T16:49:18.648787"
+    },
+    {
+      "name": "triangulo_altura_area",
+      "description": "Triángulo con altura marcada ilustrando la fórmula del área",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md",
+        "methods/FUN-04-Metodos-Geometria.md"
+      ],
+      "section": "4.7 Áreas de figuras planas",
+      "source_file": "sources/FUN-04/triangulo_altura_area.py",
+      "files": {
+        "svg": "triangulo_altura_area.svg",
+        "png": "triangulo_altura_area.png"
+      },
+      "generated_at": "2026-01-03T16:49:18.809357"
+    },
+    {
+      "name": "triangulo_lineas_notables",
+      "description": "Las cuatro líneas notables del triángulo: mediana, altura, mediatriz, bisectriz",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.3 Triángulos - Líneas notables",
+      "source_file": "sources/FUN-04/triangulo_lineas_notables.py",
+      "files": {
+        "svg": "triangulo_lineas_notables.svg",
+        "png": "triangulo_lineas_notables.png"
+      },
+      "generated_at": "2026-01-03T16:49:19.218059"
+    }
+  ]
+}

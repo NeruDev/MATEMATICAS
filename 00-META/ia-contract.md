@@ -259,8 +259,34 @@ Ajustar `../` según profundidad (añadir `../` por cada nivel).
 | Notación | `00-META/notation-cheatsheet.md` | Símbolos y convenciones |
 | Plantilla respuestas | `00-META/plantilla-respuestas.md` | Formato de archivo de respuestas |
 | Validador | `00-META/tools/validate_repo.py` | Verificar integridad del repo |
+| **Generador de Gráficos** | `00-META/tools/graphics/` | Sistema de generación de figuras SVG/PNG |
 | Nomenclatura detallada | `00-META/nomenclatura-estandar.md` | Especificaciones técnicas completas |
 | **Directivas de enlaces** | `00-META/ai-directives.md` | Sintaxis correcta de hipervínculos |
+
+### 8.1 Sistema de Gráficos Generados
+
+Los gráficos matemáticos se generan con Python y se almacenan en `media/generated/`:
+
+```
+00-META/tools/graphics/
+├── generate_graphics.py        # Motor principal
+├── config.yaml                 # Configuración global
+├── templates/                  # Estilos reutilizables
+└── sources/{TOPIC}/            # Código fuente por tema
+    └── nombre_grafico.py
+
+{MODULO}/{SUBTEMA}/media/generated/
+├── nombre_grafico.svg          # Para sitio web estático
+├── nombre_grafico.png          # Para Markdown/GitHub
+└── manifest.json               # Registro de gráficos
+```
+
+**Al crear nuevos gráficos:**
+1. Crear archivo Python en `sources/{TOPIC}/`
+2. Incluir `METADATA` con `topic_id`, `name`, `description`, `used_in`
+3. Implementar función `generate()` que retorna `plt.Figure`
+4. Ejecutar: `python generate_graphics.py --file {nombre}`
+5. Referenciar en Markdown: `![Alt](media/generated/{nombre}.png)`
 
 ---
 
