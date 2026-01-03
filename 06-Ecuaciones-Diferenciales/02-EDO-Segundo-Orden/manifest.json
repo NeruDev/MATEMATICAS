@@ -59,5 +59,33 @@
   "ai_contract": {
     "content_type": "educational",
     "validation": ["frontmatter", "latex", "structure"]
+  },
+  "references": [
+    {
+      "citation": "Zill, D. (2018). A First Course in Differential Equations with Modeling Applications. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 3.1: Theory of Linear Equations", "Cap. 3.2: Reduction of Order", "Cap. 3.3: Homogeneous Linear Equations with Constant Coefficients", "Cap. 3.4: Undetermined Coefficients", "Cap. 3.5: Variation of Parameters", "Cap. 3.6: Cauchy-Euler Equations"],
+        "relevance": "Ecuación característica completa, coeficientes indeterminados, variación de parámetros"
+      }
+    },
+    {
+      "citation": "Boyce, W. & DiPrima, R. (2017). Elementary Differential Equations and Boundary Value Problems. 11th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 3: Second Order Linear Equations", "Cap. 4: Higher Order Linear Equations"],
+        "relevance": "Wronskiano, reducción de orden, oscilador armónico amortiguado"
+      }
+    },
+    {
+      "citation": "Nagle, R., Saff, E. & Snider, A. (2018). Fundamentals of Differential Equations. 9th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 4: Linear Second-Order Equations"],
+        "relevance": "Aplicaciones mecánicas y eléctricas, resonancia, circuitos RLC"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

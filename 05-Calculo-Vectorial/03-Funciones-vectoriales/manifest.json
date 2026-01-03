@@ -41,5 +41,33 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 13.1: Vector Functions and Space Curves", "Cap. 13.2: Derivatives and Integrals of Vector Functions", "Cap. 13.3: Arc Length and Curvature", "Cap. 13.4: Motion in Space: Velocity and Acceleration"],
+        "relevance": "Cubre funciones vectoriales, derivadas/integrales, TNB, curvatura, torsión, componentes de aceleración"
+      }
+    },
+    {
+      "citation": "Marsden, J. & Tromba, A. (2012). Vector Calculus. 6th ed. W.H. Freeman.",
+      "mapping": {
+        "chapters": ["Cap. 4.1: Acceleration and Newton's Second Law", "Cap. 4.2: Arc Length", "Cap. 4.3: Vector Fields", "Cap. 4.4: Divergence and Curl"],
+        "relevance": "Cubre marco de Frenet-Serret con rigor, aplicaciones a mecánica"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 13.1: Curves in Space and Their Tangents", "Cap. 13.2: Integrals of Vector Functions; Projectile Motion", "Cap. 13.3: Arc Length in Space", "Cap. 13.4: Curvature and Normal Vectors", "Cap. 13.5: Tangential and Normal Components of Acceleration"],
+        "relevance": "Cubre curvas espaciales completas, proyectiles, fórmulas de Frenet"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

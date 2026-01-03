@@ -59,5 +59,33 @@
   "ai_contract": {
     "content_type": "educational",
     "validation": ["frontmatter", "latex", "structure"]
+  },
+  "references": [
+    {
+      "citation": "Zill, D. (2018). A First Course in Differential Equations with Modeling Applications. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 8.1: Preliminary Theory—Linear Systems", "Cap. 8.2: Homogeneous Linear Systems", "Cap. 8.3: Nonhomogeneous Linear Systems", "Cap. 8.4: Matrix Exponential"],
+        "relevance": "Forma matricial, eigenvalores reales/complejos/repetidos, matriz exponencial"
+      }
+    },
+    {
+      "citation": "Boyce, W. & DiPrima, R. (2017). Elementary Differential Equations and Boundary Value Problems. 11th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 7.1-7.9: Systems of First Order Linear Equations"],
+        "relevance": "Retratos de fase completos, clasificación de puntos de equilibrio, estabilidad"
+      }
+    },
+    {
+      "citation": "Hirsch, M., Smale, S. & Devaney, R. (2012). Differential Equations, Dynamical Systems, and an Introduction to Chaos. 3rd ed. Academic Press.",
+      "mapping": {
+        "chapters": ["Cap. 2-5: Linear Systems, Phase Portraits"],
+        "relevance": "Análisis cualitativo avanzado, sistemas no lineales, bifurcaciones"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

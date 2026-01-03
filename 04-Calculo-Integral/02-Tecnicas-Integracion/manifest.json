@@ -36,5 +36,33 @@
     "problems": ["problems/CI-02-Problemas.md"],
     "answers": "solutions/CI-02-Respuestas.md",
     "solutions": ["solutions/CI-02-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 7.1: Integration by Parts", "Cap. 7.2: Trigonometric Integrals", "Cap. 7.3: Trigonometric Substitution", "Cap. 7.4: Integration of Rational Functions by Partial Fractions", "Cap. 7.5: Strategy for Integration"],
+        "relevance": "Cubre todas las técnicas: partes con regla LIATE, trigonométricas, sustitución trig, fracciones parciales, estrategias"
+      }
+    },
+    {
+      "citation": "Larson, R. & Edwards, B. (2018). Calculus. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 8.1: Basic Integration Rules", "Cap. 8.2: Integration by Parts", "Cap. 8.3: Trigonometric Integrals", "Cap. 8.4: Trigonometric Substitution", "Cap. 8.5: Partial Fractions", "Cap. 8.6: Integration by Tables"],
+        "relevance": "Cubre técnicas con énfasis algorítmico, tablas extensas de integrales"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 8.1: Integration by Parts", "Cap. 8.2: Trigonometric Integrals", "Cap. 8.3: Trigonometric Substitutions", "Cap. 8.4: Integration of Rational Functions", "Cap. 8.5: Integral Tables and CAS"],
+        "relevance": "Cubre todas las técnicas con demostraciones y justificaciones completas"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

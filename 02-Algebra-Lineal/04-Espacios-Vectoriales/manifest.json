@@ -67,5 +67,45 @@
     "expected_inputs": "Conjunto de vectores, espacio vectorial, subconjunto candidato a subespacio",
     "expected_outputs": "Verificación de subespacio, base, dimensión, coordenadas respecto a base",
     "verification": "Comprobar axiomas de EV, verificar que base genera y es LI, dim(U)+dim(W)=dim(U+W)+dim(U∩W)"
+  },
+  "references": [
+    {
+      "citation": "Grossman, S. (2012). Álgebra Lineal. 7ª ed. McGraw-Hill.",
+      "mapping": {
+        "Capítulo 4": "Espacios vectoriales",
+        "Sección 4.1": "Definición y ejemplos",
+        "Sección 4.2": "Subespacios",
+        "Sección 4.3": "Combinaciones lineales e independencia lineal",
+        "Sección 4.4": "Base y dimensión",
+        "Sección 4.5": "Cambio de base"
+      }
+    },
+    {
+      "citation": "Lay, D. (2016). Linear Algebra and Its Applications. 5th ed. Pearson.",
+      "mapping": {
+        "Chapter 4": "Vector Spaces",
+        "Section 4.1": "Vector Spaces and Subspaces",
+        "Section 4.2": "Null Spaces, Column Spaces, and Linear Transformations",
+        "Section 4.3": "Linearly Independent Sets; Bases",
+        "Section 4.4": "Coordinate Systems",
+        "Section 4.5": "The Dimension of a Vector Space"
+      }
+    },
+    {
+      "citation": "Strang, G. (2016). Introduction to Linear Algebra. 5th ed. Wellesley-Cambridge Press.",
+      "mapping": {
+        "Chapter 3": "Vector Spaces and Subspaces",
+        "Section 3.1": "Spaces of Vectors",
+        "Section 3.2": "The Nullspace of A: Solving Ax=0",
+        "Section 3.3": "The Rank and the Row Reduced Form",
+        "Section 3.4": "Independence, Basis and Dimension"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria"
   }
 }

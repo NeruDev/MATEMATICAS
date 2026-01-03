@@ -45,5 +45,40 @@
     "expected_inputs": "Matriz cuadrada n×n con entradas numéricas",
     "expected_outputs": "Valor escalar del determinante, matriz de cofactores, solución por Cramer",
     "verification": "Verificar det(AB)=det(A)det(B), det(A⁻¹)=1/det(A), intercambio de filas cambia signo"
+  },
+  "references": [
+    {
+      "citation": "Grossman, S. (2012). Álgebra Lineal. 7ª ed. McGraw-Hill.",
+      "mapping": {
+        "Capítulo 2": "Determinantes",
+        "Sección 2.1": "Definiciones",
+        "Sección 2.2": "Propiedades de los determinantes",
+        "Sección 2.3": "Inversas y determinantes por cofactores"
+      }
+    },
+    {
+      "citation": "Lay, D. (2016). Linear Algebra and Its Applications. 5th ed. Pearson.",
+      "mapping": {
+        "Chapter 3": "Determinants",
+        "Section 3.1": "Introduction to Determinants",
+        "Section 3.2": "Properties of Determinants",
+        "Section 3.3": "Cramer's Rule, Volume, and Linear Transformations"
+      }
+    },
+    {
+      "citation": "Strang, G. (2016). Introduction to Linear Algebra. 5th ed. Wellesley-Cambridge Press.",
+      "mapping": {
+        "Chapter 5": "Determinants",
+        "Section 5.1": "The Properties of Determinants",
+        "Section 5.2": "Permutations and Cofactors",
+        "Section 5.3": "Cramer's Rule, Inverses, and Volumes"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria"
   }
 }

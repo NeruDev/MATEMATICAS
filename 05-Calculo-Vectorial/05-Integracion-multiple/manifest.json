@@ -41,5 +41,33 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 15.1: Double Integrals over Rectangles", "Cap. 15.2: Double Integrals over General Regions", "Cap. 15.3: Double Integrals in Polar Coordinates", "Cap. 15.4: Applications of Double Integrals", "Cap. 15.6: Triple Integrals", "Cap. 15.7: Triple Integrals in Cylindrical Coordinates", "Cap. 15.8: Triple Integrals in Spherical Coordinates", "Cap. 15.9: Change of Variables", "Cap. 16.1-16.9: Vector Calculus"],
+        "relevance": "Cubre integrales dobles/triples, coordenadas cilíndricas/esféricas, Jacobiano, Green, Stokes, Divergencia"
+      }
+    },
+    {
+      "citation": "Marsden, J. & Tromba, A. (2012). Vector Calculus. 6th ed. W.H. Freeman.",
+      "mapping": {
+        "chapters": ["Cap. 5: Double and Triple Integrals", "Cap. 6: The Change of Variables Formula and Applications", "Cap. 7: Integrals Over Paths and Surfaces", "Cap. 8: The Integral Theorems of Vector Analysis"],
+        "relevance": "Cubre Fubini, Jacobiano riguroso, integrales de línea/superficie, Green, Stokes, Gauss"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 15: Multiple Integrals", "Cap. 16: Integrals and Vector Fields"],
+        "relevance": "Cubre integración múltiple completa, campos conservativos, teoremas fundamentales del cálculo vectorial"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

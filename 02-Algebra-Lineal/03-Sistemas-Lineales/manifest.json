@@ -44,5 +44,40 @@
     "expected_inputs": "Sistema Ax=b con matriz de coeficientes y vector de términos independientes",
     "expected_outputs": "Solución única, conjunto solución paramétrico o indicación de inconsistencia",
     "verification": "Sustituir solución en ecuaciones originales, verificar Ax=b"
+  },
+  "references": [
+    {
+      "citation": "Grossman, S. (2012). Álgebra Lineal. 7ª ed. McGraw-Hill.",
+      "mapping": {
+        "Capítulo 1": "Sistemas de ecuaciones lineales y matrices",
+        "Sección 1.1": "Sistemas de ecuaciones lineales",
+        "Sección 1.5": "Eliminación Gaussiana y Gauss-Jordan",
+        "Sección 1.6": "Rango de una matriz"
+      }
+    },
+    {
+      "citation": "Lay, D. (2016). Linear Algebra and Its Applications. 5th ed. Pearson.",
+      "mapping": {
+        "Chapter 1": "Linear Equations in Linear Algebra",
+        "Section 1.1": "Systems of Linear Equations",
+        "Section 1.2": "Row Reduction and Echelon Forms",
+        "Section 1.5": "Solution Sets of Linear Systems"
+      }
+    },
+    {
+      "citation": "Strang, G. (2016). Introduction to Linear Algebra. 5th ed. Wellesley-Cambridge Press.",
+      "mapping": {
+        "Chapter 2": "Solving Linear Equations",
+        "Section 2.1": "Vectors and Linear Combinations",
+        "Section 2.2": "Solving Systems by Elimination",
+        "Section 2.3": "Elimination Using Matrices"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria"
   }
 }

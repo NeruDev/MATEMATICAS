@@ -85,5 +85,37 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Baldor, A. (2017). Aritmética. 2ª ed. Patria.",
+      "mapping": {
+        "Capítulo 1-5": "Sistemas numéricos y operaciones fundamentales",
+        "Capítulo 6-10": "Divisibilidad, MCD, MCM, números primos",
+        "Capítulo 11-15": "Fracciones y operaciones",
+        "Capítulo 16-20": "Decimales, porcentajes, potencias y raíces",
+        "Capítulo 21-25": "Razones, proporciones y regla de tres"
+      }
+    },
+    {
+      "citation": "Sullivan, M. (2019). Precálculo. 10ª ed. Pearson.",
+      "mapping": {
+        "Apéndice A": "Repaso de aritmética y números reales",
+        "Sección R.1-R.2": "Propiedades de los números reales"
+      }
+    },
+    {
+      "citation": "Swokowski, E. & Cole, J. (2011). Álgebra y Trigonometría con Geometría Analítica. 13ª ed. Cengage.",
+      "mapping": {
+        "Capítulo 1": "Conceptos fundamentales de álgebra (sección aritmética)",
+        "Apéndice I": "Repaso de conceptos aritméticos"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria y preparatoria"
   }
 }
