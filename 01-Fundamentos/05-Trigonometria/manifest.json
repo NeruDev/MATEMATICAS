@@ -98,5 +98,39 @@
     "methods": "methods/FUN-05-Metodos-Trigonometria.md",
     "problems": "problems/FUN-05-Problemas.md",
     "solutions": "solutions/"
+  },
+  "references": [
+    {
+      "citation": "Sullivan, M. (2019). Precálculo. 10ª ed. Pearson.",
+      "mapping": {
+        "Capítulo 5": "Funciones trigonométricas de ángulos",
+        "Capítulo 6": "Identidades y ecuaciones trigonométricas",
+        "Capítulo 7": "Aplicaciones de funciones trigonométricas",
+        "Capítulo 8": "Trigonometría analítica"
+      }
+    },
+    {
+      "citation": "Swokowski, E. & Cole, J. (2011). Álgebra y Trigonometría con Geometría Analítica. 13ª ed. Cengage.",
+      "mapping": {
+        "Capítulo 5": "Funciones trigonométricas",
+        "Capítulo 6": "Identidades trigonométricas",
+        "Capítulo 7": "Ecuaciones trigonométricas y triángulos oblicuángulos"
+      }
+    },
+    {
+      "citation": "Leithold, L. (1998). Matemáticas Previas al Cálculo. 3ª ed. Oxford.",
+      "mapping": {
+        "Capítulo 6": "Funciones trigonométricas de ángulos",
+        "Capítulo 7": "Funciones circulares e identidades",
+        "Capítulo 8": "Gráficas y funciones inversas",
+        "Capítulo 9": "Aplicaciones de trigonometría"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar de trigonometría plana"
   }
 }

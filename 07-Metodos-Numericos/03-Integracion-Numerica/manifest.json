@@ -26,5 +26,33 @@
     "problems": ["problems/MN-03-Problemas.md"],
     "answers": "solutions/MN-03-Respuestas.md",
     "solutions": ["solutions/MN-03-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Burden, R. & Faires, J. (2016). Numerical Analysis. 10th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 4.1: Numerical Differentiation", "Cap. 4.2: Richardson's Extrapolation", "Cap. 4.3: Newton-Cotes Formulas", "Cap. 4.4: Composite Numerical Integration", "Cap. 4.5: Romberg Integration", "Cap. 4.7: Gaussian Quadrature"],
+        "relevance": "Newton-Cotes, trapecio, Simpson, Romberg, cuadratura de Gauss completa"
+      }
+    },
+    {
+      "citation": "Chapra, S. & Canale, R. (2015). Numerical Methods for Engineers. 7th ed. McGraw-Hill.",
+      "mapping": {
+        "chapters": ["Cap. 21: Newton-Cotes Integration Formulas", "Cap. 22: Integration of Equations"],
+        "relevance": "Enfoque aplicado, integrales múltiples, aplicaciones en ingeniería"
+      }
+    },
+    {
+      "citation": "Davis, P. & Rabinowitz, P. (2007). Methods of Numerical Integration. 2nd ed. Dover.",
+      "mapping": {
+        "chapters": ["Cap. 2-5: Classical Integration Methods"],
+        "relevance": "Referencia avanzada en cuadratura, métodos adaptativos, integrales singulares"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

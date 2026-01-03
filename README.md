@@ -85,9 +85,12 @@ flowchart TD
 
 | Recurso | Descripción |
 |---------|-------------|
-| [🗺️ Wiki Index](glossary.md) | ~130 términos con analogías (auto-vinculado) |
+| [🗺️ Wiki Index](WIKI_INDEX.md) | Mapa de navegación centralizado |
+| [📚 Biblioteca Central](00-META/bibliografia-general.md) | Referencias bibliográficas validadas |
+| [📖 Glosario](glossary.md) | ~130 términos con analogías (auto-vinculado) |
 | [Guía de estudio](00-META/notation-cheatsheet.md) | Símbolos y convenciones |
-| [Contrato IA](00-META/tools/validate_repo.py) | Verificar integridad |
+| [Contrato IA](00-META/ia-contract.md) | Directivas para asistentes IA |
+| [Validador](00-META/tools/validate_repo.py) | Verificar integridad |
 | [Auto-vinculador](00-META/tools/link_knowledge_base.py) | Script de enlaces automáticos |
 
 ---

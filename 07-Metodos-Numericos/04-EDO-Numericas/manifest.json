@@ -39,5 +39,33 @@
     "problems": ["problems/MN-04-Problemas.md"],
     "answers": "solutions/MN-04-Respuestas.md",
     "solutions": ["solutions/MN-04-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Burden, R. & Faires, J. (2016). Numerical Analysis. 10th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 5.1: Elementary Theory of Initial-Value Problems", "Cap. 5.2: Euler's Method", "Cap. 5.4: Runge-Kutta Methods", "Cap. 5.6: Multistep Methods", "Cap. 5.9: Stiff Differential Equations"],
+        "relevance": "Euler, Runge-Kutta, Adams-Bashforth/Moulton, estabilidad, EDO rígidas"
+      }
+    },
+    {
+      "citation": "Chapra, S. & Canale, R. (2015). Numerical Methods for Engineers. 7th ed. McGraw-Hill.",
+      "mapping": {
+        "chapters": ["Cap. 25: Runge-Kutta Methods", "Cap. 26: Stiffness and Multistep Methods"],
+        "relevance": "Implementación práctica, RKF45 adaptativo, sistemas de EDO"
+      }
+    },
+    {
+      "citation": "Hairer, E., Nørsett, S. & Wanner, G. (1993). Solving Ordinary Differential Equations I. 2nd ed. Springer.",
+      "mapping": {
+        "chapters": ["Cap. II: Runge-Kutta Methods", "Cap. III: Multistep Methods"],
+        "relevance": "Referencia avanzada, tablas de Butcher, análisis de orden y estabilidad"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

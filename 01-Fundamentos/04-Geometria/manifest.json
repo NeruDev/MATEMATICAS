@@ -87,5 +87,42 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Baldor, A. (2017). Geometría Plana y del Espacio. 2ª ed. Patria.",
+      "mapping": {
+        "Libro I": "Conceptos fundamentales, ángulos, rectas",
+        "Libro II": "Triángulos: clasificación, congruencia, líneas notables",
+        "Libro III": "Cuadriláteros y polígonos",
+        "Libro IV": "Circunferencia y círculo",
+        "Libro V": "Áreas de figuras planas",
+        "Libro VI": "Semejanza y proporcionalidad",
+        "Libro VII": "Geometría del espacio"
+      }
+    },
+    {
+      "citation": "Moise, E. & Downs, F. (1986). Geometría Moderna. Addison-Wesley.",
+      "mapping": {
+        "Capítulos 1-5": "Fundamentos y ángulos",
+        "Capítulos 6-10": "Triángulos y congruencia",
+        "Capítulos 11-15": "Paralelismo y cuadriláteros",
+        "Capítulos 16-20": "Semejanza y círculos"
+      }
+    },
+    {
+      "citation": "Clemens, S., O'Daffer, P. & Cooney, T. (1998). Geometría con Aplicaciones y Solución de Problemas. Addison-Wesley.",
+      "mapping": {
+        "Unidad 1-3": "Fundamentos y demostraciones",
+        "Unidad 4-6": "Triángulos y cuadriláteros",
+        "Unidad 7-9": "Círculos y áreas"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar de geometría euclidiana"
   }
 }

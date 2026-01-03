@@ -98,5 +98,41 @@
     "methods": "methods/FUN-06-Metodos-Geometria-Analitica.md",
     "problems": "problems/FUN-06-Problemas.md",
     "solutions": "solutions/"
+  },
+  "references": [
+    {
+      "citation": "Lehmann, C. (1989). Geometría Analítica. Limusa.",
+      "mapping": {
+        "Capítulo 1-2": "Sistema de coordenadas, distancia, punto medio",
+        "Capítulo 3-4": "La línea recta",
+        "Capítulo 5": "La circunferencia",
+        "Capítulo 6": "La parábola",
+        "Capítulo 7": "La elipse",
+        "Capítulo 8": "La hipérbola",
+        "Capítulo 9": "Ecuación general de segundo grado"
+      }
+    },
+    {
+      "citation": "Swokowski, E. & Cole, J. (2011). Álgebra y Trigonometría con Geometría Analítica. 13ª ed. Cengage.",
+      "mapping": {
+        "Capítulo 3": "Coordenadas cartesianas y gráficas",
+        "Capítulo 10": "Secciones cónicas",
+        "Capítulo 11": "Coordenadas polares y ecuaciones paramétricas"
+      }
+    },
+    {
+      "citation": "Sullivan, M. (2019). Precálculo. 10ª ed. Pearson.",
+      "mapping": {
+        "Capítulo 2": "Gráficas y funciones",
+        "Capítulo 10": "Secciones cónicas analíticas",
+        "Capítulo 11": "Ecuaciones paramétricas y coordenadas polares"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar de geometría analítica"
   }
 }

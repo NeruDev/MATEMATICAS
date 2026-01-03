@@ -41,5 +41,33 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 14.1: Functions of Several Variables", "Cap. 14.2: Limits and Continuity", "Cap. 14.3: Partial Derivatives", "Cap. 14.4: Tangent Planes and Linear Approximations", "Cap. 14.5: The Chain Rule", "Cap. 14.6: Directional Derivatives and the Gradient Vector", "Cap. 14.7: Maximum and Minimum Values", "Cap. 14.8: Lagrange Multipliers"],
+        "relevance": "Cubre límites multivariables, parciales, gradiente, derivada direccional, extremos, Lagrange"
+      }
+    },
+    {
+      "citation": "Marsden, J. & Tromba, A. (2012). Vector Calculus. 6th ed. W.H. Freeman.",
+      "mapping": {
+        "chapters": ["Cap. 2.1: The Geometry of Real-Valued Functions", "Cap. 2.2: Limits and Continuity", "Cap. 2.3: Differentiation", "Cap. 2.5: Properties of the Derivative", "Cap. 2.6: Gradients and Directional Derivatives", "Cap. 3.3: Extrema of Real-Valued Functions", "Cap. 3.4: Constrained Extrema and Lagrange Multipliers"],
+        "relevance": "Cubre diferenciabilidad rigurosa, Hessiana, multiplicadores de Lagrange con dos restricciones"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 14.1: Functions of Several Variables", "Cap. 14.2: Limits and Continuity in Higher Dimensions", "Cap. 14.3: Partial Derivatives", "Cap. 14.4: The Chain Rule", "Cap. 14.5: Directional Derivatives and Gradient Vectors", "Cap. 14.6: Tangent Planes and Differentials", "Cap. 14.7: Extreme Values and Saddle Points", "Cap. 14.8: Lagrange Multipliers"],
+        "relevance": "Cubre aproximación lineal, plano tangente, test de la segunda derivada, Lagrange"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

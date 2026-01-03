@@ -78,5 +78,33 @@
     "problems": ["problems/CI-04-Problemas.md"],
     "answers": "solutions/CI-04-Respuestas.md",
     "solutions": ["solutions/CI-04-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 6.1: Areas Between Curves", "Cap. 6.2: Volumes", "Cap. 6.3: Volumes by Cylindrical Shells", "Cap. 8.1: Arc Length", "Cap. 8.2: Area of a Surface of Revolution", "Cap. 6.4: Work", "Cap. 6.5: Average Value of a Function"],
+        "relevance": "Cubre áreas entre curvas, volúmenes por discos/arandelas/capas, longitud de arco, superficies de revolución, trabajo, valor promedio con TVM integral"
+      }
+    },
+    {
+      "citation": "Larson, R. & Edwards, B. (2018). Calculus. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 7.1: Area of a Region Between Two Curves", "Cap. 7.2: Volume: The Disk Method", "Cap. 7.3: Volume: The Shell Method", "Cap. 7.4: Arc Length and Surfaces of Revolution"],
+        "relevance": "Cubre aplicaciones geométricas con excelentes visualizaciones y ejemplos de ingeniería"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 6.1: Volumes Using Cross-Sections", "Cap. 6.2: Volumes Using Cylindrical Shells", "Cap. 6.3: Arc Length", "Cap. 6.4: Areas of Surfaces of Revolution", "Cap. 6.5: Work and Fluid Forces", "Cap. 6.6: Moments and Centers of Mass"],
+        "relevance": "Cubre aplicaciones completas incluyendo momentos, centros de masa y fuerzas de fluidos"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

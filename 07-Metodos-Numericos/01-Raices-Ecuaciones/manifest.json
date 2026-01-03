@@ -26,5 +26,33 @@
     "problems": ["problems/MN-01-Problemas.md"],
     "answers": "solutions/MN-01-Respuestas.md",
     "solutions": ["solutions/MN-01-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Burden, R. & Faires, J. (2016). Numerical Analysis. 10th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 2.1: The Bisection Method", "Cap. 2.2: Fixed-Point Iteration", "Cap. 2.3: Newton's Method", "Cap. 2.4: Error Analysis", "Cap. 2.5: Accelerating Convergence"],
+        "relevance": "Bisección, punto fijo, Newton-Raphson, secante, análisis de convergencia riguroso"
+      }
+    },
+    {
+      "citation": "Chapra, S. & Canale, R. (2015). Numerical Methods for Engineers. 7th ed. McGraw-Hill.",
+      "mapping": {
+        "chapters": ["Cap. 5: Bracketing Methods", "Cap. 6: Open Methods"],
+        "relevance": "Enfoque aplicado a ingeniería, ejemplos prácticos, comparación de métodos"
+      }
+    },
+    {
+      "citation": "Mathews, J. & Fink, K. (2004). Numerical Methods Using MATLAB. 4th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 2: The Solution of Nonlinear Equations"],
+        "relevance": "Implementación computacional, códigos MATLAB para cada método"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

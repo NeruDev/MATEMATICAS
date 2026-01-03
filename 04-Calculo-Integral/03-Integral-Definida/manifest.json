@@ -35,5 +35,33 @@
     "problems": ["problems/CI-03-Problemas.md"],
     "answers": "solutions/CI-03-Respuestas.md",
     "solutions": ["solutions/CI-03-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 5.1: Areas and Distances", "Cap. 5.2: The Definite Integral", "Cap. 5.3: The Fundamental Theorem of Calculus", "Cap. 5.5: The Substitution Rule"],
+        "relevance": "Cubre sumas de Riemann, definición formal, TFC partes 1 y 2, sustitución en definidas, funciones pares/impares"
+      }
+    },
+    {
+      "citation": "Larson, R. & Edwards, B. (2018). Calculus. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 4.2: Area", "Cap. 4.3: Riemann Sums and Definite Integrals", "Cap. 4.4: The Fundamental Theorem of Calculus"],
+        "relevance": "Cubre área como límite de sumas, propiedades de integral definida, TFC con aplicaciones"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 5.1: Area and Estimating with Finite Sums", "Cap. 5.2: Sigma Notation and Limits of Finite Sums", "Cap. 5.3: The Definite Integral", "Cap. 5.4: The Fundamental Theorem of Calculus"],
+        "relevance": "Cubre sumas de Riemann rigurosas, demostración completa del TFC, regla de Leibniz"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

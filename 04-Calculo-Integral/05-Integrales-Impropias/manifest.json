@@ -66,5 +66,33 @@
     "problems": ["problems/CI-05-Problemas.md"],
     "answers": "solutions/CI-05-Respuestas.md",
     "solutions": ["solutions/CI-05-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 7.8: Improper Integrals"],
+        "relevance": "Cubre integrales impropias tipo I y II, criterios de convergencia, comparación directa y por límite, integrales p"
+      }
+    },
+    {
+      "citation": "Larson, R. & Edwards, B. (2018). Calculus. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 8.8: Improper Integrals"],
+        "relevance": "Cubre definiciones, convergencia absoluta/condicional, criterios de comparación con ejemplos aplicados"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 8.8: Improper Integrals"],
+        "relevance": "Cubre tipos de impropias, tests de convergencia, integrales clásicas (Gaussiana, etc.) con demostraciones"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

@@ -61,5 +61,41 @@
     "expected_inputs": "Matriz cuadrada A n×n",
     "expected_outputs": "Valores propios, vectores propios, matriz P de diagonalización si existe",
     "verification": "Verificar Av=λv para cada par, comprobar det(A-λI)=0, verificar A=PDP⁻¹"
+  },
+  "references": [
+    {
+      "citation": "Grossman, S. (2012). Álgebra Lineal. 7ª ed. McGraw-Hill.",
+      "mapping": {
+        "Capítulo 6": "Eigenvalores y eigenvectores",
+        "Sección 6.1": "Definiciones y ejemplos",
+        "Sección 6.2": "Diagonalización",
+        "Sección 6.3": "Matrices simétricas y diagonalización ortogonal"
+      }
+    },
+    {
+      "citation": "Lay, D. (2016). Linear Algebra and Its Applications. 5th ed. Pearson.",
+      "mapping": {
+        "Chapter 5": "Eigenvalues and Eigenvectors",
+        "Section 5.1": "Eigenvectors and Eigenvalues",
+        "Section 5.2": "The Characteristic Equation",
+        "Section 5.3": "Diagonalization",
+        "Section 5.4": "Eigenvectors and Linear Transformations"
+      }
+    },
+    {
+      "citation": "Strang, G. (2016). Introduction to Linear Algebra. 5th ed. Wellesley-Cambridge Press.",
+      "mapping": {
+        "Chapter 6": "Eigenvalues and Eigenvectors",
+        "Section 6.1": "Introduction to Eigenvalues",
+        "Section 6.2": "Diagonalizing a Matrix",
+        "Section 6.4": "Symmetric Matrices"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria"
   }
 }

@@ -6,7 +6,9 @@
 
 ## 🏠 Navegación Principal
 
-- 📖 [README Principal](glossary.md)
+- 📖 [README Principal](README.md)
+- 📚 [Biblioteca Central de Referencias](00-META/bibliografia-general.md)
+- 📖 [Glosario](glossary.md)
 
 ---
 

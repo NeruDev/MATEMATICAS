@@ -59,5 +59,33 @@
   "ai_contract": {
     "content_type": "educational",
     "validation": ["frontmatter", "latex", "structure"]
+  },
+  "references": [
+    {
+      "citation": "Zill, D. (2018). A First Course in Differential Equations with Modeling Applications. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 2.1: Solution Curves Without a Solution", "Cap. 2.2: Separable Equations", "Cap. 2.3: Linear Equations", "Cap. 2.4: Exact Equations", "Cap. 2.5: Solutions by Substitutions"],
+        "relevance": "Cubre separables, lineales, exactas, Bernoulli, homogéneas, teorema de existencia/unicidad"
+      }
+    },
+    {
+      "citation": "Boyce, W. & DiPrima, R. (2017). Elementary Differential Equations and Boundary Value Problems. 11th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 2.1: Linear Equations; Method of Integrating Factors", "Cap. 2.2: Separable Equations", "Cap. 2.4: Differences Between Linear and Nonlinear Equations", "Cap. 2.6: Exact Equations"],
+        "relevance": "Teoría rigurosa del factor integrante, teorema de Picard-Lindelöf"
+      }
+    },
+    {
+      "citation": "Nagle, R., Saff, E. & Snider, A. (2018). Fundamentals of Differential Equations. 9th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 2: First-Order Differential Equations"],
+        "relevance": "Aplicaciones de crecimiento, decaimiento, mezclas, enfriamiento de Newton"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

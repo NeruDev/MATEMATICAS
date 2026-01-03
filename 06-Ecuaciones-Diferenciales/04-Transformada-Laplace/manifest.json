@@ -54,5 +54,33 @@
   "ai_contract": {
     "content_type": "educational",
     "validation": ["frontmatter", "latex", "structure"]
+  },
+  "references": [
+    {
+      "citation": "Zill, D. (2018). A First Course in Differential Equations with Modeling Applications. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 7.1: Definition of the Laplace Transform", "Cap. 7.2: Inverse Transforms and Transforms of Derivatives", "Cap. 7.3: Operational Properties I", "Cap. 7.4: Operational Properties II", "Cap. 7.5: The Dirac Delta Function", "Cap. 7.6: Systems of Linear Differential Equations"],
+        "relevance": "Transformadas completas, propiedades operacionales, delta de Dirac, sistemas"
+      }
+    },
+    {
+      "citation": "Boyce, W. & DiPrima, R. (2017). Elementary Differential Equations and Boundary Value Problems. 11th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 6: The Laplace Transform"],
+        "relevance": "Convolución, función de transferencia, funciones periódicas"
+      }
+    },
+    {
+      "citation": "Kreyszig, E. (2011). Advanced Engineering Mathematics. 10th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 6: Laplace Transforms"],
+        "relevance": "Aplicaciones en ingeniería, circuitos, sistemas de control"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

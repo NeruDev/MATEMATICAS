@@ -41,5 +41,33 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "references": [
+    {
+      "citation": "Stewart, J. (2015). Calculus: Early Transcendentals. 8th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 10.1: Curves Defined by Parametric Equations", "Cap. 10.2: Calculus with Parametric Curves", "Cap. 10.3: Polar Coordinates", "Cap. 10.4: Areas and Lengths in Polar Coordinates", "Cap. 10.5: Conic Sections", "Cap. 10.6: Conic Sections in Polar Coordinates"],
+        "relevance": "Cubre paramétricas, tangentes, longitud de arco, área en polares, cónicas en polares"
+      }
+    },
+    {
+      "citation": "Larson, R. & Edwards, B. (2018). Calculus. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 10.2: Plane Curves and Parametric Equations", "Cap. 10.3: Parametric Equations and Calculus", "Cap. 10.4: Polar Coordinates and Polar Graphs", "Cap. 10.5: Area and Arc Length in Polar Coordinates"],
+        "relevance": "Cubre curvas paramétricas clásicas, cálculo en polares con visualizaciones"
+      }
+    },
+    {
+      "citation": "Thomas, G., Weir, M. & Hass, J. (2018). Thomas' Calculus. 14th ed. Pearson.",
+      "mapping": {
+        "chapters": ["Cap. 11.1: Parametrizations of Plane Curves", "Cap. 11.2: Calculus with Parametric Curves", "Cap. 11.3: Polar Coordinates", "Cap. 11.4: Graphing Polar Curves", "Cap. 11.5: Areas and Lengths in Polar Coordinates"],
+        "relevance": "Cubre eliminación de parámetro, curvas polares clásicas, simetrías"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

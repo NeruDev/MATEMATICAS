@@ -26,5 +26,33 @@
     "problems": ["problems/MN-02-Problemas.md"],
     "answers": "solutions/MN-02-Respuestas.md",
     "solutions": ["solutions/MN-02-Soluciones-Desarrolladas.md"]
+  },
+  "references": [
+    {
+      "citation": "Burden, R. & Faires, J. (2016). Numerical Analysis. 10th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 3.1: Interpolation and Lagrange Polynomial", "Cap. 3.2: Divided Differences", "Cap. 3.3: Hermite Interpolation", "Cap. 3.4: Cubic Spline Interpolation"],
+        "relevance": "Lagrange, diferencias divididas, Hermite, splines cúbicos con demostraciones"
+      }
+    },
+    {
+      "citation": "Chapra, S. & Canale, R. (2015). Numerical Methods for Engineers. 7th ed. McGraw-Hill.",
+      "mapping": {
+        "chapters": ["Cap. 18: Interpolation"],
+        "relevance": "Enfoque práctico, fenómeno de Runge, nodos de Chebyshev"
+      }
+    },
+    {
+      "citation": "Kincaid, D. & Cheney, W. (2002). Numerical Analysis. 3rd ed. Brooks/Cole.",
+      "mapping": {
+        "chapters": ["Cap. 6: Approximating Functions"],
+        "relevance": "Teoría de aproximación, B-splines, aplicaciones avanzadas"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

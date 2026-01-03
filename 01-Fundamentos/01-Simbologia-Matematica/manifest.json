@@ -3,11 +3,11 @@
   "topic": "Simbología Matemática",
   "type": "reference_library",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-03",
   "human_purpose": "Referencia completa de símbolos matemáticos organizados por área para consulta rápida",
   "tags": ["simbolos", "notacion", "latex", "referencia"],
   "exception": {
-    "reason": "Material de consulta directa sin secuencia de aprendizaje",
+    "reason": "Material de consulta directa sin secuencia de aprendizaje - no requiere validación bibliográfica tradicional",
     "applies_to": ["theory/*"],
     "nomenclature_exempt": true
   },
@@ -19,5 +19,63 @@
     "strict_mode": true,
     "default_output": "markdown",
     "allowed_tasks": ["explain_concept", "convert_format", "lookup_symbol"]
+  },
+  "symbol_usage_by_branch": {
+    "aritmetica": {
+      "description": "Operaciones fundamentales y relaciones numéricas",
+      "key_symbols": ["+", "-", "×", "÷", "=", "≠", "<", ">", "≤", "≥", "|", "n!"],
+      "context": "Base para todas las ramas, introduce operaciones y comparaciones"
+    },
+    "algebra": {
+      "description": "Manipulación simbólica y estructuras algebraicas",
+      "key_symbols": ["x", "y", "∑", "∏", "√", "^n", "±", "≡", "(a+b)²"],
+      "context": "Introduce variables, expresiones, ecuaciones y desigualdades"
+    },
+    "geometria": {
+      "description": "Figuras, medidas y relaciones espaciales",
+      "key_symbols": ["∠", "⊥", "∥", "≅", "~", "△", "□", "○", "π"],
+      "context": "Notación para ángulos, paralelismo, perpendicularidad, congruencia y semejanza"
+    },
+    "trigonometria": {
+      "description": "Funciones angulares y relaciones en triángulos",
+      "key_symbols": ["sin", "cos", "tan", "θ", "°", "rad", "arcsin", "arccos", "arctan"],
+      "context": "Funciones trigonométricas, ángulos y sus medidas"
+    },
+    "geometria_analitica": {
+      "description": "Geometría en el plano cartesiano",
+      "key_symbols": ["(x,y)", "m", "d", "r", "a", "b", "c", "e", "p"],
+      "context": "Coordenadas, pendientes, distancias, parámetros de cónicas"
+    },
+    "calculo_diferencial": {
+      "description": "Límites, derivadas y tasas de cambio",
+      "key_symbols": ["lim", "→", "∞", "dy/dx", "f'(x)", "d/dx", "∂", "∇"],
+      "context": "Notación de Leibniz y Lagrange para derivadas, límites"
+    },
+    "calculo_integral": {
+      "description": "Antiderivadas, áreas y acumulación",
+      "key_symbols": ["∫", "∫_a^b", "dx", "+C", "∮", "∬", "∭"],
+      "context": "Integrales indefinidas, definidas, de línea y múltiples"
+    },
+    "algebra_lineal": {
+      "description": "Matrices, vectores y transformaciones",
+      "key_symbols": ["A", "det", "tr", "A⁻¹", "Aᵀ", "λ", "v", "·", "×", "||v||"],
+      "context": "Operaciones matriciales, determinantes, eigenvalores"
+    },
+    "ecuaciones_diferenciales": {
+      "description": "Ecuaciones con derivadas",
+      "key_symbols": ["y'", "y''", "y⁽ⁿ⁾", "ℒ", "ℒ⁻¹", "δ(t)", "u(t)"],
+      "context": "Derivadas, transformada de Laplace, funciones especiales"
+    },
+    "logica_conjuntos": {
+      "description": "Fundamentos lógicos y teoría de conjuntos",
+      "key_symbols": ["∀", "∃", "∈", "∉", "⊂", "⊆", "∪", "∩", "∅", "ℕ", "ℤ", "ℚ", "ℝ", "ℂ"],
+      "context": "Cuantificadores, pertenencia, operaciones de conjuntos"
+    }
+  },
+  "validation_status": {
+    "status": "reference_material",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Material de referencia - validación por contexto de uso en lugar de bibliografía tradicional"
   }
 }

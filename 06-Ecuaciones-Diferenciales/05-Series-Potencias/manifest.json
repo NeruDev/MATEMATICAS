@@ -49,5 +49,33 @@
   "ai_contract": {
     "content_type": "educational",
     "validation": ["frontmatter", "latex", "structure"]
+  },
+  "references": [
+    {
+      "citation": "Zill, D. (2018). A First Course in Differential Equations with Modeling Applications. 11th ed. Cengage Learning.",
+      "mapping": {
+        "chapters": ["Cap. 6.1: Review of Power Series", "Cap. 6.2: Solutions About Ordinary Points", "Cap. 6.3: Solutions About Singular Points", "Cap. 6.4: Special Functions"],
+        "relevance": "Método de series, Frobenius, ecuación indicial, funciones de Bessel"
+      }
+    },
+    {
+      "citation": "Boyce, W. & DiPrima, R. (2017). Elementary Differential Equations and Boundary Value Problems. 11th ed. Wiley.",
+      "mapping": {
+        "chapters": ["Cap. 5: Series Solutions of Second Order Linear Equations"],
+        "relevance": "Puntos ordinarios y singulares, Bessel, Legendre con aplicaciones físicas"
+      }
+    },
+    {
+      "citation": "Arfken, G. & Weber, H. (2013). Mathematical Methods for Physicists. 7th ed. Academic Press.",
+      "mapping": {
+        "chapters": ["Cap. 12: Bessel Functions", "Cap. 13: Legendre Functions", "Cap. 18: More Special Functions"],
+        "relevance": "Funciones especiales avanzadas: Hermite, Laguerre, Chebyshev, aplicaciones en física"
+      }
+    }
+  ],
+  "validation_status": {
+    "validated": true,
+    "date": "2026-01-03",
+    "validator": "bibliographic-audit"
   }
 }

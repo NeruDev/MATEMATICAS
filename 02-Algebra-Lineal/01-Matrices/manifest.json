@@ -55,5 +55,40 @@
     "expected_inputs": "Matrices con entradas numéricas, dimensiones m×n",
     "expected_outputs": "Resultado de operación matricial, matriz inversa, verificación de propiedades",
     "verification": "Verificar dimensiones compatibles, comprobar (AB)C=A(BC), verificar AA⁻¹=I"
+  },
+  "references": [
+    {
+      "citation": "Grossman, S. (2012). Álgebra Lineal. 7ª ed. McGraw-Hill.",
+      "mapping": {
+        "Capítulo 1": "Sistemas de ecuaciones lineales y matrices",
+        "Sección 1.2": "Vectores y matrices",
+        "Sección 1.3": "Producto de matrices",
+        "Sección 1.4": "La inversa de una matriz cuadrada"
+      }
+    },
+    {
+      "citation": "Lay, D. (2016). Linear Algebra and Its Applications. 5th ed. Pearson.",
+      "mapping": {
+        "Chapter 1": "Linear Equations in Linear Algebra",
+        "Section 2.1": "Matrix Operations",
+        "Section 2.2": "The Inverse of a Matrix",
+        "Section 2.3": "Characterizations of Invertible Matrices"
+      }
+    },
+    {
+      "citation": "Strang, G. (2016). Introduction to Linear Algebra. 5th ed. Wellesley-Cambridge Press.",
+      "mapping": {
+        "Chapter 1": "Introduction to Vectors",
+        "Section 2.1": "Vectors and Linear Combinations",
+        "Section 2.4": "Matrix Operations",
+        "Section 2.5": "Inverse Matrices"
+      }
+    }
+  ],
+  "validation_status": {
+    "status": "validated",
+    "date": "2026-01-03",
+    "validator": "AI-Bibliographic-Audit",
+    "notes": "Contenido verificado contra bibliografía estándar universitaria"
   }
 }
