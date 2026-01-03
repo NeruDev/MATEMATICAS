@@ -5,10 +5,10 @@ topic_id: repo-readme
 file_id: README
 status: stable
 audience: student
-last_updated: 2026-01-02
+last_updated: 2026-01-03
 -->
 
-> 🌐 **Navegación:** [🗺️ Wiki Index - Mapa del Repositorio](glossary.md)
+> 🌐 **Navegación:** [🗺️ Wiki Index - Mapa del Repositorio](WIKI_INDEX.md) | [📖 Glosario](glossary.md) | [📚 Biblioteca](00-META/bibliografia-general.md)
 
 ---
 
@@ -20,7 +20,12 @@ Este repositorio ha sido transformado en un **Jardín Digital** estilo Wikipedia
 
 - 🔗 **Términos enlazados:** La primera mención de cada término del glosario en cada archivo está automáticamente vinculada a su definición
 - 🗺️ **Índice Wiki:** Un [mapa de navegación centralizado](WIKI_INDEX.md) para ver todo el contenido organizado
-2. Lee la [Guía de estudio](glossary.md) para consultar definiciones
+- 📚 **Bibliografía validada:** Todo el contenido ha sido [verificado contra bibliografía estándar universitaria](00-META/bibliografia-general.md)
+
+### Para humanos:
+1. Explora desde el [Wiki Index](WIKI_INDEX.md) para encontrar tu tema
+2. Consulta el [Glosario](glossary.md) para definiciones de términos
+3. Revisa la [Biblioteca Central](00-META/bibliografia-general.md) para referencias bibliográficas
 
 ### Para IA (Copilot):
 1. Lee siempre [00-META/ia-contract.md](00-META/ia-contract.md) primero
@@ -30,12 +35,15 @@ Este repositorio ha sido transformado en un **Jardín Digital** estilo Wikipedia
 
 ## Módulos disponibles
 
-| Módulo | Prefijo | Descripción | Subtemas | Estado |
-|--------|---------|-------------|----------|--------|
-| [01-Fundamentos](02-Algebra-Lineal/00-Index.md) | `AL` | Matrices, espacios vectoriales | 6 | ✅ Completo |
-| [03-Calculo-Diferencial](04-Calculo-Integral/00-Index.md) | `CI` | Integrales y aplicaciones | 5 | ✅ Completo |
-| [05-Calculo-Vectorial](06-Ecuaciones-Diferenciales/00-Index.md) | `ED` | EDO, sistemas, Laplace | 5 | ✅ Completo |
-| [07-Metodos-Numericos](07-Metodos-Numericos/00-Index.md) | `MN` | Métodos numéricos | 4 | ✅ Completo |
+| Módulo | Prefijo | Descripción | Subtemas | Estado | Bibliografía |
+|--------|---------|-------------|:--------:|:------:|--------------|
+| [01-Fundamentos](01-Fundamentos/00-Index.md) | `FUN` | Aritmética, álgebra, geometría, trigonometría | 6 | ✅ | Baldor, Sullivan, Swokowski |
+| [02-Álgebra Lineal](02-Algebra-Lineal/00-Index.md) | `AL` | Matrices, espacios vectoriales, eigenvalores | 6 | ✅ | Grossman, Lay, Strang |
+| [03-Cálculo Diferencial](03-Calculo-Diferencial/00-Index.md) | `CD` | Límites, derivadas, aplicaciones | 4 | ✅ | Stewart, Larson, Thomas |
+| [04-Cálculo Integral](04-Calculo-Integral/00-Index.md) | `CI` | Integrales, técnicas, aplicaciones | 5 | ✅ | Stewart, Larson, Thomas |
+| [05-Cálculo Vectorial](05-Calculo-Vectorial/00-Index.md) | `CV` | Vectores, funciones varias variables | 5 | ✅ | Stewart, Marsden, Thomas |
+| [06-Ecuaciones Diferenciales](06-Ecuaciones-Diferenciales/00-Index.md) | `ED` | EDO, sistemas, Laplace, series | 5 | ✅ | Zill, Boyce, Nagle |
+| [07-Métodos Numéricos](07-Metodos-Numericos/00-Index.md) | `MN` | Raíces, interpolación, integración | 4 | ✅ | Burden, Chapra, Mathews |
 
 ## Skill tree (Mapa de dependencias)
 
@@ -95,4 +103,4 @@ flowchart TD
 
 ---
 
-*Última actualización: 2026-01-02*
+*Última actualización: 2026-01-03* — **Auditoría bibliográfica completa:** 35 subtemas validados contra bibliografía estándar universitaria.
