@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-03T16:49:19.218382",
+  "generated_at": "2026-01-03T17:13:41.150831",
   "generator": "graphics/generate_graphics.py",
   "graphics": [
     {
@@ -14,7 +14,7 @@
         "svg": "circunferencia_elementos.svg",
         "png": "circunferencia_elementos.png"
       },
-      "generated_at": "2026-01-03T16:49:18.051071"
+      "generated_at": "2026-01-03T17:13:33.566697"
     },
     {
       "name": "cuadrilateros_clasificacion",
@@ -28,7 +28,7 @@
         "svg": "cuadrilateros_clasificacion.svg",
         "png": "cuadrilateros_clasificacion.png"
       },
-      "generated_at": "2026-01-03T16:49:18.237020"
+      "generated_at": "2026-01-03T17:13:34.313816"
     },
     {
       "name": "paralelas_transversal_angulos",
@@ -42,7 +42,7 @@
         "svg": "paralelas_transversal_angulos.svg",
         "png": "paralelas_transversal_angulos.png"
       },
-      "generated_at": "2026-01-03T16:49:18.443210"
+      "generated_at": "2026-01-03T17:13:35.056968"
     },
     {
       "name": "pitagoras_visual",
@@ -57,7 +57,7 @@
         "svg": "pitagoras_visual.svg",
         "png": "pitagoras_visual.png"
       },
-      "generated_at": "2026-01-03T16:49:18.648787"
+      "generated_at": "2026-01-03T17:13:35.300750"
     },
     {
       "name": "triangulo_altura_area",
@@ -72,7 +72,7 @@
         "svg": "triangulo_altura_area.svg",
         "png": "triangulo_altura_area.png"
       },
-      "generated_at": "2026-01-03T16:49:18.809357"
+      "generated_at": "2026-01-03T17:13:39.644913"
     },
     {
       "name": "triangulo_lineas_notables",
@@ -86,7 +86,290 @@
         "svg": "triangulo_lineas_notables.svg",
         "png": "triangulo_lineas_notables.png"
       },
-      "generated_at": "2026-01-03T16:49:19.218059"
+      "generated_at": "2026-01-03T17:13:40.495457"
+    },
+    {
+      "name": "angulos_clasificacion",
+      "description": "Clasificación de ángulos: agudo, recto, obtuso, llano, cóncavo",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.2",
+      "source_file": "sources/FUN-04/angulos_clasificacion.py",
+      "files": {
+        "svg": "angulos_clasificacion.svg",
+        "png": "angulos_clasificacion.png"
+      },
+      "generated_at": "2026-01-03T17:13:32.398176"
+    },
+    {
+      "name": "angulos_complementarios_suplementarios",
+      "description": "Ángulos complementarios (90°) y suplementarios (180°)",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.2",
+      "source_file": "sources/FUN-04/angulos_complementarios_suplementarios.py",
+      "files": {
+        "svg": "angulos_complementarios_suplementarios.svg",
+        "png": "angulos_complementarios_suplementarios.png"
+      },
+      "generated_at": "2026-01-03T17:13:32.557912"
+    },
+    {
+      "name": "areas_figuras_planas",
+      "description": "Fórmulas de área: cuadrado, rectángulo, triángulo, paralelogramo, trapecio, círculo",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.7",
+      "source_file": "sources/FUN-04/areas_figuras_planas.py",
+      "files": {
+        "svg": "areas_figuras_planas.svg",
+        "png": "areas_figuras_planas.png"
+      },
+      "generated_at": "2026-01-03T17:13:33.091541"
+    },
+    {
+      "name": "circunferencia_angulos",
+      "description": "Tipos de ángulos: central, inscrito, semi-inscrito",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.6",
+      "source_file": "sources/FUN-04/circunferencia_angulos.py",
+      "files": {
+        "svg": "circunferencia_angulos.svg",
+        "png": "circunferencia_angulos.png"
+      },
+      "generated_at": "2026-01-03T17:13:33.338500"
+    },
+    {
+      "name": "circunferencias_posiciones",
+      "description": "Posiciones relativas: exteriores, tangentes ext/int, secantes, interiores",
+      "used_in": [
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.6",
+      "source_file": "sources/FUN-04/circunferencias_posiciones.py",
+      "files": {
+        "svg": "circunferencias_posiciones.svg",
+        "png": "circunferencias_posiciones.png"
+      },
+      "generated_at": "2026-01-03T17:13:34.130870"
+    },
+    {
+      "name": "cuadrilateros_propiedades",
+      "description": "Propiedades de paralelogramo, rectángulo, rombo, cuadrado",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.4",
+      "source_file": "sources/FUN-04/cuadrilateros_propiedades.py",
+      "files": {
+        "svg": "cuadrilateros_propiedades.svg",
+        "png": "cuadrilateros_propiedades.png"
+      },
+      "generated_at": "2026-01-03T17:13:34.647548"
+    },
+    {
+      "name": "escalera_apoyada",
+      "description": "Problema de escalera apoyada - aplicación del teorema de Pitágoras",
+      "used_in": [
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.9",
+      "source_file": "sources/FUN-04/escalera_apoyada.py",
+      "files": {
+        "svg": "escalera_apoyada.svg",
+        "png": "escalera_apoyada.png"
+      },
+      "generated_at": "2026-01-03T17:13:34.833678"
+    },
+    {
+      "name": "poligonos_regulares",
+      "description": "Polígonos regulares: triángulo, cuadrado, pentágono, hexágono, octágono",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.5",
+      "source_file": "sources/FUN-04/poligonos_regulares.py",
+      "files": {
+        "svg": "poligonos_regulares.svg",
+        "png": "poligonos_regulares.png"
+      },
+      "generated_at": "2026-01-03T17:13:35.545530"
+    },
+    {
+      "name": "relaciones_metricas_triangulo",
+      "description": "Relaciones métricas: proyecciones, altura sobre hipotenusa",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.9",
+      "source_file": "sources/FUN-04/relaciones_metricas_triangulo.py",
+      "files": {
+        "svg": "relaciones_metricas_triangulo.svg",
+        "png": "relaciones_metricas_triangulo.png"
+      },
+      "generated_at": "2026-01-03T17:13:35.784507"
+    },
+    {
+      "name": "rombo_propiedades",
+      "description": "Rombo con diagonales, perpendiculares y fórmulas",
+      "used_in": [
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.4",
+      "source_file": "sources/FUN-04/rombo_propiedades.py",
+      "files": {
+        "svg": "rombo_propiedades.svg",
+        "png": "rombo_propiedades.png"
+      },
+      "generated_at": "2026-01-03T17:13:36.066872"
+    },
+    {
+      "name": "sector_segmento_circular",
+      "description": "Sector circular y segmento circular con fórmulas",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md",
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.6",
+      "source_file": "sources/FUN-04/sector_segmento_circular.py",
+      "files": {
+        "svg": "sector_segmento_circular.svg",
+        "png": "sector_segmento_circular.png"
+      },
+      "generated_at": "2026-01-03T17:13:36.474033"
+    },
+    {
+      "name": "semejanza_criterios",
+      "description": "Criterios de semejanza: AA, LAL, LLL",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.8",
+      "source_file": "sources/FUN-04/semejanza_criterios.py",
+      "files": {
+        "svg": "semejanza_criterios.svg",
+        "png": "semejanza_criterios.png"
+      },
+      "generated_at": "2026-01-03T17:13:36.740845"
+    },
+    {
+      "name": "solidos_geometricos",
+      "description": "Sólidos: prisma, pirámide, cilindro, cono, esfera",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.10",
+      "source_file": "sources/FUN-04/solidos_geometricos.py",
+      "files": {
+        "svg": "solidos_geometricos.svg",
+        "png": "solidos_geometricos.png"
+      },
+      "generated_at": "2026-01-03T17:13:38.961991"
+    },
+    {
+      "name": "teorema_tales",
+      "description": "Teorema de Tales: recta paralela divide lados proporcionalmente",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.8",
+      "source_file": "sources/FUN-04/teorema_tales.py",
+      "files": {
+        "svg": "teorema_tales.svg",
+        "png": "teorema_tales.png"
+      },
+      "generated_at": "2026-01-03T17:13:39.247954"
+    },
+    {
+      "name": "trapecio_elementos",
+      "description": "Trapecio con bases, altura, mediana y fórmulas",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md",
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.4",
+      "source_file": "sources/FUN-04/trapecio_elementos.py",
+      "files": {
+        "svg": "trapecio_elementos.svg",
+        "png": "trapecio_elementos.png"
+      },
+      "generated_at": "2026-01-03T17:13:39.486458"
+    },
+    {
+      "name": "triangulo_angulo_exterior",
+      "description": "Ángulo exterior del triángulo = suma de ángulos interiores no adyacentes",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md",
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.3",
+      "source_file": "sources/FUN-04/triangulo_angulo_exterior.py",
+      "files": {
+        "svg": "triangulo_angulo_exterior.svg",
+        "png": "triangulo_angulo_exterior.png"
+      },
+      "generated_at": "2026-01-03T17:13:39.804153"
+    },
+    {
+      "name": "triangulo_equilatero_elementos",
+      "description": "Triángulo equilátero con altura, radio inscrito y circunscrito",
+      "used_in": [
+        "problems/FUN-04-Problemas.md"
+      ],
+      "section": "4.3",
+      "source_file": "sources/FUN-04/triangulo_equilatero_elementos.py",
+      "files": {
+        "svg": "triangulo_equilatero_elementos.svg",
+        "png": "triangulo_equilatero_elementos.png"
+      },
+      "generated_at": "2026-01-03T17:13:40.069764"
+    },
+    {
+      "name": "triangulos_clasificacion_angulos",
+      "description": "Clasificación de triángulos: acutángulo, rectángulo, obtusángulo",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.3",
+      "source_file": "sources/FUN-04/triangulos_clasificacion_angulos.py",
+      "files": {
+        "svg": "triangulos_clasificacion_angulos.svg",
+        "png": "triangulos_clasificacion_angulos.png"
+      },
+      "generated_at": "2026-01-03T17:13:40.730763"
+    },
+    {
+      "name": "triangulos_clasificacion_lados",
+      "description": "Clasificación de triángulos: equilátero, isósceles, escaleno",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.3",
+      "source_file": "sources/FUN-04/triangulos_clasificacion_lados.py",
+      "files": {
+        "svg": "triangulos_clasificacion_lados.svg",
+        "png": "triangulos_clasificacion_lados.png"
+      },
+      "generated_at": "2026-01-03T17:13:40.962862"
+    },
+    {
+      "name": "triangulos_congruencia",
+      "description": "Criterios de congruencia: LLL, LAL, ALA, AAL",
+      "used_in": [
+        "theory/FUN-04-Teoria-Geometria.md"
+      ],
+      "section": "4.3",
+      "source_file": "sources/FUN-04/triangulos_congruencia.py",
+      "files": {
+        "svg": "triangulos_congruencia.svg",
+        "png": "triangulos_congruencia.png"
+      },
+      "generated_at": "2026-01-03T17:13:41.150320"
     }
   ]
 }

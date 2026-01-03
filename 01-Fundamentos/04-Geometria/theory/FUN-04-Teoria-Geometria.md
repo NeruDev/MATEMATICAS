@@ -67,10 +67,18 @@ Notación: $\angle ABC$ o $\angle B$ (vértice en el centro)
 | Llano | $\alpha = 180°$ | 180° |
 | Cóncavo (reflejo) | $180° < \alpha < 360°$ | 270° |
 
+![Clasificación de Ángulos](../media/generated/angulos_clasificacion.png)
+
+*Figura 4.2.1: Clasificación de ángulos según su medida*
+
 ### Ángulos complementarios y suplementarios
 
 - **Complementarios**: $\alpha + \beta = 90°$
 - **Suplementarios**: $\alpha + \beta = 180°$
+
+![Ángulos Complementarios y Suplementarios](../media/generated/angulos_complementarios_suplementarios.png)
+
+*Figura 4.2.2: Ángulos complementarios (suman 90°) y suplementarios (suman 180°)*
 
 ### Ángulos formados por paralelas y transversal
 
@@ -103,6 +111,10 @@ $$S_e = 360°$$
 | **Isósceles** | Dos lados iguales |
 | **Escaleno** | Todos los lados diferentes |
 
+![Clasificación de Triángulos por Lados](../media/generated/triangulos_clasificacion_lados.png)
+
+*Figura 4.3.2: Triángulos clasificados según sus lados*
+
 ### Clasificación por ángulos
 
 | Tipo | Característica |
@@ -111,11 +123,19 @@ $$S_e = 360°$$
 | **Rectángulo** | Un ángulo recto |
 | **Obtusángulo** | Un ángulo obtuso |
 
+![Clasificación de Triángulos por Ángulos](../media/generated/triangulos_clasificacion_angulos.png)
+
+*Figura 4.3.3: Triángulos clasificados según sus ángulos*
+
 ### Propiedades fundamentales
 
 1. **Suma de ángulos interiores**: $\alpha + \beta + \gamma = 180°$
 2. **Desigualdad triangular**: $a + b > c$ (para cualquier par de lados)
 3. **Ángulo exterior**: Igual a la suma de los dos ángulos interiores no adyacentes
+
+![Ángulo Exterior del Triángulo](../media/generated/triangulo_angulo_exterior.png)
+
+*Figura 4.3.4: El ángulo exterior θ es igual a la suma de los ángulos interiores no adyacentes (α + β)*
 
 ### Líneas notables
 
@@ -145,6 +165,10 @@ Dos triángulos son congruentes si cumplen:
 | **ALA** | Dos ángulos y lado comprendido iguales |
 | **AAL** | Dos ángulos y lado opuesto iguales |
 
+![Criterios de Congruencia](../media/generated/triangulos_congruencia.png)
+
+*Figura 4.3.5: Los cuatro criterios de congruencia de triángulos*
+
 ---
 
 ## 4.4 Cuadriláteros
@@ -163,6 +187,10 @@ Dos triángulos son congruentes si cumplen:
 | Ángulos opuestos | Iguales |
 | Ángulos consecutivos | Suplementarios |
 | Diagonales | Se bisecan mutuamente |
+
+![Propiedades de Cuadriláteros](../media/generated/cuadrilateros_propiedades.png)
+
+*Figura 4.4.2: Propiedades de los cuadriláteros especiales*
 
 ### Propiedades especiales
 
@@ -207,6 +235,10 @@ Un polígono es **regular** si todos sus lados y ángulos son iguales.
 | Decágono | 10 | 144° |
 | Dodecágono | 12 | 150° |
 
+![Polígonos Regulares](../media/generated/poligonos_regulares.png)
+
+*Figura 4.5.1: Polígonos regulares desde el triángulo hasta el octágono*
+
 ---
 
 ## 4.6 Circunferencia y círculo
@@ -242,12 +274,20 @@ Un polígono es **regular** si todos sus lados y ángulos son iguales.
 | **Interior** | Semisuma de los arcos que determina |
 | **Exterior** | Semidiferencia de los arcos que determina |
 
+![Ángulos en la Circunferencia](../media/generated/circunferencia_angulos.png)
+
+*Figura 4.6.2: Ángulo central, ángulo inscrito y ángulo en semicírculo*
+
 ### Teoremas importantes
 
 **Teorema del ángulo inscrito:**
 $$\text{Ángulo inscrito} = \frac{\text{Arco}}{2}$$
 
 **Ángulo inscrito en semicírculo:** Un ángulo inscrito que subtiende un diámetro es recto (90°).
+
+![Sector y Segmento Circular](../media/generated/sector_segmento_circular.png)
+
+*Figura 4.6.3: Sector circular y segmento circular con sus fórmulas*
 
 ---
 
@@ -267,9 +307,13 @@ $$\text{Ángulo inscrito} = \frac{\text{Arco}}{2}$$
 | **Círculo** | $A = \pi r^2$ | $r$ = radio |
 | **Sector circular** | $A = \frac{\theta}{360°} \pi r^2$ | $\theta$ = ángulo central |
 
+![Áreas de Figuras Planas](../media/generated/areas_figuras_planas.png)
+
+*Figura 4.7.1: Fórmulas de área para las principales figuras planas*
+
 ![Área del Triángulo](../media/generated/triangulo_altura_area.png)
 
-*Figura 4.7.1: Fórmula del área del triángulo ilustrada*
+*Figura 4.7.2: Fórmula del área del triángulo ilustrada*
 
 ### Fórmula de Herón (triángulo)
 
@@ -309,11 +353,19 @@ Si dos figuras son semejantes con razón $k$:
 | **LAL** | Dos lados proporcionales y ángulo comprendido igual |
 | **LLL** | Tres lados proporcionales |
 
+![Criterios de Semejanza](../media/generated/semejanza_criterios.png)
+
+*Figura 4.8.1: Criterios de semejanza de triángulos: AA, LAL, LLL*
+
 ### Teorema de Tales
 
 Si una recta es paralela a uno de los lados de un triángulo, divide a los otros dos lados en segmentos proporcionales.
 
 $$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+![Teorema de Tales](../media/generated/teorema_tales.png)
+
+*Figura 4.8.2: Teorema de Tales con rectas paralelas*
 
 ---
 
@@ -360,6 +412,10 @@ $$a^2 = m \cdot c$$
 $$b^2 = n \cdot c$$
 $$a \cdot b = c \cdot h$$
 
+![Relaciones Métricas](../media/generated/relaciones_metricas_triangulo.png)
+
+*Figura 4.9.2: Relaciones métricas en el triángulo rectángulo*
+
 ---
 
 ## 4.10 Geometría del espacio
@@ -403,6 +459,10 @@ $$a \cdot b = c \cdot h$$
 |-----------|---------|
 | Volumen | $V = \frac{4}{3} \pi r^3$ |
 | Área superficial | $A = 4\pi r^2$ |
+
+![Sólidos Geométricos](../media/generated/solidos_geometricos.png)
+
+*Figura 4.10.1: Principales sólidos geométricos: prisma, pirámide, cilindro, cono y esfera*
 
 ### Principio de Cavalieri
 
