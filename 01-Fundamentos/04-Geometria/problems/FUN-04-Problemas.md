@@ -196,6 +196,10 @@ Un triángulo tiene ángulos en la razón $2:3:4$. Encuentra cada ángulo.
 ### [Prob-24] Triángulo Equilátero Completo ⭐⭐
 En un triángulo equilátero de lado 6 cm, encuentra la altura, el área y el radio del círculo inscrito.
 
+![Triángulo Equilátero](../media/generated/triangulo_equilatero_elementos.png)
+
+*Figura: Elementos del triángulo equilátero*
+
 📎 **Solución:** [📂 Solución Desarrollada](../solutions/prob-24/solucion-metodo.md)
 
 ---
@@ -261,12 +265,20 @@ Las diagonales de un rectángulo miden 10 cm. Si un lado mide 6 cm, encuentra el
 ### [Prob-33] Rombo: Perímetro y Área ⭐⭐
 En un rombo, las diagonales miden 6 cm y 8 cm. Calcula el perímetro y el área.
 
+![Propiedades del Rombo](../media/generated/rombo_propiedades.png)
+
+*Figura: Diagonales perpendiculares del rombo*
+
 📎 **Solución:** [📎 Ver Respuesta](../solutions/FUN-04-Respuestas.md#prob-33)
 
 ---
 
 ### [Prob-34] Trapecio Isósceles ⭐⭐
 Un trapecio isósceles tiene bases de 8 cm y 14 cm, y altura de 4 cm. Encuentra el área y los lados no paralelos.
+
+![Elementos del Trapecio](../media/generated/trapecio_elementos.png)
+
+*Figura: Elementos del trapecio*
 
 📎 **Solución:** [📎 Ver Respuesta](../solutions/FUN-04-Respuestas.md#prob-34)
 
@@ -425,6 +437,10 @@ Calcula el área de un sector circular de ángulo 120° y radio 6 cm.
 
 ### [Prob-56] Posición Relativa de Circunferencias ⭐⭐
 Dos circunferencias tienen radios 5 cm y 12 cm, y la distancia entre sus centros es 13 cm. ¿Son tangentes exterior, tangentes interior, secantes o exteriores?
+
+![Posiciones de Circunferencias](../media/generated/circunferencias_posiciones.png)
+
+*Figura: Las seis posiciones relativas de dos circunferencias*
 
 📎 **Solución:** [📎 Ver Respuesta](../solutions/FUN-04-Respuestas.md#prob-56)
 
@@ -634,6 +650,10 @@ Determina si un triángulo con lados 7, 24 y 25 es rectángulo.
 
 ### [Prob-85] Escalera Apoyada ⭐⭐
 Una escalera de 5 m de largo se apoya contra una pared. Si el pie de la escalera está a 3 m de la base de la pared, ¿a qué altura de la pared llega la escalera?
+
+![Escalera Apoyada](../media/generated/escalera_apoyada.png)
+
+*Figura: Aplicación del teorema de Pitágoras a una escalera*
 
 📎 **Solución:** [📎 Ver Respuesta](../solutions/FUN-04-Respuestas.md#prob-85)
 
