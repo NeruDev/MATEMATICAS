@@ -112,14 +112,10 @@ Dos rectas paralelas son cortadas por una transversal. Si un ángulo alterno int
 
 ### [Prob-13] Ángulos entre Paralelas ⭐⭐
 En la figura, $\ell_1 \parallel \ell_2$. Si $\angle 1 = 65°$ y $\angle 2 = 40°$, encuentra $\angle 3$.
-```
-       ∠1
-    ____/____ ℓ₁
-         \
-          \∠3
-           \
-    ___∠2___\__ ℓ₂
-```
+
+![Paralelas con transversal](../media/generated/paralelas_transversal_angulos.png)
+
+*Figura Prob-13: Rectas paralelas cortadas por una transversal*
 
 📎 **Solución:** [📎 Ver Respuesta](../solutions/FUN-04-Respuestas.md#prob-13)
 

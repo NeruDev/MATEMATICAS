@@ -1,0 +1,86 @@
+# ============================================================
+# Configuración Global - Sistema de Gráficos Matemáticos
+# Repositorio de Matemáticas Universitarias
+# ============================================================
+
+# Configuración de salida
+output:
+  svg:
+    enabled: true
+    # Subdirectorio relativo dentro de media/
+    target: "generated"
+  png:
+    enabled: true
+    dpi: 150
+    target: "generated"
+
+# Estilos visuales globales
+style:
+  # Tipografía
+  font_family: "DejaVu Sans"
+  font_size: 12
+  title_size: 14
+  annotation_size: 11
+  
+  # Paleta de colores (accesible y consistente)
+  colors:
+    primary: "#2563eb"      # Azul - figuras principales
+    secondary: "#dc2626"    # Rojo - elementos destacados (alturas, etc.)
+    accent: "#059669"       # Verde - elementos auxiliares
+    tertiary: "#7c3aed"     # Púrpura - tercer nivel
+    grid: "#e5e7eb"         # Gris claro - cuadrículas
+    background: "#ffffff"   # Blanco - fondo
+    text: "#1f2937"         # Gris oscuro - texto
+    
+  # Grosores de línea
+  line_widths:
+    default: 2.0
+    thin: 1.0
+    thick: 3.0
+    dashed: 1.5
+    
+  # Configuración de figuras
+  figure:
+    default_size: [8, 6]      # Tamaño por defecto (pulgadas)
+    square_size: [6, 6]       # Para figuras cuadradas
+    wide_size: [10, 6]        # Para figuras panorámicas
+    dpi: 100                  # DPI para preview
+
+# Convención de nombrado
+naming:
+  # Patrón: {topic_id}_{description}
+  # Ejemplo: FUN-04_triangulo_altura.svg
+  pattern: "{topic_id}_{description}"
+  separator: "_"
+  lowercase: true
+
+# Rutas del repositorio (relativas a la raíz)
+paths:
+  repo_root: "../../../"
+  sources: "sources"
+  templates: "templates"
+
+# Mapeo de prefijos a módulos
+modules:
+  FUN: "01-Fundamentos"
+  AL: "02-Algebra-Lineal"
+  CD: "03-Calculo-Diferencial"
+  CI: "04-Calculo-Integral"
+  CV: "05-Calculo-Vectorial"
+  ED: "06-Ecuaciones-Diferenciales"
+  MN: "07-Metodos-Numericos"
+
+# Mapeo de temas a subtemas
+topics:
+  FUN-04:
+    module: "01-Fundamentos"
+    subtopic: "04-Geometria"
+    name: "Geometría"
+  FUN-05:
+    module: "01-Fundamentos"
+    subtopic: "05-Trigonometria"
+    name: "Trigonometría"
+  CV-02:
+    module: "05-Calculo-Vectorial"
+    subtopic: "02-Curvas-planas-parametricas-y-polares"
+    name: "Curvas Paramétricas y Polares"

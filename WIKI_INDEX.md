@@ -616,7 +616,29 @@
 
 ---
 
-## 📊 Estadísticas del Repositorio
+## �️ Herramientas y Recursos META
+
+### Generación de Gráficos
+
+- 📐 [Sistema de Gráficos - README](00-META/tools/graphics/README.md)
+- ⚙️ [Configuración de gráficos](00-META/tools/graphics/config.yaml)
+- 🎨 [Plantillas de estilo](00-META/tools/graphics/templates/)
+
+### Documentación para Colaboradores
+
+- 📜 [Contrato IA](00-META/ia-contract.md)
+- 📖 [Nomenclatura Estándar](00-META/nomenclatura-estandar.md)
+- 📝 [Plantilla de Respuestas](00-META/plantilla-respuestas.md)
+- 🔤 [Notación Matemática](00-META/notation-cheatsheet.md)
+
+### Validación
+
+- ✅ [Validador de Repositorio](00-META/tools/validate_repo.py)
+- 📋 [Tests del Repositorio](00-META/repo-tests.md)
+
+---
+
+## �📊 Estadísticas del Repositorio
 
 - **Total de archivos**: 358
 - **Módulos principales**: 7
