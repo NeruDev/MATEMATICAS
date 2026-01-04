@@ -12,7 +12,7 @@ radio, diámetro, cuerda, arco, tangente, secante.
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -51,7 +51,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(11, 10))
+    fig, ax = plt.subplots(figsize=(11, 10), layout='constrained')
     
     # Parámetros de la circunferencia
     center = np.array([5, 5])

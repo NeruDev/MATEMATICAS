@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.2)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,16 +46,17 @@ def draw_angle(ax, center, angle_deg, label, color, y_offset=0):
     arc_y = y0 + arc_r * np.sin(arc_angles)
     ax.plot(arc_x, arc_y, color=color, lw=2)
     
-    # Etiqueta del ángulo (grados)
+    # Etiqueta del ángulo (grados) - con bbox para legibilidad
     label_angle = angle_rad / 2
-    label_r = 0.45
+    label_r = 0.5
     label_x = x0 + label_r * np.cos(label_angle)
     label_y = y0 + label_r * np.sin(label_angle)
     ax.text(label_x, label_y, f'{angle_deg}°', ha='center', va='center', 
-            fontsize=10, color=color, fontweight='bold')
+            fontsize=10, color=color, fontweight='bold',
+            bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.2'))
     
-    # Nombre del tipo de ángulo
-    ax.text(x0 + 0.5, y0 + y_offset - 0.5, label, ha='center', va='top',
+    # Nombre del tipo de ángulo - debajo de la figura
+    ax.text(x0 + 0.5, y0 - 0.6, label, ha='center', va='top',
             fontsize=11, fontweight='bold', color='#1f2937')
 
 def generate() -> plt.Figure:
@@ -63,7 +64,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(1, 5, figsize=(16, 4))
+    fig, axes = plt.subplots(1, 5, figsize=(16, 5), layout='constrained')
     
     angle_types = [
         (45, "Agudo", colors['primary']),
@@ -75,13 +76,13 @@ def generate() -> plt.Figure:
     
     for ax, (angle, name, color) in zip(axes, angle_types):
         ax.set_xlim(-0.3, 1.8)
-        ax.set_ylim(-0.8, 1.5)
+        ax.set_ylim(-1.0, 1.6)
         ax.set_aspect('equal')
         ax.axis('off')
         
-        draw_angle(ax, (0.3, 0), angle, name, color, y_offset=-0.2)
+        draw_angle(ax, (0.3, 0.1), angle, name, color)
         
-        # Condición
+        # Condición - más abajo para evitar superposición
         if angle < 90:
             cond = "0° < α < 90°"
         elif angle == 90:
@@ -92,12 +93,11 @@ def generate() -> plt.Figure:
             cond = "α = 180°"
         else:
             cond = "180° < α < 360°"
-        ax.text(0.8, -0.7, cond, ha='center', va='top', fontsize=9, 
+        ax.text(0.8, -0.85, cond, ha='center', va='top', fontsize=9, 
                 color='#6b7280', style='italic')
     
     fig.suptitle('Clasificación de Ángulos por Medida', fontsize=14, 
-                 fontweight='bold', y=1.02)
-    plt.tight_layout()
+                 fontweight='bold')
     return fig
 
 def get_output_dir():

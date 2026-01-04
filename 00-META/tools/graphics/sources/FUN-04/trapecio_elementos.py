@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md, problems/FUN-04-Problemas.md
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(11, 8))
+    fig, ax = plt.subplots(figsize=(11, 8), layout='constrained')
     
     # Trapecio ABCD
     A = np.array([0, 0])
@@ -54,7 +54,8 @@ def generate() -> plt.Figure:
     H = np.array([3, 0])  # pie de la altura
     ax.plot([3, 3], [0, 2.5], '--', color=colors['tertiary'], lw=2)
     ax.plot([3-0.15, 3-0.15, 3], [0, 0.15, 0.15], color=colors['tertiary'], lw=1.5)
-    ax.text(3.2, 1.25, 'h', fontsize=12, color=colors['tertiary'], fontweight='bold')
+    ax.text(3.2, 1.25, 'h', fontsize=12, color=colors['tertiary'], fontweight='bold',
+           bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.1'))
     
     # Mediana (línea media)
     M1 = (A + D) / 2
@@ -71,7 +72,8 @@ def generate() -> plt.Figure:
     for p, label, offset in [(A, 'A', (-0.3, -0.2)), (B, 'B', (0.2, -0.2)), 
                               (C, 'C', (0.2, 0.1)), (D, 'D', (-0.3, 0.1))]:
         ax.plot(p[0], p[1], 'o', color=colors['primary'], markersize=7)
-        ax.text(p[0]+offset[0], p[1]+offset[1], label, fontsize=11, fontweight='bold')
+        ax.text(p[0]+offset[0], p[1]+offset[1], label, fontsize=11, fontweight='bold',
+               bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.1'))
     
     # Diagonales (punteadas)
     ax.plot([A[0], C[0]], [A[1], C[1]], ':', color='#9ca3af', lw=1.5, alpha=0.7)
@@ -105,9 +107,8 @@ def generate() -> plt.Figure:
     ax.set_aspect('equal')
     ax.axis('off')
     
-    ax.set_title('Trapecio - Elementos y Fórmulas', fontsize=14, fontweight='bold', y=1.02)
+    ax.set_title('Trapecio - Elementos y Fórmulas', fontsize=14, fontweight='bold', pad=15)
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():

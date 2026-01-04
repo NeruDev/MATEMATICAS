@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.3)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -72,7 +72,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10), layout='constrained')
     axes = axes.flatten()
     
     # Vértices base
@@ -131,8 +131,7 @@ def generate() -> plt.Figure:
                 color='#6b7280', style='italic')
     
     fig.suptitle('Criterios de Congruencia de Triángulos', fontsize=14, 
-                 fontweight='bold', y=0.98)
-    plt.tight_layout()
+                 fontweight='bold')
     return fig
 
 def get_output_dir():

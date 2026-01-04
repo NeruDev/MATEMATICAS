@@ -19,7 +19,7 @@ Reemplaza el diagrama ASCII:
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -59,7 +59,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(10, 7))
+    fig, ax = plt.subplots(figsize=(10, 7), layout='constrained')
     
     # Parámetros
     y1, y2 = 4, 1  # Posiciones de las paralelas

@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.7)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(2, 3, figsize=(14, 10))
+    fig, axes = plt.subplots(2, 3, figsize=(14, 10), layout='constrained')
     axes = axes.flatten()
     
     # === Cuadrado ===
@@ -117,8 +117,7 @@ def generate() -> plt.Figure:
         ax.axis('off')
     
     fig.suptitle('Fórmulas de Áreas de Figuras Planas', fontsize=14, 
-                 fontweight='bold', y=0.98)
-    plt.tight_layout()
+                 fontweight='bold')
     return fig
 
 def get_output_dir():

@@ -8,7 +8,7 @@ Usado en: problems/FUN-04-Problemas.md (Prob-56)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -56,7 +56,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(2, 3, figsize=(14, 9))
+    fig, axes = plt.subplots(2, 3, figsize=(14, 9), layout='constrained')
     axes = axes.flatten()
     
     R, r = 1.0, 0.6  # Radios
@@ -105,8 +105,7 @@ def generate() -> plt.Figure:
              ha='center', fontsize=10, color='#6b7280')
     
     fig.suptitle('Posiciones Relativas de Dos Circunferencias', fontsize=14, 
-                 fontweight='bold', y=0.98)
-    plt.tight_layout(rect=[0, 0.04, 1, 0.95])
+                 fontweight='bold')
     return fig
 
 def get_output_dir():

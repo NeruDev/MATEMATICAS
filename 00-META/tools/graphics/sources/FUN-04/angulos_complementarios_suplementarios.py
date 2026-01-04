@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.2)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5), layout='constrained')
     
     # === Ángulos Complementarios (suman 90°) ===
     ax1.set_xlim(-0.5, 3)
@@ -117,7 +117,6 @@ def generate() -> plt.Figure:
     ax2.text(0, 1.5, f'α = {alpha2}°, β = {beta2}°', fontsize=11, ha='center', 
              color='#6b7280')
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():

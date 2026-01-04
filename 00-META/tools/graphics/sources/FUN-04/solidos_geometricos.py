@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.10)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np

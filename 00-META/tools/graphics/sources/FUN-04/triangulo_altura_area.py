@@ -11,7 +11,7 @@ Ilustra la fórmula del área del triángulo: A = (b × h) / 2
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -50,7 +50,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(9, 7))
+    fig, ax = plt.subplots(figsize=(9, 7), layout='constrained')
     
     # Definir vértices del triángulo
     A = np.array([0, 0])
