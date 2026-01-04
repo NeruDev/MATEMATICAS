@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.6)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -127,7 +127,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(1, 3, figsize=(14, 5))
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5), layout='constrained')
     
     for ax, angle_type in zip(axes, ['central', 'inscrito', 'semicirculo']):
         ax.set_xlim(-1.6, 1.6)
@@ -136,8 +136,7 @@ def generate() -> plt.Figure:
         ax.axis('off')
         draw_circle_with_angle(ax, angle_type, colors)
     
-    fig.suptitle('Ángulos en la Circunferencia', fontsize=14, fontweight='bold', y=1.02)
-    plt.tight_layout()
+    fig.suptitle('Ángulos en la Circunferencia', fontsize=14, fontweight='bold')
     return fig
 
 def get_output_dir():

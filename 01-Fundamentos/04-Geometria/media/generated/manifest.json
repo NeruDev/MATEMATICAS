@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-03T17:13:41.150831",
+  "generated_at": "2026-01-03T21:07:49.536732",
   "generator": "graphics/generate_graphics.py",
   "graphics": [
     {
@@ -14,7 +14,7 @@
         "svg": "circunferencia_elementos.svg",
         "png": "circunferencia_elementos.png"
       },
-      "generated_at": "2026-01-03T17:13:33.566697"
+      "generated_at": "2026-01-03T21:07:41.837854"
     },
     {
       "name": "cuadrilateros_clasificacion",
@@ -28,7 +28,7 @@
         "svg": "cuadrilateros_clasificacion.svg",
         "png": "cuadrilateros_clasificacion.png"
       },
-      "generated_at": "2026-01-03T17:13:34.313816"
+      "generated_at": "2026-01-03T21:07:42.495256"
     },
     {
       "name": "paralelas_transversal_angulos",
@@ -42,7 +42,7 @@
         "svg": "paralelas_transversal_angulos.svg",
         "png": "paralelas_transversal_angulos.png"
       },
-      "generated_at": "2026-01-03T17:13:35.056968"
+      "generated_at": "2026-01-03T21:07:43.313262"
     },
     {
       "name": "pitagoras_visual",
@@ -57,7 +57,7 @@
         "svg": "pitagoras_visual.svg",
         "png": "pitagoras_visual.png"
       },
-      "generated_at": "2026-01-03T17:13:35.300750"
+      "generated_at": "2026-01-03T21:07:43.524206"
     },
     {
       "name": "triangulo_altura_area",
@@ -72,7 +72,7 @@
         "svg": "triangulo_altura_area.svg",
         "png": "triangulo_altura_area.png"
       },
-      "generated_at": "2026-01-03T17:13:39.644913"
+      "generated_at": "2026-01-03T21:07:47.965439"
     },
     {
       "name": "triangulo_lineas_notables",
@@ -86,7 +86,7 @@
         "svg": "triangulo_lineas_notables.svg",
         "png": "triangulo_lineas_notables.png"
       },
-      "generated_at": "2026-01-03T17:13:40.495457"
+      "generated_at": "2026-01-03T21:07:48.802926"
     },
     {
       "name": "angulos_clasificacion",
@@ -100,7 +100,7 @@
         "svg": "angulos_clasificacion.svg",
         "png": "angulos_clasificacion.png"
       },
-      "generated_at": "2026-01-03T17:13:32.398176"
+      "generated_at": "2026-01-03T21:07:40.713121"
     },
     {
       "name": "angulos_complementarios_suplementarios",
@@ -114,7 +114,7 @@
         "svg": "angulos_complementarios_suplementarios.svg",
         "png": "angulos_complementarios_suplementarios.png"
       },
-      "generated_at": "2026-01-03T17:13:32.557912"
+      "generated_at": "2026-01-03T21:07:40.854540"
     },
     {
       "name": "areas_figuras_planas",
@@ -128,7 +128,7 @@
         "svg": "areas_figuras_planas.svg",
         "png": "areas_figuras_planas.png"
       },
-      "generated_at": "2026-01-03T17:13:33.091541"
+      "generated_at": "2026-01-03T21:07:41.373626"
     },
     {
       "name": "circunferencia_angulos",
@@ -142,7 +142,7 @@
         "svg": "circunferencia_angulos.svg",
         "png": "circunferencia_angulos.png"
       },
-      "generated_at": "2026-01-03T17:13:33.338500"
+      "generated_at": "2026-01-03T21:07:41.618722"
     },
     {
       "name": "circunferencias_posiciones",
@@ -156,7 +156,7 @@
         "svg": "circunferencias_posiciones.svg",
         "png": "circunferencias_posiciones.png"
       },
-      "generated_at": "2026-01-03T17:13:34.130870"
+      "generated_at": "2026-01-03T21:07:42.328910"
     },
     {
       "name": "cuadrilateros_propiedades",
@@ -170,7 +170,7 @@
         "svg": "cuadrilateros_propiedades.svg",
         "png": "cuadrilateros_propiedades.png"
       },
-      "generated_at": "2026-01-03T17:13:34.647548"
+      "generated_at": "2026-01-03T21:07:42.879496"
     },
     {
       "name": "escalera_apoyada",
@@ -184,7 +184,7 @@
         "svg": "escalera_apoyada.svg",
         "png": "escalera_apoyada.png"
       },
-      "generated_at": "2026-01-03T17:13:34.833678"
+      "generated_at": "2026-01-03T21:07:43.107433"
     },
     {
       "name": "poligonos_regulares",
@@ -198,7 +198,7 @@
         "svg": "poligonos_regulares.svg",
         "png": "poligonos_regulares.png"
       },
-      "generated_at": "2026-01-03T17:13:35.545530"
+      "generated_at": "2026-01-03T21:07:43.794349"
     },
     {
       "name": "relaciones_metricas_triangulo",
@@ -212,7 +212,7 @@
         "svg": "relaciones_metricas_triangulo.svg",
         "png": "relaciones_metricas_triangulo.png"
       },
-      "generated_at": "2026-01-03T17:13:35.784507"
+      "generated_at": "2026-01-03T21:07:44.048879"
     },
     {
       "name": "rombo_propiedades",
@@ -226,7 +226,7 @@
         "svg": "rombo_propiedades.svg",
         "png": "rombo_propiedades.png"
       },
-      "generated_at": "2026-01-03T17:13:36.066872"
+      "generated_at": "2026-01-03T21:07:44.367573"
     },
     {
       "name": "sector_segmento_circular",
@@ -241,7 +241,7 @@
         "svg": "sector_segmento_circular.svg",
         "png": "sector_segmento_circular.png"
       },
-      "generated_at": "2026-01-03T17:13:36.474033"
+      "generated_at": "2026-01-03T21:07:44.769745"
     },
     {
       "name": "semejanza_criterios",
@@ -255,7 +255,7 @@
         "svg": "semejanza_criterios.svg",
         "png": "semejanza_criterios.png"
       },
-      "generated_at": "2026-01-03T17:13:36.740845"
+      "generated_at": "2026-01-03T21:07:45.079484"
     },
     {
       "name": "solidos_geometricos",
@@ -269,7 +269,7 @@
         "svg": "solidos_geometricos.svg",
         "png": "solidos_geometricos.png"
       },
-      "generated_at": "2026-01-03T17:13:38.961991"
+      "generated_at": "2026-01-03T21:07:47.262125"
     },
     {
       "name": "teorema_tales",
@@ -283,7 +283,7 @@
         "svg": "teorema_tales.svg",
         "png": "teorema_tales.png"
       },
-      "generated_at": "2026-01-03T17:13:39.247954"
+      "generated_at": "2026-01-03T21:07:47.539988"
     },
     {
       "name": "trapecio_elementos",
@@ -298,7 +298,7 @@
         "svg": "trapecio_elementos.svg",
         "png": "trapecio_elementos.png"
       },
-      "generated_at": "2026-01-03T17:13:39.486458"
+      "generated_at": "2026-01-03T21:07:47.821406"
     },
     {
       "name": "triangulo_angulo_exterior",
@@ -313,7 +313,7 @@
         "svg": "triangulo_angulo_exterior.svg",
         "png": "triangulo_angulo_exterior.png"
       },
-      "generated_at": "2026-01-03T17:13:39.804153"
+      "generated_at": "2026-01-03T21:07:48.174350"
     },
     {
       "name": "triangulo_equilatero_elementos",
@@ -327,7 +327,7 @@
         "svg": "triangulo_equilatero_elementos.svg",
         "png": "triangulo_equilatero_elementos.png"
       },
-      "generated_at": "2026-01-03T17:13:40.069764"
+      "generated_at": "2026-01-03T21:07:48.412805"
     },
     {
       "name": "triangulos_clasificacion_angulos",
@@ -341,7 +341,7 @@
         "svg": "triangulos_clasificacion_angulos.svg",
         "png": "triangulos_clasificacion_angulos.png"
       },
-      "generated_at": "2026-01-03T17:13:40.730763"
+      "generated_at": "2026-01-03T21:07:49.067578"
     },
     {
       "name": "triangulos_clasificacion_lados",
@@ -355,7 +355,7 @@
         "svg": "triangulos_clasificacion_lados.svg",
         "png": "triangulos_clasificacion_lados.png"
       },
-      "generated_at": "2026-01-03T17:13:40.962862"
+      "generated_at": "2026-01-03T21:07:49.331911"
     },
     {
       "name": "triangulos_congruencia",
@@ -369,7 +369,7 @@
         "svg": "triangulos_congruencia.svg",
         "png": "triangulos_congruencia.png"
       },
-      "generated_at": "2026-01-03T17:13:41.150320"
+      "generated_at": "2026-01-03T21:07:49.536324"
     }
   ]
 }

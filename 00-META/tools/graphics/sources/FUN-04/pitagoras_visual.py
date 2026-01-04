@@ -12,7 +12,7 @@ Ilustra el teorema de Pitágoras con cuadrados sobre los lados.
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -51,13 +51,24 @@ def generate() -> plt.Figure:
     Muestra un triángulo rectángulo con cuadrados construidos
     sobre cada lado, ilustrando que a² + b² = c².
     
+    Sigue las guías de estilo de graphics_style_guide.md
+    
     Returns:
         Figura de matplotlib.
     """
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(12, 10))
+    # Layout con GridSpec: figura izquierda, info derecha
+    fig = plt.figure(figsize=(14, 8), layout='constrained')
+    gs = fig.add_gridspec(1, 2, width_ratios=[1.5, 1], wspace=0.08)
+    
+    ax = fig.add_subplot(gs[0])      # Panel izquierdo: figura
+    ax_info = fig.add_subplot(gs[1]) # Panel derecho: información
+    
+    # =========================================
+    # PANEL IZQUIERDO: Figura Geométrica
+    # =========================================
     
     # Triángulo rectángulo 3-4-5 (escalado)
     scale = 1.5
@@ -92,13 +103,6 @@ def generate() -> plt.Figure:
     ax.add_patch(right_angle)
     
     # === Cuadrado sobre el cateto a (vertical, a la izquierda) ===
-    sq_a_vertices = [
-        C,
-        C + np.array([-a, 0]),
-        C + np.array([-a, -a]),
-        A + np.array([-a, 0]),
-    ]
-    # Ajustar para que esté afuera
     sq_a_vertices = [
         A + np.array([-a, 0]),
         A,
@@ -135,10 +139,8 @@ def generate() -> plt.Figure:
             color=colors['tertiary'])
     
     # === Cuadrado sobre la hipotenusa c ===
-    # Vector de la hipotenusa (de C a B)
     hyp_vec = B - C
     hyp_unit = hyp_vec / np.linalg.norm(hyp_vec)
-    # Vector perpendicular (hacia afuera del triángulo)
     perp_unit = np.array([hyp_unit[1], -hyp_unit[0]])
     
     sq_c_vertices = [
@@ -158,54 +160,70 @@ def generate() -> plt.Figure:
             fontsize=18, fontweight='bold', ha='center', va='center',
             color=colors['secondary'])
     
-    # === Etiquetas de los lados ===
-    # Cateto a
-    ax.text(-0.5, a/2, '$a$', fontsize=16, fontweight='bold',
+    # === Etiquetas de los lados (mínimas) ===
+    ax.text(-0.5, a/2, '$a$', fontsize=14, fontweight='bold',
             ha='center', va='center', color=colors['text'])
-    
-    # Cateto b
-    ax.text(b/2, -0.5, '$b$', fontsize=16, fontweight='bold',
+    ax.text(b/2, -0.5, '$b$', fontsize=14, fontweight='bold',
             ha='center', va='center', color=colors['text'])
-    
-    # Hipotenusa c
     mid_hyp = (B + C) / 2
-    offset_hyp = np.array([0.4, 0.3])
-    ax.text(mid_hyp[0] + offset_hyp[0], mid_hyp[1] + offset_hyp[1], '$c$', 
-            fontsize=16, fontweight='bold',
+    ax.text(mid_hyp[0] + 0.4, mid_hyp[1] + 0.3, '$c$', 
+            fontsize=14, fontweight='bold',
             ha='center', va='center', color=colors['text'])
     
-    # === Fórmula principal ===
-    formula_box = dict(boxstyle='round,pad=0.6', 
-                      facecolor='white', 
-                      edgecolor=colors['primary'],
-                      linewidth=2)
-    ax.text(7.5, 7, '$c^2 = a^2 + b^2$', 
-            fontsize=24, fontweight='bold',
-            bbox=formula_box, ha='center',
-            color=colors['primary'])
-    
-    # Ejemplo numérico
-    example_text = (
-        f'Ejemplo: $3^2 + 4^2 = 5^2$\n'
-        f'$9 + 16 = 25$ ✓'
-    )
-    ax.text(7.5, 4.5, example_text, 
-            fontsize=14, ha='center', va='top',
-            bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
-    
-    # Puntos en los vértices
-    for point, label in [(A, 'A'), (B, 'B'), (C, 'C')]:
-        ax.plot(point[0], point[1], 'o', color=colors['text'], markersize=8)
-    
-    # Configurar ejes
-    ax.set_xlim(-6, 12)
-    ax.set_ylim(-7, 10)
+    ax.set_xlim(-6, 10)
+    ax.set_ylim(-7, 9)
     ax.set_aspect('equal')
     ax.axis('off')
     
-    # Título
-    ax.set_title('Teorema de Pitágoras', 
-                fontsize=18, fontweight='bold', pad=20)
+    # =========================================
+    # PANEL DERECHO: Información
+    # =========================================
+    ax_info.axis('off')
+    ax_info.set_xlim(0, 1)
+    ax_info.set_ylim(0, 1)
+    
+    # === Caja de Fórmula Principal (OBLIGATORIA) ===
+    ax_info.add_patch(plt.Rectangle((0.05, 0.75), 0.9, 0.20, 
+                                     facecolor='#fffbeb', edgecolor=colors['primary'],
+                                     linewidth=2.5, transform=ax_info.transAxes))
+    ax_info.text(0.5, 0.92, 'TEOREMA DE PITÁGORAS', fontsize=10, fontweight='bold',
+                ha='center', va='center', color=colors['primary'])
+    ax_info.text(0.5, 0.82, r'$c^2 = a^2 + b^2$', fontsize=24,
+                ha='center', va='center', color=colors['primary'], fontweight='bold')
+    
+    # === Leyenda de Símbolos ===
+    ax_info.axhline(y=0.70, xmin=0.05, xmax=0.95, color='#e5e7eb', lw=1)
+    ax_info.text(0.5, 0.66, 'Elementos', fontsize=10, fontweight='bold', ha='center', color='#374151')
+    
+    legend_items = [
+        ('a', colors['accent'], 'cateto (lado menor)'),
+        ('b', colors['tertiary'], 'cateto (lado mayor)'),
+        ('c', colors['secondary'], 'hipotenusa (lado opuesto al ángulo recto)'),
+    ]
+    for i, (sym, col, desc) in enumerate(legend_items):
+        y = 0.58 - i*0.08
+        ax_info.text(0.08, y, sym, fontsize=13, fontweight='bold', color=col, va='center')
+        ax_info.text(0.16, y, f'= {desc}', fontsize=9, color='#374151', va='center')
+    
+    # === Ejemplo Numérico ===
+    ax_info.axhline(y=0.32, xmin=0.05, xmax=0.95, color='#e5e7eb', lw=1)
+    ax_info.text(0.5, 0.28, 'Ejemplo (terna pitagórica)', fontsize=10, fontweight='bold', 
+                ha='center', color='#374151')
+    
+    ax_info.add_patch(plt.Rectangle((0.10, 0.12), 0.80, 0.12, 
+                                     facecolor='#f0fdf4', edgecolor=colors['secondary'],
+                                     linewidth=1, transform=ax_info.transAxes))
+    ax_info.text(0.5, 0.18, r'$3^2 + 4^2 = 5^2$  →  $9 + 16 = 25$ ✓', fontsize=12,
+                ha='center', va='center', color=colors['secondary'])
+    
+    # === Ternas Pitagóricas ===
+    ax_info.axhline(y=0.08, xmin=0.05, xmax=0.95, color='#e5e7eb', lw=1)
+    ax_info.text(0.5, 0.04, 'Otras ternas: (5,12,13), (8,15,17), (7,24,25)', 
+                fontsize=8, ha='center', va='center', color='#6b7280', style='italic')
+    
+    # Título general
+    fig.suptitle('Teorema de Pitágoras — Demostración Visual', 
+                fontsize=14, fontweight='bold')
     
     return fig
 

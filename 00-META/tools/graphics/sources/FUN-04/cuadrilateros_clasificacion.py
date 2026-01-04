@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 # Añadir el directorio de templates al path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -56,49 +56,49 @@ def generate() -> plt.Figure:
     """
     Genera el diagrama de clasificación de cuadriláteros.
     
+    Estrategia: GridSpec con diagrama arriba y leyenda/descripciones abajo.
+    
     Returns:
         Figura de matplotlib con el diagrama.
     """
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(12, 8))
+    # Crear figura con GridSpec: diagrama arriba, leyenda abajo
+    fig = plt.figure(figsize=(13, 10), layout='constrained')
+    gs = fig.add_gridspec(2, 1, height_ratios=[3, 1], hspace=0.08)
     
-    # Configuración del diagrama
-    box_width = 2.8
-    box_height = 0.7
-    v_spacing = 1.8
-    y_start = 6
+    ax = fig.add_subplot(gs[0])      # Panel superior: diagrama jerárquico
+    ax_info = fig.add_subplot(gs[1]) # Panel inferior: descripciones
     
-    # Definir estructura jerárquica
-    # (nombre, x_position, nivel, color_key)
+    # =========================================
+    # PANEL SUPERIOR: Diagrama Jerárquico
+    # =========================================
+    
+    # Configuración del diagrama (más compacto)
+    box_width = 2.2
+    box_height = 0.55
+    v_spacing = 1.5
+    y_start = 5
+    
+    # Definir estructura jerárquica (sin subnotas dentro de las cajas)
     boxes = [
         # Nivel 0 - Raíz
         ("Cuadriláteros", 0, 0, 'primary'),
         
         # Nivel 1 - Primera división
-        ("Paralelogramos", -3.5, 1, 'primary'),
-        ("No Paralelogramos", 3.5, 1, 'tertiary'),
+        ("Paralelogramos", -3, 1, 'primary'),
+        ("No Paralelogramos", 3, 1, 'tertiary'),
         
         # Nivel 2 - Tipos específicos
-        ("Rectángulo", -5.5, 2, 'accent'),
-        ("Rombo", -2, 2, 'accent'),
-        ("Trapecio", 2.5, 2, 'secondary'),
-        ("Trapezoide", 5.5, 2, 'secondary'),
+        ("Rectángulo", -4.8, 2, 'accent'),
+        ("Rombo", -1.5, 2, 'accent'),
+        ("Trapecio", 2, 2, 'secondary'),
+        ("Trapezoide", 4.8, 2, 'secondary'),
         
         # Nivel 3 - Caso especial
-        ("Cuadrado", -3.75, 3, 'accent'),
+        ("Cuadrado", -3.15, 3, 'accent'),
     ]
-    
-    # Subnotas para cada caja
-    subnotes = {
-        "Paralelogramos": "(lados opuestos paralelos)",
-        "Rectángulo": "(4 ángulos rectos)",
-        "Rombo": "(4 lados iguales)",
-        "Cuadrado": "(rectángulo + rombo)",
-        "Trapecio": "(1 par paralelo)",
-        "Trapezoide": "(ningún paralelo)",
-    }
     
     # Diccionario de posiciones
     positions = {}
@@ -145,18 +145,11 @@ def generate() -> plt.Figure:
         )
         ax.add_patch(rect_border)
         
-        # Texto principal
-        ax.text(x, y + 0.08, name, 
+        # Solo nombre (sin subnota)
+        ax.text(x, y, name, 
                 ha='center', va='center',
-                fontsize=11, fontweight='bold',
+                fontsize=10, fontweight='bold',
                 color=colors['text'])
-        
-        # Subnota si existe
-        if name in subnotes:
-            ax.text(x, y - 0.22, subnotes[name],
-                    ha='center', va='center',
-                    fontsize=8, style='italic',
-                    color=colors['text'], alpha=0.7)
         
         positions[name] = (x, y)
     
@@ -193,8 +186,8 @@ def generate() -> plt.Figure:
         ax.plot([cx, cx], [mid_y, end_y], 
                 color=colors['text'], linewidth=1.5, alpha=0.5)
     
-    # Dibujar pequeños ejemplos de figuras
-    example_size = 0.4
+    # Dibujar pequeños ejemplos de figuras al lado de cada caja
+    example_size = 0.32
     examples = {
         "Rectángulo": 'rectangle',
         "Rombo": 'rhombus', 
@@ -205,18 +198,62 @@ def generate() -> plt.Figure:
     
     for name, shape in examples.items():
         x, y = positions[name]
-        x_offset = box_width/2 + 0.5
+        x_offset = box_width/2 + 0.45
         draw_mini_shape(ax, (x + x_offset, y), shape, example_size, colors)
     
     # Configurar ejes
-    ax.set_xlim(-9, 9)
-    ax.set_ylim(-1, 7.5)
+    ax.set_xlim(-7, 7)
+    ax.set_ylim(-0.8, 5.8)
     ax.set_aspect('equal')
     ax.axis('off')
     
-    # Título
-    ax.set_title('Clasificación de Cuadriláteros', 
-                fontsize=16, fontweight='bold', pad=20)
+    # =========================================
+    # PANEL INFERIOR: Descripciones
+    # =========================================
+    ax_info.axis('off')
+    ax_info.set_xlim(0, 1)
+    ax_info.set_ylim(0, 1)
+    
+    # Línea separadora superior
+    ax_info.axhline(y=0.95, xmin=0.02, xmax=0.98, color='#d1d5db', lw=1.5)
+    
+    # Título del panel
+    ax_info.text(0.5, 0.88, 'Definiciones', fontsize=11, fontweight='bold', 
+                ha='center', color=colors['primary'])
+    
+    # Descripciones en dos columnas
+    descriptions_left = [
+        ('Paralelogramos', 'Lados opuestos paralelos', colors['primary']),
+        ('Rectángulo', '4 ángulos rectos', colors['accent']),
+        ('Rombo', '4 lados iguales', colors['accent']),
+        ('Cuadrado', 'Rectángulo + Rombo', colors['accent']),
+    ]
+    
+    descriptions_right = [
+        ('No Paralelogramos', 'Sin 2 pares paralelos', colors['tertiary']),
+        ('Trapecio', '1 par de lados paralelos', colors['secondary']),
+        ('Trapezoide', 'Ningún lado paralelo', colors['secondary']),
+    ]
+    
+    # Columna izquierda
+    for i, (name, desc, col) in enumerate(descriptions_left):
+        y = 0.72 - i*0.18
+        ax_info.text(0.05, y, '•', fontsize=12, color=col, va='center', fontweight='bold')
+        ax_info.text(0.08, y, f'{name}:', fontsize=9, color='#374151', va='center', fontweight='bold')
+        ax_info.text(0.23, y, desc, fontsize=9, color='#6b7280', va='center')
+    
+    # Columna derecha
+    for i, (name, desc, col) in enumerate(descriptions_right):
+        y = 0.72 - i*0.18
+        ax_info.text(0.55, y, '•', fontsize=12, color=col, va='center', fontweight='bold')
+        ax_info.text(0.58, y, f'{name}:', fontsize=9, color='#374151', va='center', fontweight='bold')
+        ax_info.text(0.78, y, desc, fontsize=9, color='#6b7280', va='center')
+    
+    # Línea vertical separadora
+    ax_info.axvline(x=0.50, ymin=0.10, ymax=0.85, color='#e5e7eb', lw=1)
+    
+    # Título general
+    fig.suptitle('Clasificación de Cuadriláteros', fontsize=14, fontweight='bold')
     
     return fig
 

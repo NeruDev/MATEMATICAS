@@ -8,7 +8,7 @@ Usado en: problems/FUN-04-Problemas.md (Prob-24)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(10, 9))
+    fig, ax = plt.subplots(figsize=(10, 9), layout='constrained')
     
     # Triángulo equilátero de lado L
     L = 4
@@ -109,9 +109,8 @@ def generate() -> plt.Figure:
     ax.axis('off')
     ax.legend(loc='upper left', fontsize=10)
     
-    ax.set_title('Triángulo Equilátero - Elementos', fontsize=14, fontweight='bold', y=1.02)
+    ax.set_title('Triángulo Equilátero - Elementos', fontsize=14, fontweight='bold')
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():

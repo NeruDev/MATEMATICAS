@@ -141,3 +141,109 @@ Ejemplos:
 - `[función](../glossary.md#funcion)`
 - `[valor absoluto](../glossary.md#valor-absoluto)`
 - `[regla de la cadena](../glossary.md#regla-de-la-cadena)`
+
+---
+
+## 8. Creación de Gráficos con Python/Matplotlib
+
+> **⚠️ DIRECTIVA CRÍTICA:** Todos los gráficos matemáticos DEBEN seguir la guía de estilos en [`00-META/tools/graphics/graphics_style_guide.md`](tools/graphics/graphics_style_guide.md).
+
+### 8.1 Principio Fundamental
+
+**SEPARACIÓN FIGURA-TEXTO:** Nunca colocar texto explicativo largo dentro del área de la figura geométrica.
+
+| En la figura | En panel separado |
+|--------------|-------------------|
+| Letras (A, B, C) | Fórmulas completas |
+| Símbolos (α, β, θ) | Leyendas explicativas |
+| Medidas esenciales (90°) | Propiedades y teoremas |
+| Símbolos de relación (~, ≅) | Demostraciones |
+
+### 8.2 Estructura Obligatoria con GridSpec
+
+```python
+fig = plt.figure(figsize=(12, 7), layout='constrained')
+gs = fig.add_gridspec(1, 2, width_ratios=[1.3, 1], wspace=0.08)
+
+ax_fig = fig.add_subplot(gs[0])   # Panel: figura geométrica
+ax_info = fig.add_subplot(gs[1])  # Panel: información
+```
+
+**Layouts disponibles:**
+- **Horizontal** (1×2): Figura izquierda + Info derecha
+- **Vertical** (2×1): Figura(s) arriba + Info abajo
+- **Mixto** (2×N): Grid de figuras + Info en fila inferior
+
+### 8.3 Elemento Didáctico Obligatorio: Caja de Fórmula
+
+Todo gráfico DEBE incluir una caja de fórmula principal destacada:
+
+```python
+# Caja de fórmula (OBLIGATORIA)
+ax_info.add_patch(plt.Rectangle(
+    (0.05, 0.78), 0.9, 0.18,
+    facecolor='#fffbeb',           # Amarillo claro
+    edgecolor=colors['tertiary'],  # Borde de acento
+    linewidth=2,
+    transform=ax_info.transAxes
+))
+ax_info.text(0.5, 0.90, 'FÓRMULA PRINCIPAL', 
+            fontsize=9, fontweight='bold', ha='center')
+ax_info.text(0.5, 0.82, r'$fórmula$', 
+            fontsize=22, ha='center', fontweight='bold')
+```
+
+### 8.4 Estructura del Panel Informativo
+
+```
+┌─────────────────────────────────┐
+│     FÓRMULA PRINCIPAL           │  ← Caja destacada (obligatoria)
+├─────────────────────────────────┤
+│   Leyenda de Símbolos           │  ← Correspondencia símbolo-significado
+├─────────────────────────────────┤
+│   Propiedad / Teorema           │  ← Enunciado textual
+├─────────────────────────────────┤
+│   Demostración (opcional)       │  ← En caja separada
+└─────────────────────────────────┘
+```
+
+### 8.5 Paleta de Colores Estándar
+
+| Contexto | Color | Código |
+|----------|-------|--------|
+| Figura principal | primary | `#3b82f6` |
+| Elementos secundarios | secondary | `#10b981` |
+| Destacados | accent | `#f59e0b` |
+| Fórmulas/énfasis | tertiary | `#8b5cf6` |
+| Texto | text | `#374151` |
+| Fondo fórmula | - | `#fffbeb` |
+| Separadores | - | `#e5e7eb` |
+
+### 8.6 Checklist de Gráficos
+
+Antes de finalizar cualquier gráfico:
+
+- [ ] ¿Usa `layout='constrained'` en la figura?
+- [ ] ¿Tiene GridSpec con paneles separados?
+- [ ] ¿Incluye caja de fórmula destacada?
+- [ ] ¿Las etiquetas en la figura son mínimas (solo símbolos)?
+- [ ] ¿La leyenda explica todos los símbolos usados?
+- [ ] ¿Usa `ax.set_aspect('equal')` para figuras geométricas?
+- [ ] ¿No hay texto superpuesto?
+
+### 8.7 Ubicación de Archivos
+
+| Tipo | Ubicación |
+|------|-----------|
+| Scripts fuente | `00-META/tools/graphics/sources/FUN-XX/` |
+| Imágenes generadas | `01-Fundamentos/XX-Tema/media/generated/` |
+| Guía de estilos | `00-META/tools/graphics/graphics_style_guide.md` |
+| Templates | `00-META/tools/graphics/templates.py` |
+
+### 8.8 Referencia en Markdown
+
+```markdown
+![Título Descriptivo](../media/generated/nombre_grafico.png)
+
+*Figura X.Y.Z: Descripción de lo que muestra el gráfico*
+```

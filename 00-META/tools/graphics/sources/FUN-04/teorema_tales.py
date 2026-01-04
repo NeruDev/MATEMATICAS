@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.8)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6), layout='constrained')
     
     # === Versión en triángulo ===
     A = np.array([2, 4])
@@ -125,8 +125,7 @@ def generate() -> plt.Figure:
     ax2.set_aspect('equal')
     ax2.axis('off')
     
-    fig.suptitle('Teorema de Tales', fontsize=14, fontweight='bold', y=0.98)
-    plt.tight_layout()
+    fig.suptitle('Teorema de Tales', fontsize=14, fontweight='bold')
     return fig
 
 def get_output_dir():

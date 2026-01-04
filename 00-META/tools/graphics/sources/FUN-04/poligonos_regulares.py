@@ -8,7 +8,7 @@ Usado en: theory/FUN-04-Teoria-Geometria.md (sección 4.5)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,7 +58,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(14, 8), layout='constrained')
     
     polygons = [
         (3, 'Triángulo', 60, colors['primary']),
@@ -91,7 +91,7 @@ def generate() -> plt.Figure:
     ax.set_aspect('equal')
     ax.axis('off')
     
-    ax.set_title('Polígonos Regulares', fontsize=14, fontweight='bold', y=1.02)
+    ax.set_title('Polígonos Regulares', fontsize=14, fontweight='bold', pad=15)
     
     # Leyenda
     ax.plot([0.5, 0.8], [4.2, 4.2], '--', color='#6b7280', lw=1)
@@ -99,7 +99,6 @@ def generate() -> plt.Figure:
     ax.plot([2.5, 2.8], [4.2, 4.2], ':', color='#9ca3af', lw=1.5)
     ax.text(3, 4.2, 'Apotema', va='center', fontsize=9, color='#9ca3af')
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():

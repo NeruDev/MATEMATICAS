@@ -11,7 +11,7 @@ Muestra las cuatro líneas notables: mediana, altura, mediatriz, bisectriz.
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -44,14 +44,20 @@ def generate() -> plt.Figure:
     """
     Genera el diagrama con las cuatro líneas notables.
     
+    Sigue las guías de estilo de graphics_style_guide.md
+    
     Returns:
-        Figura de matplotlib con 4 subplots.
+        Figura de matplotlib con GridSpec (figuras arriba, leyenda abajo).
     """
     setup_style()
     colors = get_colors()
     
-    fig, axes = plt.subplots(2, 2, figsize=(12, 12))
-    axes = axes.flatten()
+    # Layout con GridSpec: 4 figuras arriba, info abajo
+    fig = plt.figure(figsize=(14, 10), layout='constrained')
+    gs = fig.add_gridspec(2, 4, height_ratios=[3, 1], hspace=0.15, wspace=0.1)
+    
+    axes = [fig.add_subplot(gs[0, i]) for i in range(4)]
+    ax_info = fig.add_subplot(gs[1, :])
     
     # Triángulo base (mismo para todos)
     A = np.array([0, 0])
@@ -73,45 +79,79 @@ def generate() -> plt.Figure:
                               edgecolor=colors['primary'], linewidth=2)
         ax.add_patch(triangle)
         
-        # Etiquetas de vértices
-        ax.text(A[0] - 0.3, A[1] - 0.3, '$A$', fontsize=13, fontweight='bold')
-        ax.text(B[0] + 0.2, B[1] - 0.3, '$B$', fontsize=13, fontweight='bold')
-        ax.text(C[0] - 0.3, C[1] + 0.2, '$C$', fontsize=13, fontweight='bold')
+        # Etiquetas de vértices (mínimas)
+        ax.text(A[0] - 0.3, A[1] - 0.3, 'A', fontsize=11, fontweight='bold')
+        ax.text(B[0] + 0.2, B[1] - 0.3, 'B', fontsize=11, fontweight='bold')
+        ax.text(C[0] - 0.3, C[1] + 0.2, 'C', fontsize=11, fontweight='bold')
         
         # Dibujar línea notable específica
-        draw_func(ax, A, B, C, color)
+        draw_func(ax, A, B, C, color, minimal=True)
         
         # Configurar subplot
-        ax.set_xlim(-1.5, 7.5)
-        ax.set_ylim(-1.5, 6)
+        ax.set_xlim(-1, 7)
+        ax.set_ylim(-0.8, 5.5)
         ax.set_aspect('equal')
         ax.axis('off')
-        ax.set_title(title, fontsize=14, fontweight='bold', pad=10)
+        ax.set_title(title, fontsize=12, fontweight='bold', pad=8, color=color)
     
-    plt.tight_layout()
+    # =========================================
+    # PANEL INFERIOR: Información
+    # =========================================
+    ax_info.axis('off')
+    ax_info.set_xlim(0, 1)
+    ax_info.set_ylim(0, 1)
+    
+    # Línea separadora superior
+    ax_info.axhline(y=0.95, xmin=0.02, xmax=0.98, color='#d1d5db', lw=1.5)
+    
+    # Tabla de definiciones (4 columnas)
+    definitions = [
+        ('Mediana', 'Une vértice con punto medio\ndel lado opuesto', 'Centroide (G)', colors['accent']),
+        ('Altura', 'Perpendicular desde\nvértice al lado opuesto', 'Ortocentro (H)', colors['secondary']),
+        ('Mediatriz', 'Perpendicular por el\npunto medio del lado', 'Circuncentro (O)', colors['tertiary']),
+        ('Bisectriz', 'Divide el ángulo\nen dos partes iguales', 'Incentro (I)', '#f59e0b'),
+    ]
+    
+    x_positions = [0.125, 0.375, 0.625, 0.875]
+    for i, (name, defn, point, color) in enumerate(definitions):
+        x = x_positions[i]
+        ax_info.text(x, 0.82, name, fontsize=10, fontweight='bold', ha='center', color=color)
+        ax_info.text(x, 0.55, defn, fontsize=8, ha='center', va='top', 
+                    color='#4b5563', linespacing=1.3)
+        ax_info.text(x, 0.18, point, fontsize=9, ha='center', 
+                    color=color, fontweight='bold',
+                    bbox=dict(facecolor='white', edgecolor=color, 
+                             boxstyle='round,pad=0.2', linewidth=1))
+    
+    # Separadores verticales
+    for x in [0.25, 0.5, 0.75]:
+        ax_info.axvline(x=x, ymin=0.08, ymax=0.90, color='#e5e7eb', lw=1)
+    
+    # Título general
+    fig.suptitle('Líneas Notables del Triángulo', fontsize=14, fontweight='bold')
     
     return fig
 
 
-def draw_median(ax, A, B, C, color):
+def draw_median(ax, A, B, C, color, minimal=False):
     """Dibuja la mediana desde C al punto medio de AB."""
     M = (A + B) / 2  # Punto medio de AB
     
     ax.plot([C[0], M[0]], [C[1], M[1]], color=color, linewidth=2.5)
-    ax.plot(*M, 'o', color=color, markersize=8)
+    ax.plot(*M, 'o', color=color, markersize=7)
     
-    # Etiqueta
-    ax.text(M[0], M[1] - 0.4, '$M$', fontsize=12, ha='center', color=color)
+    # Etiqueta del punto
+    ax.text(M[0], M[1] - 0.4, 'M', fontsize=10, ha='center', color=color)
     
-    # Descripción
-    ax.text(3, -0.8, 'Une vértice con punto\nmedio del lado opuesto',
-            fontsize=10, ha='center', style='italic')
-    ax.text(3, 5.3, 'Punto de concurrencia:\nCentroide (G)',
-            fontsize=10, ha='center', color=color,
-            bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    if not minimal:
+        ax.text(3, -0.8, 'Une vértice con punto\nmedio del lado opuesto',
+                fontsize=10, ha='center', style='italic')
+        ax.text(3, 5.3, 'Punto de concurrencia:\nCentroide (G)',
+                fontsize=10, ha='center', color=color,
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
 
 
-def draw_altura(ax, A, B, C, color):
+def draw_altura(ax, A, B, C, color, minimal=False):
     """Dibuja la altura desde C perpendicular a AB."""
     # Proyección de C sobre AB
     AB = B - A
@@ -120,7 +160,7 @@ def draw_altura(ax, A, B, C, color):
     H = A + t * AB
     
     ax.plot([C[0], H[0]], [C[1], H[1]], color=color, linewidth=2.5, linestyle='--')
-    ax.plot(*H, 'o', color=color, markersize=8)
+    ax.plot(*H, 'o', color=color, markersize=7)
     
     # Ángulo recto
     size = 0.3
@@ -133,16 +173,17 @@ def draw_altura(ax, A, B, C, color):
             [H[1] + size * AB_unit[1], H[1] + size * AB_unit[1] + size * perp[1]], 
             color=color, linewidth=1.5)
     
-    ax.text(H[0] + 0.3, H[1] - 0.3, '$H$', fontsize=12, color=color)
+    ax.text(H[0] + 0.3, H[1] - 0.3, 'H', fontsize=10, color=color)
     
-    ax.text(3, -0.8, 'Perpendicular desde vértice\nal lado opuesto',
-            fontsize=10, ha='center', style='italic')
-    ax.text(3, 5.3, 'Punto de concurrencia:\nOrtocentro (H)',
-            fontsize=10, ha='center', color=color,
-            bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    if not minimal:
+        ax.text(3, -0.8, 'Perpendicular desde vértice\nal lado opuesto',
+                fontsize=10, ha='center', style='italic')
+        ax.text(3, 5.3, 'Punto de concurrencia:\nOrtocentro (H)',
+                fontsize=10, ha='center', color=color,
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
 
 
-def draw_mediatriz(ax, A, B, C, color):
+def draw_mediatriz(ax, A, B, C, color, minimal=False):
     """Dibuja la mediatriz de AB."""
     M = (A + B) / 2
     
@@ -152,32 +193,33 @@ def draw_mediatriz(ax, A, B, C, color):
     perp = perp / np.linalg.norm(perp)
     
     # Extender la mediatriz
-    P1 = M - 2.5 * perp
-    P2 = M + 2.5 * perp
+    P1 = M - 2.0 * perp
+    P2 = M + 2.0 * perp
     
     ax.plot([P1[0], P2[0]], [P1[1], P2[1]], color=color, linewidth=2.5)
-    ax.plot(*M, 'o', color=color, markersize=8)
+    ax.plot(*M, 'o', color=color, markersize=7)
     
     # Marcas de igualdad en AM y MB
     mark_pos_1 = (A + M) / 2
     mark_pos_2 = (M + B) / 2
-    mark_len = 0.15
+    mark_len = 0.12
     
     for pos in [mark_pos_1, mark_pos_2]:
         ax.plot([pos[0] - mark_len * perp[0], pos[0] + mark_len * perp[0]],
                 [pos[1] - mark_len * perp[1], pos[1] + mark_len * perp[1]],
                 color=color, linewidth=2)
     
-    ax.text(M[0] + 0.3, M[1] - 0.3, '$M$', fontsize=12, color=color)
+    ax.text(M[0] + 0.3, M[1] - 0.3, 'M', fontsize=10, color=color)
     
-    ax.text(3, -0.8, 'Perpendicular que pasa\npor punto medio del lado',
-            fontsize=10, ha='center', style='italic')
-    ax.text(3, 5.3, 'Punto de concurrencia:\nCircuncentro (O)',
-            fontsize=10, ha='center', color=color,
-            bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    if not minimal:
+        ax.text(3, -0.8, 'Perpendicular que pasa\npor punto medio del lado',
+                fontsize=10, ha='center', style='italic')
+        ax.text(3, 5.3, 'Punto de concurrencia:\nCircuncentro (O)',
+                fontsize=10, ha='center', color=color,
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
 
 
-def draw_bisectriz(ax, A, B, C, color):
+def draw_bisectriz(ax, A, B, C, color, minimal=False):
     """Dibuja la bisectriz del ángulo en C."""
     # Vectores desde C hacia A y B
     CA = A - C
@@ -192,7 +234,6 @@ def draw_bisectriz(ax, A, B, C, color):
     bisector_dir = bisector_dir / np.linalg.norm(bisector_dir)
     
     # Encontrar intersección con AB
-    # Parametrización: C + t * bisector_dir = A + s * (B - A)
     AB = B - A
     denom = bisector_dir[0] * AB[1] - bisector_dir[1] * AB[0]
     if abs(denom) > 1e-10:
@@ -202,10 +243,10 @@ def draw_bisectriz(ax, A, B, C, color):
         D = (A + B) / 2  # fallback
     
     ax.plot([C[0], D[0]], [C[1], D[1]], color=color, linewidth=2.5)
-    ax.plot(*D, 'o', color=color, markersize=8)
+    ax.plot(*D, 'o', color=color, markersize=7)
     
     # Arcos para mostrar ángulos iguales
-    arc_radius = 0.8
+    arc_radius = 0.7
     angle_CA = np.degrees(np.arctan2(CA[1], CA[0]))
     angle_CB = np.degrees(np.arctan2(CB[1], CB[0]))
     angle_mid = np.degrees(np.arctan2(bisector_dir[1], bisector_dir[0]))
@@ -221,13 +262,14 @@ def draw_bisectriz(ax, A, B, C, color):
     ax.add_patch(arc1)
     ax.add_patch(arc2)
     
-    ax.text(D[0] + 0.3, D[1] + 0.2, '$D$', fontsize=12, color=color)
+    ax.text(D[0] + 0.3, D[1] + 0.2, 'D', fontsize=10, color=color)
     
-    ax.text(3, -0.8, 'Divide el ángulo\nen dos partes iguales',
-            fontsize=10, ha='center', style='italic')
-    ax.text(3, 5.3, 'Punto de concurrencia:\nIncentro (I)',
-            fontsize=10, ha='center', color=color,
-            bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    if not minimal:
+        ax.text(3, -0.8, 'Divide el ángulo\nen dos partes iguales',
+                fontsize=10, ha='center', style='italic')
+        ax.text(3, 5.3, 'Punto de concurrencia:\nIncentro (I)',
+                fontsize=10, ha='center', color=color,
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
 
 
 def get_output_dir():

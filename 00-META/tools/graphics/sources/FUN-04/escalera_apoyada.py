@@ -8,7 +8,7 @@ Usado en: problems/FUN-04-Problemas.md (Prob-85)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(10, 8), layout='constrained')
     
     # Parámetros: escalera de 5m, base a 3m → altura = 4m
     base = 3
@@ -99,9 +99,8 @@ def generate() -> plt.Figure:
     ax.set_aspect('equal')
     ax.axis('off')
     
-    ax.set_title('Problema de la Escalera Apoyada', fontsize=14, fontweight='bold', y=1.02)
+    ax.set_title('Problema de la Escalera Apoyada', fontsize=14, fontweight='bold', pad=15)
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():

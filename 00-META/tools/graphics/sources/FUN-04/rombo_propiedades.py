@@ -8,7 +8,7 @@ Usado en: problems/FUN-04-Problemas.md (Prob-33, Prob-65, Prob-88)
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def generate() -> plt.Figure:
     setup_style()
     colors = get_colors()
     
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(10, 8), layout='constrained')
     
     # Rombo con diagonales D=8 y d=6
     D = 4  # semi-diagonal mayor
@@ -57,13 +57,15 @@ def generate() -> plt.Figure:
     
     # Centro
     ax.plot(0, 0, 'o', color='#374151', markersize=8)
-    ax.text(0.2, -0.35, 'O', fontsize=11, fontweight='bold')
+    ax.text(0.2, -0.35, 'O', fontsize=11, fontweight='bold',
+           bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.1'))
     
     # Vértices
     for p, label, offset in [(A, 'A', (0.2, 0)), (B, 'B', (0.2, 0.2)), 
                               (C, 'C', (-0.4, 0)), (E, 'D', (0.2, -0.2))]:
         ax.plot(p[0], p[1], 'o', color=colors['primary'], markersize=7)
-        ax.text(p[0]+offset[0], p[1]+offset[1], label, fontsize=11, fontweight='bold')
+        ax.text(p[0]+offset[0], p[1]+offset[1], label, fontsize=11, fontweight='bold',
+               bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.1'))
     
     # Lado (calculado con Pitágoras)
     lado = np.sqrt(D**2 + d**2) / 1  # En realidad es sqrt((D/2)^2 + (d/2)^2) para semi-diagonales
@@ -121,9 +123,8 @@ def generate() -> plt.Figure:
     ax.axis('off')
     ax.legend(loc='upper right', fontsize=10)
     
-    ax.set_title('Rombo - Diagonales y Propiedades', fontsize=14, fontweight='bold', y=1.02)
+    ax.set_title('Rombo - Diagonales y Propiedades', fontsize=14, fontweight='bold', pad=15)
     
-    plt.tight_layout()
     return fig
 
 def get_output_dir():
