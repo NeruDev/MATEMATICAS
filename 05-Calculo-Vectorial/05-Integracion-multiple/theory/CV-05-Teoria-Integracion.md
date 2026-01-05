@@ -70,6 +70,10 @@ $$\iint_D f(x, y)\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x, y)\, dx\, dy$$
 - A veces un orden es imposible o muy difícil; el otro puede ser factible
 - Para cambiar el orden: dibujar la región e identificar los nuevos [límites](../../../glossary.md#limites)
 
+![Regiones de integración doble](../media/generated/regiones_integracion_doble.png)
+
+*Figura 5.2.1: Regiones tipo I (simple en $y$) y tipo II (simple en $x$) para integrales dobles.*
+
 ### Valor medio
 
 $$f_{\text{prom}} = \frac{1}{\text{Área}(D)} \iint_D f(x, y)\, dA$$
@@ -205,6 +209,10 @@ $$\iiint_E f(x,y,z)\, dV = \iiint f(r\cos\theta, r\sin\theta, z)\, r\, dr\, d\th
 | Cono | $0 \leq z \leq h$, $0 \leq r \leq az$ |
 | Paraboloide | $0 \leq z \leq c - r^2$ |
 
+![Coordenadas cilíndricas](../media/generated/coordenadas_cilindricas.png)
+
+*Figura 5.6.1: Sistema de coordenadas cilíndricas $(r, \theta, z)$ y elemento de volumen $dV = r\,dr\,d\theta\,dz$.*
+
 ---
 
 ## 5.7 Coordenadas esféricas
@@ -248,6 +256,10 @@ $$\iiint_E f(x,y,z)\, dV = \iiint f(\rho\sin\phi\cos\theta, \rho\sin\phi\sin\the
 | Octante | $0 \leq \rho \leq R$, $0 \leq \phi \leq \pi/2$, $0 \leq \theta \leq \pi/2$ |
 | Cono $\phi = \phi_0$ | $0 \leq \phi \leq \phi_0$ |
 | Capa esférica | $a \leq \rho \leq b$ |
+
+![Coordenadas esféricas](../media/generated/coordenadas_esfericas.png)
+
+*Figura 5.7.1: Sistema de coordenadas esféricas $(\rho, \phi, \theta)$ y elemento de volumen $dV = \rho^2\sin\phi\,d\rho\,d\phi\,d\theta$.*
 
 ---
 
@@ -383,6 +395,10 @@ Relaciona el flujo de $\mathbf{F}$ a través de $S$ con la integral de la [diver
 | **Divergencia** | $\nabla \cdot \mathbf{F} = P_x + Q_y + R_z$ |
 | **Rotacional** | $\nabla \times \mathbf{F} = \langle R_y - Q_z, P_z - R_x, Q_x - P_y \rangle$ |
 | **Laplaciano** | $\nabla^2 f = f_{xx} + f_{yy} + f_{zz}$ |
+
+![Teoremas integrales](../media/generated/teoremas_integrales.png)
+
+*Figura 5.12.1: Ilustración de los teoremas de Green, Stokes y Divergencia que relacionan integrales de línea, superficie y volumen.*
 
 ---
 

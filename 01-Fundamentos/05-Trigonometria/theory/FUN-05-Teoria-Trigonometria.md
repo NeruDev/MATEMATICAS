@@ -100,6 +100,10 @@ $$\cot\theta = \frac{1}{\tan\theta} = \frac{b}{a}$$
 - **C**oseno = **A**dyacente / **H**ipotenusa
 - **T**angente = **O**puesto / **A**dyacente
 
+![Razones trigonométricas en el triángulo rectángulo](../media/generated/triangulo_razones_trig.png)
+
+*Figura 5.2.1: Triángulo rectángulo con las razones trigonométricas seno, coseno y tangente.*
+
 ---
 
 ## 5.3 Funciones trigonométricas en el círculo unitario
@@ -136,6 +140,10 @@ El **ángulo de referencia** $\theta_r$ es el ángulo agudo formado entre el lad
 | III | $\theta_r = \theta - 180°$ |
 | IV | $\theta_r = 360° - \theta$ |
 
+![Círculo unitario](../media/generated/circulo_unitario.png)
+
+*Figura 5.3.1: Círculo unitario mostrando las coordenadas $(\cos\theta, \sin\theta)$ y los signos por cuadrante.*
+
 ---
 
 ## 5.4 Identidades trigonométricas fundamentales
@@ -169,6 +177,10 @@ $$\tan\theta \cdot \cot\theta = 1$$
 | | $\cot(-\theta) = -\cot\theta$ |
 | | $\csc(-\theta) = -\csc\theta$ |
 
+![Identidades pitagóricas](../media/generated/identidades_pitagoricas.png)
+
+*Figura 5.4.1: Representación geométrica de la identidad fundamental $\sin^2\theta + \cos^2\theta = 1$.*
+
 ---
 
 ## 5.5 Identidades de suma y diferencia
@@ -188,6 +200,10 @@ $$\sin(\alpha - \beta) = \sin\alpha\cos\beta - \cos\alpha\sin\beta$$
 $$\cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta$$
 
 $$\tan(\alpha - \beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$$
+
+![Identidades de suma y diferencia](../media/generated/identidades_suma_diferencia.png)
+
+*Figura 5.5.1: Interpretación geométrica de las identidades de suma y diferencia de ángulos.*
 
 ---
 
@@ -210,6 +226,10 @@ $$\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}}$$
 $$\tan\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{1 + \cos\theta}} = \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}$$
 
 > **Nota:** El signo $\pm$ depende del cuadrante donde se ubica $\frac{\theta}{2}$.
+
+![Identidades de ángulo doble](../media/generated/identidades_angulo_doble.png)
+
+*Figura 5.6.1: Visualización de las identidades de ángulo doble: $\sin(2\theta)$ y $\cos(2\theta)$.*
 
 ---
 
@@ -279,6 +299,14 @@ $$\cos C = \frac{a^2 + b^2 - c^2}{2ab}$$
 
 $$\frac{a - b}{a + b} = \frac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$$
 
+![Ley de senos](../media/generated/ley_senos.png)
+
+*Figura 5.8.1: Ley de senos: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$.*
+
+![Ley de cosenos](../media/generated/ley_cosenos.png)
+
+*Figura 5.8.2: Ley de cosenos: $c^2 = a^2 + b^2 - 2ab\cos C$.*
+
 ---
 
 ## 5.9 Áreas de triángulos
@@ -319,6 +347,10 @@ $$\arcsin x + \arccos x = \frac{\pi}{2}$$
 
 $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 0 \\ -\frac{\pi}{2} & \text{si } x < 0 \end{cases}$$
 
+![Funciones trigonométricas inversas](../media/generated/funciones_inversas.png)
+
+*Figura 5.10.1: Gráficas de las funciones inversas $\arcsin x$, $\arccos x$ y $\arctan x$.*
+
 ---
 
 ## 5.11 Gráficas de funciones trigonométricas
@@ -342,6 +374,18 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 | $\cot x$ | $\pi$ | $\nexists$ | $x \neq n\pi$ | $\mathbb{R}$ |
 | $\sec x$ | $2\pi$ | $\nexists$ | $x \neq \frac{\pi}{2} + n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
 | $\csc x$ | $2\pi$ | $\nexists$ | $x \neq n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+
+![Gráficas de seno y coseno](../media/generated/graficas_seno_coseno.png)
+
+*Figura 5.11.1: Gráficas de las funciones seno y coseno mostrando amplitud, periodo y desfase.*
+
+![Gráficas de tangente y secante](../media/generated/graficas_tan_sec.png)
+
+*Figura 5.11.2: Gráficas de las funciones tangente y secante con sus asíntotas verticales.*
+
+![Transformaciones trigonométricas](../media/generated/transformaciones_trig.png)
+
+*Figura 5.11.3: Efecto de los parámetros $A$, $B$, $C$, $D$ en $y = A\sin(Bx + C) + D$.*
 
 ---
 
