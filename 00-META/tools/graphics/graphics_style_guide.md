@@ -352,10 +352,345 @@ if __name__ == "__main__":
 
 ---
 
+## 11. Gráficos 3D para Cálculo Vectorial
+
+### 11.1 Principios para Visualización 3D
+
+Los gráficos 3D requieren consideraciones especiales para mantener la claridad didáctica:
+
+> **Regla fundamental 3D:** Priorizar la comprensión sobre la complejidad visual. Usar múltiples vistas cuando una sola perspectiva no sea suficiente.
+
+### 11.2 Configuración de Ejes 3D
+
+```python
+from mpl_toolkits.mplot3d import Axes3D
+
+fig = plt.figure(figsize=(14, 8), layout='constrained')
+
+# Opción 1: Un solo gráfico 3D con panel de info
+gs = fig.add_gridspec(1, 2, width_ratios=[1.5, 1], wspace=0.1)
+ax_3d = fig.add_subplot(gs[0], projection='3d')
+ax_info = fig.add_subplot(gs[1])
+
+# Opción 2: Múltiples vistas 3D
+gs = fig.add_gridspec(2, 2, height_ratios=[1.2, 1])
+ax_main = fig.add_subplot(gs[0, 0], projection='3d')  # Vista principal
+ax_top = fig.add_subplot(gs[0, 1], projection='3d')   # Vista superior
+ax_info = fig.add_subplot(gs[1, :])                   # Panel de info
+```
+
+### 11.3 Configuración Estándar de Ejes 3D
+
+```python
+# Configuración base para claridad
+ax_3d.set_xlabel('X', fontsize=11, labelpad=10)
+ax_3d.set_ylabel('Y', fontsize=11, labelpad=10)
+ax_3d.set_zlabel('Z', fontsize=11, labelpad=10)
+
+# Ángulo de vista óptimo (ajustar según el objeto)
+ax_3d.view_init(elev=25, azim=45)  # Elevación y azimut
+
+# Escala igual en todos los ejes (IMPORTANTE para geometría)
+ax_3d.set_box_aspect([1, 1, 1])
+
+# Rejilla y fondo
+ax_3d.xaxis.pane.fill = False
+ax_3d.yaxis.pane.fill = False
+ax_3d.zaxis.pane.fill = False
+ax_3d.xaxis.pane.set_edgecolor('#e5e7eb')
+ax_3d.yaxis.pane.set_edgecolor('#e5e7eb')
+ax_3d.zaxis.pane.set_edgecolor('#e5e7eb')
+```
+
+### 11.4 Tipos de Gráficos 3D
+
+#### Superficies (`plot_surface`)
+Para funciones $z = f(x, y)$: superficies, paraboloides, planos tangentes.
+
+```python
+# Crear malla
+x = np.linspace(-3, 3, 50)
+y = np.linspace(-3, 3, 50)
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+# Superficie con colores
+surf = ax_3d.plot_surface(X, Y, Z, 
+                          cmap='viridis',      # Mapa de colores
+                          alpha=0.8,            # Transparencia
+                          edgecolor='none',     # Sin bordes de malla
+                          antialiased=True)
+
+# Barra de color (opcional)
+fig.colorbar(surf, ax=ax_3d, shrink=0.5, aspect=10, label='z')
+```
+
+#### Superficies con Wireframe
+Para mostrar estructura sin llenar.
+
+```python
+ax_3d.plot_wireframe(X, Y, Z, 
+                     color=colors['primary'],
+                     linewidth=0.5, 
+                     alpha=0.7,
+                     rstride=3, cstride=3)  # Densidad del wireframe
+```
+
+#### Curvas en el Espacio (`plot`)
+Para funciones vectoriales $\mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle$.
+
+```python
+t = np.linspace(0, 2*np.pi, 100)
+x = np.cos(t)
+y = np.sin(t)
+z = t / (2*np.pi)
+
+ax_3d.plot(x, y, z, 
+           color=colors['primary'], 
+           linewidth=2.5,
+           label='Hélice')
+```
+
+#### Vectores 3D (`quiver`)
+Para campos vectoriales, gradientes, normales.
+
+```python
+# Un solo vector
+ax_3d.quiver(x0, y0, z0,    # Punto inicial
+             dx, dy, dz,     # Componentes
+             color=colors['secondary'],
+             arrow_length_ratio=0.1,
+             linewidth=2)
+
+# Campo vectorial (grid de vectores)
+ax_3d.quiver(X, Y, Z, U, V, W,
+             length=0.3,
+             normalize=True,
+             color=colors['primary'],
+             alpha=0.6)
+```
+
+#### Curvas de Nivel en 3D (`contour3D`, `contourf`)
+Para visualizar curvas de nivel sobre la superficie.
+
+```python
+# Curvas de nivel proyectadas en z=0
+ax_3d.contour(X, Y, Z, zdir='z', offset=z_min, 
+              cmap='coolwarm', levels=10, alpha=0.7)
+
+# Curvas de nivel en la propia superficie
+ax_3d.contour3D(X, Y, Z, 50, cmap='viridis')
+```
+
+### 11.5 Paleta de Colores para 3D
+
+| Tipo de Objeto | Colormap/Color | Uso |
+|----------------|----------------|-----|
+| Superficies principales | `viridis`, `plasma` | Funciones z=f(x,y) |
+| Planos tangentes | `#3b82f6` (primary) + alpha | Aproximaciones lineales |
+| Vectores normales | `#dc2626` (rojo) | Gradientes, normales |
+| Curvas paramétricas | `colors['primary']` | Trayectorias |
+| Campos vectoriales | `coolwarm` o flechas sólidas | Gradiente, flujo |
+| Regiones/dominios | `#10b981` (secondary) + alpha | Áreas de integración |
+
+### 11.6 Transparencia y Capas
+
+La transparencia es **esencial** en 3D para mostrar relaciones:
+
+```python
+# Superficie semi-transparente (para ver vectores a través)
+ax_3d.plot_surface(X, Y, Z, alpha=0.5, cmap='viridis')
+
+# Plano tangente transparente
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+verts = [list(zip(plane_x, plane_y, plane_z))]
+ax_3d.add_collection3d(Poly3DCollection(verts, 
+                       alpha=0.3, 
+                       facecolor=colors['secondary'],
+                       edgecolor=colors['secondary']))
+```
+
+### 11.7 Vistas Múltiples Recomendadas
+
+Para conceptos complejos, usar múltiples perspectivas:
+
+```python
+# Vista isométrica (general)
+ax1.view_init(elev=30, azim=45)
+
+# Vista superior (proyección xy)
+ax2.view_init(elev=90, azim=0)
+
+# Vista frontal (proyección xz)
+ax3.view_init(elev=0, azim=0)
+
+# Vista lateral (proyección yz)
+ax4.view_init(elev=0, azim=90)
+```
+
+### 11.8 Gráficos Específicos de Cálculo Vectorial
+
+#### Vectores en el Espacio (CV-01)
+```python
+# Sistema de coordenadas 3D con vectores canónicos
+origin = np.array([0, 0, 0])
+ax_3d.quiver(*origin, 1, 0, 0, color='#dc2626', label='i')
+ax_3d.quiver(*origin, 0, 1, 0, color='#10b981', label='j')
+ax_3d.quiver(*origin, 0, 0, 1, color='#3b82f6', label='k')
+
+# Vector genérico como combinación lineal
+v = [2, 3, 1]
+ax_3d.quiver(*origin, *v, color=colors['accent'], linewidth=2)
+```
+
+#### Superficies y Curvas de Nivel (CV-04)
+```python
+# Superficie con curvas de nivel proyectadas
+Z = X**2 + Y**2  # Paraboloide
+ax_3d.plot_surface(X, Y, Z, cmap='viridis', alpha=0.7)
+ax_3d.contour(X, Y, Z, zdir='z', offset=0, cmap='viridis', levels=8)
+```
+
+#### Plano Tangente y Gradiente (CV-04)
+```python
+# Superficie
+ax_3d.plot_surface(X, Y, Z, alpha=0.5, cmap='coolwarm')
+
+# Punto de tangencia
+ax_3d.scatter([x0], [y0], [z0], color='red', s=100, zorder=5)
+
+# Plano tangente (como superficie pequeña)
+T = z0 + fx*(X_plane - x0) + fy*(Y_plane - y0)
+ax_3d.plot_surface(X_plane, Y_plane, T, alpha=0.6, color=colors['secondary'])
+
+# Vector gradiente
+ax_3d.quiver(x0, y0, z0, -fx, -fy, 1, color='#dc2626', 
+             arrow_length_ratio=0.15, linewidth=2.5,
+             label=r'$\nabla f$')
+```
+
+#### Integrales de Línea y Superficie (CV-05)
+```python
+# Curva cerrada sobre superficie
+theta = np.linspace(0, 2*np.pi, 100)
+x_curve = np.cos(theta)
+y_curve = np.sin(theta)
+z_curve = f(x_curve, y_curve)
+ax_3d.plot(x_curve, y_curve, z_curve, color=colors['accent'], linewidth=3)
+
+# Región de integración (sombreada)
+ax_3d.plot_surface(X_region, Y_region, Z_region, 
+                   alpha=0.4, color=colors['secondary'])
+```
+
+### 11.9 Animaciones y Rotación Interactiva
+
+Para notebooks o presentaciones, considerar:
+
+```python
+# Rotación automática (para GIFs/videos)
+for angle in range(0, 360, 5):
+    ax_3d.view_init(elev=30, azim=angle)
+    plt.savefig(f'frame_{angle:03d}.png')
+```
+
+### 11.10 Layout Completo para Gráficos 3D
+
+```python
+def generate() -> plt.Figure:
+    """Gráfico 3D con panel informativo."""
+    setup_style()
+    colors = get_colors()
+    
+    fig = plt.figure(figsize=(14, 8), layout='constrained')
+    gs = fig.add_gridspec(1, 2, width_ratios=[1.4, 1], wspace=0.08)
+    
+    ax_3d = fig.add_subplot(gs[0], projection='3d')
+    ax_info = fig.add_subplot(gs[1])
+    
+    # === PANEL 3D ===
+    # ... dibujar superficie/vectores/curvas ...
+    
+    ax_3d.set_xlabel('X')
+    ax_3d.set_ylabel('Y')
+    ax_3d.set_zlabel('Z')
+    ax_3d.view_init(elev=25, azim=45)
+    ax_3d.set_box_aspect([1, 1, 1])
+    
+    # === PANEL INFORMACIÓN ===
+    ax_info.axis('off')
+    ax_info.set_xlim(0, 1)
+    ax_info.set_ylim(0, 1)
+    
+    # Caja de fórmula (OBLIGATORIA)
+    ax_info.add_patch(plt.Rectangle((0.05, 0.80), 0.9, 0.16,
+                      facecolor='#fffbeb', edgecolor=colors['tertiary'], lw=2))
+    ax_info.text(0.5, 0.90, 'FÓRMULA', fontsize=9, fontweight='bold',
+                ha='center', color=colors['tertiary'])
+    ax_info.text(0.5, 0.84, r'$\nabla f = \langle f_x, f_y, f_z \rangle$',
+                fontsize=18, ha='center', color=colors['tertiary'], fontweight='bold')
+    
+    fig.suptitle('Título del Gráfico 3D', fontsize=14, fontweight='bold')
+    
+    return fig
+```
+
+### 11.11 Checklist para Gráficos 3D
+
+- [ ] **Ángulo de vista:** elegido para máxima claridad
+- [ ] **Transparencia:** superficies con alpha < 1 cuando hay superposición
+- [ ] **Escala igual:** `set_box_aspect([1,1,1])` para geometría
+- [ ] **Etiquetas de ejes:** X, Y, Z visibles y legibles
+- [ ] **Leyenda:** colores/símbolos explicados en panel info
+- [ ] **Múltiples vistas:** si una vista no es suficiente
+- [ ] **Colormaps:** usar mapas perceptualmente uniformes (viridis, plasma)
+- [ ] **Flechas:** `arrow_length_ratio` apropiado para quiver
+
+---
+
+## 12. Gráficos Específicos por Tema de Cálculo Vectorial
+
+### CV-01: Vectores en el Espacio
+| Gráfico | Elementos | Vista recomendada |
+|---------|-----------|-------------------|
+| Sistema coordenado 3D | Ejes, vectores i,j,k | Isométrica (30°, 45°) |
+| Vector posición | Punto P, vector OP, componentes | Isométrica |
+| Producto cruz | u, v, u×v, paralelogramo | Múltiples vistas |
+| Recta en el espacio | Punto, vector director, recta | Isométrica |
+| Plano en el espacio | Vector normal, plano, punto | Vista que muestre normal |
+
+### CV-03: Funciones Vectoriales
+| Gráfico | Elementos | Vista recomendada |
+|---------|-----------|-------------------|
+| Curva en el espacio | r(t), puntos, tangentes | Isométrica rotable |
+| Vectores TNB | Curva, T, N, B en punto | Múltiples vistas |
+| Curvatura | Círculo osculador, curva | Vista del plano osculador |
+| Hélice | Curva, cilindro de referencia | Isométrica |
+
+### CV-04: Funciones de Varias Variables
+| Gráfico | Elementos | Vista recomendada |
+|---------|-----------|-------------------|
+| Superficie z=f(x,y) | Superficie coloreada por altura | Isométrica |
+| Curvas de nivel | Superficie + proyección | Vista superior + 3D |
+| Plano tangente | Superficie, punto, plano | Isométrica |
+| Gradiente | Superficie, ∇f, curvas de nivel | Vista superior + 3D |
+| Derivada direccional | Curva en dirección u, pendiente | Lateral |
+
+### CV-05: Integración Múltiple
+| Gráfico | Elementos | Vista recomendada |
+|---------|-----------|-------------------|
+| Región de integración | Dominio D, límites | Vista superior |
+| Sólido de integración | Volumen, superficies límite | Isométrica |
+| Cambio de coordenadas | Cartesiano vs polar/cilíndrico | Lado a lado |
+| Integral de superficie | Superficie, elemento dS | Isométrica |
+
+---
+
 ## Historial de Cambios
 
 | Fecha | Cambio |
 |-------|--------|
 | 2026-01-03 | Creación inicial del documento |
 | 2026-01-03 | Añadida sección de caja de fórmula destacada |
+| 2026-01-04 | Añadidas secciones 11-12: Directivas para gráficos 3D (Cálculo Vectorial) |
 
