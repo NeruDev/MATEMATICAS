@@ -5,13 +5,13 @@ topic_id: meta-directory
 file_id: directory-tree
 status: stable
 audience: ai_context
-last_updated: 2025-12-30
-change_log: "Eliminado hide_frontmatter.py (integrado en validate_repo.py), actualizada estructura"
+last_updated: 2026-01-05
+change_log: "Actualizado con archivos raíz, herramientas completas y guía de arquitectura"
 -->
 
 # Árbol de Directorios del Repositorio de Matemáticas
 
-*Última actualización: 2025-12-30*
+*Última actualización: 2026-01-05*
 
 > **Nota:** Este archivo debe actualizarse con cada cambio estructural en el repositorio.
 
@@ -24,11 +24,21 @@ MATEMATICAS GITHUB/
 ├── .github/
 │   └── PULL_REQUEST_TEMPLATE.md
 │
+├── 📄 ARCHIVOS RAÍZ
+│   ├── README.md                      # Portada y skill tree visual
+│   ├── WIKI_INDEX.md                  # Tabla de contenidos maestra
+│   ├── glossary.md                    # ~150 términos matemáticos
+│   ├── AUDITORIA_ESTADO_REPO.md       # Estado de integridad del repo
+│   ├── Guía de Arquitectura del Repositorio de Matemáticas.md  # Documentación técnica específica
+│   └── Plantilla de Arquitectura Modular Universal.md          # ← Plantilla para otros repositorios
+│
 ├── 00-META/
 │   ├── ai-directives.md
 │   ├── audit-file-list.md
+│   ├── audit-table-issues.md
+│   ├── bibliografia-general.md
 │   ├── directory-tree.md              ← Estás aquí
-│   ├── ia-contract.md
+│   ├── ia-contract.md                 # LEY SUPREMA para IAs
 │   ├── nomenclatura-estandar.md       ← Estándar de nombrado
 │   ├── notation-cheatsheet.md
 │   ├── plantilla-respuestas.md
@@ -36,7 +46,15 @@ MATEMATICAS GITHUB/
 │   ├── repo-tests.md
 │   ├── study-guide.md
 │   └── tools/
-│       └── validate_repo.py           # Validador consolidado del repositorio
+│       ├── validate_repo.py           # Validador consolidado del repositorio
+│       ├── link_knowledge_base.py     # Auto-vinculador al glosario
+│       ├── check_tables.py            # Validador de tablas Markdown
+│       └── graphics/                  # Subsistema de generación visual
+│           ├── config.yaml
+│           ├── generate_graphics.py
+│           ├── requirements.txt
+│           ├── templates/
+│           └── sources/
 │
 ├── 01-Fundamentos/
 │   ├── 00-Index.md
