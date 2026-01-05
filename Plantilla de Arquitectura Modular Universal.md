@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: reference
+topic_id: repo-template
+file_id: plantilla-arquitectura
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # 🏗️ Plantilla de Arquitectura Modular para Repositorios Educativos
 
 > **Propósito:** Plantilla universal para crear repositorios de conocimiento estructurado siguiendo el patrón "Jardín Digital". Adaptable a cualquier dominio educativo (Matemáticas, Física, Programación, Idiomas, etc.).
@@ -325,11 +335,103 @@ XX-[Nombre-Subtema]/
 │       ├── [PREFIX]-XX-Soluciones-Desarrolladas.md  # Nivel 2: Con contexto
 │       └── prob-XX/                           # Nivel 3: Individual extenso
 │
-└── 📁 OPCIONALES
-    ├── applications/            # Casos de uso reales
-    ├── diagnostic/              # Evaluaciones previas
-    └── media/                   # Recursos visuales
-        └── generated/           # Auto-generados
+├── 📁 OPCIONALES
+│   ├── applications/            # Casos de uso reales
+│   ├── diagnostic/              # Evaluaciones previas
+│   └── media/                   # Recursos visuales
+│       └── generated/           # Auto-generados
+│
+└── 🔓 SANDBOX (Zona libre)
+    └── Notas/                   # 📝 Recursos sin clasificar
+        └── README.md            # Directiva de excepción
+```
+
+---
+
+## 🔓 CARPETA `Notas/` — ZONA SANDBOX
+
+### Concepto
+
+Cada subtema debe incluir una carpeta `Notas/` que funciona como **buzón temporal** para recursos sin clasificar. Esta zona está **completamente exenta** de todas las reglas del repositorio.
+
+### Propósito
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Almacenamiento temporal** | Guardar recursos antes de clasificarlos |
+| **Flexibilidad total** | Cualquier tipo de archivo y formato |
+| **Sin validación** | La IA no aplica reglas ni sugiere correcciones |
+| **Clasificación diferida** | El contenido se organiza cuando el usuario tenga tiempo |
+
+### Contenido Permitido
+
+- 📄 Apuntes, borradores, resúmenes personales
+- 🖼️ Imágenes, capturas, diagramas externos
+- 💻 Código de cualquier lenguaje, experimentos
+- 📎 PDFs, referencias, material complementario
+- 📝 Cualquier formato sin restricción
+
+### Comportamiento de la IA
+
+| Acción | Comportamiento |
+|--------|----------------|
+| Validar nomenclatura | ⛔ OMITIR |
+| Sugerir correcciones | ⛔ OMITIR |
+| Solicitar metadatos | ⛔ OMITIR |
+| Leer contenido | ✅ COMPLETO |
+| Integrar información | ✅ Como contexto |
+
+### README de Notas — Plantilla
+
+```markdown
+<!--
+::METADATA::
+type: sandbox
+topic_id: notas-usuario
+file_id: Notas-README
+status: exempt
+scope: local_only
+ai_directive: READ_FULL_CONTEXT
+validation: NONE
+rules_exempt: true
+-->
+
+# 📝 Notas del Usuario — Zona Libre
+
+Esta carpeta es una **zona sandbox** exenta de todas las reglas del repositorio.
+
+## ⚠️ DIRECTIVA PARA IA
+
+**NO VALIDAR** ningún contenido dentro de esta carpeta.
+**NO SUGERIR** correcciones de nomenclatura ni formato.
+**LEER COMPLETO** cualquier archivo si se solicita contexto.
+
+## Contenido Permitido
+
+- Cualquier tipo de archivo
+- Cualquier formato
+- Sin metadatos obligatorios
+- Sin nomenclatura estándar
+```
+
+### Flujo de Trabajo
+
+```
+1. Usuario guarda recurso útil en Notas/ del subtema más cercano
+2. Cuando tenga tiempo, lo clasifica:
+   - Teoría → theory/
+   - Ejercicio → problems/
+   - Multimedia → media/
+3. Al mover, aplica nomenclatura y metadatos estándar
+```
+
+### Patrón de Excepción
+
+```
+Ruta detectada como SANDBOX: */Notas/*
+
+La IA desactiva automáticamente todas las validaciones
+para cualquier archivo dentro de carpetas Notas/
 ```
 
 ---

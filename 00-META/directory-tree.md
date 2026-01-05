@@ -18,9 +18,6 @@ change_log: "Añadido .ai-bootstrap.md y audit-meta-files.md, actualizada jerarq
 ```
 MATEMATICAS GITHUB/
 │
-├── .assets/
-│   └── .gitkeep
-│
 ├── .github/
 │   └── PULL_REQUEST_TEMPLATE.md
 │
@@ -76,6 +73,8 @@ MATEMATICAS GITHUB/
 │   │   ├── manifest.json
 │   │   ├── FUN-01-Simbologia-Intro.md
 │   │   ├── _directives.md
+│   │   ├── Notas/                     # 🔓 SANDBOX
+│   │   │   └── README.md
 │   │   └── theory/
 │   │       └── Tablas-de-Simbolos-Matematicos.md
 │   │
@@ -84,11 +83,12 @@ MATEMATICAS GITHUB/
 │   │   ├── FUN-02-Aritmetica-Intro.md
 │   │   ├── FUN-02-Resumen-Formulas.md
 │   │   ├── _directives.md
-│   │   ├── applications/
 │   │   ├── diagnostic/
 │   │   ├── media/
 │   │   ├── methods/
 │   │   │   └── FUN-02-Metodos-Aritmetica.md
+│   │   ├── Notas/                     # 🔓 SANDBOX
+│   │   │   └── README.md
 │   │   ├── problems/
 │   │   │   └── FUN-02-Problemas.md
 │   │   ├── solutions/
@@ -192,22 +192,24 @@ MATEMATICAS GITHUB/
 | `→ XX-NN-*` | Prefijo estándar para archivos del tema |
 | `prob-XX/` | Carpetas de soluciones desarrolladas (selectas) |
 | `⚠️ EXCEPCIÓN` | Módulo exento de nomenclatura estándar |
+| `🔓 SANDBOX` | Carpeta Notas — Exenta de TODAS las reglas |
 | `...` | Estructura estándar (ver plantilla abajo) |
 
 ---
 
 ## Estadísticas del Repositorio
 
-| Módulo | Subtemas | Prefijo | Estado |
-|--------|----------|---------|--------|
-| 00-META | N/A | — | ✅ Configuración |
-| 01-Fundamentos | 6 | `FUN` | ✅ Estructura completa |
-| 02-Algebra-Lineal | 6 | `AL` | ✅ Completo |
-| 03-Calculo-Diferencial | 4 | `CD` | ✅ Estructura completa |
-| 04-Calculo-Integral | 5 | `CI` | ✅ Estructura completa |
-| 05-Calculo-Vectorial | 5 | `CV` | ⚠️ En desarrollo |
-| 06-Ecuaciones-Diferenciales | 5 | `ED` | ✅ Completo |
-| 07-Metodos-Numericos | 4 | `MN` | ⚠️ En desarrollo |
+| Módulo | Subtemas | Prefijo | Carpetas Notas | Estado |
+|--------|----------|---------|:--------------:|--------|
+| 00-META | N/A | — | — | ✅ Configuración |
+| 01-Fundamentos | 6 | `FUN` | 6 | ✅ Completo |
+| 02-Algebra-Lineal | 6 | `AL` | 6 | ✅ Completo |
+| 03-Calculo-Diferencial | 4 | `CD` | 4 | ✅ Completo |
+| 04-Calculo-Integral | 5 | `CI` | 5 | ✅ Completo |
+| 05-Calculo-Vectorial | 5 | `CV` | 5 | ✅ Completo |
+| 06-Ecuaciones-Diferenciales | 5 | `ED` | 5 | ✅ Completo |
+| 07-Metodos-Numericos | 4 | `MN` | 4 | ✅ Completo |
+| **TOTAL** | **35** | — | **35** | — |
 
 ---
 
@@ -218,7 +220,7 @@ XX-Nombre-Subtema/
 ├── manifest.json                    # Metadatos (REQUERIDO)
 ├── PREFIJO-XX-Nombre-Intro.md       # Punto de entrada (REQUERIDO)
 ├── PREFIJO-XX-Resumen-Formulas.md   # Cheat sheet (REQUERIDO)
-├── _directives.md                   # Directivas específicas (opcional)
+├── _directives.md                   # Directivas específicas (REQUERIDO)
 │
 ├── theory/
 │   └── PREFIJO-XX-Teoria-Nombre.md
@@ -231,10 +233,29 @@ XX-Nombre-Subtema/
 │   └── prob-XX/                     # Soluciones desarrolladas
 │       └── solucion-metodo.md
 │
-├── applications/                    # (opcional)
-├── diagnostic/                      # (opcional)
-└── media/                           # (opcional)
+├── diagnostic/                      # Evaluaciones (opcional)
+├── media/                           # Multimedia (opcional)
+└── Notas/                           # 🔓 SANDBOX - Sin reglas
+    └── README.md                    # Directiva de excepción
 ```
+
+### Carpeta Notas/ — Zona Sandbox
+
+> **⚠️ DIRECTIVA PARA IA:** La carpeta `Notas/` en cada subtema es una zona de excepción total.
+
+**NO aplican:**
+- Nomenclatura estándar
+- Metadatos `::METADATA::`
+- Validación de estructura
+- Vinculación al glosario
+- Reglas de formato
+
+**Contenido permitido:**
+- 📄 Texto libre (notas, borradores)
+- 🖼️ Multimedia (imágenes, diagramas)
+- 💻 Código de prueba
+- 📎 Archivos externos
+- 🧪 Experimentos sin relación con el repo
 
 ---
 
@@ -242,5 +263,5 @@ XX-Nombre-Subtema/
 ::AI_DIRECTIVE::
 Este archivo es la referencia autoritativa de la estructura del repositorio.
 Cualquier cambio estructural debe reflejarse aquí antes de considerarse completo.
-last_updated: 2024-12-23
+last_updated: 2026-01-05
 -->

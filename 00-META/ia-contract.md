@@ -59,6 +59,7 @@ XX-Nombre-Subtema/
 ├── manifest.json                    # Metadatos y configuración IA (OBLIGATORIO)
 ├── PREFIJO-XX-*-Intro.md            # Punto de entrada (OBLIGATORIO)
 ├── PREFIJO-XX-Resumen-Formulas.md   # Cheat sheet (OBLIGATORIO)
+├── _directives.md                   # Directivas locales (OBLIGATORIO)
 ├── theory/
 │   └── PREFIJO-XX-Teoria-*.md       # Teoría completa
 ├── methods/
@@ -69,8 +70,10 @@ XX-Nombre-Subtema/
 │   ├── PREFIJO-XX-Respuestas.md     # Tabla de TODAS las respuestas
 │   └── prob-XX/                     # Soluciones desarrolladas (selectas)
 │       └── solucion-metodo.md
-├── applications/                    # (opcional)
-└── media/                           # (opcional)
+├── diagnostic/                      # Evaluaciones diagnósticas (opcional)
+├── media/                           # Recursos multimedia (opcional)
+└── Notas/                           # 🆕 SANDBOX - Contenido sin reglas
+    └── README.md                    # Directiva de excepción
 ```
 
 **⚠️ NO existen archivos `README.md` en los subtemas.** El punto de entrada es siempre `*-Intro.md`.
@@ -101,6 +104,44 @@ Todos los archivos `.md` siguen: `[PREFIJO]-[XX]-[Contenido].md`
 | `solutions/prob-XX/solucion-*.md` | Contexto implícito por carpeta padre |
 | `00-META/*` | Archivos de configuración del repositorio |
 | `00-Index.md` | Archivo índice por módulo principal |
+| **`*/Notas/*`** | 🆕 **SANDBOX:** Contenido exento de TODAS las reglas |
+
+### 2.3 Carpetas Notas — Excepción Total (SANDBOX)
+
+> **⚠️ DIRECTIVA CRÍTICA PARA IA:**
+
+Las carpetas `Notas/` ubicadas en cada subtema son **zonas sandbox** completamente exentas del sistema normativo:
+
+```
+XX-Subtema/
+└── Notas/                    # 🔓 SANDBOX - Sin reglas
+    ├── README.md             # Directiva de excepción
+    └── [cualquier contenido] # Sin validación
+```
+
+**Reglas que NO aplican en `Notas/`:**
+
+| Categoría | Exención |
+|-----------|----------|
+| Nomenclatura | ❌ No se requiere prefijo ni formato estándar |
+| Metadatos | ❌ No se requiere bloque `::METADATA::` |
+| Validación | ❌ No se valida bibliografía ni estructura |
+| Formato | ❌ No se aplican reglas de LaTeX ni tablas |
+| Vinculación | ❌ No se auto-vincula al glosario |
+
+**Contenido permitido:**
+- 📄 Texto libre (notas, borradores, ideas)
+- 🖼️ Multimedia (imágenes, diagramas, capturas)
+- 💻 Código (scripts de prueba, experimentos)
+- 📎 Archivos externos (PDFs, recursos descargados)
+
+**Instrucción para IA:**
+```
+SI ruta contiene "/Notas/" → IGNORAR todas las reglas de validación
+SI usuario pregunta por contenido en Notas/ → LEER COMPLETO para contexto
+NO sugerir correcciones de nomenclatura para archivos en Notas/
+TRATAR como sandbox aislado del repositorio principal
+```
 
 ---
 
