@@ -4,7 +4,12 @@ type: index
 topic_id: al-03-sistemas-lineales
 file_id: AL-03-Sistemas-Lineales-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [AL-01, AL-02]
+concepts: [eliminacion-gaussiana, forma-escalonada, rango, sistemas-homogeneos, clasificacion-soluciones]
 audience: student
+last_updated: 2026-01-05
 -->
 
 > 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)

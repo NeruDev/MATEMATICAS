@@ -4,8 +4,12 @@ type: index
 topic_id: fun-03-algebra
 file_id: FUN-03-Algebra-Intro
 status: stable
+learning_role: introduction
+difficulty: 2/5
+prerequisites: [FUN-02]
+concepts: [expresiones-algebraicas, polinomios, factorizacion, ecuaciones-lineales, ecuaciones-cuadraticas, sistemas-ecuaciones]
 audience: student
-requires: [fun-02-aritmetica]
+last_updated: 2026-01-05
 -->
 
 

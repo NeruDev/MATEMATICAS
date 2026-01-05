@@ -4,7 +4,12 @@ type: index
 topic_id: al-05-transformaciones-lineales
 file_id: AL-05-Transformaciones-Lineales-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [AL-03, AL-04]
+concepts: [transformacion-lineal, nucleo, imagen, rango, nulidad, matriz-transformacion]
 audience: student
+last_updated: 2026-01-05
 -->
 
 > 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)

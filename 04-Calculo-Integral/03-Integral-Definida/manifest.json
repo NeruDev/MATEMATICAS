@@ -3,8 +3,11 @@
   "topic": "Integral Definida",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Comprender sumas de Riemann, integral definida y el teorema fundamental del cálculo.",
+  "prerequisites": ["CI-01", "CI-02"],
+  "concepts": ["suma-riemann", "integral-definida", "teorema-fundamental-calculo", "area"],
   "subtopics": [
     {"id": "3.1", "title": "Sumas de Riemann"},
     {"id": "3.2", "title": "Definición de integral definida"},
@@ -63,5 +66,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

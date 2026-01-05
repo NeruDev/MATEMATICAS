@@ -3,11 +3,13 @@
   "topic": "Límites",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Comprender el concepto de límite y sus técnicas de evaluación como base fundamental del cálculo diferencial",
   "tags": ["limites", "continuidad", "formas-indeterminadas", "asintotas", "infinito"],
   "skill_nodes": ["calculo:limites", "funciones:continuidad"],
-  "prereqs": ["01-Fundamentos/01-Funciones", "01-Fundamentos/03-Algebra"],
+  "prerequisites": ["FUN-03", "FUN-05"],
+  "concepts": ["limite", "continuidad", "limite-lateral", "asintotas", "formas-indeterminadas", "teorema-valor-intermedio"],
   "subtopics": [
     {
       "code": "1.1",
@@ -98,6 +100,20 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }
 

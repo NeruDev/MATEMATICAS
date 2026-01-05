@@ -1,10 +1,15 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-03-sistemas-[edo](../../glossary.md#edo)-Intro
+topic_id: ed-03-sistemas-edo
+file_id: ED-03-Sistemas-EDO-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [ED-02, AL-06]
+concepts: [sistema-edo, matriz-fundamental, valores-propios, estabilidad, plano-fase]
 audience: student
-requires: [ed-02-edo-segundo-[orden](../../glossary.md#orden), al-valores-vectores-propios]
+last_updated: 2026-01-05
 -->
 
 

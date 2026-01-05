@@ -3,7 +3,8 @@
   "topic": "Matrices y Operaciones",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "2/5",
   "human_purpose": "Definición de matrices, tipos especiales, operaciones fundamentales y propiedades algebraicas.",
   "resource_map": {
     "entry_point": "AL-01-Matrices-Intro.md",
@@ -24,8 +25,8 @@
       "solutions/prob-32/"
     ]
   },
-  "ai_contract": {"strict_mode": true},
-  "prerequisites": ["01-fundamentos"],
+  "prerequisites": ["FUN-03"],
+  "concepts": ["matriz", "operaciones-matriciales", "transpuesta", "inversa", "multiplicacion-matrices"],
   "learning_objectives": [
     "Definir y clasificar matrices por forma y propiedades",
     "Realizar operaciones de suma, resta y multiplicación escalar",
@@ -34,7 +35,6 @@
     "Calcular la inversa de una matriz (cuando existe)"
   ],
   "estimated_time": "4-5 horas",
-  "difficulty": "básico-intermedio",
   "subtopics": [
     {"id": "1.1", "title": "Definición y notación", "description": "Qué es una matriz, elementos, dimensiones"},
     {"id": "1.2", "title": "Tipos de matrices", "description": "Cuadrada, diagonal, identidad, triangular, simétrica"},
@@ -52,9 +52,28 @@
     "multiplicación de matrices"
   ],
   "ai_contract": {
+    "allowed_tasks": ["explain_concept", "generate_problems", "verify_solution", "convert_format"],
     "expected_inputs": "Matrices con entradas numéricas, dimensiones m×n",
     "expected_outputs": "Resultado de operación matricial, matriz inversa, verificación de propiedades",
-    "verification": "Verificar dimensiones compatibles, comprobar (AB)C=A(BC), verificar AA⁻¹=I"
+    "verification": "Verificar dimensiones compatibles, comprobar (AB)C=A(BC), verificar AA⁻¹=I",
+    "solution_guidelines": {
+      "format": "context + development + verification",
+      "context_requirement": "Explicar concepto aplicable antes de resolver"
+    }
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   },
   "references": [
     {

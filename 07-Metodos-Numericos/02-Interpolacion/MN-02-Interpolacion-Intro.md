@@ -1,13 +1,18 @@
 <!--
----
-title: Introducción a [Interpolación](../../glossary.md#interpolacion), lagrange, newton, splines]
-created: 2025-12-20
-updated: 2025-12-20
----
+::METADATA::
+type: index
+topic_id: mn-02-interpolacion
+file_id: MN-02-Interpolacion-Intro
+status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: ["FUN-03", "AL-01"]
+concepts: ["interpolacion", "lagrange", "newton", "splines", "diferencias-divididas"]
+audience: student
+last_updated: 2026-01-05
 -->
 
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice](../00-Index.md) | [📚 Glosario](../../glossary.md) | [🗺️ Wiki](../../WIKI_INDEX.md)
 
 ---
 
@@ -15,32 +20,41 @@ updated: 2025-12-20
 
 ## Descripción General
 
-La interpolación es el proceso de construir una [función](../../glossary.md#funcion) que pase exactamente por un conjunto de puntos dados $(x_i, y_i)$. Es fundamental para aproximar funciones, construir curvas suaves y estimar valores intermedios.
+La interpolación es el proceso de construir una función que pase exactamente por un conjunto de puntos dados $(x_i, y_i)$. Es fundamental para aproximar funciones, construir curvas suaves y estimar valores intermedios.
+
+## Mapa de Recursos
+
+| Recurso | Archivo | Descripción |
+|---------|---------|-------------|
+| 📘 Teoría | [MN-02-Teoria-Interpolacion.md](theory/MN-02-Teoria-Interpolacion.md) | Desarrollo completo |
+| 🔧 Métodos | [MN-02-Metodos-Interpolacion.md](methods/MN-02-Metodos-Interpolacion.md) | Procedimientos paso a paso |
+| 📝 Problemas | [MN-02-Problemas.md](problems/MN-02-Problemas.md) | Ejercicios de práctica |
+| ✅ Soluciones | [MN-02-Respuestas.md](solutions/MN-02-Respuestas.md) | Respuestas y desarrollos |
+| 📋 Fórmulas | [MN-02-Resumen-Formulas.md](MN-02-Resumen-Formulas.md) | Cheat sheet |
 
 ## Contenido del Módulo
 
 ### Interpolación Polinomial
-- [[MN-02-T01-Lagrange|Interpolación de Lagrange]]
-- [[MN-02-T02-Newton|[Diferencias Divididas](../../glossary.md#diferencias-divididas) de Newton]]
-- [[MN-02-T03-Diferencias-Finitas|Diferencias Finitas]]
+- Interpolación de Lagrange
+- Diferencias Divididas de Newton
+- Diferencias Finitas
 
 ### Interpolación por Tramos
-- [[MN-02-T04-Splines-Lineales|Splines Lineales]]
-- [[MN-02-T05-Splines-Cubicos|Splines Cúbicos]]
-
-### Recursos
-- [[MN-02-Resumen-Formulas|Resumen de Fórmulas]]
+- Splines Lineales
+- Splines Cúbicos
 
 ## Objetivos de Aprendizaje
 
 1. Construir polinomios interpolantes usando el método de Lagrange
-2. Aplicar [diferencias divididas](../../glossary.md#error-de-interpolacion)
+2. Aplicar diferencias divididas de Newton
+3. Estimar el error de interpolación
+4. Implementar splines cúbicos para curvas suaves
 
 ## Prerrequisitos
 
 - Polinomios y sus propiedades
 - Sistemas de ecuaciones lineales
-- Matrices y [determinantes](../../glossary.md#determinantes)
+- Matrices y determinantes
 
 ## Mapa Conceptual
 
@@ -55,8 +69,11 @@ Interpolación
     └── Splines Cúbicos
 ```
 
-## Navegación
+## Conexiones
 
-| Anterior | Índice | Siguiente |
-|----------|--------|-----------|
-| [[MN-01-Raices-Intro]] | [[00-Index]] | [[MN-03-Integracion-Numerica-Intro]] |
+- **Prerrequisitos**: [Raíces de Ecuaciones](../01-Raices-Ecuaciones/MN-01-Raices-Intro.md), Álgebra Lineal
+- **Usos posteriores**: [Integración Numérica](../03-Integracion-Numerica/MN-03-Integracion-Numerica-Intro.md), Ajuste de curvas
+
+---
+
+> **Nota**: La interpolación es la base de muchos métodos numéricos. Entender el error de interpolación es crucial para aplicaciones prácticas.

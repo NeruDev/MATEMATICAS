@@ -4,8 +4,12 @@ type: index
 topic_id: fun-02-aritmetica
 file_id: FUN-02-Aritmetica-Intro
 status: stable
+learning_role: introduction
+difficulty: 1/5
+prerequisites: []
+concepts: [sistemas-numericos, operaciones-basicas, divisibilidad, mcd-mcm, fracciones, potencias-raices]
 audience: student
-requires: []
+last_updated: 2026-01-05
 -->
 
 

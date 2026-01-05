@@ -1,9 +1,15 @@
 <!--
 ::METADATA::
 type: index
-topic_id: al-02-[determinantes](../../glossary.md#determinantes)-Intro
+topic_id: al-02-determinantes
+file_id: AL-02-Determinantes-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [AL-01]
+concepts: [determinante, cofactores, matriz-adjunta, regla-cramer, expansion-laplace]
 audience: student
+last_updated: 2026-01-05
 -->
 
 > 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)

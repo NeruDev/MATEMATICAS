@@ -3,11 +3,13 @@
   "topic": "Funciones reales de varias variables",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Analizar funciones multivariables para estudiar continuidad, derivadas parciales, gradientes y extremos",
   "tags": ["multivariable", "derivadas-parciales", "gradiente", "continuidad", "extremos"],
   "skill_nodes": ["calculo:varias-variables", "calculo:gradiente"],
-  "prereqs": ["03-Calculo-Diferencial/01-Limites", "03-Calculo-Diferencial/02-Derivadas", "05-Calculo-Vectorial/01-Vectores-en-el-espacio"],
+  "prerequisites": ["CD-01", "CD-02", "CV-01"],
+  "concepts": ["derivada-parcial", "gradiente", "regla-cadena-multivariable", "extremos-relativos", "lagrange"],
   "resource_map": {
     "entry_point": "CV-04-Varias-Variables-Intro.md",
     "main_theory": "theory/CV-04-Teoria-Varias.md",
@@ -69,5 +71,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

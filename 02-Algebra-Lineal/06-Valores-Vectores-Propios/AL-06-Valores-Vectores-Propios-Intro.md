@@ -4,7 +4,12 @@ type: index
 topic_id: al-06-valores-vectores-propios
 file_id: AL-06-Valores-Vectores-Propios-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [AL-02, AL-05]
+concepts: [valor-propio, vector-propio, polinomio-caracteristico, diagonalizacion, espacio-propio]
 audience: student
+last_updated: 2026-01-05
 -->
 
 > 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)

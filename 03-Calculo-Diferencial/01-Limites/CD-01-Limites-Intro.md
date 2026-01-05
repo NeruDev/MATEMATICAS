@@ -4,7 +4,12 @@ type: index
 topic_id: cd-01-limites
 file_id: CD-01-Limites-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [FUN-03, FUN-05]
+concepts: [limite, continuidad, limite-lateral, asintotas, formas-indeterminadas, teorema-valor-intermedio]
 audience: student
+last_updated: 2026-01-05
 -->
 
 

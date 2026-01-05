@@ -4,8 +4,12 @@ type: index
 topic_id: ed-05-series-potencias
 file_id: ED-05-Series-Potencias-Intro
 status: stable
+learning_role: introduction
+difficulty: 5/5
+prerequisites: [ED-02, CI-05]
+concepts: [serie-potencias, metodo-frobenius, punto-singular, funciones-bessel, funciones-legendre]
 audience: student
-requires: [ed-02-[edo](../../glossary.md#orden), cd-series-taylor]
+last_updated: 2026-01-05
 -->
 
 

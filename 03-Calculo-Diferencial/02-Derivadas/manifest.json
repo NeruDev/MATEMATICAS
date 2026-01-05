@@ -3,11 +3,13 @@
   "topic": "La Derivada",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Comprender la derivada como tasa de cambio instantánea y dominar las técnicas de diferenciación",
   "tags": ["derivada", "diferenciacion", "tasa-de-cambio", "reglas-derivacion", "derivadas-funciones"],
   "skill_nodes": ["calculo:derivadas", "calculo:diferenciacion"],
-  "prereqs": ["02-Calculo-Diferencial/01-Limites", "01-Fundamentos/01-Funciones"],
+  "prerequisites": ["CD-01"],
+  "concepts": ["derivada", "tasa-cambio", "regla-cadena", "derivacion-implicita", "derivadas-orden-superior"],
   "subtopics": [
     {
       "code": "2.1",
@@ -83,5 +85,19 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

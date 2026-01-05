@@ -4,8 +4,12 @@ type: index
 topic_id: ci-05-integrales-impropias
 file_id: CI-05-Integrales-Impropias-Intro
 status: stable
+learning_role: introduction
+difficulty: 5/5
+prerequisites: [CI-02, CI-03]
+concepts: [integral-impropia, convergencia, divergencia, criterio-comparacion, limite-infinito]
 audience: student
-requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
+last_updated: 2026-01-05
 -->
 
 

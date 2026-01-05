@@ -1,12 +1,15 @@
 <!--
----
-title: Introducción a Métodos de [Raíces de Ecuaciones](../../glossary.md#raices-de-ecuaciones)
+::METADATA::
 type: index
-topic: raices-ecuaciones
-tags: [métodos-numéricos, raíces, bisección, newton-raphson, secante, punto-fijo]
-created: 2025-12-20
-updated: 2025-12-20
----
+topic_id: mn-01-raices-ecuaciones
+file_id: MN-01-Raices-Intro
+status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [CD-02, FUN-03]
+concepts: [biseccion, newton-raphson, secante, punto-fijo, convergencia, error-numerico]
+audience: student
+last_updated: 2026-01-05
 -->
 
 

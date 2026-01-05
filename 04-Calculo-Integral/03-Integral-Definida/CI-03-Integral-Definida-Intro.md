@@ -4,8 +4,12 @@ type: index
 topic_id: ci-03-integral-definida
 file_id: CI-03-Integral-Definida-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [CI-01, CI-02]
+concepts: [suma-riemann, integral-definida, teorema-fundamental-calculo, area]
 audience: student
-requires: [ci-01-integral-indefinida, ci-02-tecnicas-integracion]
+last_updated: 2026-01-05
 -->
 
 

@@ -4,8 +4,12 @@ type: index
 topic_id: fun-05-trigonometria
 file_id: FUN-05-Trigonometria-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [FUN-03, FUN-04]
+concepts: [funciones-trigonometricas, circulo-unitario, identidades, ecuaciones-trigonometricas, ley-senos, ley-cosenos]
 audience: student
-requires: [fun-04-geometria, fun-03-algebra]
+last_updated: 2026-01-05
 -->
 
 

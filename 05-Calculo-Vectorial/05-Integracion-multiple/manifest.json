@@ -3,11 +3,13 @@
   "topic": "Integración múltiple",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "5/5",
   "human_purpose": "Calcular áreas, volúmenes y flujos mediante integrales dobles, triples y teoremas para campos vectoriales",
   "tags": ["integrales-dobles", "integrales-triples", "polares", "cilindricas", "esfericas", "campos-vectoriales"],
   "skill_nodes": ["calculo:integrales-multiples", "calculo:campos-vectoriales"],
-  "prereqs": ["05-Calculo-Vectorial/04-Funciones-de-varias-variables", "04-Calculo-Integral/03-Integral-Definida"],
+  "prerequisites": ["CV-04", "CI-03"],
+  "concepts": ["integral-doble", "integral-triple", "jacobiano", "teorema-green", "teorema-stokes", "teorema-divergencia"],
   "resource_map": {
     "entry_point": "CV-05-Integracion-Multiple-Intro.md",
     "main_theory": "theory/CV-05-Teoria-Integracion.md",
@@ -69,5 +71,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

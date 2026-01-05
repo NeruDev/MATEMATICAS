@@ -3,8 +3,11 @@
   "topic": "Series de Potencias",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "5/5",
   "human_purpose": "Solución de EDO mediante series de potencias y método de Frobenius.",
+  "prerequisites": ["ED-02", "CI-05"],
+  "concepts": ["serie-potencias", "metodo-frobenius", "punto-singular", "funciones-bessel", "funciones-legendre"],
   "subtopics": [
     {
       "id": "repaso-series",
@@ -77,5 +80,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

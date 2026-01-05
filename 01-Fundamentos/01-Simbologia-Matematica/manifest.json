@@ -3,9 +3,12 @@
   "topic": "Simbología Matemática",
   "type": "reference_library",
   "status": "active",
-  "last_updated": "2026-01-03",
+  "last_updated": "2026-01-05",
+  "difficulty": "1/5",
   "human_purpose": "Referencia completa de símbolos matemáticos organizados por área para consulta rápida",
   "tags": ["simbolos", "notacion", "latex", "referencia"],
+  "prerequisites": [],
+  "concepts": ["notacion-matematica", "simbolos-latex", "conjuntos-numericos"],
   "exception": {
     "reason": "Material de consulta directa sin secuencia de aprendizaje - no requiere validación bibliográfica tradicional",
     "applies_to": ["theory/*"],
@@ -77,5 +80,15 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Material de referencia - validación por contexto de uso en lugar de bibliografía tradicional"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "content"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["content"],
+      "explanation_depth": "minimal"
+    }
   }
 }

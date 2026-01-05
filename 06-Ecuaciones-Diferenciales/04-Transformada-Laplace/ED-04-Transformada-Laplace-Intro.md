@@ -4,12 +4,15 @@ type: index
 topic_id: ed-04-transformada-laplace
 file_id: ED-04-Transformada-Laplace-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: ["ED-02", "CI-05"]
+concepts: ["transformada-laplace", "transformada-inversa", "fracciones-parciales", "funcion-escalon"]
 audience: student
-requires: [ed-02-[edo](../../glossary.md#orden), ci-integrales-impropias]
+last_updated: 2026-01-05
 -->
 
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice](../00-Index.md) | [📚 Glosario](../../glossary.md) | [🗺️ Wiki](../../WIKI_INDEX.md)
 
 ---
 
@@ -17,28 +20,30 @@ requires: [ed-02-[edo](../../glossary.md#orden), ci-integrales-impropias]
 
 ## Propósito del tema
 
-Dominar la [transformada de Laplace](../../glossary.md#ecuaciones-diferenciales) con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
+Dominar la transformada de Laplace como herramienta para resolver ecuaciones diferenciales con condiciones iniciales, especialmente útil para funciones discontinuas y sistemas de control.
 
-## Mapa de recursos
+## Mapa de Recursos
 
-```
-[ED-04-Transformada-Laplace-Intro.md](ED-04-Resumen-Formulas.md)               ← Fórmulas clave para repaso
-theory/
-  └── [ED-04-Teoria-Laplace.md](theory/ED-04-Teoria-Transformada-Laplace.md)           ← Desarrollo completo
-methods/
-  └── [métodos paso a paso]
-problems/
-  └── [enunciados de práctica]
-solutions/
-  └── [soluciones detalladas]
-```
+| Recurso | Archivo | Descripción |
+|---------|---------|-------------|
+| 📘 Teoría | [ED-04-Teoria-Transformada-Laplace.md](theory/ED-04-Teoria-Transformada-Laplace.md) | Desarrollo completo |
+| 🔧 Métodos | [ED-04-Metodos-Laplace.md](methods/ED-04-Metodos-Laplace.md) | Procedimientos paso a paso |
+| 📝 Problemas | [ED-04-Problemas.md](problems/ED-04-Problemas.md) | Ejercicios de práctica |
+| ✅ Soluciones | [ED-04-Respuestas.md](solutions/ED-04-Respuestas.md) | Respuestas y desarrollos |
+| 📋 Fórmulas | [ED-04-Resumen-Formulas.md](ED-04-Resumen-Formulas.md) | Cheat sheet |
 
 ## Ruta de aprendizaje
 
 1. **Definición**: $\mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)\,dt$
 2. **Transformadas básicas**: tabla de funciones elementales
-3. **Propiedades**: [linealidad](../../glossary.md#derivadas), integrales
-4. **Transformada inversa**: [fracciones parciales](../../glossary.md#edo) de segundo [orden](../../glossary.md#integrales-impropias)
+3. **Propiedades**: linealidad, derivadas, integrales
+4. **Transformada inversa**: fracciones parciales
+5. **Convolución**: teorema de convolución
+6. **Aplicaciones**: resolución de EDO, sistemas de control
+
+## Conexiones
+
+- **Prerrequisitos**: [EDO de segundo orden](../02-EDO-Segundo-Orden/ED-02-EDO-Segundo-Orden-Intro.md), [Integrales impropias](../../04-Calculo-Integral/05-Integrales-Impropias/CI-05-Integrales-Impropias-Intro.md)
 - **Usos posteriores**: Control automático, Señales y sistemas, Ingeniería
 
 ## Vista previa de conceptos clave

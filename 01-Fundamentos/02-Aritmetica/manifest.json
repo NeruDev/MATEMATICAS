@@ -3,10 +3,13 @@
   "topic": "Aritmética",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "1/5",
   "human_purpose": "Dominar operaciones numéricas básicas y razonamiento aritmético para soportar álgebra y cálculo",
   "tags": ["numeros", "operaciones", "fracciones", "porcentajes", "divisibilidad", "factorizacion"],
   "skill_nodes": ["aritmetica:operaciones-basicas", "aritmetica:fracciones", "aritmetica:divisibilidad"],
+  "prerequisites": [],
+  "concepts": ["sistemas-numericos", "operaciones-basicas", "divisibilidad", "mcd-mcm", "fracciones", "potencias-raices"],
   "subtopics": [
     {
       "id": "2.1",
@@ -117,5 +120,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar universitaria y preparatoria"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

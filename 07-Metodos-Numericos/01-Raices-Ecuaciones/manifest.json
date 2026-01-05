@@ -3,8 +3,11 @@
   "topic": "Raíces de Ecuaciones",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Métodos numéricos para encontrar raíces: bisección, Newton-Raphson, secante y punto fijo.",
+  "prerequisites": ["CD-02", "FUN-03"],
+  "concepts": ["biseccion", "newton-raphson", "secante", "punto-fijo", "convergencia", "error-numerico"],
   "subtopics": [
     "Método de bisección",
     "Método de Newton-Raphson",
@@ -54,5 +57,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

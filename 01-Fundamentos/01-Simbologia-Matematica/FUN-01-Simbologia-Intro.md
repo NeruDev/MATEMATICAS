@@ -4,8 +4,12 @@ type: reference
 topic_id: fun-01-simbologia
 file_id: FUN-01-Simbologia-Intro
 status: stable
+learning_role: reference
+difficulty: 1/5
+prerequisites: []
+concepts: [notacion-matematica, simbolos-latex, conjuntos-numericos]
 audience: student
-requires: []
+last_updated: 2026-01-05
 -->
 
 

@@ -4,8 +4,12 @@ type: index
 topic_id: ci-01-integral-indefinida
 file_id: CI-01-Integral-Indefinida-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [CD-02]
+concepts: [antiderivada, integral-indefinida, constante-integracion, formulas-basicas]
 audience: student
-requires: [03-calculo-diferencial]
+last_updated: 2026-01-05
 -->
 
 

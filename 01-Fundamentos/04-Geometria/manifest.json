@@ -3,10 +3,13 @@
   "topic": "Geometría",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "2/5",
   "human_purpose": "Entender figuras, medidas y propiedades espaciales para preparar trigonometría y geometría analítica",
   "tags": ["figuras", "area", "volumen", "semejanza", "congruencia", "angulos"],
   "skill_nodes": ["geometria:planas", "geometria:medidas", "geometria:solidos"],
+  "prerequisites": ["FUN-02"],
+  "concepts": ["triangulos", "cuadrilateros", "circunferencia", "area", "volumen", "semejanza", "pitagoras"],
   "resource_map": {
     "entry_point": "FUN-04-Geometria-Intro.md",
     "cheat_sheet": "FUN-04-Resumen-Formulas.md",
@@ -124,5 +127,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar de geometría euclidiana"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

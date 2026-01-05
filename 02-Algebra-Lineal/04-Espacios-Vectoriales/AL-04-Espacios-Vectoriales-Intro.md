@@ -4,7 +4,12 @@ type: index
 topic_id: al-04-espacios-vectoriales
 file_id: AL-04-Espacios-Vectoriales-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [AL-01, AL-03]
+concepts: [espacio-vectorial, subespacio, independencia-lineal, base, dimension, span]
 audience: student
+last_updated: 2026-01-05
 -->
 
 > 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)

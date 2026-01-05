@@ -4,8 +4,12 @@ type: index
 topic_id: ci-02-tecnicas-integracion
 file_id: CI-02-Tecnicas-Integracion-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CI-01]
+concepts: [sustitucion, integracion-por-partes, fracciones-parciales, sustitucion-trigonometrica]
 audience: student
-requires: [ci-01-integral-indefinida]
+last_updated: 2026-01-05
 -->
 
 

@@ -4,8 +4,12 @@ type: index
 topic_id: cv-01-vectores-espacio
 file_id: CV-01-Vectores-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [FUN-04, FUN-06, AL-01]
+concepts: [vector, producto-escalar, producto-vectorial, ecuacion-recta, ecuacion-plano]
 audience: student
-requires: [FUN-04-Geometria, FUN-06-Geometria-Analitica]
+last_updated: 2026-01-05
 -->
 
 

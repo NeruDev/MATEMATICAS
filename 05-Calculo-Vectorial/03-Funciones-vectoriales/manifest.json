@@ -3,11 +3,13 @@
   "topic": "Funciones vectoriales de una variable real",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Estudiar el movimiento y la geometría de curvas espaciales mediante funciones vectoriales y sus derivadas e integrales",
   "tags": ["funciones-vectoriales", "limites", "derivadas", "integrales", "curvatura"],
   "skill_nodes": ["calculo:funciones-vectoriales", "calculo:curvatura"],
-  "prereqs": ["05-Calculo-Vectorial/01-Vectores-en-el-espacio", "05-Calculo-Vectorial/02-Curvas-planas-parametricas-y-polares"],
+  "prerequisites": ["CV-01", "CV-02"],
+  "concepts": ["funcion-vectorial", "curvatura", "torsion", "triedro-frenet", "longitud-arco"],
   "resource_map": {
     "entry_point": "CV-03-Funciones-Vectoriales-Intro.md",
     "main_theory": "theory/CV-03-Teoria-Vectoriales.md",
@@ -69,5 +71,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

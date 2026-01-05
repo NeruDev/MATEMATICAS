@@ -3,9 +3,12 @@
   "topic": "Trigonometría",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Entender razones y funciones trigonométricas para resolver triángulos y modelar fenómenos periódicos",
   "tags": ["seno", "coseno", "tangente", "identidades", "círculo-unitario", "ley-de-senos", "ley-de-cosenos"],
+  "prerequisites": ["FUN-03", "FUN-04"],
+  "concepts": ["funciones-trigonometricas", "circulo-unitario", "identidades", "ecuaciones-trigonometricas", "ley-senos", "ley-cosenos"],
   "skill_nodes": [
     "trigonometria:razones-rectangulo",
     "trigonometria:circulo-unitario",
@@ -132,5 +135,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar de trigonometría plana"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

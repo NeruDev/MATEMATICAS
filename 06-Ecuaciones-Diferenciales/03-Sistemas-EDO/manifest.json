@@ -3,8 +3,11 @@
   "topic": "Sistemas de EDO",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Sistemas de ecuaciones diferenciales: forma matricial y método de valores propios.",
+  "prerequisites": ["ED-02", "AL-06"],
+  "concepts": ["sistema-edo", "matriz-fundamental", "valores-propios", "estabilidad", "plano-fase"],
   "subtopics": [
     {
       "id": "forma-matricial",
@@ -87,5 +90,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

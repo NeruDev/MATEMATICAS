@@ -1,11 +1,15 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-01-[edo](../../glossary.md#orden)
-file_id: ED-01-[EDO](../../glossary.md#orden)-Intro
+topic_id: ed-01-edo-primer-orden
+file_id: ED-01-EDO-Primer-Orden-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [CI-02]
+concepts: [edo, separables, lineales, exactas, bernoulli, factor-integrante]
 audience: student
-requires: [ci-integral-indefinida, ci-tecnicas-integracion]
+last_updated: 2026-01-05
 -->
 
 

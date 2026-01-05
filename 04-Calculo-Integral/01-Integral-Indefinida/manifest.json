@@ -3,8 +3,11 @@
   "topic": "Integral Indefinida",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Comprender el concepto de antiderivada y dominar las integrales de funciones elementales.",
+  "prerequisites": ["CD-02"],
+  "concepts": ["antiderivada", "integral-indefinida", "constante-integracion", "formulas-basicas"],
   "subtopics": [
     {"id": "1.1", "title": "Concepto de antiderivada"},
     {"id": "1.2", "title": "Notación y constante de integración"},
@@ -63,5 +66,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }
