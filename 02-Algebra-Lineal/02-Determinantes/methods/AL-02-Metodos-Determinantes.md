@@ -50,11 +50,14 @@ $$\det(A) = 5(4) - 3(2) = 20 - 6 = \boxed{14}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Escribir la [matriz](../../..](../../../glossary.md#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
+| 1 | Escribir la [matriz](../../../glossary.md#matriz) | Copiar las dos primeras columnas a la derecha |
+| 2 | Diagonales descendentes | Sumar productos |
+| 3 | Diagonales ascendentes | Restar productos |
+| 4 | Calcular diferencia | Resultado final |
 
-**Paso 1:** Copiamos las dos primeras columnas:
-```
-| 2   1   3 | 2   1
+### Ejemplo Detallado
+
+**Problema:** Calcular el [determinante](../../../glossary.md#determinante) de $A = \begin{pmatrix} 2 & 1 & 3 \\ 4 & -1 & 2 \\ 1 & 5 & 1 \end{pmatrix}$
 | 4  -1   2 | 4  -1
 | 1   5   1 | 1   5
 ```
@@ -107,7 +110,19 @@ $$\begin{pmatrix} + & - & + & - & \cdots \\ - & + & - & + & \cdots \\ + & - & + 
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Elegir fila o columna | Preferir la que tenga más ceros |
-| 2 | Para cada elemento $a_{ij}$ | Calcular su [cofactor](../../..](../../../glossary.md#matriz) triangular (superior o inferior):
+| 2 | Para cada elemento $a_{ij}$ | Calcular su [cofactor](../../../glossary.md#cofactor) |
+| 3 | Multiplicar elemento por cofactor | $a_{ij} \cdot C_{ij}$ |
+| 4 | Sumar todos los productos | Resultado final |
+
+---
+
+## Método 4: Determinante por Reducción de Filas
+
+### Cuándo Usar
+- Matrices grandes ($4 \times 4$ o mayores)
+- Cuando se busca eficiencia computacional
+
+### Fórmula para [matriz](../../../glossary.md#matriz) triangular (superior o inferior):
 $$\det(A) = \prod_{i=1}^{n} a_{ii} = a_{11} \cdot a_{22} \cdot \ldots \cdot a_{nn}$$
 
 ### Efecto de las Operaciones de Fila
@@ -161,7 +176,27 @@ $$\det(A) = 1 \cdot 1 \cdot (-1) = \boxed{-1}$$
 | Dos filas/columnas proporcionales | $\det = 0$ |
 | Matriz triangular | $\det =$ producto de diagonal |
 | $\det(AB) = \det(A) \cdot \det(B)$ | Producto de determinantes |
-| $\det(A^T) = \det(A)$ | [Transpuesta](../../..](../../../glossary.md#vector) de términos independientes:
+| $\det(A^T) = \det(A)$ | [Transpuesta](../../../glossary.md#transpuesta) no cambia $\det$ |
+
+---
+
+## Método 6: Regla de Cramer
+
+### Cuándo Usar
+- Sistemas lineales $n \times n$ con solución única
+- Cuando $\det(A) \neq 0$
+
+### Fórmula
+$$x_i = \frac{\det(A_i)}{\det(A)}$$
+
+donde $A_i$ es la matriz $A$ con la columna $i$ reemplazada por el [vector](../../../glossary.md#vector) de términos independientes.
+
+### Ejemplo Detallado
+
+**Problema:** Resolver el sistema:
+$$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 4 \end{cases}$$
+
+**Paso 1:** Identificamos la matriz de coeficientes y el vector de términos independientes:
 $$A = \begin{pmatrix} 2 & 1 & -1 \\ 1 & -1 & 2 \\ 3 & 2 & 1 \end{pmatrix}, \quad b = \begin{pmatrix} 3 \\ 1 \\ 4 \end{pmatrix}$$
 
 **Paso 2:** Calculamos $\det(A)$ (por Sarrus):

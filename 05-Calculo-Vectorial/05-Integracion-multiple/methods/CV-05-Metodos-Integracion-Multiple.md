@@ -98,9 +98,31 @@ $$\int_0^1 \frac{x^3 - x^5}{2}\, dx = \frac{1}{2}\left[\frac{x^4}{4} - \frac{x^6
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Graficar la región | Identificar curvas [límite](../../../glossary.md#funcion) de $x$ |
-| 3 | Expresar como Tipo II | Límites en [función](../../..](../../../glossary.md#sustitucion): $u = y^2$, $du = 2y\, dy$
+|------|--------|---------|  
+| 1 | Graficar la región | Identificar curvas límite |
+| 2 | Expresar como Tipo I | Límites en [función](../../../glossary.md#funcion) de $x$ |
+| 3 | Expresar como Tipo II | Límites en [función](../../../glossary.md#funcion) de $y$ |
+| 4 | Elegir el orden más conveniente | Evaluar complejidad |
+
+### Ejemplo Detallado
+
+**Problema:** Evaluar $\int_0^1 \int_x^1 e^{y^2}\, dy\, dx$
+
+**Observación:** $e^{y^2}$ no tiene antiderivada elemental en $y$.
+
+**Paso 1:** Graficamos la región $x \leq y \leq 1$, $0 \leq x \leq 1$:
+- Triángulo con vértices $(0,0)$, $(1,1)$, $(0,1)$
+
+**Paso 2:** Cambiamos el orden. Como Tipo II:
+- Para $y$ fijo: $0 \leq x \leq y$
+- $0 \leq y \leq 1$
+
+$$\int_0^1 \int_0^y e^{y^2}\, dx\, dy$$
+
+**Paso 3:** Integramos respecto a $x$:
+$$\int_0^1 [xe^{y^2}]_0^y\, dy = \int_0^1 ye^{y^2}\, dy$$
+
+**Paso 4:** Usamos [sustitución](../../../glossary.md#sustitucion): $u = y^2$, $du = 2y\, dy$
 $$= \frac{1}{2}\int_0^1 e^u\, du = \frac{1}{2}[e^u]_0^1 = \frac{1}{2}(e - 1)$$
 
 **Resultado:** $\int_0^1 \int_x^1 e^{y^2}\, dy\, dx = \boxed{\frac{e-1}{2}}$

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-05T13:09:35.325270",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "diagrama_clasificacion_edo_segundo_orden",
+      "description": "Diagrama de flujo para clasificar EDO de segundo orden",
+      "used_in": [
+        "methods/ED-02-Metodos-EDO-Segundo-Orden.md"
+      ],
+      "section": "Método 9: Identificar Tipo de Ecuación",
+      "source_file": "sources/ED-02/diagrama_clasificacion_edo_segundo_orden.py",
+      "files": {
+        "svg": "diagrama_clasificacion_edo_segundo_orden.svg",
+        "png": "diagrama_clasificacion_edo_segundo_orden.png"
+      },
+      "generated_at": "2026-01-05T13:09:35.325153"
+    }
+  ]
+}

@@ -770,31 +770,9 @@ $y'(0) = 0 + 4 = 4$ ✓
 
 ### Diagrama de Clasificación
 
-```
-                    ┌─────────────────────────────────────┐
-                    │    Ecuación de Segundo Orden        │
-                    │    ay'' + by' + cy = f(x)           │
-                    └─────────────────────────────────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    ▼                               ▼
-           ┌─────────────┐                 ┌─────────────────┐
-           │  f(x) = 0   │                 │   f(x) ≠ 0      │
-           │ HOMOGÉNEA   │                 │ NO HOMOGÉNEA    │
-           └─────────────┘                 └─────────────────┘
-                    │                               │
-        ┌───────────┴───────────┐       ┌───────────┴───────────┐
-        ▼                       ▼       ▼                       ▼
-┌───────────────┐     ┌───────────────┐ f(x) polinomio,    f(x) general
-│ Coeficientes  │     │   Cauchy-     │ exp, seno/coseno        │
-│ constantes    │     │   Euler       │       │                 │
-│ a,b,c const   │     │ ax²y''+bxy'+c │       ▼                 ▼
-└───────────────┘     └───────────────┘ COEFICIENTES      VARIACIÓN DE
-        │                     │         INDETERMINADOS     PARÁMETROS
-        ▼                     ▼
-  Ec. característica    Ec. auxiliar
-   ar² + br + c = 0    am² + (b-a)m + c = 0
-```
+![Diagrama de clasificación de EDO de segundo orden](../media/generated/diagrama_clasificacion_edo_segundo_orden.svg)
+
+*Figura: Clasificación jerárquica de ecuaciones diferenciales de segundo orden según tipo de coeficientes y término no homogéneo.*
 
 ### Tabla de Decisión Rápida
 

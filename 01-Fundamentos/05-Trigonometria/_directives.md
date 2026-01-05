@@ -110,6 +110,39 @@ audience: ai_context
 - Arcoseno: $\arcsin x$ o $\sin^{-1}x$
 - Arcocoseno: $\arccos x$ o $\cos^{-1}x$
 - Arcotangente: $\arctan x$ o $\tan^{-1}x$
+- Arcocotangente: $\text{arccot}\, x$ o $\cot^{-1}x$
+- Arcosecante: $\text{arcsec}\, x$ o $\sec^{-1}x$
+- Arcocosecante: $\text{arccsc}\, x$ o $\csc^{-1}x$
+
+---
+
+## Formato de Tablas (OBLIGATORIO)
+
+⚠️ **Regla crítica:** El número de columnas en encabezados, separadores y datos DEBE coincidir.
+
+### Verificación antes de guardar:
+
+```markdown
+| Col1 | Col2 | Col3 | Col4 |    ← 4 encabezados
+|------|:----:|:----:|:----:|    ← 4 separadores
+| a    | b    | c    | d    |    ← 4 datos por fila
+```
+
+### Errores comunes a evitar:
+
+❌ **Encabezados incompletos:**
+```markdown
+| Función | Rango |              ← Solo 2 encabezados
+|---------|:-----:|:-----:|:-----:| ← 4 separadores (¡NO COINCIDE!)
+| Arc... | $...$ | $...$ | $...$ | ← 4 columnas de datos
+```
+
+✅ **Correcto:**
+```markdown
+| Función | Notación | Dominio | Rango |  ← 4 encabezados
+|---------|:--------:|:-------:|:-----:|  ← 4 separadores
+| Arc... | $...$ | $...$ | $...$ |        ← 4 columnas de datos
+```
 
 ### Ángulos
 - Ángulos en variables griegas: $\alpha$, $\beta$, $\theta$, $\phi$

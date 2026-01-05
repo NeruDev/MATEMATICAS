@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-05T13:09:57.218981",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "diagrama_decision_series_potencias",
+      "description": "Diagrama de flujo para método de series de potencias",
+      "used_in": [
+        "methods/ED-05-Metodos-Series-Potencias.md"
+      ],
+      "section": "Diagrama de Decisión: Método de Series",
+      "source_file": "sources/ED-05/diagrama_decision_series_potencias.py",
+      "files": {
+        "svg": "diagrama_decision_series_potencias.svg",
+        "png": "diagrama_decision_series_potencias.png"
+      },
+      "generated_at": "2026-01-05T13:09:57.218890"
+    }
+  ]
+}

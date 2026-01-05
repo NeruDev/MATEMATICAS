@@ -104,3 +104,23 @@ topics:
     module: "05-Calculo-Vectorial"
     subtopic: "05-Integracion-multiple"
     name: "Integración Múltiple"
+  ED-01:
+    module: "06-Ecuaciones-Diferenciales"
+    subtopic: "01-EDO-Primer-Orden"
+    name: "EDO de Primer Orden"
+  ED-02:
+    module: "06-Ecuaciones-Diferenciales"
+    subtopic: "02-EDO-Segundo-Orden"
+    name: "EDO de Segundo Orden"
+  ED-03:
+    module: "06-Ecuaciones-Diferenciales"
+    subtopic: "03-Sistemas-EDO"
+    name: "Sistemas de EDO"
+  ED-04:
+    module: "06-Ecuaciones-Diferenciales"
+    subtopic: "04-Transformada-Laplace"
+    name: "Transformada de Laplace"
+  ED-05:
+    module: "06-Ecuaciones-Diferenciales"
+    subtopic: "05-Series-Potencias"
+    name: "Series de Potencias"

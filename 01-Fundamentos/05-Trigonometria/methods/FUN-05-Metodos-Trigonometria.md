@@ -68,8 +68,60 @@ $$\boxed{225° = \frac{5\pi}{4} \text{ rad}}$$
 
 | Razón | Definición | Mnemónico |
 |-------|------------|-----------|
-| [Seno](../../../glossary.md#coseno) | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
-| [Tangente](../../..](../../../glossary.md#tangente) y cotangente son positivas.
+| [Seno](../../../glossary.md#seno) | $\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}}$ | SOH |
+| [Coseno](../../../glossary.md#coseno) | $\cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}}$ | CAH |
+| [Tangente](../../../glossary.md#tangente) | $\tan\theta = \frac{\text{opuesto}}{\text{adyacente}}$ | TOA |
+
+### Ejemplo Detallado
+
+**Problema:** En un triángulo rectángulo con ángulo $\theta = 30°$ e hipotenusa $c = 10$, encontrar los catetos.
+
+---
+
+**Paso 1: Calcular cateto opuesto usando seno**
+
+$$a = c \cdot \sin(30°) = 10 \times \frac{1}{2} = 5$$
+
+---
+
+**Paso 2: Calcular cateto adyacente usando coseno**
+
+$$b = c \cdot \cos(30°) = 10 \times \frac{\sqrt{3}}{2} = 5\sqrt{3}$$
+
+$$\boxed{a = 5, \quad b = 5\sqrt{3}}$$
+
+---
+
+## Método 3: Evaluar Funciones usando Círculo Unitario
+
+**Cuándo Usar:** Para encontrar valores exactos de funciones trigonométricas en ángulos notables.
+
+### Signos por Cuadrante
+
+| Cuadrante | Seno | Coseno | Tangente |
+|-----------|:----:|:------:|:--------:|
+| I (0° - 90°) | $+$ | $+$ | $+$ |
+| II (90° - 180°) | $+$ | $-$ | $-$ |
+| III (180° - 270°) | $-$ | $-$ | $+$ |
+| IV (270° - 360°) | $-$ | $+$ | $-$ |
+
+> **Mnemónico ASTC:** "All Students Take Calculus" indica qué funciones son positivas en cada cuadrante.
+
+### Ejemplo Detallado
+
+**Problema:** Evaluar $\sin(240°)$, $\cos(240°)$ y $\tan(240°)$.
+
+---
+
+**Paso 1: Determinar cuadrante y ángulo de referencia**
+
+$240° = 180° + 60°$ → Cuadrante III, ángulo de referencia = $60°$
+
+---
+
+**Paso 2: Determinar signos (Cuadrante III)**
+
+En el cuadrante III, solo tangente y cotangente son positivas.
 
 - $\sin(240°) < 0$
 - $\cos(240°) < 0$
@@ -193,14 +245,63 @@ $$\boxed{\text{Amplitud: } 3, \quad \text{Período: } \pi, \quad \text{Rango: } 
 | Estrategia | Descripción |
 |------------|-------------|
 | Trabajar un lado | Transformar hasta igualar al otro |
-| Convertir a sen/cos | Expresar todo en términos de [seno](../../../glossary.md#coseno) |
-| [Factorizar](../../..](../../../glossary.md#funcion) trigonométrica.
+| Convertir a sen/cos | Expresar todo en términos de [seno](../../../glossary.md#seno) y [coseno](../../../glossary.md#coseno) |
+| [Factorizar](../../../glossary.md#factorizar) | Usar identidades para factorizar expresiones |
+| Multiplicar por conjugado | Racionalizar usando $1 + \sin\theta$, $1 - \cos\theta$, etc. |
+
+### Ejemplo Detallado
+
+**Problema:** Demostrar que $\frac{1 - \cos^2\theta}{\sin\theta} = \sin\theta$
+
+---
+
+**Paso 1: Trabajar el lado izquierdo**
+
+$$\frac{1 - \cos^2\theta}{\sin\theta}$$
+
+---
+
+**Paso 2: Usar identidad pitagórica**
+
+$$1 - \cos^2\theta = \sin^2\theta$$
+
+---
+
+**Paso 3: Simplificar**
+
+$$\frac{\sin^2\theta}{\sin\theta} = \sin\theta \checkmark$$
+
+$$\boxed{\frac{1 - \cos^2\theta}{\sin\theta} = \sin\theta}$$
+
+---
+
+## Método 6: Resolver Ecuaciones Trigonométricas
+
+**Cuándo Usar:** Para encontrar todos los ángulos que satisfacen una ecuación trigonométrica.
 
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Aislar [función](../../..](../../../glossary.md#factorizar)**
+| 1 | Aislar función trigonométrica | Simplificar la ecuación |
+| 2 | [Factorizar](../../../glossary.md#factorizar) si es necesario | Llevar a forma $\sin x = a$ o similar |
+| 3 | Encontrar soluciones en $[0, 2\pi)$ | Usar ángulos de referencia |
+| 4 | Escribir solución general | Agregar periodicidad |
+
+### Ejemplo Detallado
+
+**Problema:** Resolver $2\cos^2 x - \cos x - 1 = 0$ en $[0, 2\pi)$.
+
+---
+
+**Paso 1: Hacer sustitución**
+
+Sea $u = \cos x$:
+$$2u^2 - u - 1 = 0$$
+
+---
+
+**Paso 2: Factorizar**
 
 $$(2u + 1)(u - 1) = 0$$
 

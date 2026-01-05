@@ -19,12 +19,23 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Lagrange](../../../glossary.md#interpolacion)-de-lagrange) | General, pocos puntos | ⭐⭐ |
-| 2 | [Diferencias Divididas](#método-3-newton-progresivo) | Datos equiespaciados | ⭐⭐ |
-| 4 | [Newton Regresivo](#método-5-interpolación-de-hermite) | Con [derivadas](#método-6-splines-cúbicos-naturales) | Curvas suaves | ⭐⭐⭐ |
-| 7 | [Splines Sujetos](../../../glossary.md#derivadas) en extremos | ⭐⭐⭐ |
-| 8 | [Neville](#método-9-interpolación-baricéntrica) | Evaluación eficiente | ⭐⭐⭐ |
-| 10 | [Trigonométrica](../../..](../../../glossary.md#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../../glossary.md#tal-que) $P(x_i) = y_i$.
+| 1 | [Interpolación de Lagrange](#método-1-interpolación-de-lagrange) | General, pocos puntos | ⭐⭐ |
+| 2 | [Diferencias Divididas](#método-2-diferencias-divididas-de-newton) | Forma de Newton | ⭐⭐ |
+| 3 | [Newton Progresivo](#método-3-newton-progresivo) | Datos equiespaciados | ⭐⭐ |
+| 4 | [Newton Regresivo](#método-4-newton-regresivo) | Extrapolación hacia atrás | ⭐⭐ |
+| 5 | [Hermite](#método-5-interpolación-de-hermite) | Con [derivadas](../../../glossary.md#derivadas) | ⭐⭐⭐ |
+| 6 | [Splines Cúbicos Naturales](#método-6-splines-cúbicos-naturales) | Curvas suaves | ⭐⭐⭐ |
+| 7 | [Splines Sujetos](#método-7-splines-sujetos) | Con derivadas en extremos | ⭐⭐⭐ |
+| 8 | [Neville](#método-8-algoritmo-de-neville) | Evaluación recursiva | ⭐⭐ |
+| 9 | [Interpolación Baricéntrica](#método-9-interpolación-baricéntrica) | Evaluación eficiente | ⭐⭐⭐ |
+| 10 | [Trigonométrica](#método-10-interpolación-trigonométrica) | Datos periódicos | ⭐⭐⭐ |
+
+---
+
+## Conceptos Fundamentales
+
+### Problema de Interpolación
+Dados $n+1$ puntos $(x_0, y_0), ..., (x_n, y_n)$ con $x_i$ distintos, encontrar un [polinomio](../../../glossary.md#polinomio) $P(x)$ de grado $\leq n$ [tal que](../../../glossary.md#tal-que) $P(x_i) = y_i$.
 
 ### Error de Interpolación
 

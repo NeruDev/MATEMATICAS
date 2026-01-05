@@ -30,9 +30,14 @@ $$\text{Dom}(\mathbf{r}) = \text{Dom}(f) \cap \text{Dom}(g) \cap \text{Dom}(h)$$
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
-|------|--------|---------|
+|------|--------|---------|  
 | 1 | Identificar cada componente | $f(t)$, $g(t)$, $h(t)$ |
-| 2 | Encontrar [dominio](../../..](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
+| 2 | Encontrar [dominio](../../../glossary.md#dominio) de cada una | Restricciones individuales |
+| 3 | Intersecar dominios | Dom($\mathbf{r}$) = $\cap$ dominios |
+
+### Ejemplo Detallado
+
+**Problema:** Encontrar el [dominio](../../../glossary.md#dominio) de $\mathbf{r}(t) = \langle \sqrt{t}, \ln(4-t), e^t \rangle$
 
 **Paso 1:** Identificamos restricciones:
 - $\sqrt{t}$ requiere $t \geq 0$
@@ -57,8 +62,9 @@ $$\lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} f(t), \lim_{t \to a
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
-|------|--------|---------|
-| 1 | Calcular [límite](../../../glossary.md#limite) vectorial existe |
+|------|--------|---------|  
+| 1 | Calcular [límite](../../../glossary.md#limite) de cada componente | Por separado |
+| 2 | Si todos existen | El límite vectorial existe |
 | 3 | Si alguno no existe | El límite vectorial no existe |
 
 ### Ejemplo Detallado

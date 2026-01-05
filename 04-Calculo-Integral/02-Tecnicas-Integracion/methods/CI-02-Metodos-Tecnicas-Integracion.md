@@ -146,14 +146,12 @@ Si $m$ es impar: separar un $\sin x$ y usar $\sin^2 x = 1 - \cos^2 x$
 | 1 | Separar un factor $\cos x$ | Reservar para $du$ |
 | 2 | Convertir $\cos^{n-1} x$ usando identidad | $\cos^2 x = 1 - \sin^2 x$ |
 | 3 | Sustituir $u = \sin x$ | $du = \cos x \, dx$ |
-| 4 | Integrar el [polinomio](../../..](../../../glossary.md#sustitucion):
-$$u = \sin x \implies du = \cos x \, dx$$
+| 4 | Integrar el [polinomio](../../../glossary.md#polinomio) en $u$ | Técnicas básicas |
+| 5 | Regresar a la variable original | Sustituir $u = \sin x$ |
 
-**Paso 4:** Sustituimos completamente:
-$$= \int u^2(1-u^2) \, du = \int (u^2 - u^4) \, du$$
+### Ejemplo Detallado
 
-**Paso 5:** Integramos el [polinomio](../../../glossary.md#polinomio):
-$$= \frac{u^3}{3} - \frac{u^5}{5} + C$$
+**Paso 3:** Hacemos la [sustitución](../../../glossary.md#sustitucion):
 
 **Paso 6:** Regresamos a $x$:
 $$\int \sin^2 x \cos^3 x \, dx = \frac{\sin^3 x}{3} - \frac{\sin^5 x}{5} + C$$
@@ -330,12 +328,20 @@ $$\int \frac{1}{\sqrt{4+x^2}} \, dx = \ln\left|\frac{\sqrt{4+x^2}}{2} + \frac{x}
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Verificar que $\deg P < \deg Q$ | Si no, dividir primero |
-| 2 | [Factorizar](../../..](../../../glossary.md#derivadas) sucesivas de $x^n$ y primitivas de la otra función
-2. Alternar signos: $+, -, +, -, \ldots$
-3. Multiplicar diagonalmente
+| 2 | [Factorizar](../../../glossary.md#factorizacion) el denominador | Factores lineales distintos |
+| 3 | Escribir descomposición | $\frac{A}{x-a} + \frac{B}{x-b} + \cdots$ |
+| 4 | Encontrar coeficientes | Método de evaluación o coeficientes |
+| 5 | Integrar cada fracción | $\int \frac{A}{x-a}dx = A\ln\lvert x-a\rvert$ |
 
-### Ejemplo
-$$\int x^2 e^x dx$$
+---
+
+## Método 8: Integración por Partes (Tabulación)
+
+### Cuándo Usar
+Cuando se aplica integración por partes múltiples veces con el mismo patrón.
+
+### Método de Tabulación
+1. Columna izquierda: [derivadas](../../../glossary.md#derivada) sucesivas de $x^n$ y primitivas de la otra función
 
 | [Derivadas](../../../glossary.md#derivadas) de $x^2$ | Primitivas de $e^x$ | Signo |
 |-------------------|---------------------|-------|

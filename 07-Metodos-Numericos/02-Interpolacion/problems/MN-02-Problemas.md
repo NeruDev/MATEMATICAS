@@ -19,18 +19,25 @@ title: "Problemas: [Interpolación](../../../glossary.md#interpolacion)"
 ## Sección 1: Interpolación de Lagrange
 
 ### [Prob-01] Polinomio de Lagrange básico ⭐
-> **Solución:** [solutions/prob-01/](../../..](../../../glossary.md#polinomio) que interpola los puntos $(0, 1)$, $(1, 0)$, $(2, 1)$.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-01)
+
+Encontrar el [polinomio](../../../glossary.md#polinomio) que interpola los puntos $(0, 1)$, $(1, 0)$, $(2, 1)$.
 
 ---
 
 ### [Prob-02] Polinomio de Lagrange y evaluación ⭐⭐
-> **Solución:** [solutions/prob-02/](../../..](../../../glossary.md#polinomio-de-lagrange)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-02)
+
+Usando el [polinomio de Lagrange](../../../glossary.md#polinomio-de-lagrange) para $(0, 2)$, $(1, 3)$, $(3, 5)$:
+a) Escribir el polinomio
 b) Evaluar $P(0.5)$
 
 ---
 
 ### [Prob-03] Interpolación de función logarítmica ⭐⭐
-> **Solución:** [solutions/prob-03/](../../..](../../../glossary.md#polinomio) de [interpolación](../../../glossary.md#interpolacion) de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-03)
+
+Construir el [polinomio](../../../glossary.md#polinomio) de [interpolación](../../../glossary.md#interpolacion) de grado 2 para $f(x) = \ln(x)$ usando $x = 1, 2, 4$ y estimar $\ln(3)$.
 
 ---
 
@@ -44,7 +51,9 @@ Demostrar que $\sum_{i=0}^{n} L_i(x) = 1$ para cualquier $x$.
 ## Sección 2: Diferencias Divididas
 
 ### [Prob-05] Tabla de diferencias divididas ⭐⭐
-> **Solución:** [solutions/prob-05/](../../..](../../../glossary.md#diferencias-divididas) para los puntos $(0, -1)$, $(1, 1)$, $(3, 7)$, $(4, 13)$ y escribir el polinomio de Newton.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-05)
+
+Construir la tabla de [diferencias divididas](../../../glossary.md#diferencias-divididas) para los puntos $(0, -1)$, $(1, 1)$, $(3, 7)$, $(4, 13)$ y escribir el polinomio de Newton.
 
 ---
 
@@ -116,7 +125,9 @@ Usar Newton progresivo para estimar $\sin(0.15)$.
 ## Sección 4: Error de Interpolación
 
 ### [Prob-12] Error de interpolación lineal ⭐⭐
-> **Solución:** [solutions/prob-12/](../../..](../../../glossary.md#error-de-interpolacion) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-12)
+
+Acotar el [error de interpolación](../../../glossary.md#error-de-interpolacion) lineal ($n=1$) de $f(x) = e^x$ en $[0, 1]$ con puntos $x_0 = 0$, $x_1 = 1$.
 
 ---
 
@@ -130,7 +141,9 @@ b) Acotar el error en $[0, \pi/2]$
 ---
 
 ### [Prob-14] Fenómeno de Runge ⭐⭐⭐
-> **Solución:** [solutions/prob-14/](../../..](../../../glossary.md#fenomeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-14)
+
+Ilustrar el [fenómeno de Runge](../../../glossary.md#fenomeno-de-runge) para $f(x) = \frac{1}{1+25x^2}$ en $[-1, 1]$. ¿Por qué empeora al aumentar $n$?
 
 ---
 
@@ -144,12 +157,17 @@ Calcular los nodos de Chebyshev para $n = 3$ en $[-1, 1]$ y compararlos con nodo
 ## Sección 5: Splines Cúbicos
 
 ### [Prob-16] Spline cúbico natural básico ⭐⭐
-> **Solución:** [solutions/prob-16/](../../..](../../../glossary.md#spline-cubico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-16)
+
+Construir el [spline cúbico](../../../glossary.md#spline-cubico) natural para los puntos $(0, 0)$, $(1, 1)$, $(2, 0)$.
 
 ---
 
 ### [Prob-17] Spline cúbico con 4 puntos ⭐⭐
-> **Solución:** [solutions/prob-17/](../../..](../../../glossary.md#spline-cubico) natural
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-17)
+
+Para los puntos $(0, 0)$, $(1, 2)$, $(2, 1)$, $(3, 3)$:
+a) Construir el [spline cúbico](../../../glossary.md#spline-cubico) natural
 b) Evaluar $S(1.5)$
 
 ---
@@ -166,7 +184,9 @@ Comparar la interpolación polinómica de grado 4 vs spline cúbico para:
 ---
 
 ### [Prob-19] Splines y fenómeno de Runge ⭐⭐⭐
-> **Solución:** [solutions/prob-19/](../../..](../../../glossary.md#fenomeno-de-runge)?
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-19)
+
+¿Por qué los splines cúbicos no sufren el [fenómeno de Runge](../../../glossary.md#fenomeno-de-runge)?
 
 ---
 
@@ -182,7 +202,13 @@ Encontrar el polinomio de Hermite que interpola:
 ---
 
 ### [Prob-21] Hermite para función exponencial ⭐⭐
-> **Solución:** [solutions/prob-21/](../../..](../../../glossary.md#derivadas) exactas.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-21)
+
+Construir el polinomio de Hermite para $f(x) = e^x$ usando:
+- $f(0) = 1$, $f'(0) = 1$
+- $f(1) = e$, $f'(1) = e$
+
+Comparar con los valores [exactos](../../../glossary.md#derivadas) en $x = 0.5$.
 
 ---
 
@@ -228,7 +254,10 @@ Una curva de carretera debe pasar por los puntos $(0, 0)$, $(100, 10)$, $(200, 0
 ## Sección 8: Problemas de Implementación
 
 ### [Prob-25] Implementación de diferencias divididas ⭐⭐
-> **Solución:** [solutions/prob-25/](../../..](../../../glossary.md#funcion) para calcular [diferencias divididas](../../../glossary.md#diferencias-divididas)
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-25)
+
+Escribir un programa que:
+a) [Función](../../../glossary.md#funcion) para calcular [diferencias divididas](../../../glossary.md#diferencias-divididas)
 b) [Función](../../../glossary.md#funcion) para evaluar el polinomio de Newton
 
 ---
@@ -253,7 +282,9 @@ Comparar numéricamente Lagrange vs Newton para $n = 10, 20, 50$ puntos aleatori
 ## Sección 9: Problemas Teóricos
 
 ### [Prob-28] Equivalencia Lagrange-Newton ⭐⭐⭐
-> **Solución:** [solutions/prob-28/](../../..](../../../glossary.md#polinomio-de-lagrange) y el de Newton son idénticos.
+> **Solución:** [📎 Ver Respuesta](../solutions/MN-02-Respuestas.md#prob-28)
+
+Demostrar que el [polinomio de Lagrange](../../../glossary.md#polinomio-de-lagrange) y el de Newton son idénticos.
 
 ---
 

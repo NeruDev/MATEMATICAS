@@ -19,13 +19,25 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Transformada Directa](#método-2-primera-traslación-en-s) | Funciones con $e^{at}$ | ⭐⭐ |
-| 3 | [Segunda Traslación](#método-4-inversa-por-fracciones-parciales) | Inversas racionales | ⭐⭐⭐ |
-| 5 | [Completar Cuadrado](#método-6-resolver-pvi-con-laplace) | [Ecuaciones diferenciales](#método-7-manejar-funciones-escalón) | Entradas discontinuas | ⭐⭐⭐ |
-| 8 | [Función Delta](../../../glossary.md#funcion)-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
-| 9 | [Convolución](#método-10-sistemas-de-[edo](../../../glossary.md#edo)-con-laplace) | Sistemas acoplados | ⭐⭐⭐⭐ |
-| 11 | [Derivada de F(s)](../../../glossary.md#derivada)-de-la-transformada) | Transformadas con $t^n$ | ⭐⭐ |
-| 12 | [Funciones Periódicas](../../..](../../../glossary.md#funcion) es [combinación lineal](../../../glossary.md#combinacion-lineal) de funciones de la tabla
+| 1 | [Transformada Directa](#método-1-transformada-directa) | Funciones básicas | ⭐ |
+| 2 | [Primera Traslación en s](#método-2-primera-traslación-en-s) | Funciones con $e^{at}$ | ⭐⭐ |
+| 3 | [Segunda Traslación](#método-3-segunda-traslación-en-t) | Funciones con retardo | ⭐⭐ |
+| 4 | [Inversa por Fracciones Parciales](#método-4-inversa-por-fracciones-parciales) | Inversas racionales | ⭐⭐⭐ |
+| 5 | [Completar Cuadrado](#método-5-completar-cuadrado) | Cuadráticas irreducibles | ⭐⭐ |
+| 6 | [Resolver PVI con Laplace](#método-6-resolver-pvi-con-laplace) | Ecuaciones diferenciales | ⭐⭐ |
+| 7 | [Funciones Escalón](#método-7-manejar-funciones-escalón) | Entradas discontinuas | ⭐⭐⭐ |
+| 8 | [Función Delta](#método-8-función-delta-de-dirac) | Impulsos | ⭐⭐⭐ |
+| 9 | [Convolución](#método-9-convolución) | Productos de transformadas | ⭐⭐⭐ |
+| 10 | [Sistemas de EDO](#método-10-sistemas-de-edo-con-laplace) | Sistemas acoplados | ⭐⭐⭐⭐ |
+| 11 | [Derivada de F(s)](#método-11-derivada-de-la-transformada) | Transformadas con $t^n$ | ⭐⭐ |
+| 12 | [Funciones Periódicas](#método-12-funciones-periódicas) | Señales repetitivas | ⭐⭐⭐ |
+
+---
+
+## Método 1: Transformada Directa
+
+### Cuándo Usar
+- La [función](../../../glossary.md#funcion) es [combinación lineal](../../../glossary.md#combinacion-lineal) de funciones de la tabla
 - Aplicar [linealidad](../../../glossary.md#linealidad): $\mathcal{L}\{af + bg\} = aF + bG$
 
 ### Algoritmo de Resolución
@@ -877,34 +889,9 @@ $$\boxed{= \frac{1}{s(1+e^{-s})}}$$
 
 ## Diagrama de Decisión
 
-```
-┌─────────────────────────────────────────────┐
-│        ¿Qué tipo de problema?               │
-└─────────────────────────────────────────────┘
-                    │
-    ┌───────────────┼───────────────┐
-    ▼               ▼               ▼
-Calcular 𝓛      Calcular 𝓛⁻¹    Resolver PVI
-    │               │               │
-    ▼               ▼               ▼
-¿e^(at)·f?      ¿Racional?      Aplicar 𝓛
-    │               │               │
-    ▼               ▼               ▼
-SÍ → 1ª trasl   SÍ → Fracc.     Sustituir
-NO → ¿u(t-a)?   parciales       derivadas
-    │               │               │
-    ▼               ▼               ▼
-SÍ → 2ª trasl   ¿Cuadrático     Despejar Y(s)
-NO → Tabla      irreducible?         │
-                    │               ▼
-                    ▼           Fracciones
-              SÍ → Completar    parciales
-              cuadrado              │
-                    │               ▼
-                    ▼           Aplicar 𝓛⁻¹
-              Identificar
-              cos/sin amort.
-```
+![Diagrama de decisión para Transformada de Laplace](../media/generated/diagrama_decision_laplace.svg)
+
+*Figura: Árbol de decisión para aplicar la Transformada de Laplace según el tipo de problema: cálculo directo, inversa o resolución de PVI.*
 
 ---
 

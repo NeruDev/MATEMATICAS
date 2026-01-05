@@ -171,7 +171,19 @@ $$\left(\begin{array}{ccc|c} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 3 \en
 | 3 | Identificar variables libres | Columnas sin pivote |
 | 4 | Asignar parámetros | A cada variable libre |
 | 5 | Despejar variables básicas | En términos de parámetros |
-| 6 | Escribir solución vectorial | [Solución particular](../../..](../../../glossary.md#nucleo-kernel) de una matriz
+| 6 | Escribir solución vectorial | [Solución particular](../../../glossary.md#solucion-particular) + [solución homogénea](../../../glossary.md#solucion-homogenea) |
+
+### Ejemplo Detallado
+
+**Problema:** Resolver el sistema con infinitas soluciones.
+
+---
+
+## Método 5: Sistemas Homogéneos
+
+### Cuándo Usar
+- Sistemas de la forma $Ax = 0$
+- Encontrar el [núcleo (kernel)](../../../glossary.md#nucleo-kernel) de una matriz
 
 ### Propiedades
 - **Siempre** tiene la solución [trivial](../../../glossary.md#trivial) $x = 0$
@@ -181,10 +193,10 @@ $$\left(\begin{array}{ccc|c} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 3 \en
 ### Algoritmo de Resolución
 
 | Paso | Acción | Detalle |
-|------|--------|---------|
+|------|--------|---------|  
 | 1 | Reducir $A$ a RREF | Sin columna aumentada |
 | 2 | Identificar variables libres | Columnas sin pivote |
-| 3 | Encontrar [base](../../../glossary.md#vector) por cada variable libre |
+| 3 | Encontrar [base](../../../glossary.md#base) | Un [vector](../../../glossary.md#vector) por cada variable libre |
 
 ### Ejemplo Detallado
 
@@ -275,11 +287,13 @@ Descomponer $A = LU$ donde:
 
 | Paso | Acción | Sistema |
 |------|--------|---------|
-| 1 | [Factorizar](../../..](../../../glossary.md#factorizar) y resolver:
-$$\begin{cases} 2x + y + z = 1 \\ 4x + 3y + 3z = 1 \\ 8x + 7y + 9z = 5 \end{cases}$$
+| 1 | [Factorizar](../../../glossary.md#factorizacion) $A = LU$ | Eliminación de Gauss guardando multiplicadores |
+| 2 | Resolver $Ly = b$ | Sustitución hacia adelante |
+| 3 | Resolver $Ux = y$ | Sustitución hacia atrás |
 
-**Paso 1:** Eliminación guardando multiplicadores:
+### Ejemplo Detallado
 
+**Problema:** Usar factorización LU para resolver:
 $R_2 - 2R_1 \to R_2$ (multiplicador = 2):
 $$\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 8 & 7 & 9 \end{pmatrix}$$
 
@@ -317,7 +331,16 @@ $$\boxed{x = 1, \quad y = -3, \quad z = 2}$$
 
 | Paso | Acción |
 |------|--------|
-| 1 | Calcular $\det(A)$ en [función](../../..](../../../glossary.md#determinante):
+| 1 | Calcular $\det(A)$ en [función](../../../glossary.md#funcion) del parámetro |
+| 2 | Encontrar valores críticos donde $\det(A) = 0$ |
+| 3 | Analizar cada caso por separado |
+
+### Ejemplo Detallado
+
+**Problema:** Analizar el sistema según el valor de $k$:
+$$\begin{cases} x + y + z = 1 \\ x + 2y + 3z = 1 \\ x + 2y + kz = 1 \end{cases}$$
+
+**Paso 1:** Calculamos el [determinante](../../../glossary.md#determinante):
 $$\det(A) = \det\begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & k \end{pmatrix}$$
 
 Expandiendo por la columna 1:

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-05T13:09:49.643546",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "diagrama_decision_laplace",
+      "description": "Diagrama de flujo para métodos de Transformada de Laplace",
+      "used_in": [
+        "methods/ED-04-Metodos-Transformada-Laplace.md"
+      ],
+      "section": "Diagrama de Decisión",
+      "source_file": "sources/ED-04/diagrama_decision_laplace.py",
+      "files": {
+        "svg": "diagrama_decision_laplace.svg",
+        "png": "diagrama_decision_laplace.png"
+      },
+      "generated_at": "2026-01-05T13:09:49.643456"
+    }
+  ]
+}

@@ -134,14 +134,14 @@ $$\boxed{T \text{ NO es lineal (falla aditividad)}}$$
 |------|--------|---------|
 | 1 | Plantear ecuación | $T(\mathbf{v}) = \mathbf{0}$ |
 | 2 | Escribir sistema | Igualar cada componente a cero |
-| 3 | Formar [matriz](../../../glossary.md#funcion) de variables libres |
-| 6 | Extraer [base](../../..](../../../glossary.md#base) para $T: \mathbb{R}^4 \to \mathbb{R}^3$ definida por:
-$$T(x_1, x_2, x_3, x_4) = (x_1 + x_2 - x_3, 2x_1 + x_2 + x_4, x_1 - x_3 + x_4)$$
+| 3 | Formar [matriz](../../../glossary.md#matriz) | Coeficientes del sistema |
+| 4 | Reducir a RREF | Operaciones elementales |
+| 5 | Parametrizar solución | En [función](../../../glossary.md#funcion) de variables libres |
+| 6 | Extraer [base](../../../glossary.md#base) | Vectores del kernel |
 
----
+### Ejemplo Detallado
 
-**Paso 1: Plantear $T(\mathbf{v}) = \mathbf{0}$**
-
+**Problema:** Encontrar $\ker(T)$ para $T: \mathbb{R}^4 \to \mathbb{R}^3$ definida por:
 $$\begin{cases}
 x_1 + x_2 - x_3 = 0 \\
 2x_1 + x_2 + x_4 = 0 \\

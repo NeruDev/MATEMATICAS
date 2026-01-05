@@ -120,15 +120,47 @@ $$(A^T)_{ij} = a_{ji}$$
 
 | Propiedad | Fórmula |
 |-----------|---------|
-| Doble [transpuesta](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
+| Doble [transpuesta](../../../glossary.md#transpuesta) | $(A^T)^T = A$ |
+| Suma | $(A + B)^T = A^T + B^T$ |
+| Producto por escalar | $(kA)^T = kA^T$ |
+| Producto | $(AB)^T = B^T A^T$ |
+
+---
+
+## Método 5: Inversa de Matriz $2 \times 2$
+
+### Cuándo Usar
+- Matrices $2 \times 2$ únicamente
+- Método rápido por fórmula directa
+
+### Fórmula
+
+Para $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
+
+$$A^{-1} = \frac{1}{\det(A)} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
+
+donde $\det(A) = ad - bc \neq 0$
+
+### Algoritmo de Resolución
+
+| Paso | Acción | Detalle |
+|------|--------|---------|  
+| 1 | Calcular [determinante](../../../glossary.md#determinante) | $\det(A) = ad - bc$ |
 | 2 | Verificar invertibilidad | Si $\det = 0$, no existe inversa |
 | 3 | Intercambiar diagonal principal | $a \leftrightarrow d$ |
 | 4 | Cambiar signo diagonal secundaria | $b \to -b$, $c \to -c$ |
-| 5 | Dividir entre [determinante](../../..](../../../glossary.md#matriz) adjunta:
-$$\text{adj}(A) = \begin{pmatrix} 1 & -3 \\ -2 & 4 \end{pmatrix}$$
+| 5 | Dividir entre [determinante](../../../glossary.md#determinante) | Obtener [matriz](../../../glossary.md#matriz) inversa |
 
-**Paso 5:** Dividimos entre el determinante:
-$$A^{-1} = \frac{1}{-2}\begin{pmatrix} 1 & -3 \\ -2 & 4 \end{pmatrix} = \boxed{\begin{pmatrix} -1/2 & 3/2 \\ 1 & -2 \end{pmatrix}}$$
+### Ejemplo Detallado
+
+**Problema:** Calcular la inversa de $A = \begin{pmatrix} 4 & 3 \\ 2 & 1 \end{pmatrix}$
+
+**Paso 1:** Calculamos el determinante:
+$$\det(A) = (4)(1) - (3)(2) = 4 - 6 = -2 \neq 0$$
+
+**Paso 2:** Como $\det \neq 0$, la inversa existe.
+
+**Pasos 3-4:** Formamos la [matriz](../../../glossary.md#matriz) adjunta:
 
 **Verificación:** $AA^{-1} = I$
 $$\begin{pmatrix} 4 & 3 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} -1/2 & 3/2 \\ 1 & -2 \end{pmatrix} = \begin{pmatrix} -2+3 & 6-6 \\ -1+1 & 3-2 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$ ✓

@@ -213,13 +213,12 @@ $$\boxed{\text{Mínimo absoluto: } -3 \text{ en } x = -1 \text{ y } x = 2}$$
 |------------------------|------------|
 | $+ \to -$ | Máximo local |
 | $- \to +$ | Mínimo local |
-| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../..](../../../glossary.md#punto-de-inflexion) horizontal)
-  
-- En $x = 3$: Cambio $- \to +$
-  - **Mínimo local** en $x = 3$
+| $+ \to +$ o $- \to -$ | [Punto de inflexión](../../../glossary.md#punto-de-inflexion) horizontal |
 
-$$\boxed{x = 0: \text{ Punto de inflexión horizontal}}$$
-$$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
+### Ejemplo Detallado
+
+- En $x = 0$: No hay cambio de signo
+  - **[Punto de inflexión](../../../glossary.md#punto-de-inflexion) horizontal**
 
 ---
 
@@ -239,11 +238,16 @@ $$\boxed{x = 3: \text{ Mínimo local}, \, f(3) = 81 - 108 = -27}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos [derivadas](../../..](../../../glossary.md#derivadas)**
+| 1 | Calcular $f'(x)$ y $f''(x)$ | Las dos [derivadas](../../../glossary.md#derivada) |
+| 2 | Encontrar puntos críticos | Resolver $f'(x) = 0$ |
+| 3 | Evaluar $f''$ en cada punto | Determinar signo |
+| 4 | Clasificar | Según criterio |
 
-$$f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$$
-$$f''(x) = 6x - 12$$
+### Ejemplo Detallado
 
+**Problema:** Clasificar los puntos críticos de $f(x) = x^3 - 6x^2 + 9x + 2$
+
+**Paso 1: Calcular [derivadas](../../../glossary.md#derivada)**
 ---
 
 **Paso 2: Puntos críticos**
@@ -279,13 +283,17 @@ $$\boxed{\text{Mínimo local: } (3, 2)}$$
 |------|--------|---------|
 | 1 | Identificar objetivo | ¿Qué maximizar/minimizar? |
 | 2 | Definir variables | Asignar símbolos |
-| 3 | Escribir [función](../../..](../../../glossary.md#funcion) objetivo (área)**
+| 3 | Escribir [función](../../../glossary.md#funcion) objetivo | Lo que se optimiza |
+| 4 | Escribir restricciones | Condiciones dadas |
+| 5 | Reducir a una variable | Sustituir restricciones |
+| 6 | Derivar e igualar a cero | Encontrar críticos |
+| 7 | Verificar | Máximo o mínimo |
 
-$$A = xy$$
+### Ejemplo Detallado
 
----
+**Problema:** Un agricultor tiene 400 m de cerca. Quiere cercar un área rectangular junto a un río (no necesita cerca en ese lado). ¿Qué dimensiones maximizan el área?
 
-**Paso 4: Restricción (perímetro)**
+**Paso 3: Escribir [función](../../../glossary.md#funcion) objetivo (área)**
 
 $$2x + y = 400$$
 

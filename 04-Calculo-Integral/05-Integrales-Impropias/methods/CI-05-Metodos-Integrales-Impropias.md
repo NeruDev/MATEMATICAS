@@ -214,13 +214,15 @@ $$L = \lim_{x \to \infty} \frac{f(x)}{g(x)}$$
 |------|--------|---------|
 | 1 | Identificar término dominante de $f(x)$ | Para $x \to \infty$ |
 | 2 | Elegir $g(x)$ con ese comportamiento | Función simple |
-| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es [necesario](../../..](../../../glossary.md#limites) son infinitos
+| 3 | Calcular $L = \lim \frac{f}{g}$ | Regla de L'Hôpital si es [necesario](../../../glossary.md#limite) |
+| 4 | Concluir | Según valor de $L$ |
 
-### Principio
-La integral total converge si y solo si **todas** las partes convergen.
+---
 
-### Algoritmo de Resolución
+## Método 7: Integrales Impropias Dobles
 
+### Cuándo Usar
+Cuando ambos [límites](../../../glossary.md#limites) son infinitos.
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Identificar puntos problemáticos | Discontinuidades o infinitos |
@@ -265,11 +267,15 @@ Al hacer [sustitución](../../../glossary.md#sustitucion), los límites de integ
 
 | Paso | Acción | Cuidado |
 |------|--------|---------|
-| 1 | Aplicar [sustitución](../../..](../../../glossary.md#sustitucion-trigonometrica) $x = \sec\theta$:
-- $dx = \sec\theta\tan\theta\,d\theta$
-- $\sqrt{x^2-1} = \sqrt{\sec^2\theta - 1} = \tan\theta$
+| 1 | Aplicar [sustitución](../../../glossary.md#sustitucion) | Cambiar límites también |
+| 2 | Transformar límites | $\infty$ puede volverse finito |
+| 3 | Evaluar | Nueva integral más simple |
 
-**Paso 2:** Cambiamos los límites:
+### Ejemplo Detallado
+
+**Problema:** Evaluar $\int_1^{\infty} \frac{1}{x\sqrt{x^2-1}}\,dx$
+
+**Paso 1:** Usamos [sustitución trigonométrica](../../../glossary.md#sustitucion-trigonometrica) $x = \sec\theta$:
 - Cuando $x = 1$: $\sec\theta = 1 \Rightarrow \theta = 0$
 - Cuando $x \to \infty$: $\sec\theta \to \infty \Rightarrow \theta \to \frac{\pi}{2}$
 

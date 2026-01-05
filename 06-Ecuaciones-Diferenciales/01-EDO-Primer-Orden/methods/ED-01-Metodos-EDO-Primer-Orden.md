@@ -19,22 +19,48 @@ status: active
 
 | # | Método | Forma de Ecuación | Complejidad |
 |---|--------|-------------------|-------------|
-| 1 | [Variables Separables](#método-2-resolver-ecuación-lineal) | $y' + P(x)y = Q(x)$ | ⭐⭐ |
-| 3 | [Ecuación Exacta](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ | ⭐⭐⭐ |
-| 5 | [Bernoulli](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
-| 7 | [Reducción a Separable](../../../glossary.md#sustitucion)-especial) | $y' = f(ax + by + c)$ | ⭐⭐ |
-| 8 | [Ricatti](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
-| 10 | [Resolver PVI](../../..](../../../glossary.md#solucion-particular)**
-
-$$y + \frac{y^3}{3} = \frac{x^3}{3} + \frac{4}{3}$$
-
-Multiplicando por 3:
-
-$$\boxed{3y + y^3 = x^3 + 4}$$
+| 1 | [Variables Separables](#método-1-variables-separables) | $g(y)\,dy = f(x)\,dx$ | ⭐ |
+| 2 | [Ecuación Lineal](#método-2-resolver-ecuación-lineal) | $y' + P(x)y = Q(x)$ | ⭐⭐ |
+| 3 | [Ecuación Exacta](#método-3-ecuación-exacta) | $M\,dx + N\,dy = 0$ ($M_y = N_x$) | ⭐⭐ |
+| 4 | [Factor Integrante](#método-4-factor-integrante-para-no-exactas) | $M\,dx + N\,dy = 0$ ($M_y \neq N_x$) | ⭐⭐⭐ |
+| 5 | [Bernoulli](#método-5-ecuación-de-bernoulli) | $y' + P(x)y = Q(x)y^n$ | ⭐⭐⭐ |
+| 6 | [Homogénea](#método-6-resolver-ecuación-homogénea) | $y' = F(y/x)$ | ⭐⭐ |
+| 7 | [Reducción a Separable](#método-7-reducción-a-separable) | $y' = f(ax + by + c)$ | ⭐⭐ |
+| 8 | [Ricatti](#método-8-ecuación-de-ricatti) | $y' = P(x) + Q(x)y + R(x)y^2$ | ⭐⭐⭐⭐ |
+| 9 | [Identificar Tipo](#método-9-identificar-tipo-de-ecuación) | General | ⭐ |
+| 10 | [Resolver PVI](#método-10-resolver-problema-de-valor-inicial) | EDO + condición inicial | ⭐⭐ |
 
 ---
 
-**Verificación:** En $x = 0$: $3(1) + 1 = 0 + 4 \implies 4 = 4$ ✓
+## Método 1: Variables Separables
+
+### Cuándo Usar
+- Ecuación de la forma $g(y)\,dy = f(x)\,dx$
+- Se puede separar variables en cada lado
+
+### Algoritmo de Resolución
+
+| Paso | Acción | Detalle |
+|:----:|--------|---------|  
+| 1 | **Separar** | Variables a cada lado |
+| 2 | **Integrar** | Ambos lados |
+| 3 | **Despejar** | Si es posible |
+
+### Ejemplo Detallado
+
+**Problema:** Resolver $y' = x^2(1 + y^2)$, $y(0) = 1$
+
+**Paso 1:** Separamos variables:
+$$\frac{dy}{1 + y^2} = x^2\,dx$$
+
+**Paso 2:** Integramos:
+$$\arctan(y) = \frac{x^3}{3} + C$$
+
+**Paso 3:** Aplicamos condición inicial $y(0) = 1$:
+$$\arctan(1) = 0 + C \implies C = \frac{\pi}{4}$$
+
+**[Solución particular](../../../glossary.md#solucion-particular):**
+$$y = \tan\left(\frac{x^3}{3} + \frac{\pi}{4}\right)$$
 
 ---
 
@@ -632,36 +658,9 @@ $$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
 
 ### Diagrama de Decisión
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    ¿Qué forma tiene?                        │
-└─────────────────────────────────────────────────────────────┘
-                              │
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│ y' = g(x)·h(y)  │  │ y' + P(x)y = Q  │  │ M dx + N dy = 0 │
-│   SEPARABLE     │  │    LINEAL       │  │                 │
-└─────────────────┘  └─────────────────┘  └────────┬────────┘
-                                                   │
-                              ┌─────────────────────┴─────────┐
-                              ▼                               ▼
-                     ┌─────────────┐               ┌─────────────────┐
-                     │ ¿M_y = N_x? │               │ ¿M_y ≠ N_x?     │
-                     │   EXACTA    │               │ FACTOR INTEG.   │
-                     └─────────────┘               └─────────────────┘
+![Diagrama de decisión para identificar tipo de EDO de primer orden](../media/generated/diagrama_decision_edo_primer_orden.svg)
 
-┌─────────────────────────────────────────────────────────────┐
-│                   Casos especiales                          │
-└─────────────────────────────────────────────────────────────┘
-                              │
-    ┌─────────────┬───────────┴───────────┬─────────────┐
-    ▼             ▼                       ▼             ▼
-┌─────────┐ ┌───────────┐         ┌───────────┐ ┌───────────┐
-│y'+Py=Qy^n│ │y'=F(y/x) │         │y'=f(ax+by)│ │y'=P+Qy+Ry²│
-│BERNOULLI │ │HOMOGÉNEA │         │SUSTITUCIÓN│ │  RICATTI  │
-└─────────┘ └───────────┘         └───────────┘ └───────────┘
-```
+*Figura: Árbol de decisión para identificar y clasificar ecuaciones diferenciales ordinarias de primer orden según su forma algebraica.*
 
 ### Tabla Resumen
 
@@ -669,8 +668,17 @@ $$\boxed{y = x - \frac{1}{x - C} = \frac{x^2 - Cx - 1}{x - C}}$$
 |------|----------------|--------|
 | Separable | $y' = g(x)h(y)$ | Separar e integrar |
 | Lineal | $y' + P(x)y = Q(x)$ | Factor integrante $e^{\int P\,dx}$ |
-| Exacta | $M_y = N_x$ | Buscar $F$ [tal que](../../..](../../../glossary.md#edo) junto con condición inicial $y(x_0) = y_0$
-- Se busca solución particular única
+| Exacta | $M_y = N_x$ | Buscar $F$ tal que $dF = 0$ |
+| Bernoulli | $y' + Py = Qy^n$ | Sustituir $v = y^{1-n}$ |
+| Homogénea | $y' = F(y/x)$ | Sustituir $v = y/x$ |
+
+---
+
+## Método 10: Resolver Problema de Valor Inicial
+
+### Cuándo Usar
+- Se da una [EDO](../../../glossary.md#edo) junto con condición inicial $y(x_0) = y_0$
+- Se busca [solución particular](../../../glossary.md#solucion-particular) única
 
 ### Algoritmo de Resolución
 

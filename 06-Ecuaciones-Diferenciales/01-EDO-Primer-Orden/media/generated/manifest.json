@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-05T13:08:32.581733",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "diagrama_decision_edo_primer_orden",
+      "description": "Diagrama de flujo para identificar tipo de EDO de primer orden",
+      "used_in": [
+        "methods/ED-01-Metodos-EDO-Primer-Orden.md"
+      ],
+      "section": "Método 9: Identificar Tipo de Ecuación",
+      "source_file": "sources/ED-01/diagrama_decision_edo_primer_orden.py",
+      "files": {
+        "svg": "diagrama_decision_edo_primer_orden.svg",
+        "png": "diagrama_decision_edo_primer_orden.png"
+      },
+      "generated_at": "2026-01-05T13:08:32.581645"
+    }
+  ]
+}

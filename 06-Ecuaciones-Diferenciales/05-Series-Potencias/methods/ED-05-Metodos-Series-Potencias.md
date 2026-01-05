@@ -19,12 +19,23 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Punto Ordinario](../../../glossary.md#edo) en punto ordinario | ⭐⭐ |
-| 2 | [Clasificar Puntos Singulares](#método-3-ecuación-indicial) | Frobenius - encontrar exponentes | ⭐⭐ |
-| 4 | [Frobenius Caso 1](#método-5-frobenius-raíces-iguales) | $r_1 = r_2$ | ⭐⭐⭐⭐ |
-| 6 | [Frobenius Caso 3](#método-7-determinar-radio-de-[convergencia](../../../glossary.md#convergencia)) | Analizar convergencia | ⭐⭐ |
-| 8 | [Ecuaciones Especiales](#método-9-resolver-ecuación-de-bessel) | Problemas cilíndricos | ⭐⭐⭐⭐ |
-| 10 | [Ecuación de Legendre](../../..](../../../glossary.md#edo) es $y'' + P(x)y' + Q(x)y = 0$
+| 1 | [Punto Ordinario](#método-1-solución-en-punto-ordinario) | [EDO](../../../glossary.md#edo) en punto ordinario | ⭐⭐ |
+| 2 | [Clasificar Puntos Singulares](#método-2-clasificar-puntos-singulares) | Identificar regularidad | ⭐⭐ |
+| 3 | [Ecuación Indicial](#método-3-ecuación-indicial) | Frobenius - encontrar exponentes | ⭐⭐ |
+| 4 | [Frobenius Caso 1](#método-4-frobenius-raíces-distintas) | $r_1 - r_2 \notin \mathbb{Z}$ | ⭐⭐⭐ |
+| 5 | [Frobenius Caso 2](#método-5-frobenius-raíces-iguales) | $r_1 = r_2$ | ⭐⭐⭐⭐ |
+| 6 | [Frobenius Caso 3](#método-6-frobenius-raíces-difieren-entero) | $r_1 - r_2 \in \mathbb{Z}^+$ | ⭐⭐⭐⭐ |
+| 7 | [Radio de Convergencia](#método-7-determinar-radio-de-convergencia) | Analizar [convergencia](../../../glossary.md#convergencia) | ⭐⭐ |
+| 8 | [Ecuaciones Especiales](#método-8-ecuaciones-especiales) | Airy, Hermite, Chebyshev | ⭐⭐⭐ |
+| 9 | [Ecuación de Bessel](#método-9-resolver-ecuación-de-bessel) | Problemas cilíndricos | ⭐⭐⭐⭐ |
+| 10 | [Ecuación de Legendre](#método-10-resolver-ecuación-de-legendre) | Problemas esféricos | ⭐⭐⭐⭐ |
+
+---
+
+## Método 1: Solución en Punto Ordinario
+
+### Cuándo Usar
+- La [EDO](../../../glossary.md#edo) es $y'' + P(x)y' + Q(x)y = 0$
 - El punto $x_0$ es ordinario (P y Q analíticas en $x_0$)
 - Para mayor simplicidad, usualmente $x_0 = 0$
 
@@ -906,39 +917,9 @@ Para problemas físicos en $[-1, 1]$, usualmente $C_2 = 0$.
 
 ## Diagrama de Decisión: Método de Series
 
-```
-┌──────────────────────────────────────────────────────┐
-│     EDO lineal de segundo orden                      │
-│     y'' + P(x)y' + Q(x)y = 0                         │
-└──────────────────────────────────────────────────────┘
-                       │
-                       ▼
-            ┌─────────────────────┐
-            │  Clasificar x₀      │
-            └─────────────────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-    ORDINARIO    SING. REGULAR   SING. IRREGULAR
-        │              │              │
-        ▼              ▼              ▼
-    Series de      Frobenius      Métodos
-    potencias      y = xʳΣcₙxⁿ    especiales
-    y = Σcₙxⁿ          │
-        │              ▼
-        │      Ecuación indicial
-        │      r² + (p₀-1)r + q₀ = 0
-        │              │
-        │    ┌─────────┼─────────┐
-        │    ▼         ▼         ▼
-        │  CASO 1   CASO 2    CASO 3
-        │  r₁-r₂    r₁=r₂     r₁-r₂
-        │  ∉ ℤ                 ∈ ℤ⁺
-        │    │         │         │
-        ▼    ▼         ▼         ▼
-     2 series  2 series   y₂ con   Verificar
-     indep.    indep.     ln x     si y₂ falla
-```
+![Diagrama de decisión para método de series de potencias](../media/generated/diagrama_decision_series_potencias.svg)
+
+*Figura: Árbol de decisión para seleccionar el método de series de potencias según la clasificación del punto de desarrollo.*
 
 ---
 

@@ -139,7 +139,20 @@ $$\lim_{n \to \infty} \frac{|e_{n+1}|}{|e_n|^p} = C \neq 0$$
 
 donde $e_n = x_n - x^*$.
 
-| Método | [Orden](../../..](../../../glossary.md#funcion) por iteración.
+| Método | [Orden](../../../glossary.md#orden) $p$ | Convergencia |
+|--------|--------|--------------|
+| Bisección | 1 | Lineal |
+| Newton-Raphson | 2 | Cuadrática |
+| Secante | 1.618 | Supralineal |
+| Punto Fijo | 1 | Lineal |
+| Regula Falsi | 1 | Lineal |
+
+### 5.2 Eficiencia Computacional
+
+El **índice de eficiencia** mide el costo por iteración:
+$$EI = p^{1/k}$$
+
+donde $k$ es el número de evaluaciones de [función](../../../glossary.md#funcion) por iteración.
 
 | Método | $k$ | $EI$ |
 |--------|-----|------|

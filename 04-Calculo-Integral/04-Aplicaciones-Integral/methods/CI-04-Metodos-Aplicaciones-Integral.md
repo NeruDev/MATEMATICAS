@@ -455,12 +455,12 @@ $$f_{\text{prom}} = \frac{1}{b-a}\int_a^b f(x)\,dx$$
 | Paso | Acción | Cálculo |
 |------|--------|---------|
 | 1 | Identificar el intervalo $[a,b]$ | Límites de integración |
-| 2 | Calcular $\int_a^b f(x)\,dx$ | [Integral definida](../../..](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en el intervalo $[0, 3]$.
+| 2 | Calcular $\int_a^b f(x)\,dx$ | [Integral definida](../../../glossary.md#integral-definida) |
+| 3 | Dividir por $b - a$ | Longitud del intervalo |
 
-**Paso 1:** Identificamos:
-- $a = 0$
-- $b = 3$
-- $b - a = 3$
+### Ejemplo Detallado
+
+**Problema:** Encontrar el [valor promedio](../../../glossary.md#valor-promedio) de $f(x) = x^2$ en el intervalo $[0, 3]$.
 
 **Paso 2:** Calculamos la integral:
 $$\int_0^3 x^2\,dx = \left[\frac{x^3}{3}\right]_0^3 = \frac{27}{3} - 0 = 9$$

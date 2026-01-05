@@ -219,11 +219,14 @@ $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | Identificar [función](../../..](../../../glossary.md#regla-de-la-cadena)**
+| 1 | Identificar [función](../../../glossary.md#funcion) externa | $f$ (la de "afuera") |
+| 2 | Identificar función interna | $g$ (la de "adentro") |
+| 3 | Aplicar [regla de la cadena](../../../glossary.md#regla-de-la-cadena) | $f'(g(x)) \cdot g'(x)$ |
+| 4 | Simplificar | Factorizar si es útil |
 
-$$h'(x) = f'(g(x)) \cdot g'(x)$$
-$$= 5(3x^2 + 2x - 1)^4 \cdot (6x + 2)$$
+### Ejemplo Detallado
 
+**Paso 3: Aplicar la [regla de la cadena](../../../glossary.md#regla-de-la-cadena)**
 ---
 
 **Paso 4: Simplificar (factorizar si es útil)**

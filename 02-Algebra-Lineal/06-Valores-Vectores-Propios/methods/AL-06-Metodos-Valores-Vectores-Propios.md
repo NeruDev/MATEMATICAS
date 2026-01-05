@@ -111,14 +111,9 @@ $$\boxed{\lambda_1 = 2 + i, \quad \lambda_2 = 2 - i}$$
 | 1 | Formar $A - \lambda I$ | Restar $\lambda$ de la diagonal |
 | 2 | Calcular determinante | Expandir por cofactores o Sarrus |
 | 3 | Buscar raíces racionales | Probar divisores del término independiente |
-| 4 | [Factorizar](../../..](../../../glossary.md#matriz)**
+| 4 | [Factorizar](../../../glossary.md#factorizacion) | Encontrar todos los eigenvalores |
 
-$A$ es triangular superior, por lo tanto:
-
-$$\boxed{\text{Eigenvalores: } \lambda_1 = 2 \text{ (doble)}, \quad \lambda_2 = 3}$$
-
----
-
+### Ejemplo: [Matriz](../../../glossary.md#matriz) Triangular
 ### Ejemplo: Matriz 3×3 General
 
 **Problema:** Encontrar los eigenvalores de $A = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 3 \end{pmatrix}$
@@ -274,12 +269,12 @@ donde:
 | Condición | Resultado |
 |-----------|-----------|
 | $n$ eigenvalores distintos | Siempre diagonalizable |
-| [Matriz simétrica](../../..](../../../glossary.md#multiplicidad-geometrica) de $\lambda = 3$**
+| [Matriz simétrica](../../../glossary.md#matriz-simetrica) real | Siempre diagonalizable |
+| Eigenvalor repetido | Verificar $m_g = m_a$ |
 
-$$A - 3I = \begin{pmatrix} -2 & 2 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
+### Ejemplo Detallado
 
-$\text{rango}(A - 3I) = 1$
-
+**Paso 2: Calcular [multiplicidad geométrica](../../../glossary.md#multiplicidad-geometrica) de $\lambda = 3$**
 $m_g(3) = 3 - 1 = 2$
 
 ---

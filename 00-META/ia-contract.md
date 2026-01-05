@@ -179,6 +179,38 @@ Para archivos completos, incluir también:
 | Evaluado en | `$\big\vert$` |
 | Tal que (conjuntos) | `$\mid$` |
 
+### 4.5 Formato de Tablas (OBLIGATORIO)
+
+⚠️ **Reglas críticas para tablas legibles:**
+
+1. **Encabezados completos:** El número de columnas en la fila de encabezados DEBE coincidir con el número de columnas en los datos.
+   
+   ❌ **INCORRECTO:**
+   ```markdown
+   | Columna1 | Columna2 |
+   |----------|:--------:|:-------:|:-----:|
+   | dato1 | dato2 | dato3 | dato4 |
+   ```
+   
+   ✅ **CORRECTO:**
+   ```markdown
+   | Columna1 | Columna2 | Columna3 | Columna4 |
+   |----------|:--------:|:--------:|:--------:|
+   | dato1 | dato2 | dato3 | dato4 |
+   ```
+
+2. **Separadores consistentes:** La fila de separadores `|---|` debe tener el mismo número de celdas que los encabezados.
+
+3. **Alineación:**
+   - `:---` = izquierda
+   - `:---:` = centrado
+   - `---:` = derecha
+
+4. **Verificación:** Antes de guardar, contar manualmente las columnas en:
+   - Fila de encabezados
+   - Fila de separadores
+   - Cada fila de datos
+
 ---
 
 ## 5. Sintaxis de Enlaces Internos (OBLIGATORIO)
@@ -217,9 +249,26 @@ Ajustar `../` según profundidad (añadir `../` por cada nivel).
 ❌ **NO HACER:**
 - `](../glossary.md)#term)` — paréntesis fuera del ancla
 - `](..](../archivo.md)` — doble bracket
+- `](../../..](` — patrón corrupto de enlace duplicado
 - `[texto](README.md)` — no existen README en subtemas
 - Enlaces sin extensión `.md`
 - Rutas absolutas del sistema de archivos
+
+### 5.5 Detección y Corrección de Enlaces Rotos
+
+⚠️ **Patrón de error común detectado:**
+
+```markdown
+❌ INCORRECTO (enlace duplicado/corrupto):
+| Columna | [texto](../../..](../../../glossary.md#termino) más texto
+
+✅ CORRECTO:
+| Columna | [texto](../../../glossary.md#termino) más texto
+```
+
+**Cómo detectar:** Buscar el patrón `](../../..](` o `](../..](` que indica un enlace mal cerrado.
+
+**Cómo corregir:** Eliminar la parte duplicada `](../../..` o `](../..` y dejar solo un `](ruta/correcta.md#ancla)`.
 
 ---
 

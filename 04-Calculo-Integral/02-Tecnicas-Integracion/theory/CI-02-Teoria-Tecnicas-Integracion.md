@@ -113,7 +113,18 @@ $$\int \sec x \, dx = \ln\lvert\sec x + \tan x\rvert + C$$
 
 ### Tabla de Sustituciones
 
-| Expresión | [Sustitución](../../..](../../../glossary.md#menor)** que el grado del denominador. Si no, hacer división de polinomios primero.
+| Expresión | [Sustitución](../../../glossary.md#sustitucion-trigonometrica) | Identidad usada |
+|-----------|---------------|-----------------|
+| $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ | $1 - \sin^2\theta = \cos^2\theta$ |
+| $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ | $1 + \tan^2\theta = \sec^2\theta$ |
+| $\sqrt{x^2 - a^2}$ | $x = a\sec\theta$ | $\sec^2\theta - 1 = \tan^2\theta$ |
+
+---
+
+## 2.5 Fracciones Parciales
+
+### Requisito
+El grado del numerador debe ser [menor](../../../glossary.md#menor) que el grado del denominador. Si no, hacer división de polinomios primero.
 
 ### Tipos de Descomposición
 

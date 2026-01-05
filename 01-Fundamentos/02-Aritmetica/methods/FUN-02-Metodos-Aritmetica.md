@@ -150,7 +150,9 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 | Paso | Acción | Detalle |
 |------|--------|---------|
-| 1 | [Factorizar](../../../glossary.md#menor) exponente | Para cada factor común |
+| 1 | [Factorizar](../../../glossary.md#factorizacion) cada número | Descomponer en primos |
+| 2 | Identificar factores comunes | Primos que aparecen en todos |
+| 3 | Tomar [menor](../../../glossary.md#menor) exponente | Para cada factor común |
 | 4 | Multiplicar | Producto de factores seleccionados |
 
 ### Ejemplo Detallado
@@ -161,11 +163,54 @@ $$\boxed{2520 = 2^3 \times 3^2 \times 5 \times 7}$$
 
 **Paso 1: Factorizar cada número**
 
-| Número | [Factorización](../../..](../../../glossary.md#combinacion-lineal).
+| Número | [Factorización](../../../glossary.md#factorizacion) |
+|--------|----------------|
+| $168$ | $2^3 \times 3 \times 7$ |
+| $252$ | $2^2 \times 3^2 \times 7$ |
+| $420$ | $2^2 \times 3 \times 5 \times 7$ |
 
-**Método de [sustitución](../../../glossary.md#sustitucion) hacia atrás:**
+---
 
-De la tabla:
+**Paso 2: Identificar factores comunes**
+
+Factores comunes: $2$, $3$, $7$
+
+---
+
+**Paso 3: Tomar menor exponente**
+
+| Factor | Exponentes | Mínimo |
+|--------|------------|--------|
+| $2$ | $3, 2, 2$ | $2$ |
+| $3$ | $1, 2, 1$ | $1$ |
+| $7$ | $1, 1, 1$ | $1$ |
+
+---
+
+**Paso 4: Multiplicar**
+
+$$\text{MCD}(168, 252, 420) = 2^2 \times 3 \times 7 = 4 \times 3 \times 7 = 84$$
+
+$$\boxed{\text{MCD}(168, 252, 420) = 84}$$
+
+---
+
+## Método 4: MCD por Algoritmo de Euclides
+
+**Cuándo Usar:** Para calcular el MCD de dos números grandes sin factorizar.
+
+### Algoritmo de Resolución
+
+| Paso | Acción | Detalle |
+|------|--------|---------|  
+| 1 | Dividir mayor entre menor | Obtener cociente y residuo |
+| 2 | Reemplazar | Mayor = menor, menor = residuo |
+| 3 | Repetir | Hasta que residuo sea 0 |
+| 4 | El último divisor | Es el MCD |
+
+### Ejemplo con Coeficientes de Bézout
+
+**Problema:** Encontrar $\text{MCD}(1071, 462)$ y expresarlo como [combinación lineal](../../../glossary.md#combinacion-lineal).
 - $21 = 462 - 147 \times 3$
 - $147 = 1071 - 462 \times 2$
 
