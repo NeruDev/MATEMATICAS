@@ -101,7 +101,12 @@ $$\text{Dom}(f) = \boxed{\{(x,y) : x^2 + y^2 \leq 9\}}$$
 | 1 | Evaluar por $y = 0$ (eje $x$) |
 | 2 | Evaluar por $x = 0$ (eje $y$) |
 | 3 | Evaluar por $y = mx$ (rectas) |
-| 4 | Evaluar por $y = x^2$ (parábola) si es [necesario](../../..](../../../glossary.md#limite) **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
+| 4 | Evaluar por $y = x^2$ (parábola) si es necesario |
+| 5 | Si dos trayectorias dan diferente | El [límite](../../../glossary.md#limite) no existe |
+
+### Ejemplo Detallado (NO existe)
+
+**Resultado:** El [límite](../../../glossary.md#limite) **no existe** porque por diferentes trayectorias obtenemos valores distintos ($0$ y $\frac{1}{2}$).
 
 ### Ejemplo Detallado (SÍ existe)
 

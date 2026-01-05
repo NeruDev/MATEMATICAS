@@ -128,14 +128,14 @@ La [función](../../../glossary.md#funcion) $\ln x$ solo está definida para $x 
 | 1 | Verificar la forma $\frac{k}{x}$ | Extraer constante $k$ |
 | 2 | Aplicar $\int \frac{1}{x}dx = \ln\lvert x\rvert$ | Usar valor absoluto |
 | 3 | Multiplicar por la constante | $k \cdot \ln\lvert x\rvert$ |
-| 4 | Agregar $+ C$ | [Constante de integración](../../..](../../../glossary.md#base) natural)
-- Funciones $a^x$ ([base](../../../glossary.md#base) cualquier positivo $a \neq 1$)
+| 4 | Agregar $+ C$ | [Constante de integración](../../../glossary.md#constante-de-integracion) |
 
-### Fórmulas
-$$\int e^x \, dx = e^x + C$$
-$$\int a^x \, dx = \frac{a^x}{\ln a} + C \quad (a > 0, a \neq 1)$$
+---
 
-### Algoritmo de Resolución
+## Método 4: Integrales Exponenciales
+
+### Cuándo Usar
+- Funciones $e^x$ ([base](../../../glossary.md#base) natural)
 
 | Caso | Fórmula | Factor de ajuste |
 |------|---------|------------------|

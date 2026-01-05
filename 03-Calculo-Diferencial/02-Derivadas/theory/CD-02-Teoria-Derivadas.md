@@ -35,7 +35,12 @@ $$f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$
 | Notación | Se lee |
 |----------|--------|
 | $f'(x)$ | "f prima de x" |
-| $\frac{df}{dx}$ | "[derivada](../../..](../../../glossary.md#tangente)** a la gráfica de $f$ en el punto $(a, f(a))$.
+| $\frac{df}{dx}$ | "derivada de f respecto a x" |
+| $\frac{d}{dx}f(x)$ | "derivada de f de x" |
+| $Df(x)$ | "D de f de x" |
+
+### Interpretación Geométrica
+$f'(a)$ es la **pendiente** de la recta [tangente](../../../glossary.md#tangente) a la gráfica de $f$ en el punto $(a, f(a))$.
 
 ### Interpretación Física
 Si $s(t)$ es posición, entonces $s'(t)$ es **velocidad instantánea**.

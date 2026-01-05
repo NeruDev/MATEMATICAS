@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-05T13:09:42.637976",
+  "generator": "graphics/generate_graphics.py",
+  "graphics": [
+    {
+      "name": "diagrama_traza_determinante",
+      "description": "Diagrama de clasificación de puntos de equilibrio usando traza y determinante",
+      "used_in": [
+        "methods/ED-03-Metodos-Sistemas-EDO.md"
+      ],
+      "section": "Método 7: Clasificar Retrato de Fase",
+      "source_file": "sources/ED-03/diagrama_traza_determinante.py",
+      "files": {
+        "svg": "diagrama_traza_determinante.svg",
+        "png": "diagrama_traza_determinante.png"
+      },
+      "generated_at": "2026-01-05T13:09:42.637893"
+    }
+  ]
+}

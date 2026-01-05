@@ -19,12 +19,23 @@ status: active
 
 | # | Método | Aplicación | Complejidad |
 |---|--------|------------|-------------|
-| 1 | [Eigenvalores Reales Distintos](#método-2-eigenvalores-complejos) | Sistemas oscilatorios | ⭐⭐⭐ |
-| 3 | [Eigenvalor Repetido](#método-4-sistema-no-homogéneo) | $\mathbf{X}' = A\mathbf{X} + \mathbf{F}(t)$ | ⭐⭐⭐ |
-| 5 | [Matriz Exponencial](../../../glossary.md#matriz)-exponencial) | [Solución general](#método-6-desacoplamiento-por-[diagonalización](../../../glossary.md#diagonalizacion)) | Sistemas diagonalizables | ⭐⭐⭐ |
-| 7 | [Clasificar Retrato de Fase](#método-8-resolver-pvi-de-sistema) | Con condiciones iniciales | ⭐⭐ |
-| 9 | [Sistemas $3\times 3$](../../../glossary.md#dimension) | ⭐⭐⭐⭐ |
-| 10 | [Conversión [EDO](#método-10-conversión-edo-a-sistema) | EDO de [orden](../../..](../../../glossary.md#matriz) tiene $n$ eigenvalores reales distintos
+| 1 | [Eigenvalores Reales Distintos](#método-1-eigenvalores-reales-distintos) | [Matriz](../../../glossary.md#matriz) con eigenvalores reales distintos | ⭐⭐ |
+| 2 | [Eigenvalores Complejos](#método-2-eigenvalores-complejos) | Sistemas oscilatorios | ⭐⭐⭐ |
+| 3 | [Eigenvalor Repetido](#método-3-eigenvalor-repetido) | Multiplicidad algebraica > 1 | ⭐⭐⭐ |
+| 4 | [Sistema No Homogéneo](#método-4-sistema-no-homogéneo) | $\mathbf{X}' = A\mathbf{X} + \mathbf{F}(t)$ | ⭐⭐⭐ |
+| 5 | [Matriz Exponencial](#método-5-matriz-exponencial) | Solución mediante $e^{At}$ | ⭐⭐⭐⭐ |
+| 6 | [Desacoplamiento](#método-6-desacoplamiento-por-diagonalización) | Sistemas [diagonalizables](../../../glossary.md#diagonalizacion) | ⭐⭐⭐ |
+| 7 | [Clasificar Retrato de Fase](#método-7-clasificar-retrato-de-fase) | Análisis cualitativo | ⭐⭐ |
+| 8 | [Resolver PVI de Sistema](#método-8-resolver-pvi-de-sistema) | Con condiciones iniciales | ⭐⭐ |
+| 9 | [Sistemas $3\times 3$](#método-9-sistemas-3x3) | Mayor [dimensión](../../../glossary.md#dimension) | ⭐⭐⭐⭐ |
+| 10 | [Conversión EDO a Sistema](#método-10-conversión-edo-a-sistema) | EDO de [orden](../../../glossary.md#orden) superior | ⭐⭐ |
+
+---
+
+## Método 1: Eigenvalores Reales Distintos
+
+### Cuándo Usar
+- La [matriz](../../../glossary.md#matriz) tiene $n$ eigenvalores reales distintos
 
 ### Fórmula
 
@@ -561,22 +572,9 @@ $$\boxed{\begin{cases} x = c_1 e^t + c_2 e^{3t} \\ y = -c_1 e^t + c_2 e^{3t} \en
 
 ### Diagrama de Clasificación
 
-```
-                         τ (traza)
-                          ↑
-                          │
-         Espirales        │        Nodos
-         inestables       │        inestables
-                          │
-    ──────────────────────┼──────────────────── Δ = τ²/4
-                          │
-         Espirales        │        Nodos
-         estables         │        estables
-                          │
-    ══════════════════════╪════════════════════ → Δ
-                          │
-              Punto silla (Δ < 0)
-```
+![Diagrama de clasificación en el plano traza-determinante](../media/generated/diagrama_traza_determinante.svg)
+
+*Figura: Regiones del plano traza-determinante para clasificación de puntos de equilibrio en sistemas lineales autónomos.*
 
 ### Ejemplo Detallado
 

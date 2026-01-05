@@ -656,7 +656,22 @@ $$\boxed{x^* \approx 0.56714}$$
 | Propiedad | Valor |
 |-----------|-------|
 | Garantía de convergencia | ✓ |
-| [Orden](../../..](../../../glossary.md#matriz) jacobiana:
+| [Orden](../../../glossary.md#orden) de convergencia | Variable |
+| Robustez | Muy alta |
+| Eficiencia | Alta |
+
+---
+
+## Método 10: Newton para Sistemas No Lineales
+
+### Cuándo Usar
+- Resolver $\mathbf{F}(\mathbf{x}) = \mathbf{0}$
+- Sistema de ecuaciones no lineales
+
+### Fórmula
+$$\mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}^{-1}(\mathbf{x}_n)\mathbf{F}(\mathbf{x}_n)$$
+
+donde $\mathbf{J}$ es la [matriz](../../../glossary.md#matriz) jacobiana:
 
 $$J_{ij} = \frac{\partial F_i}{\partial x_j}$$
 

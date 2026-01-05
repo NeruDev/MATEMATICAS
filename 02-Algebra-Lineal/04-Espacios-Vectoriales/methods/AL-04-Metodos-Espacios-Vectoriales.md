@@ -28,14 +28,15 @@ status: active
 | 1 | Verificar no vacío | Comprobar que $\mathbf{0} \in W$ |
 | 2 | Cerradura bajo suma | Si $u, v \in W$, verificar $u + v \in W$ |
 | 3 | Cerradura escalar | Si $v \in W$, $c \in \mathbb{F}$, verificar $cv \in W$ |
-| 4 | Concluir | Si pasa los 3 → [subespacio](../../..](../../../glossary.md#vector) cero pertenece a $W$**
+| 4 | Concluir | Si pasa los 3 → [subespacio](../../../glossary.md#subespacio) |
 
-Sustituir $(0, 0, 0)$ en la ecuación:
-$$2(0) - (0) + 3(0) = 0 - 0 + 0 = 0 \checkmark$$
+### Ejemplo Detallado
 
-El [vector](../../../glossary.md#vector) cero **sí pertenece** a $W$.
+**Problema:** Determinar si $W = \{(x, y, z) \in \mathbb{R}^3 : 2x - y + 3z = 0\}$ es subespacio de $\mathbb{R}^3$.
 
 ---
+
+**Paso 1: Verificar que el [vector](../../../glossary.md#vector) cero pertenece a $W$**
 
 **Paso 2: Verificar cerradura bajo la suma**
 
@@ -111,12 +112,23 @@ $$\boxed{W \text{ NO es subespacio}}$$
 | Paso | Acción | Detalle |
 |------|--------|---------|
 | 1 | Plantear ecuación | $c_1v_1 + c_2v_2 + \cdots + c_kv_k = \mathbf{0}$ |
-| 2 | Formar [matriz](../../..](../../../glossary.md#matriz) aumentada**
+| 2 | Formar [matriz](../../../glossary.md#matriz) | Vectores como columnas |
+| 3 | Reducir a RREF | Operaciones de fila |
+| 4 | Analizar soluciones | Solo trivial → LI; no triviales → LD |
 
-$$\left(\begin{array}{ccc|c}
-1 & 2 & 0 & 0 \\
-2 & 3 & 1 & 0 \\
-1 & 0 & 2 & 0
+### Ejemplo Detallado
+
+**Problema:** Determinar si los vectores $v_1 = (1, 2, 1)$, $v_2 = (2, 3, 0)$, $v_3 = (0, 1, 2)$ son LI o LD.
+
+---
+
+**Paso 1: Plantear la ecuación**
+
+$c_1(1, 2, 1) + c_2(2, 3, 0) + c_3(0, 1, 2) = (0, 0, 0)$
+
+---
+
+**Paso 2: Formar [matriz](../../../glossary.md#matriz) aumentada**
 \end{array}\right)$$
 
 ---
@@ -177,13 +189,12 @@ $$\boxed{\text{Los vectores son LD con relación: } v_3 = 2v_1 - v_2}$$
 |------|--------|---------|
 | 1 | Formar matriz | Vectores como **filas** |
 | 2 | Reducir a REF | Operaciones elementales de fila |
-| 3 | Identificar pivotes | Filas con pivotes corresponden a vectores [base](../../..](../../../glossary.md#dimension):** $\dim(\text{span}) = 2$
+| 3 | Identificar pivotes | Filas con pivotes corresponden a vectores [base](../../../glossary.md#base) |
+| 4 | Concluir | Número de pivotes = [dimensión](../../../glossary.md#dimension) del span |
 
----
+### Ejemplo Detallado
 
-## Método 4: Encontrar Base del Espacio Nulo
-
-**Cuándo Usar:** Para hallar todos los vectores $\mathbf{x}$ tales que $A\mathbf{x} = \mathbf{0}$.
+**Resultado:** La [dimensión](../../../glossary.md#dimension) del span es igual al número de pivotes: $\dim(\text{span}) = 2$
 
 **Fórmula:** $\text{Nul}(A) = \{\mathbf{x} \in \mathbb{R}^n : A\mathbf{x} = \mathbf{0}\}$
 
@@ -193,13 +204,12 @@ $$\boxed{\text{Los vectores son LD con relación: } v_3 = 2v_1 - v_2}$$
 |------|--------|---------|
 | 1 | Reducir a RREF | Llevar $A$ a forma escalonada reducida |
 | 2 | Identificar variables | Libres (sin pivote) y ligadas (con pivote) |
-| 3 | Parametrizar | Expresar ligadas en [función](../../..](../../../glossary.md#solucion-general)**
+| 3 | Parametrizar | Expresar ligadas en [función](../../../glossary.md#funcion) de las libres |
+| 4 | Escribir [solución general](../../../glossary.md#solucion-general) | Como combinación lineal de vectores base |
 
-$$\mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} -2s - t \\ s \\ -t \\ t \end{pmatrix}$$
+### Ejemplo Detallado
 
-$$= s\begin{pmatrix} -2 \\ 1 \\ 0 \\ 0 \end{pmatrix} + t\begin{pmatrix} -1 \\ 0 \\ -1 \\ 1 \end{pmatrix}$$
-
----
+**Paso 4: Escribir la solución [general](../../../glossary.md#solucion-general)**
 
 **Paso 5: Conclusión**
 

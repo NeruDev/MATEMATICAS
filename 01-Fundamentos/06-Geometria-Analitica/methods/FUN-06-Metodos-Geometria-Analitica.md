@@ -187,12 +187,37 @@ $$\boxed{V(2, 2), \quad F(4, 2), \quad \text{Directriz: } x = 0}$$
 | Elemento | Descripción | Fórmula |
 |----------|-------------|---------|
 | Semieje mayor | $a$ | Mayor denominador bajo raíz |
-| Semieje [menor](../../..](../../../glossary.md#menor):** $(0, -3)$, $(0, 3)$
-- **Excentricidad:** $e = \frac{4}{5} = 0.8$
+| Semieje [menor](../../../glossary.md#menor) | $b$ | Menor denominador bajo raíz |
+| Distancia focal | $c$ | $c = \sqrt{a^2 - b^2}$ |
+| Focos | Puntos fijos | $(\pm c, 0)$ o $(0, \pm c)$ |
+| Vértices | Extremos eje mayor | $(\pm a, 0)$ o $(0, \pm a)$ |
+| Excentricidad | $e$ | $e = \frac{c}{a}$, donde $0 < e < 1$ |
+
+### Ejemplo Detallado
+
+**Problema:** Identificar los elementos de $\frac{x^2}{25} + \frac{y^2}{9} = 1$
 
 ---
 
-**Verificación:** Para cualquier punto $P$ de la elipse: $PF_1 + PF_2 = 2a = 10$
+**Paso 1: Identificar semiejes**
+
+$a^2 = 25 \Rightarrow a = 5$ (semieje mayor)
+
+$b^2 = 9 \Rightarrow b = 3$ (semieje menor)
+
+---
+
+**Paso 2: Calcular distancia focal**
+
+$$c = \sqrt{a^2 - b^2} = \sqrt{25 - 9} = \sqrt{16} = 4$$
+
+---
+
+**Paso 3: Determinar elementos**
+
+- **Focos:** $(-4, 0)$, $(4, 0)$
+- **Vértices mayores:** $(-5, 0)$, $(5, 0)$
+- **Vértices [menores](../../../glossary.md#menor):** $(0, -3)$, $(0, 3)$
 
 Para $P(5, 0)$:
 $$PF_1 = |5 - (-4)| = 9, \quad PF_2 = |5 - 4| = 1$$

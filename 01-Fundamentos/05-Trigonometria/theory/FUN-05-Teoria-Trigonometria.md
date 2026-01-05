@@ -330,11 +330,14 @@ donde $s = \frac{a + b + c}{2}$ es el semiperímetro.
 
 ### Definiciones y dominios
 
-| [Función](../../../glossary.md#dominio) | Rango |
+| Función | Notación | [Dominio](../../../glossary.md#dominio) | Rango |
 |---------|:--------:|:-------:|:-----:|
 | Arcoseno | $\arcsin x$ o $\sin^{-1}x$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | Arcocoseno | $\arccos x$ o $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
 | Arcotangente | $\arctan x$ o $\tan^{-1}x$ | $\mathbb{R}$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
+| Arcocotangente | $\text{arccot}\, x$ o $\cot^{-1}x$ | $\mathbb{R}$ | $(0, \pi)$ |
+| Arcosecante | $\text{arcsec}\, x$ o $\sec^{-1}x$ | $\lvert x \rvert \geq 1$ | $[0, \frac{\pi}{2}) \cup (\frac{\pi}{2}, \pi]$ |
+| Arcocosecante | $\text{arccsc}\, x$ o $\csc^{-1}x$ | $\lvert x \rvert \geq 1$ | $[-\frac{\pi}{2}, 0) \cup (0, \frac{\pi}{2}]$ |
 
 ### Propiedades importantes
 
@@ -399,6 +402,14 @@ $$\arctan x + \arctan\frac{1}{x} = \begin{cases} \frac{\pi}{2} & \text{si } x > 
 
 ### Soluciones generales
 
-| Ecuación | [Solución general](../../..](../../../glossary.md#trigonometria) para nivel [fundamentos](../../../glossary.md#fundamentos).
-file_id: FUN-05-Teoria-Trigonometria
--->
+| Ecuación | Solución general |
+|----------|------------------|
+| $\sin\theta = a$ | $\theta = \arcsin a + 2n\pi$ o $\theta = \pi - \arcsin a + 2n\pi$ |
+| $\cos\theta = a$ | $\theta = \pm\arccos a + 2n\pi$ |
+| $\tan\theta = a$ | $\theta = \arctan a + n\pi$ |
+
+donde $n \in \mathbb{Z}$.
+
+---
+
+> 📚 **Nota:** Este documento cubre [trigonometría](../../../glossary.md#trigonometria) para nivel [fundamentos](../../../glossary.md#fundamentos).

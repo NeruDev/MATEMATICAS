@@ -71,11 +71,17 @@ Al cambiar los [límites](../../../glossary.md#limites) de integración, no es [
 
 | Paso | Acción | Cálculo |
 |------|--------|---------|
-| 1 | Elegir $u = g(x)$ | Identificar la [sustitución](../../..](../../../glossary.md#limites) de integración:
-- Cuando $x = 0$: $u = 0^2 + 1 = 1$
-- Cuando $x = 1$: $u = 1^2 + 1 = 2$
+| 1 | Elegir $u = g(x)$ | Identificar la [sustitución](../../../glossary.md#sustitucion) |
+| 2 | Calcular $du$ | $du = g'(x)\,dx$ |
+| 3 | Cambiar [límites](../../../glossary.md#limites) | Evaluar $g(a)$ y $g(b)$ |
+| 4 | Reescribir integral | En términos de $u$ |
+| 5 | Evaluar | Sin regresar a $x$ |
 
-**Paso 4:** Reescribimos la integral:
+### Ejemplo Detallado
+
+**Problema:** Evaluar $\int_0^1 2x(x^2+1)^3 \, dx$
+
+**Paso 3:** Cambiamos los [límites](../../../glossary.md#limites) de integración:
 $$\int_0^1 2x(x^2+1)^3 \, dx = \int_1^2 u^3 \, du$$
 
 **Paso 5:** Evaluamos:

@@ -178,7 +178,22 @@ $$E = \frac{2^{2n+1}(n!)^4}{(2n+1)[(2n)!]^3}f^{(2n)}(\xi)$$
 
 ### 6.1 Comparación de Órdenes
 
-| Método | [Orden](../../..](../../../glossary.md#cuadratura) de Filon
+| Método | [Orden](../../../glossary.md#orden) del Error | Fórmula |
+|--------|----------------|----------|
+| Rectángulos | $O(h)$ | $E = \frac{h}{2}(b-a)f'(\xi)$ |
+| Trapecios | $O(h^2)$ | $E = -\frac{h^2}{12}(b-a)f''(\xi)$ |
+| Simpson | $O(h^4)$ | $E = -\frac{h^4}{180}(b-a)f^{(4)}(\xi)$ |
+| Gauss-Legendre ($n$) | $O(h^{2n})$ | Ver fórmula específica |
+
+---
+
+## 7. Integrales Oscilatorias
+
+### 7.1 Problema
+Para $\int_a^b f(x)\sin(\omega x)\,dx$ con $\omega$ grande, los métodos clásicos necesitan muchos puntos.
+
+### 7.2 Solución
+- Cuadratura de Filon
 - O integrar por partes y aplicar métodos estándar
 
 ---
