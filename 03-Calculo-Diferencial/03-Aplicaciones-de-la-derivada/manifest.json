@@ -3,11 +3,13 @@
   "topic": "Aplicaciones de la Derivada",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Aplicar derivadas para resolver problemas de optimización, razones relacionadas y análisis de funciones",
   "tags": ["optimizacion", "maximos-minimos", "razones-relacionadas", "graficacion", "recta-tangente"],
   "skill_nodes": ["calculo:optimizacion", "calculo:analisis-funciones"],
-  "prereqs": ["02-Calculo-Diferencial/02-Derivadas"],
+  "prerequisites": ["CD-02"],
+  "concepts": ["optimizacion", "maximos-minimos", "razones-relacionadas", "concavidad", "puntos-inflexion"],
   "subtopics": [
     {
       "code": "3.1",
@@ -88,5 +90,19 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

@@ -1,10 +1,15 @@
 <!--
----
-title: Introducción a [EDO Numéricas](../../glossary.md#edo)-numericas
-tags: [métodos-numéricos, [EDO](../../glossary.md#edo), euler, runge-kutta, sistemas]
-created: 2025-12-20
-updated: 2025-12-20
----
+::METADATA::
+type: index
+topic_id: mn-04-edo-numericas
+file_id: MN-04-EDO-Numericas-Intro
+status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [MN-01, ED-01]
+concepts: [euler, heun, runge-kutta, adams-bashforth, estabilidad-numerica]
+audience: student
+last_updated: 2026-01-05
 -->
 
 

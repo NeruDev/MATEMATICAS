@@ -3,9 +3,12 @@
   "topic": "Geometría Analítica",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Conectar geometría y álgebra mediante coordenadas cartesianas para analizar figuras, distancias y lugares geométricos",
   "tags": ["coordenadas", "rectas", "pendiente", "distancia", "cónicas", "circunferencia", "parábola", "elipse", "hipérbola"],
+  "prerequisites": ["FUN-03", "FUN-04"],
+  "concepts": ["plano-cartesiano", "ecuacion-recta", "circunferencia", "parabola", "elipse", "hiperbola"],
   "skill_nodes": [
     "geometria-analitica:plano-cartesiano",
     "geometria-analitica:rectas",
@@ -134,5 +137,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar de geometría analítica"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

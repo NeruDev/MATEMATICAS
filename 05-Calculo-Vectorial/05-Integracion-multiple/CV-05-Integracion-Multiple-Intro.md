@@ -4,8 +4,12 @@ type: index
 topic_id: cv-05-integracion-multiple
 file_id: CV-05-Integracion-Multiple-Intro
 status: stable
+learning_role: introduction
+difficulty: 5/5
+prerequisites: [CV-04, CI-03]
+concepts: [integral-doble, integral-triple, jacobiano, teorema-green, teorema-stokes, teorema-divergencia]
 audience: student
-requires: [CI-03-Integral-Definida, CV-04-Varias-Variables]
+last_updated: 2026-01-05
 -->
 
 

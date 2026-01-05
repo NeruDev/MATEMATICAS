@@ -5,13 +5,36 @@ topic_id: meta-ia-contract
 file_id: ia-contract
 status: stable
 audience: ai_context
-last_updated: 2026-01-02
+priority: LEVEL_2
+last_updated: 2026-01-05
 -->
 
 # Contrato de IA para el Repositorio de Matemáticas
 
 > **IMPORTANTE:** Este archivo es la guía principal para cualquier IA que interactúe con el repositorio.
 > Lee este documento COMPLETAMENTE antes de generar o modificar contenido.
+>
+> **📍 PUNTO DE ENTRADA:** Si es una sesión nueva, lee primero [`.ai-bootstrap.md`](../.ai-bootstrap.md)
+
+---
+
+## 0. Jerarquía Normativa
+
+> **⚠️ CRÍTICO:** Cuando exista conflicto entre documentos, aplicar en este orden:
+
+| Nivel | Documento | Alcance | Prioridad |
+|:-----:|-----------|---------|:---------:|
+| **1** | `manifest.json` | Reglas del subtema específico | 🔴 Máxima |
+| **1** | `_directives.md` | Directivas locales del subtema | 🔴 Máxima |
+| **2** | `ia-contract.md` | **ESTE ARCHIVO** — Reglas globales | 🟠 Alta |
+| **2** | `ai-directives.md` | Reglas técnicas (LaTeX, tablas) | 🟠 Alta |
+| **3** | `nomenclatura-estandar.md` | Convenciones de nombrado | 🟡 Media |
+| **4** | `README.md`, `WIKI_INDEX.md` | Información contextual | 🟢 Baja |
+
+**Regla de resolución:**
+```
+manifest.json > ia-contract.md > nomenclatura-estandar.md > README.md
+```
 
 ---
 
@@ -101,7 +124,37 @@ Para archivos completos, incluir también:
 - `audience`: student | ai_context | exam_review
 - `last_updated`: YYYY-MM-DD
 
-### 3.2 Estructura del manifest.json
+### 3.2 Campos Operativos (Opcionales pero Recomendados)
+
+Estos campos permiten comportamiento contextual de la IA:
+
+| Campo | Tipo | Valores | Propósito |
+|-------|------|---------|-----------|
+| `learning_role` | string | `introduction`, `reinforcement`, `assessment`, `reference` | Rol pedagógico del contenido |
+| `difficulty` | string | `1/5` a `5/5` | Nivel de complejidad |
+| `prerequisites` | array | `["CD-01", "FUN-03"]` | Temas que deben dominarse antes |
+| `depends_on` | array | `["archivo.md"]` | Archivos referenciados directamente |
+| `concepts` | array | `["derivada", "tangente"]` | Conceptos clave cubiertos |
+
+**Ejemplo de metadatos completos:**
+
+```markdown
+<!--
+::METADATA::
+type: theory
+topic_id: cd-02-derivadas
+file_id: CD-02-Teoria-Derivadas
+status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: ["CD-01", "FUN-03"]
+concepts: ["derivada", "tasa-de-cambio", "tangente"]
+audience: student
+last_updated: 2026-01-05
+-->
+```
+
+### 3.3 Estructura del manifest.json
 
 ```json
 {
@@ -129,6 +182,39 @@ Para archivos completos, incluir también:
 ```
 
 **Campos obligatorios:** `id`, `topic`, `type`, `status`, `tags`, `resource_map`, `ai_contract`
+
+### 3.4 Perfiles de Uso en manifest.json (Recomendado)
+
+Para comportamiento contextual, añadir `usage_profiles`:
+
+```json
+{
+  "usage_profiles": {
+    "study": {
+      "description": "Aprendizaje profundo del tema",
+      "preferred_resources": ["entry_point", "theory", "methods"],
+      "explanation_depth": "high",
+      "include_prerequisites": true
+    },
+    "quick_reference": {
+      "description": "Consulta rápida de fórmulas",
+      "preferred_resources": ["formula_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "description": "Práctica con problemas",
+      "preferred_resources": ["problems"],
+      "solutions_visible": false,
+      "hints_allowed": true
+    },
+    "diagnostic": {
+      "description": "Evaluar conocimientos previos",
+      "preferred_resources": ["diagnostic"],
+      "identify_gaps": true
+    }
+  }
+}
+```
 
 ---
 

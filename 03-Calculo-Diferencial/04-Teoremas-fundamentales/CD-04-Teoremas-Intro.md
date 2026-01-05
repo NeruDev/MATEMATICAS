@@ -4,7 +4,12 @@ type: index
 topic_id: cd-04-teoremas
 file_id: CD-04-Teoremas-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CD-02]
+concepts: [teorema-rolle, teorema-valor-medio, regla-lhopital, formas-indeterminadas]
 audience: student
+last_updated: 2026-01-05
 -->
 
 

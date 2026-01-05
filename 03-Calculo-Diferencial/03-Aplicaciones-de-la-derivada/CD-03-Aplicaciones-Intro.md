@@ -4,7 +4,12 @@ type: index
 topic_id: cd-03-aplicaciones
 file_id: CD-03-Aplicaciones-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CD-02]
+concepts: [optimizacion, maximos-minimos, razones-relacionadas, concavidad, puntos-inflexion]
 audience: student
+last_updated: 2026-01-05
 -->
 
 

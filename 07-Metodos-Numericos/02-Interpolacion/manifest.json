@@ -3,8 +3,11 @@
   "topic": "Interpolación",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "3/5",
   "human_purpose": "Métodos de interpolación: Lagrange, Newton, splines cúbicos y análisis del error.",
+  "prerequisites": ["MN-01", "FUN-03"],
+  "concepts": ["interpolacion-lagrange", "diferencias-divididas", "splines", "error-interpolacion"],
   "subtopics": [
     "Interpolación de Lagrange",
     "Diferencias divididas de Newton",
@@ -54,5 +57,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

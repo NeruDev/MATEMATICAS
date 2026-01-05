@@ -27,11 +27,12 @@ Este repositorio ha sido transformado en un **Jardín Digital** estilo Wikipedia
 2. Consulta el [Glosario](glossary.md) para definiciones de términos
 3. Revisa la [Biblioteca Central](00-META/bibliografia-general.md) para referencias bibliográficas
 
-### Para IA (Copilot):
-1. Lee siempre [00-META/ia-contract.md](00-META/ia-contract.md) primero
-2. Respeta la nomenclatura: `[PREFIJO]-[XX]-[Contenido].md`
-3. Usa el `manifest.json` de cada tema para ubicar recursos
-4. Los términos del glosario están auto-vinculados en el contenido
+### Para IA (Copilot/Agentes):
+1. **Lee primero [`.ai-bootstrap.md`](.ai-bootstrap.md)** — Punto de entrada obligatorio
+2. Consulta [00-META/ia-contract.md](00-META/ia-contract.md) para reglas globales
+3. Respeta la nomenclatura: `[PREFIJO]-[XX]-[Contenido].md`
+4. Usa el `manifest.json` de cada tema para ubicar recursos
+5. Los términos del glosario están auto-vinculados en el contenido
 
 ## Módulos disponibles
 
@@ -93,14 +94,16 @@ flowchart TD
 
 | Recurso | Descripción |
 |---------|-------------|
+| [🤖 AI Bootstrap](.ai-bootstrap.md) | **Punto de entrada para IAs** — Leer primero |
 | [🗺️ Wiki Index](WIKI_INDEX.md) | Mapa de navegación centralizado |
 | [📚 Biblioteca Central](00-META/bibliografia-general.md) | Referencias bibliográficas validadas |
 | [📖 Glosario](glossary.md) | ~130 términos con analogías (auto-vinculado) |
-| [Guía de estudio](00-META/notation-cheatsheet.md) | Símbolos y convenciones |
+| [Guía de estudio](00-META/study-guide.md) | Cómo usar el repositorio |
+| [Notación](00-META/notation-cheatsheet.md) | Símbolos y convenciones |
 | [Contrato IA](00-META/ia-contract.md) | Directivas para asistentes IA |
+| [Auditoría META](00-META/audit-meta-files.md) | Mapa de archivos de configuración |
 | [Validador](00-META/tools/validate_repo.py) | Verificar integridad |
-| [Auto-vinculador](00-META/tools/link_knowledge_base.py) | Script de enlaces automáticos |
 
 ---
 
-*Última actualización: 2026-01-03* — **Auditoría bibliográfica completa:** 35 subtemas validados contra bibliografía estándar universitaria.
+*Última actualización: 2026-01-05* — **Auditoría bibliográfica completa:** 35 subtemas validados contra bibliografía estándar universitaria.

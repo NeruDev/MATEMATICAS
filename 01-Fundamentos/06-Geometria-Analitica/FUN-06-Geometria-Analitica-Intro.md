@@ -4,8 +4,12 @@ type: index
 topic_id: fun-06-geometria-analitica
 file_id: FUN-06-Geometria-Analitica-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [FUN-03, FUN-04]
+concepts: [plano-cartesiano, ecuacion-recta, circunferencia, parabola, elipse, hiperbola]
 audience: student
-requires: [fun-03-algebra, fun-04-geometria]
+last_updated: 2026-01-05
 -->
 
 

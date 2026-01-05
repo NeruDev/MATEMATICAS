@@ -4,8 +4,12 @@ type: index
 topic_id: ci-04-aplicaciones-integral
 file_id: CI-04-Aplicaciones-Integral-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CI-02, CI-03]
+concepts: [area-entre-curvas, volumen-revolucion, longitud-arco, trabajo, centro-masa]
 audience: student
-requires: [ci-03-integral-definida, ci-02-tecnicas-integracion]
+last_updated: 2026-01-05
 -->
 
 

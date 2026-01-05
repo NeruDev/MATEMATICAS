@@ -3,10 +3,13 @@
   "topic": "Álgebra",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "2/5",
   "human_purpose": "Desarrollar manipulación simbólica y resolución de ecuaciones como base para funciones y cálculo",
   "tags": ["expresiones", "polinomios", "ecuaciones", "factorizacion", "desigualdades", "sistemas"],
   "skill_nodes": ["algebra:expresiones", "algebra:ecuaciones-lineales", "algebra:ecuaciones-cuadraticas", "algebra:sistemas"],
+  "prerequisites": ["FUN-02"],
+  "concepts": ["expresiones-algebraicas", "polinomios", "factorizacion", "ecuaciones-lineales", "ecuaciones-cuadraticas", "sistemas-ecuaciones"],
   "resource_map": {
     "entry_point": "FUN-03-Algebra-Intro.md",
     "cheat_sheet": "FUN-03-Resumen-Formulas.md",
@@ -123,5 +126,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar universitaria y preparatoria"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

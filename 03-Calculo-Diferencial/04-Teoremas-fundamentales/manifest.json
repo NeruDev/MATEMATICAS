@@ -3,11 +3,13 @@
   "topic": "Teoremas Fundamentales del Cálculo Diferencial",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Comprender los teoremas que fundamentan el cálculo diferencial y sus aplicaciones",
   "tags": ["rolle", "valor-medio", "lhopital", "teoremas", "formas-indeterminadas"],
   "skill_nodes": ["calculo:teoremas", "calculo:formas-indeterminadas"],
-  "prereqs": ["02-Calculo-Diferencial/02-Derivadas"],
+  "prerequisites": ["CD-02"],
+  "concepts": ["teorema-rolle", "teorema-valor-medio", "regla-lhopital", "formas-indeterminadas"],
   "subtopics": [
     {
       "code": "4.1",
@@ -78,5 +80,19 @@
     "media": "media",
     "diagnostic": "diagnostic",
     "applications": "applications"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

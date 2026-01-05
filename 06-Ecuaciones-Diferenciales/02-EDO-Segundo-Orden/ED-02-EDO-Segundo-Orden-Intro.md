@@ -1,15 +1,18 @@
 <!--
 ::METADATA::
 type: index
-topic_id: ed-02-[edo](../../glossary.md#orden)
-file_id: ED-02-[EDO](../../glossary.md#orden)-Intro
+topic_id: ed-02-edo-segundo-orden
+file_id: ED-02-EDO-Segundo-Orden-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: ["ED-01", "AL-06"]
+concepts: ["edo-segundo-orden", "ecuacion-caracteristica", "coeficientes-indeterminados", "variacion-parametros"]
 audience: student
-requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
+last_updated: 2026-01-05
 -->
 
-
-> 🏠 **Navegación:** [← Volver al Índice Principal](../../glossary.md)
+> 🏠 **Navegación:** [← Volver al Índice](../00-Index.md) | [📚 Glosario](../../glossary.md) | [🗺️ Wiki](../../WIKI_INDEX.md)
 
 ---
 
@@ -17,15 +20,17 @@ requires: [ed-01-edo-primer-orden, al-valores-vectores-propios]
 
 ## Propósito del tema
 
-Resolver [ecuaciones diferenciales](ED-02-EDO-Segundo-Orden-Intro.md)        ← Estás aquí
-[ED-02-Resumen-Formulas.md](theory/ED-02-Teoria-EDO-Segundo-Orden.md) ← Desarrollo completo
-methods/
-  └── [métodos paso a paso]
-problems/
-  └── [enunciados de práctica]
-solutions/
-  └── [soluciones detalladas]
-```
+Resolver ecuaciones diferenciales ordinarias de segundo orden, tanto homogéneas como no homogéneas, usando métodos algebraicos y el concepto de ecuación característica.
+
+## Mapa de Recursos
+
+| Recurso | Archivo | Descripción |
+|---------|---------|-------------|
+| 📘 Teoría | [ED-02-Teoria-EDO-Segundo-Orden.md](theory/ED-02-Teoria-EDO-Segundo-Orden.md) | Desarrollo completo |
+| 🔧 Métodos | [ED-02-Metodos-EDO-Segundo-Orden.md](methods/ED-02-Metodos-EDO-Segundo-Orden.md) | Procedimientos paso a paso |
+| 📝 Problemas | [ED-02-Problemas.md](problems/ED-02-Problemas.md) | Ejercicios de práctica |
+| ✅ Soluciones | [ED-02-Respuestas.md](solutions/ED-02-Respuestas.md) | Respuestas y desarrollos |
+| 📋 Fórmulas | [ED-02-Resumen-Formulas.md](ED-02-Resumen-Formulas.md) | Cheat sheet |
 
 ## Ruta de aprendizaje
 
@@ -38,7 +43,8 @@ solutions/
 
 ## Conexiones
 
-- **Prerequisitos**: EDO de primer orden, [Álgebra lineal](../../glossary.md#transformada-de-laplace), Vibraciones
+- **Prerrequisitos**: [EDO de primer orden](../01-EDO-Primer-Orden/ED-01-EDO-Primer-Orden-Intro.md), [Valores propios](../../02-Algebra-Lineal/06-Valores-Vectores-Propios/AL-06-Valores-Propios-Intro.md)
+- **Usos posteriores**: [Sistemas de EDO](../03-Sistemas-EDO/ED-03-Sistemas-EDO-Intro.md), [Transformada de Laplace](../04-Transformada-Laplace/ED-04-Transformada-Laplace-Intro.md), Vibraciones mecánicas
 
 ## Vista previa de conceptos clave
 
@@ -52,6 +58,9 @@ solutions/
 
 | Método | Cuándo usar |
 |--------|-------------|
-| Coeficientes indeterminados | $g(x)$ es [polinomio](ED-02-Resumen-Formulas.md)
-file_id: ED-02-EDO-Segundo-Orden-Intro
--->
+| Coeficientes indeterminados | $g(x)$ es polinomio, exponencial, seno/coseno o combinación |
+| Variación de parámetros | Cualquier $g(x)$ continua (método general) |
+
+---
+
+> **Nota**: Las EDO de segundo orden modelan vibraciones, circuitos eléctricos y muchos fenómenos físicos. Dominar la ecuación característica es clave.

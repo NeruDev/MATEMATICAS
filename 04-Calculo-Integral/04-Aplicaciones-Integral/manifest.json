@@ -3,12 +3,11 @@
   "topic": "Aplicaciones de la Integral",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Aplicaciones geométricas y físicas de la integral definida: áreas, volúmenes, longitud de arco, trabajo y valor promedio.",
-  "prerequisites": [
-    "03-integral-definida",
-    "02-tecnicas-integracion"
-  ],
+  "prerequisites": ["CI-02", "CI-03"],
+  "concepts": ["area-entre-curvas", "volumen-revolucion", "longitud-arco", "trabajo", "centro-masa"],
   "learning_objectives": [
     "Calcular áreas entre curvas",
     "Calcular volúmenes por discos, arandelas y capas cilíndricas",
@@ -106,5 +105,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

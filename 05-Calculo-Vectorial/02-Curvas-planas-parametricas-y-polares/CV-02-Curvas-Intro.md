@@ -4,8 +4,12 @@ type: index
 topic_id: cv-02-curvas-parametricas-polares
 file_id: CV-02-Curvas-Intro
 status: stable
+learning_role: introduction
+difficulty: 3/5
+prerequisites: [CD-02, FUN-05]
+concepts: [curva-parametrica, coordenadas-polares, longitud-arco, area-polar]
 audience: student
-requires: [FUN-05-Trigonometria, CD-02-Derivadas]
+last_updated: 2026-01-05
 -->
 
 

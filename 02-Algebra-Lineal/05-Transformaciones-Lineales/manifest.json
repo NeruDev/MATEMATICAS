@@ -3,8 +3,11 @@
   "topic": "Transformaciones Lineales",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Definición de transformaciones lineales, núcleo e imagen, matriz asociada y cambio de base.",
+  "prerequisites": ["AL-03", "AL-04"],
+  "concepts": ["transformacion-lineal", "nucleo", "imagen", "rango", "nulidad", "matriz-transformacion"],
   "resource_map": {
     "entry_point": "AL-05-Transformaciones-Lineales-Intro.md",
     "main_theory": "theory/AL-05-Teoria-Transformaciones-Lineales.md",
@@ -98,5 +101,19 @@
     "date": "2026-01-03",
     "validator": "AI-Bibliographic-Audit",
     "notes": "Contenido verificado contra bibliografía estándar universitaria"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

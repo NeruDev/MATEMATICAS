@@ -4,8 +4,12 @@ type: index
 topic_id: cv-04-funciones-varias-variables
 file_id: CV-04-Varias-Variables-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CD-01, CD-02, CV-01]
+concepts: [derivada-parcial, gradiente, regla-cadena-multivariable, extremos-relativos, lagrange]
 audience: student
-requires: [CD-01-Limites, CD-02-[Derivadas](../../glossary.md#derivadas), CV-01-Vectores]
+last_updated: 2026-01-05
 -->
 
 

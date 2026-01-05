@@ -3,8 +3,11 @@
   "topic": "Técnicas de Integración",
   "type": "learning_module",
   "status": "active",
-  "last_updated": "2024-12-23",
+  "last_updated": "2026-01-05",
+  "difficulty": "4/5",
   "human_purpose": "Dominar técnicas avanzadas de integración: sustitución, partes, fracciones parciales y trigonométricas.",
+  "prerequisites": ["CI-01"],
+  "concepts": ["sustitucion", "integracion-por-partes", "fracciones-parciales", "sustitucion-trigonometrica"],
   "subtopics": [
     {"id": "2.1", "title": "Sustitución (cambio de variable)"},
     {"id": "2.2", "title": "Integración por partes"},
@@ -64,5 +67,19 @@
     "validated": true,
     "date": "2026-01-03",
     "validator": "bibliographic-audit"
+  },
+  "usage_profiles": {
+    "study": {
+      "preferred_resources": ["entry_point", "main_theory", "methods"],
+      "explanation_depth": "high"
+    },
+    "quick_reference": {
+      "preferred_resources": ["cheat_sheet"],
+      "explanation_depth": "minimal"
+    },
+    "assessment": {
+      "preferred_resources": ["problems"],
+      "solutions_visible": false
+    }
   }
 }

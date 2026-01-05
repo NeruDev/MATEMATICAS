@@ -6,7 +6,7 @@ file_id: directory-tree
 status: stable
 audience: ai_context
 last_updated: 2026-01-05
-change_log: "Actualizado con archivos raíz, herramientas completas y guía de arquitectura"
+change_log: "Añadido .ai-bootstrap.md y audit-meta-files.md, actualizada jerarquía normativa"
 -->
 
 # Árbol de Directorios del Repositorio de Matemáticas
@@ -25,6 +25,7 @@ MATEMATICAS GITHUB/
 │   └── PULL_REQUEST_TEMPLATE.md
 │
 ├── 📄 ARCHIVOS RAÍZ
+│   ├── .ai-bootstrap.md               # 🤖 PUNTO DE ENTRADA PARA IA (leer primero)
 │   ├── README.md                      # Portada y skill tree visual
 │   ├── WIKI_INDEX.md                  # Tabla de contenidos maestra
 │   ├── glossary.md                    # ~150 términos matemáticos
@@ -32,19 +33,31 @@ MATEMATICAS GITHUB/
 │   ├── Guía de Arquitectura del Repositorio de Matemáticas.md  # Documentación técnica específica
 │   └── Plantilla de Arquitectura Modular Universal.md          # ← Plantilla para otros repositorios
 │
-├── 00-META/
-│   ├── ai-directives.md
-│   ├── audit-file-list.md
-│   ├── audit-table-issues.md
-│   ├── bibliografia-general.md
-│   ├── directory-tree.md              ← Estás aquí
-│   ├── ia-contract.md                 # LEY SUPREMA para IAs
-│   ├── nomenclatura-estandar.md       ← Estándar de nombrado
-│   ├── notation-cheatsheet.md
-│   ├── plantilla-respuestas.md
-│   ├── prompts-for-students.md
-│   ├── repo-tests.md
-│   ├── study-guide.md
+├── 00-META/                           # 🎛️ CENTRO DE CONTROL
+│   │
+│   ├── 📜 DOCUMENTOS NORMATIVOS (Prioridad para IA)
+│   │   ├── ia-contract.md             # LEY SUPREMA para IAs (Nivel 2)
+│   │   ├── ai-directives.md           # Reglas técnicas complementarias (Nivel 2)
+│   │   └── nomenclatura-estandar.md   # Estándar de nombrado (Nivel 3)
+│   │
+│   ├── 🗂️ DOCUMENTOS DE ESTRUCTURA
+│   │   ├── directory-tree.md          ← Estás aquí
+│   │   ├── audit-file-list.md         # Lista de archivos obligatorios
+│   │   └── audit-meta-files.md        # 🆕 Auditoría de 00-META
+│   │
+│   ├── 📚 DOCUMENTOS DE REFERENCIA
+│   │   ├── bibliografia-general.md    # Biblioteca central
+│   │   ├── notation-cheatsheet.md     # Símbolos LaTeX
+│   │   └── plantilla-respuestas.md    # Template para soluciones
+│   │
+│   ├── 👨‍🎓 DOCUMENTOS PARA ESTUDIANTES
+│   │   ├── study-guide.md             # Guía de estudio
+│   │   └── prompts-for-students.md    # Prompts prediseñados
+│   │
+│   ├── 🔍 DOCUMENTOS DE VALIDACIÓN
+│   │   ├── repo-tests.md              # Pruebas de integridad
+│   │   └── audit-table-issues.md      # Registro histórico
+│   │
 │   └── tools/
 │       ├── validate_repo.py           # Validador consolidado del repositorio
 │       ├── link_knowledge_base.py     # Auto-vinculador al glosario

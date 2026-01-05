@@ -4,8 +4,12 @@ type: index
 topic_id: fun-04-geometria
 file_id: FUN-04-Geometria-Intro
 status: stable
+learning_role: introduction
+difficulty: 2/5
+prerequisites: [FUN-02]
+concepts: [triangulos, cuadrilateros, circunferencia, area, volumen, semejanza, pitagoras]
 audience: student
-requires: [fun-03-algebra]
+last_updated: 2026-01-05
 -->
 
 

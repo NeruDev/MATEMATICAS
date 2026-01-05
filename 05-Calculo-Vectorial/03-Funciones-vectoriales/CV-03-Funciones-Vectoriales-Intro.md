@@ -4,8 +4,12 @@ type: index
 topic_id: cv-03-funciones-vectoriales
 file_id: CV-03-Funciones-Vectoriales-Intro
 status: stable
+learning_role: introduction
+difficulty: 4/5
+prerequisites: [CV-01, CV-02]
+concepts: [funcion-vectorial, curvatura, torsion, triedro-frenet, longitud-arco]
 audience: student
-requires: [CV-01-Vectores, CV-02-Curvas, CD-02-Derivadas]
+last_updated: 2026-01-05
 -->
 
 
