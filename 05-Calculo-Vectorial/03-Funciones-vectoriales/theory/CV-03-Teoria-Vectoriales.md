@@ -44,6 +44,10 @@ La imagen de $\mathbf{r}(t)$ es una **curva en el espacio** (o curva espacial). 
 | Círculo en el plano $z = c$ | $\mathbf{r}(t) = \langle a\cos t, a\sin t, c \rangle$ |
 | Curva de Viviani | $\mathbf{r}(t) = \langle a(1+\cos t), a\sin t, 2a\sin(t/2) \rangle$ |
 
+![Curvas en el espacio](../media/generated/curvas_espacio.png)
+
+*Figura 3.1.1: Ejemplos de curvas espaciales: hélice circular, curva de Viviani, y círculo en un plano horizontal.*
+
 ---
 
 ## 3.2 Límites y continuidad
@@ -167,6 +171,10 @@ $$\tilde{\mathbf{r}}(s) = \mathbf{r}(t(s))$$
 
 **Propiedad clave**: $\left\lVert \frac{d\tilde{\mathbf{r}}}{ds} \right\rVert = 1$ (la curva se recorre a "velocidad unitaria").
 
+![Longitud de arco](../media/generated/longitud_arco.png)
+
+*Figura 3.5.1: Longitud de arco como suma de pequeños segmentos $\Delta s$ a lo largo de la curva.*
+
 ---
 
 ## 3.6 Marco de Frenet-Serret (TNB)
@@ -199,6 +207,10 @@ $$\mathbf{B}(t) = \mathbf{T}(t) \times \mathbf{N}(t)$$
 | **Osculador** | $\mathbf{T}$ y $\mathbf{N}$ | Plano de mejor ajuste local |
 | **Normal** | $\mathbf{N}$ y $\mathbf{B}$ | Perpendicular a la tangente |
 | **Rectificante** | $\mathbf{T}$ y $\mathbf{B}$ | Perpendicular a la normal |
+
+![Marco de Frenet-Serret TNB](../media/generated/frenet_serret_tnb.png)
+
+*Figura 3.6.1: Marco móvil de Frenet-Serret: vectores Tangente ($\mathbf{T}$), Normal ($\mathbf{N}$) y Binormal ($\mathbf{B}$) a lo largo de una hélice.*
 
 ### Fórmulas de Frenet-Serret
 
@@ -239,6 +251,10 @@ El **círculo osculador** tiene radio $\rho$ y centro en el **centro de curvatur
 ### Centro de curvatura
 
 $$\text{Centro} = \mathbf{r}(t) + \rho\mathbf{N}(t)$$
+
+![Curvatura y círculo osculador](../media/generated/curvatura_circulo_osculador.png)
+
+*Figura 3.7.1: Curvatura $\kappa$ y círculo osculador de radio $\rho = 1/\kappa$ tangente a la curva en el punto de contacto.*
 
 ---
 
@@ -288,6 +304,10 @@ $$\lVert \mathbf{a} \rVert^2 = a_T^2 + a_N^2$$
 
 - En movimiento circular uniforme: $a_T = 0$, solo hay $a_N$ (centrípeta)
 - En movimiento rectilíneo: $a_N = 0$, solo hay $a_T$
+
+![Componentes de la aceleración](../media/generated/aceleracion_componentes.png)
+
+*Figura 3.9.1: Descomposición de la aceleración en componentes tangencial ($a_T$) y normal ($a_N$).*
 
 ---
 

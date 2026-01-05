@@ -41,6 +41,10 @@ Todo punto $P$ en el plano se representa como un par ordenado $(x, y)$ donde:
 | III | $(-, -)$ | Inferior izquierdo |
 | IV | $(+, -)$ | Inferior derecho |
 
+![Plano cartesiano](../media/generated/plano_cartesiano.png)
+
+*Figura 6.1.1: Sistema de coordenadas cartesianas con los cuatro cuadrantes y ejemplos de puntos.*
+
 ---
 
 ## 6.2 Fórmulas fundamentales
@@ -77,6 +81,10 @@ $$A = \frac{1}{2}\left|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\right|$$
 
 **Forma de [determinante](../../../glossary.md#determinante):**
 $$A = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix}\right|$$
+
+![Distancia y punto medio](../media/generated/distancia_punto_medio.png)
+
+*Figura 6.2.1: Fórmulas de distancia entre dos puntos y punto medio de un segmento.*
 
 ---
 
@@ -137,6 +145,10 @@ $$(A_1x + B_1y + C_1) + k(A_2x + B_2y + C_2) = 0$$
 
 donde $k$ es un parámetro real.
 
+![Pendiente y ecuación de la recta](../media/generated/pendiente_recta.png)
+
+*Figura 6.3.1: La pendiente como razón de cambio $m = \Delta y / \Delta x$ y las diferentes formas de la ecuación de la recta.*
+
 ---
 
 ## 6.4 La circunferencia
@@ -183,6 +195,10 @@ $$x \cdot x_1 + y \cdot y_1 = r^2$$
 
 $$c^2 = r^2(1 + m^2)$$
 
+![Circunferencia](../media/generated/circunferencia.png)
+
+*Figura 6.4.1: La circunferencia con centro $(h,k)$ y radio $r$, mostrando ecuación canónica y elementos principales.*
+
 ---
 
 ## 6.5 La parábola
@@ -226,6 +242,10 @@ $$Cy^2 + Dx + Ey + F = 0 \quad \text{(eje horizontal)}$$
 ### Propiedad reflectora
 
 Los rayos paralelos al eje que inciden en la parábola se reflejan hacia el foco (principio de antenas parabólicas y reflectores).
+
+![Parábola](../media/generated/parabola.png)
+
+*Figura 6.5.1: La parábola con vértice, foco, directriz y lado recto. Ecuación: $x^2 = 4py$.*
 
 ---
 
@@ -285,6 +305,10 @@ $$e = \frac{c}{a} = \sqrt{1 - \frac{b^2}{a^2}}$$
 ### Lados rectos
 
 Longitud del lado recto: $\frac{2b^2}{a}$
+
+![Elipse](../media/generated/elipse.png)
+
+*Figura 6.6.1: La elipse con semiejes $a$ y $b$, focos $F_1$, $F_2$ y la relación $c^2 = a^2 - b^2$.*
 
 ---
 
@@ -348,6 +372,10 @@ La hipérbola $xy = k$ tiene:
 - Asíntotas: los ejes coordenados
 - Es una hipérbola equilátera rotada 45°
 
+![Hipérbola](../media/generated/hiperbola.png)
+
+*Figura 6.7.1: La hipérbola con vértices, focos, asíntotas y la relación $c^2 = a^2 + b^2$.*
+
 ---
 
 ## 6.8 Ecuación general de segundo grado
@@ -384,6 +412,10 @@ $$\cot(2\theta) = \frac{A - C}{B}$$
 $$x = x'\cos\theta - y'\sin\theta$$
 $$y = x'\sin\theta + y'\cos\theta$$
 
+![Cónicas y discriminante](../media/generated/conicas_discriminante.png)
+
+*Figura 6.8.1: Clasificación de cónicas según el discriminante $\Delta = B^2 - 4AC$.*
+
 ---
 
 ## 6.9 Coordenadas polares
@@ -419,6 +451,10 @@ donde:
 | Parábola | $e = 1$ |
 | Hipérbola | $e > 1$ |
 
+![Coordenadas polares](../media/generated/coordenadas_polares.png)
+
+*Figura 6.9.1: Sistema de coordenadas polares $(r, \theta)$ y conversión a cartesianas.*
+
 ---
 
 ## 6.10 Transformaciones geométricas
@@ -450,6 +486,10 @@ $$y' = x\sin\theta + y\cos\theta$$
 Cambio de tamaño con factor $k$ desde el origen:
 
 $$x' = kx, \quad y' = ky$$
+
+![Transformaciones geométricas](../media/generated/transformaciones.png)
+
+*Figura 6.10.1: Transformaciones geométricas: traslación, rotación, reflexión y homotecia.*
 
 ---
 

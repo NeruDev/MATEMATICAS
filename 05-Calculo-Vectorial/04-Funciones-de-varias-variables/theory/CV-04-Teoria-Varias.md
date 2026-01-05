@@ -47,6 +47,10 @@ $$C_k = \{(x, y) : f(x, y) = k\}$$
 Para $f(x, y, z)$, las **superficies de nivel** son:
 $$S_k = \{(x, y, z) : f(x, y, z) = k\}$$
 
+![Superficie de una función de dos variables](../media/generated/superficie_funcion_dos_variables.png)
+
+*Figura 4.1.1: Gráfica de $z = f(x,y)$ como superficie en $\mathbb{R}^3$ con curvas de nivel proyectadas en el plano $xy$.*
+
 ---
 
 ## 4.2 Límites y continuidad
@@ -162,6 +166,10 @@ válida cerca de $(a, b)$.
 El **plano [tangente](../../../glossary.md#tangente)** a la superficie $z = f(x, y)$ en $(a, b, f(a,b))$:
 $$z - f(a,b) = f_x(a,b)(x - a) + f_y(a,b)(y - b)$$
 
+![Plano tangente](../media/generated/plano_tangente.png)
+
+*Figura 4.4.1: Plano tangente a una superficie en un punto, con gradiente $\nabla f$ perpendicular a las curvas de nivel.*
+
 ---
 
 ## 4.5 Regla de la cadena
@@ -219,6 +227,10 @@ donde $\theta$ es el ángulo entre $\nabla f$ y $\mathbf{u}$.
 | $\mathbf{u} = \frac{\nabla f}{\lVert \nabla f \rVert}$ | $\lVert \nabla f \rVert$ (máximo) |
 | $\mathbf{u} = -\frac{\nabla f}{\lVert \nabla f \rVert}$ | $-\lVert \nabla f \rVert$ (mínimo) |
 | $\mathbf{u} \perp \nabla f$ | $0$ (sin cambio) |
+
+![Gradiente y derivada direccional](../media/generated/gradiente_derivada_direccional.png)
+
+*Figura 4.6.1: El vector gradiente $\nabla f$ apunta en la dirección de máximo crecimiento, perpendicular a las curvas de nivel.*
 
 ---
 
@@ -284,6 +296,10 @@ Un [punto crítico](../../../glossary.md#punto-critico) donde $f$ no tiene extre
 $$H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy} \end{pmatrix}$$
 
 $D = \det(H)$
+
+![Extremos y criterio de la Hessiana](../media/generated/extremos_hessiano.png)
+
+*Figura 4.8.1: Clasificación de puntos críticos: mínimo local ($D>0, f_{xx}>0$), máximo local ($D>0, f_{xx}<0$) y punto silla ($D<0$).*
 
 ---
 
