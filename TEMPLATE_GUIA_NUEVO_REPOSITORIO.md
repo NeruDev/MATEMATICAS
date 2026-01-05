@@ -1,255 +1,622 @@
-# 🏗️ Plantilla para Crear Repositorios de Conocimiento Estructurado
+# 📐 Guía de Arquitectura del Repositorio de Matemáticas
 
-> **Propósito:** Esta guía abstrae los patrones exitosos del repositorio de Matemáticas para replicarlos en nuevos dominios de conocimiento. Está diseñada como un prompt conceptual para IA o como referencia para humanos.
+> **Propósito:** Documentación completa de la estructura, convenciones y arquitectura modular del repositorio de Matemáticas. Diseñado como referencia técnica para entender el funcionamiento de cada componente.
 
 ---
 
-## 📋 PROMPT MAESTRO PARA CREAR NUEVO REPOSITORIO
+## 📋 DESCRIPCIÓN GENERAL
 
-```markdown
-Eres un arquitecto de repositorios de conocimiento. Tu tarea es diseñar la estructura
-completa para un repositorio educativo sobre [DOMINIO] siguiendo el patrón "Digital Garden".
+Este repositorio implementa el patrón **"Digital Garden"** para organizar conocimiento matemático de forma progresiva, navegable y validada bibliográficamente.
 
-El repositorio debe:
-1. Organizar conocimiento de manera progresiva (de básico a avanzado)
-2. Incluir teoría, métodos prácticos, problemas y soluciones
-3. Ser navegable tanto por humanos como por IA
-4. Mantener consistencia en nomenclatura y formato
-5. Usar Markdown con soporte para LaTeX/código según el dominio
-```
+### Principios de Diseño
+
+1. **Progresión natural:** Desde fundamentos hasta temas avanzados
+2. **Modularidad:** Cada tema es una unidad autónoma con estructura consistente
+3. **Doble audiencia:** Navegable por humanos (estudiantes) e interpretable por IA
+4. **Validación bibliográfica:** Todo contenido respaldado por fuentes académicas estándar
+5. **Sistema de soluciones multinivel:** Respuestas rápidas y desarrollos completos
 
 ---
 
 ## 🧬 ANATOMÍA DEL REPOSITORIO
 
-### Nivel 0 — Raíz
+### Nivel 0 — Raíz del Repositorio
 
 ```
-NOMBRE-REPOSITORIO/
-├── README.md                        ← Entrada principal, skill tree visual
-├── WIKI_INDEX.md                    ← Índice central de navegación
-├── glossary.md                      ← ~100-150 términos con definiciones
-├── 00-META/                         ← Configuración, bibliografía y guías del repositorio
-│   ├── ia-contract.md               ← Directivas globales para IA
-│   ├── bibliografia-general.md     ← 📚 BIBLIOTECA CENTRAL (validación bibliográfica)
-│   ├── nomenclatura-estandar.md    ← Reglas de nombrado de archivos
-│   ├── notation-cheatsheet.md      ← Símbolos y convenciones
-│   ├── study-guide.md              ← Guía de estudio para alumnos
-│   └── tools/                       ← Scripts de utilidad
-│       ├── validate_repo.py         ← Verificador de integridad
-│       └── link_knowledge_base.py   ← Auto-vinculador al glosario
-├── 01-[Módulo-Básico]/              ← Primer módulo (fundamentos)
-├── 02-[Módulo-Intermedio]/          ← Módulos progresivos...
-├── ...
-└── NN-[Módulo-Avanzado]/            ← Último módulo
-```
-
-### Nivel 1 — Módulo
-
-```
-XX-Nombre-Modulo/
-├── 00-Index.md                      ← Visión general del módulo
-├── 01-[Subtema-1]/                  ← Primer subtema
-├── 02-[Subtema-2]/                  ← Subtemas progresivos
-├── ...
-└── NN-[Subtema-N]/
-```
-
-### Nivel 2 — Subtema (unidad atómica)
-
-```
-XX-Nombre-Subtema/
-├── manifest.json                    ← OBLIGATORIO: Metadatos del tema
-├── _directives.md                   ← Instrucciones para IA
-├── PREFIJO-XX-Subtema-Intro.md      ← 🚀 PUNTO DE ENTRADA
-├── PREFIJO-XX-Resumen-Formulas.md   ← Cheat sheet / quick reference
-├── theory/                          ← Conceptos, definiciones, teoremas
-│   └── PREFIJO-XX-Teoria-*.md
-├── methods/                         ← Procedimientos paso a paso
-│   └── PREFIJO-XX-Metodos-*.md
-├── problems/                        ← Enunciados de ejercicios
-│   └── PREFIJO-XX-Problemas.md
-├── solutions/                       ← Sistema de 3 niveles
-│   ├── PREFIJO-XX-Respuestas.md     ← Nivel 1: Respuestas rápidas
-│   ├── prob-04/                     ← Nivel 2: Soluciones desarrolladas
-│   │   └── solucion-metodo.md
-│   └── prob-XX/
-├── applications/                    ← (Opcional) Casos de uso reales
-└── media/                           ← (Opcional) Imágenes, diagramas
+MATEMATICAS-GITHUB/
+├── README.md                        # Entrada principal con skill tree visual
+├── WIKI_INDEX.md                    # Índice central de navegación por módulos
+├── glossary.md                      # ~150 términos matemáticos definidos
+├── TEMPLATE_GUIA_NUEVO_REPOSITORIO.md  # Este archivo (guía de arquitectura)
+├── AUDITORIA_ESTADO_REPO.md         # Estado actual y auditoría del repositorio
+│
+├── 00-META/                         # 🎛️ CENTRO DE CONTROL (configuración global)
+│   ├── ia-contract.md               # Directivas globales para asistentes IA
+│   ├── bibliografia-general.md      # Biblioteca central de referencias
+│   ├── nomenclatura-estandar.md     # Reglas de nombrado de archivos
+│   ├── notation-cheatsheet.md       # Símbolos LaTeX y convenciones
+│   ├── study-guide.md               # Guía de estudio para estudiantes
+│   ├── directory-tree.md            # Árbol de directorios actualizado
+│   ├── audit-file-list.md           # Lista de archivos para auditoría
+│   ├── audit-table-issues.md        # Registro de issues encontrados
+│   ├── prompts-for-students.md      # Prompts útiles para estudiantes
+│   ├── plantilla-respuestas.md      # Plantilla para formato de respuestas
+│   └── tools/                       # Scripts de validación
+│       ├── validate_repo.py         # Verificador de integridad
+│       ├── check_tables.py          # Validador de tablas Markdown
+│       └── link_knowledge_base.py   # Auto-vinculador al glosario
+│
+├── 01-Fundamentos/                  # Módulo 1: Fundamentos matemáticos
+├── 02-Algebra-Lineal/               # Módulo 2: Álgebra Lineal
+├── 03-Calculo-Diferencial/          # Módulo 3: Cálculo Diferencial
+├── 04-Calculo-Integral/             # Módulo 4: Cálculo Integral
+├── 05-Calculo-Vectorial/            # Módulo 5: Cálculo Vectorial
+├── 06-Ecuaciones-Diferenciales/     # Módulo 6: Ecuaciones Diferenciales
+└── 07-Metodos-Numericos/            # Módulo 7: Métodos Numéricos
 ```
 
 ---
 
-## 📁 ARCHIVOS CLAVE Y SUS ESTRUCTURAS
+## 📂 ESTRUCTURA DE MÓDULOS
 
-### 1. `manifest.json` — Contrato del subtema
+### Nivel 1 — Módulo Principal
 
-El manifest.json es el **contrato central** de cada subtema. Define recursos, objetivos y **validación bibliográfica**.
+Cada módulo corresponde a una asignatura o área matemática completa.
+
+```
+XX-Nombre-Modulo/
+├── 00-Index.md                      # Índice del módulo con tabla de temas
+├── 01-[Subtema-1]/                  # Primer subtema
+├── 02-[Subtema-2]/                  # Subtemas en orden progresivo
+├── ...
+└── NN-[Subtema-N]/                  # Último subtema del módulo
+```
+
+#### Función de `00-Index.md`
+
+| Elemento | Descripción |
+|----------|-------------|
+| **Header de navegación** | Enlaces a WIKI_INDEX y glossary |
+| **Descripción del módulo** | Resumen del contenido y objetivos |
+| **Tabla de temas** | Lista numerada con enlaces a cada subtema |
+| **Prerequisitos** | Conocimientos previos necesarios |
+| **Conexiones** | Relación con otros módulos |
+
+**Ejemplo real de** [01-Fundamentos/00-Index.md](01-Fundamentos/00-Index.md):
+
+```markdown
+## Temas del módulo
+
+| # | Tema | Descripción |
+|---|------|-------------|
+| 1 | [01-Simbología Matemática](./01-Simbologia-Matematica/FUN-01-Simbologia-Intro.md) | Símbolos y notación |
+| 2 | [02-Aritmética](./02-Aritmetica/FUN-02-Aritmetica-Intro.md) | Operaciones básicas |
+| 3 | [03-Álgebra](./03-Algebra/FUN-03-Algebra-Intro.md) | Expresiones y ecuaciones |
+...
+```
+
+---
+
+### Nivel 2 — Subtema (Unidad Atómica de Aprendizaje)
+
+Cada subtema es una **unidad completa y autónoma** con todos los recursos necesarios para dominar un tema específico.
+
+```
+XX-Nombre-Subtema/
+│
+├── 📋 ARCHIVOS DE CONFIGURACIÓN
+│   ├── manifest.json                # ⚙️ CONTRATO CENTRAL: metadatos, recursos, bibliografía
+│   └── _directives.md               # 🤖 Instrucciones específicas para IA
+│
+├── 📚 ARCHIVOS DE CONTENIDO PRINCIPAL
+│   ├── PREFIJO-XX-Subtema-Intro.md  # 🚀 PUNTO DE ENTRADA (obligatorio)
+│   └── PREFIJO-XX-Resumen-Formulas.md # 📝 Cheat sheet / Quick reference
+│
+├── 📖 CARPETAS DE CONTENIDO
+│   ├── theory/                      # 📐 Teoría: definiciones, teoremas, demostraciones
+│   │   └── PREFIJO-XX-Teoria-*.md
+│   │
+│   ├── methods/                     # 🔧 Métodos: procedimientos paso a paso
+│   │   └── PREFIJO-XX-Metodos-*.md
+│   │
+│   ├── problems/                    # ✏️ Problemas: enunciados de ejercicios
+│   │   └── PREFIJO-XX-Problemas.md
+│   │
+│   └── solutions/                   # ✅ Soluciones: sistema de 3 niveles
+│       ├── PREFIJO-XX-Respuestas.md       # Nivel 1: respuestas rápidas
+│       ├── PREFIJO-XX-Soluciones-Desarrolladas.md  # Nivel 2: desarrollo general
+│       └── prob-XX/                       # Nivel 3: soluciones individuales
+│           └── solucion-metodo.md
+│
+└── 📁 CARPETAS OPCIONALES
+    ├── applications/                # 🌍 Aplicaciones: casos de uso reales
+    ├── diagnostic/                  # 🩺 Diagnóstico: evaluaciones iniciales
+    └── media/                       # 🖼️ Media: imágenes, diagramas, gráficos
+```
+
+---
+
+## � FUNCIÓN DETALLADA DE CADA ARCHIVO
+
+### 1. `manifest.json` — El Contrato Central del Subtema
+
+El `manifest.json` es el **archivo más importante** de cada subtema. Actúa como:
+- **Mapa de recursos:** Indica dónde está cada archivo
+- **Contrato IA:** Define comportamiento esperado del asistente
+- **Registro bibliográfico:** Documenta fuentes de validación
+- **Metadatos:** Información de estado, dificultad, tiempo estimado
+
+#### Estructura Completa con Explicación
 
 ```json
 {
-  "id": "prefijo-xx-nombre",
-  "topic": "Título del Tema",
-  "type": "learning_module",
-  "status": "active",
-  "last_updated": "YYYY-MM-DD",
-  "human_purpose": "Descripción breve del propósito",
-  "resource_map": {
-    "entry_point": "PREFIJO-XX-Nombre-Intro.md",
-    "main_theory": "theory/PREFIJO-XX-Teoria-Nombre.md",
-    "cheat_sheet": "PREFIJO-XX-Resumen-Formulas.md",
-    "methods": ["methods/PREFIJO-XX-Metodos-Nombre.md"],
-    "problems": "problems/PREFIJO-XX-Problemas.md",
-    "answers": "solutions/PREFIJO-XX-Respuestas.md",
-    "solutions": [
-      "solutions/prob-04/",
-      "solutions/prob-10/"
-    ]
-  },
-  "ai_contract": {
-    "strict_mode": true,
-    "expected_inputs": "Descripción de entradas esperadas",
-    "expected_outputs": "Descripción de salidas esperadas",
-    "verification": "Criterios de verificación de respuestas"
-  },
-  "prerequisites": ["id-tema-previo"],
-  "learning_objectives": [
-    "Objetivo de aprendizaje 1",
-    "Objetivo de aprendizaje 2"
-  ],
-  "estimated_time": "X-Y horas",
-  "difficulty": "básico|intermedio|avanzado",
-  "subtopics": [
-    {"id": "X.1", "title": "Subtema 1", "description": "..."},
-    {"id": "X.2", "title": "Subtema 2", "description": "..."}
-  ],
-  "tags": ["tag1", "tag2"],
+  // === IDENTIFICACIÓN ===
+  "id": "fun-02-aritmetica",          // ID único del subtema (prefijo-número-nombre)
+  "topic": "Aritmética",              // Nombre legible del tema
+  "type": "learning_module",          // Tipo: learning_module | reference_library
+  "status": "active",                 // Estado: active | draft | deprecated
+  "last_updated": "2024-12-23",       // Última modificación (YYYY-MM-DD)
   
+  // === PROPÓSITO Y CLASIFICACIÓN ===
+  "human_purpose": "Dominar operaciones numéricas básicas...",  // Descripción para humanos
+  "tags": ["numeros", "operaciones", "fracciones"],             // Etiquetas de búsqueda
+  "skill_nodes": ["aritmetica:operaciones-basicas"],            // Nodos del skill tree
+  "difficulty": "básico",             // básico | intermedio | avanzado
+  "estimated_time": "4-6 horas",      // Tiempo estimado de estudio
+  
+  // === MAPA DE RECURSOS (resource_map) ===
+  "resource_map": {
+    "entry_point": "FUN-02-Aritmetica-Intro.md",           // Archivo de entrada
+    "main_theory": "theory/FUN-02-Teoria-Aritmetica.md",   // Teoría principal
+    "cheat_sheet": "FUN-02-Resumen-Formulas.md",           // Hoja de referencia
+    "methods": ["methods/FUN-02-Metodos-Aritmetica.md"],   // Lista de métodos
+    "problems": ["problems/FUN-02-Problemas.md"],          // Lista de problemas
+    "answers": "solutions/FUN-02-Respuestas.md",           // Respuestas rápidas
+    "solutions": ["solutions/FUN-02-Soluciones-Desarrolladas.md"]  // Desarrollos
+  },
+  
+  // === SUBTEMAS INTERNOS ===
+  "subtopics": [
+    {"id": "2.1", "title": "Sistemas numéricos", "concepts": ["ℕ", "ℤ", "ℚ", "ℝ"]},
+    {"id": "2.2", "title": "Operaciones fundamentales", "concepts": ["Suma", "Resta", ...]},
+    {"id": "2.3", "title": "Divisibilidad y primos", "concepts": ["Criterios", "Factorización"]}
+    // ... más subtemas
+  ],
+  
+  // === CONTRATO IA (ai_contract) ===
+  "ai_contract": {
+    "default_output": "markdown",                          // Formato de salida
+    "allowed_tasks": [                                     // Tareas permitidas
+      "explain_concept",    // Explicar conceptos
+      "generate_problems",  // Generar problemas nuevos
+      "convert_format",     // Convertir formatos
+      "verify_solution",    // Verificar soluciones del estudiante
+      "diagnostic_check"    // Evaluación diagnóstica
+    ],
+    "solution_guidelines": {
+      "require_context": true,        // Siempre dar contexto antes de resolver
+      "step_by_step": true,           // Mostrar pasos intermedios
+      "didactic_tone": "Guía al estudiante como tutor personal"
+    }
+  },
+  
+  // === VALIDACIÓN BIBLIOGRÁFICA ===
   "references": [
     {
-      "citation": "Autor, A. (Año). Título del Libro. Edición. Editorial.",
+      "citation": "Baldor, A. (2017). Aritmética. 2ª ed. Patria.",
       "mapping": {
-        "Capítulo X": "Tema cubierto",
-        "Sección X.Y": "Concepto específico"
-      }
-    },
-    {
-      "citation": "Segundo Autor, B. (Año). Otro Libro. Editorial.",
-      "mapping": {
-        "Chapter X": "Topic covered"
+        "Capítulo 1-5": "Sistemas numéricos y operaciones",
+        "Capítulo 6-10": "Divisibilidad, MCD, MCM"
       }
     }
   ],
   "validation_status": {
     "validated": true,
-    "date": "YYYY-MM-DD",
-    "validator": "Nombre del validador o IA",
-    "notes": "Observaciones de la validación"
+    "date": "2024-12-23",
+    "validator": "Auditoría bibliográfica",
+    "notes": "Contenido verificado contra Baldor y Stewart"
   }
 }
 ```
 
-#### Campos de Referencias Bibliográficas
+#### Campos Clave del `resource_map`
 
-| Campo | Descripción | Obligatorio |
-|-------|-------------|-------------|
-| `references` | Array de objetos con fuentes bibliográficas | ✅ Sí |
-| `citation` | Cita completa en formato APA | ✅ Sí |
-| `mapping` | Mapeo capítulo/sección → contenido | ✅ Sí |
-| `validation_status` | Estado de validación bibliográfica | Recomendado |
-| `validated` | Boolean: ¿contenido verificado? | Recomendado |
-| `date` | Fecha de última validación | Recomendado |
-| `validator` | Quién validó (humano o IA) | Opcional |
-| `notes` | Observaciones especiales | Opcional |
+| Campo | Descripción | Uso |
+|-------|-------------|-----|
+| `entry_point` | Archivo de entrada al tema | Primera lectura, orientación |
+| `main_theory` | Teoría principal completa | Estudio profundo |
+| `cheat_sheet` | Resumen de fórmulas | Repaso rápido, exámenes |
+| `methods` | Lista de procedimientos | Aprender técnicas |
+| `problems` | Lista de problemas | Práctica |
+| `answers` | Respuestas rápidas | Verificación inmediata |
+| `solutions` | Desarrollos completos | Aprendizaje del proceso |
 
-### 2. Bloque `::METADATA::` — Encabezado de archivos .md
+---
 
-```markdown
-<!--
-::METADATA::
-type: theory|method|problem|solution|reference
-topic_id: prefijo-xx-nombre
-file_id: nombre-archivo
-status: draft|review|stable
-audience: student|ai_context|both
-last_updated: YYYY-MM-DD
--->
-```
+### 2. `_directives.md` — Instrucciones para IA
 
-### 3. `glossary.md` — Glosario con auto-enlace
+Este archivo **hereda** las directivas globales de `00-META/ia-contract.md` y añade instrucciones específicas del subtema.
+
+#### Contenido Típico
 
 ```markdown
-# Glosario
+# Directivas — [Nombre del Tema]
 
-## A
+## Clasificación del Contenido
 
-### **algoritmo**
-> Un conjunto ordenado y finito de instrucciones que permite resolver un problema.
-> 
-> **Ver también:** [complejidad](#complejidad), [pseudocódigo](#pseudocódigo)
-```
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `PREFIJO-XX-Teoria-*.md` | Teoría completa |
+| `methods/` | `PREFIJO-XX-Metodos-*.md` | Procedimientos |
+| `problems/` | `PREFIJO-XX-Problemas.md` | Enunciados |
+| `solutions/` | `PREFIJO-XX-Respuestas.md` | Soluciones |
 
-### 4. `00-Index.md` — Índice de módulo
+## Subtemas (X.1 - X.N)
+[Lista de subtemas con descripción]
 
-```markdown
-# [Módulo]: [Título]
+## Directivas Específicas para IA
 
-## Visión General
-Descripción del módulo...
+- **Audiencia:** Autoestudio universitario
+- **Formato de salida:** Markdown con LaTeX
+- **Tareas permitidas:** [lista según manifest.json]
+- **Al generar soluciones:** Incluir contexto explicando el método
 
-## Temas Incluidos
+## Notas de Formato Especiales
 
-| # | Tema | Descripción | Dificultad |
-|---|------|-------------|------------|
-| 01 | [Tema 1](01-Tema/) | Descripción | ⭐ |
-| 02 | [Tema 2](02-Tema/) | Descripción | ⭐⭐ |
-
-## Skill Tree
-[Diagrama Mermaid mostrando dependencias]
-
-## Ruta de Estudio Recomendada
-1. Comenzar con...
-2. Luego estudiar...
+- En tablas, usar `\lvert \rvert` para valor absoluto
+- Cada problema debe indicar el subtema al que pertenece
+- Las soluciones siguen el formato: `**N)** *Contexto: [explicación]*`
 ```
 
 ---
 
-## 🏷️ SISTEMA DE PREFIJOS
+### 3. `PREFIJO-XX-*-Intro.md` — Punto de Entrada
 
-| Prefijo | Descripción | Ejemplo de Archivo |
-|---------|-------------|-------------------|
-| `XX-NN` | Módulo-Subtema | `02-03` = Módulo 2, Subtema 3 |
-| `PREFIJO` | Abreviatura del módulo (2-3 letras) | `AL`, `CD`, `VHDL` |
+**El archivo más importante para el estudiante.** Es la puerta de entrada al tema.
 
-**Convención de nombres:** `PREFIJO-NN-Contenido-Tipo.md`
-- Ejemplo: `VHDL-02-Combinacional-Teoria.md`
+#### Estructura Obligatoria
+
+```markdown
+<!--
+::METADATA::
+type: index
+topic_id: [id-del-tema]
+file_id: [nombre-archivo]
+status: stable
+audience: student
+-->
+
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
+---
+
+# [Nombre del Tema]
+
+## Propósito del tema
+[Párrafo motivacional: ¿Por qué es importante este tema?]
+
+## Mapa de recursos
+[Diagrama o lista de todos los archivos disponibles]
+
+## Ruta de aprendizaje
+[Secuencia recomendada de estudio con enlaces]
+
+## Tabla de fórmulas clave
+[Resumen visual de las fórmulas más importantes]
+```
+
+#### Función Pedagógica
+
+| Sección | Propósito |
+|---------|-----------|
+| **Propósito** | Motivar al estudiante, conectar con aplicaciones |
+| **Mapa de recursos** | Orientar sobre qué archivos existen y para qué |
+| **Ruta de aprendizaje** | Guiar la secuencia de estudio |
+| **Fórmulas clave** | Preview del contenido, referencia rápida |
+
+---
+
+### 4. `PREFIJO-XX-Resumen-Formulas.md` — Cheat Sheet
+
+**Hoja de referencia rápida** diseñada para:
+- Repaso antes de exámenes
+- Consulta durante resolución de problemas
+- Resumen ejecutivo del tema
+
+#### Estructura Típica
+
+```markdown
+<!--
+::METADATA::
+type: cheatsheet
+audience: exam_review
+-->
+
+# Resumen rápido — [Tema]
+
+## [Sección 1: Concepto principal]
+[Fórmulas en LaTeX organizadas en tablas]
+
+## [Sección 2: Otro concepto]
+| Operación | Fórmula |
+|-----------|---------|
+| Suma | $a + b$ |
+| Producto | $a \cdot b$ |
+
+## [Sección N]
+...
+
+---
+<!-- IA: Hoja de referencia. Para desarrollo: [enlace a teoría] -->
+```
+
+---
+
+### 5. `theory/PREFIJO-XX-Teoria-*.md` — Teoría Completa
+
+**Desarrollo teórico completo** del tema. Incluye:
+
+| Elemento | Descripción |
+|----------|-------------|
+| **Definiciones** | Conceptos fundamentales con rigor matemático |
+| **Teoremas** | Enunciados formales con demostraciones cuando aplique |
+| **Propiedades** | Características importantes derivadas |
+| **Ejemplos** | Ilustraciones de cada concepto |
+| **Observaciones** | Notas importantes, casos especiales |
+| **Errores comunes** | Advertencias sobre confusiones frecuentes |
+
+#### Convenciones de Formato
+
+- Definiciones en **negrita** o en bloques `> `
+- Teoremas numerados: `### Teorema X.Y: Nombre`
+- Demostraciones en bloques colapsables `<details>`
+- Fórmulas importantes en `$$..$$` (display mode)
+- Ejemplos numerados: `#### Ejemplo X.Y.Z`
+
+---
+
+### 6. `methods/PREFIJO-XX-Metodos-*.md` — Procedimientos
+
+**Guías paso a paso** para resolver tipos específicos de problemas.
+
+#### Estructura de un Método
+
+```markdown
+## Método: [Nombre del Procedimiento]
+
+### Cuándo usar
+[Descripción del tipo de problema que resuelve]
+
+### Pasos
+
+1. **Identificar** [qué buscar en el problema]
+2. **Aplicar** [fórmula o técnica]
+3. **Simplificar** [operaciones intermedias]
+4. **Verificar** [comprobación del resultado]
+
+### Ejemplo Resuelto
+
+**Problema:** [Enunciado]
+
+**Solución:**
+- Paso 1: ...
+- Paso 2: ...
+- Resultado: $...$
+
+### Errores Comunes
+- ❌ [Error típico]
+- ✅ [Forma correcta]
+```
+
+---
+
+### 7. `problems/PREFIJO-XX-Problemas.md` — Enunciados
+
+**Colección de problemas** organizados por:
+- Subtema (2.1, 2.2, etc.)
+- Dificultad (⭐, ⭐⭐, ⭐⭐⭐)
+
+#### Formato de Problema
+
+```markdown
+### Prob-XX
+**[Subtema X.Y]** ⭐⭐
+
+[Enunciado completo del problema]
+
+> 💡 [Pista opcional]
+
+📝 [Solución →](../solutions/PREFIJO-XX-Respuestas.md#prob-xx)
+```
+
+---
+
+### 8. `solutions/` — Sistema de Soluciones de 3 Niveles
+
+#### Arquitectura del Sistema
+
+```
+solutions/
+├── PREFIJO-XX-Respuestas.md              # Nivel 1: Respuestas rápidas
+├── PREFIJO-XX-Soluciones-Desarrolladas.md # Nivel 2: Desarrollos generales
+└── prob-XX/                              # Nivel 3: Soluciones individuales
+    └── solucion-metodo.md
+```
+
+#### Nivel 1: `Respuestas.md` — Respuestas Rápidas
+
+Para verificación inmediata sin ver el proceso.
+
+```markdown
+## Respuestas Rápidas
+
+| Prob | Respuesta | Desarrollo |
+|------|-----------|------------|
+| 01 | $x = 5$ | — |
+| 02 | $42$ | [Ver →](prob-02/solucion-metodo.md) |
+| 03 | $\frac{3}{4}$ | — |
+```
+
+#### Nivel 2: `Soluciones-Desarrolladas.md` — Desarrollos
+
+Soluciones con contexto y pasos intermedios.
+
+```markdown
+## Soluciones Desarrolladas
+
+### Prob-01
+**Contexto:** Este problema aplica [concepto X] porque [razón].
+
+**Solución:**
+$$\text{Paso 1: } ...$$
+$$\text{Paso 2: } ...$$
+
+**Respuesta:** $x = 5$
+```
+
+#### Nivel 3: `prob-XX/solucion-metodo.md` — Soluciones Individuales
+
+Para problemas complejos que requieren explicación extensa.
+
+```markdown
+# Solución — Problema XX
+
+## Enunciado
+[Copia del problema]
+
+## Análisis
+[¿Qué tipo de problema es? ¿Qué método aplica?]
+
+## Solución Paso a Paso
+
+### Paso 1: [Título]
+[Desarrollo con explicación]
+
+### Paso 2: [Título]
+[Desarrollo con explicación]
+
+## Respuesta Final
+**R:** $...$
+
+## Verificación
+[Comprobación del resultado]
+```
+
+---
+
+### 9. Carpetas Opcionales
+
+#### `applications/` — Aplicaciones Reales
+
+Conexiones del tema con el mundo real o con otras disciplinas.
+
+```markdown
+# Aplicaciones de [Tema]
+
+## Aplicación 1: [Campo]
+[Descripción de cómo se usa el concepto]
+
+## Aplicación 2: [Campo]
+[Otro ejemplo de aplicación]
+```
+
+#### `diagnostic/` — Evaluaciones Diagnósticas
+
+Tests iniciales para que el estudiante evalúe su nivel.
+
+```markdown
+# Diagnóstico — [Tema]
+
+## Instrucciones
+Responde las siguientes preguntas sin consultar material.
+Tiempo sugerido: 15 minutos.
+
+## Preguntas
+
+### 1. [Pregunta básica]
+...
+
+## Autoevaluación
+- 0-3 correctas: Revisar prerequisitos
+- 4-6 correctas: Comenzar por teoría
+- 7-10 correctas: Ir directo a problemas
+```
+
+#### `media/` — Recursos Visuales
+
+Imágenes, diagramas, gráficos referenciados desde otros archivos.
+
+```
+media/
+├── diagrama-concepto.png
+├── grafico-funcion.svg
+└── tabla-valores.png
+```
+
+---
+
+## 🏷️ SISTEMA DE PREFIJOS Y NOMENCLATURA
+
+### Prefijos por Módulo
+
+| Módulo | Prefijo | Ejemplo de Archivo |
+|--------|---------|-------------------|
+| 01-Fundamentos | `FUN` | `FUN-02-Aritmetica-Intro.md` |
+| 02-Algebra-Lineal | `AL` | `AL-01-Matrices-Intro.md` |
+| 03-Calculo-Diferencial | `CD` | `CD-02-Derivadas-Intro.md` |
+| 04-Calculo-Integral | `CI` | `CI-03-Integral-Definida-Intro.md` |
+| 05-Calculo-Vectorial | `CV` | `CV-04-Varias-Variables-Intro.md` |
+| 06-Ecuaciones-Diferenciales | `ED` | `ED-01-EDO-Primer-Orden-Intro.md` |
+| 07-Metodos-Numericos | `MN` | `MN-02-Interpolacion-Intro.md` |
+
+### Patrón de Nombres
+
+```
+[PREFIJO]-[XX]-[Contenido]-[Tipo].md
+
+Donde:
+- PREFIJO: 2-3 letras del módulo (FUN, AL, CD, CI, CV, ED, MN)
+- XX: Número del subtema dentro del módulo (01, 02, ...)
+- Contenido: Nombre descriptivo en PascalCase
+- Tipo: Teoria, Metodos, Problemas, Respuestas, Intro, Resumen-Formulas
+```
+
+### Excepciones al Estándar
+
+| Excepción | Ubicación | Razón |
+|-----------|-----------|-------|
+| `00-Index.md` | Cada módulo | Archivo índice estándar |
+| `solucion-*.md` | `solutions/prob-XX/` | Contexto implícito por carpeta |
+| Archivos en `01-Simbologia-Matematica/theory/` | `01-Fundamentos/` | Material de consulta sin secuencia |
+| Archivos en `00-META/` | Raíz | Configuración global |
 
 ---
 
 ## 🔗 SISTEMA DE ENLACES
 
-### Tipos de enlaces
+### Tipos de Enlaces
 
-1. **Internos al subtema:** `[texto](archivo.md)` o `[texto](carpeta/archivo.md)`
-2. **Entre subtemas:** `[texto](../XX-Otro-Tema/archivo.md)`
-3. **Al glosario:** `[término](../glossary.md#término)`
-4. **A soluciones:**
-   - Respuesta rápida: `[Solución](#prob-XX)` → enlaza a `Respuestas.md#prob-XX`
-   - Solución desarrollada: `[Solución](solutions/prob-XX/solucion-metodo.md)`
+| Tipo | Sintaxis | Ejemplo |
+|------|----------|---------|
+| Mismo directorio | `[texto](archivo.md)` | `[Intro](FUN-02-Intro.md)` |
+| Subdirectorio | `[texto](carpeta/archivo.md)` | `[Teoría](theory/FUN-02-Teoria.md)` |
+| Directorio padre | `[texto](../archivo.md)` | `[Índice](../00-Index.md)` |
+| Al glosario | `[término](../glossary.md#ancla)` | `[función](../glossary.md#funcion)` |
+| Entre módulos | `[texto](../Modulo/archivo.md)` | `[Matrices](../02-Algebra-Lineal/01-Matrices/)` |
 
-### Reglas críticas
+### Header de Navegación Estándar
 
-- ✅ Usar rutas relativas siempre
-- ✅ Anclas en minúsculas con guiones: `#prob-04`, `#definicion`
-- ✅ Sin espacios en nombres de archivo
-- ❌ No usar rutas absolutas
-- ❌ No usar `./` al inicio (redundante)
+Todo archivo de contenido debe incluir:
+
+```markdown
+> 🏠 **Navegación:** [← Volver al Índice Principal](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+```
+
+Ajustar la profundidad de `../` según ubicación del archivo.
 
 ---
 
-## �️ INTEGRACIÓN 00-META CON MÓDULOS
-
-El directorio `00-META/` actúa como **centro de control** del repositorio. Define estándares y contiene referencias centralizadas que son consumidas por los módulos.
+## 🎛️ INTEGRACIÓN CON 00-META
 
 ### Flujo de Datos: Módulos ↔ 00-META
 
@@ -258,14 +625,14 @@ El directorio `00-META/` actúa como **centro de control** del repositorio. Defi
 ┌────────────────────────────────────────────────────────────────────┐
 │  ia-contract.md         → Directivas globales para toda IA        │
 │  nomenclatura-estandar.md → Reglas de nombrado de archivos        │
-│  notation-cheatsheet.md → Símbolos y notación estándar            │
+│  notation-cheatsheet.md → Símbolos LaTeX estándar                 │
 │  bibliografia-general.md → BIBLIOTECA CENTRAL (maestro)           │
 └────────────────────────────────────────────────────────────────────┘
          ▲                    ▲                    ▲
-         │ Lee directivas     │ Consulta símbolos  │ Registra validación
+         │ Hereda directivas  │ Consulta símbolos  │ Registra validación
          │                    │                    │
 ┌────────┴────────┐  ┌────────┴────────┐  ┌───────┴─────────┐
-│ XX-Modulo/      │  │ XX-Modulo/      │  │ XX-Modulo/      │
+│ XX-Subtema/     │  │ XX-Subtema/     │  │ XX-Subtema/     │
 │ _directives.md  │  │ theory/*.md     │  │ manifest.json   │
 │ (hereda de      │  │ (usa notación   │  │ (references →   │
 │  ia-contract)   │  │  estándar)      │  │  biblioteca)    │
@@ -276,535 +643,121 @@ El directorio `00-META/` actúa como **centro de control** del repositorio. Defi
 
 | Archivo | Propósito | Consumido por |
 |---------|-----------|---------------|
-| `ia-contract.md` | Directivas globales para asistentes IA | `_directives.md` de cada subtema |
-| `nomenclatura-estandar.md` | Convenciones de nombrado de archivos | Toda creación de archivos nuevos |
-| `notation-cheatsheet.md` | Símbolos matemáticos/técnicos | Archivos `theory/*.md` |
+| `ia-contract.md` | Directivas globales para IA | `_directives.md` de cada subtema |
+| `nomenclatura-estandar.md` | Convenciones de nombrado | Toda creación de archivos |
+| `notation-cheatsheet.md` | Símbolos LaTeX estándar | Archivos `theory/*.md` |
 | `bibliografia-general.md` | Registro maestro de referencias | `manifest.json` de cada subtema |
-| `study-guide.md` | Guía de estudio para alumnos | README.md, WIKI_INDEX.md |
-| `tools/*.py` | Scripts de validación y auto-enlace | Proceso de CI/CD o manual |
-
-### Relación: `manifest.json` → `bibliografia-general.md`
-
-```
-manifest.json (local)              bibliografia-general.md (central)
-┌─────────────────────────┐        ┌─────────────────────────────────┐
-│ "references": [         │        │ ## 📐 01. Módulo Básico         │
-│   {                     │        │                                 │
-│     "citation": "...",  │───────▶│ | Autor | Título | Edición |    │
-│     "mapping": {...}    │        │ |-------|--------|---------|    │
-│   }                     │        │ | A, B. | Libro  | Xma ed. |    │
-│ ]                       │        │                                 │
-├─────────────────────────┤        ├─────────────────────────────────┤
-│ "validation_status": {  │        │ ## 📊 Registro de Validación    │
-│   "validated": true,    │───────▶│ | Subtema | Estado | Fecha |    │
-│   "date": "YYYY-MM-DD"  │        │ |---------|--------|-------|    │
-│ }                       │        │ | PRE-01  | ✅     | DD/MM |    │
-└─────────────────────────┘        └─────────────────────────────────┘
-```
-
-### Herencia de Directivas IA
-
-```markdown
-<!-- 00-META/ia-contract.md (global) -->
-# Contrato IA - Reglas Globales
-1. Respeta nomenclatura estándar
-2. Usa manifest.json como mapa de recursos
-3. Verifica referencias bibliográficas
-4. ...
-
-<!-- XX-Modulo/NN-Subtema/_directives.md (local) -->
-# Directivas IA — [Subtema]
-
-## Hereda de:
-- [Contrato IA Global](../../00-META/ia-contract.md)
-
-## Directivas Específicas:
-- En este tema, usar notación [específica]
-- Verificar [condiciones particulares]
-```
+| `study-guide.md` | Guía de estudio | Estudiantes, README |
+| `tools/*.py` | Scripts de validación | CI/CD, auditorías manuales |
 
 ---
 
-## �📊 SISTEMA DE SOLUCIONES (3 NIVELES)
+## 📊 SISTEMA DE SOLUCIONES MULTINIVEL
+
+### Diagrama de Decisión
 
 ```
-PROBLEMA → ¿Tiene solución desarrollada?
-    │
-    ├── SÍ → Enlace a: solutions/prob-XX/solucion-metodo.md
-    │        (Contiene desarrollo paso a paso)
-    │
-    └── NO → Enlace a: solutions/PREFIJO-XX-Respuestas.md#prob-XX
-             (Solo respuesta final)
+ESTUDIANTE BUSCA SOLUCIÓN
+           │
+           ▼
+    ¿Solo verificar respuesta?
+           │
+    ┌──────┴──────┐
+    │ SÍ          │ NO
+    ▼             ▼
+Respuestas.md   ¿Necesita explicación detallada?
+(tabla rápida)    │
+                  ├──────────────┐
+                  │ BÁSICA       │ EXTENSA
+                  ▼              ▼
+    Soluciones-Desarrolladas   prob-XX/
+    (desarrollo en contexto)   solucion-metodo.md
+                               (página completa)
 ```
 
-### Estructura de `Respuestas.md`
+### Cuándo Crear Cada Nivel
 
-```markdown
-## Respuestas Rápidas
-
-### Prob-01
-**Respuesta:** 42
+| Nivel | Cuándo Crear | Contenido |
+|-------|--------------|-----------|
+| **Respuestas.md** | SIEMPRE | Todas las respuestas finales |
+| **Soluciones-Desarrolladas.md** | Cuando hay ≥10 problemas | Desarrollos con contexto |
+| **prob-XX/** | Para problemas complejos | Explicación paso a paso extensa |
 
 ---
 
-### Prob-02
-**Respuesta:** x = 5, y = 3
+## 📚 VALIDACIÓN BIBLIOGRÁFICA
 
-[Ver solución desarrollada →](prob-02/solucion-metodo.md)
-```
-
-### Estructura de solución desarrollada
-
-```markdown
-# Solución — Problema XX
-
-## Enunciado
-[Copiar enunciado del problema]
-
-## Solución
-
-### Paso 1: [Título]
-...
-
-### Paso 2: [Título]
-...
-
-## Respuesta Final
-**R:** ...
-```
-
----
-
-## 📚 SISTEMA DE VALIDACIÓN BIBLIOGRÁFICA
-
-El sistema de validación bibliográfica garantiza que **todo el contenido sintético** (generado o editado por IA/humanos) esté respaldado por **bibliografía estándar universitaria**.
-
-### Arquitectura de Validación
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    00-META/bibliografia-general.md              │
-│                    (BIBLIOTECA CENTRAL)                          │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │ • Tablas de referencias por módulo                          │ │
-│  │ • Mapeo capítulo → subtema                                  │ │
-│  │ • Registro de validación (qué, cuándo, quién)               │ │
-│  │ • Detalles expandibles por tema (<details>)                 │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│ XX-Modulo/      │  │ YY-Modulo/      │  │ ZZ-Modulo/      │
-│ NN-Subtema/     │  │ MM-Subtema/     │  │ PP-Subtema/     │
-│ manifest.json   │  │ manifest.json   │  │ manifest.json   │
-│                 │  │                 │  │                 │
-│ "references": [ │  │ "references": [ │  │ "references": [ │
-│   {...},        │  │   {...},        │  │   {...},        │
-│   {...}         │  │   {...}         │  │   {...}         │
-│ ]               │  │ ]               │  │ ]               │
-└─────────────────┘  └─────────────────┘  └─────────────────┘
-```
-
-### Estructura de `00-META/bibliografia-general.md`
-
-```markdown
-# 📚 Biblioteca Central de Referencia
-
-## 📋 Índice de Contenido
-- [01. Módulo Básico](#-01-módulo-básico)
-- [02. Módulo Intermedio](#-02-módulo-intermedio)
-- ...
-- [Registro de Validación por Tema](#-registro-de-validación-por-tema)
-
----
-
-## 📐 01. Módulo Básico
-
-> **Módulo:** [01-Nombre](../01-Nombre/00-Index.md) | **Estado:** ✅ VALIDADO
-
-| Autor | Título | Edición | Editorial | Enfoque |
-|-------|--------|---------|-----------|--------|
-| Autor, A. | *Título del Libro* | Xma ed. | Editorial | **Referencia principal** |
-| Autor, B. | *Otro Libro* | Yma ed. | Editorial | Complementario |
-
-### 📌 Mapeo por Subtema
-
-| Subtema | Autor A | Autor B |
-|---------|---------|--------|
-| [PRE-01 Tema](../01-Modulo/01-Tema/) | Cap. 1-3 | Cap. 2 |
-| [PRE-02 Tema](../01-Modulo/02-Tema/) | Cap. 4-5 | Cap. 3 |
-
-### 📖 Detalle de Referencias por Tema
-
-<details>
-<summary><strong>PRE-01: Tema</strong> (click para expandir)</summary>
-
-**Conceptos cubiertos:** Lista de conceptos principales del tema.
-
-| Libro | Capítulos/Secciones | Relevancia |
-|-------|---------------------|------------|
-| Autor A | Capítulo X | Descripción de cobertura |
-| Autor B | Secciones Y.Z | Complemento específico |
-
-</details>
-
----
-
-## 📊 Registro de Validación por Tema
-
-| Módulo | Subtema | Estado | Fecha | Fuentes |
-|--------|---------|:------:|-------|--------|
-| 01-Básico | PRE-01 | ✅ | YYYY-MM-DD | Autor A, Autor B |
-| 01-Básico | PRE-02 | ✅ | YYYY-MM-DD | Autor A |
-```
-
-### Proceso de Auditoría Bibliográfica
+### Proceso de Validación
 
 ```mermaid
 flowchart TD
-    A[Leer contenido teórico] --> B{¿Contenido válido?}
-    B -->|Revisar| C[Identificar conceptos clave]
+    A[Contenido teórico] --> B{¿Verificado?}
+    B -->|No| C[Identificar conceptos clave]
     C --> D[Buscar en bibliografía estándar]
     D --> E[Mapear capítulos/secciones]
     E --> F[Actualizar manifest.json]
     F --> G[Actualizar bibliografia-general.md]
     G --> H[Marcar como validado]
-    
-    B -->|Incorrecto| I[Corregir contenido]
-    I --> C
+    B -->|Sí| H
 ```
 
-### Checklist de Validación por Subtema
+### Bibliografía Estándar del Repositorio
 
-- [ ] Leer `theory/*.md` del subtema
-- [ ] Identificar conceptos principales
-- [ ] Verificar contra bibliografía estándar del dominio
-- [ ] Agregar bloque `references` a `manifest.json`
-- [ ] Agregar bloque `validation_status` a `manifest.json`
-- [ ] Actualizar `00-META/bibliografia-general.md`:
-  - [ ] Agregar entrada en tabla de mapeo
-  - [ ] Crear/actualizar `<details>` del subtema
-  - [ ] Actualizar tabla de registro de validación
+| Área | Autor Principal | Título |
+|------|-----------------|--------|
+| Aritmética/Álgebra | Baldor, A. | *Aritmética* / *Álgebra* |
+| Cálculo | Stewart, J. | *Cálculo de una variable* / *Multivariable* |
+| Álgebra Lineal | Grossman, S. | *Álgebra Lineal* |
+| Ecuaciones Diferenciales | Zill, D. | *Ecuaciones Diferenciales* |
+| Métodos Numéricos | Burden & Faires | *Análisis Numérico* |
 
 ---
 
-## 🎯 EJEMPLO APLICADO: REPOSITORIO "DISEÑO DIGITAL"
+## ✅ BLOQUE ::METADATA:: EN ARCHIVOS .MD
 
-### Propuesta de Módulos
-
-| # | Prefijo | Módulo | Descripción |
-|---|---------|--------|-------------|
-| 01 | `FDD` | **Fundamentos** | Sistemas numéricos, álgebra booleana, compuertas |
-| 02 | `LOG` | **Lógica Combinacional** | Mux, demux, decodificadores, sumadores |
-| 03 | `SEC` | **Lógica Secuencial** | Flip-flops, registros, contadores, FSM |
-| 04 | `VHDL` | **VHDL** | Sintaxis, modelado, simulación, síntesis |
-| 05 | `FPGA` | **Implementación FPGA** | Flujo de diseño, constraints, timing |
-| 06 | `MCU` | **Microcontroladores** | Arquitectura, periféricos, programación |
-| 07 | `PRY` | **Proyectos Integrados** | Proyectos que combinan todo |
-
-### Estructura Ejemplo: Módulo VHDL
-
-```
-04-VHDL/
-├── 00-Index.md
-├── 01-Introduccion-VHDL/
-│   ├── manifest.json
-│   ├── _directives.md
-│   ├── VHDL-01-Intro.md
-│   ├── VHDL-01-Resumen-Sintaxis.md
-│   ├── theory/
-│   │   ├── VHDL-01-Teoria-Historia.md
-│   │   └── VHDL-01-Teoria-Conceptos.md
-│   ├── methods/
-│   │   └── VHDL-01-Metodos-Entorno.md
-│   ├── problems/
-│   │   └── VHDL-01-Problemas.md
-│   └── solutions/
-│       ├── VHDL-01-Respuestas.md
-│       └── prob-05/
-│           └── solucion-codigo.md
-├── 02-Modelado-Combinacional/
-├── 03-Modelado-Secuencial/
-├── 04-Testbenches/
-├── 05-Maquinas-Estados/
-└── 06-Sintesis/
-```
-
-### Ejemplo de `manifest.json` para VHDL (con referencias)
-
-```json
-{
-  "id": "vhdl-01-introduccion",
-  "topic": "Introducción a VHDL",
-  "type": "learning_module",
-  "status": "active",
-  "last_updated": "2025-01-XX",
-  "human_purpose": "Fundamentos del lenguaje VHDL: historia, estructura básica, entidades y arquitecturas.",
-  "resource_map": {
-    "entry_point": "VHDL-01-Intro.md",
-    "main_theory": "theory/VHDL-01-Teoria-Conceptos.md",
-    "cheat_sheet": "VHDL-01-Resumen-Sintaxis.md",
-    "methods": ["methods/VHDL-01-Metodos-Entorno.md"],
-    "problems": "problems/VHDL-01-Problemas.md",
-    "answers": "solutions/VHDL-01-Respuestas.md",
-    "solutions": ["solutions/prob-05/"]
-  },
-  "ai_contract": {
-    "strict_mode": true,
-    "expected_inputs": "Código VHDL con entidades y arquitecturas",
-    "expected_outputs": "Análisis de sintaxis, correcciones, explicaciones",
-    "verification": "Verificar sintaxis VHDL, nombres de entidad/arquitectura, tipos de datos"
-  },
-  "prerequisites": ["fdd-01-fundamentos", "log-02-combinacional"],
-  "learning_objectives": [
-    "Comprender la historia y propósito de VHDL",
-    "Escribir entidades y arquitecturas básicas",
-    "Diferenciar entre modelado estructural y comportamental",
-    "Configurar un entorno de desarrollo VHDL"
-  ],
-  "estimated_time": "3-4 horas",
-  "difficulty": "intermedio",
-  "subtopics": [
-    {"id": "4.1", "title": "Historia de VHDL", "description": "Origen y evolución del lenguaje"},
-    {"id": "4.2", "title": "Estructura básica", "description": "Entidad, arquitectura, configuración"},
-    {"id": "4.3", "title": "Tipos de datos", "description": "std_logic, std_logic_vector, integer"},
-    {"id": "4.4", "title": "Operadores", "description": "Lógicos, aritméticos, relacionales"}
-  ],
-  "tags": ["vhdl", "hdl", "fpga", "síntesis", "simulación"],
-  
-  "references": [
-    {
-      "citation": "Ashenden, P. (2008). The Designer's Guide to VHDL. 3rd ed. Morgan Kaufmann.",
-      "mapping": {
-        "Chapter 1": "Introduction - History and overview of VHDL",
-        "Chapter 2": "Scalar Data Types and Operations",
-        "Chapter 3": "Sequential Statements",
-        "Section 4.1-4.3": "Entity and Architecture basics"
-      }
-    },
-    {
-      "citation": "Pedroni, V. (2010). Circuit Design and Simulation with VHDL. 2nd ed. MIT Press.",
-      "mapping": {
-        "Part I": "Introductory concepts and data types",
-        "Chapter 2": "Code structure (entity, architecture)",
-        "Chapter 3": "Data types overview"
-      }
-    },
-    {
-      "citation": "Wakerly, J. (2006). Digital Design: Principles and Practices. 4th ed. Pearson.",
-      "mapping": {
-        "Chapter 4": "Combinational Logic Technologies",
-        "Section 4.7": "HDL Introduction",
-        "Appendix A": "VHDL Reference"
-      }
-    }
-  ],
-  "validation_status": {
-    "validated": true,
-    "date": "2025-01-XX",
-    "validator": "Departamento de Ingeniería",
-    "notes": "Contenido verificado contra bibliografía IEEE estándar para cursos de diseño digital"
-  }
-}
-```
-
-### Glosario Sugerido (términos iniciales)
+Todo archivo `.md` debe comenzar con:
 
 ```markdown
-# Glosario — Diseño Digital
-
-## A
-
-### **arquitectura (VHDL)**
-> Bloque que describe el comportamiento o estructura interna de una entidad.
-
-### **asíncrono**
-> Circuito o señal que no depende de una señal de reloj.
-
-## C
-
-### **combinacional**
-> Circuito cuya salida depende únicamente de las entradas actuales.
-
-### **constraint**
-> Restricción de diseño (timing, ubicación de pines) para síntesis en FPGA.
-
-## E
-
-### **entidad (VHDL)**
-> Declaración de la interfaz externa de un módulo: puertos de entrada/salida.
-
-## F
-
-### **flip-flop**
-> Elemento de memoria básico que almacena un bit.
-
-### **FSM (Finite State Machine)**
-> Máquina de estados finitos: modelo de circuito secuencial con estados discretos.
-
-### **FPGA**
-> Field Programmable Gate Array: circuito integrado reconfigurable.
-
-## L
-
-### **latch**
-> Elemento de memoria sensible a nivel (no recomendado en diseño síncrono).
-
-## M
-
-### **microcontrolador**
-> Circuito integrado que incluye CPU, memoria y periféricos en un solo chip.
-
-## S
-
-### **secuencial**
-> Circuito cuya salida depende de las entradas y del estado anterior.
-
-### **síntesis**
-> Proceso de convertir código HDL en una implementación de hardware.
-
-## T
-
-### **testbench**
-> Módulo de prueba para verificar el comportamiento de un diseño mediante simulación.
-
-## V
-
-### **VHDL**
-> VHSIC Hardware Description Language: lenguaje de descripción de hardware.
+<!--
+::METADATA::
+type: [theory | method | problem | solution | reference | index | cheatsheet | answer-key]
+topic_id: [id-del-tema]
+file_id: [nombre-archivo-sin-extension]
+status: [draft | review | stable | active]
+audience: [student | ai_context | both | exam_review]
+last_updated: YYYY-MM-DD
+-->
 ```
 
-### Bibliografía Estándar Sugerida — Diseño Digital
+### Tipos de Archivo
 
-| Autor | Título | Edición | Enfoque |
-|-------|--------|---------|---------|
-| Ashenden, P. | *The Designer's Guide to VHDL* | 3rd ed. | **VHDL - Referencia completa** |
-| Pedroni, V. | *Circuit Design and Simulation with VHDL* | 2nd ed. | VHDL práctico con ejemplos |
-| Wakerly, J. | *Digital Design: Principles and Practices* | 4th ed. | Fundamentos + introducción HDL |
-| Brown, S. & Vranesic, Z. | *Fundamentals of Digital Logic with VHDL Design* | 3rd ed. | Lógica digital completa |
-| Mano, M. & Ciletti, M. | *Digital Design* | 6th ed. | Diseño digital clásico |
-| Tocci, R. | *Digital Systems: Principles and Applications* | 12th ed. | Sistemas digitales aplicados |
-| Patterson, D. & Hennessy, J. | *Computer Organization and Design* | 5th ed. | Arquitectura de computadoras |
+| type | Descripción |
+|------|-------------|
+| `theory` | Desarrollo teórico |
+| `method` | Procedimiento paso a paso |
+| `problem` | Enunciados de problemas |
+| `solution` | Soluciones desarrolladas |
+| `reference` | Material de consulta |
+| `index` | Índice o punto de entrada |
+| `cheatsheet` | Resumen de fórmulas |
+| `answer-key` | Tabla de respuestas |
 
 ---
 
-## ✅ CHECKLIST DE IMPLEMENTACIÓN
+## 🗂️ RESUMEN: MÓDULOS DEL REPOSITORIO
 
-### Fase 1: Estructura base
-- [ ] Crear carpeta raíz del repositorio
-- [ ] Crear README.md con skill tree
-- [ ] Crear WIKI_INDEX.md vacío (llenar después)
-- [ ] Crear glossary.md con ~50 términos iniciales
-- [ ] Crear carpeta 00-META/ con archivos base:
-  - [ ] `ia-contract.md` — Directivas para IA
-  - [ ] `bibliografia-general.md` — Biblioteca central (vacía inicialmente)
-  - [ ] `nomenclatura-estandar.md` — Reglas de nombrado
-  - [ ] `notation-cheatsheet.md` — Símbolos y convenciones
-
-### Fase 2: Módulos
-- [ ] Crear carpetas de módulos (01-XX/ a NN-XX/)
-- [ ] Crear 00-Index.md en cada módulo
-- [ ] Definir subtemas por módulo
-- [ ] Identificar bibliografía estándar por módulo
-
-### Fase 3: Subtemas
-- [ ] Crear estructura de carpetas por subtema
-- [ ] Crear manifest.json para cada subtema
-- [ ] Crear _directives.md para cada subtema
-- [ ] Crear archivo *-Intro.md como punto de entrada
-
-### Fase 4: Contenido
-- [ ] Poblar archivos de teoría
-- [ ] Crear métodos/procedimientos
-- [ ] Crear problemas con soluciones
-- [ ] Implementar sistema de 3 niveles de soluciones
-
-### Fase 5: Validación Bibliográfica
-- [ ] Revisar contenido teórico de cada subtema
-- [ ] Verificar conceptos contra bibliografía estándar
-- [ ] Agregar bloque `references` a cada manifest.json
-- [ ] Agregar bloque `validation_status` a cada manifest.json
-- [ ] Actualizar `00-META/bibliografia-general.md`:
-  - [ ] Crear tabla de referencias por módulo
-  - [ ] Crear mapeo subtema → capítulos
-  - [ ] Crear bloques `<details>` por subtema
-  - [ ] Crear tabla de registro de validación
-
-### Fase 6: Navegación e Integración
-- [ ] Completar WIKI_INDEX.md con todos los enlaces
-- [ ] Verificar enlaces internos
-- [ ] Agregar auto-enlaces del glosario
-- [ ] Verificar enlaces a bibliografía desde README
+| # | Prefijo | Módulo | Subtemas |
+|---|---------|--------|----------|
+| 01 | `FUN` | **Fundamentos** | Simbología, Aritmética, Álgebra, Geometría, Trigonometría, Geometría Analítica |
+| 02 | `AL` | **Álgebra Lineal** | Matrices, Determinantes, Sistemas Lineales, Espacios Vectoriales, Transformaciones, Valores Propios |
+| 03 | `CD` | **Cálculo Diferencial** | Límites, Derivadas, Aplicaciones, Teoremas Fundamentales |
+| 04 | `CI` | **Cálculo Integral** | Integral Indefinida, Técnicas, Integral Definida, Aplicaciones, Impropias |
+| 05 | `CV` | **Cálculo Vectorial** | Vectores, Curvas, Funciones Vectoriales, Varias Variables, Integración Múltiple |
+| 06 | `ED` | **Ecuaciones Diferenciales** | EDO Primer Orden, Segundo Orden, Sistemas, Laplace, Series de Potencias |
+| 07 | `MN` | **Métodos Numéricos** | Raíces, Interpolación, Integración Numérica, EDO Numéricas |
 
 ---
 
-## 🤖 PROMPT PARA INICIAR CREACIÓN DE CONTENIDO
-
-```markdown
-Crea el contenido para el subtema [NOMBRE] del módulo [MÓDULO] siguiendo estas directivas:
-
-1. **Punto de entrada** (`*-Intro.md`):
-   - Párrafo motivacional (¿por qué es importante?)
-   - Objetivos de aprendizaje (lista)
-   - Prerequisitos con enlaces
-   - Mapa de recursos del tema
-
-2. **Teoría** (`theory/*.md`):
-   - Definiciones precisas
-   - Teoremas/propiedades con demostración cuando aplique
-   - Ejemplos ilustrativos
-   - Notación estándar según cheatsheet
-
-3. **Métodos** (`methods/*.md`):
-   - Título descriptivo del procedimiento
-   - Pasos numerados
-   - Ejemplos resueltos paso a paso
-   - Casos especiales y errores comunes
-
-4. **Problemas** (`problems/*.md`):
-   - Organizados por dificultad (⭐, ⭐⭐, ⭐⭐⭐)
-   - Identificador único (### Prob-XX)
-   - Enunciado claro y completo
-   - Enlace a solución
-
-5. **Soluciones** (`solutions/`):
-   - Respuestas.md: Solo respuesta final
-   - prob-XX/: Desarrollo completo cuando amerite
-
-Formato: Markdown con código VHDL en bloques ```vhdl``` y fórmulas en LaTeX $...$ cuando aplique.
-```
-
----
-
-## 📚 REFERENCIA RÁPIDA — MÓDULOS SUGERIDOS PARA DISEÑO DIGITAL
-
-### Opción A: Enfoque académico completo
-
-```
-01-Fundamentos-Digitales/    → Sistemas numéricos, Boole, compuertas
-02-Circuitos-Combinacionales/ → Análisis, síntesis, minimización
-03-Circuitos-Secuenciales/   → Flip-flops, contadores, registros, FSM
-04-VHDL-Basico/              → Sintaxis, modelado, simulación
-05-VHDL-Avanzado/            → Síntesis, optimización, buenas prácticas
-06-Microcontroladores/       → Arquitectura, periféricos, programación
-07-Proyectos/                → Integraciones prácticas
-```
-
-### Opción B: Enfoque práctico/profesional
-
-```
-01-Fundamentos/              → Lo esencial de lógica digital
-02-VHDL-y-Simulacion/        → Lenguaje + verificación
-03-FPGAs-y-Sintesis/         → Implementación real
-04-ARM-Microcontrollers/     → Arquitectura ARM Cortex
-05-Embedded-Systems/         → Integración hardware-software
-06-Proyectos-Capstone/       → Proyectos completos
-```
-
----
-
-**Última actualización:** 2026-01-03  
-**Basado en:** Repositorio de Matemáticas v3.0 (Digital Garden + Bibliografía Validada)  
-**Auditoría bibliográfica:** 35 subtemas validados en 7 módulos
+**Última actualización:** 2026-01-05  
+**Versión:** 4.0 — Documentación específica del Repositorio de Matemáticas  
+**Estado:** 7 módulos completos, ~35 subtemas validados bibliográficamente
