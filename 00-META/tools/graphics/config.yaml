@@ -80,7 +80,27 @@ topics:
     module: "01-Fundamentos"
     subtopic: "05-Trigonometria"
     name: "Trigonometría"
+  FUN-06:
+    module: "01-Fundamentos"
+    subtopic: "06-Geometria-Analitica"
+    name: "Geometría Analítica"
+  CV-01:
+    module: "05-Calculo-Vectorial"
+    subtopic: "01-Vectores-en-el-espacio"
+    name: "Vectores en el Espacio"
   CV-02:
     module: "05-Calculo-Vectorial"
     subtopic: "02-Curvas-planas-parametricas-y-polares"
     name: "Curvas Paramétricas y Polares"
+  CV-03:
+    module: "05-Calculo-Vectorial"
+    subtopic: "03-Funciones-vectoriales"
+    name: "Funciones Vectoriales"
+  CV-04:
+    module: "05-Calculo-Vectorial"
+    subtopic: "04-Funciones-de-varias-variables"
+    name: "Funciones de Varias Variables"
+  CV-05:
+    module: "05-Calculo-Vectorial"
+    subtopic: "05-Integracion-multiple"
+    name: "Integración Múltiple"
