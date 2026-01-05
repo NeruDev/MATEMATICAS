@@ -104,6 +104,19 @@ flowchart TD
 | [Auditoría META](00-META/audit-meta-files.md) | Mapa de archivos de configuración |
 | [Validador](00-META/tools/validate_repo.py) | Verificar integridad |
 
+## 📝 Carpetas Notas — Sandbox Personal
+
+Cada subtema incluye una carpeta `Notas/` para contenido sin clasificar:
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Propósito** | Espacio sandbox para notas, borradores y experimentos |
+| **Reglas** | ❌ **NINGUNA** — Exento de todas las normativas |
+| **Contenido** | Texto, multimedia, código, archivos externos |
+| **Ubicación** | `XX-Modulo/XX-Subtema/Notas/` |
+
+> **Para IA:** Las carpetas `Notas/` son zonas de excepción total. No aplicar validación ni sugerir correcciones.
+
 ---
 
 *Última actualización: 2026-01-05* — **Auditoría bibliográfica completa:** 35 subtemas validados contra bibliografía estándar universitaria.

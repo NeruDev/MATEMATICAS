@@ -5,7 +5,7 @@ topic_id: meta-audit
 file_id: audit-file-list
 status: stable
 audience: ai_context
-last_updated: 2025-12-30
+last_updated: 2026-01-05
 -->
 
 # Lista de Archivos para Auditoría
@@ -110,17 +110,22 @@ XX-Nombre-Subtema/
 ├── manifest.json                    # Obligatorio
 ├── PREFIJO-XX-*-Intro.md            # Obligatorio
 ├── PREFIJO-XX-Resumen-Formulas.md   # Obligatorio (excepto reference_library)
+├── _directives.md                   # Obligatorio (directivas IA)
 ├── theory/
 │   └── PREFIJO-XX-Teoria-*.md
 ├── methods/
 │   └── PREFIJO-XX-Metodos-*.md
 ├── problems/
 │   └── PREFIJO-XX-Problemas.md
-└── solutions/
-    ├── PREFIJO-XX-Respuestas.md     # Tabla de respuestas (obligatorio)
-    └── prob-XX/
-        └── solucion-metodo.md
+├── solutions/
+│   ├── PREFIJO-XX-Respuestas.md     # Tabla de respuestas (obligatorio)
+│   └── prob-XX/
+│       └── solucion-metodo.md
+└── Notas/                           # 🔓 SANDBOX — Zona libre (exenta de reglas)
+    └── README.md                    # Directiva de excepción
 ```
+
+> **⚠️ Nota:** La carpeta `Notas/` es una **zona sandbox** exenta de todas las reglas del repositorio. Ver [nomenclatura-estandar.md](nomenclatura-estandar.md#carpetas-notas--zona-sandbox-exención-total).
 
 ### 2.2 Ejemplo: 02-Algebra-Lineal/01-Matrices
 

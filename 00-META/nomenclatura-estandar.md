@@ -5,7 +5,7 @@ topic_id: meta-nomenclatura
 file_id: nomenclatura-estandar
 status: stable
 audience: ai_context
-last_updated: 2026-01-02
+last_updated: 2026-01-05
 -->
 
 # Estándar de Nomenclatura de Archivos
@@ -143,6 +143,51 @@ solutions/
     ├── solucion-metodo.md            # ✅ Sin prefijo (nivel 3)
     └── solucion-detallada.md         # ✅ Sin prefijo (opcional)
 ```
+
+### 🆕 Carpetas `Notas/` — Zona Sandbox (Exención Total)
+
+Las carpetas `Notas/` ubicadas en cada subtema están **completamente exentas** de TODAS las reglas del repositorio:
+
+- **Propósito:** Espacio personal del usuario para contenido arbitrario
+- **Uso:** Notas rápidas, experimentos, multimedia, código en cualquier lenguaje
+- **Exención:** Sin validación, sin nomenclatura, sin metadatos obligatorios
+
+**Reglas exentas:**
+
+| Regla | Excepción |
+|-------|-----------|
+| Nomenclatura `[PREFIJO]-[XX]-[Contenido].md` | ❌ No aplica |
+| Metadatos `::METADATA::` | ❌ No obligatorios |
+| Enlaces internos estándar | ❌ No requeridos |
+| Formato markdown | ❌ Cualquier formato |
+| Vinculación a manifest.json | ❌ No vinculados |
+
+**Comportamiento de la IA:**
+
+| Acción | Comportamiento |
+|--------|----------------|
+| Validar nomenclatura | ⛔ OMITIR |
+| Sugerir correcciones | ⛔ OMITIR |
+| Solicitar metadatos | ⛔ OMITIR |
+| Leer contenido | ✅ COMPLETO (READ_FULL_CONTEXT) |
+| Integrar información | ✅ Como contexto adicional |
+
+**Patrón de ruta:** `*/Notas/*`
+
+**Estructura:**
+```
+[Subtema]/
+├── manifest.json
+├── *-Intro.md
+├── theory/
+├── problems/
+├── ...
+└── Notas/                    # 🔓 SANDBOX — Zona libre
+    ├── README.md             # Contiene directiva de excepción
+    └── [cualquier archivo]   # Sin reglas
+```
+
+> **⚠️ IMPORTANTE:** El archivo `Notas/README.md` contiene metadatos con `rules_exempt: true` que la IA debe respetar sin aplicar ninguna validación al contenido de la carpeta.
 
 ---
 

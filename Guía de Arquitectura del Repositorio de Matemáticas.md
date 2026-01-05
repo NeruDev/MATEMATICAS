@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: reference
+topic_id: repo-architecture
+file_id: guia-arquitectura
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # 📐 Guía de Arquitectura del Repositorio de Matemáticas
 
 > **Propósito:** Documentación técnica completa de la estructura, convenciones y lógica del repositorio de Matemáticas. Diseñada para comprender el funcionamiento de cada componente y replicar esta arquitectura en otros repositorios educativos.
@@ -294,7 +304,14 @@ class NomenclatureExceptions:
         "prob-",                        # Carpetas de soluciones prob-XX/
         "media",                        # Recursos multimedia
     ]
+    
+    # 🆕 Carpetas SANDBOX — Exentas de TODAS las reglas
+    SANDBOX_FOLDERS = [
+        "Notas",                        # Zona libre para recursos sin clasificar
+    ]
 ```
+
+> **🔓 Carpetas Notas (SANDBOX):** Cada subtema contiene una carpeta `Notas/` que actúa como **zona libre** para el usuario. Cualquier contenido dentro de `*/Notas/*` está **completamente exento** de todas las reglas del repositorio (nomenclatura, metadatos, formato, etc.). Esta carpeta sirve como buzón temporal para recursos que serán clasificados posteriormente.
 
 ---
 
@@ -344,16 +361,103 @@ XX-Nombre-Subtema/                    [NIVEL 2] UNIDAD DE CONOCIMIENTO
 │       └── prob-XX/                       # Nivel 3: Solución individual extensa
 │           └── solucion-metodo.md
 │
-└── 📁 CARPETAS OPCIONALES
-    ├── applications/                # 🌍 Conexiones con el mundo real
-    ├── diagnostic/                  # 🩺 Evaluaciones de conocimientos previos
-    └── media/                       # 🖼️ Imágenes, diagramas, gráficos
-        └── generated/               # Gráficos auto-generados por Python
+├── 📁 CARPETAS OPCIONALES
+│   ├── applications/                # 🌍 Conexiones con el mundo real
+│   ├── diagnostic/                  # 🩺 Evaluaciones de conocimientos previos
+│   └── media/                       # 🖼️ Imágenes, diagramas, gráficos
+│       └── generated/               # Gráficos auto-generados por Python
+│
+└── 🔓 ZONA SANDBOX (Exenta de reglas)
+    └── Notas/                       # 📝 Recursos sin clasificar del usuario
+        └── README.md                # Directiva de excepción para IA
 ```
 
 ---
 
-## 📄 FUNCIÓN DETALLADA DE CADA ARCHIVO
+## � CARPETAS NOTAS — ZONA SANDBOX
+
+### Concepto
+
+Cada subtema contiene una carpeta `Notas/` que funciona como **buzón temporal** para el usuario. Esta zona está **completamente exenta** de todas las reglas del repositorio, permitiendo agregar cualquier tipo de contenido sin preocuparse por nomenclatura, formato o metadatos.
+
+### Propósito
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Almacenamiento temporal** | Lugar para guardar recursos que aún no están clasificados |
+| **Flexibilidad total** | Acepta cualquier tipo de archivo y formato |
+| **Sin validación** | La IA no aplicará reglas ni sugerirá correcciones |
+| **Clasificación futura** | El contenido puede ser organizado posteriormente en carpetas formales |
+
+### Contenido Permitido
+
+- 📄 **Documentos:** Apuntes, borradores, resúmenes personales
+- 🖼️ **Multimedia:** Imágenes, capturas, diagramas externos
+- 💻 **Código:** Scripts de cualquier lenguaje, experimentos
+- 📎 **Archivos externos:** PDFs, referencias, material complementario
+- 📝 **Cualquier formato:** Sin restricción de extensión ni estructura
+
+### Comportamiento de la IA
+
+| Acción | Comportamiento |
+|--------|----------------|
+| Validar nomenclatura | ⛔ OMITIR |
+| Sugerir correcciones de formato | ⛔ OMITIR |
+| Solicitar metadatos `::METADATA::` | ⛔ OMITIR |
+| Leer contenido | ✅ COMPLETO (`READ_FULL_CONTEXT`) |
+| Integrar información | ✅ Como contexto adicional |
+| Vincular a manifest.json | ⛔ NO REQUERIDO |
+
+### Estructura del README de Notas
+
+Cada carpeta `Notas/` contiene un `README.md` con metadatos especiales:
+
+```markdown
+<!--
+::METADATA::
+type: sandbox
+topic_id: notas-usuario
+file_id: Notas-README
+status: exempt
+scope: local_only
+ai_directive: READ_FULL_CONTEXT
+validation: NONE
+rules_exempt: true
+-->
+
+# 📝 Notas del Usuario — Zona Libre
+
+Esta carpeta es una **zona sandbox** exenta de todas las reglas...
+```
+
+### Flujo de Trabajo Sugerido
+
+```
+1. Usuario encuentra recurso útil (apunte, imagen, código)
+2. Lo guarda en Notas/ del subtema más cercano
+3. Cuando tenga tiempo, lo clasifica:
+   - Si es teoría → mueve a theory/
+   - Si es ejercicio → mueve a problems/
+   - Si es multimedia → mueve a media/
+4. Al mover, aplica nomenclatura estándar y metadatos
+```
+
+### Patrón de Ruta de Excepción
+
+La IA detecta automáticamente cualquier ruta que contenga `/Notas/` y desactiva todas las validaciones:
+
+```
+Patrón: */Notas/*
+
+Ejemplos detectados como SANDBOX:
+✅ 01-Fundamentos/02-Aritmetica/Notas/apunte.md
+✅ 03-Calculo-Diferencial/01-Limites/Notas/grafico.png
+✅ 02-Algebra-Lineal/04-Espacios-Vectoriales/Notas/codigo.py
+```
+
+---
+
+## �📄 FUNCIÓN DETALLADA DE CADA ARCHIVO
 
 ### 1. `manifest.json` — El Contrato Central del Subtema
 
