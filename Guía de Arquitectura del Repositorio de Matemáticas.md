@@ -257,6 +257,26 @@ El símbolo `|` para valor absoluto (`\$|x|\$`) interfiere con los separadores d
 
 ---
 
+## 📦 GESTIÓN DE RECURSOS PESADOS (Git LFS)
+
+Para mantener la agilidad del repositorio y evitar que el historial de Git crezca excesivamente con archivos binarios, se utiliza **Git LFS**.
+
+### Extensiones Rastreadas
+El repositorio está configurado para manejar automáticamente vía LFS:
+- **Imágenes:** `*.png`, `*.jpg`, `*.svg`, `*.webp`, `*.gif`, `*.bmp`
+- **Documentos:** (Opcional) `*.pdf`, `*.zip`
+
+### Ventajas Técnicas
+1. **Historial Ligero:** El directorio `.git` se mantiene en ~2 MB, permitiendo clonados instantáneos.
+2. **Descarga Selectiva:** Solo se descarga la versión actual de las imágenes al clonar.
+3. **Escalabilidad:** Permite añadir cientos de diagramas sin penalizar el rendimiento del comando `git status` o `git commit`.
+
+### Mantenimiento
+- **Limpieza local:** Para liberar espacio de versiones antiguas de imágenes en tu PC: `git lfs prune`.
+- **Sincronización:** Si las imágenes faltan después de un clone/pull: `git lfs pull`.
+
+---
+
 ## 🏷️ SISTEMA DE NOMENCLATURA
 
 ### Patrón de Nombres

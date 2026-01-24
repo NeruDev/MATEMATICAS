@@ -436,6 +436,8 @@ Ajustar `../` según profundidad (añadir `../` por cada nivel).
 | Plantilla respuestas | `00-META/plantilla-respuestas.md` | Formato de archivo de respuestas |
 | Validador | `00-META/tools/validate_repo.py` | Verificar integridad del repo |
 | **Generador de Gráficos** | `00-META/tools/graphics/` | Sistema de generación de figuras SVG/PNG |
+| **Git LFS** | `.gitattributes` | Gestión de imágenes y archivos pesados |
+| **Ignorados** | `.gitignore` | Exclusión de .venv y archivos basura |
 | Nomenclatura detallada | `00-META/nomenclatura-estandar.md` | Especificaciones técnicas completas |
 | **Directivas de enlaces** | `00-META/ai-directives.md` | Sintaxis correcta de hipervínculos |
 

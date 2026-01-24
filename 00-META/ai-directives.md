@@ -131,7 +131,27 @@ Antes de finalizar cualquier contenido nuevo:
 
 ---
 
-## 7. Referencias Cruzadas al Glosario
+## 7. Gestión de Archivos Grandes (Git LFS)
+
+**Directiva:** Las imágenes y archivos binarios NO deben ser tratados como texto plano en Git. 
+
+1. **Extensiones LFS:** Asegurar que archivos `.png`, `.svg`, `.jpg`, `.webp`, `.gif`, `.bmp` se gestionen mediante Git LFS.
+2. **Nuevos Formatos:** Si se requiere añadir un nuevo tipo de archivo pesado (ej: `.mp4`, `.zip`), solicitar el rastreo con `git lfs track "*.ext"`.
+3. **Ubicación:** Las imágenes deben residir preferiblemente en carpetas `media/` o `media/generated/`.
+
+---
+
+## 8. Exclusión de Entornos (gitignore)
+
+**Directiva:** El repositorio mantiene una política estricta de exclusión para evitar "contaminación" de dependencias locales.
+
+1. **Entornos Virtuales:** Carpetas como `.venv/`, `venv/`, `env/` están excluidas globalmente.
+2. **Caché:** Archivos `__pycache__/` y artefactos de compilación Python están ignorados.
+3. **No forzar:** Nunca usar `git add -f` para añadir archivos ignorados por el `.gitignore`.
+
+---
+
+## 9. Referencias Cruzadas al Glosario
 
 Para términos del glosario, usar formato: `[término](../glossary.md#ancla)`
 

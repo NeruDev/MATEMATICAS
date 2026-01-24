@@ -104,6 +104,15 @@ flowchart TD
 | [Auditoría META](00-META/audit-meta-files.md) | Mapa de archivos de configuración |
 | [Validador](00-META/tools/validate_repo.py) | Verificar integridad |
 
+## 📦 Gestión de Archivos Grandes (Git LFS)
+
+Este repositorio utiliza **Git LFS (Large File Storage)** para gestionar archivos de imagen (`.png`, `.svg`, `.jpg`, etc.) y otros binarios pesados. Esto mantiene el historial de Git ligero y rápido.
+
+### Para usuarios:
+Si clonas el repositorio y las imágenes no son visibles (aparecen como archivos de texto pequeños):
+1. Instala Git LFS: `git lfs install`
+2. Descarga las imágenes: `git lfs pull`
+
 ## 📝 Carpetas Notas — Sandbox Personal
 
 Cada subtema incluye una carpeta `Notas/` para contenido sin clasificar:
