@@ -108,6 +108,8 @@ flowchart TD
 
 Este repositorio utiliza **Git LFS (Large File Storage)** para gestionar archivos de imagen (`.png`, `.svg`, `.jpg`, etc.) y otros binarios pesados. Esto mantiene el historial de Git ligero y rápido.
 
+- 📘 **Protocolo Detallado:** [Protocolo de Migración y Mantenimiento LFS](00-META/protocolo-lfs.md)
+
 ### Para usuarios:
 Si clonas el repositorio y las imágenes no son visibles (aparecen como archivos de texto pequeños):
 1. Instala Git LFS: `git lfs install`

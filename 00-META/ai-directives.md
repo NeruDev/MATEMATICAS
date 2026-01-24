@@ -139,6 +139,8 @@ Antes de finalizar cualquier contenido nuevo:
 2. **Nuevos Formatos:** Si se requiere añadir un nuevo tipo de archivo pesado (ej: `.mp4`, `.zip`), solicitar el rastreo con `git lfs track "*.ext"`.
 3. **Ubicación:** Las imágenes deben residir preferiblemente en carpetas `media/` o `media/generated/`.
 
+> **⚠️ DIRECTIVA CRÍTICA DE EJECUCIÓN:** Comandos que reescriben el historial (`git lfs migrate import`) o que requieren confirmaciones interactivas intensas **DEBEN ser ejecutados manualmente por el usuario en una terminal externa**. Las IAs/Agentes no deben intentar ejecutar estos comandos directamente debido a posibles bloqueos en el flujo de confirmación de la CLI.
+
 ---
 
 ## 8. Exclusión de Entornos (gitignore)

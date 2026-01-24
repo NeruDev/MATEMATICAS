@@ -261,6 +261,8 @@ El símbolo `|` para valor absoluto (`\$|x|\$`) interfiere con los separadores d
 
 Para mantener la agilidad del repositorio y evitar que el historial de Git crezca excesivamente con archivos binarios, se utiliza **Git LFS**.
 
+> 📘 **Protocolo Oficial:** Para procedimientos de migración, purga o resolución de conflictos, consultar el [Protocolo de Migración LFS](00-META/protocolo-lfs.md).
+
 ### Extensiones Rastreadas
 El repositorio está configurado para manejar automáticamente vía LFS:
 - **Imágenes:** `*.png`, `*.jpg`, `*.svg`, `*.webp`, `*.gif`, `*.bmp`

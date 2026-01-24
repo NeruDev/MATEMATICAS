@@ -148,7 +148,26 @@ Cada tema contiene:
 
 ---
 
-## 4. Correcciones Realizadas (Sesión 2026-01-02)
+## 4. Correcciones Realizadas (Sesión 2026-01-24)
+
+### 4.1 Optimización de Repositorio y Git LFS
+
+Se realizó una migración integral de archivos binarios al sistema Git LFS para reducir el peso del historial de Git y mejorar el rendimiento.
+
+- **Migración de Historial:** Se reescribió el historial del repositorio para mover archivos `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.ico`, `.pdf` y `.zip` a Git LFS.
+- **Limpieza Profunda:** Se ejecutó `git reflog expire` y `git gc --aggressive --prune=now` para eliminar objetos huérfanos.
+- **Reducción de Tamaño:** El `size-pack` se redujo de ~24 MiB a **17.45 MiB**.
+- **Protocolo de Mantenimiento:** Se creó el archivo `00-META/protocolo-lfs.md` para futuros procedimientos.
+
+### 4.2 Actualización de Documentación de Arquitectura
+
+- **README.md:** Añadida sección de gestión de archivos grandes y enlace al protocolo.
+- **Guía de Arquitectura:** Integrada la sección de Git LFS con referencias al protocolo oficial.
+- **ai-directives.md:** Añadida **Directiva Crítica** sobre la ejecución manual de comandos interactivos de Git LFS por parte de agentes IA.
+
+---
+
+## 5. Correcciones Realizadas (Sesión 2026-01-02)
 
 ### 4.1 Transformación "Digital Garden"
 
